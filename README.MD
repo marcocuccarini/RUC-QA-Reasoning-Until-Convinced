@@ -10,49 +10,62 @@ This project implements a sophisticated **Reasoning-based Question Answering** p
 
 ---
 
-## 📂 Project Structure & Components
+## 📂 Project Structure
 
 ### 🧠 Core Engine (`classes/`)
-* **`ServerOllama.py`**: Manages local Ollama server connections and chat sessions.
-* **`LLMUser.py`**: High-level interface for argument extraction and **JSON Self-Healing**.
-* **`ArgumentationGraph.py`**: The mathematical core. Builds the graph and solves the Quadratic Energy Model.
-* **`utils.py`**: Infrastructure for semantic ranking (Sentence-BERT) and Wikipedia fetching.
+* **`ServerOllama.py`**: Manages the local connection to the Ollama server and model chat sessions.
+* **`LLMUser.py`**: High-level interface for argument extraction, candidate page selection, and **JSON Self-Healing**.
+* **`ArgumentationGraph.py`**: The mathematical core. Builds the graph and solves the Quadratic Energy Model using RK4.
+* **`PromptBuilder.py`**: Centralized prompt engineering for Wikipedia retrieval and argument mining.
+* **`utils.py`**: Utility functions for Wikipedia API fetching and Sentence-BERT ranking (`all-mpnet-base-v2`).
+
+### 🚀 Execution Pipelines
+* **`pipeline_test.py`**: Runs final tests on the `test` split using optimized parameters (`BEST_PARAMS`).
+* **`pipeline_val.py`**: Evaluation engine for **Hyperparameter Grid Search** with resume support.
+* **`wikipedia.py`**: Knowledge harvester to pre-fetch and cache Wikipedia content into JSON.
+* **`baseline.py`**: Runs control group tests (Zero-shot vs Standard RAG) to measure performance gains.
+* **`running.py`**: Main orchestrator for running the argumentation logic on specific dataset samples.
+
+### 📊 Evaluation & Analysis
+* **`evaluation_baseline.py`**: Processes raw prediction logs to calculate filtered accuracy.
+* **`evaluation_pipeline.py`**: Analyzes graph performance (Changed vs Unchanged graphs) and generates statistical plots.
+
+---
+
+## ⚙️ How It Works
+
+1.  **Semantic Retrieval**: Wikipedia pages are selected by the LLM and paragraphs are ranked via semantic similarity.
+2.  **Hypothesis Verbalization**: Multiple-choice options are transformed into declarative factual statements.
+3.  **Argument Mining**: The LLM extracts factual evidence and assigns a **Support** or **Attack** relation to specific targets.
+4.  **Graph Resolution**: A Bipolar Argumentation Graph is constructed. The final strength of each hypothesis is calculated using a **Quadratic Energy Model**.
+
 
 ### 🧪 Pipeline & Evaluation Scripts
-1. **`pipeline_test.py` & `pipeline_val.py`**: Orchestrate full runs on Test/Val sets using optimized parameters.
-2. **`wikipedia.py`**: Fetches and caches Wikipedia content to `results_wikipedia_only/` for offline use.
-3. **`baseline.py`**: Runs **Zero-Shot** and **Standard RAG** to establish a performance floor.
-4. **`evaluation_baseline.py` & `evaluation_pipeline.py`**: Calculate accuracy and generate statistical charts comparing Graph logic vs. Baseline.
+These scripts manage the execution of large-scale experiments and data analysis:
+
+1. **`pipeline_test.py` & `pipeline_val.py` (The Executioners)**: 
+   - `pipeline_test.py`: Executes final evaluations using the `BEST_PARAMS` identified during search.
+   - `pipeline_val.py`: Implements **Grid Search** logic to find the optimal combination of `TOP_PARAGRAPHS` and `MAX_ARGUMENTS`.
+
+2. **`wikipedia.py` (The Knowledge Harvester)**:
+   - Specialized utility to build a local knowledge base in `results_wikipedia_only/`. 
+   - *Benefit*: Allows multiple experiments without hitting the Wikipedia API repeatedly, increasing speed and reliability.
+
+3. **`baseline.py` (The Control Group)**:
+   - Establishes a baseline using **Zero-Shot** (no context) and **Standard RAG** (plain text context).
+   - Used to quantify the "accuracy boost" provided by the Argumentation Graph.
+
+4. **`evaluation_baseline.py` & `evaluation_pipeline.py` (The Analysts)**:
+   - `evaluation_baseline.py`: Calculates accuracy and filters "INVALID" responses.
+   - `evaluation_pipeline.py`: Diagnostic tool comparing questions where the **Graph Changed** vs. remained **Unchanged** (random choice). Generates Matplotlib charts for delta visualization.
 
 ---
 
-## 💾 Understanding the Output Files
-
-When you run the system, it generates structured data to document its reasoning. Here is how to interpret the results:
-
-### 1. Argumentation Graphs (`graphs/`)
-For every question, the system generates:
-* **`graph_N.png`**: A visual map of the logic. **Green dashed arrows** represent support, and **red solid arrows** represent attacks.
-* **`graph_N.json`**: The raw data for the graph, including the final **strength** (probability of truth) for each node after the energy model resolution.
-
-
-### 2. Predictions & Logs (`results/` & `results_retrieval/`)
-* **`*_test_predictions.json`**: A list of all questions processed, showing the model's choice vs. the ground truth.
-* **`*_wiki_pages.json`**: A local cache of retrieved Wikipedia paragraphs. This ensures that repeated experiments do not require new internet requests.
-
-### 3. Analytics (`results_retrieval/`)
-* **Baseline Logs**: These files compare the accuracy of the LLM in "Zero-shot" mode (no help) versus "Standard RAG" (plain text help). This is the key to proving that your Argumentation Graph actually improves performance.
-
----
-
-## 📊 Experimental Workflow
-To replicate the study, follow this order:
-1. **Harvest**: `python wikipedia.py` (Cache Wikipedia content).
-2. **Tune**: `python pipeline_val.py` (Find best hyperparameters).
-3. **Benchmark**: `python baseline.py` (Get baseline accuracy).
-4. **Test**: `python pipeline_test.py` (Run the Argumentation logic).
-5. **Analyze**: `python evaluation_pipeline.py` (Generate final reports and charts).
-
+## 🛠 Self-Healing JSON Mechanism
+The `LLMUser` class features a robust resilience layer. If a local model produces malformed JSON during extraction, the system:
+1. Cleans the output via Regex.
+2. Attempts structural repair (fixing brackets).
+3. If still invalid, triggers a **Secondary Repair Agent** (e.g., Qwen3) to re-format the data without losing the extracted logic.
 
 ---
 
