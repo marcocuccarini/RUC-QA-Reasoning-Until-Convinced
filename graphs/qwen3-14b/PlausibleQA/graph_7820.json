@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "mount everest is part of what mountain range. Karakoram",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "mount everest is part of what mountain range. Tian Shan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "mount everest is part of what mountain range. Caucasus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "mount everest is part of what mountain range. Himalayas",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has some of the Earth's highest peaks, including the highest, Mount Everest.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Karakoram are generally considered separate from the Himalayas.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

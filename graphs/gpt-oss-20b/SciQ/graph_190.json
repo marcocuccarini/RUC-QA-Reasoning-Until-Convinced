@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is what most living organisms use to produce ATP from glucose.",
+      "strength": 0.7499426582224752
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Enzymes are what most living things use to make ATP from glucose.",
+      "strength": 0.6322429966750173
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon is what most living things use to make ATP from glucose.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nitrogen is what most living things use to make ATP from glucose.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aerobic respiration requires oxygen (O2) in order to create ATP.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "ATP is synthesized by the ATP synthase enzyme when the chemiosmotic gradient is used to drive the phosphorylation of ADP.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The electrons are finally transferred to exogenous oxygen and, with the addition of two protons, water is formed.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The energy released is used to create a chemiosmotic potential by pumping protons across a membrane.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what language do brazilians use. Portuguese",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what language do brazilians use. Spanish",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what language do brazilians use. English",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what language do brazilians use. Hunsrückisch",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brazilian Portuguese is spoken by nearly all of the 203 million inhabitants of Brazil",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There is a community of Brazilian Sign Language users whose number is estimated by Ethnologue to be as high as 3 million",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "However, in the city of Rio de Janeiro, the country's main cultural center, the usage of tu has been expanding ever since the end of the 20th century, being most frequent among youngsters",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Spanish is relatively intelligible for lusophones, owing to their geographic proximity and history... many young Portuguese speakers however, will often choose English as the lingua-franca of choice",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

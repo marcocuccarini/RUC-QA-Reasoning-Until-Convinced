@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "4 centimeters is the distance at which a magnet and a metal paper clip have the strongest magnetic attraction.",
+      "strength": 0.36774766208784276
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "8 centimeters is the distance at which a magnet and a metal paper clip have the strongest magnetic attraction.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "12 centimeters is the distance at which a magnet and a metal paper clip have the strongest magnetic attraction.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "16 centimeters is the distance at which a magnet and a metal paper clip have the strongest magnetic attraction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The strength of a magnetic field always decreases with distance from the magnetic source",
+      "strength": 0.5999654321013873
+    },
+    "A5": {
+      "type": "argument",
+      "text": "F = μ q_m1 q_m2 / (4π r^2)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

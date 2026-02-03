@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Its color changed is a property of the cooking oil after it was poured into the container.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its mass increased is the property of the cooking oil after it was poured into the container.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its volume stayed the same is a property of the cooking oil after it was poured into the container.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Its temperature quickly increased after liquid cooking oil was poured into a container.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The volume of a quantity of liquid is fixed by its temperature and pressure. Liquids generally expand when heated, and contract when cooled.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Liquids are nearly in大爷, maintaining their volume even under pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

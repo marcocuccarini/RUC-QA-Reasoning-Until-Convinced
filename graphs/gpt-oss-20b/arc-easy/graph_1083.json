@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Raises the freezing point, which causes the ice to begin melting when salt is added.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lowers the freezing point is the reason the ice begins to melt when salt is added to ice.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Raises the boiling point is what occurs when salt is added to ice, causing the ice to melt.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lowers the boiling point is the reason the ice begins to melt when salt is added to it.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lowering the freezing point allows the street ice to melt at lower temperatures, preventing the accumulation of dangerous, slippery ice.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Road salting takes advantage of this effect to lower the freezing point of the ice it is placed on.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

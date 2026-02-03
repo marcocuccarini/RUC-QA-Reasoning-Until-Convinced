@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Genever is the old word for what alcoholic drink. Rum",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Genever is the old word for what alcoholic drink. Vodka",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Genever is the old word for what alcoholic drink. Whiskey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Genever is the old word for what alcoholic drink. GIN",
+      "strength": 0.3999046316041009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gin was developed in Britain after the introduction of jenever to the island.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Geneva was the Anglicized name for jenever, a name brought back by English soldiers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The name gin is a shortened form of the older English word genever, related to the French word genièvre and the Dutch word jenever.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

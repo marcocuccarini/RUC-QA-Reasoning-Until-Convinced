@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is kansas city. Jackson County",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is kansas city. Wyandotte County",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is kansas city. Clay County",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is kansas city. Platte County",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kansas City, Missouri, is located on the Missouri River at its confluence with the Kansas River, within Jackson, Clay, Platte and Cass counties.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The county seats are Independence and Kansas City, making Jackson County one of 33 U.S. counties with more than one county seat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Dan Castellaneta",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Christopher Guest",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Michael McKean",
+      "strength": 0.40000008918213564
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Harry Shearer",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He played David St. Hubbins in This Is Spinal Tap.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Derek Albion Smalls is a fictional character played by Harry Shearer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He is the bassist for mock British heavy metal group Spinal Tap, playing alongside guitarists Nigel Tufnel (Christopher Guest) and David St. Hubbins (Michael McKean).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

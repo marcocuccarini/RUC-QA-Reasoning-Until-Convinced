@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Friction is the force that pulls the roller coaster down the hill after the electric motor pulls it to the top of the first hill.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Speed is the force that pulls the roller coaster down the hill when the electric motor brings it to the top of the first hill.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity pulls the roller coaster down the hill after an electric motor has pulled it to the top of the first hill while riding a roller coaster.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mass is the force that pulls the roller coaster down the hill after the electric motor has pulled it to the top of the first hill.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Changes in elevation become smaller throughout the track's course, as some mechanical energy is lost to friction and air drag.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Every particle attracts every other particle in the universe with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers of mass.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The equation for universal gravitation thus takes the form: F = G m1 m2 / r^2.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

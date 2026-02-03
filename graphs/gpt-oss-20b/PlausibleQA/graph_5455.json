@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who in the Muslim faith proclaims the hours of prayer from a minaret. Imam",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who in the Muslim faith proclaims the hours of prayer from a minaret. Muadhin",
+      "strength": 0.7736521056293675
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who in the Muslim faith proclaims the hours of prayer from a minaret. Qari",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who in the Muslim faith proclaims the hours of prayer from a minaret. Muzim",
+      "strength": 0.5999999717616569
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The muezzin (; Arabic: مُؤَذِّن, romanized: Muʾaḏḏin), also spelled mu'azzin, is the person who proclaims the call to the daily prayer (ṣalāt) five times a day at a mosque from the minaret.",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first muezzin was a former slave Bilal ibn Rabah, one of the most trusted and loyal sahabah (companions) of the Islamic prophet Muhammad.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cairo to use computerised call to prayer after complaints over tuneless muezzin.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Muslim preachers given call-to-prayer singing lessons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

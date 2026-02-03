@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "0.15 m/s² is the average rate of acceleration of the train that travels at 13 m/s and increases its speed to 22 m/s over the next 60 seconds.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "0.21 m/s² is the average rate of acceleration of a train that travels at 13 m/s and increases its speed to 22 m/s over the next 60 seconds.",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "0.36 m/s² is the average rate of acceleration of the train that travels at 13 m/s and increases to 22 m/s over 60 seconds.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "0.58 m/s² is the average rate of acceleration of a train that starts at 13 m/s and increases its speed to 22 m/s over 60 seconds.",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An object's average acceleration over a period of time is its change in velocity, Δv, divided by the duration of the period, Δt.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The SI unit for acceleration is metre per second squared (m⋅s⁻²).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The average acceleration is calculated as (final velocity - initial velocity) / time, which equals (22 - 13) / 60 = 0.15 m/s².",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The calculation (22 - 13)/60 yields 0.15 m/s², not 0.21 m/s².",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The correct value is 0.15 m/s², not 0.36 m/s², as derived from the formula Δv/Δt.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The result of (22 - 13)/60 is 0.15 m/s², contradicting the claim of 0.58 m/s².",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

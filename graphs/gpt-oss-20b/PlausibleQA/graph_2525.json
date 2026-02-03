@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is directly elected according to the constitution. Representatives",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is directly elected according to the constitution. Presidents",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is directly elected according to the constitution. Governors",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is directly elected according to the constitution. senators",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Since its inception in 1789, all representatives have been directly elected.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Twelfth Amendment requires the House to choose from the three candidates with the highest numbers of electoral votes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the this is us family live. Philadelphia",
+      "strength": 0.5049812003535649
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the this is us family live. New York City",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the this is us family live. Scranton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the this is us family live. Pittsburgh",
+      "strength": 0.5999999143147464
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The big three and their parents were born and raised in Pittsburgh.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Randall and his family are in New Jersey and later Philadelphia.",
+      "strength": 0.5999031730402274
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Randall lives in Alpine, New Jersey, hours away from Philadelphia.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Randall's house in New Jersey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

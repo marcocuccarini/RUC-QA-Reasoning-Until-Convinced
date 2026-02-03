@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Barnacles , crabs and lobsters belong to which class of marine life . Mollusca",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Barnacles , crabs and lobsters belong to which class of marine life . Echinodermata",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Barnacles , crabs and lobsters belong to which class of marine life . Chordata",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Barnacles , crabs and lobsters belong to which class of marine life . Crustacen",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Crustacea (crabs, lobsters, shrimps, prawns, barnacles) are invertebrate animals that constitute one group of arthropods that are traditionally a part of the subphylum Crustacea.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The crustacean group can be treated as a subphylum under the clade Mandibulata.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

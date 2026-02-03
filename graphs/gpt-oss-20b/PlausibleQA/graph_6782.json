@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Democratic",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Independent",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Libertarian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Republican",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Since 1920, Democrats have controlled the Senate for about 58 years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since filibuster rules were revised in 1975, the Democratic Party earned filibuster-proof supermajorities three times after the 1974, 1976 and 2008 Senate elections.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The hottest layers are closest to the core is the best description of the relationship between Earth's layers.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The more liquid layers are closest to the crust best describes the relationship between Earth's layers.",
+      "strength": 0.4000000000399822
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The lightest layers are closest to the core is the best description of the relationship between Earth's layers.",
+      "strength": 0.2500000626012183
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The more metallic layers are closest to the crust, best describing the relationship between Earth's layers.",
+      "strength": 0.25009739928569236
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth's outer core is a fluid layer about 2,260 km in height and composed of mostly iron and nickel that lies above Earth's solid inner core and below its mantle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The thicker crust is the continental crust, which is less dense and is felsic-rich (igneous rocks rich in elements that form feldspar and quartz).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Earth's inner core is composed primarily of iron and some nickel and is solid.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The mantle is composed of silicate rocks richer in iron and magnesium than the overlying crust.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The temperature of the inner core boundary ranges from 5,400 to 6,300 K, which is higher than the outer core's temperature of 3,000–4,500 K in its outer region.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The mantle is composed of silicate rocks richer in iron and magnesium than the overlying crust, indicating that the more metallic layers are not closest to the crust but are located beneath it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

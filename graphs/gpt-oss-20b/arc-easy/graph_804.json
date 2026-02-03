@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They get energy from living organisms, as observed with some sea grasses growing near a group of palm trees on a sandy shore.",
+      "strength": 0.40000008918213564
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They turn decaying matter into nutrients, a role performed by both the sea grasses growing near the group of palm trees on the sandy shore.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They provide food for other organisms that grow near a group of palm trees on a sandy shore.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They absorb oxygen from the environment, which is the role of both the palm trees and sea grasses that grow near each other on a sandy shore.",
+      "strength": 0.40000008918213564
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Like all autotrophic plants, seagrasses photosynthesize, in the submerged photic zone.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They provide habitats and food for a  diversity of marine life comparable to coral reefs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Italian city is known as the pizza capital of the world. Rome",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Italian city is known as the pizza capital of the world. Milan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Italian city is known as the pizza capital of the world. Turin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Italian city is known as the pizza capital of the world. Neapel",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Neapolitan pizza is the version of the round pizza typically prepared in the Italian city of Naples.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Neapolitan pizza has a protected status granted by the Italian Standardization Body administered by the Associazione Verace Pizza Napoletana (AVPN).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

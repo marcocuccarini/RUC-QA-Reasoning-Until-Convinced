@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Eruption is close is indicated by a continuous string of earthquakes at a volcano.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Extinction is close indicates that a continuous string of earthquakes shows a volcano is near extinction.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It is cooling down is what a continuous string of earthquakes indicates about a volcano.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It is heating up indicates that a continuous string of earthquakes means a volcano is heating up.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Seismic activity occurs as a precursor to most large eruptions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earthquakes tend to occur in swarms and increase in number before eruptions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the grapes of wrath take place. California",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the grapes of wrath take place. Texas",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the grapes of wrath take place. Arkansas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the grapes of wrath take place. Oklahoma",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dorothea Lange's 'Migrant Mother' photograph was taken in California.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Migrants abandoned farms in Oklahoma during the Dust Bowl.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dust, Drought, and Dreams Gone Dry: Oklahoma Women in the Dust Bowl Oral History Project",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

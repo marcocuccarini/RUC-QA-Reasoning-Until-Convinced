@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country did the Reagan administration illegally sell arms to. South Africa",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country did the Reagan administration illegally sell arms to. Israel",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country did the Reagan administration illegally sell arms to. Saudi Arabia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country did the Reagan administration illegally sell arms to. Irān",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The following arms were supplied to Iran: 20 August 1985 – 96 TOW antitank missiles.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Israel sent 96 US-made TOW missiles to Iran through an arms dealer Manucher Ghorbanifar.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

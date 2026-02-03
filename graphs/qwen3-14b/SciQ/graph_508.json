@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "One mutated allele is needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Extra alleles are needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "One less chromosome is needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "One isolated allele is needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the offspring (F1-generation) will always have the heterozygote genotype and always present the phenotype associated with the dominant gene",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "IA and IB alleles are each dominant to i (IAIA and IAi individuals both have type A blood",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

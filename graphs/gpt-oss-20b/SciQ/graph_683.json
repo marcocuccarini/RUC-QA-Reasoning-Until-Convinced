@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Second is what enzymes can catalyze up to several million reactions per.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Minute is the unit of time in which enzymes can catalyze up to several million reactions.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hour is the unit in which enzymes can catalyze up to several million reactions per hour.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Day is the unit in which enzymes can catalyze up to several million reactions per.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "These enzymes are so efficient they effectively catalyse a reaction each time they encounter a substrate molecule and have thus reached an upper theoretical limit for efficiency (diffusion limit);",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The average values of k2/KM and k2 are about 10^5 s^-1 M^-1 and 10 s^-1, respectively.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The catalytic constant (k_cat) is the rate of product formation when the enzyme is saturated with substrate and therefore reflects the enzyme's maximum rate.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

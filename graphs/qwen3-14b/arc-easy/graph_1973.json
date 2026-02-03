@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It contains more than one cell is the statement that best describes a bacterial cell.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It is a complete organism is the statement that best describes a bacterial cell.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It is part of a larger organism is the statement that best describes a bacterial cell.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It contains different kinds of cells is the statement that best describes a bacterial cell.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most bacterial species exist as single cells",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bacteria do not have a membrane-bound nucleus, and their genetic material is typically a single circular bacterial chromosome of DNA located in the cytoplasm in an irregularly shaped body called the nucleoid",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

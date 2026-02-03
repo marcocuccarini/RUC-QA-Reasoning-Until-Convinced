@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who won the first . Alexander Graham Bell",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who won the first . Leonardo da Vinci",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who won the first . Isaac Newton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who won the first . Jekky",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Alexander Graham Bell was awarded the first U.S. patent for the telephone on March 7, 1876.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Over 18 years, the Bell Telephone Company faced 587 court challenges to its patents, including five that went to the U.S. Supreme Court, but none was successful in establishing priority over Bell's original patent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

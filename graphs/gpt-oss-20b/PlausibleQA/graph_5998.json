@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Hermann Göring",
+      "strength": 0.15389986955078813
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Heinrich Himmler",
+      "strength": 0.22635259116656237
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Joseph Goebbels' brother",
+      "strength": 0.40000000002353375
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Goebles",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Goebbels received Hitler's appointment to the cabinet, becoming head of the newly created Reich Ministry of Public Enlightenment and Propaganda in March 1933.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Goebbels was a German politician and philologist who was the Gauleiter of Berlin, chief propagandist for the Nazi Party, and then Reich Minister of Propaganda from 1933 until his suicide in 1945.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Information about Joseph Goebbels in the Reichstag database",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Joseph Goebbels | Holocaust Encyclopedia at the United States Holocaust Memorial Museum",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Ministry of Propaganda was headed by Goebbels, not by Heinrich Himmler.",
+      "strength": 0.5999441357039169
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Goebbels controlled the wire services and insisted that all newspapers in Germany should only publish content favourable to the regime.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Under Goebbels, the Propaganda Ministry issued two dozen directives every week on exactly what news should be published and what angles to use.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A8",
+      "relation": "support"
+    }
+  ]
+}

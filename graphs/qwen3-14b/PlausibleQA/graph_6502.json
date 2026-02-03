@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The wood of which common tree was traditionally used to make tennis racquets, billiard cues and hockey sticks. Oak",
+      "strength": 0.40000008398857245
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The wood of which common tree was traditionally used to make tennis racquets, billiard cues and hockey sticks. Maple",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The wood of which common tree was traditionally used to make tennis racquets, billiard cues and hockey sticks. Cherry",
+      "strength": 0.40000008398857245
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The wood of which common tree was traditionally used to make tennis racquets, billiard cues and hockey sticks. Ash",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ash wood is strong and elastic, and used for the handles of tools.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ash is a hardwood and is dense, around 670 kg/m3 for Fraxinus americana, the white ash, and 710 kg/m3 for Fraxinus excelsior, the European ash.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Snooker cues are almost always made of ash wood",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Good quality pool cues are customarily made from straight-grained hard rock maple wood",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Amino acid is the fundamental building block of protein that cysteine is a type of.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Atoms acid is a fundamental building block of protein that cysteine is a type of.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Proteins acid is the fundamental building block of protein to which cysteine belongs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Salts acid are the fundamental building blocks of protein that cysteine is a type of.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cysteine can form covalent disulfide bonds to other cysteine residues.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cysteine (Cys, C) can also form hydrogen bonds readily, which would place it in the polar amino acid category, though it can often be found in protein structures forming covalent bonds, called disulphide bonds, with other cysteines.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

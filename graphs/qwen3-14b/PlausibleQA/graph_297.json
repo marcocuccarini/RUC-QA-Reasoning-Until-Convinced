@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is Canada's most populous province. Quebec",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is Canada's most populous province. British Columbia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is Canada's most populous province. Alberta",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is Canada's most populous province. CA-ON",
+      "strength": 0.5999999090162662
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Quebec has a population of around 8 million, making it Canada's second-most populous province only behind Ontario.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Alberta is the fourth most populous province, with 4,262,635 residents.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

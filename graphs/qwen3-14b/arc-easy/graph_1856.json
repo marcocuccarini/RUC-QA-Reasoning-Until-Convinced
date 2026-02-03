@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrosphere and biosphere interact and result in the formation of mountains.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Troposphere and ionosphere are the two areas of Earth that interact to result in the formation of mountains when mountains are formed.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The hydrosphere and lithosphere interact to form mountains.",
+      "strength": 0.5999999655096099
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The asthenosphere and lithosphere interact and result in the formation of mountains when mountains are formed.",
+      "strength": 0.6322449321774235
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The addition of water lowers the melting point of the mantle material above the subducting slab, causing it to melt. The magma that results typically leads to volcanism.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At zones of ocean-to-continent subduction mountain ranges form, e.g. the Andes, the Cascade Range.",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Continental crust is a tertiary crust, formed at subduction zones through recycling of subducted secondary (oceanic) crust.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

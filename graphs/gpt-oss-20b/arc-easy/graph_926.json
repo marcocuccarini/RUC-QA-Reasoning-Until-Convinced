@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A decrease in sea level is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A decrease in average surface temperatures is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An increase in melting of polar ice caps is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An increase in crustal plate movement is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Without the greenhouse effect, the Earth's average surface temperature would be as cold as −18 °C (−0.4 °F).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Amplified warming in the Arctic has contributed to thawing permafrost, retreat of glaciers and sea ice decline.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the names of harry potter movies in order. Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Half-Blood Prince, Harry Potter and the Deathly Hallows",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the names of harry potter movies in order. Harry Potter and the Sorcerer's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Order of the Phoenix, Harry Potter and the Deathly Hallows",
+      "strength": 0.4000000465571573
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the names of harry potter movies in order. Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Goblet of Fire, Harry Potter and the Half-Blood Prince, Harry Potter and the Deathly Hallows",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the names of harry potter movies in order. Harry Potter and the Goblet of Fire",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The series consists of eight fantasy films, beginning with Harry Potter and the Philosopher's Stone (2001) and culminating with Harry Potter and the Deathly Hallows – Part 2 (2011).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Harry Potter and the Philosopher's Stone (2001).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Harry Potter and the Philosopher's Stone (also known as Harry Potter and the Sorcerer's Stone in the United States, India, and the Philippines) is a 2001 fantasy film directed by Chris Columbus and written by Steve Kloves, based on the 1997 novel by J. K. Rowling.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It was followed by seven sequels, beginning with Harry Potter and the Chamber of Secrets in 2002 and ending with Harry Potter and the Deathly Hallows – Part 2 in 2011.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Hel Peninsula is part of which European country. Denmark",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Hel Peninsula is part of which European country. Germany",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Hel Peninsula is part of which European country. Sweden",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Hel Peninsula is part of which European country. Polnd",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Hel Peninsula is located in northern Poland",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After World War II, the Hel Peninsula again became part of Poland",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

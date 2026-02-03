@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A gene is the coded sequence (PLAT) on chromosome 8 that encodes tissue plasminogen activator, a natural blood thinner used to treat heart attacks and strokes and produced through genetic engineering.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A protein is tissue plasminogen activator, a natural blood thinner coded by the PLAT gene on chromosome 8, used to treat heart attacks and strokes, and producible through genetic engineering.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A platelet is tissue plasminogen activator, a natural blood thinner encoded by the PLAT gene on chromosome 8 that is used to treat people who have heart attacks and strokes and can be produced via genetic engineering.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A DNA molecule is tissue plasminogen activator, the natural blood thinner coded as PLAT on chromosome 8, used to treat heart attacks and strokes, and producible through genetic engineering.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Human tPA is encoded by the PLAT gene, and has a molecular weight of ~70 kDa in the single-chain form.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although a small fraction of patients 90 years and above treated with tPA for acute ischemic stroke recover, most patients have a poor 30-day functional outcome or die.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Genentech Press Release 1982",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Widening the Window : Strategies to buy time in treating ischemic stroke - Scientific American (August 2005)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The top American fiction bestseller in both 1936 and 1937 was the only novel published during the lifetime of its author. Who was she. Margaret Mitchell",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The top American fiction bestseller in both 1936 and 1937 was the only novel published during the lifetime of its author. Who was she. Harper Lee",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The top American fiction bestseller in both 1936 and 1937 was the only novel published during the lifetime of its author. Who was she. Edith Wharton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The top American fiction bestseller in both 1936 and 1937 was the only novel published during the lifetime of its author. Who was she. Peggy Marsh",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Margaret Mitchell wrote only one novel that was published during her lifetime, Gone with the Wind.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Margaret Mitchell was the author of Gone with the Wind.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

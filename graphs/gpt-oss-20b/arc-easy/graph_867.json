@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A battery produces mechanical energy.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An electric motor is a device that produces mechanical energy.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A light bulb is a device that produces mechanical energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A solar cooker produces mechanical energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An electric motor is a machine that converts electrical energy into mechanical energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electric motors can be powered by direct current (DC) sources, such as from batteries or rectifiers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

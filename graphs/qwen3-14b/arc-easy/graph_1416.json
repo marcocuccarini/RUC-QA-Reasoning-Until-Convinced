@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decrease is the height of the water when a rock is placed in a graduated cylinder containing water.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increase is the height of the water when a rock is placed in a graduated cylinder containing water.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The height of the water will remain the same when a rock is placed in a graduated cylinder containing water.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "when the rock is lowered into the water, it displaces water of weight 3 newtons",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the weight of the displaced fluid is directly proportional to the volume of the displaced fluid (if the surrounding fluid is of uniform density)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

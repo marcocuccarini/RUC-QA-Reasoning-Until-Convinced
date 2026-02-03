@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of a shoe that is traditionally made of wood. Geta",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of a shoe that is traditionally made of wood. Kabkab",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of a shoe that is traditionally made of wood. Paduka",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of a shoe that is traditionally made of wood. Clog",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Geta are traditional Japanese footwear resembling flip-flops. A kind of sandal, geta have a flat wooden base held on the foot with a fabric thong, and are elevated with up to three (though commonly two) 'teeth,' which keeps the foot raised above the ground.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The use and popularity of wooden clogs in China has been recorded in other sources dating to between the Spring and Autumn period (771–476 BCE) to the Qin (221–206 BCE) and Han dynasties (202 BCE–220 CE).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Japanese geta are a type of wooden clog.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

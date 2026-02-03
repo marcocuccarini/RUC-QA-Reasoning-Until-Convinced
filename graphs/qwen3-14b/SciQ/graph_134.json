@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sedimentary rock group offers the richest source of fossils.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metamorphic is the rock group that offers the richest source of fossils.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Igneous rock group offers the richest source of fossils.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Geode offers the richest source of fossils.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Among the three major types of rock, fossils are most commonly found in sedimentary rock.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Unlike most igneous and metamorphic rocks, sedimentary rocks form at temperatures and pressures that do not destroy fossil remnants.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

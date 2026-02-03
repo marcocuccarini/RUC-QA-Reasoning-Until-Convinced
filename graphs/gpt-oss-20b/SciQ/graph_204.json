@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat is released in the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is released into the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen is released in the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electricity is released in the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Latent heat flux is the flux of energy from the Earth's surface to the atmosphere that is associated with evaporation or transpiration of water at the surface and subsequent condensation of water vapor in the troposphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the vapor then condenses to a liquid on a surface, then the vapor's latent energy absorbed during evaporation is released as the liquid's sensible heat onto the surface.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "condensation of water vapor releases heat, warming the air and thereby decreasing its density",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

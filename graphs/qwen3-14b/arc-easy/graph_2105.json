@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lakes are Earth's largest source of drinkable water.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rivers are Earth's largest source of drinkable water.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oceans are Earth's largest source of drinkable water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aquifers are Earth's largest source of drinkable water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Freshwater lakes contain about 87% of this fresh surface water, including 29% in the African Great Lakes, 22% in Lake Baikal in Russia, 21% in the North American Great Lakes, and 14% in other lakes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Swamps have most of the balance with only a small amount in rivers, most notably the Amazon River.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

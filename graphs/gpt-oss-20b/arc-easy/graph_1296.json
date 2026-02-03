@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The nitrogen gas in box A has a greater mass than the nitrogen gas in box B, even though both boxes contain the same number of nitrogen molecules and the molecules in box A move twice as fast as those in box B.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The nitrogen gas in box A has a greater density than the nitrogen gas in box B, even though both boxes contain the same number of nitrogen gas molecules and the molecules in box A move at twice the average speed of those in box B.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The nitrogen gas in box A has a greater temperature than the nitrogen gas in box B, because the same number of nitrogen molecules in box A move at twice the average speed of those in box B.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The nitrogen gas in box A has a greater specific gravity than the nitrogen gas in box B, because the molecules in box A have twice the average speed of those in box B while both boxes contain the same number of nitrogen molecules.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "k_{\\\\mathrm{B}}T={\\\\frac {1}{3}}mv^{2},",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The average molecular kinetic energy is proportional to the ideal gas law's absolute temperature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

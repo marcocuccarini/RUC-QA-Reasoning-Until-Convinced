@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Joe Biden",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Mike Pence",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Kamala Harris",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Donald Trump",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Biden was inaugurated as the 46th president of the United States on January 20, 2021.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Biden was elected the 46th president in November 2020, defeating the incumbent, Donald Trump.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

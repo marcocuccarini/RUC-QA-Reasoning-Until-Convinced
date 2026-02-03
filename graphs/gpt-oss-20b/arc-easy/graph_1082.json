@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Observing whether plants lack true stems, roots, or leaves is how a student can determine which plants around a pond are nonvascular.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Examining the plants for spores is how a student can determine which plants around a pond are nonvascular.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Counting the number of leaves on each stalk is how a student can determine which plants around a pond are nonvascular.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Noticing whether the plants are near rocks is how a student can determine which plants around a pond are nonvascular.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Non-vascular plants are plants without a vascular system consisting of xylem and phloem.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mosses and leafy liverworts have structures called phyllids that resemble leaves, but only consist of single sheets of cells with no internal air spaces, no cuticle or stomata, and no xylem or phloem.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

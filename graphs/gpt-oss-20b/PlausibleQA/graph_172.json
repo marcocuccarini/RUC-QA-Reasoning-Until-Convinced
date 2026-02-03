@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On a standard dartboard, which number lies between 4 and 6. 3",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On a standard dartboard, which number lies between 4 and 6. 5",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On a standard dartboard, which number lies between 4 and 6. 14",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On a standard dartboard, which number lies between 4 and 6. 13",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "5 (five) is a number, numeral and digit. It is the natural number, and cardinal number, following 4 and preceding 6, and is a prime number.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "5 is the first congruent number, as well as the length of the hypotenuse of the smallest integer-sided right triangle, making part of the smallest Pythagorean triple (3, 4, 5).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

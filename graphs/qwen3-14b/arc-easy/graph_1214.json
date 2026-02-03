@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Thermometer is the tool a student should use to examine spots on a frog.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hand lens is the tool a student should use to examine spots on a frog.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A graduated cylinder should be used by a student to examine spots on a frog.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A magnet is the tool a student should use to examine spots on a frog.",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A magnifying glass is a convex lens—usually mounted in a frame with a handle—that is used to produce a magnified image of an object.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A magnifying glass can also be used to focus light, such as to concentrate the Sun's radiation to create a hot spot at the focus for fire starting.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

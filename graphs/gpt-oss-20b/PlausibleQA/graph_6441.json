@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The village of Tightwad is in which US state. US-AL",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The village of Tightwad is in which US state. US-AR",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The village of Tightwad is in which US state. US-FL",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The village of Tightwad is in which US state. US-MO",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Arkansas.gov—Official State Website",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

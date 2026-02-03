@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The apple trees could not make leaves if pesticides killed all the pollinators near them.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The trees could not make flowers if pesticides killed all the pollinators near some apple trees.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The trees could not make seeds if pesticides kill all the pollinators near some apple trees.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The trees could not make bark if pesticides killed all the pollinators near some apple trees.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "New York's apple crop requires about 30,000 hives; Maine's blueberry crop uses about 50,000 hives each year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The largest managed pollination event in the world is in California almond orchards, where nearly half (about one million hives) of the US honey bees are trucked to the almond orchards each spring.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

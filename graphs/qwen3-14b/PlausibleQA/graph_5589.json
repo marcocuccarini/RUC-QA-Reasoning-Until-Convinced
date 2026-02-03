@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the year; Baring's Bank collapsed, Blackburn Rovers won the Premier League and Cliff Richard was knighted. 1992",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the year; Baring's Bank collapsed, Blackburn Rovers won the Premier League and Cliff Richard was knighted. 1998",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the year; Baring's Bank collapsed, Blackburn Rovers won the Premier League and Cliff Richard was knighted. 1990",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the year; Baring's Bank collapsed, Blackburn Rovers won the Premier League and Cliff Richard was knighted. 1995",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Barings was declared insolvent on 26 February 1995",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The same day, the Board of Banking Supervision of the Bank of England launched an investigation led by Britain's Chancellor of the Exchequer; its report was released on 18 July 1995",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

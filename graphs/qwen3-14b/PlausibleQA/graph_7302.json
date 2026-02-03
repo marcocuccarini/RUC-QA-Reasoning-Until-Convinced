@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the British Army, which commissioned rank is indicated by a crown on each shoulder. Captain",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the British Army, which commissioned rank is indicated by a crown on each shoulder. Lieutenant Colonel",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the British Army, which commissioned rank is indicated by a crown on each shoulder. Colonel",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the British Army, which commissioned rank is indicated by a crown on each shoulder. Maj.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A captain's rank insignia was worn on the collar and displayed a crown and a pip (which is now the rank insignia for a lieutenant-colonel)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the 21st-century British Army, captains are often appointed to be second-in-command (2IC) of a company or equivalent sized unit of up to 120 soldiers",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

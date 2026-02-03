@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The information on the strand always changes when the nucleotides in a strand of DNA are rearranged.",
+      "strength": 0.599902821046082
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The mass of the strand changes whenever the nucleotides in a strand of DNA are rearranged.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The organism dies when the nucleotides in a strand of DNA are rearranged.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The organism always thrives when the nucleotides in a strand of DNA are rearranged.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Insertions in the coding region of a gene may alter splicing of the mRNA (splice site mutation), or cause a shift in the reading frame (frameshift), both of which can significantly alter the gene product.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mutations in the non-coding regulatory sequences can alter levels of gene expression, which affects the functional information encoded by the DNA strand.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Daughter cells that inherit these wrong bases carry mutations from which the original DNA sequence is unrecoverable (except in the rare case of a back mutation, for example, through gene conversion).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Gene conversion occurs at high frequency at the actual site of the recombination event during meiosis. It is a process by which a DNA sequence is copied from one DNA helix (which remains unchanged) to another DNA helix, whose sequence is altered.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Chromosomal crossover leads to offspring having different combinations of genes from those of their parents, and can occasionally produce new chimeric alleles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

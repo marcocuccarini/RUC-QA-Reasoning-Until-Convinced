@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Five mass extinctions have occurred throughout Earth's history.",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Six mass extinctions have occurred throughout Earth's history.",
+      "strength": 0.5999999402194273
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Four mass extinctions have occurred throughout Earth's history.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Three mass extinctions have occurred throughout Earth's history.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 'Big Five' mass extinction events are widely recognized.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ongoing mass extinction caused by human activity is sometimes called the sixth mass extinction.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is the greatest of the 'Big Five' mass extinctions of the Phanerozoic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

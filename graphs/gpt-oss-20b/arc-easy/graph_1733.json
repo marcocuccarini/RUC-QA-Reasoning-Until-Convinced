@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liter is the unit of measurement the student should most likely use to accurately measure the distance from the floor to the ceiling in a classroom.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kiloliter is the unit of measurement the student should most likely use to accurately measure the distance from the floor to the ceiling in a classroom.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Meter is the unit of measurement a student should most likely use to accurately measure the distance from the floor to the ceiling in a classroom.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Kilometer is the unit of measurement that the student should most likely use to accurately measure the distance from the floor to the ceiling in a classroom.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The metre is the base unit of length in the International System of Units (SI).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Long distances are usually expressed in km, astronomical units (149,597,871 km), light-years (63,000 au; 9.5 trillion km), or parsecs (210,000 au; 31 trillion km), rather than in Mm or larger multiples.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

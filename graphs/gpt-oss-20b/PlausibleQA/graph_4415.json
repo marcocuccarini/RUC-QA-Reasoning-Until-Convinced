@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did new york stop using the electric chair. 1963",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did new york stop using the electric chair. 1985",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did new york stop using the electric chair. 1951",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did new york stop using the electric chair. 1972",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The last New York execution during that time had occurred in 1963, when Eddie Lee Mays was electrocuted at Sing Sing prison.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There were no executions in New York after the reinstatement of the death penalty before it was abolished again on June 24, 2004, when the state's highest court ruled in People v. LaValle that the state's death penalty statute violated the state constitution.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

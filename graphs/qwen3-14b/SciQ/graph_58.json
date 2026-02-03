@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cancer is the disease that results from unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gout is the disease that results from unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Dementia is the disease that results from unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Diabetes is the result of unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A mutation in the error-correcting machinery of a cell might cause that cell and its children to accumulate errors more rapidly.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A further mutation may cause the loss of a tumor suppressor gene, disrupting the apoptosis signaling pathway and immortalizing the cell.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

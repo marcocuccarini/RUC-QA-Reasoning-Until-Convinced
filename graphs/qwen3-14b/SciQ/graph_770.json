@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Insects are by far the most common type of invertebrate.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Spiders are by far the most common type of invertebrate.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Crustaceans are by far the most common type of invertebrate.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Corals are by far the most common type of invertebrate.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Arthropoda is the largest animal phylum, with estimates of the number of arthropod species varying from 1,170,000 to 5~10 million and accounting for over 80 percent of all known living animal species.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One arthropod sub-group, the insects, includes more described species than any other taxonomic class.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

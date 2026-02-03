@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Trumpets and trombones are most commonly pitched at. EE",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Trumpets and trombones are most commonly pitched at. CC",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Trumpets and trombones are most commonly pitched at. FF",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Trumpets and trombones are most commonly pitched at. BB",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common type is the B♭ trumpet, but A, C, D, E♭, E, low F, and G trumpets are also available.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The C trumpet is most common in American orchestral playing, where it is used alongside the B♭ trumpet.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The tenor trombone has a fundamental note of B♭ and is usually treated as a non-transposing instrument.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The once common E♭ alto trombone became less common as improvements in technique extended the upper range of the tenor, but it is regaining popularity for its lighter sonority.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

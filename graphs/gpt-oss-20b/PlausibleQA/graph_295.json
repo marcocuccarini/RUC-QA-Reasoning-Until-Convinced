@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which mime artist is associated with the character Bip. Jean-Gaspard Deburau",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which mime artist is associated with the character Bip. Charlie Chaplin",
+      "strength": 0.3200001167956842
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which mime artist is associated with the character Bip. Jacques Lecoq",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which mime artist is associated with the character Bip. Marcel Marco",
+      "strength": 0.2500954297775612
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1947 Marceau created Bip the Clown, whom he first played at the Théâtre de Poche (Pocket Theatre) in Paris.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Marcel Marceau (French: [maʁsɛl maʁso]; born Marcel Mangel; 22 March 1923 – 22 September 2007) was a French mime artist and actor most famous for his stage persona, 'Bip the Clown'.",
+      "strength": 0.7499999780893798
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rob Mermin was a former student of Marceau",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Marcel Marceau has a profile on IMDb",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Bip became Marcel Marceau's alter ego.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

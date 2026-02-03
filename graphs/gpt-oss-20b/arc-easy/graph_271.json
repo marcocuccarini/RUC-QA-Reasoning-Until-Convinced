@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sunlight is the primary source of stored thermal energy in oceans.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plankton is the primary source of stored thermal energy in oceans.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Volcanoes are the primary source of stored thermal energy in oceans.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hurricanes are the primary source of stored thermal energy in oceans.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The more abundant equatorial solar irradiance is directly absorbed by Earth's tropical surface waters.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main driver of this increase has been human-caused greenhouse gas emissions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ocean waters are especially effective absorbents of solar energy and have a far greater total heat capacity than the atmosphere.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The geothermal heat flow from the Earth's interior is estimated to be 47 terawatts (TW) and split approximately equally between radiogenic heat and heat left over from the Earth's formation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

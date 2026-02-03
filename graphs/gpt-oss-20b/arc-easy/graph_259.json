@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Low vapor pressure is the property of water that allows it to retain the energy needed to power a hurricane.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High specific heat is the property of water that allows it to retain the energy needed to power hurricanes, which are driven by the energy they get from ocean water.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "High surface tension is the property of water that allows it to retain the energy needed to power hurricanes, which are driven by the energy they get from ocean water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Low freezing point is the property of water that allows it to retain the energy needed to power a hurricane, because hurricanes are driven by the energy they get from ocean water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Water has a high heat capacity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The specific enthalpy of fusion (latent heat) of water is 333.55 kJ/kg at 0 °C: the same amount of energy is required to melt ice as to warm ice from −160 °C up to its melting point or to heat the same amount of water by about 80 °C.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

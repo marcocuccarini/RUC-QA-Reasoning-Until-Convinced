@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "By what score did GB beat Belgium to win the Davis Cup in November 2015. 3-0",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "By what score did GB beat Belgium to win the Davis Cup in November 2015. 3-2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "By what score did GB beat Belgium to win the Davis Cup in November 2015. 4-1",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "By what score did GB beat Belgium to win the Davis Cup in November 2015. 3-1",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They made the final again, in 2015, when they lost to Great Britain yet again.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This gave Great Britain an unassailable 3–1 lead, with the two teams opting not to play the dead fifth rubber.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the ingredients that make up that classic American favorite, the Big Mac. Double Cheeseburger",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the ingredients that make up that classic American favorite, the Big Mac. Special Sauce Burger",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the ingredients that make up that classic American favorite, the Big Mac. Beef and Cheese Sandwich",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the ingredients that make up that classic American favorite, the Big Mac. BigMac",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Big Mac is made with two 1.6 oz (45 g) beef patties, a special sauce, shredded iceberg lettuce, one processed American cheese slice, two slices of dill pickle, and minced onions, served on a three slice sesame seed bun.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Big Mac sauce consists of store-bought mayonnaise, sweet pickle relish and yellow mustard whisked together with vinegar, garlic powder, onion powder and paprika.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

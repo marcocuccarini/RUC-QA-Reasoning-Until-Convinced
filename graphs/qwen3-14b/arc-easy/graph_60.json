@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Igneous and sedimentary rocks are both formed by erosion.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Igneous and sedimentary rocks are similar because they are both formed from cooled lava.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Heat and pressure can turn igneous and sedimentary rocks into lava.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Heat and pressure can turn igneous and sedimentary rocks into metamorphic rock.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "sedimentary rocks, which form from sediments eroded from existing rock or precipitated chemically from bodies of water",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Metamorphic rocks are formed when existing rock is transformed physically or chemically at elevated temperature, without actually melting to any great degree",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

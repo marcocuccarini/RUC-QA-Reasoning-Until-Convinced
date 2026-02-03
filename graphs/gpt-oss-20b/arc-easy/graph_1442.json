@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rabbit cells have a cell wall, a cell membrane, and a nucleus, indicating that the student is looking at a cell from a rabbit.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A carrot cell is characterized by having a cell wall, a cell membrane, and a nucleus, as observed by the student viewing a cell under a microscope.",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Worm cells have a cell wall, a cell membrane, and a nucleus, which the student observes under a microscope.",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fly cells are observed by the student, showing a cell wall, a cell membrane, and a nucleus.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Daucus carota is a biennial plant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "High-quality carrots have a large proportion of cortex compared to core.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The chemical composition and mechanical properties of the cell wall are linked with plant cell growth and morphogenesis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Among the eukaryotes, cells walls are prevalent in fungi, algae and plants but absent from animals and many other taxa.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

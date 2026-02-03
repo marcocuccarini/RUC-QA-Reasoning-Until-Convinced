@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shape and physical state are the two properties of a crayon that remain about the same after the crayon is melted.",
+      "strength": 0.40000008741621107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Temperature and hardness are the two properties of a crayon that stay about the same after the crayon is melted.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Color and mass are the two properties of a crayon that stay about the same after the crayon is melted.",
+      "strength": 0.4999051777587013
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thickness and texture are the two properties of a crayon that will remain about the same after the crayon is melted.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Examples of physical properties include... shape, size, color, volume and density.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Physical changes are changes affecting the form of a chemical substance, but not its chemical composition.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the mass of the system must remain constant over time",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

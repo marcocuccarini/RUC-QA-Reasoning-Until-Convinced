@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is the exhaled gas that is a waste product of respiration.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Helium is the exhaled gas that is a waste product of respiration in people who inhale and exhale air when they breathe.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the exhaled gas that is a waste product of respiration when people take in and release gases from the air.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the exhaled gas that is a waste product of respiration when people breathe, taking in and releasing gases from the air.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All aerobic organisms produce CO2 when they oxidize carbohydrates, fatty acids, and proteins.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Carbon dioxide is a by-product of cellular respiration in organisms that obtain energy by breaking down sugars, fats and amino acids with oxygen as part of their metabolism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

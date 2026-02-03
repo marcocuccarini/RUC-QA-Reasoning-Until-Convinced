@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reflected is what most of the sunlight that strikes a snow‑covered surface does, which is why people often wear sunglasses in polar regions.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Absorbed is what most of the sunlight that strikes a snow‑covered surface does in polar regions, which is why people often wear sunglasses.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Refracted is most of the sunlight that strikes a snow‑covered surface, which is why people often wear sunglasses in polar regions.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transmitted is the fact that most of the sunlight that strikes a snow‑covered surface is transmitted, which is why people often wear sunglasses in polar regions.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Snow albedo is highly variable, ranging from as high as 0.9 for freshly fallen snow, to about 0.4 for melting snow, and as low as 0.2 for dirty snow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the albedo of snow-covered sea ice is far higher than that of sea water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

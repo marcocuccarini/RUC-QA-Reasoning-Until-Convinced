@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where would a Viking warrior hope to go if he died in battle. Asgard",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where would a Viking warrior hope to go if he died in battle. Vanaheim",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where would a Viking warrior hope to go if he died in battle. Alfheim",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where would a Viking warrior hope to go if he died in battle. Valhol",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Grímnismál contains among its cosmological descriptions, a number of abodes of the gods, such as Álfheim, Nóatún and Valhalla",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Gylfaginning, Snorri Sturluson describes how during the creation of the world, the gods made the earth and surrounded it with the sea. They made the sky from the skull of Ymir and settled the jötnar on the shores of the earth. They set down the brows of Ymir, forming Midgard, and in the centre of the world they built Asgard",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

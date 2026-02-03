@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "15 October will mark the 600th anniversary of which famous battle. Agnadello",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "15 October will mark the 600th anniversary of which famous battle. Bannockburn",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "15 October will mark the 600th anniversary of which famous battle. Castillon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "15 October will mark the 600th anniversary of which famous battle. Ajincourt",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Battle of Agincourt took place on 25 October 1415.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Battle of Agincourt is one of England's most celebrated victories.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Battle of Agnadello was fought on 14 May 1509.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Battle of Castillon was a battle between the forces of England and France which took place on 17 July 1453 in Gascony near the town of Castillon-sur-Dordogne (later Castillon-la-Bataille).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Castillon was the first major European battle won through the extensive use of field artillery.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

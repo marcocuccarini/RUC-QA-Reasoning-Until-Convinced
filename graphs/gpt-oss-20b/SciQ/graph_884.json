@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The nucleus contains positive protons and neutral neutrons.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrons contain positive protons and neutral neutrons.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ions contain positive protons and neutral neutrons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Epidermis contains positive protons and neutral neutrons.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Neutrons are electrically neutral, but contribute to the mass of a nucleus to nearly the same extent as the protons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The proton has an approximately exponentially decaying positive charge distribution with a mean square radius of about 0.8 fm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

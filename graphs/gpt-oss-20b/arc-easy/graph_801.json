@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the gas transported by the circulatory system in humans and is used by cells during respiration to release energy stored in food.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen is the gas transported by the circulatory system in humans and is used by cells during respiration to release energy stored in food.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the gas transported by the circulatory system in humans and is used by cells during respiration to release energy stored in food.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oxygen is the gas transported by the circulatory system in humans and used by cells during respiration to release energy stored in food.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hemoglobin in red blood cells binds O2, changing color from bluish red to bright red (CO2 is released from another part of hemoglobin through the Bohr effect).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A liter of blood can dissolve up to 200 cm3 of O2.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

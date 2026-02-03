@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A change in the direction of the car is the change that best describes acceleration of a car, because the motion of a car accelerating in a straight line differs from the motion of a car moving in a straight line at a constant speed.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A change in the distance the car travels is the best description of acceleration of a car, because its motion in a straight line differs from that of a car moving at a constant speed.",
+      "strength": 0.4000036434297094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The change in velocity divided by the time for that change is the acceleration of a car moving in a straight line, which differs from the motion of a car moving at a constant speed.",
+      "strength": 0.6476541016901772
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The change in the time for the car to travel a distance best describes the acceleration of a car, distinguishing it from the motion of a car moving in a straight line at a constant speed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Acceleration is defined as the change in velocity over time, not the change in distance traveled.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

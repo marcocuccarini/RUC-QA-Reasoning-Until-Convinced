@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Static protons are the entities through which energy is transferred in an electrical circuit.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Moving protons transfer energy in an electrical circuit.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Static electrons are the means by which energy is transferred in an electrical circuit.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Moving electrons transfer energy in an electrical circuit.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In metallic solids, electric charge flows by means of electrons, from lower to higher electrical potential.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The free electrons of the conductor are forced to drift toward the positive terminal under the influence of this field.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

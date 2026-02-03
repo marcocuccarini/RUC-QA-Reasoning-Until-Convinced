@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the restaurant in seinfeld. Pete's Tavern",
+      "strength": 0.4000000385008666
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the restaurant in seinfeld. Java Junction",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the restaurant in seinfeld. Central Perk",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the restaurant in seinfeld. Monk 's",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Monk's Café is a fictional coffee shop from the NBC sitcom Seinfeld.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the original pilot 'The Seinfeld Chronicles,' the luncheonette was known as Pete's, and was replaced by Monk's by the time the show went to series.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ruthie Cohen is the cashier at Monk's.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Paco is a line cook at Monk's.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

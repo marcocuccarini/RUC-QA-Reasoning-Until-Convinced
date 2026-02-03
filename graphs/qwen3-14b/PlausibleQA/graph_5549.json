@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is a vent in the Earth's crust that spouts a fountain of boiling water called. Hydrothermal Vent",
+      "strength": 0.5999030784341561
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is a vent in the Earth's crust that spouts a fountain of boiling water called. Fumarole",
+      "strength": 0.40000000009077963
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is a vent in the Earth's crust that spouts a fountain of boiling water called. Magma Spring",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is a vent in the Earth's crust that spouts a fountain of boiling water called. Gyser",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Geysers are nonpermanent geological features associated with areas of recent magmatism and require heat, water, and a subsurface hydraulic system with the right geometry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The formation of geysers is fairly rare and is caused by particular hydrogeological conditions that exist only in a few places on Earth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hydrothermal vents are fissures on the seabed from which geothermally heated water discharges.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The InterRidge Vents Database is a global database of the locations of known active submarine hydrothermal vent fields.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

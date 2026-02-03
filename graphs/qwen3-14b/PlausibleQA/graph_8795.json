@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Graca Machel, the widow of a President of Mozambique, is the wife of which famous man. Nelson Mandela",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Graca Machel, the widow of a President of Mozambique, is the wife of which famous man. Samora Machel",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Graca Machel, the widow of a President of Mozambique, is the wife of which famous man. Thabo Mbeki",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Graca Machel, the widow of a President of Mozambique, is the wife of which famous man. 4664",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Graça Machel married Samora Machel in September 1975.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Graça Machel married Nelson Mandela in 1998.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

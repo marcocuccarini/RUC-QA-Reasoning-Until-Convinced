@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Control is the term for the participants who received a sugar pill, the half of the participants in the drug company’s study testing a pill to reduce cases of stomach virus.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Experimental participants are the half of the participants who received a sugar pill in the drug company’s trial to reduce cases of stomach virus.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The dependent variable is the half of the participants who received a sugar pill in the drug company's study testing a new medicine to reduce cases of stomach virus.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Independent variable is the participants who received the sugar pill in the drug company’s study that tested a pill to reduce cases of stomach virus, with half of the participants given the active medication and the other half given a sugar pill.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In placebo-controlled trials, the control group receives a placebo such as a sugar pill, while the experimental group receives the active treatment.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The experimental group in clinical trials typically receives the active treatment, not the placebo.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

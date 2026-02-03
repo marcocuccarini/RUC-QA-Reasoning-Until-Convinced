@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gravity is the force that brakes use to stop a moving bicycle.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Friction is the kind of force that brakes use to stop a moving bicycle.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Magnetic is the type of force that bicycle brakes use to stop a moving bicycle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Push is the kind of force brakes use to stop a moving bicycle.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Automobile brakes inherently rely on friction, slowing a vehicle by converting its kinetic energy into heat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Braking friction differs from rolling friction because the coefficient of friction for rolling friction is small whereas the coefficient of braking friction is designed to be large by choice of materials for brake pads.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

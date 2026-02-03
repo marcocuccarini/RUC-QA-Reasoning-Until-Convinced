@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sings song at the end of beauty and the beast. Celine Dion",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sings song at the end of beauty and the beast. Andrea Bocelli",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sings song at the end of beauty and the beast. Michael Bublé",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sings song at the end of beauty and the beast. Josh Groban",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Celine Dion would be performing one of the new original songs 'How Does a Moment Last Forever' to play over the end titles.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Josh Groban was announced to be performing the new original song 'Evermore'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "She duetted with Peabo Bryson on the title track to Disney's animated film Beauty and the Beast (1991).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

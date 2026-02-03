@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was Truman Capote's last name before he was adopted by his stepfather. Lillie",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was Truman Capote's last name before he was adopted by his stepfather. Faulk",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was Truman Capote's last name before he was adopted by his stepfather. Streckfus",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was Truman Capote's last name before he was adopted by his stepfather. Person",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Truman Streckfus Persons was his birth name, indicating his last name before adoption was Persons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Truman Streckfus Persons was his birth name, indicating his last name before adoption was Persons, not Streckfus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

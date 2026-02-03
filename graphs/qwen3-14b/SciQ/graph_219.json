@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Atoms are the smallest particles of matter.",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ions are the smallest particles of matter.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Molecules are the smallest particles of matter.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electrons are the smallest particles of matter.",
+      "strength": 0.4000876126562776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Though the word atom originally denoted a particle that cannot be cut into smaller particles, in modern scientific usage the atom is composed of various subatomic particles.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The electron is the least massive of these particles by four orders of magnitude at 9.11×10−31 kg, with a negative electrical charge and a size that is too small to be measured using available techniques.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An Atom is a still smaller particle produced by division of a molecule.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Protons and neutrons however are not indivisible: they can be divided into quarks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

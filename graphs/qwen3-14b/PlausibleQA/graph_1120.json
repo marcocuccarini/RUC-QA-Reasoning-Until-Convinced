@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is this years army navy game played. MetLife Stadium",
+      "strength": 0.6000880927242883
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is this years army navy game played. FedExField",
+      "strength": 0.5999999999999637
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is this years army navy game played. Yankee Stadium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is this years army navy game played. Lincoln Financial Field",
+      "strength": 0.5999999437007768
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2024, the game was played at FedExField in Landover, Maryland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "December 12, 2026 – MetLife Stadium in East Rutherford, New Jersey.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "MetLife Stadium",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lincoln Financial Field is the primary home to the Army–Navy Game.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "On December 11, 2021, MetLife Stadium hosted the 122nd Army–Navy Game.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

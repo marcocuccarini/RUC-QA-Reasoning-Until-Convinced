@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Vaccination is the term that best describes Jenner’s 18th‑century smallpox treatment, in which liquid from cowpox sores was injected into healthy patients to confer immunity to smallpox.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gene therapy is the term that best describes Jenner's treatment for smallpox, where he injected liquid from cowpox sores into healthy patients in the 18th century to confer immunity against the more serious disease.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemotherapy is the term that best describes Jenner's treatment for smallpox, where liquid obtained from cowpox sores was injected into healthy patients to confer immunity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Genetic engineering is the term that best describes Jenner’s 18th‑century treatment for smallpox, in which he observed that cattle workers who had mild cowpox did not contract smallpox, obtained liquid from cowpox sores, injected it into healthy patients, and thereby conferred immunity against smallpox.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The immunization was called vaccination because it was derived from a virus affecting cows (Latin: vacca 'cow').",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vaccination is treatment of an individual with an attenuated (i.e. less virulent) pathogen or other immunogen, whereas inoculation, also called variolation in the context of smallpox prophylaxis, is treatment with unattenuated variola virus taken from a pustule or scab of a smallpox patient into the superficial layers of the skin, commonly the upper arm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

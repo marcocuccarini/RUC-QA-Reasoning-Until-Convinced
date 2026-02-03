@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Macrophages are the cells that HIV targets, making the body vulnerable to secondary infections.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Helper T‑cells are the target of HIV, making the body vulnerable to secondary infections.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cells are targeted by HIV, making the body vulnerable to secondary infections.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Killer T‑cells are targeted by HIV, making the body vulnerable to secondary infections.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "HIV infects vital cells in the human immune system, such as helper T cells (specifically CD4+ T cells), macrophages, and dendritic cells.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When CD4+ T cell numbers decline below a critical level, cell-mediated immunity is lost, and the body becomes progressively more susceptible to opportunistic infections, leading to the development of AIDS.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

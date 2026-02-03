@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is one element a topographic map shows. Elevation",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is one element a topographic map shows. Hydrology",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is one element a topographic map shows. Vegetation",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is one element a topographic map shows. relief",
+      "strength": 0.5999999626370065
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Topographic maps conventionally show topography, or land contours, by means of contour lines.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These maps depict in detail ground relief (landforms and terrain), drainage (lakes and rivers), forest cover, administrative areas, populated areas, transportation routes and facilities (including roads and railways), and other man-made features.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A topographical map is the main type of map used to depict elevation, often through contour lines.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In a Geographic Information System (GIS), digital elevation models (DEM) are commonly used to represent the surface (topography) of a place, through a raster (grid) dataset of elevations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

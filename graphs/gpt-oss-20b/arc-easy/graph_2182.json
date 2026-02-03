@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Energy resources are replenished more quickly than they are used.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Material resources are replenished more quickly than they are used.",
+      "strength": 0.40000000009077963
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Renewable resources are replenished more quickly than they are used.",
+      "strength": 0.5999030784341561
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nonrenewable resources are replenished more quickly than they are used.",
+      "strength": 0.40000009469685094
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Water can be considered a renewable material when carefully controlled usage and temperature, treatment, and release are followed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Renewable resources are endangered by non-regulated industrial developments and growth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The two most important forms of renewable energy, solar and wind, are intermittent energy sources: they are not available constantly, resulting in lower capacity factors.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Demand for lithium is expected to grow 42-fold from 2020 to 2040.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Renewable resources are available each year, unlike non-renewable resources, which are eventually depleted.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Non-renewable resources are eventually depleted.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Using the lower estimate, just 5% of the available wind energy would supply the current worldwide energy needs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

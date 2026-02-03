@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what two states is st louis in. Illinois",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what two states is st louis in. Kentucky",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what two states is st louis in. Tennessee",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what two states is st louis in. Missouri",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "St. Louis is an independent city in the U.S. state of Missouri.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "its metropolitan area, which extends into Illinois",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Historic maps of St. Louis in the Sanborn Maps of Missouri Collection",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

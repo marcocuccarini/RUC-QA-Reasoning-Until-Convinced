@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A pie chart is the type of graph best for recording plant growth over a one-week period.",
+      "strength": 0.40000003059023215
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Line graph is the best type of graph for recording plant growth over a one‑week period.",
+      "strength": 0.599902821971274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Scatterplot is the best type of graph for recording plant growth over a one‑week period.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Histogram is the type of graph that would be best for recording plant growth over a one-week period.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If we now perform the same type of random walk on the vertices of the line graph, the frequency with which v is visited can be completely different from f.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In a line graph L(G), each vertex of degree k in the original graph G creates k(k − 1)/2 edges in the line graph. For many types of analysis this means high‑degree nodes in G are over‑represented in the line graph L(G).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A line chart may be used to demonstrate the trend over time.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "dot plots and bar charts outperform pie charts",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Growth curve (statistics), an empirical model of the evolution of a quantity over time.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Growth curve (biology), a statistical growth curve used to model a biological quantity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

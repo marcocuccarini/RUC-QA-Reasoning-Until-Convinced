@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If I sail on the Neva river past the Hermitage Museum, what city am I in. Stockholm, Sweden",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If I sail on the Neva river past the Hermitage Museum, what city am I in. Copenhagen, Denmark",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If I sail on the Neva river past the Hermitage Museum, what city am I in. Warsaw, Poland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If I sail on the Neva river past the Hermitage Museum, what city am I in. RU-SPE",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Saint Petersburg is situated on the River Neva, at the head of the Gulf of Finland on the Baltic Sea.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On the southern, left bank of the Neva, connected to the spit of Vasilyevsky Island via the Palace Bridge, lie the Admiralty building, the vast Hermitage Museum complex stretching along the Palace Embankment, which includes the Baroque Winter Palace, former official residence of Russian emperors, as well as the neoclassical Marble Palace.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

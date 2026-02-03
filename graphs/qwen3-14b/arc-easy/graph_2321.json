@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diabetes is the disease caused by the transformation of proto‑oncogenes into oncogenes, which leads to unregulated cell division.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Leukemia is caused by changes at the molecular level that turn proto‑oncogenes into oncogenes, leading to unregulated cell division.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pneumonia is a disease caused by the transformation of proto‑oncogenes into oncogenes at the molecular level, which leads to unregulated cell division.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hemophilia is a disease caused by changes at the molecular level that turn proto‑oncogenes into oncogenes, leading to unregulated cell division.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Philadelphia chromosome, caused by a translocation of pieces from chromosomes 9 and 22, leads to the Bcr-Abl gene, which is constitutively active and causes uncontrolled cell proliferation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The unregulated expression of this protein activates other proteins that are involved in cell cycle and cell division which can cause a cell to grow and divide uncontrollably (the cell becomes cancerous).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

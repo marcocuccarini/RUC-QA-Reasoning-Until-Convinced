@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Jonas Salk is the scientist credited with developing the polio vaccine.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neil Armstrong is credited for the development of the polio vaccine.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Albert Einstein is credited for the development of the polio vaccine.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Jacques Cousteau is credited for the development of the polio vaccine.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first effective polio vaccine was developed in 1952 by Jonas Salk and a team at the University of Pittsburgh",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first successful demonstration of a polio vaccine was by Hilary Koprowski in 1950, with a live attenuated virus that people drank",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Salk vaccine is based on poliovirus grown in a type of monkey kidney tissue culture (vero cell line), which is chemically inactivated with formalin.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Albert Sabin developed a polio vaccine that can be administered orally (oral polio vaccine - OPV).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

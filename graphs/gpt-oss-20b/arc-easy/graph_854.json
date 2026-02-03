@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chloroplasts are small, free‑floating organelles found in both prokaryotes and eukaryotes that the cell makes from nucleic acids and amino acids found in food, and without which the cell could not make proteins.",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mitochondria are small, free‑floating organelles present in both prokaryotes and eukaryotes, synthesized from nucleic acids and amino acids derived from food, and without which the cell cannot synthesize proteins.",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ribosomes are small, free‑floating organelles found in both prokaryotes and eukaryotes, made from nucleic acids and amino acids found in food, and without them the cell could not make proteins.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vesicles are small, free‑floating organelles present in both prokaryotes and eukaryotes that the cell constructs from nucleic acids and amino acids found in food, and without which the cell could not synthesize proteins.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ribosomes are present in mitochondria (sometimes called mitoribosomes).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ribosomes are present in plastids such as chloroplasts (also called plastoribosomes).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ribosomes are complex molecular machines, made of a mixture of protein and ribosomal RNA, arranged into two subunits (a large and a small subunit), which surround the mRNA molecule.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In prokaryotes, which lack a nucleus, the processes of both transcription and translation occur in the cytoplasm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

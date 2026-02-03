@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Duck",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Bird",
+      "strength": 0.5999999390117796
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Waterfowl",
+      "strength": 0.7499063988788212
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Eend",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Duck is the common name for numerous species of waterfowl in the family Anatidae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ducks are mostly aquatic birds, and may be found in both fresh water and sea water.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A modern illustrated guide to identification of US waterfowl is available at Project Gutenberg.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

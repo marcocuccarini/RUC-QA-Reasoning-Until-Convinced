@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ursus arctos horribilis is the scientific name of which animal. Brown Bear",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ursus arctos horribilis is the scientific name of which animal. Polar Bear",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ursus arctos horribilis is the scientific name of which animal. Asiatic Black Bear",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ursus arctos horribilis is the scientific name of which animal. Grizzly",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The grizzly bear (Ursus arctos horribilis), also known as the North American brown bear or simply grizzly, is a population or subspecies of the brown bear inhabiting North America.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The genome of the grizzly bear was sequenced in 2018 and found to be 2,328.64Mb (mega-basepairs) in length, and contain 30,387 genes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical is the form into which electrical energy changes when Trevor turns on a lamp.",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light is the form of energy that electrical energy changes into when Trevor turns on a lamp and the lamp is on.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mechanical is the form of energy that electrical energy changes into when Trevor turns on the lamp and the lamp is on.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Potential is the form of energy that electrical energy changes into when Trevor turns on a lamp.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "With the development of electric lights and power systems, electric lighting has effectively replaced firelight.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Incandescent light bulbs emit only around 10% of their energy as visible light and the remainder as infrared.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Electric heating is an example of converting electrical energy into thermal energy.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "An incandescent light bulb, also known as an incandescent lamp or incandescent light globe, is an electric light that produces illumination by Joule heating a filament until it glows.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Incandescent lamps are nearly pure resistive loads with a power factor of 1.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

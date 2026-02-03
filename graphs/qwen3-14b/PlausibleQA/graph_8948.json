@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the longest english word in the dictionary. Antidisestablishmentarianism",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the longest english word in the dictionary. Supercalifragilisticexpialidocious",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the longest english word in the dictionary. Honorificabilitudinitatibus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the longest english word in the dictionary. Pneumonoultramicroscopicsilicovolcanoconiosis",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "pneumonoultramicroscopicsilicovolcanoconiosis is the longest word in major dictionaries with 45 letters",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Merriam-Webster's Collegiate Dictionary does not include antidisestablishmentarianism due to lack of widespread usage",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

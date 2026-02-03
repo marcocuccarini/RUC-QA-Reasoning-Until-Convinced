@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At which Olympic games was synchronised swimming first included. 1992 Barcelona",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At which Olympic games was synchronised swimming first included. 1996 Atlanta",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "At which Olympic games was synchronised swimming first included. 2000 Sydney",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "At which Olympic games was synchronised swimming first included. 1984 LOS ANGELES",
+      "strength": 0.5999088118033908
+    },
+    "A4": {
+      "type": "argument",
+      "text": "synchronized swimming did not become an official Olympic sport until the 1984 Summer Olympic Games",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From 1984 through 1992, the Summer Olympic Games featured solo and duet competitions",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Synchronized swimming and rhythmic gymnastics debuted in Los Angeles as Olympic events",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The 1984 Summer Olympics were held in Los Angeles, California, United States",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "indifferent"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Iron is the material attracted to a magnet.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wood is not attracted to a magnet.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic is the material attracted to a magnet.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ice is a material that is attracted to a magnet.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Below its Curie point of 770 °C (1,420 °F; 1,040 K), α-iron changes from paramagnetic to ferromagnetic: the spins of the two unpaired electrons in each atom generally align with the spins of its neighbors, creating an overall magnetic field.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Iron, cobalt, and nickel are ferromagnetic at room temperature and share similar chemistry.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang heard it thru the grapevine first. Marvin Gaye",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang heard it thru the grapevine first. Gladys Knight & the Pips",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang heard it thru the grapevine first. The Temptations",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang heard it thru the grapevine first. the Miracles",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first recording of the song to be released was produced by Whitfield for Gladys Knight & the Pips and released as a single in September 1967.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Marvin Gaye version was the second to be recorded in the beginning of 1967 but the third to be released.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

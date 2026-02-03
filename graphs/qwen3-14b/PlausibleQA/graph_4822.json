@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The 1999 film, 'The Green Mile' was directed by whom. Frank Darabont",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The 1999 film, 'The Green Mile' was directed by whom. Quentin Tarantino",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The 1999 film, 'The Green Mile' was directed by whom. Martin Scorsese",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The 1999 film, 'The Green Mile' was directed by whom. Ardeth Bey",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Green Mile is a 1999 American fantasy drama film written and directed by Frank Darabont",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The film was shot at Warner Hollywood Studios, West Hollywood, California; and on location in Shelbyville, Tennessee; Blowing Rock, North Carolina; and the old Tennessee State Prison.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

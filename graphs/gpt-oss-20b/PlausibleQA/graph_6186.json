@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the longest railway station in india. Howrah Junction",
+      "strength": 0.43092615498749137
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the longest railway station in india. Sealdah Railway Station",
+      "strength": 0.4000000392786357
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the longest railway station in india. Chennai Central",
+      "strength": 0.43092615498749137
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the longest railway station in india. Gorakhpur Junction",
+      "strength": 0.4000409734979248
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The name is currently India's longest",
+      "strength": 0.4000409734979248
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is the second largest and second busiest railway station in India and West Bengal in terms of platforms, tracks and overall daily passenger holding capacity, making it one of the world also.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It has the world's second longest railway platform after Hubballi Junction railway station in Karnataka.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

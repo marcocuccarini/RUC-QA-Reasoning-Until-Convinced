@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The heat from the fire travels through the ground and heats the ground around the people, allowing people sitting around a campfire to feel the heat without touching the fire.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The heat from the fire is conducted through air molecules to the people, allowing people sitting around a campfire to feel the heat without touching the fire.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The heat from the fire rises in the air and then settles around the people, allowing those sitting around a campfire to feel the heat without touching the fire.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The heat from the fire radiates from the fire to the people sitting around a campfire, allowing them to feel the heat without touching the fire.",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In this case the heat has made its way through the space between the fire and the thermometer, by the process termed radiation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "a portion of the air, passing through and near the fire, has become heated, and has carried up the chimney the temperature acquired from the fire.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Thermal radiation is a phenomenon that can burn skin and ignite flammable materials.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Thermal radiation is one of the fundamental mechanisms of heat transfer, along with conduction and convection.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

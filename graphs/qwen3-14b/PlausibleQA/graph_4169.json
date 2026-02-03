@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the parana river flow. Argentina",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the parana river flow. Paraguay",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the parana river flow. Uruguay",
+      "strength": 0.5999088118033908
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the parana river flow. Brazil",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Paraná River runs through Brazil, Paraguay, and Argentina for some 4,880 kilometres (3,030 mi).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Paraná River flows through Santa Fe province in Argentina.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Paraná River joins with the Uruguay River to form the Río de la Plata.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

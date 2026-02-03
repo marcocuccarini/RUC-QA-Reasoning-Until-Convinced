@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which motorcycle company introduced the Jet Ski in 1972. Yamaha",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which motorcycle company introduced the Jet Ski in 1972. Honda",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which motorcycle company introduced the Jet Ski in 1972. Suzuki",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which motorcycle company introduced the Jet Ski in 1972. Kawasaki",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jet Ski is the brand name of a personal watercraft (PWC) manufactured by Kawasaki, a Japanese company.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Released in 1972, the stand-up Kawasaki Jet Ski was the first commercially successful personal watercraft in America (after reaching a license agreement with the inventor of the Sea-Doo, Clayton Jacobson II when his license agreement with Bombardier expired).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first Pope to be appointed in the 21st century. Pope John Paul II",
+      "strength": 0.3677570040648199
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first Pope to be appointed in the 21st century. Pope Benedict XV",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first Pope to be appointed in the 21st century. Pope Pius XII",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first Pope to be appointed in the 21st century. PB16",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pope Benedict XVI was elected in 2005, becoming Pope during the 21st century.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Papal Transition 2005 Web Archive from the US Library of Congress",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

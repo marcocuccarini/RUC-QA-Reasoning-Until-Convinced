@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Camellia sinensis",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Thea assamica",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Camellia japonica",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Tea Plant",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Camellia sinensis is a species of evergreen shrub or small tree in the flowering plant family Theaceae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "C. s. var. assamica is a variety of Camellia sinensis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

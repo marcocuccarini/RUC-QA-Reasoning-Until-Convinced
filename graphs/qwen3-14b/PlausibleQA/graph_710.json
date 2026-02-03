@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the Muse of Comedy. Erato",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the Muse of Comedy. Calliope",
+      "strength": 0.40000000008898207
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the Muse of Comedy. Clio",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the Muse of Comedy. Θάλεια",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Calliope presides over eloquence and epic poetry",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clio is the muse of history, or in a few mythological accounts, the muse of lyre-playing",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Thalia is the Muse of comedy",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Erato is the Muse of love poetry",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

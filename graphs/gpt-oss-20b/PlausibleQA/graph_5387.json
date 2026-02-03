@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which rugby union team position wears shirt number 15. Scrum-Half",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which rugby union team position wears shirt number 15. Fly-Half",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which rugby union team position wears shirt number 15. Centre",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which rugby union team position wears shirt number 15. Fullback",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The scrum-half (number 9) is the link between the forwards and the backs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The fly-half (number 10) is usually the first player to receive the ball from the scrum-half following a breakdown, line-out or scrum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

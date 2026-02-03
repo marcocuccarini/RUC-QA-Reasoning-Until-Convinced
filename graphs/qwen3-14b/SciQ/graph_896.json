@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Elements are the mixture of things that make up matter.",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Segments are the things that make up matter, which is a mixture of things.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Compounds are the mixture of things that make up matter.",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Structures are the mixture of things that matter is made up of.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Less than twenty elements, including the gold, platinum, iron group metals, can sometimes be found uncombined as relatively pure native element minerals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chemical compounds are substances made of atoms of different elements; they can have molecular or non-molecular structure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

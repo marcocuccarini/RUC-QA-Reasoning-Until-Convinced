@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which global confectioner started its business in 1920 making 'gummibärchen'. Haribo",
+      "strength": 0.40000000008380016
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which global confectioner started its business in 1920 making 'gummibärchen'. Ferrero",
+      "strength": 0.4000000909837343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which global confectioner started its business in 1920 making 'gummibärchen'. Perfetti Van Melle",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which global confectioner started its business in 1920 making 'gummibärchen'. Maoam",
+      "strength": 0.40000000008380016
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The company created the first gummy candy in 1922 in the form of little gummy bears called Gummibärchen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Maoam was launched in Germany in 1931.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ferrero (company) is an Italian manufacturer of chocolate.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Perfetti Van Melle was formed in 2001 of the merger of the Italian-based company Perfetti SpA and the Dutch-based company Van Melle NV.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

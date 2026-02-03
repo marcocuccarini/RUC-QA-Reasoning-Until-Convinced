@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. Scotland",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. Norway",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. Iceland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. H-Alba",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The flag of Scotland (Scottish Gaelic: bratach na h-Alba; Scots: Banner o Scotland, also known as St Andrew's Cross or the Saltire) is the national flag of Scotland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Use of the flag is first recorded with the illustration of a heraldic flag in Sir David Lyndsay of the Mount's Register of Scottish Arms, c. 1542.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

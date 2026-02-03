@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. Robert Peel",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. William Gladstone",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. Lord Palmerston",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. Disraeli",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Coningsby, or The New Generation is an English political novel by Benjamin Disraeli, published in 1844.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Coningsby is the first of a trilogy of novels together with Sybil and Tancred.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

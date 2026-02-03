@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It conducts vibrations from the speaker to the receiver, enabling a telephone to transmit sound.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It magnifies a person's voice, which is how a telephone is able to transmit sound.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It carries the sounds through wires, allowing a telephone to transmit sound.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It converts vibrations to electrical signals, enabling a telephone to transmit sound.",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The transmitter converts the sound waves to electrical signals which are sent through the telecommunications system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A telephone converts sound, typically and most efficiently the human voice, into electronic signals that are transmitted via cables and other communication channels to another telephone.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The changing pressure deforms the granules, causing the contact area between each pair of adjacent granules to change, and this causes the electrical resistance of the mass of granules to change. The changes in resistance cause a corresponding change in the current flowing through the microphone, producing the electrical signal.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Dynamic microphones use the same dynamic principle as in a loudspeaker, only reversed. A small movable induction coil, positioned in the magnetic field of a permanent magnet, is attached to the diaphragm. When sound enters through the windscreen of the microphone, the sound wave moves the diaphragm which moves the coil in the magnetic field, producing a varying voltage across the coil through electromagnetic induction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

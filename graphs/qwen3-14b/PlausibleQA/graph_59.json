@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Associated with salmon fishing and whisky production, which is the second longest river in Scotland. Tay",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Associated with salmon fishing and whisky production, which is the second longest river in Scotland. Dee",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Associated with salmon fishing and whisky production, which is the second longest river in Scotland. Don",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Associated with salmon fishing and whisky production, which is the second longest river in Scotland. SPEY",
+      "strength": 0.5048844590790463
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The River Spey is the third longest river in Scotland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The river is an important location for the traditions of salmon fishing and whisky production in Scotland.",
+      "strength": 0.5999031730402274
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Fishing on the Spey",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

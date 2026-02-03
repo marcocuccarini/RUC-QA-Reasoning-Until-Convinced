@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which town stands on the River Aare, between the lakes of Brienz and Thun. Bern",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which town stands on the River Aare, between the lakes of Brienz and Thun. Thun",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which town stands on the River Aare, between the lakes of Brienz and Thun. Brienz",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which town stands on the River Aare, between the lakes of Brienz and Thun. Interlaken",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Interlaken is located on flat alluvial land called Bödeli between two lakes, Brienz to the east and Thun to the west, and alongside the river Aare, which flows between them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The town takes its name from its geographical position between the lakes (in Latin inter lacus).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the largest (by population) landlocked country. Kazakhstan",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the largest (by population) landlocked country. Uzbekistan",
+      "strength": 0.4999051813262246
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the largest (by population) landlocked country. Afghanistan",
+      "strength": 0.4000000909837343
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the largest (by population) landlocked country. FDRE",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kazakhstan has a population of 20 million and one of the lowest population densities in the world, with fewer than 6 people per square kilometre.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kazakhstan is the ninth-largest country by land area and the largest landlocked country.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The country has a population of more than 38.2 million, making it the most populous country in Central Asia.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Uzbekistan is a doubly landlocked country located in Central Asia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

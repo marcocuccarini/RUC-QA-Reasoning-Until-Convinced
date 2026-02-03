@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers played yankees in the world series. 1963",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers played yankees in the world series. 1956",
+      "strength": 0.5999533382175997
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers played yankees in the world series. 1953",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers played yankees in the world series. 1981",
+      "strength": 0.27613314001104267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Yankees and Dodgers did not meet in the World Series between 1981 and 2024",
+      "strength": 0.4000466617824003
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Dodgers returned to the World Series in 2024, defeating the New York Yankees in 5 games",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the Yankees and Dodgers did not meet in the World Series between 1956 and 2000",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the Yankees and Dodgers met in the World Series in 2000",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

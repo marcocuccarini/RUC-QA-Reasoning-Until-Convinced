@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The willow tree belongs to which genus. Alnus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The willow tree belongs to which genus. Populus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The willow tree belongs to which genus. Betula",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The willow tree belongs to which genus. Salix",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Willows, also called sallows and osiers, of the genus Salix, comprise around 350 species",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The type species, i.e., the species on which the genus name is based, is Salix alba",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

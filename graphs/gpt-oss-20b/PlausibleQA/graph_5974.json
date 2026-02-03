@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the world cup in cricket 2017. India",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the world cup in cricket 2017. Australia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the world cup in cricket 2017. England",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the world cup in cricket 2017. Pakistan",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pakistan won the one-sided final by 180 runs, winning their first Champions Trophy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "India beat Bangladesh in the second semi-final, also winning comfortably by 9 wickets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

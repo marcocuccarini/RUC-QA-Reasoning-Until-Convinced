@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hormone secretion is a process by which some one‑celled organisms can reproduce.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metamorphosis is a process by which some one‑celled organisms can reproduce.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fertilization is the process by which some one‑celled organisms can reproduce.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cell division is the process by which some one‑celled organisms reproduce.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For simple unicellular microorganisms such as the amoeba, one cell division is equivalent to reproduction – an entire new organism is created.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In eukaryotes, there are two distinct types of cell division: a vegetative division (mitosis), producing daughter cells genetically identical to the parent cell, and a cell division that produces haploid gametes for sexual reproduction (meiosis), reducing the number of chromosomes from two of each type in the diploid parent cell to one of each type in the daughter cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

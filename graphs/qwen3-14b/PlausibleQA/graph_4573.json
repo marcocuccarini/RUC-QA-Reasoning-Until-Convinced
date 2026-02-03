@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1985 the Fayed brothers purchased which London-based department store. Liberty London",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1985 the Fayed brothers purchased which London-based department store. Selfridges",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1985 the Fayed brothers purchased which London-based department store. Fortnum & Mason",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1985 the Fayed brothers purchased which London-based department store. Harrods",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The business was in turn purchased by the Fayed brothers in 1985 for £615 million.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was acquired by and merged into the House of Fraser in 1959, which itself was acquired by the Fayed brothers and became a privately held company in 1985.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

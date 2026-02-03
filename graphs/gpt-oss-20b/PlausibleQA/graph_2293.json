@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which country. Norway",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which country. Finland",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which country. Poland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which country. SWEDEN",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On the morning of 28 April, radiation levels set off alarms at the Forsmark Nuclear Power Plant in Sweden, over 1,000 kilometres (620 mi) from the Chernobyl Plant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Swedish government contacted the Soviet government to inquire about whether there had been a nuclear accident in the Soviet Union.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

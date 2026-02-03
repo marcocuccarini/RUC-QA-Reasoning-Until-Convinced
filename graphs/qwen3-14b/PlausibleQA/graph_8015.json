@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Staphylococcus and Streptococcus are types of. Bacteria",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Staphylococcus and Streptococcus are types of. Microbes",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Staphylococcus and Streptococcus are types of. Pathogens",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Staphylococcus and Streptococcus are types of. Bacium",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Staphylococcus is a genus of Gram-positive bacteria in the family Staphylococcaceae from the order Bacillales.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Staphylococcus species have been found to be nectar-inhabiting microbes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Streptococcus is a genus of gram-positive spherical bacteria that belongs to the family Streptococcaceae, within the order Lactobacillales (lactic acid bacteria), in the phylum Bacillota.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

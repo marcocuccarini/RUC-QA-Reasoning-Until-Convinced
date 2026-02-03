@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the equivalent rank in the British Army of the German rank Oberst. Brigadier",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the equivalent rank in the British Army of the German rank Oberst. Lieutenant Colonel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the equivalent rank in the British Army of the German rank Oberst. Major General",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the equivalent rank in the British Army of the German rank Oberst. COLONEL",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oberst is a senior field officer rank in several German-speaking and Scandinavian countries, equivalent to Colonel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Oberst in the Bundeswehr is rated OF-5 in NATO, and is grade A16 or B3 in the pay rules of the Federal Ministry of Defence.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

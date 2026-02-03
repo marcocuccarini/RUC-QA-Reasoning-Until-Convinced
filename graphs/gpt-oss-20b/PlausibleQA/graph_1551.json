@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. Ethiopia",
+      "strength": 0.5999999999737298
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. Sudan",
+      "strength": 0.568965649215411
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. South Sudan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. EGY",
+      "strength": 0.7499026150180241
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The following autocephalous churches have strong historical ties to the Coptic Orthodox Church. Ethiopian Orthodox Tewahedo Church",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There are between 150,000 and 200,000 adherents in Sudan.",
+      "strength": 0.40000002740377416
+    },
+    "A6": {
+      "type": "argument",
+      "text": "They live mainly in the United States (500,000), Sudan (400,000-500,000), Australia (75,000), Libya (60,000), Canada (50,000), France (45,000), Italy (30,000), the United Kingdom (25,000–30,000), the United Arab Emirates (10,000) and the Netherlands (10,000).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Copts are a Christian ethnoreligious group native to Northeast Africa who have primarily inhabited the area of modern Egypt since antiquity.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "U.S. Department of State International Religious Freedom Report: Egypt",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

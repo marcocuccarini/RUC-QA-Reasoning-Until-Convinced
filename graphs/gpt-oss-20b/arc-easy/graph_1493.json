@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Worms are the young that hatch from butterfly eggs.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cocoons are the young that butterfly eggs hatch into.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Caterpillars are the young that hatch from butterfly eggs.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Little butterflies are the young that hatch from butterfly eggs.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Caterpillars are the larval stage of members of the order Lepidoptera (the insect order comprising butterflies and moths).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Caterpillars eventually enter a pupal stage before becoming adults.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

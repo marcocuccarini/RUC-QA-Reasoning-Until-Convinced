@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Vanguard 1",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Explorer 1",
+      "strength": 0.4000000000000028
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Luna 1",
+      "strength": 0.25009743799212736
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Sputnik",
+      "strength": 0.5999999998911578
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sputnik 1 was the first artificial Earth satellite. It was launched into an elliptical low Earth orbit by the Soviet Union on 4 October 1957 as part of the Soviet space program.",
+      "strength": 0.4999999999855888
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Explorer 1 was launched on 31 January 1958.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Reds Launch First Space Satellite, 1957/10/07 (1957)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Vanguard 1 was the fourth artificial Earth-orbiting satellite launched, following Sputnik 1, Sputnik 2, and Explorer 1.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The U.S. Navy attempted to put the first U.S. satellite into orbit but failed with the launch of the Vanguard TV-3 on 6 December 1957.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Luna 1 became the first human-made object to reach heliocentric orbit and was dubbed 'Artificial Planet 1' and renamed Mechta (Dream).",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Luna 1 was intended as a Moon impactor, but a malfunction caused it to miss the Moon by 5,900 km and instead enter heliocentric orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

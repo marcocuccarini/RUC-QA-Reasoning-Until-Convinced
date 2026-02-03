@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of German painter Albrecht Durer.. 1500",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of German painter Albrecht Durer.. 1513",
+      "strength": 0.599999961882224
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of German painter Albrecht Durer.. 1494",
+      "strength": 0.599999961882224
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of German painter Albrecht Durer.. 1471-1528",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Very soon after his return to Nuremberg, on 7 July 1494, at the age of 23, Dürer was married to Agnes Frey following an arrangement made during his absence.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "from 1512 was patronized by Emperor Maximilian I.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Albrecht Dürer (1471–1528)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Albrecht Dürer: Vier Bücher von menschlicher Proportion (Nuremberg, 1528)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

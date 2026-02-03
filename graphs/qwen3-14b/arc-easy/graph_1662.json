@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diffraction of light is what a scanning electron microscope is best suited for observing.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tectonic features on planets are best observed using a scanning electron microscope.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The surfaces of small objects are best observed using a scanning electron microscope.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Topographical features on the ocean floor are best observed by a scanning electron microscope.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The number of secondary electrons that can be detected, and thus the signal intensity, depends, among other things, on specimen topography.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Due to the very narrow electron beam, SEM micrographs have a large depth of field yielding a characteristic three-dimensional appearance useful for understanding the surface structure of a sample.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

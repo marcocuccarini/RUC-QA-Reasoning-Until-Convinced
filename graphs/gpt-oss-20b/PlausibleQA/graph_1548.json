@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the green pigment used by plants to trap sunlight. Phyllochrom",
+      "strength": 0.4808809427044085
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the green pigment used by plants to trap sunlight. Chlorogen",
+      "strength": 0.5999215135918218
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the green pigment used by plants to trap sunlight. Viridin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the green pigment used by plants to trap sunlight. Chlorafil",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chlorophyll is any of several related green pigments found in cyanobacteria and in the chloroplasts of algae and plants.",
+      "strength": 0.599999999983906
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chlorophyll allows plants to absorb energy from light.",
+      "strength": 0.5999215135918218
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Chlorophyll fluorescence, to measure plant stress",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Chlorophyll a is a specific form of chlorophyll used in oxygenic photosynthesis.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In the ocean, phytoplankton all contain the chlorophyll pigment, which has a greenish color.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Chlorophyll b is a form of chlorophyll.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Chlorophyll b helps in photosynthesis by absorbing light energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Evaporation is when liquid water changes to water vapor.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Absorption is the process that occurs when liquid water changes to water vapor.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Transpiration is the process when liquid water changes to water vapor.",
+      "strength": 0.5999999622615022
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Evaporation is a type of vaporization that occurs on the surface of a liquid as it changes into the gas phase.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In hydrology, evaporation and transpiration (which involves evaporation within plant stomata) are collectively termed evapotranspiration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Phase transitions commonly refer to when a substance transforms between one of the four states of matter to another.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During a phase transition of a given medium, certain properties of the medium change as a result of the change of external conditions, such as temperature or pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

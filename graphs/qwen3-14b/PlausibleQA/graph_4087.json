@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. Paris Saint-Germain",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. Manchester United",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. AC Milan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. LA Galaxy",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "returned to Galaxy and won the MLS Cup in 2011 and 2012",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Following a four-month stint at Paris Saint-Germain, he retired in May 2013",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Beckham confirmed in November 2012 that he would be leaving the Galaxy at the end of the 2012 MLS season",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In January 2012, after much speculation, Beckham signed a new two-year deal with LA to secure his short-term future at the club",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

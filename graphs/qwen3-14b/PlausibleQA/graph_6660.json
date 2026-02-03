@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won la liga in the last 10 years. Real Madrid",
+      "strength": 0.5999999193046673
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won la liga in the last 10 years. Atletico Madrid",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won la liga in the last 10 years. Valencia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won la liga in the last 10 years. Barcelona",
+      "strength": 0.5999999193046673
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Barcelona won their eighth double, for seven La Liga titles in ten years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Real Madrid brought back the La Liga title under the management of Zinedine Zidane in 2016–17.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Atlético Madrid won La Liga in the 2020–21 season, securing the title with a 2–1 win against Valladolid on 22 May 2021.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

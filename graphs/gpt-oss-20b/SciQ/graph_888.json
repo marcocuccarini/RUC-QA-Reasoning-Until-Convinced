@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Thrust is the force pushing the rocket when the explosion of gases creates pressure that results in the rocket's motion.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Friction is the force that pushes the rocket when an explosion of gases creates pressure that results in the rocket’s motion.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stasis is the force that pushes a rocket when the explosion of gases creates pressure that results in the rocket’s motion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature is the force pushing the rocket when an explosion of gases creates pressure that results in the rocket’s motion.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rocket engines generally produce a high-temperature reaction mass, as a hot gas, which is achieved by combusting a solid, liquid or gaseous fuel with an oxidiser within a combustion chamber.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The effect of the nozzle is to accelerate the mass, converting most of the thermal energy into kinetic energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

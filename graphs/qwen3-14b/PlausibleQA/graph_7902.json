@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which singer-actress played 'Evita' in the 1996 film of that name. Whitney Houston",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which singer-actress played 'Evita' in the 1996 film of that name. Barbra Streisand",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which singer-actress played 'Evita' in the 1996 film of that name. Cher",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which singer-actress played 'Evita' in the 1996 film of that name. MADONNA",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Madonna",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Barbra Streisand remained a front-runner for the lead role",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

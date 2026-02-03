@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 1974 film about a train hijacking starring Walter Matthau and Robert Shaw was remade in 2009 starring John Travolta and Denzel Washington. The Taking of Train 17",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 1974 film about a train hijacking starring Walter Matthau and Robert Shaw was remade in 2009 starring John Travolta and Denzel Washington. Hijack Express",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 1974 film about a train hijacking starring Walter Matthau and Robert Shaw was remade in 2009 starring John Travolta and Denzel Washington. Train of Fear",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 1974 film about a train hijacking starring Walter Matthau and Robert Shaw was remade in 2009 starring John Travolta and Denzel Washington. Pelham 123",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2009 film was directed by Tony Scott and starred Denzel Washington and John Travolta.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The original 1974 film was titled 'The Taking of Pelham One Two Three'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rock is a layer of Earth's hydrosphere.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Air is the layer of Earth's hydrosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lava is a layer of Earth's hydrosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water is Earth's hydrosphere layer.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The hydrosphere is the combined body of water found on, under, and above the surface of a planet, minor planet, or natural satellite.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The hydrosphere includes water in gaseous, liquid and frozen forms as soil moisture, groundwater and permafrost in the Earth's crust (to a depth of 2 km); oceans and seas, lakes, rivers and streams, wetlands, glaciers, ice and snow cover on Earth's surface; vapour, droplets and crystals in the air; and part of living plants, animals and unicellular organisms of the biosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

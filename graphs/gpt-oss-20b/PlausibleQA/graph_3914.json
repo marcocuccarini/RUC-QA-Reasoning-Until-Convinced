@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which word derives from the Greek words for ‘star’ and ‘sailor’. Astronaut",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which word derives from the Greek words for ‘star’ and ‘sailor’. Stellarnav",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which word derives from the Greek words for ‘star’ and ‘sailor’. Cosmonaut",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which word derives from the Greek words for ‘star’ and ‘sailor’. Rednaut",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An astronaut (from the Ancient Greek ἄστρον (astron), meaning 'star', and ναύτης (nautes), meaning 'sailor') is a person trained, equipped, and deployed by a human spaceflight program to serve as a commander or crew member of a spacecraft.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cosmonaut (from the Russian 'kosmos' (космос), meaning 'space', also borrowed from Greek κόσμος).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Magnetism is the force that pulls things toward the center of Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravity is the force that pulls things towards the center of Earth.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Friction pulls things toward the center of Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Energy is the force that pulls things toward the center of Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The force of gravity experienced by objects on Earth's surface is the vector sum of two forces: (a) The gravitational attraction in accordance with Newton's universal law of gravitation, and (b) the centrifugal force, which results from the choice of an earthbound, rotating frame of reference.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Assuming a spherically symmetrical planet, the strength of this field at any given point above the surface is proportional to the planetary body's mass and inversely proportional to the square of the distance from the center of the body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which author?s son was killed in World War I, events depicted in the TV film called My Boy Jack. Rudyard's contemporary, H.G. Wells",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which author?s son was killed in World War I, events depicted in the TV film called My Boy Jack. Wilfred Owen's friend, Siegfried Sassoon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which author?s son was killed in World War I, events depicted in the TV film called My Boy Jack. The famous playwright, George Bernard Shaw",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which author?s son was killed in World War I, events depicted in the TV film called My Boy Jack. Kipling",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John's death has been linked to Kipling's 1916 poem 'My Boy Jack', by the play My Boy Jack and its subsequent television adaptation",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the Kipling family, Jack was the name of the family dog, while John Kipling was always John, making the identification of the protagonist of 'My Boy Jack' with John Kipling questionable",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

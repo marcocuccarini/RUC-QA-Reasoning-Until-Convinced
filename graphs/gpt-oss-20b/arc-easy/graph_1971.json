@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat flows from the tea to the ice when an ice cube is placed in a cup of hot tea.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cold flows from the ice to the tea when an ice cube is placed in a cup of hot tea.",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cold flows from the ice, and heat flows from the tea is the statement that describes the transfer of energy when an ice cube is placed in a cup of hot tea.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Heat flows simultaneously between the ice and the tea when an ice cube is placed in a cup of hot tea.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Such spontaneous heat transfer always occurs from a region of high temperature to another region of lower temperature, as described in the second law of thermodynamics.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When an object is at a different temperature from another body or its surroundings, heat flows so that the body and the surroundings reach the same temperature, at which point they are in thermal equilibrium.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Heat does not spontaneously flow from a colder body to a hotter body.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Heat may be extracted from a system by cooling, expansion, or extraction of matter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

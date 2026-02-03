@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has the most big ten championships in football. Ohio State",
+      "strength": 0.22624452800959874
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has the most big ten championships in football. Penn State",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has the most big ten championships in football. Wisconsin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has the most big ten championships in football. Michigan",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ohio State has won a championship in the Big Ten 39 times, second‑most in the conference.",
+      "strength": 0.5999999475069522
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ohio State vacated 12 wins and its Big Ten title in 2010 due to NCAA sanctions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During the 2005–2006 school year, Ohio State became the first Big Ten team to win conference championships in football, men's basketball and women's basketball.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Penn State has four Big Ten Conference championships in 1994, 2005, 2008 and 2016.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

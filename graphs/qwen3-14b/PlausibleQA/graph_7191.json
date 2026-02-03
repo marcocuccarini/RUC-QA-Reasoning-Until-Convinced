@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The contract of footballer Nicolas Anelka was terminated after he made an offensive gesture, what name was given to the gesture. Nazi Salute",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The contract of footballer Nicolas Anelka was terminated after he made an offensive gesture, what name was given to the gesture. Reverse Hitler",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The contract of footballer Nicolas Anelka was terminated after he made an offensive gesture, what name was given to the gesture. Anti-Establishment Sign",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The contract of footballer Nicolas Anelka was terminated after he made an offensive gesture, what name was given to the gesture. Quenelle",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The quenelle (French: [kə.nɛl]) is a gesture created and popularized by French comedian Dieudonné.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jewish leaders, anti-racism groups, and public officials in France have interpreted it as an inverted Nazi salute and as an expression of antisemitism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

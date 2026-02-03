@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "One meter is the distance at which Daphnee would need to place Earth from the Sun in her solar‑system model, where one meter represents one astronomical unit.",
+      "strength": 0.25009174651106497
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Two meters is the distance Daphnee must place Earth from the Sun in her model, since one meter represents one astronomical unit (AU).",
+      "strength": 0.4000000585968386
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Three meters is the distance from the Sun at which Earth would be placed in Daphnee's model of the solar system, given that she uses a scale of one meter to represent one astronomical unit.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Four meters is the distance Daphnee would need to place Earth from the Sun in her model of the solar system, where one meter represents one astronomical unit.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The astronomical unit is defined as exactly 149597870700 metres.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earth orbits the Sun at an average distance of 149.60 million km (92.96 million mi), or 8.317 light-minutes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what states do not allow daylight savings time. Arizona",
+      "strength": 0.7499118531286132
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what states do not allow daylight savings time. Alaska",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what states do not allow daylight savings time. Florida",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what states do not allow daylight savings time. Hawaii",
+      "strength": 0.7499118531286132
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Arizona is one of two U.S. states, along with Hawaii, that does not observe Daylight Saving Time",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "along with Hawaii, that does not observe Daylight Saving Time",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the United States, Arizona (with the exception of the Navajo Nation), Hawaii, and the five populated territories do not participate in daylight saving time.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the United States, it is observed by all states except Hawaii, Arizona (within the latter, however, the Navajo Nation does observe it), and the U.S. Territories.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

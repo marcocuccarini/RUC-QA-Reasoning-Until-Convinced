@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which actor played the father of the Waltons children. Richard Thomas",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which actor played the father of the Waltons children. Michael Learned",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which actor played the father of the Waltons children. Will Geer",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which actor played the father of the Waltons children. Ralph Waite",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was cast as Zebulon Walton, the family patriarch on The Waltons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "John Walton Sr. (Ralph Waite, seasons 1–8, 8 episodes of season 9 and all movie sequels), the family patriarch.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Zebulon 'Grandpa' Walton (Will Geer, seasons 1–6).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

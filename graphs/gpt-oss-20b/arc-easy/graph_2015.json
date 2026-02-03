@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electronegativity values are used to organize elements on the periodic table.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Atomic mass is the basis on which elements are organized on the periodic table.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Atomic number is the criterion by which elements are organized on the periodic table.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The number of neutrons is what elements are organized on the periodic table according to.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the standard periodic table, the elements are listed in order of increasing atomic number.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When atomic mass is shown, it is usually the weighted average of naturally occurring isotopes; but if no isotopes occur naturally in significant quantities, the mass of the most stable isotope usually appears, often in parentheses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the eagles win last super bowl. 1981",
+      "strength": 0.40000003773849835
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the eagles win last super bowl. 2005",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the eagles win last super bowl. 1995",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the eagles win last super bowl. 2017",
+      "strength": 0.43103430460338665
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Eagles went on to win 41–33, capturing their first Super Bowl Vince Lombardi Trophy in franchise history and their first championship since 1960, ending the third-longest active championship drought in the NFL at 57 years.",
+      "strength": 0.40000003773849835
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Raiders defeated the Eagles 27–10 in Super Bowl XV, the Eagles' first Super Bowl appearance.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Eagles lost 27–21 to the New York Giants in the 1981 NFC wild card game.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Eagles lost to New England in Super Bowl XXXIX (2005)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

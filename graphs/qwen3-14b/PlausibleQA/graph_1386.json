@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was the father of the princes in the tower. Richard III",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was the father of the princes in the tower. George, Duke of Clarence",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was the father of the princes in the tower. Richard, Duke of York",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was the father of the princes in the tower. Edward IV",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Edward V was the son of Edward IV",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Richard, Duke of York was one of the Princes in the Tower",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

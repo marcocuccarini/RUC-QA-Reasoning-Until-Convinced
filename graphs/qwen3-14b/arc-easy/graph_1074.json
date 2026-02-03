@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Insulators are materials that let electrons flow very easily from one atom to another.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Conductors are materials that let electrons flow very easily from one atom to another.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Non-metals are materials that let electrons flow very easily from one atom to another.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Resistors are materials that let electrons flow very easily from one atom to another.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Insulators are non-conducting materials with few mobile charges that support only insignificant electric currents.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Conductors are objects or materials that allow the flow of charge (electric current) in one or more directions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

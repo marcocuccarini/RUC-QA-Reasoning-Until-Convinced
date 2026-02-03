@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the 1962 film ‘Lolita’, what is Lolita’s first name. Louise",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the 1962 film ‘Lolita’, what is Lolita’s first name. Colette",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the 1962 film ‘Lolita’, what is Lolita’s first name. Suzanne",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the 1962 film ‘Lolita’, what is Lolita’s first name. Dolores",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sue Lyon (in her film debut) as Dolores 'Lolita' Haze",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The film is deliberately vague over Lolita's age. Kubrick commented, 'I think that some people had the mental picture of a nine-year-old, but Lolita was twelve and a half in the book; Sue Lyon was thirteen.'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

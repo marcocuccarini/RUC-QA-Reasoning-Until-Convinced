@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the alcoholic ingredient of a Screwdriver cocktail. Rum",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the alcoholic ingredient of a Screwdriver cocktail. Tequila",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the alcoholic ingredient of a Screwdriver cocktail. Gin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the alcoholic ingredient of a Screwdriver cocktail. Vodka",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the UK, it is referred to as a 'vodka and orange'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The drink originated during World War II, when Americans in China and Turkey mixed neutral spirits with orange juice.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

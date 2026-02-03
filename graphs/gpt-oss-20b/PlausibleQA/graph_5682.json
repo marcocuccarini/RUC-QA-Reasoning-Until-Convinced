@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Taphephobia is the fear of losing your teeth. True",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Taphephobia is the fear of losing your teeth. The fear of being buried alive",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Taphephobia is the fear of losing your teeth. A type of dental anxiety",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Taphephobia is the fear of losing your teeth. False",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Taphophobia (from Greek τάφος – taphos, 'grave, tomb' and φόβος – phobos, 'fear') is an abnormal phobia of being buried alive as a result of being incorrectly pronounced dead.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1905, the English reformer William Tebb collected accounts of premature burial.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

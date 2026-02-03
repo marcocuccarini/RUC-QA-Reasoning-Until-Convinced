@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What occasionally Anglicised German word instructs that something is not permitted. Forbidden",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What occasionally Anglicised German word instructs that something is not permitted. Prohibiert",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What occasionally Anglicised German word instructs that something is not permitted. Nicht erlaubt",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What occasionally Anglicised German word instructs that something is not permitted. Verboten",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "verboten, prohibited, forbidden, banned.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "erlaubt, allowed, granted; opposite of verboten.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

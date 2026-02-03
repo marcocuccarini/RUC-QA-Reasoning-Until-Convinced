@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air temperature is the information that could be collected to best illustrate the noticeable patterns of seasonal change in New England.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wind speed is the information that best illustrates the noticeable seasonal changes observed in New England.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amount of precipitation is the best information to collect to illustrate seasonal changes in New England.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Number of cloudy days is the information that can best illustrate the noticeable patterns of seasonal change in New England.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Annual rainfall is typically spread evenly throughout the year, although droughts have historically been most common during the summer months.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In this region, summers can be quite long and hot, with humid, tropical air masses common between May and September.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In Campinas, the daily temperature range in July (the coolest month of the year) may typically vary between 10 and 24 °C (range of 14 °C), while in January, it may range between 20 and 30 °C (range of 10 °C).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

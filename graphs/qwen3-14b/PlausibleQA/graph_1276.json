@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pearl is composed of minute crystals of which compound. Silicon Dioxide (SiO2)",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pearl is composed of minute crystals of which compound. Magnesium Carbonate (MgCO3)",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pearl is composed of minute crystals of which compound. Aluminum Oxide (Al2O3)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pearl is composed of minute crystals of which compound. Caco3",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nacre is composed of hexagonal platelets, called tablets, of aragonite (a form of calcium carbonate) 10–20 μm wide and 0.5 μm thick arranged in continuous parallel lamina.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "a pearl is composed of calcium carbonate (mainly aragonite or a mixture of aragonite and calcite) in minute crystalline form",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the mollusk's mantle deposits layers of calcium carbonate (CaCO3) in the form of the mineral aragonite or a mixture of aragonite and calcite",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

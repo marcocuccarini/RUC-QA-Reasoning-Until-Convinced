@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Cunard liner launched in 1903 rescued 705 survivors of the Titanic disaster in 1912. RMS Adriatic",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Cunard liner launched in 1903 rescued 705 survivors of the Titanic disaster in 1912. RMS Olympic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Cunard liner launched in 1903 rescued 705 survivors of the Titanic disaster in 1912. RMS Lusitania",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Cunard liner launched in 1903 rescued 705 survivors of the Titanic disaster in 1912. Carpathia",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carpathia made her maiden voyage in 1903 from Liverpool to Boston",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the crew rescued 712 survivors from the ship's lifeboats",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Carpathia (ship, 1903)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth has no natural satellites, distinguishing it from the other planets in the solar system that formed at about the same time from a large cloud of gas and dust and possess natural satellites.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earth's atmosphere is composed of gases, distinguishing it from other planets that formed at about the same time from a large cloud of gas and dust.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water is found in all three phases on Earth, distinguishing it from other planets that formed at about the same time from a large cloud of gas and dust.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Volcanoes release liquid rock onto Earth's surface, a feature that distinguishes Earth from the other planets that formed at the same time from a large cloud of gas and dust.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At the triple point, ice can exist together with both liquid water and vapor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Up to 99.63 °C (the boiling point of water at 0.1 MPa), at this pressure water exists as a liquid. Above that, it exists as water vapor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

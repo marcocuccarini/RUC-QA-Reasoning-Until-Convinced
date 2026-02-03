@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The 2010 Six Nations Championship, the 11th series of an annual rugby union competition contested by the six major Northern Hemisphere rugby union national teams, was won by France. Which nation won it in 2009 and came second in 2010 and 2011. England",
+      "strength": 0.15387655104822404
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The 2010 Six Nations Championship, the 11th series of an annual rugby union competition contested by the six major Northern Hemisphere rugby union national teams, was won by France. Which nation won it in 2009 and came second in 2010 and 2011. Scotland",
+      "strength": 0.47048888953684187
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The 2010 Six Nations Championship, the 11th series of an annual rugby union competition contested by the six major Northern Hemisphere rugby union national teams, was won by France. Which nation won it in 2009 and came second in 2010 and 2011. Wales",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The 2010 Six Nations Championship, the 11th series of an annual rugby union competition contested by the six major Northern Hemisphere rugby union national teams, was won by France. Which nation won it in 2009 and came second in 2010 and 2011. Airlan",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ireland won the 2009 Six Nations Championship.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "England finished as runners-up.",
+      "strength": 0.25004740209554943
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ireland, 2009 Grand Slam winners, came second with three victories and two defeats.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "England and Wales came third and fourth respectively with two victories each.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "England won the championship after winning four out of their five matches, losing against Ireland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

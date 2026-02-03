@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. **Carte Blanche Club International**",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. **Travelers Club International**",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. **Diners Club International** is excluded as per the prompt, so let's consider **Esso Club International**",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. Dinor",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Diners Club International was the first independent payment card company in the world, successfully establishing the financial card service of issuing travel and entertainment (T&E) credit cards as a viable business.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The idea for Diners Club was conceived at the Majors Cabin Grill restaurant in New York City in 1949.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

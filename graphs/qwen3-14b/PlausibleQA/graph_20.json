@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Ibuprofen",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Nitroglycerin",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Oxygen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Aspirin",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Patients experiencing angina when doing certain physical activities can often prevent symptoms by taking nitroglycerin 5 to 10 minutes before the activity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nitroglycerin is probably most commonly prescribed for angina pectoris, a painful symptom of ischemic heart disease caused by inadequate flow of blood and oxygen to the heart",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

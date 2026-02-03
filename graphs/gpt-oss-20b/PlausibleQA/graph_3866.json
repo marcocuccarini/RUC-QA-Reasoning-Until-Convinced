@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Tetanus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Gas Gangrene",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Food Poisoning",
+      "strength": 0.7499999027986369
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Botulism",
+      "strength": 0.8460568465073258
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Botulism is a rare and potentially fatal illness caused by botulinum toxin, which is produced by the bacterium Clostridium botulinum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Toxin that is produced by the bacterium in containers of food that have been improperly preserved is the most common cause of food-borne botulism.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Botulinum toxin can cause botulism, a severe flaccid paralytic disease in humans and other animals.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Clostridium botulinum is responsible for food-borne botulism (ingestion of preformed toxin), infant botulism (intestinal infection with toxin-forming C. botulinum), and wound botulism (infection of a wound with C. botulinum).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The rare but potentially deadly disease botulism occurs when the anaerobic bacterium Clostridium botulinum grows in improperly canned low-acid foods and produces botulin, a powerful paralytic toxin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

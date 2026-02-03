@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dead organisms are the source from which most fungi obtain organic compounds.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Inorganic material is what most fungi get organic compounds from.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Living organisms are the source from which most fungi obtain organic compounds.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carnivorous organisms are the source from which most fungi obtain organic compounds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Saprotrophic nutrition is a process of chemoheterotrophic extracellular digestion involved in the processing of decayed (dead or waste) organic matter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cellulose, a major portion of plant cells, and therefore a major constituent of decaying matter is broken down into glucose",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

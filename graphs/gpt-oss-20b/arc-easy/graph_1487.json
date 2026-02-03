@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "100% tall is the phenotype of a cross between a homozygous dominant tall plant and a homozygous recessive short plant.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "100% short plants are the phenotype of a cross between a homozygous dominant tall plant and a homozygous recessive short plant.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "25% short, 75% tall is the phenotype of a cross between a homozygous dominant tall plant and a homozygous recessive short plant.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "50% short, 50% tall plants are the phenotype of a cross between a homozygous dominant tall plant and a homozygous recessive short plant.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All the peas produced in the second or hybrid generation were round.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All the peas of this F1 generation have an Rr genotype.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many languages do they speak in switzerland. Four Languages",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many languages do they speak in switzerland. Five Languages",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many languages do they speak in switzerland. Three Languages",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many languages do they speak in switzerland. French Language",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The four national languages of Switzerland are German, French, Italian, and Romansh.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Latin is occasionally used in some formal contexts, particularly to denote the country (Confoederatio Helvetica).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

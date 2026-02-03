@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what was thomas jefferson role in the declaration of independence. Draftsman",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what was thomas jefferson role in the declaration of independence. Editor",
+      "strength": 0.599938874723849
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what was thomas jefferson role in the declaration of independence. Committee Member",
+      "strength": 0.5999999414031619
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what was thomas jefferson role in the declaration of independence. Writer",
+      "strength": 0.749908253488935
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jefferson was the primary author of the Declaration of Independence.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jefferson was chosen by the Committee of Five to author the Declaration of Independence.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Jefferson then consulted the other members of the Committee of Five who offered minor changes, and then produced another copy incorporating these alterations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

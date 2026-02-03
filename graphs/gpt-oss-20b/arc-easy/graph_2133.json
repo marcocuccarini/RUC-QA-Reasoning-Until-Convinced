@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mass of 372 g is a chemical property of a substance.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ability to react with HCl is a chemical property of a substance.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Density of 37 g/cm³ is a chemical property of a substance.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White powder with silver specks is a chemical property of a substance.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A cup might have the physical properties of mass, shape, color, temperature, etc.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Physical properties are contrasted with chemical properties which determine the way a material behaves in a chemical reaction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

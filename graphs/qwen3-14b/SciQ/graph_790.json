@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Autoinducers are the small molecules or proteins produced by bacteria that regulate gene expression.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fluxes are the small molecules or proteins produced by bacteria that regulate gene expression.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Protazoas are the small molecules or proteins produced by bacteria that regulate gene expression.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sporozoans are the small molecules or proteins produced by bacteria that regulate gene expression.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A bacterium’s detection of an autoinducer above some minimum threshold triggers altered gene expression.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In turn, autoinducer-bound RhlR activates a second class of genes involved in later stages of infection, including genes needed for antibiotic production.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Complete the name of the Church of England diocese: 'Bath and .....'. Bath and Salisbury",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Complete the name of the Church of England diocese: 'Bath and .....'. Bath and Bristol",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Complete the name of the Church of England diocese: 'Bath and .....'. Bath and Gloucester",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Complete the name of the Church of England diocese: 'Bath and .....'. WELLS",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Diocese of Bath and Wells is a diocese in the Church of England Province of Canterbury in England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Pope declared, on 3 January 1245, that whilst Roger should remain, he would be bishop of a see thenceforth styled the Diocese of Bath and Wells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stem cells are adult cells in which telomerase is typically active, along with germ cells.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Human growth hormone is typically active in germ cells and adult.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chromosomes are the adult structures in which telomerase is typically active, along with germ cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sex cells are the adult cells in which telomerase is typically active, just as it is active in germ cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In adults, telomerase is highly expressed only in cells that need to divide regularly, especially in male sperm cells, but also in epidermal cells, in activated T cell and B cell lymphocytes, as well as in certain adult stem cells",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Epithelial stem cell tissue and its early daughter cells are the only noncancerous cells in which hTERT can be detected",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diffusion is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Osmosis is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Deposition is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transfusion is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Signaling molecules known as paracrine factors diffuse over a relatively short distance (local action).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Signaling molecules known as paracrine factors diffuse over a relatively short distance (local action), as opposed to cell signaling by endocrine factors, hormones which travel considerably longer distances via the circulatory system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

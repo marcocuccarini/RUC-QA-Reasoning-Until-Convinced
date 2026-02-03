@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hail are groups of tiny droplets of water seen floating in the air that can give scientists a clue about the weather.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rain are groups of tiny droplets of water floating in the air that can give scientists a clue about the weather.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A front is a group of tiny droplets of water floating in the air that can give scientists a clue about the weather.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A cloud is a group of tiny droplets of water floating in the air that can give scientists a clue about the weather.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In meteorology, a cloud is an aerosol consisting of a visible mass of miniature liquid droplets, ice crystals, or other particles, suspended in the atmosphere of a planetary body or similar space.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Virga is a feature seen with clouds producing precipitation that evaporates before reaching the ground.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

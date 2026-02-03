@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun causes surface ocean currents.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The wind is the factor that causes surface ocean currents.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is the factor that causes surface ocean currents.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hurricanes cause surface ocean currents.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Surface ocean currents are driven by wind systems.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ocean currents are driven by the gravitational pull of the Moon in the form of tides.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

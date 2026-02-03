@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Swimming Pool",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Aquatic Center",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Indoor Pool",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Spa pool",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Once known as 'natatoriums', indoor pools are located inside a building with a roof and are insulated by at least three walls.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some colleges, universities, and high schools have buildings that use the term 'natatorium' in their names, especially when the building houses more than just a swimming pool, for example a diving well or facilities for water polo.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A swimming pool, swimming bath, wading pool, paddling pool, or simply pool, is a man-made structure designed to hold water to enable swimming and associated activities.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Efficient dehumidification in the indoor pool environment prevents structural damage, lowers energy costs for cooling or heating, and improves the indoor climate to provide a comfortable swimming environment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

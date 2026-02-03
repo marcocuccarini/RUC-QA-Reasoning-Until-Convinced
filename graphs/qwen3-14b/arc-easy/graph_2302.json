@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Less water is the factor most likely to cause the number of rabbits living in an area to increase.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fewer predators is the factor most likely to cause the number of rabbits living in an area to increase.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lack of shelter is the factor most likely to cause the number of rabbits living in an area to increase.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Limited food is the factor most likely to cause the number of rabbits living in an area to increase.",
+      "strength": 0.1539393500995737
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Exponential growth takes on the assumption that there is unlimited resources and no predation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Density-dependent factors influence the carrying capacity are predation, harvest, and genetics, so when selecting the carrying capacity it is important to understand to look at the predation or harvest rates that influence the population (Stewart 2004).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "What determines a specific system's carrying capacity involves a limiting factor; this may be available supplies of food or water...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

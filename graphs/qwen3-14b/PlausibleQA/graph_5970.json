@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who controlled the house and the senate in 2012. Republican",
+      "strength": 0.27634682555000595
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who controlled the house and the senate in 2012. Libertarian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who controlled the house and the senate in 2012. Independent",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who controlled the house and the senate in 2012. Democratic",
+      "strength": 0.27634682555000595
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The House was controlled by the Republican Party in 2012, while the Senate was controlled by the Democratic Party.",
+      "strength": 0.8999596082811909
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Democrats gained Republican-held seats in Massachusetts and Indiana and one from an Independent Democrat in Connecticut, leaving them with a total of 53 seats.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Both Independents would caucus with the Democrats, forming a majority caucus with a combined total of 55 seats.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Democrats picked up eight seats in the House of Representatives but failed to gain a majority, despite winning the popular vote.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Democrats retained control of the Senate, picking up two net seats in the election.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

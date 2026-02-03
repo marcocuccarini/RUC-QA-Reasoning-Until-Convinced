@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Japanese condiment wasabi is produced from what part of the the wasabi plant. Leaf",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Japanese condiment wasabi is produced from what part of the the wasabi plant. Stem",
+      "strength": 0.749902642362152
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Japanese condiment wasabi is produced from what part of the the wasabi plant. Flower",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Japanese condiment wasabi is produced from what part of the the wasabi plant. Root",
+      "strength": 0.5999999999403536
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The part used for wasabi paste has been characterized as the rhizome or the stem, or the 'rhizome plus the base part of the stem'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wasabi is grown for its rhizomes, which are ground into a paste as a pungent condiment for sushi and other foods.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wasabizuke is made of wasabi leaves pickled in sake lees.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Some rhizomes that are used directly in cooking include ginger, turmeric, galangal, fingerroot, lotus and wasabi.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

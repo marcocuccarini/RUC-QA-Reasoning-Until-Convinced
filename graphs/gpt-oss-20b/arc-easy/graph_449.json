@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The father only is the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The mother only is the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The mother and the father are the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Neither the mother nor the father is the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Each gamete contributes half of the genetic material of the zygote.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The nuclei from the gametes fuse.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

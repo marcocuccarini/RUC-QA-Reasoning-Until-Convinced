@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what 's the nba record for most points in a half. 61",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what 's the nba record for most points in a half. 58",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what 's the nba record for most points in a half. 62",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what 's the nba record for most points in a half. 59",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The NBA record for most points in a half is 62, achieved by Wilt Chamberlain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The NBA record for most points in a half is 62, not 61.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The NBA record for most points in a half is 62, so 58 is incorrect.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The NBA record for most points in a half is 62, therefore 59 is not correct.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

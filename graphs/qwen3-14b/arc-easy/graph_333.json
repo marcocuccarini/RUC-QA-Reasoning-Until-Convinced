@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The moon and Earth are the representations that a model must include to best demonstrate the cause of the phases of the moon, as investigated by science students.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The moon and the sun are the representations that a model should include to best demonstrate the cause of the phases of the moon, which science students investigated.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The moon, the sun, and Earth are the representations that would best demonstrate the cause of the phases of the moon in the model investigated by science students.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The moon, the sun, and Venus are the representations that the model should include to best demonstrate the cause of the phases of the moon, as investigated by science students.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The phases of the Moon are caused by the angle of the Sun in relation to the Moon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The phases of the Moon are not caused by the Earth's shadow falling on the Moon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The asteroid belt includes Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Andromeda Galaxy includes Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The solar system includes Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Eagle Nebula is not a location that includes Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The inner Solar System includes Mercury, Venus, Earth, Mars, and the bodies in the asteroid belt.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The asteroid belt is located between Mars's and Jupiter's orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

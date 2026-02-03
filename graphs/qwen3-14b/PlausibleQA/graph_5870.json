@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who always holds the title of the Supreme Governor of the Church of England. The Archbishop of Canterbury",
+      "strength": 0.19522988688231643
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who always holds the title of the Supreme Governor of the Church of England. The Prime Minister of the UK",
+      "strength": 0.4000000000106806
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who always holds the title of the Supreme Governor of the Church of England. The Bishop of London",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who always holds the title of the Supreme Governor of the Church of England. UK Queen",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The position is vested in the British monarch.",
+      "strength": 0.7499366568683941
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Act of Supremacy 1534 confirmed the king's status as having supremacy over the church.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The British monarch (currently Charles III) is the supreme governor, and the archbishop of Canterbury (vacant since 7 January 2025, after the resignation of Justin Welby) is the most senior cleric.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The canon law of the Church of England states, 'We acknowledge that the King's most excellent Majesty, acting according to the laws of the realm, is the highest power under God in this kingdom, and has supreme authority over all persons in all causes, as well ecclesiastical as civil.'",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "the British sovereign is the supreme governor of the church",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

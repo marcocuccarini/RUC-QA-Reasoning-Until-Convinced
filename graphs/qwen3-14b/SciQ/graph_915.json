@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deinonychus is the dinosaur genus closest to modern birds.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sauropods are the dinosaur genus closest to modern birds.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diplodocus is the dinosaur genus that's closest to modern birds.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rapter is the dinosaur genus that is closest to modern birds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "dromaeosaurids (including Velociraptor and Deinonychus, which are remarkably similar in form to one of the oldest known birds, Archaeopteryx)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the evolution of birds from other theropod dinosaurs has also been reported, with some of the linking features being the furcula (wishbone), pneumatized bones, brooding of the eggs, and (in coelurosaurs, at least) feathers",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

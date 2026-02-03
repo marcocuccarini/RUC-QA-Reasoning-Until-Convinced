@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Thermal energy is the term for the total kinetic energy of moving particles of matter.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Heavy energy is the term for the total kinetic energy of moving particles of matter.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mechanical energy is the term for the total kinetic energy of moving particles of matter.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Newton's energy is the term for the total kinetic energy of moving particles of matter.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In a statistical mechanical account of an ideal gas, in which the molecules move independently between instantaneous collisions, the internal energy is just the sum total of the gas's independent particles' kinetic energies, and it is this kinetic motion that is the source and the effect of the transfer of heat across a system's boundary.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term 'thermal energy' is often used ambiguously in physics and engineering. It can denote several different physical concepts, including: Internal energy: The energy contained within a body of matter or radiation, excluding the potential energy of the whole system. Heat: Energy in transfer between a system and its surroundings by mechanisms other than thermodynamic work and transfer of matter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

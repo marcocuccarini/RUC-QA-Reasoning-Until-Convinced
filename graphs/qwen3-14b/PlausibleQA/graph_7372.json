@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Harvard University",
+      "strength": 0.5999999224687765
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Brigham Young University",
+      "strength": 0.5999999224687765
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Stanford University",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Cranbrook Schools",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Romney graduated from Harvard in 1975.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Romney graduated with a Bachelor of Arts in English from Brigham Young University (BYU) in 1971.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cranbrook Schools is a private PK–12 educational institution",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

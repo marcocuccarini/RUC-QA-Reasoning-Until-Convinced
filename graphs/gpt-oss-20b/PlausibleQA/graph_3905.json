@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which organisation, which has its Headquarters in Paris, was established on 16 November 1945. OECD",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which organisation, which has its Headquarters in Paris, was established on 16 November 1945. International Energy Agency",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which organisation, which has its Headquarters in Paris, was established on 16 November 1945. European Space Agency",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which organisation, which has its Headquarters in Paris, was established on 16 November 1945. Unesko",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The UNESCO headquarters is located at Place de Fontenoy in Paris, France.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A United Nations Conference for the establishment of an educational and cultural organization (ECO/CONF) was convened in London from 1 to 16 November 1945 with forty-four governments represented.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

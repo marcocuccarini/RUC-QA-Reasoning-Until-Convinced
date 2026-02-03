@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Weathering is the process in which freezing and expanding water in cracks of rocks causes the rocks to break apart.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Deposition is the process that describes the freezing and expanding of water in the cracks of rocks.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Faulting is the process of freezing and expanding water in the cracks of rocks.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Erosion is the process of freezing and expanding water in the cracks of rocks.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When water freezes, its volume increases by 9.2%.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ice will simply expand out of a straight open fracture before it can generate significant pressure, thus frost wedging can only take place in small tortuous fractures.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At a temperature of -22 °C, ice growth is known to be able to generate pressures of up to 207 MPa, more than enough to fracture any rock.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The ice crystal growth weakens the rocks which, in time, break up.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

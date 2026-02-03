@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country is the city of Kandahar. Pakistan",
+      "strength": 0.11351787438032265
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country is the city of Kandahar. India",
+      "strength": 0.2913795465652301
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country is the city of Kandahar. Iran",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country is the city of Kandahar. IROA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kandahar is a city in Afghanistan",
+      "strength": 0.84615379307251
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Shrine of the Cloak in Kandahar, a city founded by Alexander the Great and the first capital of Afghanistan.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The other large cities are located generally in the 'ring' around the Central Highlands, namely Kandahar in the south, Herat in the west, Mazar-i-Sharif, Kunduz in the north, and Jalalabad in the east.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The provincial capital is the city of Kandahar, which functions as the main administrative, economic, and cultural center of southern Afghanistan.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The only cities in Afghanistan with over 1 million people are the country's capital, Kabul, and the city of Kandahar.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is the best conductor of electricity.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cork is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water is the best conductor of electricity, as requested by the question \"Which would be the best conductor of electricity?\"",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Silver is the best conductor of electricity.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Silver, although it is the least resistive metal known, has a high density and performs similarly to copper by this measure, but is much more expensive.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A vacuum does not conduct electricity at all.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

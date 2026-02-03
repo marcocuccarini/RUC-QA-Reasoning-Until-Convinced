@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fungi are disease-causing types of organisms, such as Candida and Trichophyton, that become parasitic.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Yeast are disease‑causing types of organisms, such as Candida and Trichophyton, that become parasitic.",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacteria are disease-causing types of organisms that become parasitic, exemplified by Candida and trichophyton.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Viruses are the disease‑causing types of organisms that become parasitic, and Candida and Trichophyton are examples.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Candida is a genus of yeasts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is the most common cause of fungal infections worldwide and the largest genus of medically important yeasts.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Trichophyton ... includes the parasitic varieties that cause tinea, including athlete's foot, ringworm, jock itch, and similar infections of the nail, beard, skin and scalp.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The fungi can easily spread to other areas of the body as well and to the host's home environs (socks, shoes, clothes, showers, bathtubs, counters, floors, carpets, etc.).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

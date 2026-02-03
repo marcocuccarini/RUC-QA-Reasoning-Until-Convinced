@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. Richard Nixon",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. John F. Kennedy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. Franklin D. Roosevelt",
+      "strength": 0.4000000909837343
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. LBJ",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Franklin Delano Roosevelt died on April 12, 1945",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lyndon B. Johnson died on January 22, 1973",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Enzymes serve as catalysts for reactions that break large food molecules into smaller useful molecules.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vitamins serve as catalysts for reactions that break large food molecules into smaller useful molecules.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lipids are substances that serve as catalysts for reactions that break large food molecules into smaller useful molecules.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nucleotides serve as catalysts for reactions that break large food molecules into smaller useful molecules.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Enzymes such as amylases and proteases break down large molecules (starch or proteins, respectively) into smaller ones, so they can be absorbed by the intestines.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An enzyme is a biological macromolecule, usually a protein, that acts as a biological catalyst, accelerating chemical reactions without being consumed in the process.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

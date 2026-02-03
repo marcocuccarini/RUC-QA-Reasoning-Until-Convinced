@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The collection of waste material is the process that most controls the passage of oxygen into and out of capillaries, whose walls are only one layer of cells thick.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Breakdown of materials is the process that controls the passage of oxygen into and out of the capillaries, given that capillary walls are only one layer of cells thick.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diffusion of material is the process that controls the passage of oxygen into and out of capillaries, whose walls are only one cell layer thick.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Storage of materials is the process that most controls the passage of oxygen into and out of capillaries, which are only one layer of cells thick.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Molecules smaller than 3 nm such as water and gases cross the capillary wall through the space between cells in a process known as paracellular transport.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other substances which cross capillaries include water, oxygen, carbon dioxide, urea, glucose, uric acid, lactic acid and creatinine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

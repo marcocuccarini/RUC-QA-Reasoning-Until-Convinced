@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who carried florida by 537 votes in 2000. Al Gore",
+      "strength": 0.25000003759877515
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who carried florida by 537 votes in 2000. Ralph Nader",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who carried florida by 537 votes in 2000. Pat Buchanan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who carried florida by 537 votes in 2000. Bush",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the final official Florida count gave the victory to Bush by 537 votes",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the result in Florida was decisive, regardless of how those two states had voted",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the highly controversial 5–4 U.S. Supreme Court decision Bush v. Gore, which ended the recount with Bush winning Florida by 537 votes",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the Florida recount and subsequent litigation resulted in major post-election controversy, with some analysis suggesting that limited county-based recounts would have confirmed a Bush victory",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

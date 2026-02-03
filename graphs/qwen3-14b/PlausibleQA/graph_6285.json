@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ornette Coleman, Louis Armstrong and Charles Mingus are associated with what style of music. Blues",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ornette Coleman, Louis Armstrong and Charles Mingus are associated with what style of music. Improvisational",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ornette Coleman, Louis Armstrong and Charles Mingus are associated with what style of music. Avant-Garde",
+      "strength": 0.599999942563457
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ornette Coleman, Louis Armstrong and Charles Mingus are associated with what style of music. Jazz",
+      "strength": 0.749902584985255
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The bassist Charles Mingus is also frequently associated with the avant-garde in jazz",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first major stirrings came in the 1950s with the early work of Ornette Coleman",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Charles Mingus was an American jazz upright bassist, composer, bandleader, pianist, and author.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Mingus was a pioneer in double bass technique and a major proponent of collective improvisation, similar to the old New Orleans jazz parades.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

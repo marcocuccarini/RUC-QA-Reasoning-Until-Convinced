@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The climate was once colder is inferred from the discovery of fossils of ocean shells on a mountain top.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The shells were carried by the wind, which explains why a scientist found fossils of ocean shells on a mountain top.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The mountain was covered by water, as indicated by a scientist finding fossils of ocean shells on its top.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The shells once lived on dry land is a statement that can be made based on a scientist finding fossils of ocean shells on a mountain top.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Another compounding factor was that fossils of apparently marine animals were found in parts of the world that were well above sea-level.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The fossils available to Steno, da Vinci, and others mentioned above were primarily the easily-identifiable shells of marine animals",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

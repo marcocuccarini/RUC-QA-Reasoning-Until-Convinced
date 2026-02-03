@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the lowest level of the atmosphere, which lies below the stratosphere, called. Atmosphera",
+      "strength": 0.49497191766011145
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the lowest level of the atmosphere, which lies below the stratosphere, called. Aerthys",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the lowest level of the atmosphere, which lies below the stratosphere, called. Stratum",
+      "strength": 0.20491809495953506
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the lowest level of the atmosphere, which lies below the stratosphere, called. Troposhere",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For Earth, Mars, and Venus, the lowest level of the atmosphere is the troposphere.",
+      "strength": 0.5999999999946962
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The troposphere is the layer where most of Earth's weather takes place.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The troposphere is the lowest layer of Earth's atmosphere.",
+      "strength": 0.5999999814460864
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The troposphere extends from Earth's surface to an average height of about 12 km.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The troposphere contains roughly 80% of the mass of Earth's atmosphere.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The stratosphere is located above the troposphere.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "All air entering the stratosphere must pass through the tropopause, the temperature minimum that divides the troposphere and stratosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

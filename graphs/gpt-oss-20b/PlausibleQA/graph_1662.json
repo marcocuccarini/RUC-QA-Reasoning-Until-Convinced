@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of leaves does a koala feed on. Eucalyptus Leaf Tree",
+      "strength": 0.6323528619130117
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of leaves does a koala feed on. Australian Oak",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of leaves does a koala feed on. Paperbark Tree",
+      "strength": 0.5999999999860085
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of leaves does a koala feed on. Gum-tree",
+      "strength": 0.8460569284102882
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Koalas are herbivorous, and while most of their diet consists of eucalypt leaves, they can be found in trees of other genera, such as Acacia, Allocasuarina, Callitris, Leptospermum, and Melaleuca.",
+      "strength": 0.5999999854049745
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They can be found in trees of other genera, such as Acacia, Allocasuarina, Callitris, Leptospermum, and Melaleuca.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For koalas, these compounds are the most important factor in leaf choice.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Several marsupial herbivores, notably koalas and some possums, are relatively tolerant of it.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Eucalyptus, which includes the majority of species of gum trees.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Nyssa sylvatica, common names include blackgum, sour gum.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Corymbia, which includes the ghost gums and spotted gums",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Tristaniopsis laurina, common names include water gum",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

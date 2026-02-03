@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. Brain",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. Lungs",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. Liver",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. heart",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The normal resting heart rate is called the sinus rhythm, created and sustained by the sinoatrial node, a group of pacemaking cells found in the wall of the right atrium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pacemaker cells make up 1% of cells and form the conduction system of the heart.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What animated character does Gene Kelly dance with in the film Anchors Aweigh. Bugs Bunny",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What animated character does Gene Kelly dance with in the film Anchors Aweigh. Mickey Mouse",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What animated character does Gene Kelly dance with in the film Anchors Aweigh. Tom Cat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What animated character does Gene Kelly dance with in the film Anchors Aweigh. Jerry Mouse",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the 1945 Gene Kelly MGM musical film Anchors Aweigh, Jerry appears as the young ruler of a kingdom where music is banned because he feels he lacks talent, and Kelly persuades the mouse into performing a song-and-dance number with him.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kelly and MGM had originally wanted Walt Disney's Mickey Mouse as Kelly's dance partner for the sequence, but Disney was unwilling to license the character.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

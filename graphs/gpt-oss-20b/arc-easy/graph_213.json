@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Aquifers are too high up in the mountains, which is why it is not safe to place a fuel depot over them.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The weight of the depot is too great over the aquifer, making it unsafe to place a fuel depot on top of an aquifer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The fumes escaping from the fuel depot are explosive, making it unsafe to place a fuel depot over an aquifer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If the fuel leaks, the water in the aquifer will become contaminated is the reason why it is not safe practice to place a fuel depot over an aquifer.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Groundwater contamination is a risk, especially for karst aquifers, where rapid flow makes them more sensitive.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The rapid groundwater flow rates in karst aquifers make them more sensitive to groundwater contamination than porous aquifers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

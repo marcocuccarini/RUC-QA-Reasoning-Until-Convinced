@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What U.S. state holds the first presidential primary. Iowa",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What U.S. state holds the first presidential primary. South Carolina",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What U.S. state holds the first presidential primary. Nevada",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What U.S. state holds the first presidential primary. US-NH",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "New Hampshire has held the first primary in each presidential campaign since 1920.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2023, the Democratic National Committee approved a calendar that would make New Hampshire the second Democratic primary to be held in 2024.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Iowa traditionally holds its race first during the presidential primary and caucuses season",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Iowa caucuses are noteworthy as the first major contest of the United States presidential primary season",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

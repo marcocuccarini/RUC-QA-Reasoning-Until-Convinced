@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous racehorse won Australia’s Melbourne Cup in 1930. Wotan",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous racehorse won Australia’s Melbourne Cup in 1930. Nightmarch",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous racehorse won Australia’s Melbourne Cup in 1930. Dalray",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous racehorse won Australia’s Melbourne Cup in 1930. Phar",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nightmarch won the Melbourne Cup in 1929.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nightmarch was the first horse to win both the Melbourne Cup and Cox Plate in the same year (1929), a feat repeated by Phar Lap the following year (1930), fellow New Zealand racehorse Rising Fast in 1954, Saintly in 1996 and Makybe Diva in 2005.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

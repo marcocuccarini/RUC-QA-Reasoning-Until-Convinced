@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What main category of machines 'produce continuous power from a wheel/rotor, usually with vanes, revolved by fast flowing fluid'. Pump",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What main category of machines 'produce continuous power from a wheel/rotor, usually with vanes, revolved by fast flowing fluid'. Fan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What main category of machines 'produce continuous power from a wheel/rotor, usually with vanes, revolved by fast flowing fluid'. Propeller",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What main category of machines 'produce continuous power from a wheel/rotor, usually with vanes, revolved by fast flowing fluid'. Turbine",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A turbine is a rotary mechanical device that extracts energy from a fluid flow and converts it into useful work.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A turbine is a turbomachine with at least one moving part called a rotor assembly, which is a shaft or drum with blades attached.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose last opera was Falstaff. Mozart",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose last opera was Falstaff. Rossini",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose last opera was Falstaff. Donizetti",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose last opera was Falstaff. VERDI",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Falstaff, Verdi's only comedy apart from the early, ill-fated Un giorno di regno.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The last two operas, Otello and Falstaff, together with the Requiem and the Four Sacred Pieces, then represent a 'final' period.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

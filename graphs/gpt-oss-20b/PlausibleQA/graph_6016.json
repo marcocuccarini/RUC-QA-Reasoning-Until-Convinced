@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the first and second major religions in france. Catholicism",
+      "strength": 0.6323529410679068
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the first and second major religions in france. Protestantism",
+      "strength": 0.40000000001413194
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the first and second major religions in france. Judaism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the first and second major religions in france. Islam",
+      "strength": 0.7500527021482695
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Catholicism is the largest religion in France.",
+      "strength": 0.5999999999858678
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Islam is ranked the 2nd largest religion in France",
+      "strength": 0.5000967895967791
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Approximately 45,000 Catholic church buildings and chapels are spread out among 36,500 cities, towns, and villages in France, but a majority are no longer regularly used for Mass.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Catholic Church had been the official state religion of France since the conversion to Christianity of Clovis I, leading to France being called 'the eldest daughter of the Church'.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Approximately 10% of the population aged 18-59 in 2019-2020 followed Islam.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The numbers of French Muslims and Muslims in France are exaggerated.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "French Muslims, Government Grapple With Integration Pains",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

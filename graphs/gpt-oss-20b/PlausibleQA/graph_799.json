@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What do we call the vegetable called the rutabaga in America. Turnip",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What do we call the vegetable called the rutabaga in America. Neep",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What do we call the vegetable called the rutabaga in America. Brassica",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What do we call the vegetable called the rutabaga in America. Sweed",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Other names include Swedish turnip, neep (Scots), and turnip (Scottish and Canadian English, Irish English, Cornish English and Manx English, as well as some dialects of English in Northern England and Australian English).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rutabaga (; North American English) or swede (British English and some Commonwealth English) is a root vegetable.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "However, elsewhere, the name turnip usually refers to the related white turnip.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Rutabaga is a form of Brassica napus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

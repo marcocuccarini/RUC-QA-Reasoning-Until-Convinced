@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is the element that plants and other photosynthetic organisms have generated in the air on a global scale.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen is the element that plants and other photosynthetic organisms have generated in the air on a global scale.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the element in the air that has been generated globally by plants and other photosynthetic organisms.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Methane is the element that has been generated in the air by plants and other photosynthetic organisms on a global scale.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oxygen in Earth's atmosphere is produced by biotic photosynthesis, in which photon energy in sunlight is captured by chlorophyll to split water molecules and then react with carbon dioxide to produce carbohydrates and oxygen is released as a byproduct.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All eukaryotic organisms, including plants, animals, fungi, algae and most protists, need oxygen for cellular respiration, a process that extracts chemical energy by the reaction of oxygen with organic molecules derived from food and releases carbon dioxide as a waste product.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

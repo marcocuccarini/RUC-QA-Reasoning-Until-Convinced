@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the surname of Mary, still alive aged 99, the longest lived Prime Minister’s spouse. Thatcher",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the surname of Mary, still alive aged 99, the longest lived Prime Minister’s spouse. Blair",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the surname of Mary, still alive aged 99, the longest lived Prime Minister’s spouse. Churchill",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the surname of Mary, still alive aged 99, the longest lived Prime Minister’s spouse. WILSON",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mary Wilson died on 6 June 2018 at the age of 102.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mary Wilson outlived her husband by 23 years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

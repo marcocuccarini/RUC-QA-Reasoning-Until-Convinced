@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Biome is the lowest level of environmental organization that includes the water quality and air temperature in an area.",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An ecosystem is the lowest level of environmental organization that would include the water quality and air temperature in an area.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Community is the lowest level of environmental organization that would include the water quality and air temperature in an area.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Population is the lowest level of environmental organization that would include the water quality and air temperature in an area.",
+      "strength": 0.2500974197984664
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Biomes are always defined at a very general level.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Climate determines the biome in which the ecosystem is embedded.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Biomes are larger units of organization that categorize regions of the Earth's ecosystems, mainly according to the structure and composition of vegetation.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "organisms, to populations, to guilds, to communities, to ecosystems, to biomes, and up to the level of the biosphere.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Such populations as a whole constitute a community.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "A population is a group of organisms of the same species which inhabit the same geographical area and are capable of interbreeding.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

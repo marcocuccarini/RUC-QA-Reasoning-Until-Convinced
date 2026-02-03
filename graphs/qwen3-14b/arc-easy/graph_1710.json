@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Neutrons are the particles whose differing numbers allow atoms of the same element to have different atomic masses.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Protons are the numbers that atoms of the same element can have different numbers of, leading to different atomic masses.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrons are the particles that atoms of the same element can have different numbers of, which leads to different atomic masses.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Neutrinos are the particles that atoms of the same element can have different numbers of, which causes the atoms to exhibit different atomic masses.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The nuclei of different isotopes for a given element have different numbers of neutrons, albeit having the same number of protons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A neutral atom has the same number of electrons as protons. Thus different isotopes of a given element all have the same number of electrons...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

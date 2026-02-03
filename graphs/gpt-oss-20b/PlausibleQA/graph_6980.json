@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What are the membranes enveloping the brain and spinal cord called . Dura Mater",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What are the membranes enveloping the brain and spinal cord called . Arachnoid Membrane",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What are the membranes enveloping the brain and spinal cord called . Pia Mater",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What are the membranes enveloping the brain and spinal cord called . Menix",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The dura mater (Latin: tough mother), is a durable, thick fibrous membrane that attaches to the inside of the skull and covers the brain and vertebrae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pia mater (Latin: tender mother) is a very delicate membrane.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The dura covers the arachnoid mater and the pia mater, the other two meninges, in protecting the central nervous system.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The dura mater (or just dura) is the outermost of the three meningeal membranes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

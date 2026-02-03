@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fungi are the different kinds of yeasts, molds, and mushrooms.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pollen are the different kinds of yeasts, molds, and mushrooms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacteria are yeasts, molds, and mushrooms.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fossil is the category that encompasses yeasts, molds, and mushrooms as different kinds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A fungus is any member of the group of eukaryotic organisms that includes microorganisms such as yeasts and molds, as well as the more familiar mushrooms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fungi, like animals, are heterotrophs; they acquire their food by absorbing dissolved organic molecules, typically by secreting digestive enzymes into their environment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

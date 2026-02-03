@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who ran against abraham lincoln for president in 1860. John C. Breckinridge",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who ran against abraham lincoln for president in 1860. John Bell",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who ran against abraham lincoln for president in 1860. William L. Yancey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who ran against abraham lincoln for president in 1860. Stephen A. Douglas",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Delegates from the Southern slave states elected incumbent Vice President John C. Breckinridge as their candidate.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A group of former Whigs and Know Nothings formed the Constitutional Union Party and nominated John Bell of Tennessee.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Northern faction of the Democratic Party nominated Stephen A. Douglas as their presidential candidate.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "John Bell was the candidate of the Constitutional Union Party.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

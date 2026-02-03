@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Epiphytes are plants that grow on other plants.",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fungi are plants that grow on other plants.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Parasites are plants that grow on other plants.",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bryophytes are plants that grow on other plants.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Epiphytes are plants or plant-like organisms that grow on the surface of another plant or plant-like organism such as kelp.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Epiphytes differ from parasitic plants in that they grow on the host for physical support only, and do not draw nourishment from it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

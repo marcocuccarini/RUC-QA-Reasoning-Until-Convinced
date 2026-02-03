@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who directed the 1969 film ‘Women in Love’, starring Oliver Reed and Glenda Jackson. Stanley Kubrick",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who directed the 1969 film ‘Women in Love’, starring Oliver Reed and Glenda Jackson. John Schlesinger",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who directed the 1969 film ‘Women in Love’, starring Oliver Reed and Glenda Jackson. Lindsay Anderson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who directed the 1969 film ‘Women in Love’, starring Oliver Reed and Glenda Jackson. Ken Russel",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Women in Love is a 1969 British romantic drama film directed by Ken Russell",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The film was adapted by Larry Kramer from D. H. Lawrence's 1920 novel Women in Love",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

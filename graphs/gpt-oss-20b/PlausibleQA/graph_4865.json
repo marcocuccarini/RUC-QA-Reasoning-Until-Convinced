@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Mozart",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Tchaikovsky",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Gluck",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Betoven",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first result of reform was Gluck's ballet Don Juan.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Creatures of Prometheus (German: Die Geschöpfe des Prometheus), Op. 43, is a ballet composed in 1801 by Ludwig van Beethoven",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is the only full length ballet by Beethoven",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city would you find O'Hare International Airport. Chicago",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city would you find O'Hare International Airport. New York City",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city would you find O'Hare International Airport. Los Angeles",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city would you find O'Hare International Airport. USCHI",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chicago O'Hare International Airport (IATA: ORD, ICAO: KORD, FAA LID: ORD) is the primary international airport serving Chicago, Illinois, United States, located on the city's Northwest Side, approximately 17 miles (27 km) northwest of downtown.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

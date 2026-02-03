@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Linnaean system is the name of the system that consists of a hierarchy of taxa, from kingdom to species.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bohr's law is the name of the system that consists of a hierarchy of taxa, from the kingdom to the species.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mendelian system is the name of the system that consists of a hierarchy of taxa, from the kingdom to the species.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Zoology is the name of the system that consists of a hierarchy of taxa, from the kingdom to the species.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Species can be placed in a ranked hierarchy, starting with either domains or kingdoms. Domains are divided into kingdoms, phyla, classes, orders, families, genera, and species.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The greatest innovation of Linnaeus, and still the most important aspect of this system, is the general use of binomial nomenclature, the combination of a genus name and a second term, which together uniquely identify each species of organism within a kingdom.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

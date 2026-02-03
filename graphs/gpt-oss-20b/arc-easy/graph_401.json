@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liquid, gas, vapor are the three common states of matter.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gas, liquid, and fluid are the three common states of matter.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Solid, gas, and liquid are the three common states of matter.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solid, vapor, and liquid are the three common states of matter.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Four states of matter are observable in everyday life: solid, liquid, gas, and plasma.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Plasma is by far the most abundant of the four fundamental states; 99% of all ordinary matter in the universe is plasma.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

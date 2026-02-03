@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What comes next in this sequence: Microwave, Infrared, Visible Light, …. X-ray",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What comes next in this sequence: Microwave, Infrared, Visible Light, …. Gamma Ray",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What comes next in this sequence: Microwave, Infrared, Visible Light, …. Radio Wave",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What comes next in this sequence: Microwave, Infrared, Visible Light, …. Uv",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "UV is shorter than visible light.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "UV is longer than X-rays.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

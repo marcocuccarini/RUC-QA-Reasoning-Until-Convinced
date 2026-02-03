@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun is the primary cause of the differences in water level observed by Miriam at the beach, where the water sometimes rises to the height of the pier and at other times only barely covers the pillars under the pier, due to its gravitational influence.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon is the gravitational influence that causes the water to rise as high as the pier at some times and barely cover the pillars under the pier at other times.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Asteroids are the primary gravitational influence responsible for the variations in water level that Miriam observes at the beach, where the water sometimes rises as high as the pier and at other times barely covers the pillars under the pier.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Comets are the primary cause of the differences in water level that Miriam notices at the beach, where the water sometimes rises as high as the pier and sometimes barely covers the pillars under the pier.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The lunar tidal acceleration (along the Moon–Earth axis, at the Earth's surface) is about 1.1×10−7 g, while the solar tidal acceleration (along the Sun–Earth axis, at the Earth's surface) is about 0.52×10−7 g",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The tidal force ∝ M/d³ ∝ ρ(r/d)³, and the Sun's tidal force is only 46% as large as the lunar, thus during a spring tide, the Moon contributes 69% while the Sun contributes 31%",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

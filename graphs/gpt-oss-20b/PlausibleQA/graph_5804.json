@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of poet and painter Dante Gabriel Rossetti.. 1850",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of poet and painter Dante Gabriel Rossetti.. 1860",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of poet and painter Dante Gabriel Rossetti.. 1848",
+      "strength": 0.8460569052668154
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of poet and painter Dante Gabriel Rossetti.. 1828-1882",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He founded the Pre-Raphaelite Brotherhood in 1848 with William Holman Hunt and John Everett Millais.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They were married in 1860.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1848, Rossetti became a pupil of Ford Madox Brown.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1848, Rossetti and Hunt made a list of 'Immortals', artistic heroes whom they admired.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

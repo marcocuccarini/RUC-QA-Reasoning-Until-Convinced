@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sleet and snow is the most likely type of weather to happen next when a summer day that begins with a clear, sunny sky later develops dark clouds in the afternoon.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rain and thunder is the most likely weather to happen next when a summer day that starts with a clear, sunny sky develops dark clouds in the afternoon.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind and snow will most likely happen next after dark clouds form in the afternoon on a clear, sunny summer day.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fog and wind are the most likely weather to occur next when a summer day starts with a clear, sunny sky and then dark clouds form in the afternoon.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "One exception is that of lake-effect snow bands, which form due to cold air moving across relatively warm bodies of water, and occurs from fall through spring.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During the summer, air-mass thunderstorms are an almost daily occurrence over central and southern parts of Florida.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

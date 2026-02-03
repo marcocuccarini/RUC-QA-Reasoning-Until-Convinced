@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of points that can be scored from a single shot in basketball. 1",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of points that can be scored from a single shot in basketball. 2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of points that can be scored from a single shot in basketball. 4",
+      "strength": 0.7736590563408734
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of points that can be scored from a single shot in basketball. 3",
+      "strength": 0.632352805789514
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If a player completes a three-pointer while being fouled, the player is awarded one free-throw for a possible 4-point play.",
+      "strength": 0.5999999741920976
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A successful basket is worth three points, in contrast to the two points awarded for field goals made within the three-point line.",
+      "strength": 0.5999999741920976
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A successful shot is worth two points, or three points if it is taken from beyond the three-point arc.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "If a player is fouled while attempting a shot and the shot is successful, the player is awarded one additional free throw, which can result in a 'four-point play' when the shot is worth three points.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "This is known as a three-point or four-point play, depending on the value of the made basket.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

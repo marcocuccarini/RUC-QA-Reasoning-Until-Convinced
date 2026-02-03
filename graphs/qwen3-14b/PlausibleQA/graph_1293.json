@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who comes after the president if he dies. Secretary of State",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who comes after the president if he dies. Speaker of the House",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who comes after the president if he dies. Chief Justice",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who comes after the president if he dies. vice president",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Article II, Section 1, Clause 6 stipulates that the vice president takes over the 'powers and duties' of the presidency in the event of a president's removal, death, resignation, or inability.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The vice president is first in the presidential line of succession.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

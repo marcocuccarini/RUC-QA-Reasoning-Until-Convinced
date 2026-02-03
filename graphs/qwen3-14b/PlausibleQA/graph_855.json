@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sixty year old Cristina Fernandez de Kirchner is the current president of which South American country . Argentina",
+      "strength": 0.1405507853960167
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sixty year old Cristina Fernandez de Kirchner is the current president of which South American country . Chile",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sixty year old Cristina Fernandez de Kirchner is the current president of which South American country . Colombia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sixty year old Cristina Fernandez de Kirchner is the current president of which South American country . Argie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cristina Fernández de Kirchner served as the 56th President of Argentina from 2007 to 2015",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cristina Fernández de Kirchner was the Vice President of Argentina under President Alberto Fernández from 2019 to 2023",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Senate of the Argentine Republic website",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Javier Milei was sworn into office on 10 December 2023 as the current president of Argentina",
+      "strength": 0.5999509458168574
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Javier Milei's party, La Libertad Avanza, won a landslide victory in October 2025, reinforcing his position as president.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Cristina Fernández de Kirchner did not run for reelection in 2019, leading to Alberto Fernández's presidency.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

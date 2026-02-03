@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Meter is the unit of measurement that astronomers use when measuring the distance between two stars found in the Milky Way.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light‑year is the unit of measurement astronomers use when measuring the distance between two stars found in the Milky Way.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kilometers are the unit of measurement astronomers use when measuring the distance between two stars found in the Milky Way.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The astronomical unit is the unit of measurement astronomers use when measuring the distance between two stars found in the Milky Way.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The light‑year is most often used when expressing distances to stars and other distances on a galactic scale.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The unit most commonly used in professional astronomy is the parsec (symbol: pc, about 3.26 light‑years).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The parsec unit is obtained by the use of parallax and trigonometry, and is defined as the distance at which 1 AU subtends an angle of one arcsecond.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The parsec (symbol: pc) is a unit of length used to measure the large distances to astronomical objects outside the Solar System, approximately equal to 3.26 light-years or 206,265 astronomical units (AU), i.e. 30.9 trillion kilometres (19.2 trillion miles).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

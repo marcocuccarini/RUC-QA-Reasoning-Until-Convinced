@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pounds is a unit that could be used to record the volume of the liquid that a student measured with a graduated cylinder.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Meters could be used to record the volume of the liquid measured by a student with a graduated cylinder.",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grams is the unit that could be used to record the volume of the liquid measured by the student with a graduated cylinder.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Milliliters is a unit that could be used to record the volume of liquid measured by a student with a graduated cylinder.",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The SI unit of volume is the cubic metre.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For example, in Canada, Australia, and New Zealand, consumer beverages are labelled almost exclusively using litres and millilitres.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Typical capacities of graduated cylinders are from 10 mL to 1000 mL.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The precise value is 40.0 ± 0.1; 40.1 or 39.9 mL.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

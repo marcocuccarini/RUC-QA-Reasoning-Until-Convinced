@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The rock was once buried under a swamp, the conclusion drawn by a geologist who found several types of seashell fossils in the rock layer.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water from a river washed across the rock is the best conclusion about the rock layer when a geologist found several types of seashell fossils in it.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The rock was once sediment at the bottom of an ocean is the best conclusion about the rock layer in which a geologist found several types of seashell fossils.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Migrating animals dropped the seashell into the rock is the best conclusion about the rock layer that a geologist found several types of seashell fossils in.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shallow, warm water is an ideal habitat for many small organisms that build carbonate skeletons. When these organisms die, their skeletons sink to the bottom, forming a thick layer of calcareous mud that may lithify into limestone.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sedimentary rocks can contain fossils because, unlike most igneous and metamorphic rocks, they form at temperatures and pressures that do not destroy fossil remains.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Density is the property the engineer should concentrate on the most when designing the rocket, because the engineer was assigned to build a model rocket that must be made from a metal capable of releasing the energy built up during atmospheric reentry.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ductility is the property the engineer should concentrate on the most when designing a model rocket that must be built from a metal capable of releasing the energy built up during reentry into Earth’s atmosphere.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Specific heat is the property the engineer should concentrate on when designing a model rocket that must be built out of a metal capable of releasing the energy built up during reentry into Earth's atmosphere.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Boiling point is the property the engineer should focus on when building a model rocket that must be made from a metal capable of releasing the energy built up during atmospheric reentry.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Quicksilver [mercury] ... has less capacity for the matter of heat than water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Specific heat capacity often varies with temperature, and is different for each state of matter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

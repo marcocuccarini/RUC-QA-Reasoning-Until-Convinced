@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tornadoes are caused by the Coriolis Effect.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Volcanoes are caused by the Coriolis Effect.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind patterns are caused by the Coriolis Effect.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Stationary fronts are caused by the Coriolis Effect.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Coriolis effect strongly affects the large-scale oceanic and atmospheric circulation, leading to the formation of robust features like jet streams and western boundary currents.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Coriolis force minutely changes the trajectory of a bullet, affecting accuracy at extremely long distances.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diamonds have sharp edges, as demonstrated by the observation that a diamond was able to scratch a piece of talc.",
+      "strength": 0.5999999754507639
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Talc is softer than diamonds because students observed that a diamond was able to scratch a piece of talc.",
+      "strength": 0.7499026423982647
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diamonds are very valuable, because students observed that a diamond was able to scratch a piece of talc.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Talc and diamonds are both minerals, as evidenced by students observing that a diamond was able to scratch a piece of talc.",
+      "strength": 0.632352811994232
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Diamond was the hardest known naturally occurring mineral when the scale was designed, and defines the top of the scale, arbitrarily set at 10.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Minerals are chemically pure solids found in nature.",
+      "strength": 0.5999999754507639
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Diamond is a solid form of pure carbon with its atoms arranged in a crystal structure called diamond cubic.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "These tend to result in extremely flat, highly polished facets with exceptionally sharp facet edges.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Mohs scale of mineral hardness, based on scratch hardness comparison, defines value 1 as the hardness of talc, the softest mineral.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

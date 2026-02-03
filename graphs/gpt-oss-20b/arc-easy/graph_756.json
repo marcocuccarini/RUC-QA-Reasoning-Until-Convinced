@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An object in motion eventually stops is the best conclusion for a ball rolling on the ground that slows down and stops, based on Newton's first law of motion.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ball must have been going slightly uphill is the best conclusion when a ball rolling on the ground is observed to slow down and stop, based on Newton's first law of motion.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The ball did not have enough mass to keep going is the best conclusion drawn from observing a ball rolling on the ground that slows down and stops, based on Newton’s first law of motion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "There must have been an outside force acting on the ball that was observed to slow down and stop while rolling on the ground, as concluded from Newton's first law of motion.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A body remains at rest, or in motion at a constant speed in a straight line, unless it is acted upon by a force.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If a body falls from rest near the surface of the Earth, then in the absence of air resistance, it will accelerate at a constant rate.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

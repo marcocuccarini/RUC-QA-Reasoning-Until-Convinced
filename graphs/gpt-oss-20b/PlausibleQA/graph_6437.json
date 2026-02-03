@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which hormone helps control ovulation. Estrogen",
+      "strength": 0.5999999999391487
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which hormone helps control ovulation. Progesterone",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which hormone helps control ovulation. Follicle-Stimulating Hormone (FSH)",
+      "strength": 0.5999999999391487
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which hormone helps control ovulation. Lh kit",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "FSH stimulates the growth and recruitment of immature ovarian follicles in the ovary.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sharp increase in estradiol production by the dominant follicle (possibly along with a decrease in gonadotrophin surge-attenuating factor) cause a positive effect on the hypothalamus and pituitary and rapid GnRH pulses occur and an LH surge results.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In females, an acute rise of LH known as an LH surge, triggers ovulation and development of the corpus luteum.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Exceptionally high levels of estradiol induce hypothalamic production of progesterone, which stimulates elevated GnRH secretion, triggering a surge in LH.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Luteinizing+Hormone at the U.S. National Library of Medicine Medical Subject Headings (MeSH)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

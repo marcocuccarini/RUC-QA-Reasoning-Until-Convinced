@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pounds is a unit that could be used to record the volume of the liquid that a student measured with a graduated cylinder.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Meters could be used to record the volume of the liquid measured by a student with a graduated cylinder.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grams is the unit that could be used to record the volume of the liquid measured by the student with a graduated cylinder.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Milliliters is a unit that could be used to record the volume of liquid measured by a student with a graduated cylinder.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Typical capacities of graduated cylinders are from 10 mL to 1000 mL.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The graduated cylinder was first introduced in 1784 by Louis Bernard Guyton de Morveau, for use in volumetric analysis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

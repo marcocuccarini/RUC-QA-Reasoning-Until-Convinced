@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the governor of virginia 2011. Tim Kaine",
+      "strength": 0.4000000634771975
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the governor of virginia 2011. Mark Warner",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the governor of virginia 2011. Jim Gilmore",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the governor of virginia 2011. Bob McDonnell",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On January 16, 2010, McDonnell was inaugurated as the 71st governor of the Commonwealth of Virginia, succeeding Democratic Gov. Tim Kaine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "McDonnell was inaugurated as the 71st governor of the Commonwealth of Virginia on January 16, 2010, and served until 2014.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Interview with Governor-Elect Bob McDonnell, Cal Thomas, Townhall.com, December 4, 2009",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

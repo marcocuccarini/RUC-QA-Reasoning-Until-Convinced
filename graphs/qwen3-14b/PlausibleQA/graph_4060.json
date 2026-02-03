@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "name three large lakes other than the great lakes in the united states. Lake Mead",
+      "strength": 0.5999999641020304
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "name three large lakes other than the great lakes in the united states. Lake Powell",
+      "strength": 0.5999999641020304
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "name three large lakes other than the great lakes in the united states. Lake Sakakawea",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "name three large lakes other than the great lakes in the united states. Iliamna Lake",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lake Mead is the largest reservoir in the US in terms of water capacity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lake Powell is a reservoir of similar size to Lake Mead.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lake Sakakawea is the third largest in the United States by volume, after Lake Mead and Lake Powell.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lake Sakakawea is the largest man-made lake located entirely within North Dakota.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

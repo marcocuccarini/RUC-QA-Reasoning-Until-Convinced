@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Typing results into a computer is the best way for a scientist to begin an investigation on a population of deer.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Intuition is the best way for a scientist to begin an investigation on a population of deer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Writing facts in a field notebook is the best way for a scientist to begin an investigation on a population of deer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Observing the deer in their own habitat is the best way for a scientist to begin an investigation on a population of deer.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Observational studies can provide information on 'real world' use and practice.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Selection bias can happen at any stage of the research process.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Antlers can be an honest signal of genetic quality; males with larger antlers relative to body size tend to have increased resistance to pathogens and higher reproductive capacity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In elk in Yellowstone National Park, antlers also provide protection against predation by wolves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

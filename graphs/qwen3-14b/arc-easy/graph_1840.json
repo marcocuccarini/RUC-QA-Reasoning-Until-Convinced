@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tying identical weights to two strings of different lengths is the investigation that best answers whether the length of a string changes how fast a pendulum swings.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tie two different weights to a string is the investigation that would best answer the question of whether the length of a string changes how fast a pendulum swings.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tie identical weights to a long string is the investigation that would best answer the question of whether the length of a string changes how fast a pendulum swings.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tie two different weights to two identical strings is the investigation that would best answer whether the length of a string changes how fast a pendulum swings.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The period of a pendulum is affected by its length, as demonstrated by the seconds pendulum which has a specific length for a given period.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The period of a pendulum varies with factors such as the mass of the string or rod, indicating that mass can influence the period.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

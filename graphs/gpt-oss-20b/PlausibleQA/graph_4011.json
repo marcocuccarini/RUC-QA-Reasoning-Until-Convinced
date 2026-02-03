@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous football figure managed the Ivory Coast national team at the FIFA 2010 World Cup Finals. Guus Hiddink",
+      "strength": 0.43092425361047987
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous football figure managed the Ivory Coast national team at the FIFA 2010 World Cup Finals. Claude Le Roy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous football figure managed the Ivory Coast national team at the FIFA 2010 World Cup Finals. Philippe Troussier",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous football figure managed the Ivory Coast national team at the FIFA 2010 World Cup Finals. Svennis",
+      "strength": 0.5999581987825118
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Didier Drogba acted as player-coach for Ivory Coast at the 2010 FIFA World Cup.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ivory Coast Coach: Sven-Göran Eriksson",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

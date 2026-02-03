@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where was the summer olympics held in 2012. Paris",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where was the summer olympics held in 2012. Beijing",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where was the summer olympics held in 2012. New York City",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where was the summer olympics held in 2012. London",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2012 Summer Olympics... were held from 27 July to 12 August 2012 in London, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "defeating bids from Moscow, New York City, Madrid and Paris.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

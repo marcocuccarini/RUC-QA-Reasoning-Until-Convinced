@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The integumentary and circulatory systems interact to produce antibodies that require essential amino acids.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The digestive and reproductive systems are the two body systems that interact to produce antibodies requiring essential amino acids.",
+      "strength": 0.4000000465571573
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Endocrine and respiratory systems are the two body systems that interact to produce antibodies that require essential amino acids.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Digestive and immune systems interact to produce antibodies that require essential amino acids.",
+      "strength": 0.5999028678711503
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the stomach, gastric acid serves as a chemical defense against ingested pathogens.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Antibodies are produced exclusively by B cells in response to antigens where initially, antibodies are formed as membrane-bound receptors, but upon activation by antigens and helper T cells, B cells differentiate to produce soluble antibodies.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If one of the essential amino acids is not available in the required quantities, protein synthesis will be inhibited, irrespective of the availability of the other amino acids.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Protein deficiency has been shown to affect all of the body's organs and many of its systems, for example affecting brain development in infants and young children; inhibiting upkeep of the immune system, increasing risk of infection; affecting gut mucosal function and permeability, thereby reducing absorption and increasing vulnerability to systemic disease; and impacting kidney function.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Manufacturing technology is the process by which information is encoded, transmitted, stored, decoded, and retrieved.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Transportation technology is the process by which information is encoded, transmitted, stored, decoded, and retrieved.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Construction technology is the process by which information is encoded, transmitted, stored, decoded, and retrieved.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Communication technology is the process by which information is encoded, transmitted, stored, decoded, and retrieved.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A transmitter takes information and converts it to a signal, while a receiver takes the signal from the channel and converts it back into usable information for the recipient.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Digital transmission overcomes this problem because digital signals are reduced to discrete values upon reception and hence small perturbations do not affect the final output.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

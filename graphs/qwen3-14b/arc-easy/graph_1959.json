@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A plant cell has DNA that is not bound in a nuclear membrane.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A protist cell has DNA that is not bound in a nuclear membrane.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An animal cell has DNA that is not bound in a nuclear membrane.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A prokaryote cell has DNA that is not bound in a nuclear membrane.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The genome in a prokaryote is held within a DNA/protein complex in the cytosol called the nucleoid, which lacks a nuclear envelope.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prokaryotes as a group lack nuclei, mitochondria, and most of the other distinct organelles that characterize the eukaryotic cell.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

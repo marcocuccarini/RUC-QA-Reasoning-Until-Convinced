@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. Trial Court",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. Supreme Court",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. Court of Appeals",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. appellate court",
+      "strength": 0.15384624313322165
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most appellate courts do not have the authority to hear testimony or take evidence, but instead rule solely on matters of law.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the appellate court finds a reversible error on an issue of fact, it cannot immediately retry and decide the issue itself in the first instance, based on the evidence already in the record. It can only reverse and remand with instructions to the trial court for a new trial or new findings on that issue.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An appellate court may also review the lower judge's discretionary decisions, such as whether the judge properly granted a new trial or disallowed evidence.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Supreme Court also holds the unique power of being able to order 'trial de novo' (a retrial).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

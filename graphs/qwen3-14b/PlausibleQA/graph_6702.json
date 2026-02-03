@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the medical description of the loss of hair from the head or body, sometimes to the extent of baldness. Alopecia",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the medical description of the loss of hair from the head or body, sometimes to the extent of baldness. Hypotrichosis",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the medical description of the loss of hair from the head or body, sometimes to the extent of baldness. Effluvium",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the medical description of the loss of hair from the head or body, sometimes to the extent of baldness. Bald",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hypotrichosis is a condition of abnormal hair patterns, predominantly loss or reduction. It occurs, most frequently, by the growth of vellus hair in areas of the body that normally produce terminal hair.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Telogen effluvium is typically a physically or psychologically stressful event. Telogen effluvium is very common following pregnancy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Inflammation or scarring is not usually present.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Hair loss in some people causes psychological distress.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

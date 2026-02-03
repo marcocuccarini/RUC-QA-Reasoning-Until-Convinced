@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Aristotle was correct, claiming that a force was always required to keep an object moving, which is what Aristotle taught, contrary to Newton's belief that an object in motion stays in motion unless acted upon by an external force.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aristotle was correct for objects on Earth but not in space is what Newton believed regarding the need for a force to keep an object moving, contradicting Aristotle’s teaching that a force was always required.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An object will keep moving unless an unbalanced force stops it is what Newton believed, contrasting Aristotle’s teaching that a force was always required to keep an object moving.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A moving object will eventually stop even though an unbalanced force keeps pushing on it is what Newton believed, contrary to Aristotle’s teaching that a force is always required to keep an object moving.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A body remains at rest, or in motion at a constant speed in a straight line, unless it is acted upon by a force.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One important characteristic of Newtonian physics is that forces can act at a distance without requiring physical contact.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

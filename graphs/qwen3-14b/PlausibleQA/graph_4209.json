@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the currency of Israel. Israeli Pound",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the currency of Israel. New Israeli Dollar",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the currency of Israel. Israeli Dinar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the currency of Israel. SheK.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Israeli pound was the currency of Israel from June 1952 until it was replaced with the shekel on 24 February 1980.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The new shekel has been in use since 1 January 1986, when it replaced the hyperinflated old shekel at a ratio of 1000:1.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

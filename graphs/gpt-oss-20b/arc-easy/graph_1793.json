@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Subtracting atomic number from mass number yields the number of neutrons in an atom.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mass number from atomic number is the quantity subtracted from the atomic number to find the number of neutrons in an atom.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Subtracting the atomic number from the electron number gives the number of neutrons in an atom.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Isotope number from electron number is subtracted to find the number of neutrons in an atom.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For an ordinary atom which contains protons, neutrons and electrons, the sum of the atomic number Z and the neutron number N gives the atom's atomic mass number A.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In an ordinary uncharged atom, the atomic number is also equal to the number of electrons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

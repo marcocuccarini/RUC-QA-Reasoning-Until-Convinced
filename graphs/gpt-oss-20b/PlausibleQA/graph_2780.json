@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the mts iceplex in winnipeg. United States",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the mts iceplex in winnipeg. Manitoba",
+      "strength": 0.5295102704811357
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the mts iceplex in winnipeg. Saskatchewan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the mts iceplex in winnipeg. Canada",
+      "strength": 0.5295102704811357
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hockey for All Centre is an ice hockey facility in Winnipeg, Manitoba, Canada",
+      "strength": 0.2500433460767573
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Winnipeg Jets play at Canada Life Centre",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Winnipeg Jets of the NHL have called the city home since 2011",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

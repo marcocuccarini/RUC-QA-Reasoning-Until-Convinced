@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Adi Dassler founded the Adidas company, which company was founded by his brother Rudolf in 1948. Reebok",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Adi Dassler founded the Adidas company, which company was founded by his brother Rudolf in 1948. Nike",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Adi Dassler founded the Adidas company, which company was founded by his brother Rudolf in 1948. Converse",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Adi Dassler founded the Adidas company, which company was founded by his brother Rudolf in 1948. PUMA",
+      "strength": 0.3999046316041009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Adolf created Adidas in 1949, not 1948.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rudolf Dassler established Puma, not Adidas.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Puma (brand), a multinational shoe and sportswear company",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

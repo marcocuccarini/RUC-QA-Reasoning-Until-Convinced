@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rapid genetic mutation in infected cells is partly responsible for the symptoms of influenza infection.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Consumption of the body's energy resources by viruses is partly responsible for the symptoms of influenza infection.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Release of toxins by viral particles is partly responsible for the symptoms of influenza infection.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The body's inflammatory response to infected cells is partly responsible for the symptoms of influenza infection.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Illness during infection is primarily the result of lung inflammation and compromise caused by epithelial cell infection and death, combined with inflammation caused by the immune system's response to infection.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Infection with H5N1 or H7N9 especially produces high levels of pro-inflammatory cytokines.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Oystercatcher",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Sandpiper",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Avocet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Plover",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The bird family Charadriidae includes the plovers, dotterels, and lapwings.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In general, larger, broader-winged species have often been called lapwings, and the smaller, narrower-winged species plovers or dotterels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

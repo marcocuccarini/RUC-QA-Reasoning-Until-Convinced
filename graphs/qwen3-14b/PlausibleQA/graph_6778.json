@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Astronomy",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Engineering",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Philosophy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Math",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Apollonius of Perga was an ancient Greek geometer and astronomer known for his work on conic sections.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Apollonius worked on numerous other topics, including astronomy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Apollonius of Perga's eight-volume Conic Sections summarized and greatly extended existing knowledge.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Apollonius's study of the properties of these curves made it possible to show that any plane cutting a fixed double cone will produce a conic according to the earlier definition, leading to the definition commonly used today.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

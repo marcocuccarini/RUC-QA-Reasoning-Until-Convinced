@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Bond villain has been played by Telly Savalas, Donald Pleasance, Charles Gray, and Max Von Sydow. Auric Goldfinger",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Bond villain has been played by Telly Savalas, Donald Pleasance, Charles Gray, and Max Von Sydow. Emilio Largo",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Bond villain has been played by Telly Savalas, Donald Pleasance, Charles Gray, and Max Von Sydow. Francisco Scaramanga",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Bond villain has been played by Telly Savalas, Donald Pleasance, Charles Gray, and Max Von Sydow. BLOFELD",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Blofeld was played by Telly Savalas in the film On Her Majesty's Secret Service.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Donald Pleasance was cast as Blofeld in the films You Only Live Twice, On Her Majesty's Secret Service, and Diamonds Are Forever.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

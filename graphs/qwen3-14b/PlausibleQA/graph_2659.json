@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. Helium",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. Lithium",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. Beryllium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. H₂",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hydrogen has the atomic number 1.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hydrogen is denoted by the symbol H, not H₂.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

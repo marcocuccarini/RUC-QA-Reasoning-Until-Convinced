@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Porcupine grass is also known as what. Pampas Grass",
+      "strength": 0.32010860768953675
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Porcupine grass is also known as what. Buffalo Grass",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Porcupine grass is also known as what. Blue Grama",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Porcupine grass is also known as what. Susuki",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Porcupine grass refers to Miscanthus sinensis, Stipa spartea, and Triodia species.",
+      "strength": 0.7499645112339329
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Miscanthus sinensis is native to eastern Asia",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Triodia species (such as Triodia scariosa and Triodia irritans) are native to Australia",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

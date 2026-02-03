@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical weathering is the process responsible for cave formation that results from rock being dissolved by groundwater.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glacial movement is the term that best describes the process responsible for cave formation that results from rock being dissolved by groundwater.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sedimentation is the process responsible for cave formation that results from rock being dissolved by groundwater.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Abrasion is the process responsible for cave formation that results from rock being dissolved by groundwater.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bedrock is dissolved by carbonic acid in rainwater, groundwater, or humic acids from decaying vegetation, that seeps through bedding planes, faults, joints, and the like.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This gas mixes with ground water and forms H2SO4 (sulfuric acid). The acid then dissolves the limestone from below, rather than from above, by acidic water percolating to the surface.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

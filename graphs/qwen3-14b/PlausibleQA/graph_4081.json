@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In British legend, what is the name of King Arthur’s sword. Excalibur",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In British legend, what is the name of King Arthur’s sword. Caliburn",
+      "strength": 0.5000948186737755
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In British legend, what is the name of King Arthur’s sword. Galatine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In British legend, what is the name of King Arthur’s sword. Clarent",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Excalibur is the mythical sword of King Arthur that may possess magical powers or be associated with the rightful sovereignty of Britain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Geoffrey's Historia is the first non-Welsh text to speak of the sword. Geoffrey says the sword was forged in Avalon and Latinises the name Caledfwlch as Caliburnus.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Clarent is the royal sword of peace meant for knighting and ceremonies as opposed to battle.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the Welsh tales, Arthur's sword is known as Caledfwlch.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

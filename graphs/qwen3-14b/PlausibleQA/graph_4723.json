@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. Bismuth",
+      "strength": 0.40000000000001285
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. Mercury",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. Tantalum",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. LEad",
+      "strength": 0.6799030806933866
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The thorium series terminates with lead-208, 6 alpha decays and 4 beta decays from thorium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The neptunium series terminates with thallium-205, 8 alpha decays and 4 beta decays from neptunium.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The uranium series terminates with lead-206, the actinium series with lead-207, and the thorium series with lead-208.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The neptunium series terminates with thallium-205, not a lead isotope.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The thorium, uranium/radium, and actinium series each end with a specific lead isotope.",
+      "strength": 0.7499999631457305
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The National Nuclear Data Center – freely available databases that can be used to check or construct decay chains",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "IAEA – Live Chart of Nuclides (with decay chains)",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "The three isotopes lead-206, lead-207, and lead-208 represent the ends of three decay chains: the uranium series (or radium series), the actinium series, and the thorium series, respectively; a fourth decay chain, the neptunium series, terminates with the thallium isotope 205Tl.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A8",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A8",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

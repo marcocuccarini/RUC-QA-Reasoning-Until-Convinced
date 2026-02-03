@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Integer",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Decimal",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Whole Number",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Fraction",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Therefore, every prime number other than 2 is an odd number.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No even number n greater than 2 is prime because any such number can be expressed as the product 2×n/2.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US athlete won a gold medal for the high jump in the 1968 Summer Olympics. Jim Hines",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US athlete won a gold medal for the high jump in the 1968 Summer Olympics. Lee Evans",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US athlete won a gold medal for the high jump in the 1968 Summer Olympics. Tommie Smith",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US athlete won a gold medal for the high jump in the 1968 Summer Olympics. Dick Fosbury",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fosbury took the gold medal and set a new Olympic record at 2.24 m (7 ft 4+1⁄4 in).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The gold medal was won by Dick Fosbury.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

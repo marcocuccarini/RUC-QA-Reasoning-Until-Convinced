@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A bar graph is a diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width.",
+      "strength": 0.599935094888276
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pie chart is a diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Venn diagram is a diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Circle graph is a diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Variable-width bar charts have bars with non-uniform widths.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A bar chart or bar graph is a chart or graph that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A pie chart shows percentage values as a slice of a pie; first introduced by William Playfair.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "since humans can more easily process differences in line length than surface area, it may be more effective to use a bar chart (which takes advantage of line length to show comparison) rather than pie charts (which use surface area to show comparison).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

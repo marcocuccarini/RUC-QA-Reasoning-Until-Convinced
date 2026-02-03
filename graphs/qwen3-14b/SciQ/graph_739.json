@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pleiotropic effects cause the symptoms associated with sickle‑cell disease.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Genetic drift causes symptoms associated with sickle‑cell disease.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Spontaneous mutation causes the symptoms associated with sickle‑cell disease.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transgene effects cause symptoms associated with sickle‑cell disease.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All of the major organs are affected by sickle cell disease.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sickle cell disease occurs when a person inherits two abnormal copies of the β-globin gene that make haemoglobin, one from each parent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

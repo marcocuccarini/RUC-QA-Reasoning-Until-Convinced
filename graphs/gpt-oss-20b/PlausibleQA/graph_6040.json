@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which constituency does William Hague represent. Leeds North East",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which constituency does William Hague represent. Scarborough and Whitby",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which constituency does William Hague represent. Skipton and Ripon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which constituency does William Hague represent. Richmond",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The constituency was a safe seat for the Conservative Party, which has held it continuously since 1910 (if including the 11 years by the allied Unionist Party from 1918), and in the 2010 general election Richmond produced the largest numerical and percentage majority for a Conservative, 62.8% of the vote.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Conservative MP and one-time Party leader William Hague held the seat from a by-election in 1989 until he retired from the Commons in 2015.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

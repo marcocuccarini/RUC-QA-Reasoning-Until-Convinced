@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what did jack london do for a living. Journalist",
+      "strength": 0.5999999390117796
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what did jack london do for a living. Sailor",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what did jack london do for a living. Prospector",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what did jack london do for a living. Author",
+      "strength": 0.7499045092427894
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jack London was a journalist",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jack London was a novelist",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Jack London was an author",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

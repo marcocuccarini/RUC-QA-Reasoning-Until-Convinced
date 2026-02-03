@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Remoulade",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Aioli",
+      "strength": 0.2500000915578924
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Béarnaise",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Tartare",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Purists insist that true aioli contains garlic and no other seasoning (except salt).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Aioli is an emulsion of garlic and olive oil; it is found in the cuisines of the northwest Mediterranean.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Béarnaise sauce is a sauce made of clarified butter, egg yolk, white wine vinegar, and herbs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

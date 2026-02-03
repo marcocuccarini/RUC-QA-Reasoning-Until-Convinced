@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which part of the body can suffer from cirrhosis. Pancreas",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which part of the body can suffer from cirrhosis. Kidneys",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which part of the body can suffer from cirrhosis. Lungs",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which part of the body can suffer from cirrhosis. Liver",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cirrhosis is a chronic condition of the liver in which the normal functioning tissue, or parenchyma, is replaced with scar tissue (fibrosis) and regenerative nodules as a result of chronic liver disease.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cirrhosis is defined by its features on microscopy: (1) the presence of regenerating nodules of hepatocytes and (2) the presence of fibrosis, or the deposition of connective tissue between these nodules.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

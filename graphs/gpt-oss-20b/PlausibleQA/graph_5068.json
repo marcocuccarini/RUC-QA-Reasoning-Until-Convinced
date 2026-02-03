@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Juan Valdez advertises the coffee of which country. Brazil",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Juan Valdez advertises the coffee of which country. Mexico",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Juan Valdez advertises the coffee of which country. Guatemala",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Juan Valdez advertises the coffee of which country. Colombia",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Juan Valdez coffee is used as an ingredient brand, to specifically denote coffee beans that are only grown and harvested in Colombia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The advertisements were designed by the Doyle Dane Bernbach ad agency, with the goal of distinguishing 100%-Colombian coffee from coffee blended with beans from other countries.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

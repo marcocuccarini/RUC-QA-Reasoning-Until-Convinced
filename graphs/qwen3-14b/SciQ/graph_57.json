@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical remediation is a chemical process used to treat water by destroying a contaminant.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Basic remediation is a chemical process used to treat water by destroying a contaminant.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Toxic remediation is a chemical process used to treat water by destroying a contaminant.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon remediation is the chemical process used to treat water by destroying a contaminant.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical reagents such as flocculants followed by sand filters may also be used to decrease the contamination of groundwater.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Remediation by chemical oxidation involves the injection of strong oxidants such as hydrogen peroxide, ozone gas, potassium permanganate or persulfates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

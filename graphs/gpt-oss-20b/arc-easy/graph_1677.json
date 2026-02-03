@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon has a smaller surface area than Earth, so less force is required to launch a spaceship from the surface of the Moon than to launch an identical ship from the surface of Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The mass of an object on Earth is greater than on the Moon, so less force is required to launch a spaceship from the Moon than from the Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The gravitational field of the Moon is less than that of Earth, so less force is required to launch an identical spaceship from the Moon’s surface than from Earth's surface.",
+      "strength": 0.749902584985255
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The atmosphere of the Moon is much thinner than that of Earth, which is why less force is required to launch a spaceship from the Moon than from Earth.",
+      "strength": 0.599999942563457
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Moon's surface gravity is 1.62 m/s2 (0.1654 g; 5.318 ft/s2), about half of the surface gravity of Mars and about a sixth of Earth's.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon has an atmosphere consisting of only an exosphere, which is so tenuous as to be nearly vacuum, with a total mass of less than 10 tonnes (9.8 long tons; 11 short tons).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Gravity is the law that every object with mass attracts every other object in the universe in proportion to each mass and inversely proportional to the square of the distance between them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Martin Freeman",
+      "strength": 0.5000967341380452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Elijah Wood",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Viggo Mortensen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Ian Holm",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He gained wider appreciation for his role as the elderly Bilbo Baggins in Peter Jackson's The Lord of the Rings (2001-2003) and The Hobbit (2012-2014) film trilogies",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Martin Freeman portrayed the young Bilbo in those films",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Freeman played lead character Bilbo Baggins in Peter Jackson's three-part The Hobbit film series",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

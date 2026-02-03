@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 11.6",
+      "strength": 0.4000000000219427
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 10.16",
+      "strength": 0.2500000357574878
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 12.1",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 10.13. 4",
+      "strength": 0.1539374376183319
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As of 2025, the most recent release of macOS is macOS 26 Tahoe, the 22nd major version of macOS.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2025, Apple unified the version number across all of its products to align with the year after their WWDC announcement, so the release announced at the 2025 WWDC, macOS Tahoe, is macOS 26.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During the initial beta release, macOS Big Sur was referred to as version 10.16, but it was later changed to 11.0.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "macOS Big Sur is the first release of macOS for Macs powered by Apple-designed ARM64-based processors.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "macOS High Sierra is the final version of macOS to support the Unibody iMac and the Polycarbonate Unibody MacBook",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "macOS High Sierra requires at least 2 GB of RAM and 20.12 GB of available disk space.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

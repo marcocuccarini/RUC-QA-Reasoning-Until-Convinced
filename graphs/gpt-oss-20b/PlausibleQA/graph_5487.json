@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which fashion designer was suspended by Dior after making anti-semitic remarks in a Paris bar in 2011. Marc Jacobs",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which fashion designer was suspended by Dior after making anti-semitic remarks in a Paris bar in 2011. Alexander McQueen",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which fashion designer was suspended by Dior after making anti-semitic remarks in a Paris bar in 2011. Vivienne Westwood",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which fashion designer was suspended by Dior after making anti-semitic remarks in a Paris bar in 2011. John Galliano",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dior announced that it had begun procedures of dismissal for Galliano",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Galliano was found guilty of making antisemitic remarks and sentenced to a total of €6,000 in suspended fines",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

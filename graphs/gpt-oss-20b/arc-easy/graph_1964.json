@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electron is the atomic structure with the greatest mass.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neutron is the atomic structure that has the greatest mass.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The nucleus has the greatest mass among atomic structures.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Proton has the greatest mass among atomic structures.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electrons have the lowest mass of any charged lepton (or electrically charged particle of any type).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ratio between the mass of a proton and that of an electron is about 1836.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

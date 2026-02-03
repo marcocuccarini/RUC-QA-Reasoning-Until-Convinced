@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the tennessee river go. Gulf of Mexico",
+      "strength": 0.5999999999752597
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the tennessee river go. Ohio River",
+      "strength": 0.7736590563408734
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the tennessee river go. Mississippi River",
+      "strength": 0.4000682328053174
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the tennessee river go. Crump",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It drains into the Ohio River near Paducah, Kentucky.",
+      "strength": 0.5999999741920976
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Tennessee–Tombigbee Waterway, a U.S. Army Corps of Engineers project providing a route to Alabama's Tombigbee River and a link to that state's Gulf of Mexico port of Mobile, enters the Tennessee River near the Tennessee-Alabama-Mississippi boundary.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At Paducah, Kentucky, in the south, at the Ohio's confluence with the Tennessee River, it is ice-free year-round.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

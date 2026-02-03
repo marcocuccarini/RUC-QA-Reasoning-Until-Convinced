@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Being open to new ideas is the characteristic a scientist most likely maintains throughout an investigation.",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sharing limited research is a characteristic that a scientist most likely maintains throughout an investigation.",
+      "strength": 0.5999999090162662
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Focus on completing research first is the characteristic that a scientist most likely maintains throughout an investigation.",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Focus on formulating conclusions is a characteristic that a scientist most likely maintains throughout an investigation.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Published results of experiments can also serve as a hypothesis predicting their own reproducibility.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Failure to develop an interesting hypothesis may lead a scientist to re-define the subject under consideration.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The philosophy of science includes the question: What criteria are satisfied by a 'good' theory.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

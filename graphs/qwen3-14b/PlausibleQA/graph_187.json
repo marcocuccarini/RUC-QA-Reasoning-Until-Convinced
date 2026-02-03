@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which year was the battle of Rorke's Drift. 1850",
+      "strength": 0.4000000000376538
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which year was the battle of Rorke's Drift. 1875",
+      "strength": 0.4000000000376538
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which year was the battle of Rorke's Drift. 1860",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which year was the battle of Rorke's Drift. 1879",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The successful British defence of the Swedish mission station of Rorke's Drift began once a large contingent of Zulu warriors broke off from the main force during the final hour of the British defeat at the day-long Battle of Isandlwana on 22 January 1879.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Roll of those present at Rorke's Drift 22/23 January, 1879",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Anglo-Zulu War was fought from January to early July 1879.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The exact date of the invasion was 11 January 1879.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

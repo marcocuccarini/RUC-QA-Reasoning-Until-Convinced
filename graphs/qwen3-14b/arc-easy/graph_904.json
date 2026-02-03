@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An inference is being made by the student who examined a rock sample and described it as having particles of various colors that were 1 millimeter to 12 millimeters in size.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A hypothesis was being made by the student who examined a rock sample and described it as containing particles of various colors ranging from 1 millimeter to 12 millimeters in size.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A prediction is being made by the student when he examines a rock sample and describes it as having particles of various colors ranging from 1 millimeter to 12 millimeters in size.",
+      "strength": 0.19523056114519724
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An observation is what the student was making when they examined a rock sample and described it as having particles of various colors that were 1 millimeter to 12 millimeters in size.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A prediction is a rigorous, often quantitative, statement, forecasting what would be observed under specific conditions; for example, according to theories of gravity, if an apple fell from a tree it would be seen to move towards the center of the Earth with a specified and constant acceleration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A prediction (from Latin prae- 'before' and dictum 'something said') or forecast is a statement about a future event or about future data.",
+      "strength": 0.7499409008703515
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rescher, Nicholas (1998). Predicting the future: An introduction to the theory of forecasting. State University of New York Press. ISBN 0-7914-3553-9.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Tetlock, Philip E.; Gardner, Dan (2016). Superforecasting: The Art and Science of Prediction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

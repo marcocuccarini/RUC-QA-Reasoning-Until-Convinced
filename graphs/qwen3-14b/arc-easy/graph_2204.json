@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A nucleus is the cellular structure shared by organisms in the kingdoms Eubacteria, Archaebacteria, and Protista.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A cell membrane is the cellular structure common to organisms in the kingdoms Eubacteria, Archaebacteria, and Protista.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A circular chromosome is the cellular structure that organisms in the kingdoms Eubacteria, Archaebacteria, and Protista have in common.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A mitochondrion is the cellular structure that organisms in the kingdoms Eubacteria, Archaebacteria, and Protista have in common.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prokaryotes have only a plasma membrane, while eukaryotic cells have a cell membrane.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eukaryotic cells have a nuclear membrane separating the contents of the nucleus from the cytoplasm of the cell.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The nucleus is the structure that controls what enters both plant cells and animal cells.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cell wall is the structure that controls what enters both plant cells and animal cells.",
+      "strength": 0.599999961499134
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chloroplast controls what enters both plant cells and animal cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The cell membrane controls what enters both plant cells and animal cells.",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cell membrane is selectively permeable and able to regulate what enters and exits the cell, thus facilitating the transport of materials needed for survival.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fungi, bacteria, most archaea, and plants also have a cell wall, which provides a mechanical support to the cell and precludes the passage of larger molecules.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "3D structures of proteins associated with plasma membrane of eukaryotic cells.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lipid composition and proteins of some eukariotic membranes",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

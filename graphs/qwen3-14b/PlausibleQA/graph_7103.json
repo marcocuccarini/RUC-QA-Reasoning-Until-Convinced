@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Popliteal artery",
+      "strength": 0.2499069920198211
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Tibial artery",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Peroneal artery",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Femoral pulse",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The femoral artery is a large artery in the thigh and the main arterial supply to the thigh and leg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The femoral artery becomes the popliteal artery as it passes through the adductor hiatus in the adductor magnus near the junction of the middle and distal thirds of the thigh.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The popliteal artery is the continuation of the femoral artery.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The popliteal artery is shown in association with major landmarks in the lower extremity.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The image is labeled 'pulse', indicating the presence of a pulse in the lower extremity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

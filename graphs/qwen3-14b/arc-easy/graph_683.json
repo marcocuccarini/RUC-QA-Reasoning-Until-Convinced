@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat island is the human‑produced effect that urban weather stations—built in areas surrounded by structures and used to determine mean temperatures in the United States—may be measuring, potentially compromising the validity of their data.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rain shadow is the human-produced effect that urban weather stations could be measuring, potentially affecting the validity of mean temperature data in the United States.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Land breeze is the human‑produced effect that urban weather stations built in the United States may be measuring, potentially compromising the validity of their mean temperature data.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cold front is the human‑produced effect that could be measured by weather stations built in urban areas, whose data—used to determine mean temperatures in the United States—have had their validity questioned due to influence from surrounding human‑made structures.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Concrete can hold roughly 2,000 times as much heat as an equivalent volume of air.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dark surfaces absorb significantly more solar radiation, which causes urban concentrations of roads and buildings to heat more than suburban and rural areas during the day.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They reproduce by mitosis, a characteristic shared by both euglena and amoeba.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They eat by phagocytosis is a characteristic that a euglena shares with an amoeba.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They respond to light stimuli is a characteristic that euglena shares with an amoeba.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They move by changing shape is a characteristic that a euglena shares with an amoeba.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Euglena reproduce asexually through binary fission, a form of cell division. Reproduction begins with the mitosis of the cell nucleus, followed by the division of the cell itself.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When feeding as a heterotroph, Euglena takes in nutrients by osmotrophy, and can survive without light on a diet of organic matter, such as beef extract, peptone, acetate, ethanol or carbohydrates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the woman that john edwards had an affair with. Elizabeth Edwards",
+      "strength": 0.40000003773849835
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the woman that john edwards had an affair with. Jennifer Palmieri",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the woman that john edwards had an affair with. Andrea Metcalf",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the woman that john edwards had an affair with. Rielle Hunter",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Edwards admitted to an extended affair with Rielle Hunter",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Elizabeth Edwards released a statement criticizing claims that her husband fathered a child as an 'absurd lie in a tabloid publication'",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In October 2007, The National Enquirer began a series of reports alleging an adulterous affair between Edwards and former campaign worker Rielle Hunter.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 2012, Rielle Hunter announced her breakup with Edwards the same day she released a book about their relationship.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

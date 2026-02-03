@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Echo is the phenomenon that occurs when sound is reflected off an object.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Signal is sound that is reflected off an object.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amplification is what it is called when sound is reflected off an object.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reverberation is what it is called when sound is reflected off an object.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In acoustics, an echo is a reflection of sound that arrives at the listener with a delay after the direct sound.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When sound, or the echo itself, is reflected multiple times from multiple surfaces, it is characterized as a reverberation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

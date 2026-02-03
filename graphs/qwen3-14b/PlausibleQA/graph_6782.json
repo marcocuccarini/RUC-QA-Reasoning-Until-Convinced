@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Democratic",
+      "strength": 0.4000000000176095
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Independent",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Libertarian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has majority in the house and senate. Republican",
+      "strength": 0.6322560434491431
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The House of Representatives is controlled by the Republican Party.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Senate is controlled by the Democratic Party.",
+      "strength": 0.4000000191189644
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Senate of the 119th Congress is composed in 2025 of 53 Republicans, 45 Democrats, and 2 independents; both the independents caucus with the Democrats.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The majority leader of the Senate is a Republican.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "As of 2025, the GOP holds the presidency, and majorities in both the U.S. House of Representatives and U.S. Senate, giving them a federal government trifecta.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Republicans also held a slim majority in the House and retook control of the Senate, securing the party's first trifecta since 2017.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

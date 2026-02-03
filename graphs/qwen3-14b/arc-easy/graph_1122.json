@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Light‑year, astronomical unit, kilometer, angstrom is the list of units of length from smallest to largest.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Angstrom, kilometer, astronomical unit, light-year are units of length listed from smallest to largest.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Astronomical unit, angstrom, kilometer, light‑year is a list of units of length from smallest to largest.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Kilometer, angstrom, light‑year, astronomical unit is a list of units of length from smallest to largest.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The angstrom is a unit of length equal to 10−10 m; that is, one ten-billionth of a metre",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The astronomical unit (about 1.5×1011 m) is much larger than a kilometer (103 m)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

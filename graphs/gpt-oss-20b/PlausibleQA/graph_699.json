@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who won the Ladies singles title at Wimbledon in 2004. Serena Williams",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who won the Ladies singles title at Wimbledon in 2004. Justine Henin-Hardenne",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who won the Ladies singles title at Wimbledon in 2004. Venus Williams",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who won the Ladies singles title at Wimbledon in 2004. Sharapova",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "With the win, Sharapova entered the top 10 in the WTA rankings for the first time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Maria Sharapova defeated two-time defending champion Serena Williams in the final, 6–1, 6–4 to win the ladies' singles tennis title at the 2004 Wimbledon Championships.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

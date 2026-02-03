@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country is the world's largest producer of copper. Peru",
+      "strength": 0.2500881490789106
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country is the world's largest producer of copper. Australia",
+      "strength": 0.4000000562992237
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country is the world's largest producer of copper. China",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country is the world's largest producer of copper. Cile",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chile was, in 2019, the world's largest producer of copper",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Peru was, in 2019, the world's second largest producer of copper",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

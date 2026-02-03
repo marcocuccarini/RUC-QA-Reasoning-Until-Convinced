@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive is the body system that typically recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Excretory is the body system that typically recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The immune system recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Respiratory is the body system that typically recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is 'remembered' by a signature antigen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Phagocytes generally patrol the body searching for pathogens, but can be called to specific locations by cytokines.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

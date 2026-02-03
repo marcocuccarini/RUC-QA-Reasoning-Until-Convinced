@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which poet wrote ‘The Lake Isle of Innisfree’. John Keats",
+      "strength": 0.3677570040648199
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which poet wrote ‘The Lake Isle of Innisfree’. Emily Dickinson",
+      "strength": 0.3677570040648199
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which poet wrote ‘The Lake Isle of Innisfree’. Robert Frost",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which poet wrote ‘The Lake Isle of Innisfree’. WBY",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Lake Isle of Innisfree was written by William Butler Yeats in 1888",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Lake Isle of Innisfree is included in the collected public domain poetry of William Butler Yeats",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1984, in Bophal, India, there was a leak of 30 tons of methyl isocyanate, which resulted in the deaths of 25,000 people. What American chemical company owned the plant where the leak occurred. Union Carbide",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1984, in Bophal, India, there was a leak of 30 tons of methyl isocyanate, which resulted in the deaths of 25,000 people. What American chemical company owned the plant where the leak occurred. Dow Chemical",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1984, in Bophal, India, there was a leak of 30 tons of methyl isocyanate, which resulted in the deaths of 25,000 people. What American chemical company owned the plant where the leak occurred. DuPont",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1984, in Bophal, India, there was a leak of 30 tons of methyl isocyanate, which resulted in the deaths of 25,000 people. What American chemical company owned the plant where the leak occurred. Prest-O-Lite",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The owner of the factory, Union Carbide India Limited (UCIL), was a publicly-traded company which was majority-owned and controlled by the Union Carbide Corporation (UCC) of the United States, while the remaining 49.1 percent stake was held by the Indian public and Indian government-controlled banks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dow Chemical Company purchased UCC in 2001, seventeen years after the disaster.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

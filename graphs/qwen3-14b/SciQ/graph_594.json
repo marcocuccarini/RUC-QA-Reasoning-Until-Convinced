@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reactors are the nuclear devices that can use only a few of the numerous elements capable of undergoing fission as fuels.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Colliders are nuclear devices that use only a few elements capable of fission as fuels, even though numerous elements can undergo fission.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Laser beams are the nuclear devices in which only a few fissionable elements can be used as fuels, even though many elements can undergo fission.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Accelerators are nuclear devices in which only a few elements that can undergo fission can be used as fuels, even though many elements can undergo fission.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Almost all current reactors are thermal-neutron reactors that use low-enriched uranium or natural uranium fuel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Breeder reactors convert fertile U-238 to Pu-239 or Th-232 to U-233, indicating that reactors rely on a limited set of fissile materials.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

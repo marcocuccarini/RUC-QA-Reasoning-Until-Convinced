@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Minerva",
+      "strength": 0.40006361984599315
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Juno",
+      "strength": 0.2500954907572107
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Victoria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Bellona",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mars is the son of Jupiter and Juno",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Juno was the wife of Jupiter",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Minerva was part of the Capitoline Triad with Jupiter and Juno",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. Ocicat",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. Bengal",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. Egyptian Mau",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. tabby",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bengal cat is the only domestic breed of cat that has rosette markings.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bengal cats have varying appearances. Their coats range from spots, rosettes, arrowhead markings, to marbling.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

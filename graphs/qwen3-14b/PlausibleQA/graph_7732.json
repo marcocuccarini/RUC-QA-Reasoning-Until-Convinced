@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "another name for the torso is the blank region of the body. Thorax",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "another name for the torso is the blank region of the body. Abdomen",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "another name for the torso is the blank region of the body. Core",
+      "strength": 0.5999999193046673
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "another name for the torso is the blank region of the body. trunk",
+      "strength": 0.5999999193046673
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The torso or trunk is an anatomical term for the central part, or the core, of the body",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The abdomen is the front part of the torso between the thorax and pelvis in humans and other vertebrates",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "I and O are the chemical symbols for the two elements found in iron oxide, which forms when iron metal reacts with oxygen in the air.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ir and O are the chemical symbols for the two elements found in iron oxide, which forms when iron metal reacts with oxygen in the air.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fe and O are the chemical symbols for the two elements found in iron oxide, which forms when iron metal reacts with oxygen in the air.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pb and O are the chemical symbols for the two elements found in iron oxide, which forms when iron metal reacts with oxygen in the air.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An iron oxide is a chemical compound composed of iron and oxygen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In blast furnaces and related factories, iron oxides are converted to the metal. Typical reducing agents are various forms of carbon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

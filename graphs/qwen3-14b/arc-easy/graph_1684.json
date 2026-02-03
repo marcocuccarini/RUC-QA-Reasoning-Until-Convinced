@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Friction is the property of volume and mass.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light is a property of volume and mass.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Matter is the entity that has both volume and mass.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sound is a property of volume and mass.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In classical physics and general chemistry, matter is any substance that has mass and takes up space by having volume.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "However it does not include massless particles such as photons, or other energy phenomena or waves such as light or heat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

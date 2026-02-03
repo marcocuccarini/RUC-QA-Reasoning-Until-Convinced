@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which European country is the HQ of the food company, Nestle . France",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which European country is the HQ of the food company, Nestle . Germany",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which European country is the HQ of the food company, Nestle . Italy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which European country is the HQ of the food company, Nestle . Suiza",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nestlé is headquartered in Vevey, Switzerland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Switzerland is home to several large multinational corporations. The largest by revenue are Glencore, Gunvor, Nestlé, Mediterranean Shipping Company, Novartis, Hoffmann-La Roche, ABB, Mercuria Energy Group and Adecco.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

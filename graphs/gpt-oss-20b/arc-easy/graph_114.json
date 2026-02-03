@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Need to consume plant matter is the best explanation of why carnivores are dependent on plants.",
+      "strength": 0.3999027050230167
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Use plants for shelter is the best explanation of why carnivores are dependent on plants.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Need carbon dioxide released by plants is the best explanation of why carnivores are dependent on plants.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Consume other animals that eat plants is the best explanation of why carnivores are dependent on plants.",
+      "strength": 0.5999350532803571
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All wild felids, including domestic cats, require a diet of primarily animal flesh and organs. Specifically, cats have high protein requirements and their metabolisms appear unable to synthesize essential nutrients such as retinol, arginine, taurine, and arachidonic acid; thus, in nature, they must consume flesh to supply these nutrients.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "While obligate carnivores might be able to ingest small amounts of plant matter, they lack the necessary physiology required to fully digest it.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Carnivores in turn consume herbivores for the same reason.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The food chain begins with a producer, which is eaten by a primary consumer.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Primary producers, or autotrophs, utilize energy derived from either sunlight or inorganic chemical compounds to create complex organic compounds, such as starch, for energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

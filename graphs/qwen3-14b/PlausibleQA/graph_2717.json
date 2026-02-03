@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 2015 Edgar Lungu became prime minister of. Zimbabwe",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 2015 Edgar Lungu became prime minister of. Botswana",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 2015 Edgar Lungu became prime minister of. Malawi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 2015 Edgar Lungu became prime minister of. Zambia",
+      "strength": 0.14053349795451897
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Edgar Chagwa Lungu served as the sixth president of Zambia from 26 January 2015 to 24 August 2021.",
+      "strength": 0.599999945908301
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lungu was elected as President of Zambia in the January 2015 presidential by-election.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "President Lungu confident of being re-elected",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The position of prime minister of Zambia was abolished in 1991 and has not been reinstated since.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

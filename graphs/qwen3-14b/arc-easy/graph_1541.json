@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tilting of Earth's axis causes day and night on Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rotation of Earth on its axis causes day and night on Earth.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Movement of Earth around the sun causes day and night on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Movement of the sun around Earth causes day and night on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth's rotation period relative to the International Celestial Reference Frame is 86 164.098 903 691 seconds of mean solar time (23h 56m 4.098903691s).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mean solar day is longer than the stellar day by about 3 minutes 56 seconds due to Earth's orbital motion around the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

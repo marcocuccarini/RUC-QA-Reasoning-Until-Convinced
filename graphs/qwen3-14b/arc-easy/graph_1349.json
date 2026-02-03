@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Meter is the most appropriate unit of measurement for expressing the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kilometer is the most appropriate unit of measurement to express the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Light-year is the most appropriate unit of measurement to express the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.40008417731488793
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Astronomical unit is the most appropriate unit of measurement to express the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.40008417731488793
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The astronomical unit is too small to be convenient for interstellar distances, where the parsec and light-year are widely used.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The light-year is often used in popular works, but is not an approved non-SI unit and is rarely used by professional astronomers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

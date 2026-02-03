@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Australian won the men’s singles title at Wimbledon in 1956 and 1957. Rod Laver",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Australian won the men’s singles title at Wimbledon in 1956 and 1957. Roy Emerson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Australian won the men’s singles title at Wimbledon in 1956 and 1957. Ken Rosewall",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Australian won the men’s singles title at Wimbledon in 1956 and 1957. LEW HOAD",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Laver captured his first Wimbledon singles crown in 1961, beating Chuck McKinley in straight sets in the final, which lasted just 53 minutes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lew Hoad defeated Ken Rosewall in the final, 6–2, 4–6, 7–5, 6–4, to win the gentlemen's singles tennis title.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rod Laver was defeated in the first round by Orlando Sirola.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

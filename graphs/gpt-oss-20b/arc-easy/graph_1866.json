@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Divide change in velocity by change in time is the calculation used to determine acceleration.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Multiply average velocity by change in time is the calculation used to determine acceleration.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Divide average velocity by mass is the calculation used to determine acceleration.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Multiplying change in velocity by distance traveled is the calculation used to determine acceleration.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "a = Δv / Δt.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Acceleration is defined as the derivative of the velocity vector with respect to time.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

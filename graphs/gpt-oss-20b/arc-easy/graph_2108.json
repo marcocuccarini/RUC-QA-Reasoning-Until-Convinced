@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Radiation is the way heat transfers from the dark wall, which has become warm while the Sun is shining, to a person standing a meter away after the Sun sets, allowing the person to feel the wall’s warmth.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Conduction is the process by which heat transfers from a dark‑colored wall that becomes warm when the Sun is shining to a person standing one meter away after the Sun sets.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Convection is the heat transfer mechanism that carries warmth from a dark‑colored wall, which becomes warm when the Sun is shining, to a person standing a meter away after the Sun sets.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Insulation is the process by which a dark‑colored wall that becomes warm when the Sun shines on it continues to transfer heat to a person standing a meter away after the Sun sets, allowing that person to feel the wall’s warmth.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thermal radiation is emitted by all objects at temperatures above absolute zero, due to random movements of atoms and molecules in matter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clothing can be considered an insulator which provides thermal resistance to heat flow over the covered portion of the body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

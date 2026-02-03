@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the guy that jumped from space. Joe Kittinger",
+      "strength": 0.4000000385008666
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the guy that jumped from space. Yuri Gagarin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the guy that jumped from space. Alan Shepard",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the guy that jumped from space. Felix Baumgartner",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Felix Baumgartner was widely known for jumping to Earth from a lickelium balloon in the stratosphere on 14 October 2012 as part of the Red Bull Stratos project.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Joseph Kittinger's jump on 16 August 1960 set a record for free fall time, which Baumgartner's 2012 jump reduced by 17 seconds.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Space Dive, BBC documentary about Baumgartner, 2012, 60 minutes",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Felix Baumgartner's jump from the stratosphere reached an altitude of 127,851 feet on 14 October 2012",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

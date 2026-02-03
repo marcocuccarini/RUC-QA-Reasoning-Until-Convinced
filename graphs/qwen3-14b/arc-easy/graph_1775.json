@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Leaves are the part of a compost pile that break down materials and add nutrients to the soil, as compost piles contain leaves, moisture, vegetables, and microorganisms.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Moisture is the part of a compost pile that breaks down materials and adds nutrients to the soil, while other parts include leaves, vegetables, and microorganisms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vegetables are the part of a compost pile that breaks down materials and adds nutrients to the soil, alongside leaves, moisture, and microorganisms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Microorganisms break down materials and add nutrients to the soil in a compost pile.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bacteria are the most abundant and important of all the microorganisms found in compost. Bacteria process carbon and nitrogen and excrete plant-available nutrients such as nitrogen, phosphorus, and magnesium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fungi such as molds and yeasts help break down materials that bacteria cannot, especially cellulose and lignin in woody material.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

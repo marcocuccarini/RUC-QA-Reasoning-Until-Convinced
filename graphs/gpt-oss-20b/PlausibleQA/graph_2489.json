@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of animals live in the great victoria desert. Red Kangaroo",
+      "strength": 0.7499372581016508
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of animals live in the great victoria desert. Perentie",
+      "strength": 0.5690757448182693
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of animals live in the great victoria desert. Bilby",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of animals live in the great victoria desert. dingo",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The wildlife that adapted to these harsh conditions include a few large birds or mammals such as emus and red kangaroos.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Predators of the desert include the dingo (as the desert is north of the Dingo Fence) and two large monitor lizards, the perentie (Varanus giganteus) and the sand goanna (Varanus gouldii).",
+      "strength": 0.4000418012174884
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The red kangaroo is the largest of all kangaroos, the largest terrestrial mammal native to Australia, and the largest extant marsupial.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The red kangaroo is too big to be subject to significant non-human predation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

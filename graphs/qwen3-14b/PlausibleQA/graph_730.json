@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ardbeg is whisky distillery on which Scottish island. Skye",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ardbeg is whisky distillery on which Scottish island. Mull",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ardbeg is whisky distillery on which Scottish island. Jura",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ardbeg is whisky distillery on which Scottish island. Islay",
+      "strength": 0.6322449307698443
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ardbeg distillery is located on the isle of Islay",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ardbeg is located on the south of Islay",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

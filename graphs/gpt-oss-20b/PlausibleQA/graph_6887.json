@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Painting",
+      "strength": 0.8460606499178676
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Sculpture",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Architecture",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Drawing",
+      "strength": 0.7499999066099569
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Leonardo was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was a prolific draughtsman, keeping journals full of small sketches and detailed drawings recording all manner of things that took his attention.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Leonardo's habit of disastrous experimentation with new techniques and his chronic procrastination resulted in many incomplete works.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In addition to his paintings, there are eleven surviving manuscripts of Leonardo da Vinci's notes and drawings, amounting to thousands of pages in total.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Leonardo's Mona Lisa is a half-length portrait painting by the Italian artist Leonardo da Vinci.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Leonardo's Mona Lisa is a painting.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

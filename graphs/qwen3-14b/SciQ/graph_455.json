@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Aspirin is the common name for acetylsalicylic acid, which is synthesized using salicylic acid.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Smelling salts are the commonly used name for acetylsalicylic acid, which is synthesized using salicylic acid.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Antacid is the more commonly used name for acetylsalicylic acid, which is synthesized from salicylic acid.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tylenol is acetylsalicylic acid, which is synthesized from salicylic acid.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aspirin, an acetyl derivative of salicylic acid, is a white, crystalline, weakly acidic substance that melts at 136 °C (277 °F), and decomposes around 140 °C (284 °F).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The word Aspirin was Bayer's brand name, rather than the generic name of the drug; however, Bayer's rights to the trademark were lost or sold in many countries.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

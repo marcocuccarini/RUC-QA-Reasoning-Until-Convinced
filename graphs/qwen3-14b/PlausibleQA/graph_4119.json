@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Painting",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Sculpture",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Architecture",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Drawing",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Leonardo di ser Piero da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "he has also become known for his notebooks, in which he made drawings and notes on a variety of subjects",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In addition to his paintings, there are eleven surviving manuscripts of Leonardo da Vinci's notes and drawings",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the main artery which takes blood from the heart to the body. Pulmonary Artery",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the main artery which takes blood from the heart to the body. Coronary Artery",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the main artery which takes blood from the heart to the body. Carotid Artery",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the main artery which takes blood from the heart to the body. aorta",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The aorta is the main and largest artery in the human body, originating from the left ventricle of the heart",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the entire body, except for the respiratory zone of the lung, receives its blood from the aorta",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

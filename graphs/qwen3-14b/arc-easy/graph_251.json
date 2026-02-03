@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Some pesticides are expensive, which is why the United States government enforces laws that limit pesticide use through the Endangered Species Protection Program.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Some pesticides fail to control insects, which is why the United States government limits pesticide use through laws passed in the Endangered Species Protection Program.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Some pesticides give off foul odors is the most likely reason the United States government enforces laws limiting pesticide use through the Endangered Species Protection Program.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Some pesticides can harm non-targeted species, which is the most likely reason the United States government enforces laws limiting pesticide use through the Endangered Species Protection Program.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pesticides, because they are toxic chemicals meant to kill pest species, can affect non-target species, such as plants, animals and humans.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Over 98% of sprayed insecticides and 95% of herbicides reach a destination other than their target species, because they are sprayed or spread across entire agricultural fields.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

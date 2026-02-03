@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Waxing gibbous is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Waning crescent is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "First quarter is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The new moon is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The duration from full moon to new moon varies from approximately 13 days 22+1⁄2 hours to about 15 days 14+1⁄2 hours.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The intermediate phases (waning gibbous, waning crescent) last approximately 7.38 days each.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

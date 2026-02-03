@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Joe Biden",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Mike Pence",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Kamala Harris",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the president of usa right now. Donald Trump",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Biden was inaugurated as the 46th president of the United States on January 20, 2021. At 78, he was then the oldest person to assume the office up to that point.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After the Capitol was cleared, Congress officially counted the election results, with Pence, in his role as president of the Senate, announcing Biden and Harris as the winners.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

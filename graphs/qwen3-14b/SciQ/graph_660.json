@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cancers result from uncontrolled cell division.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High blood pressure results from uncontrolled cell division.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Obesity is what results from uncontrolled cell division.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Diabetes results from uncontrolled cell division.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Errors that cause cancer are self-amplifying and compounding, for example: A mutation in the error-correcting machinery of a cell might cause that cell and its children to accumulate errors more rapidly.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A further mutation in an oncogene might cause the cell to reproduce more rapidly and more frequently than its normal counterparts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

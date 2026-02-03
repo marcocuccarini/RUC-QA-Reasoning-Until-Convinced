@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Quantum numbers are the same sets of four that the first two electrons in lithium, which occupy the 1s orbital, have as the two electrons in helium.",
+      "strength": 0.32010289815032444
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Decay numbers are the same sets of four numbers that the first two electrons in lithium fill the 1s orbital with as the two electrons in helium.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity numbers are the same sets of four that the first two electrons in lithium, which fill the 1s orbital, possess as the two electrons in helium.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Kinetic numbers are the sets of four that the first two electrons in lithium, which fill the 1s orbital, share with the two electrons in helium.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Pauli exclusion principle, which states that no two electrons in the same atom can have the same values of the four quantum numbers",
+      "strength": 0.7499665779387772
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The four quantum numbers—n, ℓ, mℓ, ms—connected with the energy states of an isolated atom's electrons. These four numbers specify the unique and complete quantum state of any single electron in the atom",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Each of the different angular momentum states can take 2(2ℓ + 1) electrons. This is because the third quantum number mℓ (which can be thought of loosely as the quantized projection of the angular momentum vector on the z-axis) runs from −ℓ to ℓ in integer units, and so there are 2ℓ + 1 possible states",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

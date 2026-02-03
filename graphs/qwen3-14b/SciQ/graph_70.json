@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Domains are the least specific grouping, and all organisms can be classified into one of the three domains.",
+      "strength": 0.25008470852089776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aspects are the least specific grouping into which all organisms can be classified, and all organisms belong to one of three aspects.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Phlylum is one of the three least specific groupings into which all organisms can be classified.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Species is one of three least specific groupings into which all organisms can be classified.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The three-domain system includes no form of non-cellular life.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Non-cellular life, most notably the viruses, is not included in this system.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The principal ranks in modern use are domain, kingdom, phylum (division is sometimes used in botany in place of phylum), class, order, family, genus, and species.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Domains are a relatively new grouping. First proposed in 1977, Carl Woese's three-domain system was not generally accepted until later.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

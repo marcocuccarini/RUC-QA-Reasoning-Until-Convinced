@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun is the primary source of the gravitational pull that causes most tides on Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stars are the celestial bodies whose gravitational pull mostly causes tides on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is the gravitational pull that mostly causes tides on Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Asteroids are the gravitational pull that mostly causes tides on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The solar gravitational force on the Earth is on average 179 times stronger than the lunar, but because the Sun is on average 389 times farther from the Earth, its field gradient is weaker.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon thus tends to 'stretch' the Earth slightly along the line connecting the two bodies. The solid Earth deforms a bit, but ocean water, being fluid, is free to move much more in response to the tidal force, particularly horizontally (see equilibrium tide).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

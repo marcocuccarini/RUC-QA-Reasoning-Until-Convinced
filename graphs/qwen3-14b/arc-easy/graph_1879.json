@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nova is the intensely bright object formed when a star explodes.",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Red giant is the intensely bright object formed when a star explodes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Supernova is the intensely bright object formed when a star explodes.",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White dwarf is the intensely bright object that is formed when a star explodes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A nova is a transient astronomical event that causes the sudden appearance of a bright, apparently 'new' star (hence the name 'nova', Latin for 'new') that slowly fades over weeks or months.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eventually, the white dwarf can explode as a Type Ia supernova if it approaches the Chandrasekhar limit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

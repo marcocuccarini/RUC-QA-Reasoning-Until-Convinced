@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city of USA has a neighborhood called Little Havana. Los Angeles",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city of USA has a neighborhood called Little Havana. New York City",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city of USA has a neighborhood called Little Havana. San Francisco",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city of USA has a neighborhood called Little Havana. Miami",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Little Havana is a neighborhood of Miami, Florida, United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

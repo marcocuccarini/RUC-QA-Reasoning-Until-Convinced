@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Weight of heavy machinery moving over the rocks is another reliable explanation of how the rock formation was changed from its original sedimentary state to a metamorphic one, as determined by a scientist who found the metamorphic formation next to a magma chamber and attributed its transformation to the magma chamber’s temperature.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pressure on the rock formation inside Earth is another reliable explanation of how the rock formation was changed from a sedimentary to a metamorphic rock formation, as the scientist found the metamorphic formation next to a magma chamber and concluded that the magma chamber’s temperature caused the transformation.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A sandstorm that caused the rocks to be eroded is another reliable explanation of how the rock formation, originally sedimentary and now metamorphic near a magma chamber, was changed.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A quick burial of the rocks by tons of volcanic ash is another reliable explanation of how the rock formation—originally sedimentary and found next to a magma chamber, which the scientist determined was transformed into a metamorphic formation by the magma chamber’s temperature—was changed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The original rock (protolith) is subjected to temperatures greater than 150 to 200 °C (300 to 400 °F) and, often, elevated pressure of 100 megapascals (1,000 bar) or more, causing profound physical or chemical changes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Metamorphism can take place without metasomatism (isochemical metamorphism) or at depths of just a few hundred meters where pressures are relatively low (for example, in contact metamorphism).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Metamorphism takes place at temperatures in excess of 150 °C (300 °F), and often also at elevated pressure or in the presence of chemically active fluids, but the rock remains mostly solid during the transformation.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Metamorphism is the set of processes by which existing rock is transformed physically or chemically at elevated temperature, without actually melting to any great degree.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Centimeters are the metric units that should be used to describe the mass of an object.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liters are the metric units used to describe the mass of an object.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grams are the metric units that should be used to describe the mass of an object.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Degrees Celsius are metric units used to describe the mass of an object.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The gram is the most widely used unit of measurement for non-liquid ingredients in cooking and grocery shopping worldwide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many standards and legal requirements for nutrition labels on food products require relative contents to be stated per 100 g of the product",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

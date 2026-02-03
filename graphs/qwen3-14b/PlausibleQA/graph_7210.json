@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. Cardiff City FC",
+      "strength": 0.2500955085906131
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. Newport County FC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. Wrexham AFC",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. SCAFC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cardiff City moved to the Cardiff City Stadium in 2009.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ninian Park was the home ground of Cardiff City until 2009.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

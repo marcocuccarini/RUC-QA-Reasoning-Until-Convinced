@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who appoints the chief election commissioner of india. Prime Minister of India",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who appoints the chief election commissioner of india. Leader of the Opposition",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who appoints the chief election commissioner of india. Parliament",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who appoints the chief election commissioner of india. the president",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An election commissioner is appointed by the president of India on the recommendation of a three-member selection committee headed by the prime minister and consisting of the leader of the opposition and a Union Cabinet minister.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The CEC can be removed from the office through the process of impeachment, requiring a two‑thirds majority of the Lok Sabha and the Rajya Sabha to be present and voting for the same.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

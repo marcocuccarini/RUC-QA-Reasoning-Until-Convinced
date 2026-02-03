@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many hearts does an earthworm have. 1",
+      "strength": 0.2500974173587746
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many hearts does an earthworm have. 3",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many hearts does an earthworm have. 7",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many hearts does an earthworm have. 5",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In many earthworms, some of the vessels that connect the upper and lower main vessels function as hearts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There are five small muscular vessels that contract and act as hearts in earthworms.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There are five muscular vessels functioning as hearts, not just one, in earthworms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

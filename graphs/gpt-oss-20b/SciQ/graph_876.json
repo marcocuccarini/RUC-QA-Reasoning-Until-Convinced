@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Proteins are the organic compounds that are made from 20 different common amino acids.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lipids are the organic compounds that require 20 different common amino acids to make.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nutron is the organic compound that is made from the 20 different common amino acids.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cells are the organic compound that requires 20 different common amino acids to be made.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Proteins are assembled from amino acids using information encoded in genes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most proteins consist of linear polymers built from series of up to 20 L-α-amino acids.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Producers are humans as members of a food web.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Consumers are humans considered to be members of a food web.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Decomposers are humans as members of a food web.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Scavengers are humans considered to be as members of a food web.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Humans are chemoheterotrophs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A heterotroph cannot produce its own food; it takes nutrition from other sources of organic carbon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

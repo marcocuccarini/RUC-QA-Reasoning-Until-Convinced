@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Speciation is the process that is the source of the wide color variation observed in parakeet populations, whose basic plumage color is green but exhibit a wide range of color both in the wild and in captivity.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Adaptation is the process that is the source of the wide color variation observed in parakeet populations, which are birds with basic green plumage that show a wide range of color both in the wild and in captivity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Natural selection is the source of the wide color variation observed in parakeet populations, which are birds whose basic plumage color is green yet exhibit a wide range of colors both in the wild and in captivity.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Genetic mutation is the process that causes the wide color variation observed in parakeet populations, which are birds whose basic plumage color is green but exhibit a wide range of color both in the wild and in captivity.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Random mutations are the ultimate source of genetic variation.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Other mechanisms, such as genetic drift, contribute to it, as well.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Males with the brightest plumage are favoured by females of multiple species of bird.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

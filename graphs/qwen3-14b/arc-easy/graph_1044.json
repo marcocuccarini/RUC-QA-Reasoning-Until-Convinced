@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Coal is a source of energy that is nonrenewable.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sunlight is a source of energy that is nonrenewable.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water is the source of energy that is nonrenewable.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood is a source of energy that is nonrenewable.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Natural resources such as coal, petroleum (crude oil) and natural gas take thousands of years to form naturally and cannot be replaced as fast as they are being consumed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "renewable resources such as... solar energy... are practically infinite and cannot be depleted, unlike their non-renewable counterparts, which are likely to run out if not used sparingly.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

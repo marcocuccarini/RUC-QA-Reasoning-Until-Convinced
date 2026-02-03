@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Earth turning on its axis best explains why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon turning on its axis explains why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon orbits around the Earth explains why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Clouds covering the Moon explain why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The appearance of the Moon (its phase) gradually changes over a lunar month as the relative orbital positions of the Moon around Earth, and Earth around the Sun, shift.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The phases are not caused by the Earth's shadow falling on the Moon, as some people believe. They are caused by the Moon's shadow on itself, just as the Earth's shadow makes it night on one side of the Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

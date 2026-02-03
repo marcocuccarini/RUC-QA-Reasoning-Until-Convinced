@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The letter t is the second most common letter used in the English language. False",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The letter t is the second most common letter used in the English language. The letter 'a'",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The letter t is the second most common letter used in the English language. The letter 'o'",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The letter t is the second most common letter used in the English language. True",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to Lewand, arranged from most to least common in appearance, the letters are: etaoinshrdlcumwfgypbvkjxqz.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In English, the space character occurs almost twice as frequently as the top letter (⟨e⟩) and the non-alphabetic characters (digits, punctuation, etc.) collectively occupy the fourth position (having already included the space) between ⟨t⟩ and ⟨a⟩.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

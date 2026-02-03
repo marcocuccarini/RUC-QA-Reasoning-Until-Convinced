@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The mass of the water remains constant during both the condensation of the 100 g of steam in the sealed container into liquid and the subsequent freezing of that water into solid.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The pressure in the container remains constant during both the cooling of 100 g of steam to liquid and the subsequent cooling of that liquid to solid.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The total energy of the water remains constant during both the cooling of 100 g of steam in a sealed container to liquid water and the subsequent cooling of that liquid to solid ice.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The position of the atoms in the sealed container remains constant during both the cooling of 100 g of steam to liquid water and the subsequent cooling of that water to solid ice.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Careful experiments were performed in which chemical reactions such as rusting were allowed to take place in sealed glass ampoules; it was found that the chemical reaction did not change the weight of the sealed container and its contents.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In physics and chemistry, the law of conservation of mass or principle of mass conservation states that for any system which is closed to all incoming and outgoing transfers of matter, the mass of the system must remain constant over time.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

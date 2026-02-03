@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is Britain’s bestselling breakfast cereal. Cornflakes",
+      "strength": 0.49991247133229455
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is Britain’s bestselling breakfast cereal. Coco Pops",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is Britain’s bestselling breakfast cereal. Shreddies",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is Britain’s bestselling breakfast cereal. Weetabix",
+      "strength": 0.40000008398857245
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Force wheat flakes were Britain's best-selling breakfast cereal in 1930, selling 12.5 million packages in one year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1902, Force wheat flakes became the first ready-to-eat breakfast cereal introduced into the United Kingdom.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Corn flakes are a popular food item in the United Kingdom where over 6 million households consume them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

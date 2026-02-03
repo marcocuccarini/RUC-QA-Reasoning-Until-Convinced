@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Length is the measurement of something along its greatest dimension.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stretch is the measurement of something along its greatest dimension.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Height is the measurement of something along its greatest dimension.",
+      "strength": 0.40009682695977267
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Length is commonly understood to mean the most extended dimension of a fixed object.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In a triangle, the length of an altitude, a line segment drawn from a vertex perpendicular to the side not passing through the vertex (referred to as a base of the triangle), is called the height of the triangle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

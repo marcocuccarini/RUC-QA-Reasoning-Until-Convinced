@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bacteria cause Lyme disease.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Virus is the kind of organism that causes Lyme disease.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacterium causes Lyme disease.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Algae cause Lyme disease.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lyme disease is caused by species of Borrelia bacteria.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lyme disease is caused by spirochetes, gram-negative bacteria from the genus Borrelia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

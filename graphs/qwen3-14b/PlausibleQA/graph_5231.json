@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Swimming Pool",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Aquatic Center",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Indoor Pool",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is a nattatorium better known as. Spa pool",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Once known as 'natatoriums', indoor pools are located inside a building with a roof and are insulated by at least three walls.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If a pool is in a separate building, the building may be called a natatorium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

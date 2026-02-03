@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the chief river of Burma . Salween",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the chief river of Burma . Sittang",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the chief river of Burma . Chindwin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the chief river of Burma . IRRAWADDY",
+      "strength": 0.6322449335298111
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Irrawaddy River is the principal river of Myanmar, running through the centre of the country.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Chindwin River is the largest tributary of the Irrawaddy River, which itself is the principal river of Myanmar.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

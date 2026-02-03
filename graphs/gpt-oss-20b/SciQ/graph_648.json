@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wave function is the type of function that Schrödinger’s approach uses three quantum numbers (n, l, and ml) to specify, each associated with a particular energy.",
+      "strength": 0.6322557194736939
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shift function is the type of function that Schrödinger’s approach uses three quantum numbers (n, l, and ml) to specify, which is associated with a particular energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Green function is the type of function that Schrödinger’s approach uses three quantum numbers (n, l, and ml) to specify, each associated with a particular energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rush function is a function that Schrödinger’s approach uses the three quantum numbers (n, l, and ml) to specify, associating it with a particular energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Four quantum numbers can describe an electron energy level in a hydrogen-like atom completely.",
+      "strength": 0.4000000451811854
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Each orbital in an atom is characterized by a set of values of three quantum numbers n, ℓ, and mℓ, which respectively correspond to an electron's energy, its orbital angular momentum, and its orbital angular momentum projected along a chosen axis (magnetic quantum number).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Each orbital in an atom is characterized by a set of values of three quantum numbers n, ℓ, and mℓ.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Each orbit has a specific energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

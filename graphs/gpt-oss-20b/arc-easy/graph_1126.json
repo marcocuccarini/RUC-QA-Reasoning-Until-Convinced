@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "People relied on bandages more than doctors because, in 1921, Earl Dickson invented a chemical‑sealed bandage after noticing his wife struggled to cover cuts on her hands, providing a more effective wound‑care solution that reduced the need for medical professionals.",
+      "strength": 0.36754976699994807
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The bandages cured cuts that were infected by sealing them with a chemical to prevent air from entering the wound, a solution Earl Dickson invented in 1921 after observing his wife’s difficulty covering hand cuts, thereby benefiting others medically.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The bandages helped keep cuts clean by sealing them with a chemical that prevented air from entering, thereby benefiting others medically.",
+      "strength": 0.5999310814435886
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "People cut themselves less often because Earl Dickson’s 1921 sealed bandage prevented air from entering cuts, easing wound coverage.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It allows the movement of water vapor, oxygen, and carbon dioxide into and out of the dressing.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bandages are most often used to hold a dressing in place.",
+      "strength": 0.5999999626370065
+    },
+    "A6": {
+      "type": "argument",
+      "text": "bandage is used to hold the dressing in place",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The adhesive bandage protects the wound and scab from friction, bacteria, damage, and dirt.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Butterfly stitches can be advantageous in that they do not need a medical professional to be placed or removed, and are thus a common item in first aid kits.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

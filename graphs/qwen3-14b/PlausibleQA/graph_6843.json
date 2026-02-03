@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote Fantasia on a Theme by Thomas Tallis . Edward Elgar",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote Fantasia on a Theme by Thomas Tallis . Gustav Holst",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote Fantasia on a Theme by Thomas Tallis . Frederick Delius",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote Fantasia on a Theme by Thomas Tallis . Vaughn Williams",
+      "strength": 0.4999045282636564
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fantasia on a Theme by Thomas Tallis, also known as the Tallis Fantasia, is a one-movement work for string orchestra by Ralph Vaughan Williams.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vaughan Williams, Ralph (1921). Fantasia on a theme by Thomas Tallis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1910 his music featured at two of the largest and most prestigious festivals, with the premieres of the Fantasia on a Theme by Thomas Tallis at the Three Choirs Festival in Gloucester Cathedral in September",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Among the most familiar of his other concert works are Fantasia on a Theme by Thomas Tallis (1910) and The Lark Ascending (1914)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

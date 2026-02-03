@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth rotating on its axis causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon rotating on its axis causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth revolving around the Sun causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Moon revolving around Earth causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Moon's elongation varies from 0° at new moon to 180° at full moon, which is due to its orbital motion around Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The synodic month is longer than the sidereal month because Earth's orbital motion around the Sun affects the alignment of Earth, Moon, and Sun.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Moon's appearance depends on the position of the Moon with respect to the Sun as seen from Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

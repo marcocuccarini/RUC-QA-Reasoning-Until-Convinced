@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 4",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 8",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 3",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 6",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All 256 (28) possible combinations of 8 dots are encoded by the Unicode standard.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The additional dots are added at the bottom of the cell, giving a matrix 4 dots high by 2 dots wide.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

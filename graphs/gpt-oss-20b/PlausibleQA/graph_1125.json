@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who in 1476 brought his painting press from Bruges to London. Johannes Gutenberg",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who in 1476 brought his painting press from Bruges to London. William Tyndale",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who in 1476 brought his painting press from Bruges to London. Aldus Manutius",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who in 1476 brought his painting press from Bruges to London. Caxton",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He set up a press at Westminster in 1476",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He is thought to be the first person to introduce a printing press into England in 1476",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From which fruit is Slivovitz made. Apricot",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From which fruit is Slivovitz made. Cherry",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From which fruit is Slivovitz made. Peach",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From which fruit is Slivovitz made. Plum",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Slivovitz is a fruit spirit (or fruit brandy) made from damson plums",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The word slivovitz derives from Proto-Slavic *sliva 'plum'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which economist wrote The Wealth Of Nations. David Ricardo",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which economist wrote The Wealth Of Nations. John Maynard Keynes",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which economist wrote The Wealth Of Nations. Thomas Malthus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which economist wrote The Wealth Of Nations. A Smith",
+      "strength": 0.4999051813262246
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An Inquiry into the Nature and Causes of the Wealth of Nations, usually referred to by its shortened title The Wealth of Nations, is a book by the Scottish economist and moral philosopher Adam Smith",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Wealth of Nations was the product of seventeen years of notes and earlier studies, as well as an observation of conversation among economists of the time (like Nicholas Magens) concerning economic and societal conditions during the beginning of the Industrial Revolution, and it took Smith some ten years to produce",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Adam Smith (baptised 16 June [O.S. 5 June] 1723 – 17 July 1790) was a Scottish economist and philosopher who was a pioneer in the field of political economy and key figure during the Scottish Enlightenment. Seen by many as the 'father of economics' or the 'father of capitalism', he is primarily known for two classic works: The Theory of Moral Sentiments (1759) and An Inquiry into the Nature and Causes of the Wealth of Nations (1776)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

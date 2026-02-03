@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The number ten raised to the power of one hundred is known by what name. Megatron",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The number ten raised to the power of one hundred is known by what name. Centillion",
+      "strength": 0.25008469270408856
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The number ten raised to the power of one hundred is known by what name. Decamillion",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The number ten raised to the power of one hundred is known by what name. Googal",
+      "strength": 0.49994362835010675
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A googol is the large number 10^100 or ten to the power of one hundred.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A googol is approximately equal to 70! ≈ 1.1979 × 10^100.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The term was coined in 1920 by 9-year-old Milton Sirotta (1911–1981), nephew of American mathematician Edward Kasner.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A googol is considerably smaller than a centillion.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

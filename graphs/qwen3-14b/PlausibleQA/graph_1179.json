@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Palestinian co-founded al Fatah in 1957. Yasser Arafat",
+      "strength": 0.5999999160114282
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Palestinian co-founded al Fatah in 1957. Khalil al-Wazir",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Palestinian co-founded al Fatah in 1957. Salah Khalaf",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Palestinian co-founded al Fatah in 1957. Abu Amar",
+      "strength": 0.40000008398857245
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the latter part of the 1950s, Arafat co-founded Fatah, a paramilitary organization which sought Israel's replacement with a Palestinian state.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1957, Arafat encountered Salah Khalaf ('Abu Iyad') and Khalil al-Wazir ('Abu Jihad') in Kuwait, who were both official members of the Egyptian Muslim Brotherhood.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Salah Khalaf, along with Arafat, Farouk al-Qaddum, Khaled al-Hassan, Abd al-Muhsin al-Qatan, and Khalil Ibrahim al-Wazir, founded Fatah in Kuwait.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Khalil Ibrahim al-Wazir was among the founders of Fatah alongside Arafat and others.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

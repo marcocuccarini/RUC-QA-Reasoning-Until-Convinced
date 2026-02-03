@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "name the four major layers of the earth in order. Crust, Mantle, Outer Core, Atmosphere",
+      "strength": 0.40000004170749087
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "name the four major layers of the earth in order. Crust, Lithosphere, Asthenosphere, Mesosphere",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "name the four major layers of the earth in order. Crust, Mantle, Outer Core, Oceans",
+      "strength": 0.3999027050230167
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "name the four major layers of the earth in order. a solid inner core",
+      "strength": 0.4000000000399822
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth's inner core is the innermost geologic layer of the planet Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The thin parts are the oceanic crust, which underlies the ocean basins (5–10 km).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pedosphere interfaces with the lithosphere, the hydrosphere, the atmosphere, and the biosphere.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The lithosphere is broken into tectonic plates whose motion allows heat to escape the interior of Earth into space.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The crust lies on top of the mantle, a configuration that is stable because the upper mantle is made of peridotite and is therefore significantly denser than the crust.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

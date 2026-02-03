@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An electron is a particle type that can be identified as being from a specific element.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Atom is the particle type that can be identified as being from a specific element.",
+      "strength": 0.5999999999403536
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Neutron is a particle type that can be identified as being from a specific element.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Proton is the particle type that can be identified as being from a specific element.",
+      "strength": 0.749902642362152
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The number of protons in an atom was found to be equal to the element's ordinal number on the periodic table and therefore provided a simple and clear-cut way of distinguishing the elements from each other.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The chemical elements are distinguished from each other by the number of protons that are in their atoms.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The standard model of an atom is of a dense nucleus of charged protons and electrically-neutral neutrons, surrounded by an electrically-bound cloud of low mass, negatively charged electrons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Atoms of the same element can have different numbers of neutrons in their nuclei, known as isotopes of the element.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The atomic number or nuclear charge number (symbol Z) of a chemical element is the charge number of its atomic nucleus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

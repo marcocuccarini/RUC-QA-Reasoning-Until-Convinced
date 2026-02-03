@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What 2008 film is an adaptation by Andrew Davies of a book by Sarah Waters, that is set in a Victorian-era women's prison. Fingersmith",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What 2008 film is an adaptation by Andrew Davies of a book by Sarah Waters, that is set in a Victorian-era women's prison. The Little Stranger",
+      "strength": 0.25000003540919297
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What 2008 film is an adaptation by Andrew Davies of a book by Sarah Waters, that is set in a Victorian-era women's prison. Tipping the Velvet",
+      "strength": 0.25009176364520974
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What 2008 film is an adaptation by Andrew Davies of a book by Sarah Waters, that is set in a Victorian-era women's prison. Affinal",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Little Stranger is a 2009 gothic novel set in a dilapidated mansion in Warwickshire, England in the 1940s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In autumn 2018, a film adaptation directed by Lenny Abrahamson and starring Domhnall Gleeson and Ruth Wilson was released.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tipping the Velvet was adapted into a three-part television series by the BBC in 2002.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Tipping the Velvet is set in England during the 1890s, not in a Victorian-era women's prison.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

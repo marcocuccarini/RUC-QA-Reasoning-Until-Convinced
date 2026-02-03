@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did teenage mutant ninja turtles come out. 1987",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did teenage mutant ninja turtles come out. 1990",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did teenage mutant ninja turtles come out. 1982",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did teenage mutant ninja turtles come out. 1984",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Teenage Mutant Ninja Turtles (1987 TV series), also known as Teenage Mutant Hero Turtles in Europe and UK",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Teenage Mutant Ninja Turtles (1990 film), directed by Steve Barron",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pilot was shown during the week of December 28, 1987, in syndication as a five-part miniseries.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The show began its full-time run on October 1, 1988, and ended on November 2, 1996.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

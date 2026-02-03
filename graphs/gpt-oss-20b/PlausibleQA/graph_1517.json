@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wrigley Field in Chicago USA is a venue for which sport. American Football",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wrigley Field in Chicago USA is a venue for which sport. Rugby",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wrigley Field in Chicago USA is a venue for which sport. Soccer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wrigley Field in Chicago USA is a venue for which sport. Béisbol",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It has served as the home baseball park for Major League Baseball's Chicago Cubs franchise since 1916.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Chicago Bears of the National Football League played at Wrigley Field for 50 years, from 1921 to 1970.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sanborn map showing future site of the ballpark, 1894",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

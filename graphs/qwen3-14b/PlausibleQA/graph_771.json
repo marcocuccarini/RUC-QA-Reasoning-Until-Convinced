@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the letter j introduced to the alphabet. 1066",
+      "strength": 0.4000000585968386
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the letter j introduced to the alphabet. 1200",
+      "strength": 0.25009174651106497
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the letter j introduced to the alphabet. 1380",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the letter j introduced to the alphabet. 1524",
+      "strength": 0.599938874723849
+    },
+    "A4": {
+      "type": "argument",
+      "text": "J was introduced into English for the consonant in the 17th century",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gian Giorgio Trissino explicitly distinguished I and J as separate sounds in 1524",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first English language books to make a clear distinction between ⟨i⟩ and ⟨j⟩ were published in 1629 and 1633",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Egg, nymph, pupa, adult is the series that shows the stages of complete metamorphosis for many insects.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Egg, larva, nymph, adult is the series that correctly shows the stages of complete metamorphosis for many insects.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Egg, nymph 1, nymph 2, adult is the series that shows the stages of complete metamorphosis for many insects.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Egg, larva, pupa, adult are the stages of complete metamorphosis that many insects go through.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In holometabolous insects, immature stages are called larvae and differ markedly from adults. Insects which undergo holometabolism pass through a larval stage, then enter an inactive state called pupa (called a 'chrysalis' in butterfly species), and finally emerge as adults.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In hemimetabolous insects, immature stages are called nymphs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The car has a larger mass requiring less force to stop, which explains why it stops in a shorter distance than the truck when both vehicles are traveling at the same speed toward a stop sign.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The car has a smaller mass requiring more force to stop, which explains why it stops in a shorter distance than the truck when both vehicles are traveling at the same speed and approach a stop sign.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The truck has a smaller mass requiring less force to stop in the situation where a car and a truck are traveling at the same speed toward a stop sign, and the car stops in a shorter distance than the truck.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The truck has a larger mass requiring more force to stop, which explains why the car stops in a shorter distance than the truck when both travel at the same speed toward a stop sign.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Many models of small trucks are manufactured to have a GVM rating of 5,000 to 7,000 kg (11,023 to 15,432 lb).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A vehicle with a GVM up to 4,500 kg is termed a light vehicle, while those over 4,500 kg are termed heavy vehicles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

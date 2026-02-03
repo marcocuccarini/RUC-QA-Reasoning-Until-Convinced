@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Remoulade",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Aioli",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Béarnaise",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which sauce is made from mayonnaise, chopped capers and onions. Tartare",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The sauce is made from mayonnaise with vinegar, mustard, shallots, capers, chopped pickles, and/or fresh herbs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Each version may have finely chopped vegetables, usually green onions, celery, and parsley; most are made with either Creole mustard or stone-ground mustard.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what team did aguero play for. Manchester City",
+      "strength": 0.8460913735832001
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what team did aguero play for. Barcelona",
+      "strength": 0.6000972937115303
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what team did aguero play for. Real Madrid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what team did aguero play for. Atlético Madrid",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Agüero played for Manchester City from 2011 to 2021.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2021, he joined Barcelona on a free transfer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Profile at FC Barcelona",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Profile at Manchester City F.C.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "the second by Sergio Agüero in the fourth added minute",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

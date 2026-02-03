@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. Tokyo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. Paris",
+      "strength": 0.5999999402194273
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. Los Angeles",
+      "strength": 0.7499025826412249
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. GBLON",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paris was awarded the 2024 Summer Olympics, marking its third time hosting the Games (after 1900 and 1924).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Los Angeles was confirmed as the host city for the 2028 Summer Olympics, following Paris's 2024 hosting.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Los Angeles will host the Summer Olympics in 2028, following Beijing's 2008 hosting.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They lack genetic material is a property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.39990270503470765
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They lack a mechanism of motility is the property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They lack internal membrane-bound organelles, a property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They lack a need for proteins in their life functions is a property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A mitochondrion contains DNA, which is organized as several copies of a single, usually circular chromosome.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mitochondrial genome codes for some RNAs of ribosomes, and the 22 tRNAs necessary for the translation of mRNAs into protein.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mitochondria and chloroplasts contain their own ribosomes; these are more similar to those of bacteria (70S) than those of eukaryotes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Proteins created by mitochondria and chloroplasts use N-formylmethionine as the initiating amino acid, as do proteins created by bacteria but not proteins created by eukaryotic nuclear genes or archaea.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

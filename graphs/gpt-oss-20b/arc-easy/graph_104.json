@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Biomass is an energy source that might involve burning wood or producing gasohol.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wind turbine is an energy source that might involve burning wood or producing gasohol.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nuclear fission is the energy source that might involve burning wood or producing gasohol.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hydroelectric power is an energy source that might involve burning wood or producing gasohol.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wood can be used as a fuel directly or processed into pellet fuel or other forms of fuels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sugars present in this biomass are fermented to produce bioethanol, an alcohol fuel which serves as an additive to gasoline.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Joint is the location near which bursitis, the inflammation of a bursa, occurs.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Brain stem is the structure near which bursitis, the inflammation of a bursa, occurs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lung is the structure near which bursitis, the inflammation of a bursa, occurs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Muscle is the structure near which bursitis is the inflammation of a bursa.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bursae rest at the points where muscles and tendons slide across bone.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Shoulders, elbows and knees are the most commonly affected.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bursae are found around most major joints of the body.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Examples include the prepatellar burs𝑴 located over the kneecap and the olecranon bursa at the tip of the elbow.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

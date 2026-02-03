@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the seven nations of central america. Belize",
+      "strength": 0.6322449348291708
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the seven nations of central america. Costa Rica",
+      "strength": 0.6322449348291708
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the seven nations of central america. El Salvador",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the seven nations of central america. Panama",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Central America is usually defined as consisting of seven countries: Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and Panama.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Panama is located at the southern end of Central America",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

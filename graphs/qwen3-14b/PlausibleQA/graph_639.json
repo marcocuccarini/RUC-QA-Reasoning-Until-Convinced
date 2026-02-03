@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Fluidization",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Thermal Diffusion",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Advection",
+      "strength": 0.4999413277794323
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Convecting",
+      "strength": 0.2500881490789106
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Convection is a process involving bulk movement of a fluid that usually leads to a net transfer of heat through advection.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the term convection, [in footnote: [Latin] Convectio, a carrying or conveying] which not only expresses the leading fact, but also accords very well with the two other terms.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In meteorology it is the transfer by the wind of an atmospheric mass.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Advection is sometimes confused with the more encompassing process of convection, which is the combination of advective transport and diffusive transport.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

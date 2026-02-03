@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which French romantic artist who painted Massacre at Chios and Women of Algiers was born on this day in 1798. Théodore Géricault",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which French romantic artist who painted Massacre at Chios and Women of Algiers was born on this day in 1798. Antoine-Jean Gros",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which French romantic artist who painted Massacre at Chios and Women of Algiers was born on this day in 1798. Jean-Auguste-Dominique Ingres",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which French romantic artist who painted Massacre at Chios and Women of Algiers was born on this day in 1798. Eugene Delacroix",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jean-Louis André Théodore Géricault was born on 26 September 1791",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eugène Delacroix was born on 26 April 1798",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Eugène Delacroix painted The Massacre at Chios and Women of Algiers in their Apartment",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

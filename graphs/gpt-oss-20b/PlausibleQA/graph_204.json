@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what currency to take to turkey 2010. Euro",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what currency to take to turkey 2010. US Dollar",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what currency to take to turkey 2010. British Pound",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what currency to take to turkey 2010. Turkish lira",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The lira is the official currency of Turkey.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The lira (Turkish: Türk lirası; sign: ₺; ISO 4217 code: TRY; abbreviation: TL) is the official currency of Turkey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

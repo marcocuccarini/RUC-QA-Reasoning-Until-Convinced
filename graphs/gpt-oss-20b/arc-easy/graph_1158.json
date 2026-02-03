@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Take in light is what cells must do in order to grow at a normal rate.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Be specialized is required for cells to grow at a normal rate.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Taking in nutrients is necessary for cells to grow at a normal rate.",
+      "strength": 0.8460569052668154
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Being of similar size is necessary for cells to grow at a normal rate.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The large size of some eggs can be achieved either by pumping in cytosolic components from adjacent cells through cytoplasmic bridges named ring canals (Drosophila) or by internalisation of nutrient storage granules (yolk granules) by endocytosis (frogs).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cell proliferation typically involves balanced cell growth and cell division rates that maintain a roughly constant cell size in the exponentially proliferating population of cells.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cellular respiration may be described as a set of metabolic reactions and processes that take place in the cells to transfer chemical energy from nutrients to ATP, with the flow of electrons to an electron acceptor, and then release waste products.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "For prokaryotes to continue a rapid growth rate when they are shifted from an aerobic environment to an anaerobic environment, they must increase the rate of the glycolytic reactions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

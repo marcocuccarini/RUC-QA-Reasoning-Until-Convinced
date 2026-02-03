@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gravity is increasing as the stuntman jumps off the roof of a building and falls toward an airbag on a movie set.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wind velocity is increasing while a stuntman jumps off the roof of a building on a movie set and falls toward an airbag.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kinetic energy is increasing as the stuntman jumps off the roof of a building and falls toward the airbag.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Potential energy is increasing as the stuntman, who has jumped off the roof of a building on a movie set, falls toward the airbag.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kinetic energy increases with the square of the speed, an object doubling its speed has four times as much kinetic energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The kinetic energy of a moving object is equal to the work required to bring it from rest to that speed, or the work the object can do while being brought to rest: net force × displacement = kinetic energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

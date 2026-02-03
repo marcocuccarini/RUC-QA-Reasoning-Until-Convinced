@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who discovered the electrical nature of lightning through his famous kite experiment in 1750. Benjamin Franklin",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who discovered the electrical nature of lightning through his famous kite experiment in 1750. Alessandro Volta",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who discovered the electrical nature of lightning through his famous kite experiment in 1750. Michael Faraday",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who discovered the electrical nature of lightning through his famous kite experiment in 1750. Franklinic",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Benjamin Franklin installed one such device in his house.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A succession of sparks jumping from the key to the back of his hand showed that lightning was indeed electrical in nature.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In June 1752 he is reputed to have attached a metal key to the bottom of a dampened kite string and flown the kite in a storm-threatened sky.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Food chain is the pattern represented by trees starting as seeds and growing into mature trees that produce more seeds.",
+      "strength": 0.22635452122488764
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Life cycle is the pattern by which trees start as seeds, grow into mature trees, and produce more seeds.",
+      "strength": 0.5999430071702765
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Food supply is the pattern represented by trees that start as seeds and grow into mature trees that produce more seeds.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Life span is the pattern in which trees start as seeds and grow into mature trees that produce more seeds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Biological life cycle, the sequence of life stages that an organism undergoes from conception to reproduction",
+      "strength": 0.5999430071702765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Enterprise life cycle, the process of changing a business enterprise",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The mature sporophyte produces haploid spores by meiosis, a process which reduces the number of chromosomes to half, from two sets to one.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Two single-celled haploid gametes, each containing n unpaired chromosomes, fuse to form a single-celled diploid zygote, which now contains 2n (paired) chromosomes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

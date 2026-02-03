@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Rook",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Bishop",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Knight",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Quene",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The queen is typically worth about nine pawns, which is slightly stronger than a rook and a bishop together, but slightly weaker than two rooks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Checkmate with a King and Queen",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

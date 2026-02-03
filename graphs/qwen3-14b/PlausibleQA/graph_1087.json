@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Bill Haley and His Comets",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Elvis Presley",
+      "strength": 0.40000003773849835
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Chuck Berry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Saddlemen",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bill Haley and the Comets recorded 'Rock Around the Clock', which became one of their biggest hits and one of the most important records in rock and roll history.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Elvis Presley recorded the song in 1956, combining Haley's arrangement with Turner's original lyrics, but his version was not a substantial hit.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On July 9, 1955, 'Rock Around the Clock' became the first rock and roll recording to hit the top of Billboard's Pop charts.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The song was a number one single for two months in the United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

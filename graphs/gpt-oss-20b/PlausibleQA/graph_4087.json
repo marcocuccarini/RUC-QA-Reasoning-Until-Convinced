@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. Paris Saint-Germain",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. Manchester United",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. AC Milan",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what team does david beckham play for in 2012. LA Galaxy",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He returned to Galaxy and won the MLS Cup in 2011 and 2012.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He spent two loan spells in Italy with AC Milan in 2009 and 2010.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

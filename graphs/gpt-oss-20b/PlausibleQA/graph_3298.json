@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "in which continent is germany. Asia",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "in which continent is germany. Africa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "in which continent is germany. North America",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "in which continent is germany. Europe",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Germany borders Denmark to the north; Poland and the Czech Republic to the east; Austria and Switzerland to the south; and France, Luxembourg, Belgium, and the Netherlands to the west.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Germany is a country in Western and Central Europe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

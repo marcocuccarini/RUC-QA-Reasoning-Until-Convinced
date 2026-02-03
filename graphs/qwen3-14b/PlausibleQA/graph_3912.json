@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the plays 'The Real Inspector Hound' and 'Arcadia'. Tom Stoppard's contemporary, Alan Ayckbourn",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the plays 'The Real Inspector Hound' and 'Arcadia'. The renowned playwright and poet, Harold Pinter",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the plays 'The Real Inspector Hound' and 'Arcadia'. The celebrated author and playwright, Michael Frayn",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the plays 'The Real Inspector Hound' and 'Arcadia'. Stoppard",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Real Inspector Hound is a short, one-act play by Tom Stoppard.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Zoe Paskett of the Evening Standard listed it as one of Stoppard's five finest works (the others being Rosencrantz and Guildenstern Are Dead, Travesties, The Real Thing, and Arcadia).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

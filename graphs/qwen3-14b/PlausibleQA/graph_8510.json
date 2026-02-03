@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which of Thomas Hardy's novels is Bathsheba Everdene the heroine. Tess of the d'Urbervilles",
+      "strength": 0.25009548836582807
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which of Thomas Hardy's novels is Bathsheba Everdene the heroine. Jude the Obscure",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which of Thomas Hardy's novels is Bathsheba Everdene the heroine. The Return of the Native",
+      "strength": 0.25009548836582807
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which of Thomas Hardy's novels is Bathsheba Everdene the heroine. Gabriel Oak",
+      "strength": 0.40006361984599315
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The novel in which Bathsheba Everdene is the heroine is titled 'Far from the Madding Crowd'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In The Mayor of Casterbridge",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The novel in which Bathsheba Everdene is the heroine is titled 'Far from the Madding Crowd', not 'Tess of the d'Urbervilles'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The novel in which Bathsheba Everdene is the heroine is titled 'Far from the Madding Crowd', not 'Jude the Obscure'.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The novel in which Bathsheba Everdene is the heroine is titled 'Far from the Madding Crowd', not 'The Return of the Native'.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Gabriel Oak is a character in 'Far from the Madding Crowd', not a novel.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

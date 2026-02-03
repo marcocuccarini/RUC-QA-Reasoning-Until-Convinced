@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many times was Wyatt Earp shot. 5",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many times was Wyatt Earp shot. 3",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many times was Wyatt Earp shot. 1",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many times was Wyatt Earp shot. None",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wyatt Earp was unhurt.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wyatt Earp was not hit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

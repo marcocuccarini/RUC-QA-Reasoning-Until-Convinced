@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. Belgian",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. French",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. German",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. DUTCH",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pieter Cornelis Mondriaan was a Dutch painter",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was born in Amersfoort, province of Utrecht in the Netherlands",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

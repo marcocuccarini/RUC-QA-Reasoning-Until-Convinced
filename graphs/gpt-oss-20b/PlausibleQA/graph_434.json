@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "converting stereo signal to mono signal is called. Mixing",
+      "strength": 0.40000008918213564
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "converting stereo signal to mono signal is called. Folding",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "converting stereo signal to mono signal is called. Summing",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "converting stereo signal to mono signal is called. Panning",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Common examples include downmixing from 5.1 surround sound to stereo, and stereo to mono.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mixdown process converts a program with a multiple-channel configuration into a program with fewer channels.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If the two output buses are later recombined into a monaural signal, then a pan law of −6 dB is desirable.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Simple analog pan controls only change relative level; they don't add reverb to replace direct signal, phase changes, modify the spectrum, or change delay timing.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

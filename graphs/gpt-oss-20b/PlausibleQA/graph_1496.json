@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is on a mcchicken sandwich from mcdonalds. Ranch Dressing",
+      "strength": 0.5999999723208136
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is on a mcchicken sandwich from mcdonalds. BBQ Sauce",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is on a mcchicken sandwich from mcdonalds. Honey Mustard",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is on a mcchicken sandwich from mcdonalds. mayonnaise",
+      "strength": 0.7736521061885242
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It consists of a toasted wheat bun, a breaded patty, shredded lettuce and mayonnaise.",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the McChicken (and the Hot 'n Spicy) could be ordered as a Buffalo Ranch McChicken, which is a McChicken with Buffalo and Ranch sauce instead of mayonnaise.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mayonnaise is a thick, creamy sauce with a rich and tangy taste that is commonly used on sandwiches.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Mayonnaise is an emulsion of oil, egg yolk, and an acid, either vinegar or lemon juice.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

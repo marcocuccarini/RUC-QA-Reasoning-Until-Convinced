@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Miles are the units that astronomers most often use for the distance between Earth and Proxima Centauri, the closest star to the Sun.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Meters are the units that astronomers most often use for the distance between Earth and Proxima Centauri, the closest star to the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Light years are the units astronomers most often use for the distance between Earth and Proxima Centauri, the closest star to the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Astronomical units are the units astronomers most often use for the distance between Earth and Proxima Centauri, the closest star to the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The light-year is most often used when expressing distances to stars and other distances on a galactic scale, especially in non-specialist contexts and popular science publications.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The unit most commonly used in professional astronomy is the parsec (symbol: pc, about 3.26 light-years).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Proxima Centauri is located 4.25 light-years (1.3 parsecs) away.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Proxima Centauri is 4.2465 light-years (1.3020 pc; 268,550 AU) from the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

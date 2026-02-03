@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is the lead singer of the English band ‘The Specials’. Neville Staple",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the lead singer of the English band ‘The Specials’. Lynval Golding",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is the lead singer of the English band ‘The Specials’. Jerry Dammers",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is the lead singer of the English band ‘The Specials’. Terry Hall",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He is best known as a rhythm guitarist and vocalist with the British 2-tone band, the Specials.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Terry Hall – lead vocals (1977–1981, 2008–2022; his death)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Neville Staple – toasting, vocals, percussion (1978–1981, 1993, 1996–2001, 2008–2012)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

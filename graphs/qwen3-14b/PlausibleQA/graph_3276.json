@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first Roman Emperor to sport a beard. Augustus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first Roman Emperor to sport a beard. Trajan",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first Roman Emperor to sport a beard. Vespasian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first Roman Emperor to sport a beard. Hadrian",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All Roman emperors until Trajan, except Nero who occasionally wore sideburns, were depicted clean-shaven, according to the fashion introduced among the Romans by Scipio Africanus (236 – 183 BC)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This Imperial fashion was changed by Trajan's successor Hadrian who made beards fashionable for emperors",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They live in the same habitat and niche is the factor that determines whether two individuals are members of the same species.",
+      "strength": 0.599999942563457
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They forage and eat the same type of food is the factor that determines whether two individuals are members of the same species.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They mate and produce fertile offspring is the factor that determines if two individuals are members of the same species.",
+      "strength": 0.495153042598213
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They are similar in appearance and color is the factor that determines if two individuals are members of the same species.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It can be defined as the largest group of organisms in which any two individuals of the appropriate sexes or mating types can produce fertile offspring, typically by sexual reproduction.",
+      "strength": 0.40005991491458875
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An ecological species is a set of organisms adapted to a particular set of resources, called a niche, in the environment.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Horizontal gene transfer (HGT) makes it difficult to define a species.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When organisms reproduce asexually, as in single-celled organisms such as bacteria and other prokaryotes, and parthenogenetic or apomictic multi-celled organisms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

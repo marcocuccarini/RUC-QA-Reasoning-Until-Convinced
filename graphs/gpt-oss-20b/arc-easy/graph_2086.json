@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Recording his observations is what Evan must do before conducting his investigation.",
+      "strength": 0.5999999999403536
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Developing a hypothesis is what Evan must do before conducting his investigation.",
+      "strength": 0.749902642362152
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reach a conclusion is what Evan must do before conducting his investigation.",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Organizing the data is what Evan must do before conducting his investigation.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The scientific method is the process by which science is carried out.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Scientists typically are careful in recording their data, a requirement promoted by Ludwik Fleck (1896–1961) and others.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Once processed and organized, the data may be incomplete, contain duplicates, or contain errors.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The most important distinction between the initial data analysis phase and the main analysis phase is that during initial data analysis one refrains from any analysis that is aimed at answering the original research question.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In the scientific method, an experiment is an empirical procedure that arbitrates competing models or hypotheses.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In such an experiment, if all controls work as expected, it is possible to conclude that the experiment works as intended, and that results are due to the effect of the tested variables.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The average temperature yesterday was 15 °C is a statement about climate.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The temperature range today was 10°C to 20°C, a statement about climate.",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The high temperature tomorrow will be 14°C is a statement about climate.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The average high temperature in May is 20 °C, which is a statement about climate.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Climate is the long‑term weather pattern in a region, typically averaged over 30 years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Climate is the mean and variability of meteorological variables over a time spanning from months to millions of years.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Climate is the term for the averaging of atmospheric conditions over longer periods of time.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Weather refers to day‑to‑day temperature, precipitation, and other atmospheric conditions, whereas climate is the term for the averaging of atmospheric conditions over longer periods of time.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

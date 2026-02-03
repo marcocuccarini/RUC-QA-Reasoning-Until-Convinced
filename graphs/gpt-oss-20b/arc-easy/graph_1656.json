@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Food and soil are taken away from a forest by a fire that squirrels need to survive.",
+      "strength": 0.25000009340748447
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Food and shelter are what a fire takes away from a forest that squirrels need to survive.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water and soil are what a fire takes away from a forest that squirrels need to survive.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water and shelter are what a fire takes away from a forest that squirrels need to survive.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fire helps to return nutrients from plant matter back to the soil.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The heat from fire is necessary to the germination of certain types of seeds.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mild to moderate fires burn in the forest understory, removing small trees and herbaceous groundcover.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

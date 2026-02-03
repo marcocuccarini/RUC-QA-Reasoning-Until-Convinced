@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Forbes Magazine named which author as the top earner between July 2012 and August 2013. John Grisham",
+      "strength": 0.40000008398857245
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Forbes Magazine named which author as the top earner between July 2012 and August 2013. James Patterson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Forbes Magazine named which author as the top earner between July 2012 and August 2013. Stephen King",
+      "strength": 0.40000008398857245
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Forbes Magazine named which author as the top earner between July 2012 and August 2013. EL James",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2016, Patterson topped Forbes's list of highest-paid authors for the third consecutive year, with an income of $95 million.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In August 2013, James topped the Forbes' list of the highest-earning authors due to her book sales with earnings of US$95 million which included US$5 million for the film rights to Fifty Shades of Grey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

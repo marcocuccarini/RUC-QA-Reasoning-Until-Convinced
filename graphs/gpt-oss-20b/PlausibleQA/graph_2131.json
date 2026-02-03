@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What post was held by Winston Churchill during the 1926 General Strike in the UK. Chancellor of the Exchequer",
+      "strength": 0.4000000351871426
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What post was held by Winston Churchill during the 1926 General Strike in the UK. Secretary of State for the Colonies",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What post was held by Winston Churchill during the 1926 General Strike in the UK. Minister of Munitions",
+      "strength": 0.25009176364520974
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What post was held by Winston Churchill during the 1926 General Strike in the UK. Chingsang",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Churchill commented as editor of the government newspaper British Gazette.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He acted as an intermediary between striking miners and their employers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He called for the introduction of a legally binding minimum wage.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

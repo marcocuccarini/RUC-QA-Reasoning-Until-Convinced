@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The boy and girl inherit genetic material from the father only when twins are born, one being a boy and the other a girl.",
+      "strength": 0.40000003662315714
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The boy and girl, who are twins born, inherit genetic material from the mother only.",
+      "strength": 0.40000003662315714
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The boy and girl inherit genetic material from both parents.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The boy inherits genetic material from the father only and the girl inherits it from the mother only in a pair of twins born, one boy and one girl.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Indisputable double paternity in dizygous twins",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "gamete cells contain only half that number, and it is when these two cells merge into one combined zygote cell that genetic recombination occurs",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the sperm and the ovum are known as the gametes (each containing half the genetic information of the parent, created through meiosis)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

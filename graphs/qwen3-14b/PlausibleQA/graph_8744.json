@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for the flexible, connective tissue found in the joints between bones. Cartilaginous",
+      "strength": 0.5999999637412498
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for the flexible, connective tissue found in the joints between bones. Osteotic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for the flexible, connective tissue found in the joints between bones. Synovial",
+      "strength": 0.846056906746563
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for the flexible, connective tissue found in the joints between bones. Chondric",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "synovial joint – not directly joined – the bones have a synovial cavity and are united by the dense irregular connective tissue that forms the articular capsule",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "cartilaginous joint – joined by cartilage. There are two types: primary cartilaginous joints composed of hyaline cartilage",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "synovial tissue is sterile and composed of vascularized connective tissue that lacks a basement membrane",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The inner membrane of synovial joints is called the synovial membrane and secretes synovial fluid into the joints",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

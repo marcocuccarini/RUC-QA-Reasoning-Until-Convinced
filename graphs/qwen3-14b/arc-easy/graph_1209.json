@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Smoke is not a mixture, because it consists of solid particles dispersed in a gas.",
+      "strength": 0.10009517031695418
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sugar is not a mixture.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Milk is the item identified as not a mixture in the question \"Which of the following is NOT a mixture?\".",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Paint is not a mixture.",
+      "strength": 0.2500000000000629
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Disaccharides are formed by the condensation of two monosaccharide molecules with the expulsion of a molecule of water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brown sugars are granulated sugars, either containing residual molasses or with the grains deliberately coated with molasses.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Paint can have a wide variety of miscellaneous additives, which are usually added in small amounts, yet provide a significant effect on the product.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The main purposes of the diluent are to dissolve the polymer and adjust the viscosity of the paint. It is volatile and does not become part of the paint film.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Smoke is an aerosol (or mist) of solid particles and liquid droplets that are close to the ideal range of sizes for Mie scattering of visible light.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The composition of smoke depends on the nature of the burning fuel and the conditions of combustion.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Solution (chemistry), a mixture where one substance is dissolved in another",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "Suspension (chemistry), small solid particles suspended in a liquid",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

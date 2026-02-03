@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Atherosclerosis is the term for buildup of cell debris and cholesterol inside the arteries.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fibrosis is the term for buildup of cell debris and cholesterol inside arteries.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Phimosis is the term for buildup of cell debris and cholesterol inside the arteries.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sclerosis is the term for buildup of cell debris and cholesterol inside the arteries.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Atherosclerosis is a hardening of an artery specifically due to an atheromatous plaque.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Arteriosclerosis is a general term describing any hardening (and loss of elasticity) of medium or large arteries",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

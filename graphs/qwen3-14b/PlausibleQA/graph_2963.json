@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did india win their first cricket match. 1932",
+      "strength": 0.40000008918213564
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did india win their first cricket match. 1947",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did india win their first cricket match. 1948",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did india win their first cricket match. 1952",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "India recorded their first Test victory, in their 24th match, against England at Madras in 1952.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Indian team continued to improve throughout the 1930s and 1940s but did not achieve an international victory during this period.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "India toured England for their debut in Tests on 25 June 1932. England won the only Test by 158 runs.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The team's first series as an independent country was in late 1947 against Don Bradman's Australian cricket team in England in 1948 (a name given to the Australia national cricket team of that time). Australia men's cricket team won the five-match series 4–0",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "India recorded its first Test victory in 1952, beating England by an innings in Madras",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "supports"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attacks"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

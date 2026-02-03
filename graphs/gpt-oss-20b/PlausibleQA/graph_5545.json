@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country was the 2010 football African Nations Cup held. South Africa",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country was the 2010 football African Nations Cup held. Egypt",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country was the 2010 football African Nations Cup held. Nigeria",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country was the 2010 football African Nations Cup held. Angola",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It was held in Angola, from 10 January to 31 January 2010.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Two-time former host Nigeria was the reserve host for the 2010, 2012 and 2014 tournaments, in the event that any of the host countries failed to meet the requirements established by CAF, although this ended up being unnecessary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

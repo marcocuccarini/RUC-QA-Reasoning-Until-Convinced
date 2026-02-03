@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "When the egg is released from the ovary, what is left behind. Follicular Remnant",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "When the egg is released from the ovary, what is left behind. Ovarian Cyst",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "When the egg is released from the ovary, what is left behind. Corpus Hemorrhagicum",
+      "strength": 0.7499025789446009
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "When the egg is released from the ovary, what is left behind. Luteal",
+      "strength": 0.5999999365228031
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The corpus luteum is the remains of the ovarian follicle that has released a mature ovum during a previous ovulation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The follicle first forms a corpus hemorrhagicum before it becomes a corpus luteum, but the term refers to the visible collection of blood, left after rupture of the follicle, that secretes progesterone.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "CT of the abdomen showing a ruptured hemorrhagic copus luteal cyst",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

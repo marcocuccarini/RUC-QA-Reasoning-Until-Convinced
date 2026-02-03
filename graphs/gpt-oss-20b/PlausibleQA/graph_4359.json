@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time a hurricane hit the uk. 2009",
+      "strength": 0.226331751500444
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time a hurricane hit the uk. 1996",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time a hurricane hit the uk. 1987",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time a hurricane hit the uk. 2017",
+      "strength": 0.3676471820829346
+    },
+    "A4": {
+      "type": "argument",
+      "text": "German met office Weather map showing Ophelia isobars over Ireland Archived 1 August 2020 at the Wayback Machine",
+      "strength": 0.5999999766480442
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ophelia produced a wind gust as high as 119 mph in Ireland, the strongest wind gust ever recorded in the country.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Azores and Wales were also affected by Tropical Storm Grace; however, both areas recorded only minor effects.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

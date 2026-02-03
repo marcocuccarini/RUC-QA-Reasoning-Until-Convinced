@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the second largest mall in america. Minnesota",
+      "strength": 0.09246707955223439
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the second largest mall in america. Texas",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the second largest mall in america. California",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the second largest mall in america. Florida",
+      "strength": 0.3676472299770185
+    },
+    "A4": {
+      "type": "argument",
+      "text": "New Jersey's first 'Let Them Talk Bar and Stage' that would feature live music, craft cocktails, entertainment and weekly events.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mall had purchased three helicopters in May, plus four automobiles—two Rolls-Royces and two Bentleys—to transport customers from Manhattan and the Hamptons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "American Dream Meadowlands shopping center may not be open for 2014 Super Bowl in New Jersey.",
+      "strength": 0.5999999668619974
+    },
+    "A7": {
+      "type": "argument",
+      "text": "American Dream Meadowlands opened on October 25, 2019.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Mall of America (MoA) is a large shopping mall located in Bloomington, Minnesota.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "American Dream Meadowlands – a similarly large shopping mall in New Jersey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

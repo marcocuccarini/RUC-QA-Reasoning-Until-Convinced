@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Resonance is the system at which the chest cavity in our bodies is a clear example.",
+      "strength": 0.22635258908823372
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rest is a clear example of a system at the chest cavity in our bodies.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Scale is the system at what in our bodies, the chest cavity is a clear example of.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Default is the state of the chest cavity, a clear example of a system in our bodies.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vocal resonation is the process by which the basic product of phonation is enhanced in timbre and/or intensity by the air-filled cavities through which it passes on its way to the outside air.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The larynx (pl. : larynges or larynxes), commonly called the voice box, is an organ in the top of the neck involved in respiration, producing sound and protecting the trachea against food aspiration.",
+      "strength": 0.5999441357039169
+    },
+    "A6": {
+      "type": "argument",
+      "text": "structures of the respiratory system, including the diaphragm, trachea, bronchi and lungs",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

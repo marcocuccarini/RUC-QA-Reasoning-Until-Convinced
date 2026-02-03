@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "authorities involved in formulating accounting standard in india. ICAI",
+      "strength": 0.7499118509210894
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "authorities involved in formulating accounting standard in india. SEBI",
+      "strength": 0.4000587285197913
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "authorities involved in formulating accounting standard in india. MCA",
+      "strength": 0.5999999437007768
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "authorities involved in formulating accounting standard in india. CII",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Compliance with accounting standards issued by ICAI has become a statutory requirement with the notification of Companies (Accounting Standards) Rules, 2006 by the Government of India.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Institute of Chartered Accountants of India, abbreviated as ICAI, is India's largest professional accounting body under the administrative control of Ministry of Corporate Affairs, Government of India.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "SEBI is the regulatory body for securities and commodity market in India under the administrative domain of Ministry of Finance within the Government of India.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

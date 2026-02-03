@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Ibuprofen",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Nitroglycerin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Oxygen",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "for complaints of sudden chest pain patients should take a. Aspirin",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aspirin is an important part of the treatment of those who have had a heart attack.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A study of a group with a mean dosage of aspirin of 270 mg per day estimated an average absolute risk increase in intracerebral hemorrhage (ICH) of 12 events per 10,000 persons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Aspirin increases survival in people with acute coronary syndrome.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Supplemental oxygen was used in the past for most people with chest pain but is not needed unless the oxygen saturations are less than 94% or there are signs of respiratory distress.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

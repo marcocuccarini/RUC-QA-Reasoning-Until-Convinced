@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to a piece of land assigned as part of a clergyman's living. Manor",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to a piece of land assigned as part of a clergyman's living. Benefice",
+      "strength": 0.5999999160114282
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to a piece of land assigned as part of a clergyman's living. Vicarage",
+      "strength": 0.4000876126562776
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to a piece of land assigned as part of a clergyman's living. Glebe",
+      "strength": 0.5999999160114282
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A glebe is an area of land within an ecclesiastical parish used to support a parish priest.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the Roman Catholic, Anglican and Presbyterian traditions, a glebe is land belonging to a benefice",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In many villages in England, the former clergy house is called the 'Old Vicarage' or the 'Old Rectory'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

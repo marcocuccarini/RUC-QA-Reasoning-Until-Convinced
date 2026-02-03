@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ur was a major city of which ancient civilization. Babylonian",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ur was a major city of which ancient civilization. Akkadian",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ur was a major city of which ancient civilization. Assyrian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ur was a major city of which ancient civilization. SUMER",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ur was a major Sumerian city-state in ancient Mesopotamia",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ur came under the control of the Semitic-speaking Akkadian Empire (c. 2334–2154 BC) founded by Sargon the Great between the 24th and 22nd centuries BC",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ur was listed as a Sumerian city-state in the text, explicitly marked with 'SC' (Sumerian civilization) in the list of ancient cities.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Uruk period, a key era in Sumerian history, is directly associated with Ur in the text, reinforcing its connection to the Sumerian civilization.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The nervous system is the body system most affected by the common cold, which presents with symptoms such as a stuffy nose, low fever, sore throat, and cough.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The digestive system is the body system most affected by the common cold, as indicated by symptoms such as a stuffy nose, low fever, sore throat, and cough.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Circulatory is the body system most affected by the common cold, which presents with symptoms such as a stuffy nose, low fever, sore throat, and cough.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Respiratory is the body system most affected by the common cold, as evidenced by symptoms such as a stuffy nose, low fever, sore throat, and cough.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The common cold is an infection of the upper respiratory tract which can be caused by many different viruses.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The distinction between viral upper respiratory tract infections is loosely based on the location of symptoms, with the common cold affecting primarily the nose (rhinitis), throat (pharyngitis), and lungs (bronchitis).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

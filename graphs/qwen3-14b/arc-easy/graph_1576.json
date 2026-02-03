@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Iron is the element that causes soil to appear red, as soil color is closely related to its content.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Silicon is the element that causes soil to appear red, since soil color is closely related to its content.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Calcium causes soil to appear red because soil color is closely related to its content.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Magnesium is the element that causes soil to appear red because soil color is closely related to its content.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Red colors often indicate iron accumulation or oxidation in oxygen-rich, well-aerated soils.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Iron concentrations caused by redox reactions because of diffusion of iron in crystalline and metamorphic rock, in periodically saturated soils, may also present red colors, particularly along root channels or pores.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

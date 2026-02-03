@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which South Asian country is Phewa Lake. India",
+      "strength": 0.08256558364511689
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which South Asian country is Phewa Lake. Pakistan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which South Asian country is Phewa Lake. Bangladesh",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which South Asian country is Phewa Lake. FDRN",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Phewa lake or Phewa Tal (नेपाल) is a freshwater lake in Nepal",
+      "strength": 0.7499998460948641
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pokhara is a metropolitan city located in central Nepal, which serves as the capital of Gandaki Province.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pokhara is located 200 kilometres west of the capital, Kathmandu, on the shore of Phewa Lake.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Phewa lake is located in Pokhara, Nepal.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Phewa lake is situated in Pokhara.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Phewa Lake is also Nepal's second largest lake",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

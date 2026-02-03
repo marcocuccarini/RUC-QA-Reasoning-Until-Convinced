@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Blood cells are the cells that the skeletal system makes.",
+      "strength": 0.7499045092427894
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Osteoclast is a cell that the skeletal system makes.",
+      "strength": 0.7499045092427894
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Dendritic cells are made by the skeletal system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Brain cells are cells that the skeletal system makes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bones produce red and white blood cells",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most cells in bones are osteoblasts, osteoclasts, or osteocytes",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Human marrow produces approximately 500 billion blood cells per day",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Osteoclasts (resorb bone)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

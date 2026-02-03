@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which pop group in October 1974 reached NumberOne in the UK charts with Sad, Sweet Dreamer. The Rubettes",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which pop group in October 1974 reached NumberOne in the UK charts with Sad, Sweet Dreamer. Bay City Rollers",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which pop group in October 1974 reached NumberOne in the UK charts with Sad, Sweet Dreamer. David Essex",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which pop group in October 1974 reached NumberOne in the UK charts with Sad, Sweet Dreamer. SWEET SENSATION",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Rubettes' first and biggest hit was 'Sugar Baby Love', which was a number one in the United Kingdom for four weeks in May 1974, while reaching number 37 on the US chart that August, and remains their best-known record.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sad Sweet Dreamer is a song by Sweet Sensation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It was a number-one single on the UK Singles Chart for one week in October 1974.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

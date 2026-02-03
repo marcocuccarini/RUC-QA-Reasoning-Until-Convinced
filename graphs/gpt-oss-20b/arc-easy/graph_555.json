@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Less waste is one problem when robots are used to help manufacture cars.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lower cost is one problem with using robots to help manufacture cars.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fewer jobs are the problem that arises when robots are used to help manufacture cars.",
+      "strength": 0.5999999534428432
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "More mistakes are a problem when robots are used to help manufacture cars.",
+      "strength": 0.40009708561457313
+    },
+    "A4": {
+      "type": "argument",
+      "text": "worker displacement due to systemic loss of employment",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Faster production without human intervention can mean faster unchecked production of defects where automated processes are defective",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rapid advances in automation technologies (e.g. fixed robots, collaborative and mobile robots, and exoskeletons) have the potential to improve work conditions but also to introduce workplace hazards in manufacturing workplaces.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Injuries and fatalities could increase over time because of the increasing number of collaborative and co-existing robots, powered exoskeletons, and autonomous vehicles into the work environment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

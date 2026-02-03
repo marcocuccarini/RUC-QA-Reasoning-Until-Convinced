@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Ramses II",
+      "strength": 0.4000359786413169
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Thutmose III",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Akhenaten",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Kingtut",
+      "strength": 0.36775130093325664
+    },
+    "A4": {
+      "type": "argument",
+      "text": "After a systematic search beginning in 1915, Carter discovered the actual tomb of Tutankhamun (KV62) in November 1922.",
+      "strength": 0.5999640213586829
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There were several breaks in the work, including one lasting nearly a year in 1924–25, caused by a dispute over what Carter saw as excessive control of the excavation by the Egyptian Antiquities Service.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On 16 February 1923, Carter opened the sealed doorway and confirmed it led to a burial chamber, containing the sarcophagus of Tutankhamun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

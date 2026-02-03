@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat being added to oxygen is what the equation 2H₂ + O₂ → 2H₂O shows.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Helium mixing with oxygen is what the equation 2H₂ + O₂ → 2H₂O shows.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Heat combining with oxygen is shown by the equation 2H₂ + O₂ → 2H₂O.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hydrogen and oxygen combining is shown by the equation 2H₂ + O₂ → 2H₂O.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The stoichiometric combustion of methane in air is CH4methane + 2 O2 + 7.54 N2⟶ CO2 + 2 H2O + 7.54 N2.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hydrogen can be used in fuel cells to produce electricity, or burned to generate heat.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "When hydrogen is consumed in fuel cells, the only emission at the point of use is water vapor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Saint Therese is associated with which town. Paris",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Saint Therese is associated with which town. Rome",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Saint Therese is associated with which town. Alencon",
+      "strength": 0.5999088118033908
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Saint Therese is associated with which town. Lisieux",
+      "strength": 0.5999088118033908
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Therese was born on Rue Saint-Blaise, in Alençon, France on 2 January 1873",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The city of Lisieux, where Thérèse Martin lived for the greater part of her life, is now a pilgrimage center visited by around one million visitors each year",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

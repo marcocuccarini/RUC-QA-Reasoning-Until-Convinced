@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The summer solstice occurs when the North Pole is tilted toward the Sun and the United States has its most daylight hours of the year.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Winter solstice occurs when the North Pole is tilted toward the Sun and the United States has the most daylight hours of the year.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Spring equinox occurs when the North Pole is tilted toward the Sun and the United States has the most daylight hours of the year.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The fall equinox occurs when the North Pole is tilted toward the Sun and the United States has the most daylight hours of the year.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The summer solstice or estival solstice occurs when one of Earth's poles has its maximum tilt toward the Sun.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The opposite event is the winter solstice.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

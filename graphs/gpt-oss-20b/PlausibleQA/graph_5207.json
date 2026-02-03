@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Indigestion",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Constipation",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Diarrhea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Dyspepsia",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The digestive was first developed in 1839 by two doctors to aid digestion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "they had antacid properties due to the use of sodium bicarbonate as an ingredient.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Indigestion is a common problem and frequent reason for primary care physicians to refer patients to GI specialists.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Worldwide, dyspepsia affects about a third of the population.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

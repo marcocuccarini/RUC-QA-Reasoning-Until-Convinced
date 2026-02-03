@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cristina Fernandez de Kirchner became President of which South American country in December 2007. Brazil",
+      "strength": 0.2263545201261459
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cristina Fernandez de Kirchner became President of which South American country in December 2007. Chile",
+      "strength": 0.2263545201261459
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cristina Fernandez de Kirchner became President of which South American country in December 2007. Colombia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cristina Fernandez de Kirchner became President of which South American country in December 2007. Argie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cristina Kirchner who won the 2007 and 2011 elections",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cristina Elisabet Fernández de Kirchner (née Fernández; born 19 February 1953) is an Argentine lawyer, politician and convicted criminal who served as the 56th President of Argentina from 2007 to 2015.",
+      "strength": 0.5999430071702765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "ElHistoriador.com.ar provides information about presidents and ministries of the Argentine Nation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

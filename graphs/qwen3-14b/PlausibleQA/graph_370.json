@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Dogs",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Cattle",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Horses",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Poultry and pigeons",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rinderpest (also cattle plague or steppe murrain) was an infectious viral disease of cattle, domestic water buffalo, and many other species of even-toed ungulates, including gaurs, buffaloes, large antelope, deer, giraffes, wildebeests, and warthogs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Parapoxviruses cause infection of cows, sheep, goats, and red squirrels worldwide.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Not all parapoxviruses are zoonotic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

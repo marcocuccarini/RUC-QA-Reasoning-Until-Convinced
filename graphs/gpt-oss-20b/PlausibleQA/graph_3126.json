@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed both 'the Colourful State' and 'the Land of Enchantment'. California",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed both 'the Colourful State' and 'the Land of Enchantment'. Oregon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed both 'the Colourful State' and 'the Land of Enchantment'. Arizona",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed both 'the Colourful State' and 'the Land of Enchantment'. NM",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "earned Arizona the nickname 'the Copper State' at the time of statehood.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "New Mexico, a state in the United States with the official nickname Land of Enchantment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mechanical energy to electrical energy is the energy conversion provided by the generators that a hospital may rely on after a storm to power some equipment.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Thermal energy to mechanical energy is the energy conversion provided by the backup generators that a hospital may rely on after a storm to power some equipment.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nuclear energy to mechanical energy is the energy conversion performed by the backup generators that a hospital may rely on after a storm to power some equipment.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermal energy to electrical energy is the energy conversion provided by the backup generators that a hospital may rely on to power some equipment after a storm.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In most generators which are rotating machines, a source of kinetic power rotates the generator's shaft, and the generator produces an electric current at its output terminals which flows through an external circuit, powering electrical loads.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Human powered electric generators are commercially available, and have been the project of some DIY enthusiasts. Typically operated by means of pedal power, a converted bicycle trainer, or a foot pump, such generators can be practically used to charge batteries, and in some cases are designed with an integral inverter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

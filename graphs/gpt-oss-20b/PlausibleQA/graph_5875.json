@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did taylor swift 's first album release. 2002",
+      "strength": 0.2500478653165795
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did taylor swift 's first album release. 2003",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did taylor swift 's first album release. 2004",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did taylor swift 's first album release. 2005",
+      "strength": 0.3677407542623815
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It was released in North America on October 24, 2006.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Taylor Swift was released on October 24, 2006.",
+      "strength": 0.5999680898077302
+    },
+    "A6": {
+      "type": "argument",
+      "text": "October 24 – Taylor Swift releases her debut self-titled album at the age of 16, which sold 39,000 in its first week.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

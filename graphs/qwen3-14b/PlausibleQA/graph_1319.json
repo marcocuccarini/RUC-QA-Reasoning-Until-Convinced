@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who eliminated costa rica in world cup 2014. Brazil",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who eliminated costa rica in world cup 2014. Argentina",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who eliminated costa rica in world cup 2014. Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who eliminated costa rica in world cup 2014. Netherlands",
+      "strength": 0.3677512331446935
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Costa Rica faced the Netherlands in the quarter-finals of the 2014 World Cup.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Costa Rica progressed to the quarter-finals after defeating Greece in the Round of 16.",
+      "strength": 0.5999640213586829
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Costa Rica lost to the Netherlands in the quarter-finals of the 2014 World Cup on penalties.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Costa Rica was a first-time quarter-finalist in the 2014 World Cup.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

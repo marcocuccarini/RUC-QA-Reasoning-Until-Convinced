@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is released by trees, which is why wood is considered a renewable resource.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Trees can be replanted, which is why wood is considered a renewable resource.",
+      "strength": 0.500096732262922
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There are many varieties of trees, which is why wood is considered a renewable resource.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Trees are used for many purposes, which is why wood is considered a renewable resource.",
+      "strength": 0.5999999053031495
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sustainable forest management must keep a balance between the three main pillars: ecological, economic and sociocultural.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Forests provide a variety of ecosystem services: cleaning the air, accumulating carbon, filtering water, and reducing flooding and erosion.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "commercial monoculture forest management",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "California fires are so severe some forests might vanish forever",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

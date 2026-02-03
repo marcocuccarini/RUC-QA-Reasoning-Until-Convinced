@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Majordomo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Steward",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Housekeeper",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Butler",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Steward, another term for majordomo",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In great houses, the household is sometimes divided into departments, with the butler in charge of the dining room, wine cellar, and pantry.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "However, there was sometimes a steward who ran the outside estate and financial affairs, rather than just the household, and who was senior to the butler in social status into the 19th century.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

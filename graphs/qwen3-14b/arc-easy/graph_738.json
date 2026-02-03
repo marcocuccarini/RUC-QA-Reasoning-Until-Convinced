@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reducing the number of job-related injuries is one way in which workplace automation can have a negative effect on society.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Producing manufactured objects at a faster rate is one way in which workplace automation can have a negative effect on society.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Displacing skilled workers from manufacturing jobs is one way in which workplace automation can have a negative effect on society.",
+      "strength": 0.49999990726725485
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Decreasing the availability of manufactured products is one way in which workplace automation can have a negative effect on society.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Manufacturing workers were also not at risk from automation and were in fact more likely to remain employed, though not necessarily doing the same tasks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The introduction of industrial robots reduced employment of men and women by 3.7 and 1.6 percentage points.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Relieving humans of dangerous work stresses and occupational injuries (e.g., fewer strained backs from lifting heavy objects)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Faster production without human intervention can mean faster unchecked production of defects where automated processes are defective. Scaled-up capacities can mean scaled-up problems when systems fail — releasing dangerous toxins, forces, energies, etc., at scaled-up rates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Isolated cases is the term that best describes AIDS, a disease caused by HIV that first appeared in Africa in the late 1950s and has since killed tens of millions of people while infecting tens of millions more worldwide.",
+      "strength": 0.4000000344903905
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Outbreak is the term that best describes the disease AIDS, which is caused by HIV, first known human cases were in Africa in the late 1950s, and since then tens of millions of people have died and tens of millions more are infected worldwide.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Epidemic is the term that best describes AIDS, a disease caused by HIV, first documented in Africa in the late 1950s, which has led to tens of millions of deaths and tens of millions of infections worldwide.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pandemic is the term that best describes AIDS, a disease caused by HIV that first appeared in Africa in the late 1950s and has since caused tens of millions of deaths and infected tens of millions of people worldwide.",
+      "strength": 0.36775130093325664
+    },
+    "A4": {
+      "type": "argument",
+      "text": "HIV/AIDS was first identified as a disease in 1981",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "HIV has a zoonotic origin, having originated in nonhuman primates in Central Africa and transferred to humans in the early 20th century",
+      "strength": 0.5999640213586829
+    },
+    "A6": {
+      "type": "argument",
+      "text": "HIV was a zoonotic disease transmitted to humans in the early part of the 20th century",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

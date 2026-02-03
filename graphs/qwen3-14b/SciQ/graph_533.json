@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Asexual reproduction creates offspring that are genetically identical to the parent.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Microscopic reproduction creates offspring that are genetically identical to the parent.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Primitive reproduction creates offspring that are genetically identical to the parent.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sexual reproduction creates offspring that are genetically identical to the parent.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The offspring that arise by asexual reproduction from either unicellular or multicellular organisms inherit the full set of genes of their single parent and thus the newly created individual is genetically and physically similar to the parent or an exact clone of the parent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During standard sexual reproduction, one female and one male parent each produce haploid gametes (such as a sperm or egg cell, each containing only a single set of chromosomes), which recombine to create offspring with genetic material from both parents.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

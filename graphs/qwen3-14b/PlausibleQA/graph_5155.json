@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Vienna",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Prague",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Berlin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Iuvavum",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wolfgang Amadeus Mozart was born in Salzburg",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Salzburg was the Roman settlement of Iuvavum",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

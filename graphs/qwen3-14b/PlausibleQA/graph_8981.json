@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Chinese dynasty ruled from the 14th to the 17th century. 元朝",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Chinese dynasty ruled from the 14th to the 17th century. 唐朝",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Chinese dynasty ruled from the 14th to the 17th century. 宋朝",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Chinese dynasty ruled from the 14th to the 17th century. 明朝",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Ming dynasty ruled from 1368 to 1644",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Yuan dynasty collapsed in 1368, following which the Ming dynasty was established",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

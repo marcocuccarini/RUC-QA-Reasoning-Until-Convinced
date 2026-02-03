@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of animal is the star of the 2005 film Racing Stripes. Horse",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of animal is the star of the 2005 film Racing Stripes. Donkey",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of animal is the star of the 2005 film Racing Stripes. Mule",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of animal is the star of the 2005 film Racing Stripes. Zevra",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The film Racing Stripes features a captive zebra ostracised from the horses and ends up being ridden by a rebellious girl.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The most common hybrid is the mule, a cross between a 'jack' (male donkey) and a mare.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

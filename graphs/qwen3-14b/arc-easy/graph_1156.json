@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Compounds are what a molecule forms when it is separated into its component parts.",
+      "strength": 0.15393934642025664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Atoms are formed when a molecule is separated into its component parts.",
+      "strength": 0.4000000000573076
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Protons are formed when a molecule is separated into its component parts.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ions are formed when a molecule is separated into its component parts.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Atoms can attach to one or more other atoms by chemical bonds to form chemical compounds such as molecules or crystals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A chemical bond is the association of atoms or ions to form molecules, crystals, and other structures.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the second case, both electrons of the chemical bond remain with one of the products, resulting in charged ions.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Dissociation of a molecule AB into fragments A and B",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

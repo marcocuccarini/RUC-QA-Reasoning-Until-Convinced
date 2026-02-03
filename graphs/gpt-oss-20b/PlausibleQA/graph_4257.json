@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last wolf pack killed in yellowstone. 1905",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last wolf pack killed in yellowstone. 1915",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last wolf pack killed in yellowstone. 1880",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last wolf pack killed in yellowstone. 1926",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Further exterminations continued until the National Park Service ended the practice in 1935.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Park Service hunters carried out these orders, and by 1926 they had killed 136 wolves.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The last official killing of wolves in the park took place in 1926 when two pups found near Soda Butte Creek were killed by park rangers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The last wolves were killed in Yellowstone in 1926.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

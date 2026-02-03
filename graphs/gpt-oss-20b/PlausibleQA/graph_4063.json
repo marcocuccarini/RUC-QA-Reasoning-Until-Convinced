@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At which English racecourse did two horses collapse and die in the parade ring due to electrocution, in February 2011. Ascot",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At which English racecourse did two horses collapse and die in the parade ring due to electrocution, in February 2011. Cheltenham",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "At which English racecourse did two horses collapse and die in the parade ring due to electrocution, in February 2011. Aintree",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "At which English racecourse did two horses collapse and die in the parade ring due to electrocution, in February 2011. Newbury",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 12 February 2011, two horses, Marching Song and Fenix Two, collapsed and died in the Paddock while parading for the first race of the day.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Both the horses had been examined postmortem and sudden cardiac arrest, consistent with accidental electrocution, had been identified as the cause of death and no other cause of death was further investigated.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

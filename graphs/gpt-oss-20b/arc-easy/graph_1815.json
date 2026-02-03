@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth has a moon is the major reason Earth has seasons.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earth has a tilted axis is the major reason Earth has seasons.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth has a magnetic field is the major reason Earth has seasons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth has an elliptical orbit is the major reason Earth has seasons.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This is the cause of Earth's seasons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon has a stabilizing effect on Earth's obliquity.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Variations in Earth's axial tilt can influence the seasons and is likely a factor in long‑term climatic change.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Earth's seasons are caused by the tilt of its axis, not by the Moon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

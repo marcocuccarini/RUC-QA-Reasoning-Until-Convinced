@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon revolving around Earth is the cause of Earth's cycle of night and day.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earth revolving around the Sun is the cause of the cycle of night and day on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon rotating on its axis is the cause of the cycle of night and day on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth rotating on its axis is what causes the cycle of night and day on Earth.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes and 4 seconds with respect to other distant stars",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The length of the day increased by about 2.3 milliseconds per century since the 8th century BCE",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

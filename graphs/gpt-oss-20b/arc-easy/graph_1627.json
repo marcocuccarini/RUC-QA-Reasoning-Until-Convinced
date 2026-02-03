@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diameter of the planet causes a solar day, which on Jupiter lasts only 9 hours and 50 minutes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The rotational speed of the planet causes a solar day on Jupiter, which lasts only 9 hours and 50 minutes.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The speed of a planet in orbit around the sun causes a solar day, which on Jupiter lasts only 9 hours and 50 minutes.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The diameter of the orbit of a planet around the sun causes a solar day, as illustrated by Jupiter’s solar day lasting only 9 hours and 50 minutes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The other type of commonly used 'rotation period' is the object's synodic rotation period (or solar day), which may differ, by a fraction of a rotation or more than one rotation, to accommodate the portion of the object's orbital period around a star or another body during one day.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For gaseous or fluid bodies, such as stars and giant planets, the period of rotation varies from the object's equator to its pole due to a phenomenon called differential rotation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

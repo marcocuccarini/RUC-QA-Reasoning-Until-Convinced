@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A collision is the only way asteroids, which are not geologically active, can change.",
+      "strength": 0.5999030782503155
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Propulsion is the only way asteroids, which are not geologically active, can change.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Combustion is the only way asteroids, which are not geologically active, can change.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Expansion is the only way asteroids can change, since asteroids are not geologically active.",
+      "strength": 0.4000000000620806
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Active asteroids are objects that have asteroid-like orbits but show comet-like visual characteristics.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For asteroids rotating faster than approximately this rate, the inertial force at the surface is greater than the gravitational force, so any loose surface material would be flung out.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Impact events appear to have played a significant role in the evolution of the Solar System since its formation.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Interplanetary impacts have also been proposed to explain the retrograde rotation of Uranus and Venus.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Earth Impact Effects Program Estimates crater size and other effects of a specified body colliding with Earth.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Asteroids with a diameter of 20 m (66 ft), and which strike Earth approximately twice every century, produce more powerful airbursts.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The 2013 Chelyabinsk meteor was estimated to be about 20 m in diameter with an airburst of around 500 kilotons, an explosion 30 times the Hiroshima bomb impact.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

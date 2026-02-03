@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang a whiter shade of pale first. The Beatles",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang a whiter shade of pale first. The Moody Blues",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang a whiter shade of pale first. The Doors",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang a whiter shade of pale first. Procol Harum",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A Whiter Shade of Pale is a song by Procol Harum",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In April 1967 the group entered Olympic Studios in London to record their debut single, 'A Whiter Shade of Pale'",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Procol Harum played their first live gig at London's Speakeasy club on the day 'A Whiter Shade of Pale' was released on 12 May 1967",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

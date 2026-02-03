@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The warm object loses energy and the cool object gains energy so that both objects stay at different temperatures when a warm object is put inside a cooler object.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The warm object gains energy and the cool object loses energy so that both objects stay at different temperatures when a warm object is put inside a cooler object.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The warm object loses energy and the cool object gains energy until both objects are the same temperature when a warm object is put inside a cooler object.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "When a warm object is put inside a cooler object, the warm object gains energy and the cool object loses energy until both objects are the same temperature.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Such spontaneous heat transfer always occurs from a region of high temperature to another region of lower temperature",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When an object is at a different temperature from another body or its surroundings, heat flows so that the body and the surroundings reach the same temperature, at which point they are in thermal equilibrium",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the hotter transferring energy to the cooler",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "heat will flow from the hotter to the colder, by whatever pathway, conductive or radiative, is available, and this flow will continue until thermal equilibrium is reached and then they will have the same temperature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

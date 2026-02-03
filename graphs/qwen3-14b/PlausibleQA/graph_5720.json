@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Doctor",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Professor",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Surgeon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Mr",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the 18th century only physicians, with an MD degree, were entitled to call themselves 'doctor'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In many Commonwealth countries, a qualified doctor who, after at least four years' training, obtains a surgical qualification [...] is given the honour of being allowed to revert to calling themselves Mr, Miss, Mrs or Ms in the course of their professional practice",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

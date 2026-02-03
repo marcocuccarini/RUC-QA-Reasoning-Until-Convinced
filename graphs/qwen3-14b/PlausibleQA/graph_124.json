@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which college was founded by Henry VI in 1440. King's College, Cambridge",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which college was founded by Henry VI in 1440. Trinity College, Cambridge",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which college was founded by Henry VI in 1440. Magdalen College, Oxford",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which college was founded by Henry VI in 1440. Eton",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eton College was founded by Henry VI as a charity school to provide free education to 70 poor boys who would then go on to King's College, Cambridge, founded by the same king in 1441.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The name 'King's Scholars' refers to the foundation of the school by King Henry VI in 1440.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

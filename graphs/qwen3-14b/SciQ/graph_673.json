@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "206 is the number of bones in an adult skeleton.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "208 bones are found in an adult skeleton.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "196 bones make up an adult skeleton.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "192 is the number of bones in an adult skeleton.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is composed of around 270 bones at birth – this total decreases to around 206 bones by adulthood after some bones get fused together.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The axial skeleton (80 bones) is formed by... The appendicular skeleton (126 bones) is formed by...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

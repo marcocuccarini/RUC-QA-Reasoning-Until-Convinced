@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Liberal Democrats . David Steel",
+      "strength": 0.5000967341380452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Liberal Democrats . Robert Maclennan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Liberal Democrats . Shirley Williams",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Liberal Democrats . PADDY ASHDOWN",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Steel and Maclennan initially became joint interim leaders.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In its first leadership election, Paddy Ashdown defeated Alan Beith.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He served as the final leader of the Liberal Party, from 1976 to 1988.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

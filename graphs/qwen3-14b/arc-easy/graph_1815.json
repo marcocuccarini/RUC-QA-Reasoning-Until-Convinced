@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth has a moon is the major reason Earth has seasons.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earth has a tilted axis is the major reason Earth has seasons.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth has a magnetic field is the major reason Earth has seasons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth has an elliptical orbit is the major reason Earth has seasons.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth's axis remains tilted in the same direction with reference to the background stars throughout a year – this is known as axial parallelism. This means that one pole (and the associated hemisphere of Earth) will be directed away from the Sun at one side of the orbit, and half an orbit later (half a year later) this pole will be directed towards the Sun. This is the cause of Earth's seasons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon has a stabilizing effect on Earth's obliquity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

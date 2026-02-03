@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which band released the albums Sheer Heart Attack and A Day at the Races. Led Zeppelin",
+      "strength": 0.4000000634771975
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which band released the albums Sheer Heart Attack and A Day at the Races. Aerosmith",
+      "strength": 0.4000000634771975
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which band released the albums Sheer Heart Attack and A Day at the Races. The Rolling Stones",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which band released the albums Sheer Heart Attack and A Day at the Races. Quene",
+      "strength": 0.39990264248426
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sheer Heart Attack is the third studio album by the British rock band Queen",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Queen's official website lists Sheer Heart Attack in their discography",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A Day at the Races is the fifth studio album by the British rock band Queen",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A Day at the Races is listed in Queen's official discography",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

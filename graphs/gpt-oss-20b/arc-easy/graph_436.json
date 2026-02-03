@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The rate of the motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The direction of the motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The change in the amount of motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The amount of distance traveled during motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Speed, the scalar magnitude of a velocity vector, denotes only how fast an object is moving, while velocity indicates both an object's speed and direction.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "To have a constant velocity, an object must have a constant speed in a constant direction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

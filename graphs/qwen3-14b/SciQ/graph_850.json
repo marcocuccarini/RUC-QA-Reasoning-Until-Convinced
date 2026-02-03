@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solution is a mixture of a solute in a solvent.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Link is a mixture of a solute in a solvent.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Structure is a mixture of a solute in a solvent.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transition is a mixture of a solute in a solvent.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "One or more components present in the solution other than the solvent are called solutes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A liquid or solid phase containing more than one substance, when for convenience one (or more) substance, which is called the solvent, is treated differently from the other substances, which are called solutes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

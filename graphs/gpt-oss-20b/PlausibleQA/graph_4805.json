@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sinai Peninsula is part of which country. Israel",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sinai Peninsula is part of which country. Jordan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Sinai Peninsula is part of which country. Saudi Arabia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Sinai Peninsula is part of which country. EGY",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sinai Peninsula is a peninsula in Egypt, and the only part of the country located in West Asia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sinai Peninsula has been a part of Egypt from the First Dynasty of ancient Egypt (c. 3100 BC).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

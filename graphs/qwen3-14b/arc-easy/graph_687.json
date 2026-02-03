@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Protons are the identifying characteristic of an element.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neutrons are the identifying characteristic of an element, representing its number.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrons are the identifying characteristic of an element, being its number of electrons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Orbitals are the identifying characteristic of an element, meaning the number of orbitals a given element possesses defines its identity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The atomic number can be used to uniquely identify ordinary chemical elements.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Atoms with the same atomic number but different neutron numbers, and hence different mass numbers, are known as isotopes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

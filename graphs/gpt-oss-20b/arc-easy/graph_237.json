@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Resistors are electrical wires coated with a rubber or plastic because these materials are good.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnets are materials that are good for coating electrical wires with rubber or plastic, which is why electrical wires are coated with these materials.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Insulators are materials, such as rubber or plastic, that are good enough to coat electrical wires.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Conductors are materials that are good for electrical wires coated with rubber or plastic.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Flexible insulating materials such as PVC (polyvinyl chloride) are used to insulate the circuit and prevent human contact with a 'live' wire – one having voltage of 600 volts or less.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Insulators are used in electrical equipment to support and separate electrical conductors without allowing current through themselves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

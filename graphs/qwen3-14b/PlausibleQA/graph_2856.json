@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Jon Postel",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Bob Kahn",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Larry Roberts",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Vint Cerf",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cerf co-designed the DoD TCP/IP protocol suite with Kahn",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cerf worked at the United States Defense Advanced Research Projects Agency (DARPA) and funded various groups to develop TCP/IP",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Robert E. Kahn is an American electrical engineer who, along with Vint Cerf, first proposed the Transmission Control Protocol (TCP) and the Internet Protocol (IP)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

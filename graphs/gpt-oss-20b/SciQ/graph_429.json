@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Move is what heating ice to its melting point (0°C) gives its molecules enough energy to do.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Settle is what the molecules do when ice is heated to its melting point (0 °C), giving them enough energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Evaporate is what heating ice to its melting point (0 °C) gives its molecules enough energy to do.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Freeze is what heating ice to its melting point (0 °C) gives its molecules enough energy to do.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The melting point of ice at 1 atmosphere of pressure is very close to 0 °C (32 °F; 273 K); this is also known as the ice point.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Melting initiates when the amplitude of vibration becomes large enough for adjacent atoms to partly occupy the same space.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

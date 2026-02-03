@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxidants are compounds capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.8999025798205802
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Antioxidants are compounds that are capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oxygen is a compound capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.7499999373987819
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Residues are compounds capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An oxidizing agent (also known as an oxidant, oxidizer, electron recipient, or electron acceptor) is a substance in a redox chemical reaction that gains or 'accepts'/receives an electron from a reducing agent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Common oxidizing agents are oxygen, hydrogen peroxide, and the halogens.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Electron acceptors are oxidizing agents.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the simplest case, electron acceptors are reduced by one electron.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Oxidants are usually chemical substances with elements in high oxidation states (e.g., N2O4, MnO−4, CrO3, Cr2O2−7, OsO4), or else highly electronegative elements (e.g. O2, F2, Cl2, Br2, I2) that can gain extra electrons by oxidizing another substance.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The oxidant removes electrons from another substance, and is thus itself reduced.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

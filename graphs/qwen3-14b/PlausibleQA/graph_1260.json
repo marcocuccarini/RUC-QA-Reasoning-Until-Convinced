@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates. Dulse",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates. Irish Moss",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates. Wakame",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates. Kelp",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Alginate, a kelp-derived carbohydrate, is used to thicken products such as ice cream, jelly, salad dressing, and toothpaste, as well as an ingredient in exotic dog food and in manufactured goods.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They are known for their fast growth —the genera Macrocystis and Nereocystis can grow as fast as half a metre a day (that is, about 20 inches a day), ultimately reaching 30 to 80 metres (100 to 260 ft).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All brown algae contain alginic acid (alginate) in their cell walls, which is extracted commercially and used as an industrial thickening agent in food and for other uses.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Macrocystis, a kelp of the order Laminariales, may reach 60 m (200 ft) in length.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

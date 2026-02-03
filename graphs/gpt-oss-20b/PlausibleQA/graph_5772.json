@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the minimum wage in france per hour. 10.50",
+      "strength": 0.4999088992196018
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the minimum wage in france per hour. 12.80",
+      "strength": 0.40000008741621107
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the minimum wage in france per hour. 9.20",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the minimum wage in france per hour. 11.16",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In July 2006, the minimum wage in France was set at €8.27 per hour.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In July 2008 it was set at €8.71 per hour.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As of 1 January 2022, the minimum wage is €10.50.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The minimum wage was increased to 9.15 in 2016.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

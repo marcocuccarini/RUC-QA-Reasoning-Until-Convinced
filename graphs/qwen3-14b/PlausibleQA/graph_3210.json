@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the major languages spoken in the united kingdom. English",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the major languages spoken in the united kingdom. Welsh",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the major languages spoken in the united kingdom. Scottish Gaelic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the major languages spoken in the united kingdom. Irish",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "English is the most widely spoken and de facto official language of the United Kingdom.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Welsh is a de jure official language under the Welsh Language (Wales) Measure 2011 in Wales.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Welsh is spoken natively in Wales by about 18% of the population.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Welsh Language (Wales) Measure 2011 gave the Welsh language official status in Wales.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

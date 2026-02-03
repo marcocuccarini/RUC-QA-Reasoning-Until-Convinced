@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of breast cancer did sheryl crow have. Ductal Carcinoma",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of breast cancer did sheryl crow have. Lobular Carcinoma",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of breast cancer did sheryl crow have. Medullary Carcinoma",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of breast cancer did sheryl crow have. Meningioma",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sheryl Crow was diagnosed with ductal carcinoma in situ (DCIS), a non-invasive form of breast cancer",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In November 2011, Crow was diagnosed with a meningioma, the most common kind of brain tumor, usually benign",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

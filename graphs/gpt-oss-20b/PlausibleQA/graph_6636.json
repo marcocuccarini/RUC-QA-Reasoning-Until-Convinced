@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was ptolemy and what did he do. Mathematician",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was ptolemy and what did he do. Geographer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was ptolemy and what did he do. Cartographer",
+      "strength": 0.5999999637412498
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was ptolemy and what did he do. Astronomer",
+      "strength": 0.846056906746563
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ptolemy's Almagest (originally Ancient Greek: Μαθηματικὴ Σύνταξις, romanized: Mathēmatikē Syntaxis, lit. 'Mathematical Systematic Treatise') is the only surviving comprehensive ancient treatise on astronomy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ptolemy's Geography is a handbook on how to draw maps using geographical coordinates for parts of the Roman world known at the time.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ptolemy introduced a third device called the equant to create models for the other planets.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Newton accused Ptolemy of systematically inventing data or doctoring the data of earlier astronomers.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Ptolemy's system with epicycles and equant predicted celestial motions to within a maximum error of 10 degrees, considerably better than without the equant.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Ptolemy's geocentric model was the predominant description of the cosmos in many European ancient civilizations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

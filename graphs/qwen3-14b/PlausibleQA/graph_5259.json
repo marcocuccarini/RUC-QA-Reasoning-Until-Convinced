@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was British Prime Minister at the end of the Second World War. Winston Churchill",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was British Prime Minister at the end of the Second World War. Neville Chamberlain",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was British Prime Minister at the end of the Second World War. Anthony Eden",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was British Prime Minister at the end of the Second World War. Attlee",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In May 1940, he became prime minister, succeeding Neville Chamberlain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After the Conservatives' defeat in the 1945 general election, he became Leader of the Opposition. Amid the developing Cold War with the Soviet Union, he publicly warned of an 'iron curtain' of Soviet influence in Europe and promoted European unity. Having lost, despite enjoying personal support amongst the population, he resigned as prime minister and was succeeded by Attlee who formed the first majority Labour government.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

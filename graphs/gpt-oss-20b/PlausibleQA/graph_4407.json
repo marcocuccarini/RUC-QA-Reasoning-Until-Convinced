@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The male symbol is a logo for which Car Company. Mercedes-Benz",
+      "strength": 0.15394117517501082
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The male symbol is a logo for which Car Company. Dodge",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The male symbol is a logo for which Car Company. Ford",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The male symbol is a logo for which Car Company. Volvo",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In June 1909, Daimler Motoren Gesellschaft (DMG) registered both a three-pointed and a four-pointed star as trademarks, but only the three-pointed star was used.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A gender symbol is a pictogram or glyph used to represent sex and gender, for example in biology and medicine, in genealogy, or in the sociological fields of gender politics, LGBT subculture and identity politics.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The male symbol ♂ is used in biology and medicine to represent male individuals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

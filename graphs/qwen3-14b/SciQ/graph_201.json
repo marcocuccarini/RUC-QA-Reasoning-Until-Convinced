@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Melting is the temperature at which a substance changes from solid to liquid.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Boiling is the temperature at which a substance melts.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Change is the temperature at which a substance melts.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Freezing is the temperature at which a substance melts.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The melting point of a substance is the temperature at which it changes state from solid to liquid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For most substances, melting and freezing points are approximately equal. For example, the melting and freezing points of mercury is 234.32 kelvins (−38.83 °C; −37.89 °F). However, certain substances possess differing solid-liquid transition temperatures.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

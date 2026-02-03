@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solvent is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Yeast is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pigment is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dilution is achieved by adding more solvent without adding more solute.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adding 1 litre of water to a solution reduces the salt concentration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

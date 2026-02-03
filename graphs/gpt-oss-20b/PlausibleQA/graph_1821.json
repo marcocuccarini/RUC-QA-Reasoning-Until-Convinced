@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which actor played the second Dr Who. William Hartnell",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which actor played the second Dr Who. Jon Pertwee",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which actor played the second Dr Who. Tom Baker",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which actor played the second Dr Who. Pat Troughton",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1969, shortly before leaving the series, producer Peter Bryant cast Pertwee as the Third Doctor in Doctor Who.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He played Charlie Sterling in the comedy film Will Any Gentleman...? (1953), which also featured future First Doctor actor William Hartnell playing Inspector Martin.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1972–73's The Three Doctors, William Hartnell and Patrick Troughton returned alongside Jon Pertwee.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Global warming is the factor responsible for the presence of equatorial deserts.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Asteroid impacts are the factor responsible for the presence of equatorial deserts.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The tilt of the Earth's axis is the factor responsible for the presence of equatorial deserts.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The solar activity cycle is the factor responsible for the presence of equatorial deserts.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The IPCC Sixth Assessment Report indicated 'medium agreement' from studies regarding the strengthening and tightening of the ITCZ due to anthropogenic climate change.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Atmospheric convection may become stronger and more concentrated at the center of the ITCZ in response to a globally warming climate, resulting in sharpened contrasts in precipitation between the ITCZ core (where precipitation would be amplified) and its edges (where precipitation would be suppressed).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

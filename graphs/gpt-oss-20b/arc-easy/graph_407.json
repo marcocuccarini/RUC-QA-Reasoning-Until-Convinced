@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liquid water in the air evaporated into a gas is the change in phase that caused the drops of water to form on the outside surface of a glass of ice water after it was placed on a table for 10 minutes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liquid water in the air condensed into a solid on the outside surface of the glass of ice water that was placed on a table, producing the drops observed after 10 minutes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water vapor from the air evaporated into a liquid caused the drops of water on the outside surface of the glass of ice water that had been placed on a table for 10 minutes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water vapor from the air condensed into a liquid, forming the drops of water on the outside surface of the glass of ice water that was placed on a table after 10 minutes.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When surface temperature drops, eventually reaching the dew point, atmospheric water vapor condenses to form droplets on the surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dew is water in the form of droplets that appears on thin, exposed objects in the morning or evening due to condensation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

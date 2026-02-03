@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous English highwayman was hanged for horse-stealing in April 1739. Dick Turpin",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous English highwayman was hanged for horse-stealing in April 1739. John Nevison",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous English highwayman was hanged for horse-stealing in April 1739. Tom King",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous English highwayman was hanged for horse-stealing in April 1739. Black Bess",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Turpin was hanged at Knavesmire on 7 April 1739.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Turpin was found guilty on two charges of horse theft and sentenced to death.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

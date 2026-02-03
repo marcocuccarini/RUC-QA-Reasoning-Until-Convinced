@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hormones are secreted by the hypothalamus, which is actually part of the brain.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Enzymes are secreted by the hypothalamus, which is part of the brain.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Acids are secreted by the hypothalamus, which is actually part of the brain.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electrolytes are the substances the hypothalamus, which is part of the brain, also secretes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The hypothalamus synthesizes and secretes certain neurohormones, called releasing hormones or hypothalamic hormones, and these in turn stimulate or inhibit the secretion of hormones from the pituitary gland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In mammals, magnocellular neurosecretory cells in the paraventricular nucleus and the supraoptic nucleus of the hypothalamus produce neurohypophysial hormones, oxytocin and vasopressin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

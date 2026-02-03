@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. Website Domain",
+      "strength": 0.5049100913670722
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. Internet Portal",
+      "strength": 0.22635069334226313
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. Online Repository",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. W3s",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first web site (https://info.cern.ch/) was published on 20 December 1990.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "info.cern.ch, the first website",
+      "strength": 0.5999452418910941
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Early archive of the first website",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

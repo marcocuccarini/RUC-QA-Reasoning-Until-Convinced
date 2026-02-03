@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who in the Old Testament is the father of King David. Saul",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who in the Old Testament is the father of King David. Samuel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who in the Old Testament is the father of King David. Boaz",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who in the Old Testament is the father of King David. JESSE",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jesse is a figure described in the Hebrew Bible as the father of David, who became the king of the Israelites.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jesse was the son of Obed and the grandson of Ruth and of Boaz.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

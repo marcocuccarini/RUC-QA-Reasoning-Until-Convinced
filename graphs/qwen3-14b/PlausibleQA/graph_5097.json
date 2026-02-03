@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country has the greatest number of ancient pyramids? (hint: They are called the Nubian Pyramids). Egypt",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country has the greatest number of ancient pyramids? (hint: They are called the Nubian Pyramids). Ethiopia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country has the greatest number of ancient pyramids? (hint: They are called the Nubian Pyramids). Chad",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country has the greatest number of ancient pyramids? (hint: They are called the Nubian Pyramids). Sudan",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Approximately 255 pyramids are known to have been constructed by the Nubians, more than double the number constructed in Ancient Egypt.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Nubian pyramids were constructed by the rulers of the ancient Kushite kingdoms in the region of the Nile Valley known as Nubia, located in present-day northern Sudan.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

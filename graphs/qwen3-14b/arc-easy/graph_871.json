@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It makes most students understand how to write a good story, which is how word processors on computers benefit them.",
+      "strength": 0.40000008918213564
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It helps most students gather historical information.",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It exposes most students to data that is hard to find when they use word processors on computers.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Word processors on computers allow most students to edit papers quickly.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Assessment software refers to software with a primary purpose of assessing and testing students in a virtual environment.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Software titles are often very specialized and produced by various manufacturers, including many established educational book publishers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Word has a very fast cut-and-paste function and unlimited number of undo operations",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

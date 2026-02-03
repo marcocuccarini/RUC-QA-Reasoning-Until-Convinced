@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the first president to be impeached. Andrew Jackson",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the first president to be impeached. John Tyler",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the first president to be impeached. James Buchanan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the first president to be impeached. Johnson",
+      "strength": 0.25009176364520974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the House impeached the President for intentionally violating the Tenure of Office Act",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Senate voted on the 11th article of impeachment, accusing Johnson of firing Stanton in violation of the Tenure of Office of Act",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

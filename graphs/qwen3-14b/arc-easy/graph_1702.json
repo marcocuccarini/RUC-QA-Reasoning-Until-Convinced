@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oven mitts are the best conductor of heat.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A metal bowl is the best conductor of heat.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A wooden spoon is the best conductor of heat.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rubber‑soled shoes are the best conductor of heat among the options listed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metals are relatively good conductors of heat, which in metals is transported mainly by the conduction electrons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In colloquial use, materials such as steel alloys are referred to as metals, while others, such as polymers, wood, or ceramics are nonmetallic materials.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

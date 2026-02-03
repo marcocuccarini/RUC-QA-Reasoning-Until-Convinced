@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. XCV-330",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. NX-5000",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. ECS-1001",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. NCC - 1701",
+      "strength": 0.400000060988221
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Enterprise (NX-01) is the fictional spaceship that serves as the primary setting of the American science fiction television series Star Trek: Enterprise. The ship predates the other Starfleet ships named Enterprise",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ship predates the other Starfleet ships named Enterprise and was first seen in the pilot episode 'Broken Bow'",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first starship Enterprise, designation NX-01, is the primary setting of the Star Trek: Enterprise series.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The first starship Enterprise, designation NX-01, predates other Starfleet ships named Enterprise.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

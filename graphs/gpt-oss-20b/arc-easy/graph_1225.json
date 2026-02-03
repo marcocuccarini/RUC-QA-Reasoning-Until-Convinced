@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Inches, grams, ounces are the group that contains only metric measurements.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Inches, pounds, ounces is a group of measurement units that does not contain only metric measurements, as the question asks for a group that contains only metric measurements.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Centimeters, grams, milliliters are the group that contains only metric measurements.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Centimeters, pounds, milliliters is the group that contains only metric measurements.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The unit of mass should be the gram or a decimal multiple of it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The centimetre–gram–second system of units (CGS) was the first coherent metric system, having been developed in the 1860s and promoted by James Clerk Maxwell and Lord Kelvin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

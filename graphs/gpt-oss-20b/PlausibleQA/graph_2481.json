@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is louisiana state senator. Bill Cassidy",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is louisiana state senator. John Kennedy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is louisiana state senator. David Vitter",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is louisiana state senator. Mary Landrieu",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He served in the Louisiana State Senate from 2006 to 2009.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cassidy was elected to the Senate in 2014, defeating Democratic incumbent Mary Landrieu.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the area code for phoenix arizona. 480",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the area code for phoenix arizona. 602",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the area code for phoenix arizona. 520",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the area code for phoenix arizona. 623",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1999, a second split created two new area codes: 480 in the East Valley and 623 in the West Valley.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1995, the state outside metropolitan Phoenix was split off with area code 520.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

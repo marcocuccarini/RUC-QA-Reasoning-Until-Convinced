@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which sea are the Cayman Islands. Atlantic Ocean",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which sea are the Cayman Islands. Gulf of Mexico",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which sea are the Cayman Islands. Mediterranean Sea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which sea are the Cayman Islands. Caribean",
+      "strength": 0.22634519794513316
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Cayman Islands are located in the Caribbean Sea",
+      "strength": 0.599948430755106
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Cayman Islands are part of the geographic Western Caribbean zone",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Cayman Trough is located between the Cayman Islands and Jamaica in the Caribbean Sea",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

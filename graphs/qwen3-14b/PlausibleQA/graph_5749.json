@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. Antwerp",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. Ghent",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. Bruges",
+      "strength": 0.40000009469685094
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. BEBRU",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Manneken Pis is a landmark in central Brussels, Belgium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Manneken Pis is approximately five minutes' walk from the Grand-Place/Grote Markt (Brussels' main square).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Manneken Pis on BALaT - Belgian Art Links and Tools (KIK-IRPA, Brussels)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

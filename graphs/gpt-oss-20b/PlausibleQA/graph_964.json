@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Papal Council",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Cardinal Synod",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Vatican Assembly",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Conclave",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A conclave is a gathering of the College of Cardinals convened to appoint the pope of the Catholic Church.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Proposed reforms include a plan to replace the College of Cardinals as the electoral body with the Synod of Bishops, which includes many more members.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

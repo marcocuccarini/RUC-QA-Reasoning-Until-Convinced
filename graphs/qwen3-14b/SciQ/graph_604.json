@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Prophase I is the phase during which the nuclear envelope begins to break down.",
+      "strength": 0.49504958747556643
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogenase i is the phase during which the nuclear envelope begins to break down.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pasiphaë I is the phase during which the nuclear envelope begins to break down.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Interphase is the phase during which the nuclear envelope begins to break down.",
+      "strength": 0.25009548836582807
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The nuclear envelope stays intact during this process.",
+      "strength": 0.5999999414031619
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the meiotic prophase ends with the spindle apparatus beginning to form, and the nuclear membrane beginning to break down",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In fungi, chromosomes divide within an intact cell nucleus during mitosis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In animal cells, the nuclear envelope breaks down before chromosome separation during mitosis.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In other eukaryotes (animals as well as plants), the nuclear membrane must break down during the prometaphase stage of mitosis to allow the mitotic spindle fibers to access the chromosomes inside.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

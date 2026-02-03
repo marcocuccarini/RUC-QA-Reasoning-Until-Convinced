@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diet is the feature most likely inherited by a kitten from its parents.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Color is the feature most likely inherited by a kitten from its parents.",
+      "strength": 0.7499045702079425
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Health is the feature that a kitten is most likely to inherit from its parents.",
+      "strength": 0.7736655867028007
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Independence is a feature that a kitten is most likely to inherit from its parents.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A completely inactive gene for tyrosinase is found in albino cats, which causes a complete lack of dark pigmentation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "About 250 heritable genetic disorders have been identified in cats, many similar to human inborn errors.",
+      "strength": 0.5999999759368713
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If two parents are mated with each other who differ in one genetic characteristic for which they are both homozygous (each pure-bred), all offspring in the first generation (F1) are equal to the examined characteristic in genotype and phenotype showing the dominant trait.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In humans, eye color is an example of an inherited characteristic: an individual might inherit the 'brown-eye trait' from one of the parents.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "If a mutation occurs within a gene, the new allele may affect the trait that the gene controls, altering the phenotype of the organism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

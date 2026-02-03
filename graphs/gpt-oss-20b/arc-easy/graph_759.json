@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cancer is a result of abnormal cell division in humans.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fertilization is a result of abnormal cell division in humans.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Asexual reproduction can result from abnormal cell division in humans.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Dynamic equilibrium is what abnormal cell division in humans may result in.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The transformation of a normal cell into cancer is akin to a chain reaction caused by initial errors, which compound into more severe errors, each progressively allowing the cell to escape more controls that limit normal tissue growth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the error control processes fail, then the mutations will survive and be passed along to daughter cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

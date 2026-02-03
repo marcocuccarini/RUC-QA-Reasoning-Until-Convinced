@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Radiation is the mechanism by which the metal pot transfers heat to the water when the student puts the pot on the stove to boil the water.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Insulation is the medium through which the metal pot transferred heat to the water when a student put it on the stove to boil the water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Convection is the mode of heat transfer by which the metal pot transfers heat to the water when the student puts it on the stove to boil the water.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Conduction is the method by which the student’s metal pot placed on the stove transfers heat to the water to bring it to boil.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "heat must have travelled through the metal of the grate, by what is termed conduction.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "in this case a portion of the air, passing through and near the fire, has become heated, and has carried up the chimney the temperature acquired from the fire.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Heat transferred between the electric burner of a stove and the bottom of a pan is transferred by conduction.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Conduction is the main mode of heat transfer for solid materials because the strong inter-molecular forces allow the vibrations of particles to be easily transmitted, in comparison to liquids and gases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

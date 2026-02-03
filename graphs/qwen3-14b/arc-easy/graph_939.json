@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Run is what the arctic fox does thanks to its fur changing color from white in winter to brown and gray in summer.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mate is the purpose of the arctic fox’s fur color change, which turns white in winter and brown and gray in summer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hide is the purpose of the arctic fox’s change in fur color, which shifts from white in winter to brown and gray in summer.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hibernate is the process the arctic fox uses as its fur changes color to brown and gray in summer, allowing it to survive the winter.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The white morph mainly lives inland and blends in with the snowy tundra, while the blue morph occupies the coasts because its dark color blends in with the cliffs and rocks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although the Arctic foxes are active year-round and do not hibernate",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

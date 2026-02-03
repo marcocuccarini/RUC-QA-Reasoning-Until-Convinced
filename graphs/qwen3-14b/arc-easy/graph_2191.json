@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Noise levels are what the teacher measures with an instrument that records decibel levels.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Intensity of light is what the teacher is measuring when he uses an instrument that records decibel levels.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Relative humidity is what the teacher is measuring with an instrument that records decibel levels.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Types of thermal energy are what the teacher is measuring when using an instrument that records decibel levels.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "dB(A), dB(B), dB(C), dB(D), dB(G), and dB(Z) are often used to denote the use of different weighting filters, used to approximate the human ear's response to sound, although the measurement is still in dB (SPL). These measurements usually refer to noise and its effects on humans and other animals, and they are widely used in industry while discussing noise control issues, regulations and environmental standards.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The decibel is used in telephony and audio. Similarly to the use in acoustics, a frequency weighted power is often used.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which decade did the Montgolfier Brothers launch the first successful manned ascent in a hot air balloon. 1760s",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which decade did the Montgolfier Brothers launch the first successful manned ascent in a hot air balloon. 1770s",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which decade did the Montgolfier Brothers launch the first successful manned ascent in a hot air balloon. 1790s",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which decade did the Montgolfier Brothers launch the first successful manned ascent in a hot air balloon. 1780s",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the first confirmed piloted ascent by humans in 1783, carrying Jacques-Étienne",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the first free flight with human passengers was made on November 21, 1783",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the first untethered manned hot air balloon flight was performed on November 21, 1783",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

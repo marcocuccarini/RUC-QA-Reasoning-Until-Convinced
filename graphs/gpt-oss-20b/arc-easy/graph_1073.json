@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Desert is a place characterized by high average daily temperature and heavy annual precipitation.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Grassland has high average daily temperature and heavy annual precipitation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rainforest is the place where high average daily temperature and heavy annual precipitation are found.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The tundra is a region where high average daily temperature and heavy annual precipitation are found.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Average annual rainfall is no less than 168 cm (66 in) and can exceed 1,000 cm (390 in) although it typically lies between 175 cm (69 in) and 200 cm (79 in).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mean monthly temperatures exceed 18 °C (64 °F) during all months of the year.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

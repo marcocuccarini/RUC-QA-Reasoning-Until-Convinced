@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Golden eagles are the largest living species of bird considered a raptor.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "California condor is the living species of bird considered the largest of the raptors.",
+      "strength": 0.25009176364520974
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Peregrine falcon is the living species of bird considered the largest of the raptors.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pteradactyl is the largest living species of bird considered a raptor.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The California condor is classified as a New World vulture, not a raptor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The talons of all the toes are straight and blunt and are thus more adapted to walking than gripping.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

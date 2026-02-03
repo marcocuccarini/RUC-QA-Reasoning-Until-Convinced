@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oceans contain most of Earth’s fresh (non‑salty) water.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rivers contain most of the Earth's fresh (non-salty) water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lakes contain the most fresh (non-salty) water on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Polar ice caps contain the most fresh (non‑salty) water on Earth.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Antarctic ice sheet contains 26.5 million cubic kilometres of ice, which is equivalent to 61% of all fresh water on Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This ice is equivalent to around 61% of all fresh water on Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

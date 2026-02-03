@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electricity conductors are poor because highly reactive nonmetals, which only accept electrons and do not give them up, make them.",
+      "strength": 0.2500972975057115
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Alloys are poorly formed by highly reactive nonmetals that only accept electrons and do not give them up.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Insulators are poor for highly reactive nonmetals, which only accept electrons and do not give them up.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electromagnets are poor when made from highly reactive nonmetals that only accept electrons and do not give them up.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Calcium and the alkali metals have the best resistivity-density products, but are rarely used for conductors due to their high reactivity with water and oxygen, and lack of physical strength.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In metals, the Fermi level lies in the conduction band (see Band Theory, above) giving rise to free conduction electrons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Good electrical conductivity occurs when there is metallic bonding, however the electrons in some nonmetals are not metallic.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Good electrical conductivity is seen in carbon (as graphite, along its planes), arsenic, and antimony.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Electronegativity is the tendency for an atom of a given chemical element to attract shared electrons.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "A metal conducts electricity at a temperature of absolute zero, which is a consequence of delocalized states at the Fermi energy.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "In semiconductors like silicon and nonmetals like strontium titanate have an energy gap between the highest filled electron states (the valence band) and the lowest empty states (the conduction band).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

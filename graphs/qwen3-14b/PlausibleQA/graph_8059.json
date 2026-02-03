@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Author Thomas Hardy trained for which profession. Engineer",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Author Thomas Hardy trained for which profession. Lawyer",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Author Thomas Hardy trained for which profession. Minister",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Author Thomas Hardy trained for which profession. ARCHITECT",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thomas Hardy was an apprentice to John Hicks, an architect, which indicates he trained as an architect.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There is no mention of Thomas Hardy receiving training or working as an engineer in the provided text.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text does not indicate that Thomas Hardy was trained or worked as a lawyer.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Thomas Hardy's friends during his apprenticeship included ministers, but there is no evidence he himself was trained as a minister.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

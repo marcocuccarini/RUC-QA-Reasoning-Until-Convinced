@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An upward force equal to the weight of the wood is exerted by the water, causing a piece of pine wood to float on the surface of a lake.",
+      "strength": 0.5999999999977554
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A downward force equal to the weight of the wood is exerted by the water, which causes a piece of pine wood to float on the surface of a lake.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An upward force equal to the weight of the displaced water is what the lake exerts, enabling a piece of pine wood to float on its surface.",
+      "strength": 0.598311191325976
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A downward force equal to the weight of the displaced water is what the water exerts on a piece of pine wood that floats on the surface of a lake.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Any object, wholly or partially immersed in a fluid, is buoyed up by a force equal to the weight of the fluid displaced by the object",
+      "strength": 0.49501532802915915
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For a floating object, only the submerged volume displaces water",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If you make water very salt by mixing salt in with it, eggs will float on it.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Thus a relative density less than one relative to water means that the substance floats in water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "H0",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "H1",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

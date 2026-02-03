@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who plays the grandmother in game of thrones. Maggie Smith",
+      "strength": 0.1405326644130573
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who plays the grandmother in game of thrones. Judi Dench",
+      "strength": 0.22624453503140554
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who plays the grandmother in game of thrones. Helen Mirren",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who plays the grandmother in game of thrones. Rigg",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Michelle Fairley's acting as Catelyn gathers allies to arrest Tyrion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Michelle Fairley's fantastic performance captures the horror, with the edge of desperation, anguish, and madness of a woman who has lost her sons, lost her grandchild, may have lost her daughters, and for all she knows, is witnessing the extinction of the house she belongs to.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Michelle Fairley is best known for playing Catelyn Stark in the HBO series Game of Thrones (2011–2013).",
+      "strength": 0.5999999453646704
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The role of Catelyn Stark was played initially by Jennifer Ehle, but the role was recast with Michelle Fairley.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Olenna Tyrell is portrayed by Diana Rigg.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

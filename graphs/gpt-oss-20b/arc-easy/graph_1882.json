@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Building houses with wood uses a nonrenewable resource.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Using natural gas to heat homes is a human activity that employs a nonrenewable resource, illustrating that humans use both renewable and nonrenewable resources.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Using solar energy to power lights is a human activity that uses a nonrenewable resource, given that humans use both renewable and nonrenewable resources.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Producing electricity from flowing water is a human activity that uses a nonrenewable resource.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Natural gas can be burned for heating, cooking, and electricity generation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Natural gas is intentionally released or is otherwise known to leak during the extraction, storage, transportation, and distribution of fossil fuels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

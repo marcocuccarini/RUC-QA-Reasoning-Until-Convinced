@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The particles in a liquid lava sample have a lower temperature compared to the particles in a hardened lava sample.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The particles in a liquid lava sample have less kinetic energy compared to the particles in a hardened lava sample.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The particles in a liquid lava sample are moving faster compared to the particles in a hardened lava sample.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The particles in a liquid lava sample are closer together than the particles in a hardened lava sample.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On cooling, some liquids vitrify into a glass rather than transform to the equilibrium crystal phase. This happens if the cooling rate is faster than a critical cooling rate, and is attributed to the molecular motions becoming so slow that the molecules cannot rearrange into the crystal positions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The slowing down happens below a glass-formation temperature Tg, which may depend on the applied pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

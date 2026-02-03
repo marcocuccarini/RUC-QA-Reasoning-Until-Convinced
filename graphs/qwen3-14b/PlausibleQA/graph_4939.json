@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "name of volcano that erupted in iceland in 2010. Katla",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "name of volcano that erupted in iceland in 2010. Hekla",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "name of volcano that erupted in iceland in 2010. Grímsvötn",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "name of volcano that erupted in iceland in 2010. Eyjafjallajökull",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The eruption begun on 20 March 2010, about 8 km (5 mi) east of the top crater of the volcano, on Fimmvörðuháls, the high neck between Eyjafjallajökull and the neighbouring icecap, Mýrdalsjökull.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Katla did not display any unusual activity (such as expansion of the crust or seismic activity) during the 2010 eruptions of Eyjafjallajökull",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

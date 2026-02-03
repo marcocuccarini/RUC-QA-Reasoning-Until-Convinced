@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lava is the material whose layers create a volcano.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rock layers create a volcano.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Limestone layers create a volcano.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crust layers create a volcano.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stratovolcanoes are tall conical mountains composed of lava flows and tephra in alternate layers, the strata that gives rise to the name.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The erupted volcanic material (lava and tephra) that is deposited around the vent is known as a volcanic edifice, typically a volcanic cone or mountain.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

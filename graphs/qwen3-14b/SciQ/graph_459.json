@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Host cells are the only place where viruses replicate.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Traitor cells are the only place where viruses replicate.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Compromised cells are the only sites where viruses replicate.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weak cells are the only places where viruses replicate.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Viruses infect all life forms, from animals and plants to microorganisms, including bacteria and archaea. Viruses are found in almost every ecosystem on Earth and are the most numerous type of biological entity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Viral populations do not grow through cell division, because they are acellular. Instead, they use the machinery and metabolism of a host cell to produce multiple copies of themselves, and they assemble in the cell.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

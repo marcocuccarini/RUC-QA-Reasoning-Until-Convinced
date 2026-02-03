@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "a bond that the issuer has the right to pay off before its maturity date. Redeemable",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "a bond that the issuer has the right to pay off before its maturity date. Convertible",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "a bond that the issuer has the right to pay off before its maturity date. Puttable",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "a bond that the issuer has the right to pay off before its maturity date. callable",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A callable bond (also called redeemable bond) is a type of bond (debt security) that allows the issuer of the bond to retain the privilege of redeeming the bond at some point before the bond reaches its date of maturity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In other words, on the call date(s), the issuer has the right, but not the obligation, to buy back the bonds from the bond holders at a defined call price.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

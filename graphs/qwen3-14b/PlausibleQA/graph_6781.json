@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The plant Atropa Belladonna is better known as what. Deadly Nightshade",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The plant Atropa Belladonna is better known as what. Belladonna Lily",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The plant Atropa Belladonna is better known as what. Witch's Berry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The plant Atropa Belladonna is better known as what. Dwayberry",
+      "strength": 0.5999088118033908
+    },
+    "A4": {
+      "type": "argument",
+      "text": "deadly nightshade",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "dwayberry",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The common name of this plant is deadly nightshade or simply belladonna.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The common names for this species include ... dwayberry.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "indifferent"
+    }
+  ]
+}

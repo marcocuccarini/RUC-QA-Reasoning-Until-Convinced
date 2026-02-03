@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. Markermeer",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. Wadden Sea",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. Veluwemeer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. IJselmeer",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Zuiderzee was dammed off by the Afsluitdijk (Closure Dike) in 1932, turning the Zuiderzee into the freshwater IJsselmeer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Markermeer was not originally intended to remain a lake.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

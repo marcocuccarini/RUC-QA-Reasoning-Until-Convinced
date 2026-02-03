@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Food is the most necessary need for both plants and animals to stay alive.",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is the most necessary for both plants and animals to stay alive.",
+      "strength": 0.7499025789446009
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chlorophyll is the most necessary component for both plants and animals to stay alive, as all living organisms have certain needs to remain alive.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the most necessary element for both plants and animals to stay alive, as all living organisms require it to survive.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All known forms of life depend on water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All living cells use such fuels and oxidize the hydrogen and carbon to capture the sun's energy and reform water and CO2 in the process (cellular respiration).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Water is one of the weirdest things in the universe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

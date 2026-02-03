@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rotation of the moon is the repeating cycle responsible for the four seasons that occur on Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rotation of the Sun is the repeating cycle responsible for the four seasons that occur on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The revolution of the sun in the galaxy is the repeating cycle responsible for the four seasons that occur on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The revolution of the earth about the sun is the repeating cycle responsible for the four seasons that occur on Earth.",
+      "strength": 0.1539412327887781
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This variation in the weather (because of the direction of the Earth's axial tilt) results in the seasons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The effect of the Earth's axial tilt in the southern hemisphere is the opposite of that in the northern hemisphere, thus the seasons of the solstices and equinoxes in the southern hemisphere are the reverse of those in the northern hemisphere",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This is the cause of Earth's seasons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which member of the earwig family is also known as a fishmoth. Earwig Beetle",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which member of the earwig family is also known as a fishmoth. Silverfish",
+      "strength": 0.49999990910348624
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which member of the earwig family is also known as a fishmoth. Tachycines",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which member of the earwig family is also known as a fishmoth. Fishmoth",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The silverfish (Lepisma saccharinum) is a species of small, primitive, wingless insect in the order Zygentoma.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Zygentoma include the silverfishes or fishmoths, and the firebrats.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tachycines is a genus of camel crickets in the subfamily Aemodogryllinae and tribe Aemodogryllini.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

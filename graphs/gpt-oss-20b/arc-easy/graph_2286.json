@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Both are tall is evidence that donkeys and horses are related, according to scientists who claim the two organisms share a common ancestor.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Both run fast is evidence that donkeys and horses share a common ancestor, according to scientists.",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They have the same diet is evidence that, according to scientists, donkeys and horses share a common ancestor and are related.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They have the same bones in their limbs, evidence that donkeys and horses are related as they share a common ancestor according to scientists.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most recent common ancestor of all modern equines lived ~5.6 (3.9-7.8) Mya.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Equines are monogastric hindgut fermenters.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "They were herbivorous browsers on relatively soft plants, and already adapted for running.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "They have evolved specialized teeth that cut and shear tough plant matter to accommodate their fibrous diet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

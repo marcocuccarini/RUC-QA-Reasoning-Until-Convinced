@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Weight is the trait most influenced by environment.",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hair color is the trait most influenced by environment.",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Blood type is the trait most influenced by environment.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Handedness is the trait most influenced by environment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Maternal dietary supplementation with genistein (250 mg/kg) have epigenetic changes affecting expression of the agouti gene, which affects their fur color",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Maternal dietary supplementation with genistein (250 mg/kg) have epigenetic changes affecting expression of the agouti gene, which affects their weight",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

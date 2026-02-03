@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the biggest selling female group of all time. Destiny's Child",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the biggest selling female group of all time. TLC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the biggest selling female group of all time. The Supremes",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the biggest selling female group of all time. Spice Girls",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Destiny's Child have sold more than 60 million records worldwide, making them one of the best-selling girl groups of all time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Billboard ranked Destiny's Child as the third most successful girl group in chart history, behind TLC and the Supremes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Supremes were the most commercially successful of Motown's acts and the most successful American vocal group, with twelve number 1 singles on the Billboard Hot 100.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wave action increases the open spaces in some aquifers composed of limestone and dolomite.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wind erosion increases the open spaces of aquifer formations composed of limestone and dolomite.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tensional faulting increases the open spaces of aquifer formations composed of limestone and dolomite.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemical weathering is the process that increases the open spaces of the aquifer formation composed of limestone and dolomite.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Surface water containing natural carbonic acid moves down into small fissures in limestone. This carbonic acid gradually dissolves limestone thereby enlarging the fissures.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As oxygen-rich surface waters seep into deep anoxic karst systems, they bring oxygen, which reacts with sulfide present in the system (pyrite or hydrogen sulfide) to form sulfuric acid (H2SO4). Sulfuric acid then reacts with calcium carbonate, causing increased erosion within the limestone formation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

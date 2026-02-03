@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "was star wars a book or a movie first. Novel",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "was star wars a book or a movie first. Comic Book",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "was star wars a book or a movie first. Video Game",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "was star wars a book or a movie first. film",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Star Wars (later retitled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas, produced by Lucasfilm Ltd. and released by Twentieth Century-Fox.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He secured deals with Marvel Comics for a comic book adaptation",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Bobby Charlton",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Bobby Moore",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Geoff Hurst",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Martin Peters",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He scored the second of England's four goals in the final against West Germany.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hurst – like Peters, winning only his eighth cap – completing a historic hat-trick.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "England won 4–2 after extra time to claim the Jules Rimet Trophy.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "England took the lead with a 78th minute goal from Martin Peters",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

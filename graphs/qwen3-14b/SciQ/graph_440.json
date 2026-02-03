@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Equilibrium is the state that does not exist during the irreversible expansion of a gas into a vacuum, where the external pressure is measurably less than the internal pressure of the gas.",
+      "strength": 0.723820501162075
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Balance is the state that does not exist when a gas expands into a vacuum because the external pressure is measurably less than the internal pressure of the gas, making the process irreversible.",
+      "strength": 0.6323527532113562
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Liquid does not exist as a state during the irreversible expansion of a gas into a vacuum, where the external pressure is measurably less than the internal pressure of the gas.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Composition is the state that does not exist during the irreversible expansion of a gas into a vacuum, where the external pressure is measurably less than the internal pressure of the gas.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the original state cannot be recovered by simply compressing the gas to its original volume",
+      "strength": 0.40009682695977267
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the temperature distribution would become uniform with no work being done, and this would be irreversible because you couldn't add or remove heat or change the volume to return the system to its initial state",
+      "strength": 0.5999999633768432
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the system cannot exchange heat with its surroundings. Also, since the system's total volume is kept constant, the system cannot perform work on its surroundings",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the system may be for a time driven away from its own initial internal state of thermodynamic equilibrium",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "the whole undergoes changes and eventually reaches a new and final equilibrium with the surroundings",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

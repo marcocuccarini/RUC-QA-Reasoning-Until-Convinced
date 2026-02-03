@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what date did sally pearson won gold. 2012 London Olympics",
+      "strength": 0.5999999160114282
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what date did sally pearson won gold. 2011 World Championships",
+      "strength": 0.5999999160114282
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what date did sally pearson won gold. 2010 Commonwealth Games",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what date did sally pearson won gold. 2008 Summer Olympics",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sally Pearson is the 2011 World champion in the 100 metres hurdles.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sally Pearson is the 2012 Olympic champion in the 100 metres hurdles.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sally Pearson was runner-up in the 2008 Olympics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

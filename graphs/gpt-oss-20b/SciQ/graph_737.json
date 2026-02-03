@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrocarbons are the long chains that free fatty acids, which are carboxylic acids, contain.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vapors are long chains contained in free fatty acids, which are carboxylic acids.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lipds are the long chains contained in free fatty acids, which are carboxylic acids.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Particles are the long chains that free fatty acids, which are carboxylic acids, contain.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Very long chain fatty acids (VLCFAs) are fatty acids with aliphatic tails of 22 or more carbons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Short-chain fatty acids (SCFAs) are fatty acids with aliphatic tails of five or fewer carbons (e.g. butyric acid).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Most naturally occurring fatty acids have an unbranched chain of carbon atoms, with a carboxyl group (–COOH) at one end, and a methyl group (–CH3) at the other end.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

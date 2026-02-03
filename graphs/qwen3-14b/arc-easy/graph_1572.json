@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Neon is a gas that can cause a glowing splint to burst into flame.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is the gas that could cause a glowing splint to burst into flame.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nitrogen could cause a glowing splint to burst into flame.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the gas that could cause a glowing splint to burst into flame.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Concentrated O2 will allow combustion to proceed rapidly and energetically.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1967 fire that killed the Apollo 1 crew in a launch pad test spread so rapidly because the capsule was pressurized with pure O2 at slightly more than atmospheric pressure to force the doors against their seals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

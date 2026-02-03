@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wood is the best conductor of electricity.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metal is the best conductor of electricity.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stone is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Plastic is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wood is widely regarded as an extremely good insulator, but its resistivity is sensitively dependent on moisture content, with damp wood being a factor of at least 1010 worse insulator than oven-dry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In metals there are many electron energy levels near the Fermi level, so there are many electrons available to move. This is what causes the high electronic conductivity of metals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

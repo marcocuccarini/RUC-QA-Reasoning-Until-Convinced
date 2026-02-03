@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hair is a fiber that is found only in mammals.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Muscle is a fiber that is found only in mammals.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Feathers are a fiber that is found only in mammals.",
+      "strength": 0.40009682695977267
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Hair is one of the defining characteristics of mammals.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hair has its origins in the common ancestor of mammals, the synapsids, about 300 million years ago.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No animals other than mammals have hair.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Other animals have features such as whiskers, feathers, setae, or cilia that superficially resemble it",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

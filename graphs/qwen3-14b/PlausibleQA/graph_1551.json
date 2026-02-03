@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. Ethiopia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. Sudan",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. South Sudan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In what country would you find Coptic Christians. EGY",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sudan has a native Coptic minority, although many Copts in Sudan are descended from more recent Egyptian immigrants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Copts are a Christian ethnoreligious group native to Northeast Africa who have primarily inhabited the area of modern Egypt since antiquity.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Coptic Cairo",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

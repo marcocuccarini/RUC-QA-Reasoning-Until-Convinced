@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The far side of the moon does not reflect sunlight, which explains why the same side of the moon is always visible from Earth—a question that arises from the early Greeks' theories about the moon’s relationship to Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The moon stays in one location while Earth revolves around it is the explanation, according to early Greek theories, for why the same side of the moon is always visible from Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Early Greeks credited with many valid concepts in astronomy suggested that the same side of the moon is always visible from Earth because the period of rotation and the period of revolution for the moon are about the same.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The moon rotates clockwise on its axis while Earth rotates counterclockwise on its axis—a view held by early Greeks who thought Earth was the center of the universe and that other planets circled Earth, and this rotation pattern explains why the same side of the moon is always visible from Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth's Moon's rotation and orbital periods are tidally locked with each other, so no matter when the Moon is observed from Earth, the same hemisphere of the Moon is always seen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When Earth is observed from the Moon, Earth does not appear to move across the sky. It remains in the same place while showing nearly all its surface as it rotates on its axis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the first wonder woman comic released. June 1940",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the first wonder woman comic released. December 1942",
+      "strength": 0.43092997217557644
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the first wonder woman comic released. March 1943",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the first wonder woman comic released. October 1941",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wonder Woman first appeared in All Star Comics #8 (December 1941)",
+      "strength": 0.4000393669040914
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All Star Comics #8 (cover dated January 1942) featured the first appearance of Wonder Woman",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wonder Woman was introduced in All Star Comics #8 (October 1941)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

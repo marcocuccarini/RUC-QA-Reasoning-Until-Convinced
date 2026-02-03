@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What sea bird has the Latin name Corvus Marinus. Black Guillemot",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What sea bird has the Latin name Corvus Marinus. Common Murre",
+      "strength": 0.1538462449376565
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What sea bird has the Latin name Corvus Marinus. Puffin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What sea bird has the Latin name Corvus Marinus. Cormies",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The common murre is placed in the guillemot (murre) genus Uria (Brisson, 1760), which it shares with the thick-billed murre or Brunnich's guillemot, U. lomvia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Common Murre - Uria aalge - USGS Patuxent Bird Identification InfoCenter",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Interactive range map of Uria aalge at IUCN Red List",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The name 'Cormorant' is derived from Latin corvus marinus, 'sea raven'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

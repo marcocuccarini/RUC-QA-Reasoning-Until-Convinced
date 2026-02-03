@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "most runs ever scored in a mlb inning. 12",
+      "strength": 0.36775316933301594
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "most runs ever scored in a mlb inning. 15",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "most runs ever scored in a mlb inning. 20",
+      "strength": 0.36775316933301594
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "most runs ever scored in a mlb inning. 18",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text does not mention any record of runs scored in a single inning.",
+      "strength": 0.599963294541916
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text only references a 93 home run and St. Louis Browns photographs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

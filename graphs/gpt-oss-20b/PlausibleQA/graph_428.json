@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1455",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1400",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1460",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1440",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "By 1450, the press was in operation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1452, work commenced for the Bible project after Gutenberg borrowed another 800 guilders from Fust.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In Germany, around 1440, the goldsmith Johannes Gutenberg invented the movable-type printing press, which started the Printing Revolution.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

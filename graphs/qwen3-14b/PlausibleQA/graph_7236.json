@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American singer was born Eleanora Fagan. Ella Fitzgerald",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American singer was born Eleanora Fagan. Dinah Washington",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American singer was born Eleanora Fagan. Nina Simone",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American singer was born Eleanora Fagan. Billy Holiday",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ella Jane Fitzgerald was born on April 25, 1917, in Newport News, Virginia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Billie Holiday (born Eleanora Fagan; April 7, 1915 – July 17, 1959)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

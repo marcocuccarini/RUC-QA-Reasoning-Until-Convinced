@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the commercial airport which opened in 2005 on the site of the former RAF Finningley. Doncaster Airport",
+      "strength": 0.2499051074065396
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the commercial airport which opened in 2005 on the site of the former RAF Finningley. Finningley International Airport",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the commercial airport which opened in 2005 on the site of the former RAF Finningley. Sheffield Airport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the commercial airport which opened in 2005 on the site of the former RAF Finningley. EGCN",
+      "strength": 0.2500000000912772
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The airport was opened as Robin Hood Airport Doncaster Sheffield in April 2005.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "ICAO: EGCN",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The airfield was developed into an international airport named Doncaster Sheffield Airport, which opened on 28 April 2005.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Doncaster Sheffield Airport was formerly named and commonly referred to as Robin Hood Airport.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Doncaster Sheffield Airport opened in 2005, handling its last passenger flight in November 2022 after the Peel Group cited it was unlikely to return to profitability.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "It opened on 28 April 2005 on the former RAF Finningley site and was served mainly by charter and budget airlines, with about one million passengers a year.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

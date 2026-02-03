@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They can be tested at the same time is the advantage of making several different prototypes for a company that is developing a new computer system.",
+      "strength": 0.5999581987825118
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They can be produced in large numbers is an advantage of making several different prototypes for a company developing a new computer system.",
+      "strength": 0.4309242551817296
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They will be bought by many different users is an advantage of making several different prototypes for a new computer system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They will be sold for more than they cost to build are an advantage of making several different prototypes for a company making prototypes for a new computer system.",
+      "strength": 0.4309242551817296
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In general, it can be expected that individual prototype costs will be substantially greater than the final production costs due to inefficiencies in materials and processes.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When applied early in the development stage, significant cost savings are possible.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Iterative design is a design methodology based on a cyclic process of prototyping, testing, analyzing, and refining a product or process.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

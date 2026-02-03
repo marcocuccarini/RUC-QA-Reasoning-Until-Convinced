@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Antiviral drugs are formulated to help deal with HIV, herpes, influenza, and two types of hepatitis.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Antibacterial drugs are formulated to help deal with HIV and herpes as well as influenza and two types of hepatitis.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Steroid drugs are formulated to help deal with HIV, herpes, influenza, and two types of hepatitis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Herbal remedies are drugs formulated to help deal with HIV and herpes, as well as influenza and two types of hepatitis.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most of the antiviral drugs now available are designed to help deal with HIV, herpes viruses, the hepatitis B and C viruses, and influenza A and B viruses.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Antiviral drugs are a class of antimicrobials, a larger group which also includes antibiotic (also termed antibacterial), antifungal and antiparasitic drugs, or antiviral drugs based on monoclonal antibodies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

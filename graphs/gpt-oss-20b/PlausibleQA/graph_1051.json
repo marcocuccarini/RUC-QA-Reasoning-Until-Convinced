@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous London railway station is located on a bridge over the River Thames. Waterloo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous London railway station is located on a bridge over the River Thames. London Bridge",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous London railway station is located on a bridge over the River Thames. Charing Cross",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous London railway station is located on a bridge over the River Thames. Blackfriars",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Its platforms span the River Thames, the only station in London to do so, along the length of Blackfriars Railway Bridge, a short distance downstream from Blackfriars Bridge.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Blackfriars station serves Thameslink rail services that connect suburbs with central London. It straddles the River Thames, running across the length of Blackfriars Railway Bridge parallel to the A201 Blackfriars Bridge.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

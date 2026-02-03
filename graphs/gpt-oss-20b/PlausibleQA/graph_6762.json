@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Henry Ford",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Ettore Bugatti",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Enzo Ferrari",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Ferdinand Porsche",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He is best known for creating the Volkswagen Beetle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Porsche received a contract from Hitler to design a people's car (Volkswagen) in June 1934.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

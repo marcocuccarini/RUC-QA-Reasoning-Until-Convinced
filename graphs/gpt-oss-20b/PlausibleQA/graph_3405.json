@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. France",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. Belgium",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. Switzerland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. Suiza",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pierre Leclercq asserts that fries are of French origin.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jo Gérard never produced the manuscript that supports his claim that potatoes were deep‑fried prior to 1680 in the Meuse valley.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "\"What is the cost per ounce?\" is the best question to keep in mind while reading the label for maximum effectiveness when buying a sunscreen.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the manufacturer? is the best question to keep in mind while reading the label of a sunscreen for maximum effectiveness.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Is the product waterproof? is the best question to keep in mind when reading a sunscreen label for maximum effectiveness.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How much protection does it provide is the best question to keep in mind when reading a sunscreen label for maximum effectiveness.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Claims of products being 'waterproof' or 'sweatproof' are prohibited",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "SPF can be measured by applying sunscreen to the skin of a volunteer and measuring how long it takes before sunburn occurs when exposed to an artificial sunlight source",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

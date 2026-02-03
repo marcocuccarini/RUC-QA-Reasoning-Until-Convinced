@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The turning driveshaft causes the wheels of the car to turn.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wheel Line causes the wheels of the car to turn.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The once driveshaft causes the wheels of the car to turn.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gear shift causes the wheels of the car to turn.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A drive shaft connecting a rear differential to a rear wheel may be called a half-shaft. The name derives from the fact that two such shafts are required to form one rear axle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In front-engined, rear-wheel drive vehicles, a longer drive shaft is also required to send power the length of the vehicle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rubber is the material that has the least resistance to the flow of electricity.",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aluminum has the least resistance to the flow of electricity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Granite has the least resistance to the flow of electricity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood is the material that has the least resistance to the flow of electricity.",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "rubber has a far larger resistivity than copper",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "wood is widely regarded as an extremely good insulator",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Aluminium is an excellent electrical conductor",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Aluminium is used in electricity-related uses (conductor alloys, motors, and generators, transformers, capacitors, etc.)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

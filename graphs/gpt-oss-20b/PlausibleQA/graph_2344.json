@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Conservative Party",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Brexit Party",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Liberal Democrats",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Ukip",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2006, Farage officially became leader",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Farage stepped down as UKIP leader, later joining the Brexit Party",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

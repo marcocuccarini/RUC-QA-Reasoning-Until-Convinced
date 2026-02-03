@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To observe a color change is the best reason for a scientist to heat an unknown liquid when trying to identify it.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To get rid of most impurities is the best reason for a scientist to heat an unknown liquid when trying to identify it.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Identifying the boiling point is the best reason for a scientist to heat an unknown liquid.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To collect gases for additional study is the best reason a scientist would heat an unknown liquid while attempting to identify it.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The higher a compound's normal boiling point, the less volatile that compound is overall, and conversely, the lower a compound's normal boiling point, the more volatile that compound is overall.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The presence of non‑volatile impurities such as salts or compounds of a volatility far lower than the main component compound decreases its mole fraction and the solution's volatility, and thus raises the normal boiling point in proportion to the concentration of the solutes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hertz is the unit in which the frequency of a wave is measured.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Meters are the units in which the frequency of a wave is measured.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hertz/second is the unit used to measure the frequency of a wave.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Meters/minute are the units in which the frequency of a wave is measured.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The hertz (symbol: Hz) is the unit of frequency in the International System of Units (SI), often described as being equivalent to one event (or cycle) per second.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The hertz is an SI derived unit whose formal expression in terms of SI base units is 1/s or s−1, meaning that one hertz is one per second or the reciprocal of one second.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

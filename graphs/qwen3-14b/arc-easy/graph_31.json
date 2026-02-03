@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cooling temperatures is the process by which an igneous rock forms in the rock cycle.",
+      "strength": 0.49999998667393825
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High pressure and heat are the conditions from which an igneous rock forms in the rock cycle.",
+      "strength": 0.32010665724531173
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Weathering and erosion form igneous rocks in the rock cycle.",
+      "strength": 0.40000001333884877
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Compacted plant remains are the material from which an igneous rock forms in the rock cycle.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Igneous rocks are formed through the cooling and solidification of magma or lava.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The melting is caused by one or more of three processes: an increase in temperature, a decrease in pressure, or a change in composition.",
+      "strength": 0.7499652139585837
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If the conditions no longer exist for the magma to stay in its liquid state, it cools and solidifies into an igneous rock.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Weathering and erosion break the original rock down into smaller fragments and carry away dissolved material.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The addition of carbon dioxide is relatively a much less important cause of magma formation than the addition of water.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Decompression melting occurs because of a decrease in pressure. It is the most important mechanism for producing magma from the upper mantle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

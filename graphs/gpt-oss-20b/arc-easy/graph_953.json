@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Amplitude is a sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes for the wave to reach the target and then return to its source.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wavelength is the sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes to reach the target and return to its source.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Frequency is the sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes for the wave to reach the target and return to its source.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Speed is the sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes for the wave to reach the target and return to its source.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In salt water that is free of air bubbles and suspended sediment, sound travels at about 1500 m/s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The speed of sound in seawater depends on pressure (hence depth), temperature (a change of 1 °C ~ 4 m/s), and salinity (a change of 1‰ ~ 1 m/s), and empirical equations have been derived to accurately calculate the speed of sound from these variables.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

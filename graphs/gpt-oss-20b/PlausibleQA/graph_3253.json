@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what places in japan were bombed. Tokyo",
+      "strength": 0.5999999717616569
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what places in japan were bombed. Nagoya",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what places in japan were bombed. Osaka",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what places in japan were bombed. Hiroshima Prefecture",
+      "strength": 0.7736521056293675
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The firebombing of Tokyo, codenamed Operation Meetinghouse, on 9–10 March, killed an estimated 100,000 people and destroyed 41 km2 (16 sq mi) of the city and 267,000 buildings in a single night.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 6 and 9 August 1945, the United States detonated two atomic bombs over the Japanese cities of Hiroshima and Nagasaki, respectively, during World War II.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hiroshima National Peace Memorial Hall For The Atomic Bomb Victims",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Nagasaki National Peace Memorial Hall For The Atomic Bomb Victims",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

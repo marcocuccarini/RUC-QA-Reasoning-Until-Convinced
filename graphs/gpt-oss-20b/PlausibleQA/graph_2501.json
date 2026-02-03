@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what currency does russia use 2012. Euro",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what currency does russia use 2012. US Dollar",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what currency does russia use 2012. Chinese Yuan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what currency does russia use 2012. Russian ruble",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ruble is the official currency of the Russian Federation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The use of other currencies for transactions between Russian residents is punishable, with a few exceptions, with a fine of 75% to 100% of the value of the transaction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

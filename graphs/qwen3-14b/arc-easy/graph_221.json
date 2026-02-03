@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical energy is the form of energy produced in the greatest amount by pedaling a bicycle down the sidewalk.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Radiant is the form of energy produced in the greatest amount by pedaling a bicycle down the sidewalk, as riding a bicycle generates several forms of energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kinetic energy is produced in the greatest amount by pedaling a bicycle down the sidewalk.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sound is the form of energy produced in the greatest amount when pedaling a bicycle down the sidewalk, as riding a bicycle generates several forms of energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kinetic energy is determined by the movement of an object – or the composite motion of the object's components – while potential energy reflects the potential of an object to have motion, generally being based upon the object's position within a field or what is stored within the field itself.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Only a tiny fraction of the original chemical energy is used for work: gain in kinetic energy of a sprinter during a 100 m race: 4 kJ",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

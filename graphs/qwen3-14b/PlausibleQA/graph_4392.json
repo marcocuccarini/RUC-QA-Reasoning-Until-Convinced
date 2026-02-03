@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What Swedish city is connected to Copenhagen via a bridge. Gothenburg",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What Swedish city is connected to Copenhagen via a bridge. Stockholm",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What Swedish city is connected to Copenhagen via a bridge. Uppsala",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What Swedish city is connected to Copenhagen via a bridge. Malmo",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Malmö is the site of Sweden's only fixed direct link to continental Europe, the Öresund Bridge, completed in 2000. The bridge connects Sweden to Denmark, and carries both road and rail traffic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Öresund trains connect Malmö to Copenhagen, and Copenhagen Airport via the Öresund Bridge, taking approximately 40 minutes and running as frequently as every 10 minutes during rush hour or hourly at night.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

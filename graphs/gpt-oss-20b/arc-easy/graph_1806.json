@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The mouse went to sleep is the most likely explanation for the observed increase in the mouse's rate of carbon dioxide output.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The mouse ate some food was the most likely cause of the mouse's increased rate of carbon dioxide output.",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The mouse started running is most likely the event that caused the mouse’s rate of carbon dioxide output to increase.",
+      "strength": 0.8460569052668154
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The mouse detected an odor, which most likely caused its rate of carbon dioxide output to increase.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During high intensity aerobic exercise, almost 100% of the energy is derived from carbohydrates, if an adequate supply is available.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "another 10% from thermogenesis, or digestion of food (postprandial thermogenesis).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Following the onset of activity, as the intensity of the exercise increases, there is a shift in substrate preference from fats to carbohydrates.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Protein is not normally metabolized significantly, except during long term starvation and long bouts of exercise (greater than 90 minutes.)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

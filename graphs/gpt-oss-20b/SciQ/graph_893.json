@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Linear eukaryotic chromosomes differ from prokaryotic chromosomes, which are circular.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Multiple eukaryotic chromosomes are unlike prokaryotic chromosomes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Eukaryotic chromosomes are simple, unlike prokaryotic chromosomes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Expanding is what eukaryotic chromosomes are, unlike prokaryotic chromosomes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In most eukaryotic cells, DNA is arranged in multiple linear chromosomes. In contrast, most prokaryotic cells generally contain a singular circular chromosome.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Borrelia burgdorferi was the first bacterium to be found to have a linear chromosome, but new examples, such as various Streptomyces and Coxiella burnetii, have been found.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In yeast and plants, the shape of mtDNA depends on life-cycle. During some points they may be circular, but during others a linear branched shape is found, consisting of concatenated copies of the original genome.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Maize seedlings have Chloroplast DNA (cpDNA) mostly in a branched linear form.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

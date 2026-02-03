@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The average temperature yesterday was 15 °C is a statement about climate.",
+      "strength": 0.12864250403377042
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The temperature range today was 10°C to 20°C, a statement about climate.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The high temperature tomorrow will be 14°C is a statement about climate.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The average high temperature in May is 20 °C, which is a statement about climate.",
+      "strength": 0.4000000000181458
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Climate is the long-term weather pattern in a region, typically averaged over 30 years.",
+      "strength": 0.5999452418910941
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A climate normal is defined as the arithmetic average of a climate element over a 30-year period.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Climate is what you expect, weather is what you get.",
+      "strength": 0.5999452418910941
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Climate is the mean and variability of meteorological variables over a time spanning from months to millions of years.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Global scale meteorology pushes into the range of climatology.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Meteorology is the scientific study of the Earth's atmosphere and short-term atmospheric phenomena (i.e., weather), with a focus on weather forecasting.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

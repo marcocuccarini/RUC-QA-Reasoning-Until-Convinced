@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which film studio produced the 'Bugs Bunny' cartoons. Warner Bros.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which film studio produced the 'Bugs Bunny' cartoons. Disney",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which film studio produced the 'Bugs Bunny' cartoons. MGM",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which film studio produced the 'Bugs Bunny' cartoons. Yakko",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bugs in particular remains a mascot to Warner Bros.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By 1942, the Schlesinger studio had surpassed Walt Disney Studios as the most successful producer of animated shorts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

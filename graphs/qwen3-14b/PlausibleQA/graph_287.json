@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What de-facto independent country does China claim ownership of. Mongolia",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What de-facto independent country does China claim ownership of. Bhutan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What de-facto independent country does China claim ownership of. Nepal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What de-facto independent country does China claim ownership of. 臺灣",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The PRC's One China principle states that Taiwan and mainland China are both part of China, and that the PRC is the only legitimate government of China.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ROC recognized Mongolia as an independent country in 1946 after signing the 1945 Sino-Soviet Treaty of Friendship and Alliance, but after retreating to Taiwan in 1949 it reneged to preserve its claim over mainland China.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

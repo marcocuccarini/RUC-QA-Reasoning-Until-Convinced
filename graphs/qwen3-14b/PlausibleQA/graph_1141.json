@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has the most rings in the nba right now 2017. Kareem Abdul-Jabbar",
+      "strength": 0.25009174651106497
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has the most rings in the nba right now 2017. Michael Jordan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has the most rings in the nba right now 2017. Magic Johnson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has the most rings in the nba right now 2017. Bill Russell",
+      "strength": 0.5999999999438272
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bill Russell won 11 championships in 13 years",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kareem Abdul-Jabbar won six NBA championships and two Finals MVP awards",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Michael Jordan won six NBA championships",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

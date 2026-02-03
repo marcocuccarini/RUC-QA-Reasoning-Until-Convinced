@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where is The Bridge of Sighs. Oxford, England",
+      "strength": 0.500096732262922
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where is The Bridge of Sighs. Cambridge, England",
+      "strength": 0.5999999053031495
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where is The Bridge of Sighs. Paris, France",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where is The Bridge of Sighs. Venice",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bridge of Sighs (Oxford), a bridge in Oxford, England",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bridge of Sighs (Cambridge), a bridge in Cambridge, England",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Bridge of Sighs (1925 film) is an American drama film.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Il ponte dei sospiri (also known as The Avenger of Venice in English), a 1964 Italian adventure film.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

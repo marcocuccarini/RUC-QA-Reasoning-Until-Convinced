@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Calvin cycle is the biochemical pathway in which the stored energy from ATP and NADPH generated during the light reactions of photosynthesis is used in a second set of reactions to produce vital compounds such as glucose.",
+      "strength": 0.7499045116341715
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Carbon fixation is the biochemical pathway involved in the second set of reactions during photosynthesis, which uses the stored energy in ATP and NADPH to produce vital compounds such as glucose.",
+      "strength": 0.7499045116341715
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Respiration is the biochemical pathway that involves the second set of reactions during the light reactions of photosynthesis, using stored energy in ATP and NADPH to produce vital compounds such as glucose.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transpiration is the biochemical pathway involved in the second set of reactions during photosynthesis that uses stored energy from ATP and NADPH to produce vital compounds such as glucose.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This set of reactions is also called carbon fixation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These reactions take the products (ATP and NADPH) of light-dependent reactions and perform further chemical processes on them.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Calvin cycle converts carbon dioxide into sugar, as triose phosphate (TP), which is glyceraldehyde 3-phosphate (GAP) together with dihydroxyacetone phosphate (DHAP)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Calvin cycle accounts for 90% of biological carbon fixation",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

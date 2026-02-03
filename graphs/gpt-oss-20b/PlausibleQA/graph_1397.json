@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did the california gold rush take place. Sacramento Valley",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did the california gold rush take place. San Joaquin Valley",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did the california gold rush take place. Monterey Bay",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did the california gold rush take place. Sierra Nevada",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gold was found by James W. Marshall at Sutter's Mill in Coloma, California.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gold was discovered in California as early as March 9, 1842, at Rancho San Francisco, in the mountains north of present-day Los Angeles.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The California gold rush occurred in the western foothills from 1848 through 1855.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

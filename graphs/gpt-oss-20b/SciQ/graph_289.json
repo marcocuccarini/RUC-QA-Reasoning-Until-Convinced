@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sediments are dropped when a stream or river slows down.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fragments are what a stream or river drops when it slows down.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Organisms are what a stream or river starts dropping when it slows down.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pollutants are what a stream or river drops when it slows down.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "sedimentation is caused by flow velocity deceleration and erosion is caused by flow acceleration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bed load moves by rolling, sliding, and hopping (or saltating) over the bed, and moves at a small fraction of the fluid flow velocity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

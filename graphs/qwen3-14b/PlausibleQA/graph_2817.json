@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The eldest son of a French King was always given which title. Prince of Wales",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The eldest son of a French King was always given which title. Duke of Normandy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The eldest son of a French King was always given which title. Count of Champagne",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The eldest son of a French King was always given which title. Dauphin",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dauphin of France was the title given to the heir apparent to the throne of France from 1350 to 1791",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The title was automatically conferred upon the next heir apparent to the throne in the direct line upon birth",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

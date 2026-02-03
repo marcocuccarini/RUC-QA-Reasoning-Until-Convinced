@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "oppo is sponsor of which country 's national cricket team. Australia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "oppo is sponsor of which country 's national cricket team. Pakistan",
+      "strength": 0.25000009340748447
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "oppo is sponsor of which country 's national cricket team. England",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "oppo is sponsor of which country 's national cricket team. India",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The team's official sponsors has been Pepsi since 1993.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As of 2019, Pakistan is sponsored by AJ Sports, replacing CA Sports, which was the sponsor between 2015 and 2019.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2017, Oppo won the bid to sponsor the India national cricket team, which allowed their logo to be used on the team's kits from 2017 to 2019.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

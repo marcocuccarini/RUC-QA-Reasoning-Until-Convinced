@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is needed to change ice into water.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Energy is needed to change ice into water.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stirring is needed to change ice into water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemicals are needed to change ice into water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The enthalpy of fusion is the amount of energy required to convert one mole of solid into liquid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The liquid phase has a higher internal energy than the solid phase. This means energy must be supplied to a solid in order to melt it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

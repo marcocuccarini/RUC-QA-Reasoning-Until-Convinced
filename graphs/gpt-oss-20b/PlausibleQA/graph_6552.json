@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where will be the next olympics be held. Paris",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where will be the next olympics be held. Los Angeles",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where will be the next olympics be held. Brisbane",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where will be the next olympics be held. Tokyo",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paris was awarded the Games at the 131st IOC Session in Lima, Peru, on 13 September 2017.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Los Angeles was announced as the sole candidate for 2028 by the IOC on 31 July 2017.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The IOC announced Los Angeles as the sole candidate for 2028, enabling Paris to be confirmed as host for 2024.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

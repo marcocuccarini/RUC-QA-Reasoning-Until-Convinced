@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Pork",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Chicken",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Turkey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Veal",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Italian, French and other Mediterranean cuisines, veal is considered a delicacy, often in the form of cutlets, such as the Italian cotoletta or the famous Austrian dish Wiener schnitzel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because veal is lower in fat than many meats, care must be taken in preparation to ensure that it does not become tough.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A popular variation is made with pork instead of veal, because pork is cheaper than veal (usually about half the price).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Because of food shortages at that time and the high cost of meat and veal, and due to kashrut laws that forbid eating pork, the local version was made of chicken breast, which was less expensive.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Austrian law requires that Wiener Schnitzel is made of veal.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "A schnitzel made of pork can be called Wiener Schnitzel vom Schwein ('Wiener schnitzel from pork').",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

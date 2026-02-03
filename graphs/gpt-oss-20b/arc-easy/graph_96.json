@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liter is the unit used to measure the mass of an object.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gram is the unit used to measure the mass of an object.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Meter is the unit used to measure the mass of an object.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Yard is the unit used to measure the mass of an object.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The gram is the most widely used unit of measurement for non-liquid ingredients in cooking and grocery shopping worldwide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The CGS system coexisted with the metre–kilogram–second system of units (MKS), first proposed in 1901, during much of the 20th century, but the gram was displaced by the kilogram as the base unit for mass when the MKS system was chosen for the SI base units in 1960.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

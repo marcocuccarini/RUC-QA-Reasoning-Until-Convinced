@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many countries in the world have scouts. 150",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many countries in the world have scouts. 180",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many countries in the world have scouts. 120",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many countries in the world have scouts. 216",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "WOSM has 176 member organizations",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2019, there were over 55 million Scouts and Guides in at least 155 countries.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As of 2020, there are 9 million registered Guides around the world, from 216 countries and territories.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The current flowing through the wire to the light bulb allows a light bulb to give off light.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The light bulb giving electrical energy to the battery is what allows a light bulb to give off light.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The light bulb generating heat energy allows a light bulb to give off light.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The battery pushing light through the wire is what allows a light bulb to give off light.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An incandescent light bulb, also known as an incandescent lamp or incandescent light globe, is an electric light that produces illumination by Joule heating a filament until it glows.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electric current is supplied to the filament by terminals or wires embedded in the glass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

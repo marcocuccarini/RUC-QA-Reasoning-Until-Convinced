@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bleach is an example of an acidic solution.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vinegar is an example of an acidic solution.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sugar water is an example of an acidic solution.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Salt water is an example of an acidic solution.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vinegar is an odorous aqueous solution of diluted acetic acid and trace compounds that may include flavorings or naturally occurring organic compounds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vinegar typically contains from 4% to 18% acetic acid by volume.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

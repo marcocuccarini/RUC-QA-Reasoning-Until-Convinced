@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Increased cellular temperature is how the body converts information from the environment to an internal response for animals that respond to environmental stimuli obtained through their sensory organs.",
+      "strength": 0.599999961499134
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Selective membrane transport is the process by which animals convert information from environmental stimuli obtained through their sensory organs into an internal response.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical signaling is the process by which the body converts information from environmental stimuli obtained through sensory organs into an internal response.",
+      "strength": 0.8460569045044471
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Osmotic pressure is how the body converts information from environmental stimuli obtained through sensory organs to an internal response.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The sensing of temperature in cells is known as thermoception and is primarily mediated by transient receptor potential channels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The binding of a signaling molecule with a receptor causes a change in the conformation of the receptor, known as receptor activation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Netpath is a curated resource of signal transduction pathways in humans.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "TRANSPATH(R) is a database about signal transduction pathways.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

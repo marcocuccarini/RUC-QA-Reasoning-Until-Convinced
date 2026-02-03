@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At high altitudes there is greater atmospheric pressure than on the surface of the Earth is the reason why the pressure inside a high‑flying airplane must be controlled.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At high altitudes there is lower atmospheric pressure than on the surface of the Earth, which is why the pressure inside a high‑flying airplane must be controlled.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If the cabin is not pressurized, ozone and other upper atmospheric gases will enter the airplane, explaining why the pressure inside a high‑flying airplane must be controlled.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If the cabin of a high‑flying airplane is not pressurized, carbon dioxide will escape from the airplane.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The pressure inside the cabin is technically referred to as the equivalent effective cabin altitude... which is about 790 hPa (11.5 psi) of atmosphere pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pressurization becomes increasingly necessary at altitudes above 10,000 ft (3,048 m) above sea level to protect crew and passengers from the risk of a number of physiological problems caused by the low outside air pressure above that altitude.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

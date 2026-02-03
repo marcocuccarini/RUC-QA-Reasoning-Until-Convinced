@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Speed is indicated by the color of a star.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Volume is indicated by the color of a star.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Distance is indicated by a star's color.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature is indicated by the color of a star.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Modern observational versions of the chart replace spectral type by a color index (in diagrams made in the middle of the 20th Century, most often the B-V color) of the stars.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The spectral type is not a numerical quantity, but the sequence of spectral types is a monotonic series that reflects the stellar surface temperature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

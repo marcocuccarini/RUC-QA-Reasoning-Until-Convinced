@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon monoxide (CO) is a secondary pollutant produced in the environment by chemical reactions involving primary or emitted chemicals.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen oxide (NO) is a secondary pollutant produced in the environment by chemical reactions involving primary or emitted chemicals.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Methane (CH₄) is a secondary pollutant produced in the environment by chemical reactions involving primary or emitted chemicals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ozone (O₃) is a secondary pollutant produced in the environment by chemical reactions involving primary or emitted chemicals.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ground-level ozone is formed naturally as a secondary pollutant through photochemical reactions involving nitrogen oxides and volatile organic compounds in the presence of bright sunshine with high temperatures.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "NOx, CO, and VOCs are considered ozone precursors.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

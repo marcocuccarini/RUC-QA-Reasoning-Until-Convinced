@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Crystals are the place where evidence of organisms that lived on Earth a long time ago would most likely be found.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lava is where evidence of organisms that lived on Earth a long time ago would most likely be found.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sedimentary rock is the location where evidence of organisms that lived on Earth a long time ago would most likely be found.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metamorphic rock would most likely contain evidence of organisms that lived on Earth a long time ago.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Unlike most igneous and metamorphic rocks, sedimentary rocks form at temperatures and pressures that do not destroy fossil remnants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They contain fossils, the preserved remains of ancient plants and animals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

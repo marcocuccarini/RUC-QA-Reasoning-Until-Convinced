@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Friction is the force that pulls the roller coaster down the hill after the electric motor pulls it to the top of the first hill.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Speed is the force that pulls the roller coaster down the hill when the electric motor brings it to the top of the first hill.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity pulls the roller coaster down the hill after an electric motor has pulled it to the top of the first hill while riding a roller coaster.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mass is the force that pulls the roller coaster down the hill after the electric motor has pulled it to the top of the first hill.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gravity is the law that every object with mass attracts every other object in the universe in proportion to each mass and inversely proportional to the square of the distance between them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The strength of the gravitational field is numerically equal to the acceleration of objects under its influence.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

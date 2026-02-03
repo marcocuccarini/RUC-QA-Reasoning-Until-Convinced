@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of the Prime Minister of Egypt who was assassinated in 1910. Muhammad Said Pasha",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of the Prime Minister of Egypt who was assassinated in 1910. Hussein Rushdi Pasha",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of the Prime Minister of Egypt who was assassinated in 1910. Mustafa Fahmi Pasha",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of the Prime Minister of Egypt who was assassinated in 1910. Boutros Ghali",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ghali was shot by Ibrahim Nassif al-Wardani on 20 February 1910, and died a day later, on 21 February.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ghali died in office on 21 February 1910 and was replaced by Muhammad Said Pasha.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

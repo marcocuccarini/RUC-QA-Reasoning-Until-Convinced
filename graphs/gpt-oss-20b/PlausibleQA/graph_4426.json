@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What satellite, launched by NASA aboard a Delta rocket from Cape Canaveral on 10 July 1962, was built as part of a multi-national agreement between AT&T;, Bell Telephone Laboratories, NASA, the British General Post Office, and the French National PTT (Post, Telegraph & Telecom Office). Intelsat 1",
+      "strength": 0.4999999999145888
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What satellite, launched by NASA aboard a Delta rocket from Cape Canaveral on 10 July 1962, was built as part of a multi-national agreement between AT&T;, Bell Telephone Laboratories, NASA, the British General Post Office, and the French National PTT (Post, Telegraph & Telecom Office). Syncom 2",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What satellite, launched by NASA aboard a Delta rocket from Cape Canaveral on 10 July 1962, was built as part of a multi-national agreement between AT&T;, Bell Telephone Laboratories, NASA, the British General Post Office, and the French National PTT (Post, Telegraph & Telecom Office). Relay 1",
+      "strength": 0.40000008918213564
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What satellite, launched by NASA aboard a Delta rocket from Cape Canaveral on 10 July 1962, was built as part of a multi-national agreement between AT&T;, Bell Telephone Laboratories, NASA, the British General Post Office, and the French National PTT (Post, Telegraph & Telecom Office). Telstar",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Intelsat I was launched on April 6, 1965.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Intelsat I (nicknamed Early Bird) was placed in geostationary orbit above the Atlantic Ocean by a Delta D rocket.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Syncom 2 was launched on 26 July 1963.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Relay 1 was launched on 13 February 1963.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Telstar was launched by NASA from Cape Canaveral on 10 July 1962.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

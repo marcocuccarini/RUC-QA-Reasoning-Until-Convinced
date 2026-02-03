@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many definite suicides occur in the plays of William Shakespeare. 7",
+      "strength": 0.2761516044110766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many definite suicides occur in the plays of William Shakespeare. 20",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many definite suicides occur in the plays of William Shakespeare. 5",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many definite suicides occur in the plays of William Shakespeare. 13",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "double suicide",
+      "strength": 0.40000007449118136
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The soldier fired his gun, breaking the arm of the actor playing Othello.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lazarus kills himself in the novel Black Swan.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Macbeth dies at the hands of Macduff, not by suicide.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "He loses and commits suicide by running on his sword, held for him by a loyal soldier.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

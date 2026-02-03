@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where was held the first session of muslim league. Dhaka",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where was held the first session of muslim league. Aligarh",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where was held the first session of muslim league. Lahore",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where was held the first session of muslim league. Lucknow",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The All-India Muslim League (AIML) was a political party established in Dhaka in 1906 when some well-known Muslim politicians met the Viceroy of India, Lord Minto, with the goal of securing Muslim interests in British India.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first stage of its formation was the meeting held at Lucknow in September 1906, with representatives from all over India in attendance.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1906, the All India Muslim League was founded in the city during a conference on liberal education hosted by the Nawab of Dhaka and the Aga Khan III.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

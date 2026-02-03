@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when is the new tappan zee bridge going to be finished. December 31, 2017",
+      "strength": 0.25009542979324023
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when is the new tappan zee bridge going to be finished. March 30, 2019",
+      "strength": 0.2500954555768925
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when is the new tappan zee bridge going to be finished. August 15, 2018",
+      "strength": 0.43103435800936085
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when is the new tappan zee bridge going to be finished. June 15 , 2018",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The new southbound/eastbound span was supposed to open to traffic on September 8, 2018.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An opening ceremony for the south span was held on September 7, 2018, and traffic started using the new span three days later.",
+      "strength": 0.40000002580790256
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tappan Zee Bridge (2017–present)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The eastbound span opened to traffic on September 11, 2018.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The northbound/westbound span opened on August 25, 2017.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

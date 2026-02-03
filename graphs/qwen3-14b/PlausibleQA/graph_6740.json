@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U S state of Pennsylvania. Philadelphia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U S state of Pennsylvania. Pittsburgh",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U S state of Pennsylvania. Lancaster",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U S state of Pennsylvania. Harrisburg",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Harrisburg is the capital city of the U.S. commonwealth of Pennsylvania.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Pennsylvania State Capitol Complex dominates the city's stature as a regional and national hub for government and politics. All administrative functions of the Commonwealth of Pennsylvania are located within the complex and at various nearby locations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

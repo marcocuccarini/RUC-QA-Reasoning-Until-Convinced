@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Found in the garden what type of insect is a looper. Moth",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Found in the garden what type of insect is a looper. Beetle",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Found in the garden what type of insect is a looper. Fly",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Found in the garden what type of insect is a looper. Catapillar",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The inchworm, or looper caterpillars from the family Geometridae are so named because of the way they move...",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Caterpillars (KAT-ər-pil-ər) are the larval stage of members of the order Lepidoptera...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Homologous are biological features from a common evolutionary origin.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Monologous are biological features from a common evolutionary origin.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Heterologous are biological features from a common evolutionary origin.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Analogous are biological features from a common evolutionary origin.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Similar biological structures or sequences in different taxa are homologous if they are derived from a common ancestor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The opposite of homologous organs are analogous organs which do similar jobs in two taxa that were not present in their most recent common ancestor but, rather, evolved separately.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

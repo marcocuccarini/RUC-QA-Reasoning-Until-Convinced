@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Absorption is a way that protists can obtain food besides ingesting and photosynthesis.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Digestion is how protists can obtain food besides ingesting and photosynthesis.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Accumulation is a way protists can obtain food besides ingesting and photosynthesis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Osmosis is a method by which protists obtain their food besides ingesting and photosynthesis.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Osmotrophic protists acquire soluble nutrients through membrane channels and carriers, but also through pinocytosis: the nutrients are trapped in vesicles that merge into a digestive vacuole or endosome where digestion takes place.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Saprotrophs release enzymes for external digestion, making it available to plants and other microbes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

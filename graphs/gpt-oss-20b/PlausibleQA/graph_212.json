@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What machine devised to move people was first demonstrated in Paris in 1900. Elevator",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What machine devised to move people was first demonstrated in Paris in 1900. Funicular",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What machine devised to move people was first demonstrated in Paris in 1900. Cable Car",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What machine devised to move people was first demonstrated in Paris in 1900. Escalate",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It won first prize at the 1900 Paris Exposition Universelle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Seeberger teamed with Otis in 1899, and together they produced the first commercial escalator.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Illustrated description of escalators on the London Underground and their advantages over lifts",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

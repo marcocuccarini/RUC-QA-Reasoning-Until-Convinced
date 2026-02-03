@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the middle name of ex-US President Gerald Ford. Leslie",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the middle name of ex-US President Gerald Ford. Franklin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the middle name of ex-US President Gerald Ford. Warren",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the middle name of ex-US President Gerald Ford. Rudolf",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gerald Rudolph Ford Jr.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ford was born Leslie Lynch King Jr.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

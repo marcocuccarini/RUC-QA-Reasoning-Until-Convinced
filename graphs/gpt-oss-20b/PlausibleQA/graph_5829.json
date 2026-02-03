@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which rock star is known as 'The Boss'. Bruce Springsteen is excluded, so the next candidate is: Neil Young",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which rock star is known as 'The Boss'. Eric Clapton",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which rock star is known as 'The Boss'. Steven Tyler",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which rock star is known as 'The Boss'. Springstein",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Springsteen acquired the nickname 'the Boss' during this period, since he took on the task of collecting his band's nightly pay and distributing it among his bandmates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

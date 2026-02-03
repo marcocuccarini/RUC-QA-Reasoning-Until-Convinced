@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What kind of aircraft gave the space shuttle a piggy-back prior to 1981. Boeing 707",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What kind of aircraft gave the space shuttle a piggy-back prior to 1981. Lockheed C-5 Galaxy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What kind of aircraft gave the space shuttle a piggy-back prior to 1981. Boeing 747",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What kind of aircraft gave the space shuttle a piggy-back prior to 1981. 74M",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shuttle Carrier Aircraft (SCA) – Two 747s were modified to carry the Space Shuttle orbiter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first SCA carried the prototype Enterprise during the Approach and Landing Tests in the late 1970s.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

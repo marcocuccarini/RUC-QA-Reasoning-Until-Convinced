@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which composer was married to Clara Wieck from 1840 until his death in 1856. Franz Liszt",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which composer was married to Clara Wieck from 1840 until his death in 1856. Johannes Brahms",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which composer was married to Clara Wieck from 1840 until his death in 1856. Felix Mendelssohn",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which composer was married to Clara Wieck from 1840 until his death in 1856. Robert Schumann",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Schumann married Wieck's daughter Clara in 1840.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Schumann and Clara finally married on 12 September 1840, the day before her twenty-first birthday.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

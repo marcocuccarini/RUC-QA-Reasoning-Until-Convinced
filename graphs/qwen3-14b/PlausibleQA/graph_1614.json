@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country has provinces including Masvingo, Midlands and Manicaland. South Africa",
+      "strength": 0.4309242551817296
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country has provinces including Masvingo, Midlands and Manicaland. Mozambique",
+      "strength": 0.4309242551817296
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country has provinces including Masvingo, Midlands and Manicaland. Botswana",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country has provinces including Masvingo, Midlands and Manicaland. ZWE",
+      "strength": 0.5999581987825118
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Zimbabwe is divided into eight provinces and two cities with provincial status.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Zimbabwe currently has ten provinces, two of which are cities with provincial status.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Provinces of Zimbabwe include Manicaland, Midlands, and Masvingo (formerly Victoria).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

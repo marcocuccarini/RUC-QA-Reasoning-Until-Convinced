@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare comedy is set in Messina, Italy. The Tempest",
+      "strength": 0.2500954298274552
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare comedy is set in Messina, Italy. The Two Gentlemen of Verona",
+      "strength": 0.400000060988221
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare comedy is set in Messina, Italy. The Merchant of Venice",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare comedy is set in Messina, Italy. MAAN",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Messina has provided the setting for two of William Shakespeare's plays, Much Ado About Nothing and The Winter's Tale.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Two of William Shakespeare's plays are set in Verona: Romeo and Juliet (which also features Romeo's visit to Mantua) and The Two Gentlemen of Verona.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "These plays, including Pericles, Prince of Tyre, Cymbeline, The Winter's Tale and The Tempest, are so called because they bear similarities to medieval romance literature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

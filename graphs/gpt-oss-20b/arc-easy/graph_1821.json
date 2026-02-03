@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hundreds are the unit that best describes the number of astronomical units from Earth to the far end of the Milky Way Galaxy, since the distance from Earth to the Sun is one astronomical unit.",
+      "strength": 0.1539541524712482
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Thousands best describe the number of astronomical units from Earth to the far end of the Milky Way Galaxy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Millions is the unit that best describes the number of astronomical units from Earth to the far end of the Milky Way Galaxy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Billions is the unit that best describes how many astronomical units it is from Earth to the far end of the Milky Way Galaxy, since one astronomical unit equals the distance from Earth to the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The astronomical unit is too small to be convenient for interstellar distances, where the parsec and light-year are widely used.",
+      "strength": 0.7499119072161826
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The light-year is most often used when expressing distances to stars and other distances on a galactic scale, especially in non-specialist contexts and popular science publications.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Galaxies themselves span from a few thousand to a few hundred thousand light-years in diameter.",
+      "strength": 0.749999963875494
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Milky Way has a diameter of at least 26,800 parsecs (87,400 ly).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Most galaxies are 1,000 to 100,000 parsecs in diameter (approximately 3,000 to 300,000 light years).",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The astronomical unit is used primarily for measuring distances within the Solar System or around other stars.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

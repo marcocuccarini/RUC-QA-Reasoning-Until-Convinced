@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did to kill a mockingbird become popular. 1959",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did to kill a mockingbird become popular. 1961",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did to kill a mockingbird become popular. 1962",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did to kill a mockingbird become popular. 1960",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It became instantly successful after its release.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1961, when To Kill a Mockingbird was in its 41st week on the bestseller list, it was awarded the Pulitzer Prize.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Published July 11, 1960, To Kill a Mockingbird was an immediate bestseller",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It was published in July 1960, so it could not have become popular in 1959",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

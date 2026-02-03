@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 2011, who became the first artist to win the Mercury Music Prize twice, first winning it in 2001. Amy Winehouse",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 2011, who became the first artist to win the Mercury Music Prize twice, first winning it in 2001. Dizzee Rascal",
+      "strength": 0.25000009340748447
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 2011, who became the first artist to win the Mercury Music Prize twice, first winning it in 2001. Arctic Monkeys",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 2011, who became the first artist to win the Mercury Music Prize twice, first winning it in 2001. PJH",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The album was one of the 12 nominees for the 2007 Mercury Prize, which ultimately went to Klaxons' album Myths of the Near Future.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In September, Dizzee was awarded the prestigious Mercury Prize for the best album of 2003.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "PJ Harvey (2 wins 2001/2011, nominated 1993/1995/2001/2011)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

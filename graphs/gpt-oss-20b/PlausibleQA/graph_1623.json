@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1883 which Indonesian volcano erupted and was believed to be the largest single explosion in recorded human history. Merapi",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1883 which Indonesian volcano erupted and was believed to be the largest single explosion in recorded human history. Agung",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1883 which Indonesian volcano erupted and was believed to be the largest single explosion in recorded human history. Tambora",
+      "strength": 0.25000003759175476
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1883 which Indonesian volcano erupted and was believed to be the largest single explosion in recorded human history. Krakitoa",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1815 Tambora eruption is the largest and most devastating observed eruption in recorded history.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mount Tambora erupted in April 1815.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "With an estimated Volcanic explosivity index (VEI) of 6, the eruption was equivalent to 200 megatons of TNT (840 PJ)—about 13,000 times the nuclear yield of the Little Boy bomb (13 to 16 kt) dropped on Hiroshima, Japan, during World War II, and four times the yield of Tsar Bomba, the most powerful nuclear device ever detonated at 50 Mt.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The most notable eruptions of Krakatoa culminated in a series of massive explosions over 26–27 August 1883, which were among the most violent volcanic events in recorded history.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

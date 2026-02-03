@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Element is the group of atoms that are identical in size, mass, and other properties.",
+      "strength": 0.15394117517501082
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Molecule atoms are identical in size, mass, and other properties.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An organism has atoms that are identical in size, mass, and other properties.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Function is a term that refers to atoms that are identical in size, mass, and other properties.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Atoms of the same element can have different numbers of neutrons in their nuclei, known as isotopes of the element.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The atomic number of an element is equal to the number of protons in each atom, and defines the element.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Atoms with the same number of protons but a different number of neutrons are called isotopes of the same element.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Each distinct atomic number therefore corresponds to a class of atom: these classes are called the chemical elements.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Neutrons do not affect the atom's chemical identity, but do affect its weight.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

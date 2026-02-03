@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of art does the English artist Banksy specialize in. Street Art",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of art does the English artist Banksy specialize in. Muralism",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of art does the English artist Banksy specialize in. Urban Art",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of art does the English artist Banksy specialize in. Grafitti",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "British street artist Banksy visited the city in 2000 and inspired many to take their art to the streets.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In other cases, the sculptures integrate two-dimensional backdrops with a three-dimensional component, such as one by Banksy titled Spy Booth (2014).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

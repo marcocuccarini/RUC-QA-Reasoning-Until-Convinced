@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "pH is the value that must be known to calculate the concentration of hydrogen ions in a solution.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Temperature is the information needed to calculate the concentration of the hydrogen ion in a solution.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Velocity is the quantity that must be known to calculate the concentration of the hydrogen ion in a solution.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pressure is the quantity that must be known to calculate the concentration of the hydrogen ion in a solution.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "pH is defined as the negative logarithm of the hydrogen ion concentration, which allows the calculation of [H+] from pH.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The self-ionization of water must be considered when calculating pH for very dilute or concentrated solutions of strong acids or bases.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is possible to calculate the equilibrium concentration of the acids and bases in solution when the pH is known.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

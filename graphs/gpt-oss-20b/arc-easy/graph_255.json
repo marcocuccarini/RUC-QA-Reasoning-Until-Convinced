@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The mesosphere is the atmospheric layer in which the summit of Mount Everest, where temperature decreases as altitude increases, is located.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The summit of Mount Everest, where temperature decreases as altitude increases, is located in the stratosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Thermosphere is the atmospheric layer in which the summit of Mount Everest is located, given that temperature decreases as altitude increases.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The summit of Mount Everest is in the troposphere, the atmospheric layer in which temperature decreases as altitude increases.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The average height of the troposphere is 18 km (11 mi; 59,000 ft) in the tropics; 11 km (6.8 mi; 36,000 ft) in the middle latitudes; and 6 km (3.7 mi; 20,000 ft) in the high latitudes of the polar regions in winter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the troposphere, the temperature of the air decreases at high altitude, however, in the stratosphere the air temperature initially is constant, and then increases with altitude.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

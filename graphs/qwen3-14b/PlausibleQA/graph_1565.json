@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Berlin, Germany",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Hamburg, Germany",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Nuremberg, Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Munich , Bavaria",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Beer Hall Putsch... was a failed coup d'état by Nazi Party leader Adolf Hitler... in Munich, Bavaria...",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One of Munich's largest beer halls was the Bürgerbräukeller, which became the site where the putsch began.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Modest Mussorgsky",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Sergei Prokofiev",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Alexander Borodin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Rimsy-korsakov",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rimsky-Korsakov's opera The Golden Cockerel was delayed until 1909, after his death, and even then it was performed in an adapted version.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The political controversy continued with his opera The Golden Cockerel. Its implied criticism of monarchy, Russian imperialism and the Russo-Japanese War gave it little chance of passing the censors.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

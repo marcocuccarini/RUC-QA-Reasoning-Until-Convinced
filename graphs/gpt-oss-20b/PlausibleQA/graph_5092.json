@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who discovered the atom and in what year. Democritus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who discovered the atom and in what year. Epicurus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who discovered the atom and in what year. Antoine Lavoisier",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who discovered the atom and in what year. John Dalton",
+      "strength": 0.7499025261443155
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Dalton was an English chemist, physicist, and meteorologist whose work laid the foundations of modern atomic theory and stoichiometric chemistry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "However, a recent study of Dalton's laboratory notebook entries concludes he developed the chemical atomic theory in 1803 to reconcile Henry Cavendish's and Antoine Lavoisier's analytical data on the composition of nitric acid, not to explain the solubility of gases in water.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1804, Dalton explained his atomic theory to his friend Thomas Thomson.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1808, Dalton published A New System of Chemical Philosophy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

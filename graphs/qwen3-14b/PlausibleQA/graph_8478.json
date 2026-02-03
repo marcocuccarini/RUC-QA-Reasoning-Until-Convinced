@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. William Henry Johnson",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. James Russell Davis",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. Christopher Michael Brown",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. Harison Ford",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was finally credited as 'Harrison J. Ford' in the 1967 Western film A Time for Killing, starring Glenn Ford, George Hamilton and Inger Stevens, but the 'J' did not stand for anything since he has no middle name.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was born on July 13, 1942, at the Swedish Covenant Hospital in Chicago, Illinois, to former radio actress Dorothy (née Nidelman) and advertising executive and former actor John William 'Christopher' Ford.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

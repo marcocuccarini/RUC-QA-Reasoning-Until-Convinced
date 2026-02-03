@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the cross on a letter t called. Bar",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the cross on a letter t called. Crossbeam",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the cross on a letter t called. Stroke",
+      "strength": 0.6322449321774235
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the cross on a letter t called. arm",
+      "strength": 0.4000374469575233
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In typeface anatomy, crossbar refers to some types of horizontal strokes",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Strokes that connect, as in A and H, or cross other strokes, as in t, are also known as crossbars.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A longer horizontal stroke at the top or bottom, as in E T, is an arm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

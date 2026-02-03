@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. United States",
+      "strength": 0.22634789437063227
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. Australia",
+      "strength": 0.4000000282383433
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. United Kingdom",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. ᑲᓇᑕ",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Canuck is a slang term for a Canadian",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term Kanuck is first recorded in 1835 as a Canadianism, originally referring to Dutch Canadians (which included German Canadians) or French Canadians",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Canuck Unlimited Canadians airplane crews who operated in Southeast Asia during World War II",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "History of the Vancouver Canucks National Hockey League team",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

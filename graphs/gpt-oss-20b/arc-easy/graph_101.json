@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earthquakes are the most likely event that occurs as a result of crustal movement along transform boundaries.",
+      "strength": 0.5999370131820512
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Volcanic activity is the event that most likely takes place as the result of crustal movement along transform boundaries.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mountain building is the event most likely to take place as a result of crustal movement along transform boundaries.",
+      "strength": 0.27634046820239266
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Trenches are the event that most likely takes place as the result of crustal movement along transform boundaries.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Transform boundaries are also known as conservative plate boundaries because they involve no addition or loss of lithosphere at the Earth's surface.",
+      "strength": 0.40000002659387024
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Leaky transform fault – Transform fault producing new crust",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Strike-slip faults, particularly continental transforms, can produce major earthquakes up to about magnitude 8.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Reverse faults occur in areas where the crust is being shortened such as at a convergent boundary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

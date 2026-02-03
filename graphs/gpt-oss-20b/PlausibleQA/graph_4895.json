@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. Queen's Club",
+      "strength": 0.4000000000926135
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. Roehampton Club",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. Hurlingham Club",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. AELTC",
+      "strength": 0.5999030784359901
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is best known as the venue for the Wimbledon Championships.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The All England Lawn Tennis and Croquet Club is a private members' club based at Church Road in the Wimbledon area of London, England.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Club page on the Wimbledon Championships site",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Wimbledon Championships, commonly called Wimbledon, is a tennis tournament organised by the All England Lawn Tennis and Croquet Club.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

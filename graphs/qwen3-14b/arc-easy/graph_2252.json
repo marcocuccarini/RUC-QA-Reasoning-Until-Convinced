@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Planting more trees is an example of how humans negatively impact the environment.",
+      "strength": 0.3201028858370157
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Burning less fossil fuel is an example of how humans negatively impact the environment.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reducing beach erosion is an example of how humans negatively impact the environment.",
+      "strength": 0.27624312180234806
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Increasing water runoff is an example of how humans negatively impact the environment, illustrating the many ways humans can affect the environment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Human activity is causing environmental degradation, which is the deterioration of the environment through depletion of resources such as air, water and soil; the destruction of ecosystems; habitat destruction; the extinction of wildlife; and pollution.",
+      "strength": 0.7499665779387772
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some human activities that cause damage (either directly or indirectly) to the environment on a global scale include population growth, neoliberal economic policies and rapid economic growth, overconsumption, overexploitation, pollution, and deforestation.",
+      "strength": 0.8999999944356243
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Livestock ranching requires large portions of land to raise herds of animals and livestock crops for consumer needs. According to the World Wildlife Fund, 'Extensive cattle ranching is the number one culprit of deforestation in virtually every Amazon country, and it accounts for 80% of current deforestation.'",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Over 100 million trees per year are cut down for the purpose of junk mail.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Global map of deforestation based on Landsat data",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Old-growth forest zones within the remaining world forests",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "Elevated water temperatures decrease oxygen levels, leading to fish death and reduced biodiversity.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "Polluted water spreads gastrointestinal diseases and parasitic infections, killing 1.8 million people annually.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A13",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

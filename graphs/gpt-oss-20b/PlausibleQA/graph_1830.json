@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "host of the late show who was once a correspondent for the daily show. Stephen Colbert",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "host of the late show who was once a correspondent for the daily show. Jon Stewart",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "host of the late show who was once a correspondent for the daily show. Brian Unger",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "host of the late show who was once a correspondent for the daily show. Craig Kilborn",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Colbert's work as a correspondent on Comedy Central's news-parody series The Daily Show gained him wide recognition.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After Kilborn left the show prior to the 1999 season, Jon Stewart took over hosting duties, also serving as a writer and co-executive producer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Late Show with Stephen Colbert is an American late-night news talk show hosted by Stephen Colbert, which premiered on September 8, 2015.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Jon Stewart, former host of Colbert's previous sister program The Daily Show, who is credited as executive producer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

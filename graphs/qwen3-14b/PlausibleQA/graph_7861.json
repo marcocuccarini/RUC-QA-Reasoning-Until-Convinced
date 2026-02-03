@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who sang with Serge Gainsbourg on the hit Je t'aime. Brigitte Bardot",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who sang with Serge Gainsbourg on the hit Je t'aime. Francoise Hardy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who sang with Serge Gainsbourg on the hit Je t'aime. Juliette Greco",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who sang with Serge Gainsbourg on the hit Je t'aime. JaneBirkin",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1969, Gainsbourg and Birkin released the duet 'Je t'aime... moi non plus' ('I love you ... me neither').",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gainsbourg had originally written the song for Brigitte Bardot and Birkin said it was 'jealousy' that drove her to sing it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

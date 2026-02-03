@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon's path around Earth is why its appearance changes over time when observed from Earth.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Length of daylight is the reason the appearance of the Moon as observed from Earth changes over time.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity is the reason the appearance of the Moon as observed from Earth changes over time.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature is the factor that causes the Moon's appearance, as observed from Earth, to change over time.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The visible side of the Moon is sunlit to varying extents, depending on the position of the Moon in its orbit, with the sunlit portion varying from 0% (at new moon) to nearly 100% (at full moon).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The angle of the Sun in relation to the Moon determines how much of the Moon is illuminated.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

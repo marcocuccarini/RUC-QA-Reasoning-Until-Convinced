@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the three official languages of belgium. French and German and Italian",
+      "strength": 0.36774946363610195
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the three official languages of belgium. English and Spanish and Portuguese",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the three official languages of belgium. Swedish and Norwegian and Danish",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the three official languages of belgium. Dutch Language",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Kingdom of Belgium has three official languages: Dutch, French, and German",
+      "strength": 0.5999647337835134
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deutschsprachige Gemeinschaft, the official site of the German-speaking Community in Belgium",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dutch is one of the three national and state languages of Belgium, together with French and German.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "supports"
+    }
+  ]
+}

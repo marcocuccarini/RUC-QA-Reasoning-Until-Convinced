@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What's the name of the intelligent talking horses in Swift's Gulliver's Travels . Equinus",
+      "strength": 0.3572943879430625
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What's the name of the intelligent talking horses in Swift's Gulliver's Travels . Corvini",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What's the name of the intelligent talking horses in Swift's Gulliver's Travels . Hippolytos",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What's the name of the intelligent talking horses in Swift's Gulliver's Travels . Hwinham",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The intelligent horses are called Houyhnhnms.",
+      "strength": 0.6322745490017306
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the land of the Houyhnhnms, he finds rational horses living peacefully alongside savage human-like creatures called Yahoos.",
+      "strength": 0.5999738741442517
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Yahoo (Gulliver's Travels), creatures found in the book Gulliver's Travels by Jonathan Swift",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

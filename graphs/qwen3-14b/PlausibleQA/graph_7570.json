@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who wrote the song oh lord wo n 't you buy me a mercedes benz. Janis Joplin",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who wrote the song oh lord wo n 't you buy me a mercedes benz. Kris Kristofferson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who wrote the song oh lord wo n 't you buy me a mercedes benz. John Prine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who wrote the song oh lord wo n 't you buy me a mercedes benz. Bob Neuwirth",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mercedes Benz is an a cappella song written by the American singer Janis Joplin with Bob Neuwirth and the poet Michael McClure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mercedes Benz was composed by Janis Joplin and Bob Neuwirth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

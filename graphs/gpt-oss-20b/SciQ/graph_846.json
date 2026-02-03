@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Life cycles are haploid-dominant in fungi such as black bread mold (rhizopus nigricans).",
+      "strength": 0.22633529962920323
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Birth cycles are haploid-dominant in fungi such as black bread mold (Rhizopus nigricans).",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gene pools are haploid-dominant in fungi, such as black bread mold (Rhizopus nigricans).",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mutations are haploid-dominant in fungi such as black bread mold (Rhizopus nigricans).",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sexual reproduction occurs when compatible haploid mating types in the form of hyphae make contact with each other, producing diploid zygospores.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Meiosis is delayed until the germination of the zygospores.",
+      "strength": 0.5999999838700023
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In sexual reproduction, a dark zygospore is produced at the point where two compatible mycelia fuse.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Upon germination, a zygospore produces colonies that are genetically different from either parent.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In the whole cycle, zygotes are the only diploid cell; mitosis occurs only in the haploid phase.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In most diplonts, mitosis occurs only in the diploid phase, i.e. gametes usually form quickly and fuse to produce diploid zygotes.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Most fungi have both a haploid and a diploid stage in their life cycles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

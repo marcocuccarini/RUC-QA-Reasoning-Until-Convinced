@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat is the form of energy produced when paper is burned.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetic is the form of energy produced when paper is burned.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrical energy is produced when paper is burned.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemical is the form of energy produced when paper is burned.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1842, Julius Robert Mayer frictionally generated heat in paper pulp and measured the temperature rise.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Latent heat is the heat released or absorbed by a chemical substance or a thermodynamic system during a change of state that occurs without a change in temperature.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The thermal energy produced from the combustion of either fossil fuels such as coal or oil, or from renewable fuels such as firewood, is harvested for diverse uses such as cooking, production of electricity or industrial or domestic heating.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

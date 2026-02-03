@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many students attend university of texas at austin. 40,000",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many students attend university of texas at austin. 65,219",
+      "strength": 0.4309261926883358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many students attend university of texas at austin. 32,100",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many students attend university of texas at austin. 51,331",
+      "strength": 0.4309261926883358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "With 53,864 students as of fall 2024",
+      "strength": 0.4000409734979248
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Texas A&M University has 77,491 students",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

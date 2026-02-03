@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "DNA is the target that cells have multiple repair mechanisms to fix mutations in.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Amino acid chains are the structures that cells have multiple repair mechanisms to fix mutations in.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Organ systems are the structures that cells have multiple repair mechanisms to fix mutations in.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "RNA is what cells have multiple repair mechanisms to fix mutations in.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "a mutation cannot be recognized by enzymes once the base change is present in both DNA strands, and thus a mutation cannot be repaired",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "DNA repair is a collection of processes by which a cell identifies and corrects damage to the DNA molecules that encode its genome",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Heavy Metal Exposure Influences Double Strand Break DNA Repair Outcomes",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

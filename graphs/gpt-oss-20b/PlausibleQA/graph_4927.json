@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to any part of a circle that is bounded by two radii and an arc of the circumference. Segment",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to any part of a circle that is bounded by two radii and an arc of the circumference. Wedge",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to any part of a circle that is bounded by two radii and an arc of the circumference. Slice",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to any part of a circle that is bounded by two radii and an arc of the circumference. Sector",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sector: a region bounded by two radii of equal length with a common centre and either of the two possible arcs, determined by this centre and the endpoints of the radii.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Segment: a region bounded by a chord and one of the arcs connecting the chord's endpoints.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

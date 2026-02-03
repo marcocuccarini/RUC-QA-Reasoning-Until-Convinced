@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what channel is the usa pageant on. NBC",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what channel is the usa pageant on. E!",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what channel is the usa pageant on. FOX",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what channel is the usa pageant on. us",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The pageant was previously broadcast on NBC.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fox announced that it had acquired the U.S. television rights to Miss USA and Miss Universe, beginning with Miss Universe 2015 and Miss USA 2016.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Its improvement was boosted by the transfer of the Miss Universe and Miss USA pageants from NBC.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

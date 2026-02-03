@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Ann Richards",
+      "strength": 0.22624440078048857
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Rick Perry",
+      "strength": 0.15393741380479492
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Kay Bailey Hutchison",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Dubya",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was defeated in the 1994 Texas gubernatorial election by George W. Bush.",
+      "strength": 0.5999999894018361
+    },
+    "A5": {
+      "type": "argument",
+      "text": "she was defeated, with 45.88% of the vote to Bush's 53.48%",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bush carried 188 of the state's 254 counties",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Bush's campaigning on cultural and religious issues resonated with many Texan voters",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Rick Perry served from 2000 to 2015.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "When Perry won the general election on November 2, 2010, he joined Shivers, Price Daniel, and John Connally as the only Texas governors elected to three terms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

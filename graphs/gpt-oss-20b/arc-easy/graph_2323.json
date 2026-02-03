@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They reproduce by mitosis, a characteristic shared by both euglena and amoeba.",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They eat by phagocytosis is a characteristic that a euglena shares with an amoeba.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They respond to light stimuli is a characteristic that euglena shares with an amoeba.",
+      "strength": 0.7499025789446009
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They move by changing shape is a characteristic that a euglena shares with an amoeba.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Reproduction begins with the mitosis of the cell nucleus, followed by the division of the cell itself.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When there is sufficient sunlight for it to feed by phototrophy, it uses chloroplasts containing the pigments chlorophyll a and chlorophyll b to produce sugars by photosynthesis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Light intensity affects the lipid composition of Euglena gracilis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

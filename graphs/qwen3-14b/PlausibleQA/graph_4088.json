@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "glycogen and amylopectin are long chains of which simple sugar ( s ). Fructose",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "glycogen and amylopectin are long chains of which simple sugar ( s ). Galactose",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "glycogen and amylopectin are long chains of which simple sugar ( s ). Mannose",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "glycogen and amylopectin are long chains of which simple sugar ( s ). glucose",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Glycogen is a branched biopolymer consisting of linear chains of glucose residues with an average chain length of approximately 8–12 glucose units and 2,000-60,000 residues per one molecule of glycogen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Glycogen is an analogue of starch, a glucose polymer that functions as energy storage in plants. It has a structure similar to amylopectin (a component of starch), but is more extensively branched and compact than starch.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

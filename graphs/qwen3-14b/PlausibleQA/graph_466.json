@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Scottish footballer Kenny Dalglish played for which English club from 1977 to 1990. Liverpool Fan",
+      "strength": 0.5999999827004455
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Scottish footballer Kenny Dalglish played for which English club from 1977 to 1990. Evertonian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Scottish footballer Kenny Dalglish played for which English club from 1977 to 1990. Manchester United Player",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Scottish footballer Kenny Dalglish played for which English club from 1977 to 1990. Kopite",
+      "strength": 0.5295138909158906
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dalglish was signed by Liverpool manager Bob Paisley for a British transfer fee record of £440,000 in 1977.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dalglish made his debut for Liverpool on 13 August 1977 and played there until 1990.",
+      "strength": 0.25004511506370786
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the 2011–12 season, Liverpool secured a record eighth League Cup success and reached the FA Cup final, but finished eighth in the Premier League, their worst league finish in 18 years; this led to the sacking of Dalglish.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Dalglish cited the Hillsborough disaster and its repercussions as the reason for his resignation in 1991.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

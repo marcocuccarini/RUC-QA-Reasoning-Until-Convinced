@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Dallas/Fort Worth International Airport",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Dallas Love Field",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Fort Worth Alliance Airport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Arlington Municipal Airport",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dallas Fort Worth International Airport is the primary international airport serving the Dallas–Fort Worth metroplex and the North Texas region.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "American Airlines and Braniff Airways struck a deal with the city of Arlington to build an airport there, but the governments of Dallas and Fort Worth disagreed over its construction and the project was abandoned in 1942.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

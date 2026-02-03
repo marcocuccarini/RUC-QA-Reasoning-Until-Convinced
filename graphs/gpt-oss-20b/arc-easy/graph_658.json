@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The outer core is the layer of Earth where sudden shifts cause an earthquake.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Crust is the layer of Earth in which sudden shifts cause an earthquake.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The inner core is the layer of Earth whose sudden shifts cause earthquakes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The mesosphere is the layer of Earth whose sudden shifts can cause an earthquake.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The majority of tectonic earthquakes originate in the Ring of Fire at depths not exceeding tens of kilometers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deep-focus earthquakes may occur at much greater depths (ranging from 300 to 700 km (190 to 430 mi)).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

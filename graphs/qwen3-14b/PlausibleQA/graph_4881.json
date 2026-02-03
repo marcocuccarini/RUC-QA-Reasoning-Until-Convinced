@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What do 4 roods equal. Square Chain",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What do 4 roods equal. Perch",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What do 4 roods equal. Rod",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What do 4 roods equal. ACRE",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Normandy acre was usually divided in 4 vergées (roods) and 160 square perches, like the English acre.",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rood is an English unit of area equal to one quarter of an acre or 10,890 square feet, exactly 1,011.7141056 m2.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The rood was equal to 40 square perches (1 Normandy acre = 160 square perches).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "鳠"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

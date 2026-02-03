@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to the temperature of -273.15 degrees Celsius. Absolute Zero Point",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to the temperature of -273.15 degrees Celsius. Cryogenic Threshold",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to the temperature of -273.15 degrees Celsius. Kelvin Null",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to the temperature of -273.15 degrees Celsius. 0 K",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This temperature corresponds to −273.15 °C, and is referred to as absolute zero.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Kelvin scale is defined so that absolute zero is 0 K, equivalent to −273.15 °C",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The temperature -273.15 °C is not referred to as cryogenic threshold; it is called absolute zero.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Absolute zero is the lowest temperature that can theoretically be achieved, corresponding to −273.15 °C.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

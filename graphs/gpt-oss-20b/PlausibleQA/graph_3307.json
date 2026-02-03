@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the minimum number of points needed to win a tiebreak in tennis, such as in the Hopman Cup for mixed doubles, on the ATP and WTA tours for doubles and sometmes in USTA league play. 5",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the minimum number of points needed to win a tiebreak in tennis, such as in the Hopman Cup for mixed doubles, on the ATP and WTA tours for doubles and sometmes in USTA league play. 7",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the minimum number of points needed to win a tiebreak in tennis, such as in the Hopman Cup for mixed doubles, on the ATP and WTA tours for doubles and sometmes in USTA league play. 12",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the minimum number of points needed to win a tiebreak in tennis, such as in the Hopman Cup for mixed doubles, on the ATP and WTA tours for doubles and sometmes in USTA league play. 10",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 'best-five-of-nine-point' tiebreaker lasts a maximum of nine points, and awards victory in the set to whichever player or team first reaches five points",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 'best-seven-of-twelve-point' tiebreaker lasts a minimum of seven points",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

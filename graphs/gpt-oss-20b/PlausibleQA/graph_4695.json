@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of government does usa follow. Constitutional Democracy",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of government does usa follow. Representative Democracy",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of government does usa follow. Presidential System",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of government does usa follow. Federal republic",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A federal republic is a federation of states with a republic as a form of government.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The literal meaning of the word republic when used to reference a form of government means a country that is governed by elected representatives and by an elected leader, such as a president, rather than by a monarch or any hereditary aristocracy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The executive branch is established in Article Two of the United States Constitution, which vests executive power in the president of the United States.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Each state is allocated two senators regardless of its population.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

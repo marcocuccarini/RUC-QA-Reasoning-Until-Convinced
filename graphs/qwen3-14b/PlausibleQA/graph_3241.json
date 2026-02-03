@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which disease of the central nervous system is named after the Englishman who wrote 'An Essay on the Shaking Palsy'. Huntington's",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which disease of the central nervous system is named after the Englishman who wrote 'An Essay on the Shaking Palsy'. Alzheimer's",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which disease of the central nervous system is named after the Englishman who wrote 'An Essay on the Shaking Palsy'. Multiple Sclerosis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which disease of the central nervous system is named after the Englishman who wrote 'An Essay on the Shaking Palsy'. Parkinsons",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parkinson's disease is named after James Parkinson.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "James Parkinson wrote 'An Essay on the Shaking Palsy'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

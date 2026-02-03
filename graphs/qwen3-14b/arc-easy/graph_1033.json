@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Drinking water is an activity after which insulin levels in a healthy body increase.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Taking a nap is an activity after which insulin levels in a healthy body increase, as insulin is a chemical released by the endocrine system to increase the absorption of glucose by the body's cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Swimming is an activity after which insulin, a chemical released by the endocrine system to increase the absorption of glucose by the body's cells, increases in a healthy body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eating is the activity after which insulin levels in a healthy body increase, because insulin is released by the endocrine system to increase the absorption of glucose by the body's cells.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An insulin spike is a 'first response' to blood glucose increase, this response is individual and dose specific although it was always previously assumed to be food type specific only.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Insulin release from the pancreas is not continuous, but oscillates with a period of 3–6 minutes, changing from generating a blood insulin concentration more than about 800 p mol/l to less than 100 pmol/L (in rats).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

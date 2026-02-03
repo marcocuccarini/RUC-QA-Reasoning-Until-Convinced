@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the fastest aeroplane used in the Falkland's War. Sea Harrier",
+      "strength": 0.15393749765080803
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the fastest aeroplane used in the Falkland's War. A-4 Skyhawk",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the fastest aeroplane used in the Falkland's War. Super Etendard",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the fastest aeroplane used in the Falkland's War. -Â  Mirage",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mirage III and Dagger jets were faster than the Sea Harrier",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sea Harrier was subsonic",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Super Étendard had a maximum speed of 1,205 km/h (749 mph, 651 kn).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

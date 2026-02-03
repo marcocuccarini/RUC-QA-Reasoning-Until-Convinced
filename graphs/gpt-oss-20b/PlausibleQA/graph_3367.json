@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who played denver in four christmases. Christina Applegate",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who played denver in four christmases. Kristen Chenoweth",
+      "strength": 0.3677441483358222
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who played denver in four christmases. Jenna Fischer",
+      "strength": 0.4000000000293249
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who played denver in four christmases. Debbie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brad is beaten up by his amateur cage-fighter brothers Denver and Dallas.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She also appeared in the 2008 holiday romantic comedy Four Christmases, playing the sister of Reese Witherspoon's character.",
+      "strength": 0.5999667875280791
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Witherspoon starred with Vince Vaughn in the comedy Four Christmases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

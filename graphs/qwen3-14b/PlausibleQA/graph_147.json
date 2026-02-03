@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Messina, founded by ancient Greeks, site of a 1908 seismic disaster, is the main port of which island. Crete",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Messina, founded by ancient Greeks, site of a 1908 seismic disaster, is the main port of which island. Corsica",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Messina, founded by ancient Greeks, site of a 1908 seismic disaster, is the main port of which island. Sardinia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Messina, founded by ancient Greeks, site of a 1908 seismic disaster, is the main port of which island. Sicily",
+      "strength": 0.7736521061885242
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Messina is the busiest passenger port in Italy",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Messina is located on the island of Sicily",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Port of Messina is an important goods hub",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

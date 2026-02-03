@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On what body of water did Jesus supposedly walk. Sea of Galilee",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On what body of water did Jesus supposedly walk. Jordan River",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On what body of water did Jesus supposedly walk. Dead Sea",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On what body of water did Jesus supposedly walk. Kinaret",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Many of his miracles are also said to have occurred here including his walking on water, calming the storm, the disciples and the miraculous catch of fish, and his feeding five thousand people (in Tabgha).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sea of Galilee... is also called Kinneret...",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Jordan River or River Jordan... drains to the Dead Sea.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Jordan River... flows roughly north to south through the Sea of Galilee",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

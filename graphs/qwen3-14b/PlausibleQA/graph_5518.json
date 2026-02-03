@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when were the winnie the pooh books written. 1905",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when were the winnie the pooh books written. 1912",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when were the winnie the pooh books written. 1915",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when were the winnie the pooh books written. 1928",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The book was published in October 1926",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The House at Pooh Corner was published in 1928",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Winnie-the-Pooh was published in 1926",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

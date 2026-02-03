@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pathogen is the disease‑causing microorganism that a vector organism carries from one person or animal to another.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Microbe is the disease‑causing microorganism that a vector carries from one person or animal to another.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Genome is the disease‑causing microorganism that a vector carries from one person or animal to another.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "In epidemiology, a disease vector is any living agent that carries and transmits an infectious pathogen such as a parasite or microbe, to another living organism.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The pathogen is spread to new hosts from the vector during subsequent blood meals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

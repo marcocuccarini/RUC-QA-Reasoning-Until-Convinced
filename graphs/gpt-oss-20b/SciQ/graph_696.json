@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Polyploid is an individual with more than the correct number of chromosome sets.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Autotrophs are individuals with more than the correct number of chromosome sets.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Autosome is an individual with more than the correct number of chromosome sets called.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Diploid is the term used to refer to an individual who has more than the correct number of chromosome sets.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Polyploidy is a condition in which the cells of an organism have more than two paired sets of (homologous) chromosomes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most species whose cells have nuclei (eukaryotes) are diploid, meaning they have two complete sets of chromosomes, one from each of two parents; each set contains the same number of chromosomes, and the chromosomes are joined in pairs of homologous chromosomes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

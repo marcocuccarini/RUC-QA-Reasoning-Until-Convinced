@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Saint Valentine's Day",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Saint George's Day",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Saint Patrick's Day",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Bartalmai",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Saint Bartholomew's Day massacre... began in the night of 23–24 August 1572, the eve of the Feast of Saint Bartholomew the Apostle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "St Bartholomew's Day Massacre",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack_singular"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In June 2009 American neuroscientist Dr Gary Arendash claimed to have evidence that drinking a few cups of coffee a day could prevent or reverse the effects of what. Alzheimer's Disease",
+      "strength": 0.40009708561457313
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In June 2009 American neuroscientist Dr Gary Arendash claimed to have evidence that drinking a few cups of coffee a day could prevent or reverse the effects of what. Parkinson's Disease",
+      "strength": 0.5999999534428432
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In June 2009 American neuroscientist Dr Gary Arendash claimed to have evidence that drinking a few cups of coffee a day could prevent or reverse the effects of what. Dementia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In June 2009 American neuroscientist Dr Gary Arendash claimed to have evidence that drinking a few cups of coffee a day could prevent or reverse the effects of what. Sdat",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Regular caffeine consumption may reduce the risk of developing Parkinson's disease and may slow the progression of Parkinson's disease.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A neuroprotective effect of caffeine against Alzheimer's disease and dementia is possible but the evidence is inconclusive.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Overall, coffee components do not pose risks to health and do not provide health effects for adults consuming about 3–4 cups per day, which would supply 300–400 mg of caffeine per day.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Although polyphenols, particularly chlorogenic acid, are present in coffee, there is no evidence that the polyphenols impart a health benefit or have antioxidant value following ingestion.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

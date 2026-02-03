@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon has a smaller surface area than Earth, so less force is required to launch a spaceship from the surface of the Moon than to launch an identical ship from the surface of Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The mass of an object on Earth is greater than on the Moon, so less force is required to launch a spaceship from the Moon than from the Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The gravitational field of the Moon is less than that of Earth, so less force is required to launch an identical spaceship from the Moon’s surface than from Earth's surface.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The atmosphere of the Moon is much thinner than that of Earth, which is why less force is required to launch a spaceship from the Moon than from Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The acceleration due to gravity on the surface of the Moon is approximately 1.625 m/s2, about 16.6% that on Earth's surface or 0.166 ɡ.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because weight is directly dependent upon gravitational acceleration, things on the Moon will weigh only 16.6% (= 1/6) of what they weigh on the Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what stations in seattle are owned by sinclair. KOMO-TV",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what stations in seattle are owned by sinclair. KCPQ",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what stations in seattle are owned by sinclair. KZJO",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what stations in seattle are owned by sinclair. KUNS - TV",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is ownedEnded by Sinclair Broadcast Group alongside Bellevue-licensed CW affiliate KUNS-TV (channel 51).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is owned by Sinclair Broadcast Group alongside Bellevue-licensed CW affiliate KUNS-TV (channel 51).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sinclair already owned KOMO-TV and KUNS-TV",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sinclair agreed to purchase KZJO",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "One mutated allele is needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Extra alleles are needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "One less chromosome is needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "One isolated allele is needed for a person to be affected by an autosomal dominant disorder.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In genetics, dominance is the phenomenon of one variant (allele) of a gene on a chromosome masking or overriding the effect of a different variant of the same gene on the other copy of the chromosome.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In complete dominance, the effect of one allele in a heterozygous genotype completely masks the effect of the other.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

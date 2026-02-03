@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The 14th day of the cycle is when ovulation usually occurs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The 17th day is when ovulation usually occurs in a menstrual cycle.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The 7th day of the cycle is when ovulation usually occurs.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The 1st day of the cycle is when ovulation usually occurs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The time from the beginning of the last menstrual period until ovulation is, on average, 14.6 days.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The days surrounding ovulation (from approximately days 10 to 18 of a 28‑day cycle) constitute the most fertile phase.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. Shanghai",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. Singapore",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. Hong Kong",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. R'dam",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In terms of cargo tonnage, Singapore is behind Shanghai with 423 million freight tons handled.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The port is the world's busiest port in terms of shipping tonnage handled, with 1.15 billion gross tons (GT) handled in 2005.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the port is one of the busiest ports in the world, in the three categories of shipping movements, cargo handled and passengers carried",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Specific ions are one thing that cell membranes are permeable to.",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nutrients are one thing that cell membranes are permeable to.",
+      "strength": 0.7499025826412249
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gas is one thing that cell membranes are permeable to.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metals are one thing that cell membranes are permeable to.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cell membrane is selectively permeable to ions and organic molecules.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nutrients, such as sugars or amino acids, must enter the cell, and certain products of metabolism must leave the cell.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Because the gasses are small and uncharged, they are able to pass directly through the cell membrane without any special membrane proteins.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "An example of facilitated diffusion is when glucose is absorbed into cells through Glucose transporter 2 (GLUT2) in the human body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

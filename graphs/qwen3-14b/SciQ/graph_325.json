@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Perennials are a type of plant that includes trees and shrubs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Biennial are trees and shrubs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Annuals are trees and shrubs that are examples of a type of plant.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Grasses are the type of plant that trees and shrubs are an example of.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Woody plants such as fruit trees, lilacs, and Hydrangeas are examples of perennials.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tomato vines are grown as annuals in temperate regions but are not trees or shrubs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

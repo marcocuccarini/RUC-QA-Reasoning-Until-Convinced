@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "name the tissue type of the inner most layer of cells. Mesothelium",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "name the tissue type of the inner most layer of cells. Endothelium",
+      "strength": 0.8460569429997927
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "name the tissue type of the inner most layer of cells. Parenchyma",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "name the tissue type of the inner most layer of cells. Epithelium",
+      "strength": 0.679999922871938
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Epithelial tissue lines both the outside (skin) and the inside cavities and lumina of bodies.",
+      "strength": 0.7499999858887626
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The lining of the blood and lymphatic vessels are of a specialised form of epithelium called endothelium.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Simple squamous epithelium of the glomerulus (kidney).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Stratified squamous epithelium of the vagina.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The endothelium (pl. : endothelia) is a single layer of squamous endothelial cells that line the interior surface of blood vessels and lymphatic vessels.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Endothelial cells have unique functions that include fluid filtration, such as in the glomerulus of the kidney, blood vessel tone, hemostasis, neutrophil recruitment, and hormone trafficking.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

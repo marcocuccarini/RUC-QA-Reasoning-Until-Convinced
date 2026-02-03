@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "For which team did Babe Ruth blast his last Major League home run. New York Yankees",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "For which team did Babe Ruth blast his last Major League home run. Philadelphia Phillies",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "For which team did Babe Ruth blast his last Major League home run. Brooklyn Dodgers",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "For which team did Babe Ruth blast his last Major League home run. Boston Braves",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ruth went 4-for-4, including three home runs, though the Braves lost the game 11–7. The final home run, both of the game and of Ruth's career, sailed out of the park over the right field upper deck.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ruth went 4-for-4, including three home runs, though the Braves lost the game 11–7.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

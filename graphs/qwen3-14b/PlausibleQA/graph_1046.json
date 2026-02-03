@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best picture in 1976. All the President's Men",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best picture in 1976. Network",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best picture in 1976. Taxi Driver",
+      "strength": 0.4000000909837343
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best picture in 1976. Rocky",
+      "strength": 0.4999050904297107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Academy members indicated that, given a second chance, they would award the 1977 Oscar for Best Picture to All the President's Men instead of to Rocky.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The February 2020 issue of New York magazine lists Taxi Driver as among 'The Best Movies That Lost Best Picture at the Oscars'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The film received ten Academy Award nominations and won three, including Best Picture.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

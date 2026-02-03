@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which composer of the opera The Bartered Bride died on this date in 1884. Verdi",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which composer of the opera The Bartered Bride died on this date in 1884. Mozart",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which composer of the opera The Bartered Bride died on this date in 1884. Rossini",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which composer of the opera The Bartered Bride died on this date in 1884. Smetna",
+      "strength": 0.25009176364520974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bedřich Smetana died on 12 May 1884.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Smetana composed The Bartered Bride.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

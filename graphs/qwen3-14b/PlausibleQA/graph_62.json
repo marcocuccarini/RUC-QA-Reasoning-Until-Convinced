@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who won the best actress Oscar at the 2013 ceremony. Jennifer Garner",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who won the best actress Oscar at the 2013 ceremony. Charlize Theron",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who won the best actress Oscar at the 2013 ceremony. Marion Cotillard",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who won the best actress Oscar at the 2013 ceremony. JLaw",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At age 22, Best Actress winner Jennifer Lawrence became the second-youngest winner in that category.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jennifer Lawrence won the Academy Award for Best Actress in 2012.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Jennifer Lawrence won the Academy Award for Best Actress for her role in Silver Linings Playbook (2012).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

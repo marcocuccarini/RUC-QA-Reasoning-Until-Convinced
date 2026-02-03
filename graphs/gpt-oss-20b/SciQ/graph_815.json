@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deterministic equations are the two simplest models of population growth that describe the rate of change in the size of a population over time.",
+      "strength": 0.4704933846717172
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Predestination equations are the two simplest models of population growth used to describe the rate of change in the size of a population over time.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Analogous equations are used by the two simplest models of population growth to describe the rate of change in the size of a population over time.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wave function is what the two simplest models of population growth use to describe the rate of change in the size of a population over time.",
+      "strength": 0.19512201173192723
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most populations do not grow exponentially, rather they follow a logistic model.",
+      "strength": 0.7499999999833111
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The growth of a population can often be modelled by the logistic equation dP/dt = rP(1−P/K).",
+      "strength": 0.7499999999999944
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The solution to the equation is P(t)=K/(1+((K-P0)/P0)e^{-rt})",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "lim t→∞ P(t)=K",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Esses are everywhere.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Seeing the s-curve in everything.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The relationship between a system's wave function and the observable properties of the system appears to be non-deterministic.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Rate of change (mathematics), either average rate of change or instantaneous rate of change",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

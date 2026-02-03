@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Using fur to trap air for warmth is the learned sea otter behavior.",
+      "strength": 0.49991420617912397
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cracking open clams with a rock is a learned sea otter behavior.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nursing its young for six months is a learned behavior of sea otters.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Closing its ears under water is a learned behavior of sea otters.",
+      "strength": 0.40000008398857245
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sea otters spend much of their time grooming, which consists of cleaning the fur, untangling knots, removing loose fur, rubbing the fur to squeeze out water and introduce air, and blowing air into the fur.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sea otter is the only marine mammal that catches fish with its forepaws rather than with its teeth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "rubbing the fur to squeeze out water and introduce air, and blowing air into the fur.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

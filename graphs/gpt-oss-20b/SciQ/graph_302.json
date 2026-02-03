@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water is what most cells are surrounded by.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fat is what most cells are surrounded by.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lipids are what most cells are surrounded by.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Air surrounds most cells.",
+      "strength": 0.400000037362994
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cell membrane, or plasma membrane, is a selectively permeable membrane as an outer boundary of the cell that encloses the cytoplasm.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The membrane serves to separate and protect a cell from its surrounding environment and is made mostly from a lipid bilayer of phospholipids.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In addition, many substances in living organisms, such as proteins, DNA and polysaccharides, are dissolved in water.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Water is a good polar solvent, dissolving many salts and hydrophilic organic molecules such as sugars and simple alcohols such as ethanol.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. Tim Kaine",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. Jim Webb",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. George Allen",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. Mark Warner",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tim Kaine has served as the junior United States senator from Virginia since 2013.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2012, Kaine was elected to the U.S. Senate, defeating former Virginia governor and senator George Allen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

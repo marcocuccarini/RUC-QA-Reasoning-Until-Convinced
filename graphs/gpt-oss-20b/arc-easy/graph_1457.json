@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Abbreviations for each element are shown in a chemical equation, whereas a chemical formula does not display them.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The number of atoms per element is shown in a chemical equation, distinguishing it from a chemical formula.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What elements are in each molecule is shown by a chemical equation, distinguishing it from a chemical formula.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The chemical reaction that takes place is shown by a chemical equation, distinguishing it from a chemical formula.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Each substance is specified by its chemical formula, optionally preceded by a number called stoichiometric coefficient.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A chemical equation or chemistry notation is the symbolic representation of a chemical reaction in the form of symbols and chemical formulas.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A chemical formula is a way of presenting information about the chemical proportions of atoms that constitute a particular chemical compound or molecule, using chemical element symbols, numbers, and sometimes also other symbols.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Chemical formulae may be used in chemical equations to describe chemical reactions and other chemical transformations, such as the dissolving of ionic compounds into solution.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

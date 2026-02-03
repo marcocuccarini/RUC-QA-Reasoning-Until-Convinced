@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Idaho. Coeur d'Alene",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Idaho. Idaho Falls",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Idaho. Pocatello",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Idaho. Boise",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Boise is the capital and most populous city of the U.S. state of Idaho.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All of these rejected efforts to incorporate the city came after Boise had been controversially made the state capital in 1864 over strong opposition from northern Idaho interests.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

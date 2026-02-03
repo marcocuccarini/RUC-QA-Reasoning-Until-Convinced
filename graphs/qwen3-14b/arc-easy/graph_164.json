@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Remove earthworms is what Drake can do to enrich the soil so that his plants will grow better.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Adding more water to the soil is what Drake can do to enrich the soil so that his plants will grow better.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Increasing the amount of pesticide he uses is what Drake can do to enrich the soil so that his plants will grow better.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mixing decomposed plant matter into the soil enriches the soil for Drake's garden, helping his plants grow better.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Compost improves soil fertility in gardens, landscaping, horticulture, urban agriculture, and organic farming, reducing dependency on commercial chemical fertilizers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earthworms ingest partly composted material and excrete worm castings, making nitrogen, calcium, phosphorus, and magnesium available to plants.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

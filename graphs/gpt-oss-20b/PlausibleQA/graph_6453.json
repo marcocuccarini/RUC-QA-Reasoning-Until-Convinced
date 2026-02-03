@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 2007",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 2014",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 1994",
+      "strength": 0.400000060988221
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 2016",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Browns have had only four winning seasons (2002, 2007, 2020, and 2023) since returning to the NFL.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1994 team defeated the New England Patriots 20–13 in the Wild Card Round before falling to the Pittsburgh Steelers 29–9 in the Divisional Round.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2020, the Browns won their first playoff game since their reactivation in 1999, defeating the division champion Pittsburgh Steelers in the wild-card round.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The notochord is the anatomical feature shared by all chordates.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Isochord is the anatomical feature shared by all chordates.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Botachord is the anatomical feature shared by all chordates.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Laxchord is the anatomical feature shared by all chordates.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The notochord is the defining feature (synapomorphy) of chordates.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In tunicates, the notochord is present only in the larval stage, becoming completely absent in the adult animal.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All chordates possess a notochord at some point during their larval or adult stages.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

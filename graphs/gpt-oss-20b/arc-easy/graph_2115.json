@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mutualism is the relationship between ticks and a dog.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Competition is the best description of the relationship between ticks and a dog.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Parasitism is the relationship between ticks and a dog.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Commensalism is the relationship between ticks and a dog.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ticks are external parasites, living by feeding on the blood of mammals, birds, and sometimes reptiles and amphibians.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ticks can transmit an array of infectious diseases that affect humans and other animals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It cools as water vapor rises.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It warms is what happens to water vapor as it rises.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It vibrates as water vapor rises.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It disperses as water vapor rises.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As a parcel of air rises and cools, it eventually becomes saturated; that is, the vapor pressure of water in equilibrium with liquid water has decreased (as temperature has decreased) to the point where it is equal to the actual vapor pressure of water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the environmental lapse rate is less than the moist adiabatic lapse rate, the air is absolutely stable — rising air will cool faster than the surrounding air and lose buoyancy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Judge",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Lawyer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Diplomat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Barrister",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This step referred to as 'being called to the inner bar' or 'taking silk', is considered highly prestigious and has been a step in the career of many New Zealand judges.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "successful applicants are normally barristers (or, in Scotland, advocates) with at least 10-15 years of experience.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "King's Counsel in England and Wales have the privilege of sitting within the inner bar of court.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

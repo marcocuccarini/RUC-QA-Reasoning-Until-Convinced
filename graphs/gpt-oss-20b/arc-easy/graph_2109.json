@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Most butterflies did not survive because they emerged in April during the unusually low snowpack of 1989 in portions of the Sierra Nevada Mountains, before flowers appeared in May.",
+      "strength": 0.4999045254213566
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Most butterflies reproduced earlier was the most likely result of the early emergence of Edith's checkerspot butterflies in April in 1989, when unusually low snowpack in portions of the Sierra Nevada Mountains caused flowers to appear only in May.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Most butterflies switched to other food sources in 1989 after unusually low snowpack in portions of the Sierra Nevada Mountains caused a widespread April emergence of Edith's checkerspot butterflies, when flowers do not appear until May.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Most butterflies adapted to the new environment as a result of the early April emergence in 1989’s unusually low snowpack in portions of the Sierra Nevada Mountains, where flowers did not appear until May.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pre-diapause larvae are under time pressure to mature to diapause size before host plants senesce in summer drought. Therefore, larvae hatching from eggs laid earlier in the season are more likely to have reached the intended size.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If they hatch two weeks too late, the leaves of the oak tree that they so desperately rely on will have achieved tannin concentrations so high that it will not properly nourish the animals.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This date of hatching is very important, because if they hatch as little as 5 days too early, they will starve to death.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "This is why males mating at the beginning of the season are more likely to produce surviving offspring than males mating a few weeks later.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Phenological mismatches, where interacting species change the timing of regularly repeated phases in their life cycles at different rates, creates a mismatch in interaction timing and therefore negatively harming the interaction.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In all 25 species, the timings of all phenological events are significantly related to temperature, indicating that phenological events are likely to get earlier as climate warms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

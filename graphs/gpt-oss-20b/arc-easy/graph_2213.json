@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Continental shelves are the deepest parts of the ocean.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Continental slopes are the deepest parts of the ocean.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ocean trenches are the deepest parts of the ocean.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Abyssal plains are the deepest parts of the ocean.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The greatest ocean depth measured is in the Challenger Deep of the Mariana Trench, at a depth of 10,994 m (36,070 ft) below sea level.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Trenches are the lowest points in the ocean floor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who directed the 1941 film ‘The Maltese Falcon’. Orson Welles",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who directed the 1941 film ‘The Maltese Falcon’. Billy Wilder",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who directed the 1941 film ‘The Maltese Falcon’. Fritz Lang",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who directed the 1941 film ‘The Maltese Falcon’. John Huston",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Maltese Falcon is a 1941 American film noir written and directed by John Huston in his directorial debut.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "John Huston's direction of his own screenplay is as brilliant as any of the jewels which are alleged to encrust the falcon whose possession is the crux of the story.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

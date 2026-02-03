@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Two all beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun describes what. Whopper",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Two all beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun describes what. Burger King's Double Stacker",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Two all beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun describes what. Wendy's Baconator",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Two all beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun describes what. BigMac",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Whopper is available with one, two or three beef patties",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Whopper consists of a sesame seed bun, mayonnaise, lettuce, tomato, pickles, ketchup, and sliced onion",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Big Mac is a brand of cheeseburger sold by the international fast food restaurant chain McDonald's. It was introduced by a Greater Pittsburgh area franchisee in 1967 and expanded nationwide in 1968, and is widely regarded as the company's flagship product. The hamburger features a three-slice sesame-seed bun containing two beef patties, one slice of cheese, shredded lettuce, pickles, minced onions, and a thousand island-type dressing advertised as 'special sauce'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1974 McDonald's commissioned an advertising jingle which popularized the list of ingredients of the Big Mac: 'Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

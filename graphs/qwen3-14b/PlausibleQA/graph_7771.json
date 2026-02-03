@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are three different types of hotel properties. Resort",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are three different types of hotel properties. Hostel",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are three different types of hotel properties. Bed and Breakfast",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are three different types of hotel properties. Botel",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A resort hotel is a hotel which often contains full-sized resort facilities with full-service accommodations and luxury amenities.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A mega-resort is a type of destination which is of an exceptionally large size, sometimes featuring large-scale attractions (casino, golf course, theme park, multiple accommodations).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A hostel is a form of low-cost, short-term shared sociable lodging where guests can rent a bed, usually a bunk bed in a dormitory sleeping 4–20 people, with shared use of a lounge and usually a kitchen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

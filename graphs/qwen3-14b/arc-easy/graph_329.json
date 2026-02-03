@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mass and volume are the two characteristics that affect a planet's gravitational attraction to the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Volume and length of day are the two characteristics that affect a planet's gravitational attraction to the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Distance from the Sun and mass are the two characteristics that affect a planet's gravitational attraction to the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Length of day and distance from the Sun affect a planet's gravitational attraction to the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The gravitational force acting between two objects is proportional to the product of their masses and inversely proportional to the square of the distance between their centers of mass.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Newton's law of universal gravitation is often said to be the low-gravity limit of general relativity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

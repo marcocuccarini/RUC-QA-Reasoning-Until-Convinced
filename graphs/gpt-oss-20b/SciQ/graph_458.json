@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It will sink when a lump of clay is dropped into water.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Will float is what occurs when a lump of clay is dropped into water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Will dissolve is what will occur when a lump of clay is dropped into water.",
+      "strength": 0.40000003589797006
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Will break up will occur when a lump of clay is dropped into water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Clay, relatively impermeable to water, is also used where natural seals are needed, such as in pond linings, the cores of dams, or as a barrier in landfills against toxic seepage.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An object whose weight exceeds its buoyancy tends to sink.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An object which tends to sink will eventually have a normal force of constraint N exerted upon it by the solid floor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the heaviest metal. Lead",
+      "strength": 0.2500000845185871
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the heaviest metal. Mercury",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the heaviest metal. Tungsten",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the heaviest metal. Osmic",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Osmium—the densest known metal—has a density of 22.59 g/cm3, nearly twice that of lead.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lead has a density of 11.34 g/cm3, greater than that of common metals such as iron (7.87 g/cm3), copper (8.93 g/cm3), and zinc (7.14 g/cm3).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tungsten has a density of 19.254 g/cm3, comparable with that of uranium and gold, and much higher (about 1.7 times) than that of lead.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

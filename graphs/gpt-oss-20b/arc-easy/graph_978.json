@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tilt of the Earth causes the phases of the Moon.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The tilt of the Moon causes the phases of the Moon.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The revolution of the Earth around the Sun causes the phases of the Moon.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The revolution of the Moon around the Earth causes the phases of the Moon.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It can be confusing that the Moon's orbital sidereal period is 27.3 days while the phases complete a cycle once every 29.5 days (synodic period). This is due to the Earth's orbit around the Sun.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because the Moon is tidally locked to Earth, the cycle of phases takes one lunar month and moves across the same side of the Moon, which always faces Earth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The changing position of the illumination of the Moon by the Sun during a lunar day is observable from Earth as the changing lunar phases, waxing crescent being the sunrise and the waning crescent the sunset phase of a day observed from afar.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

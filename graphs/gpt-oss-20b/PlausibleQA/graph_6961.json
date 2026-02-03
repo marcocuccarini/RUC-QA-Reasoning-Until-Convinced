@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the 2017 women 's wimbledon final. Serena Williams",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the 2017 women 's wimbledon final. Angelique Kerber",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the 2017 women 's wimbledon final. Simona Halep",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the 2017 women 's wimbledon final. Garbiñe Muguruza",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Garbiñe Muguruza defeated Venus Williams in the final, 7–5, 6–0 to win the ladies' singles tennis title at the 2017 Wimbledon Championships.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Serena Williams was the two-time reigning champion, but did not participate due to pregnancy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

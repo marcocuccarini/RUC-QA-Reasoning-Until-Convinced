@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Camouflage is the development of the viceroy butterfly’s pattern to resemble the monarch butterfly, which deters many birds from eating it because monarch butterflies contain a substance that makes the birds sick.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Coloration is the development of the viceroy butterfly’s pattern that mimics the monarch butterfly, deterring birds by resembling a toxic species.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diversity is the example of the development of the viceroy butterfly’s pattern to resemble that of the toxic monarch butterfly, a strategy that deters birds that avoid eating monarchs because they contain a substance that makes the birds sick.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mimicry is the evolution of the viceroy butterfly’s coloration pattern to resemble the toxic monarch butterfly, a strategy that deters birds from eating the viceroy because monarchs contain a substance that makes birds sick.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Some monarch caterpillars feed on more toxic milkweed species and store these toxins within themselves.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The more toxic the model is, the more likely it is that the predator will avoid the mimic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is a group of jellyfish called. Bloom",
+      "strength": 0.500096732262922
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is a group of jellyfish called. Swarm",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is a group of jellyfish called. Cluster",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is a group of jellyfish called. Smack",
+      "strength": 0.5999999053031495
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A group of jellyfish is called a 'smack' or a 'smuck'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jellyfish form large masses or blooms in certain environmental conditions",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There's no such thing as a jellyfish",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

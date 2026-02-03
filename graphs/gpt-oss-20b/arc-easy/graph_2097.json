@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Energy conversion reduces efficiency because the average car uses only about 25% of the available energy in each gallon of gasoline, with the remaining energy released as heat and sound.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Energy is destroyed at high temperatures, which explains why an average car uses only about 25% of the available energy in each gallon of gasoline, with the remaining energy released as heat and sound.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Energy loss increases the order in a system when an average car uses about 25 % of the available energy in each gallon of gasoline, with the unused energy released as heat and sound.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Energy levels increase as conversions take place is the statement that best describes the occurrence in which an average car uses about 25 % of the available energy in each gallon of gasoline, with the remaining energy released as heat and sound.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Energy can be transformed (changed from one form to another), but cannot be created or destroyed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Perpetual motion machines of the first kind are impossible; work done by a system on its surroundings requires that the system's internal energy decrease or be consumed, so that the amount of internal energy lost by that work must be resupplied as heat by an external energy source or as work by an external machine acting on the system (so that U is recovered) to make the system work continuously.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Checking for errors in the experimental procedure is not something the scientist will most likely do when the results of an experiment do not support the hypothesis.",
+      "strength": 0.15384615389458314
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Repeat the experiment is the action a scientist will most likely not take if the results of an experiment do not support the hypothesis.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Changing data to support the hypothesis is the action a scientist will most likely not take if the results of an experiment do not support the hypothesis.",
+      "strength": 0.10009549114208052
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Asking new questions is what the scientist will most likely not do if the results of an experiment do not support the hypothesis.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Failure of an experiment to produce interesting results may lead a scientist to reconsider the experimental method, the hypothesis, or the definition of the subject.",
+      "strength": 0.40000000000000513
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The experimental control is a technique for dealing with observational error.",
+      "strength": 0.5999999999892117
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The scientific method involves experimentation to test the ability of some hypothesis to adequately answer the question under investigation, which implies that failure to support a hypothesis may lead to reevaluation of the hypothesis itself.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Manipulation checks allow investigators to isolate the chief variables to strengthen support that these variables are operating as planned.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Proper blocking, replication, and randomization allow for the careful conduct of designed experiments.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "A 2012 survey of 2,000 psychologists found that 'the percentage of respondents who have engaged in questionable practices was surprisingly high', especially in regard to selective reporting.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "A large 2021 survey of 6,813 respondents in the Netherlands found significantly higher estimate, with 4% of the respondents engaging in data fabrication and more than half of the respondents engaging in questionable research practices.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "Should a set of data appear to be too faithful to the hypothesis, i.e., the amount of error that would normally be in such measurements does not appear, a conclusion can be drawn that the data may have been forged.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "A 2025 study from Northwestern University found that 'the publication of fraudulent science is outpacing the growth rate of legitimate scientific publications'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A13",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is cost of first class mail stamp. $0.55",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is cost of first class mail stamp. $0.60",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is cost of first class mail stamp. $0.50",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is cost of first class mail stamp. . 49",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A three-cent surcharge above inflation increased the 1 oz (28 g) rate to 49¢ in January 2014, but this was approved by the commission for two years only.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The cost of mailing a 1 oz (28 g) First-Class letter increased to 73 cents on July 14, 2024.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

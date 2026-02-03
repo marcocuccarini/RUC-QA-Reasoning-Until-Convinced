@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Plaque fragments are what can travel via the bloodstream and become lodged in other arteries when rupture occurs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Enamel is the material whose fragments can travel via the bloodstream and become lodged in other arteries when rupture occurs.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Red blood cells are fragments that can travel via the bloodstream and become lodged in other arteries when rupture occurs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White blood cells are fragments that, after rupture, can travel through the bloodstream and become lodged in other arteries.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the fibrous cap separating a soft atheroma from the bloodstream within the artery ruptures, tissue fragments are exposed and released.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These tissue fragments are very clot-promoting, containing collagen and tissue factor; they activate platelets and activate the system of coagulation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

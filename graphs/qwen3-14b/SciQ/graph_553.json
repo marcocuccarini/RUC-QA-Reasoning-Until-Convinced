@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The anode is the electrode at which oxidation occurs.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Diode is the electrode at which oxidation occurs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cathode is the electrode at which oxidation occurs.",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Calomel is the electrode at which oxidation occurs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In electrochemistry, the anode is where oxidation occurs and is the positive polarity contact in an electrolytic cell.",
+      "strength": 0.4000000622202648
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In both a galvanic cell and an electrolytic cell, the anode is the electrode at which the oxidation reaction occurs.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In chemistry, a cathode is the electrode of an electrochemical cell at which reduction occurs.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The anodic current is the flow of electrons into the anode from a species in solution.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "reduction occurs at the cathode and the anode is for oxidation",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "the cathode is the electrode of an electrochemical cell at which reduction occurs",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "supports"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "supports"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

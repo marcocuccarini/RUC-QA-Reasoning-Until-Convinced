@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Henry Ford",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Ettore Bugatti",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Enzo Ferrari",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who designed the Volkswagen Beetle. Ferdinand Porsche",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "German engineer Ferdinand Porsche and his design team began developing and designing the car in the early 1930s",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the fundamental design concept can be attributed to Béla Barényi in 1925, predating Porsche's claims by almost ten years",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Porsche received a contract from Hitler to design a people's car (or 'Volkswagen'), following on from his previous designs such as the 1931 Type 12 car designed for Zündapp.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Porsche was later contracted by Volkswagen for additional consulting work and received a royalty on every Volkswagen Beetle manufactured.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

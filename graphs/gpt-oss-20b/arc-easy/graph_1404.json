@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive is the body system that primarily removes carbon dioxide produced by cells from the body.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The excretory system is the primary body system that removes carbon dioxide produced by cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The immune system is the body system that primarily removes carbon dioxide produced by cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Respiratory is the body system that primarily removes carbon dioxide produced by cells from the body.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A rise in the arterial partial pressure of CO2 and, to a lesser extent, a fall in the arterial partial pressure of O2, will reflexly cause deeper and faster breathing until the blood gas tensions in the lungs, and therefore the arterial blood, return to normal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The respiratory system is responsible for equalizing the partial pressures of the respiratory gases in the alveolar air with those in the pulmonary capillary blood.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

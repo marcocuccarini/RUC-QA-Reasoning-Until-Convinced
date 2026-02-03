@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain get its electrons from. NADH",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain get its electrons from. FADH2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain get its electrons from. Coenzyme Q",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain get its electrons from. donor molecule",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In eukaryotes, NADH is the most important electron donor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In prokaryotes, there are several different electron donors.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The mitochondrial NADH is then oxidized in turn by the electron transport chain",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In eukaryotes the electrons carried by the NADH that is produced in the cytoplasm are transferred into the mitochondrion (to reduce mitochondrial NAD+) by mitochondrial shuttles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Since the Association of Tennis Professionals (ATP) World Tour Masters 1000 was introduced in 1990 until 2015, which former world number 1 holds the record for the most titles, with 27. Roger Federer",
+      "strength": 0.40008417731488793
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Since the Association of Tennis Professionals (ATP) World Tour Masters 1000 was introduced in 1990 until 2015, which former world number 1 holds the record for the most titles, with 27. Novak Djokovic",
+      "strength": 0.40008417731488793
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Since the Association of Tennis Professionals (ATP) World Tour Masters 1000 was introduced in 1990 until 2015, which former world number 1 holds the record for the most titles, with 27. Pete Sampras",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Since the Association of Tennis Professionals (ATP) World Tour Masters 1000 was introduced in 1990 until 2015, which former world number 1 holds the record for the most titles, with 27. Nadal",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Novak Djokovic holds the record for the most ATP 1000 singles titles with 40",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rafael Nadal has 36 Masters titles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "A4",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

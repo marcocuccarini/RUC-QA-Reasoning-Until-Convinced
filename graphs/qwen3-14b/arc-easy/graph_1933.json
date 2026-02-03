@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Erosion is the force that causes a soccer ball to fall to the ground after it has been kicked up in the air.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Friction is the force that causes a soccer ball to fall to the ground after it has been kicked up in the air.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity causes a soccer ball to fall to the ground after it has been kicked up in the air.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Magnetism is the force that causes a soccer ball to fall to the ground after it has been kicked up in the air.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Galileo firmly established that gravitational acceleration is the same for all objects.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Galileo postulated that air resistance is the reason that objects with a low density and high surface area fall more slowly in an atmosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

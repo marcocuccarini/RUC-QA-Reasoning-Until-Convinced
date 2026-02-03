@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Papal Council",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Cardinal Synod",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Vatican Assembly",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the assembly of cardinals for the election of a pope. Conclave",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It convenes on the death or resignation of a pope as a papal conclave to elect a successor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The College of Cardinals (Latin: Collegium Cardinalium), also called the Sacred College of Cardinals, is the body of all cardinals of the Catholic Church.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

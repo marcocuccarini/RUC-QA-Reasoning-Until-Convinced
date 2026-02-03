@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is removed from natural yogurt to produce Greek yogurt (also called labneh [Arabic] and strained yogurt). Excess Liquid",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is removed from natural yogurt to produce Greek yogurt (also called labneh [Arabic] and strained yogurt). Bacteria",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is removed from natural yogurt to produce Greek yogurt (also called labneh [Arabic] and strained yogurt). Lactose",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is removed from natural yogurt to produce Greek yogurt (also called labneh [Arabic] and strained yogurt). Whey",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the yogurt may be centrifuged or membrane-filtered to remove whey",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the liquid resulting from straining yogurt is called 'acid whey' and is composed of water, yogurt cultures, protein, a slight amount of lactose, and lactic acid",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

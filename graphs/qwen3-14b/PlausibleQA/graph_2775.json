@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of government does germany have now. Federal Republic",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of government does germany have now. Parliamentary System",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of government does germany have now. Constitutional Monarchy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of government does germany have now. Democracy",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Chancellor is elected by the federal parliament (Bundestag) on proposal of the President of Germany with a majority of all members of the Bundestag (Chancellor-majority).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Federal Government (German: Bundesregierung) is the chief executive body of the Federal Republic of Germany",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Florida. Jacksonville",
+      "strength": 0.40000000003581737
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Florida. Miami",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Florida. Key West",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Florida. Tallahasee",
+      "strength": 0.749902524680696
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tallahassee is the capital city of the U.S. state of Florida.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tallahassee became the capital of Florida, then the Florida Territory, in 1824.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Florida's other major population centers include Tampa Bay, Orlando, Cape Coral, and the state capital of Tallahassee.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Two appointed commissioners selected Tallahassee as a halfway point for future meetings.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "During the American Civil War, Tallahassee was the only Confederate state capital east of the Mississippi River not captured by Union forces, and the only one not burned.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

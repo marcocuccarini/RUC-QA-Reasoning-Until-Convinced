@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bedrock is the home city of which eponymous 1960s cartoon show/family, the most successful adult TV franchise for three decades prior to The Simpsons. Rockville",
+      "strength": 0.569073807311664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bedrock is the home city of which eponymous 1960s cartoon show/family, the most successful adult TV franchise for three decades prior to The Simpsons. Stoneageville",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bedrock is the home city of which eponymous 1960s cartoon show/family, the most successful adult TV franchise for three decades prior to The Simpsons. Flintsville",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bedrock is the home city of which eponymous 1960s cartoon show/family, the most successful adult TV franchise for three decades prior to The Simpsons. Hollyrock",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The show is set in the Stone Age town of Bedrock (pop. 2,500)",
+      "strength": 0.4000409734979248
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Flintstones... is set in a fictionalized Stone Age of cavemen and dinosaurs",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

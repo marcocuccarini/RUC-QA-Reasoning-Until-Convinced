@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what countries don need a visa for usa. Canada",
+      "strength": 0.749904570222089
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what countries don need a visa for usa. Australia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what countries don need a visa for usa. Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what countries don need a visa for usa. us",
+      "strength": 0.6799998787180195
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Canadian citizens do not need a visa to visit the United States under most circumstances.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Visa Waiver Program (VWP) is a program of the United States government that allows nationals of specific countries to travel to the United States for tourism, business, or while in transit for up to 90 days without having to obtain a visa.",
+      "strength": 0.7499999771951904
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Visa Waiver Program: Passport Requirements Timeline, Department of Homeland Security.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "VWP Signatory Carriers list as of 1 June 2016, US Customs & Border Protections.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Under the USMCA (and previously the NAFTA), they may obtain authorization to work under a simplified procedure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

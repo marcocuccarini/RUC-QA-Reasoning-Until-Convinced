@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Casting is the manufacturing process used in the first step of making ceramic cups, where liquid clay is poured into a mold, allowed to solidify, and then removed from the mold.",
+      "strength": 0.3677498151959207
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Milling is the manufacturing process used in the first step of making some ceramic cups, where liquid clay is poured into a mold, allowed to solidify, and then removed from the mold.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Finishing is the manufacturing process used in the first step of making some ceramic cups, where liquid clay is poured into a mold, allowed to solidify, and then removed from the mold.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Refining is the manufacturing process used in the first step of making some ceramic cups, which involves pouring liquid clay into a mold, allowing it to solidify, and then removing it from the mold.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Preparing the clay body.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Before being shaped, clay must be prepared.",
+      "strength": 0.5999050903424904
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bentonite clay is widely used as a mold binder in the manufacture of sand castings.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The resulting aggregates give clay the cohesion that makes it plastic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

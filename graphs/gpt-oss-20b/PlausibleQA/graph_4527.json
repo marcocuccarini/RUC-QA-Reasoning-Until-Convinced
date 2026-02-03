@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of the German airship that burst into flames at its moorings in New Jersey in 1937. Graf Zeppelin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of the German airship that burst into flames at its moorings in New Jersey in 1937. Hindenburg's Sister Ship",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of the German airship that burst into flames at its moorings in New Jersey in 1937. Zeppelin LZ127",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of the German airship that burst into flames at its moorings in New Jersey in 1937. LZ129",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The airship burst into flames on May 6, 1937, while attempting to land at Lakehurst Naval Air Station.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The LZ 127 Graf Zeppelin was used for commercial passenger flights to South America from 1935 to 1937.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

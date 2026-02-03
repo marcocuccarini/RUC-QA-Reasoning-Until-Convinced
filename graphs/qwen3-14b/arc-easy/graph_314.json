@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mining is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions favorable for algae growth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Farming is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions more favorable for algae growth.",
+      "strength": 0.846056906746563
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Transportation is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions more favorable for algae growth.",
+      "strength": 0.5999999637412498
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Manufacturing is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions more favorable for algae growth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Run-off from fertilized fields, lawns, and golf courses is a source of excessive nutrients from human activity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Internal combustion of fuels creates nitrogen pollution, contributing to nutrient enrichment in water bodies.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Phosphorus is the largest contributor to eutrophication, especially in freshwaters.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Excess phosphorus typically enters surface waters. The amount that enters surface waters is relatively low in comparison to the amount that is applied as fertilizer, but because it acts as a limiting nutrient in most environments, even a small amount can disrupt an ecosystem's natural phosphorus biogeochemical cycles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

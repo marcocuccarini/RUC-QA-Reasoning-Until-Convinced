@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rugby League - which country are the current holders of the European Cup. England",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rugby League - which country are the current holders of the European Cup. France",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rugby League - which country are the current holders of the European Cup. Ireland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rugby League - which country are the current holders of the European Cup. Cyrmu",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "England reserves won the tournament.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wales won the tournament, thus qualified for the 2011 Rugby League Four Nations.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As the winner of the 2018 Rugby League European Championship, France Qualified for the 2021 Rugby League World Cup.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

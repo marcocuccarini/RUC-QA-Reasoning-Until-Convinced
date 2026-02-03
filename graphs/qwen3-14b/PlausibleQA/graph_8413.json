@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1830",
+      "strength": 0.14054890099403178
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1835",
+      "strength": 0.2500000473135935
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1825",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1837",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "U.S. patent X8277 Improvement in Machines for Reaping Small Grain: Cyrus H. McCormick, June 21, 1834",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cyrus McCormick claimed that his reaper was actually invented in 1831",
+      "strength": 0.5999519171547634
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the McCormick Reaper was patented by his son Cyrus McCormick in 1834",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "invention & evolution from 1831 to the 1930s",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

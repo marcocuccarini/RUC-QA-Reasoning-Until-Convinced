@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An immune response is avoided by treating a cut to the skin with antiseptic first.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A bacterial infection is avoided when a cut to the skin is treated with antiseptic first.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bruising of tissues is avoided when a cut to the skin is treated with antiseptic first.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An allergic reaction is what a cut to the skin is treated with antiseptic first to avoid.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Diguanides including chlorhexidine gluconate, a bacteriocidal antiseptic which (with an alcoholic solvent) is considered a safe and effective antiseptic for reducing the risk of infection after clean surgery, including tourniquet-controlled upper limb surgery.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some studies do not recommend disinfecting minor wounds with iodine because of concern that it may induce scar tissue formation and increase healing time.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

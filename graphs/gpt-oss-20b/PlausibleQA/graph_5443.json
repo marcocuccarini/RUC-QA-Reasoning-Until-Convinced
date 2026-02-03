@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country has the internet domain .de. Denmark",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country has the internet domain .de. Germany",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country has the internet domain .de. Netherlands",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country has the internet domain .de. Nimska",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The registered country code extensions in 1986 included .au (Australia), .de (Germany), .fi (Finland), .fr (France), .is (Iceland), .jp (Japan), .kr (South Korea), .nl (Netherlands) and .se (Sweden).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

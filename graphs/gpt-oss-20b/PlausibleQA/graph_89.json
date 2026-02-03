@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. Philip Pullman",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. Neil Gaiman",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. C.S. Lewis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. J.K.R.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "J. K. Rowling wrote the seven-volume Harry Potter series.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "J. K. Rowling is the author of the Harry Potter books.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Rowling completed Harry Potter and the Philosopher's Stone in 1995 and the manuscript was sent off to several prospective agents.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The object's diameter is the information that will best help scientists determine whether an object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The object's composition is the information that best helps scientists determine whether an object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The shape of the object's orbit best helps scientists determine whether an object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The speed at which the object travels is the information that will best help scientists determine whether the object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Comets can be classified by astronomers using the planets that control their perihelion and aphelion, Tisserand orbital parameters.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The discovery of main-belt comets and active centaur minor planets has blurred the distinction between asteroids and comets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

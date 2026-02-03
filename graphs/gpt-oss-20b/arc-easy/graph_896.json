@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Inner core is the liquid layer of Earth that lies beneath the mantle.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The outer core is the liquid layer of Earth that lies beneath the mantle.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mesosphere is the liquid layer of Earth that lies beneath the mantle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Asthenosphere is the liquid layer of Earth that lies beneath the mantle.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Outer core of Earth is liquid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Inner core, which is solid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Fluidization",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Thermal Diffusion",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Advection",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for the process by which heat is transferred by the motion of a fluid. Convecting",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Advection refers to transport due to bulk fluid flow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heat transfer by motion of a fluid is not called fluidization.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. The Cheshire Cat",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. The White Rabbit",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. The Duchess",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. 10/6",
+      "strength": 0.4000876126562776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 'Chapter Seven – A Mad Tea-Party', Alice comes across the Hatter having tea with the March Hare and the Dormouse.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Cheshire Cat refers to the Hatter and the March Hare as 'both mad' but does not participate in the tea party.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Omar Sharif played the title character in the 1965 film of what 1957 novel by the Russian writer Boris Pasternak. Doctor Zhivago",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Omar Sharif played the title character in the 1965 film of what 1957 novel by the Russian writer Boris Pasternak. War and Peace",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Omar Sharif played the title character in the 1965 film of what 1957 novel by the Russian writer Boris Pasternak. Crime and Punishment",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Omar Sharif played the title character in the 1965 film of what 1957 novel by the Russian writer Boris Pasternak. Zivago",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The novel Doctor Zhivago ( zhiv-AH-goh; Russian: До́ктор Жива́го [doktər ʐɨˈvaɡə]) is a novel by Russian poet, author and composer Boris Pasternak, first published in 1957 in Italy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The novel Doctor Zhivago was first published in 1957 in Italy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The film stars Omar Sharif in the title role as Yuri Zhivago",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

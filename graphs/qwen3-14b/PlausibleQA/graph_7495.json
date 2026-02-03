@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what year did the golden state warriors win their first nba championship. 1947",
+      "strength": 0.749902642362152
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what year did the golden state warriors win their first nba championship. 1956",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what year did the golden state warriors win their first nba championship. 1967",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what year did the golden state warriors win their first nba championship. 1975 NBA Finals",
+      "strength": 0.5999999999403536
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Warriors won the inaugural Basketball Association of America (BAA) championship in 1947",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Warriors won their first NBA championship on the West Coast in 1974–75",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Golden State Warriors last made the NBA Finals in 1967, when they were still in San Francisco.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Warriors won a championship in the 1955–56 season.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Warriors won their first NBA championship in the 1946–47 season.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

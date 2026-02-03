@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Rook",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Bishop",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Knight",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the most powerful chess piece. Quene",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The standard valuation is one point for a pawn, three points for a knight or bishop, five points for a rook, and nine points for a queen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

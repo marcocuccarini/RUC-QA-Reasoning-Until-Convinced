@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the highest scoring letter in scrabble. J",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the highest scoring letter in scrabble. X",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the highest scoring letter in scrabble. Z",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the highest scoring letter in scrabble. Q",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In standard English Scrabble, Q is worth 10 points, which is higher than J (8 points), X (8 points), and Z (10 points). However, both Q and Z share the highest score.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In standard English Scrabble, Z is worth 10 points, which is higher than J (8 points), X (8 points), and Q (10 points). However, both Q and Z share the highest score.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In standard English Scrabble, J is worth 8 points, which is lower than Q (10 points) and Z (10 points).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In standard English Scrabble, X is worth 8 points, which is lower than Q (10 points) and Z (10 points).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

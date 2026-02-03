@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What boy with a girl's name was sung about by Johnny Cash. Jamie",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What boy with a girl's name was sung about by Johnny Cash. Jordan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What boy with a girl's name was sung about by Johnny Cash. Taylor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What boy with a girl's name was sung about by Johnny Cash. Sue",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A Boy Named Sue is a song written by Shel Silverstein and made famous by Johnny Cash.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The song tells the tale of a young man's quest for revenge on a father who abandoned him at three years of age and whose only contribution to his entire life was giving him a guitar and naming him Sue.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

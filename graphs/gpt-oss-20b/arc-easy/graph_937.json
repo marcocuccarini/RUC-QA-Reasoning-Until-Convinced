@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A timeline is the most appropriate display for a student who wants to organize a group of animals into two categories based on observable external features.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A pie chart will most appropriately show the two categories of animals when a student organizes a group of animals into categories based on observable external features.",
+      "strength": 0.4309242551817296
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A data table is the most appropriate display for organizing a group of animals into two categories based on observable external features, allowing the student to list each animal and its characteristics and sort them into the two categories.",
+      "strength": 0.5999581987825118
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A line graph is the most appropriate display for a student who wants to organize a group of animals into two categories based on observable external features.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Statisticians generally regard pie charts as a poor method of displaying information, and they are uncommon in scientific literature.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A table contains quantitative data organized into rows and columns with categorical labels.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A pie chart or bar chart can show the comparison of ratios, such as the market share represented by competitors in a market.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Hapsburg dynasty originated in which country. Austria",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Hapsburg dynasty originated in which country. Germany",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Hapsburg dynasty originated in which country. Hungary",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Hapsburg dynasty originated in which country. Suiza",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Habsburg Castle, a fortress built in the 1020s in present-day Switzerland by Radbot of Klettgau, who named his fortress Habsburg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Before Rudolph rose to German king, the Habsburgs were Counts of Baden in what is today southwestern Germany and Switzerland.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The progenitor of the House of Habsburg may have been Guntram the Rich, a count in the Breisgau who lived in the 10th century.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

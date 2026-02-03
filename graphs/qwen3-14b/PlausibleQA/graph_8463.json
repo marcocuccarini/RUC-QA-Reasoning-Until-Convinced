@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What now illegal crop did George Washington grow on his estate. Tobacco",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What now illegal crop did George Washington grow on his estate. Opium Poppy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What now illegal crop did George Washington grow on his estate. Coca",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What now illegal crop did George Washington grow on his estate. Hemp",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As a planter of tobacco and wheat at Mount Vernon, Washington owned many slaves.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Between 1764 and 1766, he sought to diversify his holdings: he changed Mount Vernon's primary cash crop from tobacco to wheat and expanded operations to include flour milling and hemp farming.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "George Washington pushed for the growth of hemp as it was a cash crop commonly used to make rope and fabric.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In subsequent days, he describes soaking the hemp (to make the fibers usable) and harvesting the seeds, suggesting that he was growing hemp for industrial purposes, not recreational.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

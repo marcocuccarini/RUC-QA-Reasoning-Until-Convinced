@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process during which cells use oxygen to release stored energy.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Respiration is the process during which cells use oxygen to release stored energy.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Circulation is the process during which cells use oxygen to release stored energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Digestion is the process during which cells use oxygen to release stored energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cellular respiration is the process of oxidizing biological fuels using an inorganic electron acceptor, such as oxygen, to drive production of adenosine triphosphate (ATP)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Anaerobic respiration uses inorganic molecules other than oxygen as final electron acceptors",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Aerobic respiration requires oxygen (O2) in order to create ATP",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The most common oxidizing agent is molecular oxygen (O2)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

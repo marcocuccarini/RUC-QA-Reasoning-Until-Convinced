@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Marat, Robespierre, Danton are names associated with what event at the end of the 18th century. French Uprising",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Marat, Robespierre, Danton are names associated with what event at the end of the 18th century. European Enlightenment",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Marat, Robespierre, Danton are names associated with what event at the end of the 18th century. Reign of Terror",
+      "strength": 0.8460569052668154
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Marat, Robespierre, Danton are names associated with what event at the end of the 18th century. Révolution",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Terror concluded with the fall of Robespierre and his alleged allies in July 1794, in what is known as the Thermidorian Reaction.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Convention shut down the Paris Bourse and banned all commerce in precious metals, under penalties.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Danton was arrested and executed on 5 April with Camille Desmoulins, after a show trial that arguably did more damage to Robespierre than any other act in this period.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "From March to July, executions in Paris increased from 5 to 26 per day.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

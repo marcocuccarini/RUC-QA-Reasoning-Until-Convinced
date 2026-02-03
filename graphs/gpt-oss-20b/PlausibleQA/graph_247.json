@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What would Kevin Scale have been called if it had adopted the originator's first name. Kelvin Scale",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What would Kevin Scale have been called if it had adopted the originator's first name. Thomson Scale",
+      "strength": 0.431105896998024
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What would Kevin Scale have been called if it had adopted the originator's first name. Lord Scale",
+      "strength": 0.43103429073836613
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What would Kevin Scale have been called if it had adopted the originator's first name. William Scale",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 19th century British scientist Lord Kelvin first developed and proposed the scale.",
+      "strength": 0.4000000408816272
+    },
+    "A5": {
+      "type": "argument",
+      "text": "William Thomson published a paper on an absolute thermometric scale in October 1848.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "William Thomson published a paper on the dynamical theory of heat with numerical results deduced from Mr Joule's equivalent of a thermal unit, and M. Regnault's observations on steam in March 1851.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The scale was named after Lord Kelvin, not William Thomson.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "He invented the current balance, also known as the Kelvin balance or Ampere balance (SiC), for the precise specification of the ampere, the standard unit of electric current.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where do the florida marlins have spring training. Jupiter Stadium",
+      "strength": 0.5999999717616569
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where do the florida marlins have spring training. Fort Lauderdale Stadium",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where do the florida marlins have spring training. Miami Stadium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where do the florida marlins have spring training. Roger Dean Stadium",
+      "strength": 0.7736521056293675
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Roger Dean Stadium is located in the Abacoa community of the town of Jupiter, Florida.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Roger Dean Stadium is one of only two stadiums in Florida to host two Major League Baseball teams annually for spring training: the Miami Marlins and St. Louis Cardinals.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Roger Dean Stadium is the spring training ballpark for the Miami Marlins.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Roger Dean Stadium is the spring training ballpark for the St. Louis Cardinals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

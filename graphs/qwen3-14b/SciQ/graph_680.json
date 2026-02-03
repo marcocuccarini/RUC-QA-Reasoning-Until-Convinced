@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deciduous trees are the type of tree dominant in temperate forests.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vines are the type of tree that is dominant in temperate forests.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fungus is the type of tree that is dominant in temperate forests.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Shrubs are the type of tree that is dominant in temperate forests.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the Northern Hemisphere, characteristic dominant broadleaf trees in this biome include oaks (Quercus spp.), beeches (Fagus spp.), and spruces (Picea spp.), maples (Acer spp.), or birches (Betula spp.).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In some areas of this biome, the conifers may be a more important canopy species than the broadleaf species.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Deciduous forests are composed mainly of broadleaf trees, such as maple and oak, that shed all their leaves during one season.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

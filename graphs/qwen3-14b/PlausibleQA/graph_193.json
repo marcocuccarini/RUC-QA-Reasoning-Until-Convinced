@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the film ‘High Noon’, who has sworn to kill Will Kane (Gary Cooper). Ben Miller",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the film ‘High Noon’, who has sworn to kill Will Kane (Gary Cooper). Jack Colby",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the film ‘High Noon’, who has sworn to kill Will Kane (Gary Cooper). Frank Goran",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the film ‘High Noon’, who has sworn to kill Will Kane (Gary Cooper). Frak miller",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Frank Miller is the outlaw whom Kane sent to prison, and his gang—his younger brother Ben, Jack Colby, and Jim Pierce—wait at the station.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ben is Frank Miller's younger brother, Jack Colby, and Jim Pierce wait at the station.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

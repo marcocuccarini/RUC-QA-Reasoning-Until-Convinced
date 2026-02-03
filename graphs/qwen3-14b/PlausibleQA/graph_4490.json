@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Federal Republic",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Constitutional Monarchy",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Parliamentary Democracy",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Unitary state",
+      "strength": 0.5999999626370065
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sweden is a constitutional monarchy and a parliamentary democracy",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sweden is a unitary state",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The government operates as a collegial body with collective responsibility.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The prime minister is nominated by the Speaker of the Riksdag, and is elected and discharged by vote of the Riksdag.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

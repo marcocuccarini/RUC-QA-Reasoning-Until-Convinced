@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "All planets can support life; moons cannot, which is the main difference between planets and moons in our solar system.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "All planets have atmospheres; moons do not, is the main difference between planets and moons in our solar system.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "All planets orbit the Sun; all moons orbit planets is the main difference between planets and moons in our solar system.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "All planets are larger than all moons is the main difference between planets and moons in our solar system.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Titan is the only satellite in the Solar System to have a substantial atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Phobos is Mars's inner moon. It is a small, irregularly shaped object with a mean radius of 11 km (7 mi).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The heliocentric model described the Earth, along with all of the other planets as being astronomical bodies which orbited the Sun located in the center of the Solar System.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

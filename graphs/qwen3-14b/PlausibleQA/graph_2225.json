@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which motor company owns the truck maker, Scania. Volkswagen",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which motor company owns the truck maker, Scania. Daimler",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which motor company owns the truck maker, Scania. Volvo",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which motor company owns the truck maker, Scania. SAAB",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Scania is a subsidiary of Traton, part of the Volkswagen Group.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 7 August 1999, Volvo announced it had agreed to acquire a majority share in Scania. The acquisition, for US$7.5 billion (60.7 billion SEK), would have created the world's second-largest manufacturer of heavy trucks, behind DaimlerChrysler.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

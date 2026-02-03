@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the common name of the Boeing CH47 Helicopter. Chinook",
+      "strength": 0.8460569060140877
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the common name of the Boeing CH47 Helicopter. Heavy Lift",
+      "strength": 0.5999999630087745
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the common name of the Boeing CH47 Helicopter. Twin Rotor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the common name of the Boeing CH47 Helicopter. C̓inúk",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Boeing CH-47 is named 'Chinook' after the Chinook people of the Pacific Northwest.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Boeing CH-47 Chinook is a heavy-lift helicopter.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Model 234 Chinook history pages on Boeing.com",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "CH-47A/B/C, ACH-47A, CH-47D/F and CH-47 Chinook pages on Army.mil",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the four main languages spoken in spain. Spanish",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the four main languages spoken in spain. Catalan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the four main languages spoken in spain. Galician",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the four main languages spoken in spain. Basque Language",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Spanish is the official language of Spain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Spanish Constitution of 1978 uses the term castellano to define the official language of the whole of Spain, in contrast to las demás lenguas españolas (lit. 'the other Spanish languages').",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the TV series 'Friends', what is 'rachel's' surname. Geller",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the TV series 'Friends', what is 'rachel's' surname. Buffay",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the TV series 'Friends', what is 'rachel's' surname. Tribbiani",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the TV series 'Friends', what is 'rachel's' surname. GREEN",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rachel Green is introduced in the pilot episode of Friends as a runaway bride who leaves her fiancé, Barry Farber, at the altar, and seeks refuge with her childhood friend Monica Geller in New York City.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rachel is considered to be Aniston's breakout role, credited with making her the show's most famous cast member and for spawning her successful film career.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

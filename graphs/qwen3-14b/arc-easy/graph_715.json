@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The nervous system is most likely related to a problem causing a lack of control in the muscular system.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The immune system is the organ system most likely related to a lack of control in the muscular system.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Excretory is the organ system most likely related to a problem that causes lack of control in the muscular system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Digestive is the organ system most likely related to a problem when there is a lack of control in the muscular system.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The primary function of the nervous system is to control the body by extracting information from the environment using sensory receptors, sending signals that encode this information into the central nervous system, processing the information to determine an appropriate response, and sending output signals to muscles or glands to activate the response.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The interneurons excite the motor neurons, and if the excitation is strong enough, some of the motor neurons generate action potentials, which travel down their axons to the point where they make excitatory synaptic contacts with muscle cells. The excitatory signals induce contraction of the muscle cells, which causes the joint angles in the arm to change, pulling the arm away.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

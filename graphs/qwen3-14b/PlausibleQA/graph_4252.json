@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of company is 'Dunder Mifflin' in the US version of 'The Office'. Office Furniture",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of company is 'Dunder Mifflin' in the US version of 'The Office'. Printing Services",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of company is 'Dunder Mifflin' in the US version of 'The Office'. IT Consulting",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of company is 'Dunder Mifflin' in the US version of 'The Office'. Paper",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dunder Mifflin Paper Company, Inc. is a fictional paper and office supplies wholesale company",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The company was founded in 1949 by Robert Dunder and Robert Mifflin, initially to sell brackets for use in construction",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

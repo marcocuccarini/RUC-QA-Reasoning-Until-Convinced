@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon must be full is a necessary condition for a lunar eclipse to occur.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon must be waxing is a necessary condition for a lunar eclipse to occur.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It must be the beginning of the month is a necessary condition for a lunar eclipse to occur.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It must be winter in the Northern Hemisphere is a necessary condition for a lunar eclipse to occur.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lunar eclipses happen only during a full moon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A lunar eclipse does not occur every month because the Moon's orbit is inclined 5.145° with respect to the ecliptic plane of Earth; thus, the Moon usually passes north or south of Earth's shadow, which is mostly restricted to this plane of reference.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

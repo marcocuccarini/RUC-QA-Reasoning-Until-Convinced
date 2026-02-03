@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of animal is a dik-dik. Gazelle",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of animal is a dik-dik. Rodent",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of animal is a dik-dik. Cheetah",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of animal is a dik-dik. Antelope",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The dik-diks are four species of small antelope in the genus Madoqua",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dik-diks are herbivores. Their diet mainly consists of foliage, shoots, fruit and berries, but little or no grass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

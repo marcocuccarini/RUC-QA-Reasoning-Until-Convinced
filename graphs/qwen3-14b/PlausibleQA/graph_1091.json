@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who are the senators of hawaii 2012. Daniel Inouye",
+      "strength": 0.749908253488935
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who are the senators of hawaii 2012. Daniel Akaka",
+      "strength": 0.599938874723849
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who are the senators of hawaii 2012. Mazie Hirono",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who are the senators of hawaii 2012. Hiram Fong",
+      "strength": 0.4000000585968386
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Daniel K. Inouye was Hawaii's longest-serving senator from 1963 to 2012.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hawaii's current U.S. senators are Democrats Brian Schatz and Mazie Hirono.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sen. Daniel Akaka of Hawaii called Inouye 'the man who changed the islands forever'",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Inouye was the second-longest-tenured U.S. senator in history (behind Robert Byrd) and served in the Senate for 49 years",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

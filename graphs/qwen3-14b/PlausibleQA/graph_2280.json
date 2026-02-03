@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the capital of republic of ireland. Cork",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the capital of republic of ireland. Galway",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the capital of republic of ireland. Limerick",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the capital of republic of ireland. Dublin",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dublin is the capital and largest city of Ireland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Following the partition of Ireland in 1922, it became the capital of the Irish Free State (1922–1937) and is now the capital of Ireland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who's missing: Inky, Pinky, and Sue. Clyde",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who's missing: Inky, Pinky, and Sue. Pac-Man",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who's missing: Inky, Pinky, and Sue. Ms. Pac-Man",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who's missing: Inky, Pinky, and Sue. Blinky",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The orange ghost is called Sue, rather than Clyde; her color was later changed to purple in Pac-Land to differentiate her.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Inky (cyan) and Sue (orange) still use the same movement patterns from the previous game to their respective corners, again until the first reversal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

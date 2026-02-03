@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the capital of the province of Manitoba, Canada. Winnipeg",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the capital of the province of Manitoba, Canada. Brandon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the capital of the province of Manitoba, Canada. Selkirk",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the capital of the province of Manitoba, Canada. WPG",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Winnipeg is the capital and largest city of the Canadian province of Manitoba.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Winnipeg was incorporated as a city, with the Selkirk settlement as its nucleus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

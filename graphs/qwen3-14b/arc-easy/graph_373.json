@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mars has a warmer average surface temperature than Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Moon has a warmer average surface temperature than Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pluto has a warmer average surface temperature than Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Venus has a warmer average surface temperature than Earth.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The surface temperatures of Venus are at least 735 K (462 °C; 864 °F). This makes the Venusian surface hotter than Mercury's, even though Venus is nearly twice Mercury's distance from the Sun and thus receives only around a quarter of Mercury's solar irradiance, of 2,600 W/m2 (double that of Earth).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The average surface temperature is 737 K (464 °C; 867 °F), above the critical points of both major constituents and making the surface atmosphere a supercritical fluid of mainly supercritical carbon dioxide and some supercritical nitrogen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

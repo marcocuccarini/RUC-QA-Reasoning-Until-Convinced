@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A tropical plant that grows several feet high, with a large fleshy root that contains an acrid milk juice, poisonous in its natural form, produces from the juice, extracted under pressure and purified, a staple foodstuff called what. Tapioca",
+      "strength": 0.8047694393154906
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A tropical plant that grows several feet high, with a large fleshy root that contains an acrid milk juice, poisonous in its natural form, produces from the juice, extracted under pressure and purified, a staple foodstuff called what. Yuca",
+      "strength": 0.5999999999912556
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A tropical plant that grows several feet high, with a large fleshy root that contains an acrid milk juice, poisonous in its natural form, produces from the juice, extracted under pressure and purified, a staple foodstuff called what. Manioc",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A tropical plant that grows several feet high, with a large fleshy root that contains an acrid milk juice, poisonous in its natural form, produces from the juice, extracted under pressure and purified, a staple foodstuff called what. Casave",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Manihot esculenta, commonly called cassava, manioc, or yuca (among numerous regional names), is a woody shrub.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cassava starch, called tapioca, is used for food, animal feed, and industrial purposes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Cassava is the third-largest source of carbohydrates in food in the tropics, after rice and maize, making it an important staple; more than 500 million people depend on it.",
+      "strength": 0.7499409008703515
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Brazilian farofa, and the related garri of West Africa, is an edible coarse flour obtained by grating cassava roots.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Cassava is predominantly consumed in boiled form, but substantial quantities are processed to extract cassava starch, called tapioca, which is used for food, animal feed, and industrial purposes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    }
+  ]
+}

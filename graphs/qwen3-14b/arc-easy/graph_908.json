@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The stars are revolving around the Sun, which causes us to see different stars in the sky at different times of the year.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon is revolving around Earth, explaining why we see different stars in the sky at different times of the year.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth is revolving around the Sun, which causes us to see different stars in the sky at different times of the year.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The stars are revolving around Earth, which explains why we see different stars in the sky at different times of the year.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Because Earth takes one year to orbit the Sun, the apparent position of the Sun takes one year to make a complete circuit of the ecliptic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Sun's movement around the celestial sphere over the course of a year traces out a path along the ecliptic against the background of stars – specifically the Zodiac constellations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

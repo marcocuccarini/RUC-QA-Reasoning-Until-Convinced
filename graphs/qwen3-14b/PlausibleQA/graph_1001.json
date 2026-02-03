@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which modern day motor car company made the World War II Japanese aircraft, the 'Zero'. Mitsubishi",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which modern day motor car company made the World War II Japanese aircraft, the 'Zero'. Toyota",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which modern day motor car company made the World War II Japanese aircraft, the 'Zero'. Honda",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which modern day motor car company made the World War II Japanese aircraft, the 'Zero'. EVLI",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Mitsubishi A6M 'Zero' is a long-range carrier-capable fighter aircraft that was manufactured by Mitsubishi Aircraft Company, which was part of Mitsubishi Heavy Industries.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was operated by the Imperial Japanese Navy (IJN) from 1940 to 1945.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mitsubishi Heavy Industries, Ltd. (MHI) is a Japanese multinational engineering, electrical equipment and electronics corporation headquartered in Tokyo, Japan.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "MHI's automobile division is the predecessor of Mitsubishi Motors.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

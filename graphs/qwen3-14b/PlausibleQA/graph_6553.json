@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Las Vegas is situated in which US State. Arizona",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Las Vegas is situated in which US State. California",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Las Vegas is situated in which US State. Utah",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Las Vegas is situated in which US State. Nev.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Las Vegas is the most populous city in the U.S. state of Nevada",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Las Vegas is the largest city in the state of Nevada",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The southern third of Nevada, where the Las Vegas area is situated, is within the Mojave Desert",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

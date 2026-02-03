@@ -1,0 +1,121 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Eric Cartman is a character in which cartoon series. The Simpsons",
+      "strength": 0.11350550308738475
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Eric Cartman is a character in which cartoon series. Family Guy",
+      "strength": 0.11350550308738475
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Eric Cartman is a character in which cartoon series. American Dad",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eric Cartman is a character in which cartoon series. YOTF",
+      "strength": 0.40000003773849835
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eric Theodore Cartman, commonly referred to by just his surname Cartman, is a fictional character in the adult animated sitcom South Park",
+      "strength": 0.8460588618162148
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cartman (as he is commonly referred to) is amoral and increasingly psychopathic, and is commonly portrayed as an antagonist.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The references in the input text only mention South Park and do not refer to The Simpsons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The references in the input text only mention South Park and do not refer to Family Guy.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Eric Cartman first appeared in the 1992 short series The Spirit of Christmas and is voiced by Trey Parker.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Cartman is a South Park fan favorite, and is often described as the most iconic character from the series.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The references in the input text only mention South Park and do not refer to YOTF.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Cartman is one of the series' four main characters, alongside Stan Marsh, Kyle Broflovski, and Kenny McCormick.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "He first appeared with the name Kenny in the short film The Spirit of Christmas (1992).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

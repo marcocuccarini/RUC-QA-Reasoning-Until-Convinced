@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Opera singer Leyla Gencer was born in which European country. Poland",
+      "strength": 0.4000000351871426
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Opera singer Leyla Gencer was born in which European country. Greece",
+      "strength": 0.4000000351871426
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Opera singer Leyla Gencer was born in which European country. Italy",
+      "strength": 0.25008994660329253
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Opera singer Leyla Gencer was born in which European country. Turky",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Leyla Gencer was born in Polonezköy (near Istanbul)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Turkish-Born Soprano and a Popular Star of La Scala, Dies",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Turkish soprano thrived in Italy",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

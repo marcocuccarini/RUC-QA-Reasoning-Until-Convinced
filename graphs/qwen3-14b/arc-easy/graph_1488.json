@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bryophyta are the plant group to which ferns belong, encompassing about 12,000 species of vascular, seedless, flowerless plants that reproduce by spores.",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gymnosperm are ferns that belong to about 12,000 species of vascular, seedless, flowerless plants that reproduce by spores and are grouped in their own division within the plant kingdom.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Angiosperm is the plant group to which ferns belong, a vascular, seedless, flowerless group that reproduces by spores and contains about 12,000 species in its own division within the plant kingdom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pteridophyta are the plant group to which ferns—about 12,000 species of vascular, seedless, flowerless plants that reproduce by spores and belong to their own division within the plant kingdom—belong.",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ferns differ from non-vascular plants (moss Highland, hornworts and liverworts) by having specialized transport bundles that conduct water and nutrients from and to the roots.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pteridophyta is no longer recognised as a valid taxon because it is paraphyletic.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pteridophyta is no longer a widely accepted taxon because it is paraphyletic.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Ferns are vascular plants, whereas Bryophyta are non-vascular.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nephritis is the inflammation of which organ. Pancreas",
+      "strength": 0.36775506923015594
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nephritis is the inflammation of which organ. Liver",
+      "strength": 0.36775506923015594
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nephritis is the inflammation of which organ. Brain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nephritis is the inflammation of which organ. Renal",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nephritis is inflammation of the kidneys",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Interstitial nephritis is inflammation of the area of the kidney known as the renal interstitium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

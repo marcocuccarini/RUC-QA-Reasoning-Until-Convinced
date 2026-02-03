@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What sign of the zodiac is represented by a lion. Aries",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What sign of the zodiac is represented by a lion. Sagittarius",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What sign of the zodiac is represented by a lion. Cancer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What sign of the zodiac is represented by a lion. Leo",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Leo is the fifth sign of the zodiac. It corresponds to the constellation Leo and comes after Cancer and before Virgo.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The constellation Leo is associated with the mythological Nemean lion.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

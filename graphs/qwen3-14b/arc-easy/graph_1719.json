@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The car has a larger mass requiring less force to stop, which explains why it stops in a shorter distance than the truck when both vehicles are traveling at the same speed toward a stop sign.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The car has a smaller mass requiring more force to stop, which explains why it stops in a shorter distance than the truck when both vehicles are traveling at the same speed and approach a stop sign.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The truck has a smaller mass requiring less force to stop in the situation where a car and a truck are traveling at the same speed toward a stop sign, and the car stops in a shorter distance than the truck.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The truck has a larger mass requiring more force to stop, which explains why the car stops in a shorter distance than the truck when both travel at the same speed toward a stop sign.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If one body has much greater mass than the other, its velocity will be little affected by a collision while the other body will experience a large change",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "momentum is conserved in both reference frames",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

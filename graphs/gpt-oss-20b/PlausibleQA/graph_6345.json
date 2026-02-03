@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. Paris",
+      "strength": 0.22634094365912644
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. Berlin",
+      "strength": 0.3676471942104861
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. Amsterdam",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. BEBRU",
+      "strength": 0.5999317671946827
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brussels serves as de facto capital of the European Union (EU), hosting the major political institutions of the Union.",
+      "strength": 0.5999999741920976
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The commission has named one of its central buildings in Brussels after Charlemagne.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Brussels is home to nearly all other major EU institutions",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Parliament's headquarters are officially in Strasbourg, France, and has its administrative offices in Luxembourg City",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

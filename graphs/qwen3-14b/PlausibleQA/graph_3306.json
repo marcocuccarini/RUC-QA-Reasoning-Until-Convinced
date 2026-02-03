@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose 23rd. piano sonata is known as the 'Apassionata'. Franz Liszt",
+      "strength": 0.250093601121179
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose 23rd. piano sonata is known as the 'Apassionata'. Frédéric Chopin",
+      "strength": 0.40006236008863855
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose 23rd. piano sonata is known as the 'Apassionata'. Robert Schumann",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose 23rd. piano sonata is known as the 'Apassionata'. Betoven",
+      "strength": 0.400000060988221
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ludwig van Beethoven's Piano Sonata No. 23 in F minor, Op. 57 is known as the Appassionata.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Piano Sonata No. 23 is by Beethoven",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

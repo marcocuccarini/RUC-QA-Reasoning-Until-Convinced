@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the main character 's name in layer cake. Daniel Plainview",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the main character 's name in layer cake. Jack Carter",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the main character 's name in layer cake. Michael Clayton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the main character 's name in layer cake. XXXX",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Craig's character is unnamed in the film and is listed in the credits as 'XXXX'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The protagonist XXXX (otherwise unnamed) is a London cocaine distributor who abhors violence and operates with the care and professionalism of a legitimate businessman.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

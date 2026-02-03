@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose mistress was Clara Petacci. Adolf Hitler",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose mistress was Clara Petacci. Benito Amilcare Andrea Mussolini's son",
+      "strength": 0.4000000909837343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose mistress was Clara Petacci. Galeazzo Ciano",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose mistress was Clara Petacci. Musilini",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Clara Petacci was a mistress of the Italian dictator Benito Mussolini.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clara Petacci was the mistress of Benito Mussolini while he was married to Rachele Mussolini.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Benito Mussolini was the Italian dictator",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

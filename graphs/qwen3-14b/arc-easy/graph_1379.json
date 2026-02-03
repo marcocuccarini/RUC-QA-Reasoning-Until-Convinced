@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Comparing how the soils are alike is the action a student should most likely take to determine which type of soil holds the most water.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Putting the soils into different groups is the action the student should most likely do to determine which type of soil holds the most water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Recording the weight of the soil is the action the student should most likely do to determine which type of soil holds the most water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Watching how quickly the soil drains is the action a student should most likely do to determine which type of soil holds the most water.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The permeability of coarse sand may be more than one million times as much that of clay.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The coefficient of permeability varies with the void ratio as e/(1+e). For a given soil, the greater the void ratio, the higher the value of the coefficient of permeability.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

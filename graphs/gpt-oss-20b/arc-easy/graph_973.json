@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Waiting to be fed at the aquarium door is the behavior that the octopus most likely learned from its aquarium environment when students visit the aquarium and observe its behavior.",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Catching food using its arms is the behavior that an octopus most likely learned from its aquarium environment when students visit an aquarium and observe its behavior in its tank.",
+      "strength": 0.4999051813262246
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Being more active at night is the behavior the octopus most likely learned from its aquarium environment when students visit an aquarium and watch how it behaves in its tank.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hiding behind rocks is the behavior that the octopus most likely learned from its aquarium environment, as observed by students who visited the aquarium and watched the octopus in its tank.",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Octopuses often break out of aquariums and sometimes into others in search of food.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Octopuses can open jars to get the contents inside.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Some cephalopods are known to use coconut shells for protection or camouflage.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

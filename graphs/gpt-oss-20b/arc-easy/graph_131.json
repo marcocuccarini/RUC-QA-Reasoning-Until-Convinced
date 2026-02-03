@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The object's diameter is the information that will best help scientists determine whether an object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The object's composition is the information that best helps scientists determine whether an object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.749902642362152
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The shape of the object's orbit best helps scientists determine whether an object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.5999999999403536
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The speed at which the object travels is the information that will best help scientists determine whether the object is a comet, an asteroid, or a meteoroid.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Comets are often classified according to the length of their orbital periods: The longer the period the more elongated the ellipse.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The finding is unexpected because comets, not asteroids, are typically considered to sprout jets and plumes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "NEOWISE observed more than 100,000 asteroids of the main belt and determined rough sizes of the majority of observed objects.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The light spectra, combined with trajectory and light curve measurements, have yielded various compositions and densities, ranging from fragile snowball-like objects with density about a quarter that of ice, to nickel-iron rich dense rocks.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The fastest move at about 42 km/s through space in the vicinity of Earth's orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

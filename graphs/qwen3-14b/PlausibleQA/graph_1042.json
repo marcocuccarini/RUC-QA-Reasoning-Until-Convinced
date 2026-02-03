@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the soviet union start and end. On the continent of Asia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the soviet union start and end. In Eastern Europe",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the soviet union start and end. Along the Ural Mountains",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the soviet union start and end. in Eurasia",
+      "strength": 0.7667037478497021
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Union of Soviet Socialist Republics (USSR), commonly known as the Soviet Union, was a transcontinental country that spanned much of Eurasia from 1922 until its dissolution in 1991.",
+      "strength": 0.5690757687603892
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lowering of the Soviet flag on 25 December 1991",
+      "strength": 0.4000418012174884
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Soviet Union formally dissolved on December 26, 1991, ending nearly seven decades of Soviet rule.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Soviet Union was a transcontinental country that spanned much of Eurasia from 1922 until its dissolution in 1991.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

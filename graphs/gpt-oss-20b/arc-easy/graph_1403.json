@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Quasar is the stage that a star enters after running out of most of its hydrogen fuel, becoming hotter and more luminous in its life cycle.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Protostar is the stage a star reaches after it runs out of most of its hydrogen fuel and becomes hotter and more luminous.",
+      "strength": 0.40000004170749087
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Red giant is the stage that a star enters after it runs out of most of its hydrogen fuel, during which it becomes hotter and more luminous.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White dwarf is the stage in a star’s life cycle that occurs after the star runs out of most of its hydrogen fuel and becomes hotter and more luminous.",
+      "strength": 0.39990270502144903
+    },
+    "A4": {
+      "type": "argument",
+      "text": "These become cool helium white dwarfs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During hydrogen shell burning, the star becomes larger and cooler than on the main sequence.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Stars become more luminous, larger and somewhat cooler.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When a star exhausts the hydrogen in its core, it leaves the main sequence and begins to fuse hydrogen in a shell outside the core.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "When a star exhausts its nuclear fuel, its core collapses into a dense white dwarf and the outer layers are expelled as a planetary nebula.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "When the helium core of low‑mass stars becomes degenerate, or the outer layers of intermediate‑mass stars cool sufficiently to become opaque, their hydrogen shells increase in temperature and the stars start to become more luminous.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Stars with less than 0.23 M☉ are predicted to directly become white dwarfs when energy generation by nuclear fusion of hydrogen at their core comes to a halt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

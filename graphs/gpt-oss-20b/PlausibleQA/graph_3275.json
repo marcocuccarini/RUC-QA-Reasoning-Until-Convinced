@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who grows the most coffee in the world. Colombia",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who grows the most coffee in the world. Ethiopia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who grows the most coffee in the world. Vietnam",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who grows the most coffee in the world. Brazil",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In most coffee-growing countries, there is one major harvest a year; though in countries like Colombia, where there are two flowerings a year, there is a main and secondary crop, the main one April to June and a smaller one in November to December.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In most countries, the coffee crop is picked by hand, a labor-intensive and difficult process, though in places like Brazil, where the landscape is relatively flat and the coffee fields are immense, the process has been mechanized.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Brazil has been the world's largest producer of coffee for the last 150 years, currently producing about a third of all coffee.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 2011 Brazil was the world leader in production of green coffee, followed by Vietnam, Indonesia and Colombia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

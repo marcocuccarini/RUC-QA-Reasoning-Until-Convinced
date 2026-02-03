@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the australian dollar called. Aussie Pound",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the australian dollar called. Oz Dollar",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the australian dollar called. Kangaroo Dollar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the australian dollar called. Australian dollar",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Australian dollar (sign: $; code: AUD; also abbreviated A$ or AU$; and also referred to as the dollar or Aussie dollar) is the official currency and legal tender of Australia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Australian dollar was introduced as a decimal currency on 14 February 1966 to replace the non-decimal Australian pound, with the conversion rate of two dollars to the pound (£A1 = A$2).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Molten rocks are formed by the cementation of rock particles that settle at the bottom of the ocean and can continue to be buried by other particles.",
+      "strength": 0.4000000000330637
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Igneous rocks are formed by the process of cementation of rock particles that settle at the bottom of the ocean and continue to be buried by other particles.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sedimentary rocks are formed by the cementation of rock particles that settle at the bottom of the ocean and continue to be buried by other particles.",
+      "strength": 0.5998904449868034
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metamorphic rocks are formed by the cementation of rock particles that settle at the bottom of the ocean and can continue to be buried by other particles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sedimentary rocks are types of rock formed by the cementation of sediments—i.e. particles made of minerals (geological detritus) or organic matter (biological detritus)—that have been accumulated or deposited at Earth's surface.",
+      "strength": 0.5999999655096099
+    },
+    "A5": {
+      "type": "argument",
+      "text": "if buried, they may eventually become sandstone and siltstone (sedimentary rocks) through lithification.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sediments are most often transported by water (fluvial processes), but also wind (aeolian processes) and glaciers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lithification is the process in which sediments compact under pressure, expel connate fluids, and gradually become solid rock.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Lithification includes all the processes which convert unconsolidated sediments into sedimentary rocks.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Cementation occurs as part of the diagenesis or lithification of sediments and occurs primarily below the water table regardless of sedimentary grain sizes present.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Carbonate cements can also be formed by biological organisms such as Sporosarcina pasteurii, which binds sand together given organic compounds and a calcium source (Chou et al., 2010).",
+      "strength": 0.5999610248031491
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Bacterially-Induced Calcite Precipitation via Ureolysis",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "A10",
+      "relation": "support"
+    }
+  ]
+}

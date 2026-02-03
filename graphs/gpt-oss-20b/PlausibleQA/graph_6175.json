@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "First flown on the 27th July 1972, who built the F15 Eagle fighter. Boeing",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "First flown on the 27th July 1972, who built the F15 Eagle fighter. Lockheed Martin",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "First flown on the 27th July 1972, who built the F15 Eagle fighter. Northrop Grumman",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "First flown on the 27th July 1972, who built the F15 Eagle fighter. MDTSC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather fighter aircraft designed by McDonnell Douglas (now part of Boeing).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Following reviews of proposals, the United States Air Force (USAF) selected McDonnell Douglas's design in 1969 to meet the service's need for a dedicated air superiority fighter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

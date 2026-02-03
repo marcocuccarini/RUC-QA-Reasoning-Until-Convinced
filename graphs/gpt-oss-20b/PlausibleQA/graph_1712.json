@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Liverpool player scored two goals in both the semi-final and final of the FA Cup in 1986. Kenny Dalglish",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Liverpool player scored two goals in both the semi-final and final of the FA Cup in 1986. John Aldridge",
+      "strength": 0.27613506428821255
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Liverpool player scored two goals in both the semi-final and final of the FA Cup in 1986. Peter Beardsley",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Liverpool player scored two goals in both the semi-final and final of the FA Cup in 1986. IAN RUSH",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aldridge took the resulting penalty",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "With Wimbledon 1–0 up in the FA Cup final at Wembley",
+      "strength": 0.400045737817203
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Liverpool won the match 3–1",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

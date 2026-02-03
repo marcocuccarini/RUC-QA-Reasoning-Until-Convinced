@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wood burning is an example of a physical change.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Iron rusting is an example of a physical change.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ice melting is an example of a physical change.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Milk souring is an example of a physical change.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Many elements and some compounds change from solids to liquids and from liquids to gases when heated and the reverse when cooled.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Physical changes are changes affecting the form of a chemical substance, but not its chemical composition.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

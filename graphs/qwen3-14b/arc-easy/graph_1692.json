@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Steel is the waste material that will break down most quickly when buried in a landfill.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plastic is the waste material that will break down most quickly when buried in a landfill.",
+      "strength": 0.2500000845185871
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Glass will break down most quickly among the waste materials buried in a landfill.",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Paper is the waste material that will break down most quickly when buried in a landfill.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The chemical structure of most plastics renders them resistant to many natural processes of degradation and as a result they are slow to degrade.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Biodegradable and degradable plastics have been shown not to significantly increase biodegradation in natural environments.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Glass is typically inert, resistant to chemical attack, and can mostly withstand the action of water, making it an ideal material for the manufacture of containers for foodstuffs and most chemicals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

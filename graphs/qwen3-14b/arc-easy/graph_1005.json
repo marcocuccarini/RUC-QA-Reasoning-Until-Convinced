@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An increase in the number of bats is the most likely change in the neighborhood caused by a marsh drying up during a long, hot summer.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A decrease in the number of mosquitoes is most likely caused by a marsh in your neighborhood drying up during a long, hot summer.",
+      "strength": 0.49990516787371453
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An increase in the number of insect‑eating birds is the most likely change in the neighborhood when a marsh in your neighborhood dries up during a long, hot summer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A decrease in the number of Japanese beetles is most likely to result from the marsh in your neighborhood drying up during a long, hot summer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aedes larvae, except when very young, can withstand drying; they go into diapause for several months if their pond dries out.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A few insects such as water scorpions and mosquito larvae have breathing tubes (siphons) with the opening surrounded by hydrofuge hairs, allowing them to breathe without having to leave the water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

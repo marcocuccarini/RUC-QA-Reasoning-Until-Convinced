@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What TV show takes place at the fictional Seattle Grace Hospital. ER",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What TV show takes place at the fictional Seattle Grace Hospital. House M.D.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What TV show takes place at the fictional Seattle Grace Hospital. Scrubs",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What TV show takes place at the fictional Seattle Grace Hospital. Grey's",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Grey's Anatomy is an American medical drama television series focusing on the personal and professional lives of surgical interns, residents, and attendings at the fictional Seattle Grace Hospital (later renamed Seattle Grace Mercy West Hospital, and finally Grey Sloan Memorial Hospital).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rhimes initially considered setting the medical drama in her hometown, Chicago, but ultimately decided on Seattle to distinguish Grey's Anatomy from the Chicago-based series ER.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

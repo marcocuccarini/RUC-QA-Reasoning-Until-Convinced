@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mitochondrion is a structure that a rabbit cell and a bacillus cell have in common.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Capsule is the structure that rabbit cells and bacillus cells have in common.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The nucleus is the structure that a rabbit cell and a bacillus cell have in common.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "DNA is the structure that both a rabbit cell and a bacillus cell possess.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prokaryotes store their DNA only in the cytoplasm, in circular chromosomes, while within eukaryotic cells, DNA is organized into long structures called chromosomes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In prokaryotes, the DNA is held within an irregularly shaped body in the cytoplasm called the nucleoid, while eukaryotic organisms store most of their DNA inside the cell nucleus as nuclear DNA.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

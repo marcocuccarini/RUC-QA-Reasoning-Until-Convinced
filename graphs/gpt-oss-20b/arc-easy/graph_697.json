@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fungi only is the taxonomic group in which the cell could be classified, because its ribosomes are smaller than those found in plants.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Archaea only are the taxonomic group in which a cell whose ribosomes are smaller than those found in plants could be classified.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacteria or archaea are the taxonomic groups in which a cell with ribosomes smaller than those found in plants could be classified.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bacteria or fungi are taxonomic groups in which a cell with ribosomes smaller than those found in plants could be classified.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prokaryotic ribosomes are around 20 nm (200 Å) in diameter and are composed of 65% rRNA and 35% ribosomal proteins. Eukaryotic ribosomes are between 25 and 30 nm (250–300 Å) in diameter with an rRNA-to-protein ratio that is close to 1.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eukaryotes have 80S ribosomes located in their cytosol, each consisting of a small (40S) and large (60S) subunit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

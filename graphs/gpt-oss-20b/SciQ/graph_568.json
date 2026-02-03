@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Quantum numbers are the same sets of four that the first two electrons in lithium, which occupy the 1s orbital, have as the two electrons in helium.",
+      "strength": 0.679903299834264
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Decay numbers are the same sets of four numbers that the first two electrons in lithium fill the 1s orbital with as the two electrons in helium.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity numbers are the same sets of four that the first two electrons in lithium, which fill the 1s orbital, possess as the two electrons in helium.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Kinetic numbers are the sets of four that the first two electrons in lithium, which fill the 1s orbital, share with the two electrons in helium.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "no two electrons in the same atom can have the same values of the four quantum numbers",
+      "strength": 0.7499999999451888
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An orbital can be occupied by a maximum of two electrons, each with its own projection of spin ms.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the ground state of Li is 1s22s.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The K shell fills in the first period (hydrogen and helium), while the L shell fills in the second (lithium to neon).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Each s subshell holds at most 2 electrons.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Pauli principle requires the distribution of these electrons within the atomic orbitals such that no more than two electrons are assigned to any one orbital; this requirement profoundly affects the atomic properties and ultimately the bonding of atoms into molecules.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The first shell is full",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Helium has two electrons in its outermost shell",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

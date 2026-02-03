@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Oligarch",
+      "strength": 0.400000060988221
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Aristocrat",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Capitalist",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Plutocrat",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A plutocracy is a society that is ruled or controlled by people of great wealth or income.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term plutocracy is a specific form of oligarchy where the ruling few are wealthy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2018, Paul Volcker, a former chair of the Federal Reserve, stated he also believed the U.S. to be developing into a plutocracy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

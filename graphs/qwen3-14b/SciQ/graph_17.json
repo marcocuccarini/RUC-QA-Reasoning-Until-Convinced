@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pressure increases when the number of gas molecules in the same volume container increases.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Friction is increased by an increase in the number of gas molecules in the same volume container.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Energy increases when the number of gas molecules in the same volume container increases.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Power increases when the number of gas molecules in the same volume container increases.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ideal gas law relates pressure, volume, and temperature through the equation pV = nRT, where n is the amount of substance. An increase in n, with constant volume and temperature, leads to an increase in pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From the derivation P0 = (1/3)nmv², pressure is directly proportional to the number of molecules (n), assuming velocity (v) and mass (m) are constant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

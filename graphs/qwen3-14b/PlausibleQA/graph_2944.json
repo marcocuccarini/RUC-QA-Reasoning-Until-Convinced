@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "David Tyler is the current chairman of which leading supermarket chain. David Potts",
+      "strength": 0.43092997069582906
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "David Tyler is the current chairman of which leading supermarket chain. Steve Rowe",
+      "strength": 0.43092997069582906
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "David Tyler is the current chairman of which leading supermarket chain. Alan Stewart",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "David Tyler is the current chairman of which leading supermarket chain. SL Shaw",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "March 2015–present: John Allan",
+      "strength": 0.4000393669040914
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In November 2024, Allan Leighton, who had been chief executive from 1996 to 2000, was appointed chairman.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

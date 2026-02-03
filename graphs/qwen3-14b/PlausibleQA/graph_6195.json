@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where would you find the metatarsal bone. Hand",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where would you find the metatarsal bone. Wrist",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where would you find the metatarsal bone. Elbow",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where would you find the metatarsal bone. Foot",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The metatarsal bones or metatarsus (pl. : metatarsi) are a group of five long bones in the midfoot",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The metatarsals are the bones that make up the main part of the foot in humans, and part of the leg in large animals or paw in smaller animals.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The forefoot is composed of five toes and the corresponding five proximal long bones forming the metatarsus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

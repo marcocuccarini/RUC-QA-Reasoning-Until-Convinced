@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the most southerly country of the EU. Greece",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the most southerly country of the EU. Cyprus",
+      "strength": 0.5999030802185815
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the most southerly country of the EU. Italy",
+      "strength": 0.400000000085493
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the most southerly country of the EU. Malta",
+      "strength": 0.400000000085493
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cyprus lies between latitudes 34° and 36° N, and longitudes 32° and 35° E.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Canary Islands off Africa are part of the EU and the Schengen area.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "French Guiana in South America is part of the EU and the eurozone, as is Mayotte, north of Madagascar.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Its European territory extends northeast to Finland, northwest to Ireland, southeast to Cyprus in Asia",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The mildest climate within the European Union occurs in the Spanish island of Gran Canaria (Canary Islands)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Republic of Cyprus, the only internationally recognized government, occupies the southern 60% of the island, and has been a member state of the European Union since 1 May 2004.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

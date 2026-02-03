@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of the older brother of Henry 8th. Edmund",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of the older brother of Henry 8th. Richard",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of the older brother of Henry 8th. Thomas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of the older brother of Henry 8th. Arthur",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "his brother Arthur, Prince of Wales, survived infancy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Arthur died, leaving his younger brother Henry as heir apparent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

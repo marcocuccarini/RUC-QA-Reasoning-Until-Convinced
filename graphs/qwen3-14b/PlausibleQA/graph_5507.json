@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which part of the human body produces insulin. Liver",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which part of the human body produces insulin. Stomach",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which part of the human body produces insulin. Small Intestine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which part of the human body produces insulin. Pâncrea",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The pancreas functions as an endocrine gland, secreting hormones including insulin.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As an endocrine gland, the pancreas secretes insulin to regulate blood sugar levels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

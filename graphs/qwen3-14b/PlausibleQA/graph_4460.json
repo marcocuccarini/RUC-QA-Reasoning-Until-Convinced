@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country won the 2007 FIFA Women's World Cup. Germany",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country won the 2007 FIFA Women's World Cup. United States",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country won the 2007 FIFA Women's World Cup. Brazil",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country won the 2007 FIFA Women's World Cup. Nimska",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tournament ended with Germany defeating Brazil 2–0 in the final, without conceding even a single goal in the entire tournament.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Germans became the first national team in FIFA Women's World Cup history to retain their title.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

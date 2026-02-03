@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Light is the visible part of the electromagnetic spectrum.",
+      "strength": 0.25005620705944237
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Weight is the name for the visible part of the electromagnetic spectrum.",
+      "strength": 0.36775503336800375
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Radio is the visible part of the electromagnetic spectrum.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electricity is the visible part of the electromagnetic spectrum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The optical spectrum is sometimes considered to be the same as the visible spectrum, but some authors define the term more broadly, to include the ultraviolet and infrared parts of the electromagnetic spectrum as well, known collectively as optical radiation.",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Two-photon absorption - a method for seeing outside the visible spectrum",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In physics, the term 'light' may refer more broadly to electromagnetic radiation of any wavelength, whether visible or not. In this sense, gamma rays, X-rays, microwaves and radio waves are also light.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The visible band sits adjacent to the infrared (with longer wavelengths and lower frequencies) and the ultraviolet (with shorter wavelengths and higher frequencies), called collectively optical radiation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

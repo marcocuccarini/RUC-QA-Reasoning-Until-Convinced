@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tennis player Martina Hingis was born in which European country. Germany",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tennis player Martina Hingis was born in which European country. Austria",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tennis player Martina Hingis was born in which European country. Czech Republic",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tennis player Martina Hingis was born in which European country. Suiza",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hingis was born in Košice, Czechoslovakia (now in Slovakia) as Martina Hingisová",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hingis acquired Swiss citizenship through naturalization",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what year did the us hockey team won the olympics. 1980",
+      "strength": 0.7736521061885242
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what year did the us hockey team won the olympics. 1936",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what year did the us hockey team won the olympics. 1948",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what year did the us hockey team won the olympics. 1960",
+      "strength": 0.5999999723208136
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The United States won its first Olympic gold medal and second World Championship.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1980 gold medal is known as the Miracle on Ice.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The United States won its second gold medal",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1999, Sports Illustrated named the 'Miracle on Ice' the top sports moment of the 20th century.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

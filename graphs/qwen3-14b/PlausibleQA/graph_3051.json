@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Producer",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Screenwriter",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Editor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Film Director",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lucas acted as executive producer for the next two Star Wars films",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lucas directed or wrote the story for ten of the 100 highest-grossing movies at the North American box office",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Star Wars (later retitled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lucas finished the screenplay in March 1976, when the crew started filming",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They are both flexible, as shown by the long vine of an ivy plant and the trunk of an oak tree.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They are both stiff, as the long vine of an ivy plant and the trunk of an oak tree share this property.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They both make food for a plant, as both the long vine of an ivy plant and the trunk of an oak tree do.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They both give support to a plant, as the long vine of an ivy plant and the trunk of an oak tree provide structural support.",
+      "strength": 0.15393935007979384
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ivy also blocks the sun from the trees that need it for photosynthesis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Growth away from light allows the vine to reach a tree trunk, which it can then climb to brighter regions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Vines are able to grow in both deep shade and full sun due to their uniquely wide range of phenotypic plasticity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The climbing fetterbush (Pieris phillyreifolia) is a woody shrub-vine which climbs without clinging roots, tendrils, or thorns.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

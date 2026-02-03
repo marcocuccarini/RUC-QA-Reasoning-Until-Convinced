@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Scale is the tool most useful for determining the length and width of a school cafeteria.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A centimeter ruler is the most useful tool for determining the length and width of a school cafeteria.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tape measure is the most useful tool for determining the length and width of a school cafeteria.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A thermometer is the most useful tool for determining the length and width of a school cafeteria.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The use of millimeter only tape measures for housing construction is a part of the US metric building code.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most tapes sold in the United States are inches- and feet-based.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

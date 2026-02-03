@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which German shell-shock victim was taken to Hollywood after the First World War, where he became a star and is said to have died in the arms of Jean Harlow. Erich von Stroheim",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which German shell-shock victim was taken to Hollywood after the First World War, where he became a star and is said to have died in the arms of Jean Harlow. Emil Jannings",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which German shell-shock victim was taken to Hollywood after the First World War, where he became a star and is said to have died in the arms of Jean Harlow. Conrad Veidt",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which German shell-shock victim was taken to Hollywood after the First World War, where he became a star and is said to have died in the arms of Jean Harlow. Rinty",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Emil Jannings (born Theodor Friedrich Emil Janenz; 23 July 1884 – 2 January 1950) was a Swiss-born German actor who was popular in Hollywood films in the 1920s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He died in 1950, aged 65, from liver cancer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Emil Jannings at IMDb.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

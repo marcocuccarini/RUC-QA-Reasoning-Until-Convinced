@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which cartoon and film character is the nickname of super athlete Michael Johnson. Flash",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which cartoon and film character is the nickname of super athlete Michael Johnson. Bolt",
+      "strength": 0.3200001801083417
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which cartoon and film character is the nickname of super athlete Michael Johnson. The Fastest Man Alive",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which cartoon and film character is the nickname of super athlete Michael Johnson. Supes",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bolt has the nickname 'Lightning Bolt' due to his name and speed.",
+      "strength": 0.7499999652919561
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bolt wins the 2009 IAAF World Championships in Athletics men's 100 metres final in 9.58 seconds via IAAF on YouTube",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bolt wins the 2012 Olympic Games men's 100 metres final in 9.63 seconds via the Olympic Channel on YouTube",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Flash is the name of several superheroes appearing in American comic books published by DC Comics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

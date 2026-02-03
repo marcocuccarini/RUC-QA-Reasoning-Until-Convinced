@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "CuO has properties that are different from copper or oxygen, because copper (Cu) reacts with oxygen (O₂) to form copper oxide (CuO).",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Similar to both copper and oxygen, the properties of CuO are most likely.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Copper oxide (CuO) has properties that are most likely similar only to copper.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Similar only to oxygen are the properties of CuO, which is formed when copper reacts with oxygen.",
+      "strength": 0.400000037362994
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Copper(II) oxide reacts with mineral acids such as hydrochloric acid, sulfuric acid, and nitric acid to give the corresponding hydrated copper(II) salts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is incorrectly used as a dietary supplement in animal feed. Due to low bioactivity, negligible copper is absorbed.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Chemical compounds have a unique and defined chemical structure held together in a defined spatial arrangement by chemical bonds.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It follows from their being composed of fixed proportions of two or more types of atoms that chemical compounds can be converted, via chemical reaction, into compounds or substances each having fewer atoms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

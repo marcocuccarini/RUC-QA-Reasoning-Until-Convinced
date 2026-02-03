@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Because Earth rotates, New York had fewer hours of daylight than Florida on January 15th, with 9 hours 37 minutes in New York City versus 10 hours 24 minutes in Jacksonville, Florida.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Because Earth tilts on its axis, New York had 9 hours and 37 minutes of daylight on January 15th, which was fewer than Jacksonville’s 10 hours and 24 minutes of daylight on the same day.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Because gravity pulls Earth toward the Sun, New York had fewer hours of daylight than Florida on January 15th, where Jacksonville experienced 10 hours 24 minutes of daylight and New York City experienced 9 hours 37 minutes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Because the Moon reflects sunlight onto Earth, New York City had 9 hours and 37 minutes of daylight on January 15th, which is fewer than Jacksonville, Florida’s 10 hours and 24 minutes of daylight.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Given that Earth's own axis of rotation is tilted 23.44° to the line perpendicular to its orbital plane, the length of daytime varies with the seasons on the planet's surface, depending on the observer's latitude.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the higher middle latitudes where Montreal, Paris and Ushuaia are located, the difference in the length of the day from summer to winter can be very noticeable: the sky may still be lit at 10 pm in summer, but may be dark at 5 pm in winter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

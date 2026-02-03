@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Tetanus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Gas Gangrene",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Food Poisoning",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Clostridium Botulinum bacteria causes what commonly known but rare human poisoning. Botulism",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Botulism is a rare and potentially fatal illness caused by botulinum toxin, which is produced by the bacterium Clostridium botulinum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Food-borne botulism results from contaminated food in which C. botulinum spores have been allowed to germinate in low-oxygen conditions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "C. botulinum is responsible for food-borne botulism (ingestion of preformed toxin), infant botulism (intestinal infection with toxin-forming C. botulinum), and wound botulism (infection of a wound with C. botulinum).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Human botulism is predominantly caused by group I or II C. botulinum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

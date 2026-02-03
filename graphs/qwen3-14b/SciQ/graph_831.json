@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Atherosclerosis is the term for buildup of cell debris and cholesterol inside the arteries.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fibrosis is the term for buildup of cell debris and cholesterol inside arteries.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Phimosis is the term for buildup of cell debris and cholesterol inside the arteries.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sclerosis is the term for buildup of cell debris and cholesterol inside the arteries.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Atherosclerosis is a pattern of the disease arteriosclerosis, characterized by development of abnormalities called lesions in walls of arteries. This is a chronic inflammatory disease involving many different cell types and is driven by elevated blood levels of cholesterol.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The core consists of lipid-laden cells (macrophages and smooth muscle cells) with elevated tissue cholesterol and cholesterol ester content, fibrin, proteoglycans, collagen, elastin, and cellular debris.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

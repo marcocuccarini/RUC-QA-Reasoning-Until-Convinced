@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Ottawa Senators",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Toronto Maple Leafs",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Detroit Red Wings",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Nashville Predators",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fisher was drafted by the Senators in the second round, 44th overall, in the 1998 NHL Entry Draft.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On February 10, 2011, Fisher was traded to the Nashville Predators.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On September 7, 2016, the Predators announced Mike Fisher would replace Weber as the sixth captain of the club.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

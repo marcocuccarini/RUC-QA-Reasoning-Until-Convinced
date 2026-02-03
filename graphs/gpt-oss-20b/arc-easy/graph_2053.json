@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It kills cancer cells is a benefit of using radiation as a medical treatment.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It produces healthy cells is a benefit of using radiation as a medical treatment.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It improves immune system function is a benefit of using radiation as a medical treatment.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It prevents many forms of illness in patients is a benefit of using radiation as a medical treatment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Radiation therapy works by damaging the DNA of cancer cells and can cause them to undergo mitotic catastrophe.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Radiation therapy (RT) is in itself painless, but has iatrogenic side effect risks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

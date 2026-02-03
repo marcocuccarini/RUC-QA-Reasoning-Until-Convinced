@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rotation of Earth on its axis causes wind.",
+      "strength": 0.5999999999913427
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Movement of air from water to land is an action that causes wind.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Uneven heating of Earth's surface causes wind.",
+      "strength": 0.6798945095507881
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Air passing Earth as it revolves around the Sun causes wind.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wind is caused by differences in atmospheric pressure, which are primarily due to temperature differences.",
+      "strength": 0.7499634512206125
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The two main causes of large-scale atmospheric circulation are the differential heating between the equator and the poles, and the rotation of the planet.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pressure is proportional to temperature and inversely related to humidity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Test showing a can being crushed after boiling water inside it, then moving it into a tub of ice-cold water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

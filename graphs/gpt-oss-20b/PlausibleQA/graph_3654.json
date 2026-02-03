@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The cup, or bowl, Jesus was said to have used at the Last Supper is known as ‘The Holy ‘what’. Chalice",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The cup, or bowl, Jesus was said to have used at the Last Supper is known as ‘The Holy ‘what’. Vessel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The cup, or bowl, Jesus was said to have used at the Last Supper is known as ‘The Holy ‘what’. Calix",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The cup, or bowl, Jesus was said to have used at the Last Supper is known as ‘The Holy ‘what’. Grail",
+      "strength": 0.5000648428318698
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Christian tradition, the Holy Chalice is the vessel which Jesus used at the Last Supper to serve the wine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The vessel is known as the Holy Grail.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Sant Calze, an agate cup in the Cathedral of Valencia, is claimed to be the Holy Chalice.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "No reliable tradition has been preserved to us regarding the vessel used by Christ at the Last Supper.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

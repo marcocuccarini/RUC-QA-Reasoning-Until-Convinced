@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Martin Freeman",
+      "strength": 0.5000968269597157
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Elijah Wood",
+      "strength": 0.40000000005964637
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Viggo Mortensen",
+      "strength": 0.2500000933900436
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who played bilbo in lord of the rings. Ian Holm",
+      "strength": 0.5999999999999427
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ian Holm portrayed the elderly Bilbo Baggins in Peter Jackson's The Lord of the Rings film trilogy",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Martin Freeman portrayed the young Bilbo in those films",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the 1955–1956 BBC Radio serialization of The Lord of the Rings, Bilbo was played by Felix Felton.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "They approached Viggo Mortensen, but also spoke to Russell Crowe (who auditioned for Boromir previously), as a backup choice.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "shared with Martin Freeman for his portrayal of the same character in The Hobbit films",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

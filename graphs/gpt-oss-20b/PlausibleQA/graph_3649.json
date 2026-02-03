@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British monarch was the first Head of the Commonwealth. George V",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British monarch was the first Head of the Commonwealth. Edward VIII",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British monarch was the first Head of the Commonwealth. George VI",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British monarch was the first Head of the Commonwealth. GVIR",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "George VI was the last Emperor of India from 1936 until the British Raj was dissolved in August 1947, and the first Head of the Commonwealth following the London Declaration of 1949.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "George VI was the first Head of the Commonwealth following the London Declaration of 1949.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

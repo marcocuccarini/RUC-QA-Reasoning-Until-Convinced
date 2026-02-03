@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Doctor",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Professor",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Surgeon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The traditional 'badge of honour/honor' title for a fully qualified surgeon/medical consultant is. Mr",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The status and rank of consultant surgeons, addressed as 'Mister' or 'Ms.', and consultant physicians, addressed as 'Doctor', is equivalent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Surgeons do not use the title of Dr and, due to the origins of surgery with the barber surgeons, instead use Mr, Mrs, Ms, Miss, etc.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

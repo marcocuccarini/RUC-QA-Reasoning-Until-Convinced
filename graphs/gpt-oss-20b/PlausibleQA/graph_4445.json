@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. Mitt Romney",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. Joe Biden",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. Hillary Clinton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. OBAMA",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On November 6, 2012, Obama won 332 electoral votes, exceeding the 270 required for him to be reelected as president.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Obama defeated Republican opponent Mitt Romney and his running mate Paul Ryan in the 2012 presidential election.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

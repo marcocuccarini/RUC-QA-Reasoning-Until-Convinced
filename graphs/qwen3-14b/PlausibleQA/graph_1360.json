@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who wrote the original little red riding hood story. Brothers Grimm",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who wrote the original little red riding hood story. Madame de Villeneuve",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who wrote the original little red riding hood story. Giambattista Basile",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who wrote the original little red riding hood story. Charles Perrault",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Perrault had written 'Little Red Riding Hood' as a warning to readers about strangers preying on young girls walking through the forest.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some of Perrault's versions of old stories influenced the German versions published by the Brothers Grimm more than 100 years later.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

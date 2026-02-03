@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the common name of the cooking ingredient from the hard fat of kidneys and loins of oxen, famously sold under the Atora brand. Tallow",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the common name of the cooking ingredient from the hard fat of kidneys and loins of oxen, famously sold under the Atora brand. Lard",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the common name of the cooking ingredient from the hard fat of kidneys and loins of oxen, famously sold under the Atora brand. Ghee",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the common name of the cooking ingredient from the hard fat of kidneys and loins of oxen, famously sold under the Atora brand. Suet",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Suet is the raw, hard fat of beef, lamb or mutton found around the loins and kidneys.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Suet is rendered into tallow by melting and extended simmering, followed by straining, then cooling.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

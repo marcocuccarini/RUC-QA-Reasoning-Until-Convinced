@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An electron is a particle type that can be identified as being from a specific element.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Atom is the particle type that can be identified as being from a specific element.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Neutron is a particle type that can be identified as being from a specific element.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Proton is the particle type that can be identified as being from a specific element.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The number of protons in the nucleus is the defining property of an element, and is referred to as the atomic number (represented by the symbol Z).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For example, the atomic number of chlorine is 17; this means that each chlorine atom has 17 protons and that all atoms with 17 protons are chlorine atoms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

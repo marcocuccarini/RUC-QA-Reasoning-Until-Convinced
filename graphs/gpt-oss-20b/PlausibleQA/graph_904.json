@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. Keirin Cycling",
+      "strength": 0.5999999641020304
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. Biathlon",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. Modern Pentathlon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. 競輪",
+      "strength": 0.5999999641020304
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Keirin made its debut at the 2000 Summer Olympics in Sydney as a men's event.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The women's event was added for the 2012 Summer Olympics in London.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Called military patrol, the combination of skiing and shooting was contested at the Winter Olympic Games in 1924 and then demonstrated in 1928, 1936, and 1948, during which time Norway and Finland were strong competitors.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1948, the sport was reorganized under the Union Internationale de Pentathlon Moderne et Biathlon and became re-accepted as an Olympic sport in 1955, with widespread popularity within the Soviet and Swedish winter sport circuits.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

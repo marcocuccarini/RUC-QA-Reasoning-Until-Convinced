@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was Chancellor of the Exchequer in Clement Atlee's government from 1947 to 1950. Hugh Dalton",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was Chancellor of the Exchequer in Clement Atlee's government from 1947 to 1950. Ernest Bevin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was Chancellor of the Exchequer in Clement Atlee's government from 1947 to 1950. Herbert Morrison",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was Chancellor of the Exchequer in Clement Atlee's government from 1947 to 1950. STAFFORDCRIPPS",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dalton served as Chancellor of the Exchequer from 1945 to 1947.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sir Stafford Cripps was initially President of the Board of Trade but replaced Dalton as Chancellor of the Exchequer in 1947.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cripps replaced Dalton as Chancellor of the Exchequer in 1947.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

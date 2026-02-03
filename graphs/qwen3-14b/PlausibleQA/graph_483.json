@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is capital city of morocco. Marrakech",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is capital city of morocco. Casablanca",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is capital city of morocco. Fez",
+      "strength": 0.4000000909837343
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is capital city of morocco. Rabat",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rabat is the capital city of Morocco and the country's seventh-largest city with an urban population of approximately 580,000 (2014)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lyautey decided to relocate the country's capital from Fez to Rabat after the riots of 1912 following the Treaty of Fes",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Casablanca is the largest city of Morocco",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

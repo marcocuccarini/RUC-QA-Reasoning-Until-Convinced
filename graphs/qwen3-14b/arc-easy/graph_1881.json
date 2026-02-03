@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Igneous is a rock type that forms from the burial and compression of organism remains by mud.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sedimentary is the type of rock that forms when the remains of organisms are buried by mud and compressed.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Magma is a rock type that forms from organisms dying, their remains becoming buried by mud, and eventually being compressed into rock.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metamorphic is a rock type that forms from the burial and compression of organism remains by mud.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sedimentary rocks are formed by the cementation of sediments—i.e. particles made of minerals (geological detritus) or organic matter (biological detritus)—that have been accumulated or deposited at Earth's surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Coal is formed from vegetation that has removed carbon from the atmosphere and combined it with other elements to build their tissue, this vegetation gets compressed by overlying sediments and undergoes chemical transformation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

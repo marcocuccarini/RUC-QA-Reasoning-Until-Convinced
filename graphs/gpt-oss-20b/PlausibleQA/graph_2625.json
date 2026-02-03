@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many gold medals won by india in 2018 commonwealth games. 25",
+      "strength": 0.37759990388408904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many gold medals won by india in 2018 commonwealth games. 30",
+      "strength": 0.37759990388408904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many gold medals won by india in 2018 commonwealth games. 42",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many gold medals won by india in 2018 commonwealth games. 66",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "With 26 Gold medals and a total of 66 medals, India finished 3rd for the tournament.",
+      "strength": 0.5690469992796773
+    },
+    "A5": {
+      "type": "argument",
+      "text": "India finished third in the medal table.",
+      "strength": 0.40002975286606435
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The host nation India achieved its best performance ever in any sporting event, finishing second overall.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

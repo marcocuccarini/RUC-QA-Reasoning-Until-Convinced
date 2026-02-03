@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Day is the period during which the Moon revolves around Earth about once every day.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Year is the period for the Moon to revolve around Earth about once.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon revolves around Earth about once every week.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Month is the period in which the Moon revolves around Earth about once.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Moon completes an orbit (lunar month) in relation to Earth and the Sun (synodically) every 29.5 days.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon completes an orbit around Earth every 27.3 days.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

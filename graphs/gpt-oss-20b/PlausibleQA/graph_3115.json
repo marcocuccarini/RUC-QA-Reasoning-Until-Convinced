@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how long is one full rotation of the earth. 12 hours",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how long is one full rotation of the earth. 48 hours",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how long is one full rotation of the earth. 30 days",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how long is one full rotation of the earth. about 24 hours",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A sidereal day on Earth is approximately 86164.0905 seconds (23 h 56 min 4.0905 s or 23.9344696 h).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Earth makes one rotation around its axis each sidereal day; during that time it moves a short distance (about 1°) along its orbit around the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

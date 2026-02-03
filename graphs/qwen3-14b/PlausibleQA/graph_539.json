@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the drag queen persona of Thomas Neuwirth, who won in 2014. Conchita Wurst",
+      "strength": 0.6798913923104632
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the drag queen persona of Thomas Neuwirth, who won in 2014. Vera Veranda",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the drag queen persona of Thomas Neuwirth, who won in 2014. Ruby Rhapsody",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the drag queen persona of Thomas Neuwirth, who won in 2014. Tom Neuwirth",
+      "strength": 0.40000001388321754
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thomas 'Tom' Neuwirth is known for his stage persona Conchita Wurst",
+      "strength": 0.7499645112339329
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Thomas Neuwirth's real name is Tom Neuwirth, not his drag persona name",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Media related to Conchita Wurst at Wikimedia Commons",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Conchita Wurst at IMDb",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

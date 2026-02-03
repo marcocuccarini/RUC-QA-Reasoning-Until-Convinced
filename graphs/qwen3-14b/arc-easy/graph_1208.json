@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Perspiration rids the body of excess water, which is the primary role of perspiration in humans.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Perspiration eliminates bacteria from the skin, which is the primary role of perspiration in humans.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Perspiration opens skin pores to absorb more oxygen.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Perspiration helps to maintain a stable body temperature in humans.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eccrine sweat glands under the skin secrete sweat (a fluid containing mostly water with some dissolved ions), which travels up the sweat duct, through the sweat pore and onto the surface of the skin. This causes heat loss via evaporative cooling; however, a lot of essential water is lost.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The hair on the skin lie flat, preventing heat from being trapped by the layer of still air between the hair. This minimizes the gaining of radiant heat, while allowing as much evaporation to occur as the environment will allow.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Oroville Dam is in which US state. US-AZ",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Oroville Dam is in which US state. US-CO",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Oroville Dam is in which US state. US-ID",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Oroville Dam is in which US state. US-CA",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oroville Dam is an earthfill embankment dam on the Feather River east of the city of Oroville, California",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Built by the California Department of Water Resources",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A decrease in sea level is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A decrease in average surface temperatures is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An increase in melting of polar ice caps is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An increase in crustal plate movement is caused by an increase in the amount of greenhouse gases entering Earth's atmosphere, according to most scientists.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The reduction of snow cover and sea ice in the Arctic is another major feedback, this reduces the reflectivity of the Earth's surface in the region and accelerates Arctic warming. This additional warming also contributes to permafrost thawing, which releases methane and CO2 into the atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The primary balancing mechanism is radiative cooling, as Earth's surface gives off more heat to space in response to rising temperature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

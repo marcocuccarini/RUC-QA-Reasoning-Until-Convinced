@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the opposite side from starboard on a ship. Left",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the opposite side from starboard on a ship. Larboard",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the opposite side from starboard on a ship. Aft",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the opposite side from starboard on a ship. Port",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Port and starboard are nautical terms for watercraft and spacecraft, referring respectively to the left and right sides of the vessel, when aboard and facing the bow (front).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The port side is the side to the left of an observer aboard the vessel and facing the bow, towards the direction the vessel is heading when underway in the forward direction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

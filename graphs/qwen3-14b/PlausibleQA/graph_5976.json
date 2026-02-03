@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An analgesic drug is commonly called a. Painkiller",
+      "strength": 0.5999999999162
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An analgesic drug is commonly called a. Pain Reliever",
+      "strength": 0.5999999999162
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An analgesic drug is commonly called a. Opiate",
+      "strength": 0.5999088118033908
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An analgesic drug is commonly called a. Algesic",
+      "strength": 0.40000008741621107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An analgesic drug is also called a pain reliever",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An analgesic drug is also called a painkiller",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An analgesic drug is also called an antalgic",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Opiates with opioid activity are mainly used for pain management",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

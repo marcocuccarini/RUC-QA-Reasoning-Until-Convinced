@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shaking the boxes is the best action for Mrs. Henderson’s class to obtain information about the contents of the five small covered boxes—one holding perfume, one holding dried onions, one holding pine needles, one holding lemon pieces, and one holding a paper towel wetted with vanilla flavoring.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Smelling the boxes is the best way for Mrs. Henderson's class to determine the contents of the five small covered boxes, which hold perfume, dried onions, pine needles, lemon pieces, and a paper towel wetted with vanilla flavoring.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Listening to the boxes is what Mrs. Henderson's class should do to get the best information about what is in each of the five small covered boxes containing perfume, dried onions, pine needles, lemon pieces, and a paper towel wetted with vanilla flavoring.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weighing the boxes is the best way for Mrs. Henderson's class to determine what is in each of the five small covered boxes, which contain perfume, dried onions, pine needles, lemon pieces, and a paper towel wetted with vanilla flavoring.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the average individual is capable of distinguishing over one trillion unique odors.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the ability to distinguish between smells is not analogous to being able to consistently identify them, and that subjects were not typically capable of identifying individual odor stimulants from within the odors the researchers had prepared from multiple odor molecules.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Humans can discriminate between two odorants that differ in concentration by as little as 7%",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The human olfactory system can detect many thousands of scents based on only minute airborne concentrations of a chemical",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

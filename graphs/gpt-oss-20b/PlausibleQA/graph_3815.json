@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did they start adding zinc to pennies. 1864",
+      "strength": 0.25000003470156335
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did they start adding zinc to pennies. 1873",
+      "strength": 0.36775503335434917
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did they start adding zinc to pennies. 1880",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did they start adding zinc to pennies. 1943",
+      "strength": 0.3677550564517861
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1943, zinc-coated steel cents were made for a short time because of war demands for copper.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "United States cents minted after 1982 have been zinc with copper plating.",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Zinc is a major component of U.S. pennies minted after mid-1982.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Zinc toxicity is mostly in the form of the ingestion of U.S. pennies minted after 1982.",
+      "strength": 0.5999625530424765
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The mass and composition of the cent changed to the current copper-plated zinc core in 1982.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Cents minted from 1944 to 1946 were made from salvaged WWII ammunition shells, making a special brass composition to replace the steel cents, but still save material for the war effort, and are more common in circulation than their 1943 counterparts.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "One reported case of chronic ingestion of 425 pennies (over 1 kg of zinc) resulted in death due to gastrointestinal bacterial and fungal sepsis.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "In 1994, 33,200 tonnes (36,600 short tons) of zinc were used to produce 13.6 billion pennies in the United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

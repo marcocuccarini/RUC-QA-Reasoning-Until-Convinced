@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrons are the same number in the nuclei of all atoms of an element.",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Isotopes are atoms of an element that have in their nuclei the same number of protons.",
+      "strength": 0.7499999154971945
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Molecules are the same number in the nuclei of all atoms of an element.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Protons are the same number in the nuclei of all atoms of an element.",
+      "strength": 0.7499999154971945
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The number of neutrons may vary to form different isotopes, and energy levels may differ, resulting in different nuclear isomers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The number of protons in the nucleus is the defining property of an element, and is referred to as the atomic number (represented by the symbol Z).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Isotopes of a given element have the same atomic number (number of protons) and differ in the number of neutrons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Each atomic number identifies a specific element, but not the isotope; an atom of a given element may have a wide range in its number of neutrons.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "An atom is composed of a positively charged nucleus, with a cloud of negatively charged electrons surrounding it, bound together by electrostatic force.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

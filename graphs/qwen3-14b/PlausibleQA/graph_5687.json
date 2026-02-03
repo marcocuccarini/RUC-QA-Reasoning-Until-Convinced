@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Dan Castellaneta",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Christopher Guest",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Michael McKean",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which multi-talented actor played Mr Burns and Derek Smalls. Harry Shearer",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shearer is the voice of Mr. Burns, Waylon Smithers, Ned Flanders, Reverend Lovejoy, Lenny Leonard, Kang, Principal Skinner, Kent Brockman, Otto Mann, and formerly Dr. Hibbert.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Shearer co-created, co-wrote and co-starred in the film This Is Spinal Tap (1984), a hit satirical rockumentary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

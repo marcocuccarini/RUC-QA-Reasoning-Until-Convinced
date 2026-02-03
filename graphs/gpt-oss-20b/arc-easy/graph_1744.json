@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Storing trash bags is the activity that makes the most air pollution.",
+      "strength": 0.2762429066509674
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Reusing trash bags is the activity that makes the most air pollution.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Burning trash bags makes the most air pollution among the listed activities.",
+      "strength": 0.27618017085796703
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Recycling trash bags is the activity that produces the most air pollution.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Incineration plants emitted fewer particles, hydrocarbons and less SO2, HCl, CO and NOx than coal-fired power plants, but more than natural gas–fired power plants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Incineration of municipal solid waste avoids the release of methane.",
+      "strength": 0.4000949096575096
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Open dumps of waste are a common source of air pollution in low-income countries.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "They are stable and benign in sanitary landfills.",
+      "strength": 0.4000000438458796
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Incinerated plastics release a number of toxins in the burning process, including dioxins, furans, mercury, and polychlorinated biphenyls.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Most discarded plastics end up incinerated or in landfills, where they emit methane as they decompose.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Incineration of 1 ton of MSW produces approximately 1 ton of CO2.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "According to Germany's Ministry of the Environment, waste incinerators reduce the amount of some atmospheric pollutants by substituting power produced by coal-fired plants with power from waste-fired plants.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

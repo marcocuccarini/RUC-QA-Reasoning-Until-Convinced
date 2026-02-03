@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which decade was Piltdown man allegedly discovered in Sussex. 1920s",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which decade was Piltdown man allegedly discovered in Sussex. 1900s",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which decade was Piltdown man allegedly discovered in Sussex. 1890s",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which decade was Piltdown man allegedly discovered in Sussex. 1910s",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In February 1912, Dawson contacted Arthur Smith Woodward, Keeper of Geology at the Natural History Museum, stating he had found a section of a human‑like skull in Pleistocene gravel beds near Piltdown, East Sussex.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "1908: Dawson claims discovery of first Piltdown fragments.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bone fragments said to have been collected in 1912 were presented as the fossilised remains of a previously unknown early human, referred to as Piltdown Man.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

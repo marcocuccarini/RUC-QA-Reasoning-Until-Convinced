@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is a nervous disorder whereby a person suddenly falls asleep. Hypersomnia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is a nervous disorder whereby a person suddenly falls asleep. Somnolence",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is a nervous disorder whereby a person suddenly falls asleep. Insomnia-Related Fatigue",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is a nervous disorder whereby a person suddenly falls asleep. Narcelepsy",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Narcolepsy is a chronic neurological disorder that impairs the ability to regulate sleep–wake cycles, and specifically impacts REM (rapid eye movement) sleep.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Narcolepsy type 1 (NT1) can be clinically characterized by symptoms of EDS and cataplexy, and/or will have cerebrospinal fluid (CSF) orexin levels of less than 110 pg/ml.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

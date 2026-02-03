@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon has a thinner atmosphere than Earth is the best explanation of why the Moon revolves around Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon is too large to move away from Earth is the best explanation of why the Moon revolves around Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is attracted by the gravity of Earth is the best explanation for why the Moon revolves around Earth.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Moon has a smaller gravitational force than Earth is the best explanation of why the Moon revolves around Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The strongest gravitational pull on the Moon is towards the Sun, more than twice that towards Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon's trajectory is always convex (as seen when looking Sunward at the entire Sun–Earth–Moon system from a great distance outside Earth–Moon solar orbit), and is nowhere concave (from the same perspective) or looped.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For lunar orbits with altitudes in the 500 to 20,000 km (310 to 12,430 mi) range, the gravity of Earth leads to orbit perturbations.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the gravity of Earth intervenes enough to make lunar orbits unstable at a distance of 690 km (430 mi).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Eamon de Valera founded which Irish political party in 1926. Fianna Gael",
+      "strength": 0.367757003324983
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Eamon de Valera founded which Irish political party in 1926. Clann na Poblachta",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Eamon de Valera founded which Irish political party in 1926. Sinn Féin",
+      "strength": 0.367757003324983
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eamon de Valera founded which Irish political party in 1926. Fine Fail",
+      "strength": 0.5999617965637547
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fianna Fáil was founded by Éamon de Valera, a former leader of Sinn Féin.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In March 1926, with Lemass, Constance Markievicz and others, de Valera formed a new party, Fianna Fáil (The Warriors of Destiny), a party that was to dominate 20th-century Irish politics.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "After the signing of the Anglo-Irish Treaty, de Valera served as the political leader of Anti-Treaty Sinn Féin until 1926, when he, along with many supporters, left the party to set up Fianna Fáil, a new political party which abandoned the policy of abstentionism from Dáil Éireann in favour of republicanising the Irish Free State from within.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

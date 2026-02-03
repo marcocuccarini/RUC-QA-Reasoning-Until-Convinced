@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what country did hitler invaded to start ww2. Poland",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what country did hitler invaded to start ww2. Czechoslovakia",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what country did hitler invaded to start ww2. Denmark",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what country did hitler invaded to start ww2. Austria",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The invasion of Poland, also known as the September Campaign, Polish Campaign, and Polish Defensive War of 1939 (1 September – 6 October 1939), was a joint attack on the Republic of Poland by Nazi Germany, the Slovak Republic, and the Soviet Union, which marked the beginning of World War II.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Poland participated with Germany in the partition of Czechoslovakia that followed the Munich Agreement, although they were not part of the agreement.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

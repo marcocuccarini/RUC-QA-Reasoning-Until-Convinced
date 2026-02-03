@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who dies in transformers revenge of the fallen. Optimus Prime",
+      "strength": 0.7236595295008789
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who dies in transformers revenge of the fallen. Megatron",
+      "strength": 0.5999999999999766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who dies in transformers revenge of the fallen. Bumblebee",
+      "strength": 0.4000000260672763
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who dies in transformers revenge of the fallen. Jetfire",
+      "strength": 0.5999999999999766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Megatron attempts to seize the AllSpark, but Sam Witwicky shoves it into his exposed spark chamber, killing him.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jetfire sacrifices himself to give Optimus his parts, and then Megatron, and the Fallen battle Optimus.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Optimus battles Megatron, Starscream, and Grindor, killing the latter, but is killed by Megatron while defending Sam.",
+      "strength": 0.4000000260672763
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Optimus Prime is brainwashed by Quintessa, Optimus fights on the ship with Bumblebee, the latter regaining his voice, enabling Optimus to remember him and his allies.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Following the battle, he stays with Sam and Mikaela as a guardian and friend.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "When Optimus Prime dies at the hands of the Decepticon super-weapon, the Hydra Cannon",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

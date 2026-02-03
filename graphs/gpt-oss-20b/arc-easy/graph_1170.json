@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The moth populations went extinct in the areas of England where soot from factories had previously increased the percentage of dark‑colored moths, after the soot declined due to pollution laws.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The moth populations migrated south as soot from factories covering the trees in England decreased after pollution laws were enacted.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The percentage of light‑colored moths in the populations decreased in England’s moth species as soot from factories covered the trees in the mid‑1800s, then declined further as soot levels dropped in more recent times due to pollution laws.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The percentage of dark‑colored moths in the populations decreased in these areas after soot from factories covered the trees in the mid‑1800s, and later declined again as soot levels fell due to pollution laws.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "many of the lichens died out, and the trees which peppered moths rested on became blackened by soot, causing most of the light-coloured moths, or typica, to die off due to predation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since then, with improved environmental standards, light-coloured peppered moths have again become common.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Accusations of data fudging and scientific fraud in the case are found to be vacuous.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

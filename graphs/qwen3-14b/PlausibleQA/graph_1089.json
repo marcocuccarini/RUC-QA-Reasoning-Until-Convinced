@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Georges Pompidou",
+      "strength": 0.47058816425414973
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Maurice Couve de Murville",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Pierre Mendès France",
+      "strength": 0.4000374469575233
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Michel Debré",
+      "strength": 0.6322449666612708
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Michel Debré was the first Prime Minister of the French Fifth Republic.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Georges Pompidou replaced Michel Debré as Prime Minister in 1962.",
+      "strength": 0.2500000177604038
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Maurice Couve de Murville was Prime Minister from 1968 to 1969.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Maurice Couve de Murville replaced Georges Pompidou as Prime Minister in 1968.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Pierre Mendès France served as Prime Minister from 1954 to 1955.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Mendès France's government was supported by a coalition including Gaullists, moderate socialists, Christian democrats, and liberal-conservatives.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

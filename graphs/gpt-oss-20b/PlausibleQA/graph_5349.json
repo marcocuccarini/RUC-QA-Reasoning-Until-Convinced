@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What surname connects equestrians Michael, Ellen, William, Robert and John. SMITH",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What surname connects equestrians Michael, Ellen, William, Robert and John. PATTERSON",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What surname connects equestrians Michael, Ellen, William, Robert and John. O'CONNOR",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What surname connects equestrians Michael, Ellen, William, Robert and John. WHITAKER",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Whitaker MBE (born 5 August 1955, Huddersfield) is a British equestrian and Olympian who competes in show jumping.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Whitaker is married to Clare Barr and has three children, including Robert Whitaker.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

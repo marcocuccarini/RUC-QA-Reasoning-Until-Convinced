@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is audrey hepburn from. Brussels",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is audrey hepburn from. Arnhem",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is audrey hepburn from. London",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is audrey hepburn from. Ixelles",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was born on 4 May 1929 at number 48 Rue Keyenveld in Ixelles, a municipality of Brussels, Belgium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She was born into an aristocratic family in Ixelles, Brussels, Belgium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

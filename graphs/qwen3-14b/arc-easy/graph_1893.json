@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Weight of heavy machinery moving over the rocks is another reliable explanation of how the rock formation was changed from its original sedimentary state to a metamorphic one, as determined by a scientist who found the metamorphic formation next to a magma chamber and attributed its transformation to the magma chamber’s temperature.",
+      "strength": 0.49990325872548125
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pressure on the rock formation inside Earth is another reliable explanation of how the rock formation was changed from a sedimentary to a metamorphic rock formation, as the scientist found the metamorphic formation next to a magma chamber and concluded that the magma chamber’s temperature caused the transformation.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A sandstorm that caused the rocks to be eroded is another reliable explanation of how the rock formation, originally sedimentary and now metamorphic near a magma chamber, was changed.",
+      "strength": 0.40000008568525414
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A quick burial of the rocks by tons of volcanic ash is another reliable explanation of how the rock formation—originally sedimentary and found next to a magma chamber, which the scientist determined was transformed into a metamorphic formation by the magma chamber’s temperature—was changed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metamorphic rocks are formed when existing rock is transformed physically or chemically at elevated temperature, without actually melting to any great degree.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The importance of heating in the formation of metamorphic rock was first noted by James Hutton, who wrote that some rock beds of the Scottish Highlands had originally been sedimentary rock but had been transformed by great heat.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Here the rock is subjected to high temperatures and the great pressure caused by the immense weight of the rock layers above.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Contact metamorphism occurs typically around intrusive igneous rocks as a result of the temperature increase caused by the intrusion of magma into cooler country rock.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

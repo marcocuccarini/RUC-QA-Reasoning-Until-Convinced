@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who hosted the 2006 Academy Awards ceremony. Jon Stewart",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who hosted the 2006 Academy Awards ceremony. Ellen DeGeneres",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who hosted the 2006 Academy Awards ceremony. Chris Rock",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who hosted the 2006 Academy Awards ceremony. Tarid",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Actor Jon Stewart hosted the show for the first time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "it was stated that 2005 host Chris Rock would not return to host the show",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Stewart hosted the 78th Academy Awards, which were held March 5, 2006, at the Kodak Theatre in Hollywood.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Stewart returned to host the 80th Academy Awards on February 24, 2008.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city was John Lennon murdered. London",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city was John Lennon murdered. Los Angeles",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city was John Lennon murdered. Chicago",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city was John Lennon murdered. Ny",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lennon was rushed in a police cruiser to the emergency room of Roosevelt Hospital, where he was pronounced dead on arrival at 11:15 p.m. (EST); he was 40 years old.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was shot and killed by Mark David Chapman, three weeks after the album's release.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The murder occurred near the Dakota in New York.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The scene of the shooting was in Central Park, near the Dakota in New York.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

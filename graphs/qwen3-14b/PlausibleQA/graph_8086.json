@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In Roman times what was the occupation of a publican. Tax Collector",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In Roman times what was the occupation of a publican. Innkeeper",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In Roman times what was the occupation of a publican. Customs Officer",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In Roman times what was the occupation of a publican. Exciseman",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Publicans served as tax collectors for the Roman Republic (and later the Roman Empire), farming the taxes of the Roman provinces.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In their official capacity, they often [...] managed the collection of port duties.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

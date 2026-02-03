@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Bobby Charlton",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Bobby Moore",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Geoff Hurst",
+      "strength": 0.5999999414031619
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other. Martin Peters",
+      "strength": 0.7499045116341715
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was the only man to score a hat-trick in a World Cup final until Kylian Mbappé did so in 2022.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "England took the lead with a 78th minute goal from Martin Peters (who was the only player to be booked during the match).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Martin Stanford Peters scored the second of England's four goals in the final against West Germany.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

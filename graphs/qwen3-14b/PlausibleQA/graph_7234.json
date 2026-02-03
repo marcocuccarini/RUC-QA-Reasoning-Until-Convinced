@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city, Chile's second largest, suffered an 8.8 earthquake in 2010. Valparaiso",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city, Chile's second largest, suffered an 8.8 earthquake in 2010. Antofagasta",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city, Chile's second largest, suffered an 8.8 earthquake in 2010. Temuco",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city, Chile's second largest, suffered an 8.8 earthquake in 2010. Concepcion",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to Chile's Seismological Service, Concepción experienced the strongest shaking at MM IX (Violent).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "According to the United States Geological Survey (USGS) the cities experiencing the strongest shaking—VIII (Severe) on the Mercalli intensity scale (MM)—were Concepción, Arauco, and Coronel.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On February 27, 2010, an 8.8 magnitude earthquake struck the city of Concepción, killing more than 521 people and injuring thousands nationwide.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Concepción is the second largest city in Chile by urban area and one of the three major conurbations in the country.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1171 Henry II was the first English king to set foot in an Irish city. Founded by the Vikings in the ninth century, which is Ireland's oldest city. Dublin",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1171 Henry II was the first English king to set foot in an Irish city. Founded by the Vikings in the ninth century, which is Ireland's oldest city. Limerick",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1171 Henry II was the first English king to set foot in an Irish city. Founded by the Vikings in the ninth century, which is Ireland's oldest city. Cork",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1171 Henry II was the first English king to set foot in an Irish city. Founded by the Vikings in the ninth century, which is Ireland's oldest city. WATERFORD",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is the oldest ... city in the Republic of Ireland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "King Henry II of England landed at Waterford in 1171.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

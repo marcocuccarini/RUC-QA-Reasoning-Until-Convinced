@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to someone who starts fires maliciously. Incendiarist",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to someone who starts fires maliciously. Pyromaniac",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to someone who starts fires maliciously. Firebug",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to someone who starts fires maliciously. Arson",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Common synonyms for pyromaniacs in colloquial English include firebug (US) and fire raiser (UK), but these also refer to arsonists.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "classified pyromaniacs do not set fires for financial advantages or for revenge.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pollen and eggs are contained in a plant's flower.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bees and blossoms are contained in a plant's flower.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Seed and leaves are found in the flower of a plant.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bud and stem are contained in a plant's flower.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pollen grains are produced in the microsporangia in the male cone of a conifer or other gymnosperm or in the anthers of an angiosperm flower.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If pollen lands on a compatible pistil or female cone, it germinates, producing a pollen tube that transfers the sperm to the ovule containing the female gametophyte.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

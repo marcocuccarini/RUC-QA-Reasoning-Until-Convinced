@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the Bourne trilogy of books, made into movies starring Matt Damon. Frederick Forsyth",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the Bourne trilogy of books, made into movies starring Matt Damon. Tom Clancy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the Bourne trilogy of books, made into movies starring Matt Damon. John le Carré",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the Bourne trilogy of books, made into movies starring Matt Damon. Robert Ludlum",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Robert Ludlum (May 25, 1927 – March 12, 2001) was an American author of 27 thriller novels, best known as the creator of Jason Bourne from the original The Bourne Trilogy series.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Bourne movies, starring Matt Damon in the title role, have been commercially and critically successful.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

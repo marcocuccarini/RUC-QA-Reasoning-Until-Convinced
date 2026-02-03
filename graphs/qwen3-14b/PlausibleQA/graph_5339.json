@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is sir francis bacon. Scientist",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is sir francis bacon. Statesman",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is sir francis bacon. Lawyer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is sir francis bacon. Philosopher",
+      "strength": 0.5999999626370065
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Francis Bacon was an English philosopher",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Francis Bacon served as Attorney General and Lord Chancellor of England under King James I",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bacon argued for the importance of natural philosophy, guided by the scientific method, and his works remained influential throughout the Scientific Revolution.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "He has been called the father of empiricism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

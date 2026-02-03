@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rainfall levels could decrease is the most likely result of using pesticides on farm crops.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Air temperatures could increase is the most likely result of using pesticides on farm crops.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water sources could become polluted is the most likely result of using pesticides on farm crops.",
+      "strength": 0.7499426582224752
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Caterpillars could become extinct as a result of using pesticides on farm crops.",
+      "strength": 0.6322429966750173
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pesticides are one of the causes of water pollution, and some pesticides were persistent organic pollutants (now banned), which contribute to soil and flower (pollen, nectar) contamination.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pesticide use reduces invertebrate biodiversity in streams, contributes to pollinator decline, destroys habitat (especially for birds), and threatens endangered species.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pesticides were found to pollute every stream and over 90% of wells sampled in a study by the US Geological Survey.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The use of pesticides decreases the general biodiversity in the soil.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

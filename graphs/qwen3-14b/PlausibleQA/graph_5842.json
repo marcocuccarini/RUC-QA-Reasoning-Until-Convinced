@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which brewery makes Lancaster Bomber and Wainwrights fine ale. Adnams Brewery",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which brewery makes Lancaster Bomber and Wainwrights fine ale. Greene King",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which brewery makes Lancaster Bomber and Wainwrights fine ale. Marston's Brewery",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which brewery makes Lancaster Bomber and Wainwrights fine ale. Thwaites",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lancaster Bomber, an ale named after the Avro Lancaster aircraft, has been available at Thwaites' public houses since the Marston acquisition and is now brewed by Marston's, as is Wainwright, another Thwaites beer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In March 2015, Marston's bought all rights to Wainwright and Lancaster Bomber and a short-term license to use the Thwaite brand.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

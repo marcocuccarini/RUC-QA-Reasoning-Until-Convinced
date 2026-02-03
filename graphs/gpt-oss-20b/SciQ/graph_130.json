@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Blood pressure is written as systolic over diastolic.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Blood position is written as systolic over diastolic when recording blood pressure.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fractional pressure is written as systolic over diastolic.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Brain pressure is written as systolic over diastolic.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Blood pressure is usually expressed in terms of the systolic pressure (maximum pressure during one heartbeat) over diastolic pressure (minimum pressure between two heartbeats) in the cardiac cycle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Normal resting blood pressure in an adult is approximately 120 millimetres of mercury (16 kPa) systolic over 80 millimetres of mercury (11 kPa) diastolic, denoted as '120/80 mmHg'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

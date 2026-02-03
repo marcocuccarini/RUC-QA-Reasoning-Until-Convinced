@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Upper atmospheric disturbances cause tides to occur in the oceans at regular times every day.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The tilt of Earth's rotational axis causes tides to occur in the oceans at regular times every day.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Density differences caused by temperature changes are the reason tides occur in the oceans at regular times every day.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The gravitational pull of the Sun and the Moon causes tides to occur in the oceans at regular times every day.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tides are the rise and fall of sea levels caused by the combined effects of the gravitational forces exerted by the Moon (and to a much lesser extent, the Sun) and are also caused by the Earth and Moon orbiting one another.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because the gravitational field created by the Moon weakens with distance from the Moon, it exerts a slightly stronger than average force on the side of the Earth facing the Moon, and a slightly weaker force on the opposite side. The Moon thus tends to 'stretch' the Earth slightly along the line connecting the two bodies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

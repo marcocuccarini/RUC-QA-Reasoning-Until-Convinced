@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Acid is the liquid formed when certain air pollutants dissolve in water droplets in the air.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is the liquid formed when certain air pollutants dissolve in water droplets in the air.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Base is the liquid formed when certain air pollutants dissolve in water droplets in the air.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Citrus is the liquid that certain air pollutants form when they dissolve in water droplets in the air.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the gas phase sulfur dioxide is oxidized to sulfuric acid: SO2 +  0.5 O2  +  H2O → H2SO4",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nitrogen dioxide reacts with hydroxyl radicals to form nitric acid: NO2 + OH· → HNO3",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

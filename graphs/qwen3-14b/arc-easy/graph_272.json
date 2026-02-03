@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It will melt to form liquid water when a large piece of ice is placed on the sidewalk on a warm day.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It will melt to form water vapor when a large piece of ice is placed on the sidewalk on a warm day.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It will freeze to form liquid water is what will happen to a large piece of ice placed on the sidewalk on a warm day.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It will not change at all when a large piece of ice is placed on the sidewalk on a warm day.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At a pressure of one atmosphere (atm), ice melts or water freezes (solidifies) at 0 °C (32 °F)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In addition it is unusual as it becomes significantly less dense as it freezes, though it is not unique in that respect",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

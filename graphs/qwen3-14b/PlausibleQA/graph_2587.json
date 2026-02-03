@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Suu Kyi, who was sentenced to home detention for six years in 2003, is the Leader of the Opposition in which country. Thailand",
+      "strength": 0.4000000585968386
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Suu Kyi, who was sentenced to home detention for six years in 2003, is the Leader of the Opposition in which country. Cambodia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Suu Kyi, who was sentenced to home detention for six years in 2003, is the Leader of the Opposition in which country. Vietnam",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Suu Kyi, who was sentenced to home detention for six years in 2003, is the Leader of the Opposition in which country. Birma",
+      "strength": 0.25009548836582807
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aung San Suu Kyi was arrested on 1 February 2021 after a coup d'état that returned the Tatmadaw to power",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Aung San Suu Kyi was allowed to meet with senior members of her NLD party at the State House",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Aung San Suu Kyi, the former State Counsellor of Myanmar, serves as its leader",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At the football stadium in which city is the 'Baseball Bar and Grill'. Manchester",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At the football stadium in which city is the 'Baseball Bar and Grill'. Liverpool",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "At the football stadium in which city is the 'Baseball Bar and Grill'. Birmingham",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "At the football stadium in which city is the 'Baseball Bar and Grill'. DERBY",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pride Park Stadium is the home of Derby County F.C.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pride Park is a business park on the southern outskirts of the city centre of Derby, England.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

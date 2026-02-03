@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reflects sunlight is why the Moon's surface is visible to an observer on Earth.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Absorbs light from Earth is the reason the Moon's surface is visible to an observer on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon produces its own light, which is why its surface is visible to an observer on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transmits sunlight is why the Moon's surface is visible to an observer on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Moon's albedo is about 0.12, comparable to worn asphalt, making it relatively dark despite its brightness in the night sky.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Light scattering by the regolith causes the Moon to appear much brighter at full moon than at quarter phases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

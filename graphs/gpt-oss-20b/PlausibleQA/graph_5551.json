@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which quadrilateral has one pair of parallel edges of unequal length. Rectangle",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which quadrilateral has one pair of parallel edges of unequal length. Rhombus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which quadrilateral has one pair of parallel edges of unequal length. Parallelogram",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which quadrilateral has one pair of parallel edges of unequal length. Trapezium",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The opposite or facing sides of a parallelogram are of equal length",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A trapezium is a convex quadrilateral which has at least one pair of parallel opposite sides.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A parallelogram is a special case of a trapezium (known as a trapezoid in North America) in which both pairs of opposite sides are parallel and equal in length.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

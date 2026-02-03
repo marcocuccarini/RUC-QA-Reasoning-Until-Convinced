@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Density is the property Kurt is measuring when he determines the amount of fruit juice in the small cup from which he drinks frozen fruit juice.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Height is the property Kurt is measuring when he measures the amount of fruit juice in the cup.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Temperature is the property Kurt is measuring when he drinks frozen fruit juice from a small cup and measures the amount of fruit juice in the cup.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Volume is the property Kurt is measuring when he determines the amount of frozen fruit juice in a small cup.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The volume of a container is generally understood to be the capacity of the container; i.e., the amount of fluid (gas or liquid) that the container could hold, rather than the amount of space the container itself displaces.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Calibrated measuring cups and spoons are adequate for cooking and daily life applications, however, they are not precise enough for laboratories. There, volume of liquids is measured using graduated cylinders, pipettes and volumetric flasks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

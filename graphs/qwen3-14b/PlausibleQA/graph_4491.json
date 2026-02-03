@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What dramatically fictionalised king actually ruled the Scots 1040-57. Duncan I",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What dramatically fictionalised king actually ruled the Scots 1040-57. Kenneth III",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What dramatically fictionalised king actually ruled the Scots 1040-57. Malcolm II",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What dramatically fictionalised king actually ruled the Scots 1040-57. MacBeth",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Duncan I died in 1040",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Malcolm III of Scotland was king from 1058 to 1093",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Macbeth reigned from 1040 to 1057",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Malcolm II reigned until 1034",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

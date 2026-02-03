@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose eighteenth studio album released in March this year is Postcards from Paradise. Paul McCartney",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose eighteenth studio album released in March this year is Postcards from Paradise. Elton John",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose eighteenth studio album released in March this year is Postcards from Paradise. Rod Stewart",
+      "strength": 0.40000008918213564
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose eighteenth studio album released in March this year is Postcards from Paradise. RINGO",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In late 2023, Warner Music announced a new album, Swing Fever, recorded with Jools Holland's Rhythm And Blues Orchestra, for 23 February 2024 release.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The album Postcards from Paradise is the 18th studio album by Paul McCartney, released in March 2024.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

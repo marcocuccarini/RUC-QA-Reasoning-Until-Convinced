@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The stars are revolving around the Sun, which causes us to see different stars in the sky at different times of the year.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon is revolving around Earth, explaining why we see different stars in the sky at different times of the year.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth is revolving around the Sun, which causes us to see different stars in the sky at different times of the year.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The stars are revolving around Earth, which explains why we see different stars in the sky at different times of the year.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Sun appears to move with respect to other stars at a rate of about 1° eastward per solar day.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earth's orbit, also called Earth's revolution, is an ellipse with the Earth–Sun barycenter as one focus with a current eccentricity of 0.0167.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

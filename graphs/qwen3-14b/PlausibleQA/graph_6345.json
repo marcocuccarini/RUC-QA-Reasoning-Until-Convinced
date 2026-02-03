@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. Paris",
+      "strength": 0.19521718850264944
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. Berlin",
+      "strength": 0.19521718855191433
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. Amsterdam",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which city is the ‘de facto capital’ of the European Union. BEBRU",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brussels serves as de facto capital of the European Union (EU), hosting the major political institutions of the Union.",
+      "strength": 0.7499999713215505
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brussels is the de facto capital of the European Union, as it hosts a number of principal EU institutions, including its administrative-legislative, executive-political, and legislative branches",
+      "strength": 0.7499999713143218
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The European Commission's political seat is located in Brussels, with the President's office and meeting room on the 13th floor of the Berlaymont building.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Most MEPs prefer Brussels as a single base. A poll of MEPs found 89% of the respondents wanting a single seat, and 81% preferring Brussels. Another survey found 68% support.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Three quarters of European Parliament sessions now take place at its Brussels hemicycle.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Between 2002 and 2004, the European Council also fixed its seat in the city.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Luxembourg is one of the de facto capitals of the European Union (alongside Brussels, Frankfurt and Strasbourg), as it is the seat of several institutions, including the European Court of Justice.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The energy makes liquid water freeze, as the Sun's released light and heat energy changes water on Earth.",
+      "strength": 0.2500973576378482
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The energy makes water vapor from liquid water as the Sun releases light and heat energy that cause changes on Earth.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The energy makes clouds release rain, which is how the Sun's light and heat energy change water on Earth.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The energy makes water collect into puddles on Earth as a result of the Sun's light and heat energy that cause changes on the planet.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The warming of the ground (and other objects) depends on the absorption of the electromagnetic radiation in the form of heat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Warm air containing evaporated water from the oceans rises, causing atmospheric circulation or convection.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "When the air reaches a high altitude, where the temperature is low, water vapor condenses into clouds, which rain onto the Earth's surface, completing the water cycle.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Heat is absorbed as water transitions from the liquid to the vapor phase through evaporation.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The ocean plays a key role in the water cycle as it is the source of 86% of global evaporation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

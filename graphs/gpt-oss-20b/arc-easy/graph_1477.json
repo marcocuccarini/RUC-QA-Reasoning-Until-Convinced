@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On a space station, astronauts who may spend several months orbiting Earth most likely stay while in space.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In a space shuttle, astronauts most likely stay while spending several months in space orbiting Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On a space probe, some astronauts most likely stay while in space orbiting Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In a lunar module, astronauts most likely stay while they spend several months in space orbiting Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Crew fly expeditions of several months' duration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Oleg Kononenko of Roscosmos holds the record for the longest time spent in space and at the ISS, accumulating nearly 1,111 days in space over the course of five long-duration missions on the ISS (Expedition 17, 30/31, 44/45, 57/58/59 and 69/70/71).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

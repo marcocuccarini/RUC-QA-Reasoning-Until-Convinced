@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decrease is the height of the water when a rock is placed in a graduated cylinder containing water.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increase is the height of the water when a rock is placed in a graduated cylinder containing water.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The height of the water will remain the same when a rock is placed in a graduated cylinder containing water.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Suppose that, when the rock is lowered into the water, it displaces water of weight 3 newtons.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Archimedes' principle states that the buoyant force on an object is equal to the weight of the fluid displaced by the object.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

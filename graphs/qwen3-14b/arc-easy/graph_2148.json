@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The infected animals do not show symptoms, which explains why diseases transmitted through their bites are not considered contagious diseases.",
+      "strength": 0.40000000003273467
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The person in direct contact is the only one infected in diseases transmitted through the bites of infected animals, which is why they are not considered contagious diseases.",
+      "strength": 0.14053020490560664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Humans do not become sick from animal diseases, which is why diseases transmitted through bites of infected animals are not considered contagious.",
+      "strength": 0.4000000530206121
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The diseases are treatable with antibiotics is the reason why diseases transmitted through the bites of infected animals are not considered contagious diseases.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Zoonotic diseases generally refer to diseases of animal origin in which direct or vector mediated animal-to-human transmission is the usual source of human infection. Animal populations are the principal reservoir of the pathogen and horizontal infection in humans is rare.",
+      "strength": 0.5999999469793883
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Infected animals are exceptionally aggressive, may attack without provocation, and exhibit otherwise uncharacteristic behavior.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There are only a small number of recorded cases of human-to-human transmission of rabies, and all occurred through organ transplants.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Rabies is a viral infection spread that is transmitted through exposure to the saliva or brain tissue of an infected animal. The saliva of the infected animal enters a wound or mucous membrane.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Humans do not usually act as primary vectors for zoonotic diseases; however, they contribute to indirect transmission via human travel or trade aiding the spread of vector-borne diseases.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Diseases that can be transmitted by direct contact are called contagious.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

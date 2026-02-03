@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. Sashimi-style Nigiri",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. Yubiwa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. Tataki",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. 刺身",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sashimi (刺身; English:  sə-SHEE-mee, Japanese: [saɕimiꜜ]) is a Japanese delicacy consisting of fresh raw fish or meat sliced into thin pieces and often eaten with soy sauce.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sashimi is popularly served with a dipping sauce (soy sauce) and condiments such as wasabi paste, grated fresh ginger, gari or pickled ginger, grated fresh garlic, or ponzu for meat sashimi, and such garnishes as shiso and shredded daikon radish.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

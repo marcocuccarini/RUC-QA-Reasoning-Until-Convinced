@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Birds are the most commonly called endothermic tetrapod vertebrates.",
+      "strength": 0.5999999999426925
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Insects are the most commonly called endothermic tetrapod vertebrates.",
+      "strength": 0.4000000597805733
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reptiles are endothermic tetrapod vertebrates most commonly called.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mammals are endothermic tetrapod vertebrates most commonly called.",
+      "strength": 0.749902642364491
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Only birds and mammals are considered truly endothermic groups of animals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Amniotes include the only animals apart from insects that further evolved powered flight: the extinct pterosaurs and extant birds and bats.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Nearly all mammals are endothermic ('warm-blooded').",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Reptiles and insects are ectothermic ('cold-blooded').",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

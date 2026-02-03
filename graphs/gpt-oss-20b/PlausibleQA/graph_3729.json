@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the prime minister of india full name. Amit Shah",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the prime minister of india full name. Rahul Gandhi",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the prime minister of india full name. Arvind Kejriwal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the prime minister of india full name. Narendra Modi",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Narendra Damodardas Modi (born 17 September 1950) is an Indian politician who has served as the prime minister of India since 2014.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rahul Gandhi, leader of the opposition in Lok Sabha, claimed widespread electoral fraud and accused the Election Commission of India (ECI) of collusion with the ruling BJP during the 2024 general election.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

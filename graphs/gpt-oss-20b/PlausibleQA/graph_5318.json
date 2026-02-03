@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what continent does armenia belong to. Asia",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what continent does armenia belong to. Europe",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what continent does armenia belong to. Africa",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what continent does armenia belong to. Eurasia",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Armenia, officially the Republic of Armenia, is a landlocked country in the Armenian highlands of West Asia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "While Armenia is geographically located in the South Caucasus, it views itself as part of Europe and is generally considered geopolitically European.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Armenia is located in the southern Caucasus, the region southwest of Russia between the Black Sea and the Caspian Sea.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Armenia is geographically located in the South Caucasus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

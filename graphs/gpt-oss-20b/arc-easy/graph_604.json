@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Weather varies more than climate over a summer.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Climate varies more than weather over a summer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Climate varies, but weather stays the same over a summer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weather and climate vary to the same degree over a summer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Climate is the long-term weather pattern in a region, typically averaged over 30 years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The difference between climate and weather is usefully summarized by the popular phrase 'Climate is what you expect, weather is what you get.'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

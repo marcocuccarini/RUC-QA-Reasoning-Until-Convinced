@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Propulsion is the system that is more highly developed in liquid‑fuel rockets than in solid‑fuel rockets, because liquid rockets can stop burning by preventing the flow of fuel and oxygen into the combustion chamber, whereas solid rockets cannot.",
+      "strength": 0.5999222945446315
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Suspension is more highly developed in liquid fuel rockets than in solid fuel rockets because liquid fuel rockets have separate fuel and oxygen tanks that allow the burning to be stopped by preventing flow into the combustion chamber, whereas solid fuel rockets cannot be stopped once the mixture starts burning.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Control is the system that is more highly developed in liquid fuel rockets than in solid fuel rockets, because liquid rockets have separate fuel and oxygen tanks that allow the flow to be stopped and combustion to be halted, whereas solid rockets cannot be stopped once the mixture begins burning.",
+      "strength": 0.5999222945446315
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Structure is more highly developed in liquid fuel rockets than in solid fuel rockets, because liquid rockets use separate fuel and oxygen tanks that allow the burning to be stopped by preventing flow into the combustion chamber, whereas solid rockets contain a single combustible mixture that cannot be stopped once ignited.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A liquid rocket engine can be shut down and restarted with a suitable ignition system or self-igniting propellant.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The flow of propellant into the combustion chamber can be throttled, allowing control over thrust magnitude throughout the flight.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

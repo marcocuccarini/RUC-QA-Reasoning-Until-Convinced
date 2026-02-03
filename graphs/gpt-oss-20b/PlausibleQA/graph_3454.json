@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what area of science did leonardo da vinci study. Engineer",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what area of science did leonardo da vinci study. Anatomist",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what area of science did leonardo da vinci study. Mathematician",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what area of science did leonardo da vinci study. Writer",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He made over 240 detailed drawings and wrote about 13,000 words toward a treatise on anatomy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In a letter of 1482 to the lord of Milan Ludovico il Moro, he wrote that he could create all sorts of machines both for the protection of a city and for siege.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He made use of his anatomical knowledge in his artwork, making many sketches of skeletal structures, muscles and organs of humans and other vertebrates that he dissected.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

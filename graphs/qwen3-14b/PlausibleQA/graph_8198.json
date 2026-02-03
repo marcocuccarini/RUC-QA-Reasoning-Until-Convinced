@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Ribena",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Lucozade",
+      "strength": 0.25000003759877515
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Irn-Bru",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Vimto",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lucozade was created by William Walker Hunter in 1927 in Newcastle",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lucozade is a glucose and water solution, not a red fruit-juice-based drink",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Vimto was created in 1908 in Manchester by John Noel Nichols",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Vimto is a British mixed fruit soft drink containing the juice of grapes, raspberries, and blackcurrants",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

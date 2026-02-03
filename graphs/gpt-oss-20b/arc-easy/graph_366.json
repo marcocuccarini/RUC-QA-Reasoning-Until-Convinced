@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Exposure to hot weather is the most likely cause of the cough, fever, and sore throat that several students complained of feeling sick with over a two‑week period.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Decrease in physical exercise is the most likely cause of the cough, fever, and sore throat experienced by several students over a two‑week period.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Consumption of bad food is the most likely cause of the students' cough, fever, and sore throat that developed over a two‑week period.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Infection by a virus is the most likely cause of the cough, fever, and sore throat that several students reported over a two‑week period.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Influenza, commonly known as the flu, is an infectious disease caused by influenza viruses.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Symptoms range from mild to severe and often include fever, runny nose, sore throat, muscle pain, headache, coughing, and fatigue.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

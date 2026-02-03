@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. Keirin Cycling",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. Biathlon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. Modern Pentathlon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Olympic event starts using a ?deny'. 競輪",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Keirin is an official event at the 2000 Summer Olympics in Sydney.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pacer in Keirin can be a derny, electric bicycle, or tandem bicycle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

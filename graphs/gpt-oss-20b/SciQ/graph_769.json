@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Yeast is the ingredient that has been used in brewing, winemaking, and baking for thousands of years.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Flour has been used in brewing, winemaking, and baking for thousands of years.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fruit has been used in brewing, winemaking, and baking for thousands of years.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oils have been used in brewing, winemaking, and baking for thousands of years.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vessels studied from several archaeological sites in Israel (dating to around 5,000, 3,000 and 2,500 years ago), which were believed to have contained alcoholic beverages (beer and mead), were found to contain yeast colonies that had survived over the millennia, providing the first direct biological evidence of yeast use in early cultures.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first records that show this use came from Ancient Egypt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

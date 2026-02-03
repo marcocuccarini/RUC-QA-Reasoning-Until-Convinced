@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shivering in cold temperatures is a response of the autonomic nervous system that helps maintain equilibrium in the body.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Eating due to appetite is a response of the autonomic nervous system that helps maintain equilibrium in the body.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Slapping at biting insects is a response of the autonomic nervous system that helps maintain equilibrium in the body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pulling away from hot objects is a response of the autonomic nervous system that helps maintain equilibrium in the body.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When the core body temperature drops, the shivering reflex is triggered to maintain homeostasis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The shiver response may be greatly diminished or even absent in the elderly, resulting in a significant drop in mean deep body temperature upon exposure to cold.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The parasympathetic nervous system stimulates the body to 'feed and breed', which is associated with eating behaviors.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

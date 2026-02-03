@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A landslide is the natural disaster most likely to cause the most widespread damage in a coastal ecosystem.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A tornado is likely to cause the most widespread damage in a coastal ecosystem.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A tsunami is the natural disaster most likely to cause the most widespread damage in a coastal ecosystem.",
+      "strength": 0.5999999402194273
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An earthquake is the natural disaster most likely to cause the most widespread damage in a coastal ecosystem.",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tsunami claimed more than 123,000 lives in Sicily and Calabria and is among the deadliest natural disasters in modern Europe.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1960 Valdivia earthquake (Mw 9.5), 1964 Alaska earthquake (Mw 9.2), 2004 Indian Ocean earthquake (Mw 9.2), and 2011 Tōhoku earthquake (Mw9.0) are recent examples of powerful megathrust earthquakes that generated tsunamis (known as teletsunamis) that can cross entire oceans.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "China was also on top with the highest area affected by landslides with more than 80,000 km2, followed by Canada with 66,000 km2 (1988 Saguenay and 1946 Vancouver Island).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "more deaths in the 1906 San Francisco earthquake were caused by fire than by the earthquake itself.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

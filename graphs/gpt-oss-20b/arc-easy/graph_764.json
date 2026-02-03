@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Some base sequences code for protein production, which is why the particular sequence of bases in a segment of DNA is important to cells.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Some base sequences cause the release of lipids from the nucleus, which is why the particular sequence of bases in a segment of DNA is important to cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Some base sequences contain the order of sugars in polysaccharides, which explains why the particular sequence of bases in a segment of DNA is important to cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Some base sequences produce electrical signals sent to the cytoplasm, which is why the particular sequence of bases in a segment of DNA is important to cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sets of three nucleotides, known as codons, each correspond to a specific amino acid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Transcription produces a single‑stranded RNA molecule known as messenger RNA, whose nucleotide sequence is complementary to the DNA from which it was transcribed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

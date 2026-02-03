@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The amplifier is the part of a hearing aid that functions to detect sounds in the user's environment.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The battery is the part of a small hearing aid, which contains an amplifier, a battery, a microphone, and a speaker, that functions to detect sounds in the user's environment.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The microphone is the part of a small hearing aid device—containing an amplifier, a battery, a microphone, and a speaker—that functions to detect sounds in the user’s environment.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The speaker is the part of a hearing aid— a small device that contains an amplifier, a battery, a microphone, and a speaker— that functions to detect sounds in the user's environment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The external sound was picked up by a microphone positioned in an ITE ear module to take advantage of the acoustic effects of the pinna.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Analogue hearing aids make all the sounds picked up by the microphone louder.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

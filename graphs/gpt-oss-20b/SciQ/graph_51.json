@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbohydrates are the term used to describe organic compounds such as sugars and starches.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fats are the term used to describe organic compounds such as sugars and starches.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Proteins are organic compounds such as sugars and starches.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vegetables are the term used to describe organic compounds such as sugars and starches.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A carbohydrate is a sugar (saccharide) or a sugar derivative.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Polysaccharides serve as an energy store (e.g., starch and glycogen) and as structural components (e.g., cellulose in plants and chitin in arthropods and fungi).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The port of Mocha is in which country. Saudi Arabia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The port of Mocha is in which country. Egypt",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The port of Mocha is in which country. Eritrea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The port of Mocha is in which country. Yemem",
+      "strength": 0.25008470852089776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mokha is a port city on the Red Sea coast of Yemen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mokha was the principal port for Yemen's capital, Sanaa.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

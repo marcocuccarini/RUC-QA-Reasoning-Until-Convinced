@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat energy is the kind of energy into which most of the incoming electrical energy changes when an electric fan is running.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light energy is the kind of energy that most of the incoming electrical energy changes into when an electric fan is running.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mechanical energy is the type of energy into which most of the incoming electrical energy changes when an electric fan is running.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sound energy is the kind of energy that most of the incoming electrical energy changes into when an electric fan is running.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An electric motor is a machine that converts electrical energy into mechanical energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Losses are mainly due to resistive losses in windings, core losses and mechanical losses in bearings, and aerodynamic losses, particularly where cooling fans are present, also occur.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A fan is a powered machine that creates airflow. A fan consists of rotating vanes or blades, generally made of wood, plastic, or metal, which act on the air.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

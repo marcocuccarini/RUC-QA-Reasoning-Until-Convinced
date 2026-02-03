@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Each sedimentary layer of rock represents 1,000 years of Earth's age, much like the rings of a tree, is the statement that best describes the Law of Superposition.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In undisturbed layers of sedimentary rock, the upper rock layers are older than the lower rock layers.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In undisturbed layers of sedimentary rock, the lowest layers contain the older rocks, which best describes the Law of Superposition.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rocks that form near volcanoes are older than surrounding rock is the statement that best describes the Law of Superposition.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In undeformed stratigraphic sequences, the oldest strata will lie at the bottom of the sequence, while newer material stacks upon the surface to form new deposits over time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sedimentary rock that has not been deformed by more than 90° will exhibit the oldest layers on the bottom, thus enabling paleontologists and paleobotanists to identify the relative ages of any fossils found within the strata, with the remains of the most archaic lifeforms confined to the lowest.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metamorphic rocks form when an existing rock is changed by heat or pressure.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Molten rocks form when an existing rock is changed by heat or pressure.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Igneous rocks are the rocks that form when an existing rock is changed by heat or pressure.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sediments are the type of rocks that form when an existing rock is changed by heat or pressure.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metamorphic rocks arise from the transformation of existing rock to new types of rock in a process called metamorphism. The original rock (protolith) is subjected to temperatures greater than 150 to 200 °C (300 to 400 °F) and, often, elevated pressure of 100 megapascals (1,000 bar) or more, causing profound physical or chemical changes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sedimentary rocks form from sediments eroded from existing rock or precipitated chemically from bodies of water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

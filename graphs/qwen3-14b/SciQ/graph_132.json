@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Impermeable rock layers make up the bottom of an aquifer.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Invisible rock layers make up the bottom of an aquifer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Porous rock layers make up the bottom of an aquifer.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crystalline is the type of rock layer that makes up the bottom of an aquifer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aquitards are composed of layers of either clay or non-porous rock with low hydraulic conductivity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A completely impermeable aquitard is called an aquiclude or aquifuge.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

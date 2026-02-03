@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. I",
+      "strength": 0.5999625530424765
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. III",
+      "strength": 0.6322449307698443
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. IV",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. II",
+      "strength": 0.6322449307698443
+    },
+    "A6": {
+      "type": "argument",
+      "text": "grading by classes II, III, and IV",
+      "strength": 0.5999625530424765
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The NYHA functional classes (I–IV) begin with class I, which is defined as a person who experiences no limitation in any activities and has no symptoms from ordinary activities.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "ACC stage C corresponds to NYHA class II and III",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

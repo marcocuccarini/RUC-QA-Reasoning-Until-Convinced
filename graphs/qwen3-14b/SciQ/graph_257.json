@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Exothermic reactions are the type of chemical reactions that release energy.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sulfuric reactions are the type of chemical reactions that release energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Endothermic reactions are the type of chemical reactions that release energy.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Biochemical reactions are the type of chemical reactions that release energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Exothermic reactions usually release heat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The opposite is an endothermic reaction, which usually takes up heat and is driven by an entropy increase in the system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

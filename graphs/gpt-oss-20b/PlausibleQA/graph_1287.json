@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Voluntary",
+      "strength": 0.5000000621606184
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Efferent",
+      "strength": 0.5999999999403536
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Peripheral",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Somatic",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The somatic nervous system controls all voluntary muscular systems within the body.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The somatic nervous system consists of nerves carrying afferent nerve fibers, which relay sensation from the body to the central nervous system (CNS), and nerves carrying efferent nerve fibers, which relay motor commands from the CNS to stimulate muscle contraction.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Somatic motor neurons originate in the central nervous system, project their axons to skeletal muscles (such as the muscles of the limbs, abdominal, and intercostal muscles), which are involved in locomotion.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A motor neuron (or motoneuron), also known as efferent neuron is a neuron that allows for both voluntary and involuntary movements of the body through muscles and glands.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Alpha motor neurons innervate extrafusal muscle fibers, which are the main force-generating component of a muscle.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Their cell bodies are in the ventral horn of the spinal cord.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

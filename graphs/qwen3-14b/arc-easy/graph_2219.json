@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It is drier at night, which is why many desert animals are more active at night.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It is cooler at night, which is why many desert animals are more active at night.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There is less danger at night, which explains why many desert animals are more active at night.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "There is less wind at night, which explains why many desert animals are more active at night.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Avoiding the heat of the day helps desert animals conserve water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nocturnality is a form of crypsis, an adaptation to avoid or enhance predation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During colder periods of the year, night-time temperatures can drop to freezing or below due to the exceptional radiation loss under the clear skies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is the gas B in the cycle in which a tree uses gas A to produce gas B, and an animal uses gas B to produce gas A.",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen is the gas that a tree produces from gas A and that an animal uses to produce gas A in this cycle.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the gas B that a tree produces from gas A and that an animal uses to produce gas A in this cycle.",
+      "strength": 0.5999999365228031
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon monoxide is gas B in this cycle, where a tree uses gas A to produce carbon monoxide and an animal uses carbon monoxide to produce gas A.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oxygen is a waste product of light-dependent reactions, but the majority of organisms on Earth use oxygen and its energy for cellular respiration, including photosynthetic organisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In plants, algae, and cyanobacteria, sugars are synthesized by a subsequent sequence of light-independent reactions called the Calvin cycle. In this process, atmospheric carbon dioxide is incorporated into already existing organic compounds, such as ribulose bisphosphate (RuBP).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Oxygen is a waste product of light-dependent reactions",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

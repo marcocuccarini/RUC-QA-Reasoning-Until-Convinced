@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wavelength is the part of a sound wave that measures loudness.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnitude is the part of a sound wave that measures loudness.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amplitude is the part of a sound wave that measures loudness.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Frequency is the part of a sound wave that measures loudness.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Loudness is the subjective perception of sound pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The perception of loudness is related to sound pressure level (SPL), frequency content and duration of a sound.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Amplitude, sound pressure or Intensity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sound waves are often simplified to a description in terms of sinusoidal plane waves, which are characterized by these generic properties: Frequency, or its inverse, wavelength; Amplitude, sound pressure or Intensity; Speed of sound; Direction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

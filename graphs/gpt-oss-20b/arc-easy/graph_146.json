@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Erosion is the step in the rock cycle that occurs only in the formation of metamorphic rock.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Compaction is the step in the rock cycle that occurs only in the formation of metamorphic rock.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cementation is the step in the rock cycle that occurs only in the formation of metamorphic rock.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Recrystallization is a step in the rock cycle that occurs only in the formation of metamorphic rock.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metamorphic rock is found at the surface only where extensive uplift and erosion has exhumed rock that was formerly much deeper in the crust.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Weathering and erosion break the original rock down into smaller fragments and carry away dissolved material.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "contact metamorphism results in a rock that is altered and re-crystallized by the extreme heat of the magma and/or by the addition of fluids from the magma that add chemicals to the surrounding rock (metasomatism).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

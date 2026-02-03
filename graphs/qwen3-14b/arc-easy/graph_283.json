@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Adelle receiving an artificial hip to ease her arthritis is the surgery most like the way a transgenic organism is made.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kwan receives a pacemaker to regulate his heartbeat is the surgery most like the way a transgenic organism is made.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hector receives a replacement heart valve from a cow is the surgery most like the way a transgenic organism is made, because both involve transferring biological material from one species to another.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Denise receiving a kidney donated by her identical twin is the surgery most like the way a transgenic organism is made.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Transgenesis involves transferring a gene from one organism to another, altering the recipient's genome.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Transgene introduction can replace a host gene with one that codes for a different protein or add an entirely new gene.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nonvascular plants lack tracheids.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vascular plants lack tracheids.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Neither vascular nor nonvascular plants lack tracheids.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Both vascular and nonvascular plants lack tracheids.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The xylem consists of vessels in flowering plants and of tracheids in other vascular plants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Non-vascular plants lack a vascular system consisting of xylem and phloem.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Non-vascular plants cannot become as tall as most vascular plants.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

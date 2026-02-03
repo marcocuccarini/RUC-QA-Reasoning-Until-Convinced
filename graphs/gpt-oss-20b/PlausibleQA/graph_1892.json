@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first Englishman to lead an expedition to circumnavigate the earth by sea, and died of dysentery in the West Indies 16 years later. Thomas Cavendish",
+      "strength": 0.5999123873437223
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first Englishman to lead an expedition to circumnavigate the earth by sea, and died of dysentery in the West Indies 16 years later. George Vancouver",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first Englishman to lead an expedition to circumnavigate the earth by sea, and died of dysentery in the West Indies 16 years later. James Cook",
+      "strength": 0.5999123873437223
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first Englishman to lead an expedition to circumnavigate the earth by sea, and died of dysentery in the West Indies 16 years later. Draque",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cavendish's own successful voyage, between 1586 and 1588, was the first deliberately planned circumnavigation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cavendish later set out for a second raid and circumnavigation but was not as fortunate and died at sea in 1592, at the age of 31.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Thomas Cavendish completed his circumnavigation between 1586 and 1588 in record time—in two years and 49 days.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Captain James Cook became the first navigator to record three circumnavigations through the Pacific aboard the Endeavour from 1769 to 1771 and Resolution from 1772 to 1779.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

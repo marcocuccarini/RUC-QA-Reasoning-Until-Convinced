@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A stream is a body of freshwater that flows downhill in a channel.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A river is a body of freshwater that flows downhill in a channel.",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An eddy is a body of freshwater that flows downhill in a channel.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A creek is a body of freshwater that flows downhill in a channel.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A stream is a continuous body of surface water flowing within the bed and banks of a channel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A river is a large natural stream that is much wider and deeper than a creek and not easily fordable, and may be a navigable waterway.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A river is a natural stream of fresh water that flows on land or inside caves towards another body of water at a lower elevation, such as an ocean, lake, or another river.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Rivers flow downhill, with their direction determined by gravity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

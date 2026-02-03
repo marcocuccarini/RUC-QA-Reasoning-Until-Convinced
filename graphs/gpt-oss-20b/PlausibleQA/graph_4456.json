@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What profession was Jean-Paul Marat, noted for his involvement in the French Revolution at the end of the 18th century. Politician",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What profession was Jean-Paul Marat, noted for his involvement in the French Revolution at the end of the 18th century. Revolutionary Leader",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What profession was Jean-Paul Marat, noted for his involvement in the French Revolution at the end of the 18th century. Physician",
+      "strength": 0.6323528143956261
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What profession was Jean-Paul Marat, noted for his involvement in the French Revolution at the end of the 18th century. Journo",
+      "strength": 0.7499026423982647
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jean-Paul Marat was a French political theorist, physician, and scientist.",
+      "strength": 0.5999999759368713
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jean-Paul Marat was a journalist and politician during the French Revolution.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Marat's (1784) Notions élémentaires d'optique",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "L'Ami du peuple was edited by Jean-Paul Marat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

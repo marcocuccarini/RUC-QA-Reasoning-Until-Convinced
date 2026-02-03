@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who killed Lee harvey Oswald. **CIA Operative**",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who killed Lee harvey Oswald. **FBI Agent**",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who killed Lee harvey Oswald. **Mafia Hitman**",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who killed Lee harvey Oswald. Jack Ruby",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ruby shot and mortally wounded Oswald.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Warren Commission indicated that there was not a 'significant link between Ruby and organized crime' and said Ruby acted independently in killing Oswald.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

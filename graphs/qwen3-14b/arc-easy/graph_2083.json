@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Large eyes give owls an advantage when hunting at night.",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Broad wings give owls an advantage when hunting at night.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Straight beak is the trait that gives owls an advantage when hunting at night.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Smooth feathers give owls an advantage when hunting at night.",
+      "strength": 0.5999999402194273
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Owls are known for their disproportionally large eyes in comparison to their skulls.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Serrated edges on the leading edge of owls' remiges muffle an owl's wing beats, allowing an owl's flight to be practically silent.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the eyes of organisms which operate in low light levels, such as around dawn and dusk or in deep water, tend to be larger to increase the amount of light that can be captured",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

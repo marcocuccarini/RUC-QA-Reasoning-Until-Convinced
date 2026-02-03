@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It bends when light passes from air to water.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It contracts when light passes from air to water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It brightens is what happens to light when it passes from air to water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It speeds up when light passes from air to water.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Refraction occurs when light goes through a water surface since water has a refractive index of 1.33 and air has a refractive index of about 1.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Light slows as it travels through a medium other than vacuum (such as air, glass or water).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

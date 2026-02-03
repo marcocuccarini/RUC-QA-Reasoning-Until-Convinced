@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kinetic energy converted to potential energy is the type of energy conversion in a hybrid car that uses a braking system to recover energy and store it in batteries.",
+      "strength": 0.14054634563861693
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemical energy converted to kinetic energy is the type of energy conversion exemplified by a certain type of hybrid car that uses a braking system in which energy is recovered and stored in batteries.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical energy converted to thermal energy is the type of energy conversion exemplified by a hybrid car that uses a braking system to recover energy and store it in batteries.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermal energy converted to potential energy is the type of energy conversion performed by a hybrid car that utilizes a braking system in which energy is recovered and stored in batteries.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Regenerative braking converts kinetic energy into electrical energy stored in batteries.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electric motors used in reverse convert mechanical energy into electrical energy.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The recovered energy is stored in a reservoir such as a flywheel or high voltage battery.",
+      "strength": 0.5999050903424904
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Water is pumped up to a higher lake, converting electrical energy to gravitational potential energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A7",
+      "relation": "support"
+    }
+  ]
+}

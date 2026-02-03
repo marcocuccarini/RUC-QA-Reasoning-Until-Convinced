@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the only English football team, in the top four divisions, to have a Latin word in its name. AFC Wimbledon",
+      "strength": 0.25008470852089776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the only English football team, in the top four divisions, to have a Latin word in its name. Manchester United",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the only English football team, in the top four divisions, to have a Latin word in its name. Ipswich Town",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the only English football team, in the top four divisions, to have a Latin word in its name. AVFC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "AFC Wimbledon is an English professional association football club based in Wimbledon, London Borough of Merton, London.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The club was founded in 2002 by former supporters of Wimbledon F.C. after the Football Association allowed that club to relocate to Milton Keynes in Buckinghamshire, about 60 miles (97 km) north of Wimbledon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

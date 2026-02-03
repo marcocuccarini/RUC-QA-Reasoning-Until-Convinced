@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stomach, esophagus, large intestine, small intestine is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Small intestine, large intestine, esophagus, stomach is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Esophagus, stomach, large intestine, small intestine is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Esophagus, stomach, small intestine, large intestine is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The gastric phase takes place in the stomach, where the food is further broken down by mixing with gastric juice until it passes into the duodenum, the first part of the small intestine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The cecum receives chyme from the last part of the small intestine, the ileum, and connects to the ascending colon of the large intestine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

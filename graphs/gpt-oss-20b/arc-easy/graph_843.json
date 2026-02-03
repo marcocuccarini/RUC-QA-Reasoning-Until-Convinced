@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun is the primary source of the gravitational pull that causes most tides on Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stars are the celestial bodies whose gravitational pull mostly causes tides on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is the gravitational pull that mostly causes tides on Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Asteroids are the gravitational pull that mostly causes tides on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "While the Moon exerts most of the tidal forces, the Sun also exerts tidal forces and therefore contributes to the tides as much as 40% of the Moon's tidal force; producing in interplay the spring and neap tides.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sun also exerts tidal forces and therefore contributes to the tides as much as 40% of the Moon's tidal force.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

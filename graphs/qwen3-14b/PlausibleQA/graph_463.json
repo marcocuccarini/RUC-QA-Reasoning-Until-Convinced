@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many legs does a ladybird have. 4",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many legs does a ladybird have. 8",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many legs does a ladybird have. 10",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many legs does a ladybird have. 6",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The thorax is that part from which all three pairs of legs and both pairs of wings arise.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many adult insects use six legs for walking, with an alternating tripod gait.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

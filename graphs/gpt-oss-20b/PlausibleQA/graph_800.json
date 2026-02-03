@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which rugby league team will play at Langtree Park in 2012. Wigan Warriors",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which rugby league team will play at Langtree Park in 2012. Leeds Rhinos",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which rugby league team will play at Langtree Park in 2012. Warrington Wolves",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which rugby league team will play at Langtree Park in 2012. St.helens",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wigan played at Central Park until 1999, then moved to the newly built JJB Stadium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first rugby league match played at the stadium was between St. Helens and Widnes on Friday 20 January 2012.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "St Helens played their first league game at the ground in 2012, when they won against Salford.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country did Juan Domingo Peron seize power in 1943, become president, and resign in 1955. Argentina",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country did Juan Domingo Peron seize power in 1943, become president, and resign in 1955. Chile",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country did Juan Domingo Peron seize power in 1943, become president, and resign in 1955. Uruguay",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country did Juan Domingo Peron seize power in 1943, become president, and resign in 1955. Argie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Juan Domingo Perón served as the 29th president of Argentina from 1946 to his overthrow in 1955.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1943 a coup d'état was led by General Arturo Rawson against Ramón Castillo, who had assumed the presidency of Argentina.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

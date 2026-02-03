@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In Greek mythology, which race of giants had a single eye in the middle of their foreheads. Hecatonchires",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In Greek mythology, which race of giants had a single eye in the middle of their foreheads. Gigantes",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In Greek mythology, which race of giants had a single eye in the middle of their foreheads. Titans",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In Greek mythology, which race of giants had a single eye in the middle of their foreheads. CYCLOPS",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Hesiod's Theogony, the Cyclopes are described as '...only one eye was set in the middle of their foreheads...'",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Homer's Odyssey, the Cyclopes are an uncivilized group of shepherds, one of whom, Polyphemus, the son of Poseidon, is encountered by Odysseus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

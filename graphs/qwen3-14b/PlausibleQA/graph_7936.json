@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. Subdomain",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. Domain Label",
+      "strength": 0.5999999125837895
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. Namespace",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. hostname",
+      "strength": 0.5999999125837895
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A domain name consists of one or more parts, technically called labels",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A hostname is a domain name that has at least one associated IP address",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A subdomain is a domain that is a part of another (main) domain",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

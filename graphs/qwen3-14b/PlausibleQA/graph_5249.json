@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the most common surname in Korea. Lee",
+      "strength": 0.40000008918213564
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the most common surname in Korea. Park",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the most common surname in Korea. Choi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the most common surname in Korea. Kim",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common Korean surname (particularly in South Korea) is Kim (Korean: 김; Hanja: 金), followed by Lee (이; 李) and Park (박; 朴)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These three surnames are held by around half of the ethnic Korean population.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

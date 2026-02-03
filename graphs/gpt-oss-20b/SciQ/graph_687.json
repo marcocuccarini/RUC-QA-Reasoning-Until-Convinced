@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Backbone is the feature that distinguishes vertebrates, which the lancelet lacks.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Feet are the feature that the lancelet lacks, a feature that distinguishes vertebrates.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Skin is the feature that the lancelet lacks, which distinguishes vertebrates.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mouth is the feature that the lancelet lacks, distinguishing it from vertebrates.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They have no true complex skeleton.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lancelets have no respiratory system, breathing solely through their skin, which consists of a simple epithelium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

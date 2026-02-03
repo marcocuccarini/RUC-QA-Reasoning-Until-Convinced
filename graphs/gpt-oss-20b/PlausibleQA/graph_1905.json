@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the American President when the Berlin Wall was constructed. Dwight D. Eisenhower",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the American President when the Berlin Wall was constructed. Harry S. Truman",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the American President when the Berlin Wall was constructed. Richard Nixon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the American President when the Berlin Wall was constructed. JFK",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In August 1961, after East German troops erected the Berlin Wall, Kennedy sent an army convoy to reassure West Berliners of U.S. support.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In a July 1961 speech, Kennedy announced his decision to add $3.25 billion (equivalent to $34.2 billion in 2024) to the defense budget, along with over 200,000 additional troops, stating that an attack on West Berlin would be taken as an attack on the U.S.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

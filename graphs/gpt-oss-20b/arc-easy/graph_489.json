@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deposition is the process occurring when water freezes between cracks in rocks.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Weathering is the process that occurs when water freezes between cracks in rocks.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sedimentation is the process that takes place when water freezes between cracks in rocks.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crystallization is the process that occurs when water freezes between cracks in rocks.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At a temperature of -22 °C, ice growth is known to be able to generate pressures of up to 207MPa, more than enough to fracture any rock.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Under specific circumstances, this expansion is able to displace or fracture rock.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bacteria are the most diverse organisms on Earth, often classified by shape or how they react to gram stain.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cultures are the most diverse organisms on Earth, often classified by shape or how they react to gram stain.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pathogens are the most diverse organisms on earth, often classified by shape or how they react to gram stain.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Algae are the most diverse organisms on earth, often classified by shape or how they react to gram stain.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most bacteria can be classified as belonging to one of four groups (Gram-positive cocci, Gram-positive bacilli, Gram-negative cocci and Gram-negative bacilli).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Based on some estimates, more than 43,000 species of bacteria have been described, but attempts to estimate the true number of bacterial diversity have ranged from 10^7 to 10^9 total species.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

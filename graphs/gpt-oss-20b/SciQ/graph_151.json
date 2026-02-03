@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Irreversible enzyme inhibitors are toxins and poisons.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Reversible toxins and poisons are enzyme inhibitors.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cancerous is the adjective describing toxins and poisons that are enzyme inhibitos.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Observable are toxins and poisons that inhibit enzymes.",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Since ricin is a catalytic irreversible inhibitor, this allows just a single molecule of ricin to kill a cell.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other artificial enzyme inhibitors block acetylcholinesterase, an enzyme which breaks down acetylcholine, and are used as nerve agents in chemical warfare.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An example of a neurotoxin are the glycoalkaloids, from the plant species in the family Solanaceae (includes potato, tomato and eggplant), that are acetylcholinesterase inhibitors.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Natural poisons are usually small organic molecules and are so diverse that there are probably natural inhibitors for most metabolic processes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Salmorejo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Porra",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Ajoblanco",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Gazpacho",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gazpacho (Spanish: [ɡaθˈpatʃo / ɡahˈpatʃo]) or gaspacho (Portuguese: [ɡɐʃˈpaʃu]), also called Andalusian gazpacho (from Spanish gazpacho andaluz), is a cold soup and drink made of raw, blended vegetables.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most gazpacho includes stale bread, tomato, cucumbers, bell peppers, garlic, olive oil, wine vinegar, water, and salt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British actress played Valerie in the 1997 film ‘Nil By Mouth’. Kate Winslet",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British actress played Valerie in the 1997 film ‘Nil By Mouth’. Helena Bonham Carter",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British actress played Valerie in the 1997 film ‘Nil By Mouth’. Samantha Morton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British actress played Valerie in the 1997 film ‘Nil By Mouth’. Kathy Burke",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The role of Valerie in Nil By Mouth was played by Kathy Burke.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The role of Valerie in Nil By Mouth was portrayed by Kathy Burke, not Kate Winslet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

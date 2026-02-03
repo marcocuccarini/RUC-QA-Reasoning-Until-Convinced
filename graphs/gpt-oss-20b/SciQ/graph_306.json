@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Neutrons are the number added to the number of protons when naming isotopes.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Isomers are the part added to the number of protons when naming isotopes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrons are the number added to the number of protons when naming isotopes.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nuclei are the quantity added to the number of protons to name isotopes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They have the same atomic number (number of protons in their nuclei) and different nucleon numbers (mass numbers) due to different numbers of neutrons in their nuclei.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The number of protons within the atom's nucleus is called its atomic number and is equal to the number of electrons in the neutral (non-ionized) atom.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

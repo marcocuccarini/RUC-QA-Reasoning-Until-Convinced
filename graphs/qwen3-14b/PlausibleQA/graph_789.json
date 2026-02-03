@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What do the Americans call what we call a 'sofa'. Couch",
+      "strength": 0.599999945908301
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What do the Americans call what we call a 'sofa'. Settee",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What do the Americans call what we call a 'sofa'. Loveseat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What do the Americans call what we call a 'sofa'. Davenport",
+      "strength": 0.749904516139311
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Couch is predominantly used in North America, Australia, South Africa, and Ireland, whereas the terms sofa and settee (U and non-U) are most commonly used in the United Kingdom and India.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A couch, also known as a sofa, settee, chesterfield, or davenport, is a cushioned piece of furniture that can seat multiple people.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Davenport (sofa), a series of sofas, now a genericized trademark for 'sofa'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

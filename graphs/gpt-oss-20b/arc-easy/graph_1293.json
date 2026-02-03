@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How much DNA is stored is directly impacted by the process of gene regulation.",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How much DNA is replicated is directly impacted by the process of gene regulation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which mRNA is produced is directly impacted by the process of gene regulation.",
+      "strength": 0.7499025789446009
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which tRNA is produced is directly impacted by the process of gene regulation.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The accessibility of large regions of DNA can depend on its chromatin structure, which can be altered as a result of histone modifications directed by DNA methylation, ncRNA, or DNA-binding protein.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Regulation of gene expression, or gene regulation, includes a wide range of mechanisms that are used by cells to increase or decrease the production of specific gene products (protein or RNA).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "ChIPBase An open database for decoding the transcriptional regulatory networks of non-coding RNAs and protein-coding genes from ChIP-seq data.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

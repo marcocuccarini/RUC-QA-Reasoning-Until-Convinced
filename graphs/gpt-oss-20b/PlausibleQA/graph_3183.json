@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. Europe",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. Antarctica",
+      "strength": 0.2500000933900436
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. North America",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. Straya",
+      "strength": 0.5999031108796091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Antarctica has an area of 14,200,000 km2 (5,500,000 sq mi).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Antarctica covers more than 14.2 million km2 (5,500,000 sq mi), almost double the area of Australia.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Australia, at 7,617,930 square kilometres (2,941,300 sq mi).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In order from largest to smallest in area, these seven are Asia, Africa, North America, South America, Antarctica, Europe, and Australia (or sometimes Oceania or Australasia).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Europe is considered a continent with its comparatively large land area of 10,180,000 square kilometres (3,930,000 sq mi).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

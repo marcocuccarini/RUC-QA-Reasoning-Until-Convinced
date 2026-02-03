@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What title was given to the eldest son of a Russian Czar. Grand Duke",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What title was given to the eldest son of a Russian Czar. Tsarevsky",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What title was given to the eldest son of a Russian Czar. Prince Imperial",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What title was given to the eldest son of a Russian Czar. Czarevitch",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Under the 1797 Pauline house laws, the title was discontinued and replaced with tsesarevich for the heir apparent alone.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The younger brothers were given the title of veliky knyaz, translated as grand prince or, more commonly, as grand duke.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Australian Prime Minister went for a swim in 1967, never to be seen again. Robert Menzies",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Australian Prime Minister went for a swim in 1967, never to be seen again. John McEwen",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Australian Prime Minister went for a swim in 1967, never to be seen again. John Gorton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Australian Prime Minister went for a swim in 1967, never to be seen again. Harold Holt",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In December 1967, Holt disappeared while swimming in rough conditions at Cheviot Beach, Victoria.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "John McEwen, the leader of the Country Party, was sworn in as caretaker prime minister on 19 December.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

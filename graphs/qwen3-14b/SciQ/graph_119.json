@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sublimation is the transition from solid to vapor.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vaporization is the transition from solid to vapor.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Deposition is the transition from solid to vapor.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ionization is the transition from solid to vapor.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sublimation is the transition of a substance directly from the solid to the gas state, without passing through the liquid state.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The reverse process of sublimation is deposition (also called desublimation), in which a substance passes directly from a gas to a solid phase, without passing through the liquid state.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

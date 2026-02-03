@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is a positively charged ion called. Cationic",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is a positively charged ion called. Positron",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is a positively charged ion called. Protonic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is a positively charged ion called. Ion",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A cation is a positively charged ion with fewer electrons than protons (e.g. K+ (potassium ion))",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cations are defined as positively charged ions, in contrast to anions which are negatively charged",
+      "strength": 0.5999050903424904
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Anion (−) and cation (+) indicate the net electric charge on an ion.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "An ion is an atom or molecule with a net electrical charge.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "supports"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "supports"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

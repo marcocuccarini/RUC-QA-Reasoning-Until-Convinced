@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the battle of saratoga in 1777. British",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the battle of saratoga in 1777. French",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the battle of saratoga in 1777. Germans",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the battle of saratoga in 1777. Americans",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The outcome greatly affected the course of the war, persuading France to enter the war as an American ally.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The second battle ended with a decisive American victory, and the surrender of the British army there.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

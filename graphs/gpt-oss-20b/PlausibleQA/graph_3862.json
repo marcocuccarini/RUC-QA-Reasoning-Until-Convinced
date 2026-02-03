@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Pneumonia",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Influenza",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Typhoid Fever",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Appendictic",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The King had been taken ill with an abdominal abscess that required immediate surgery.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The King is suffering from perityphlitis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Edward's coronation had originally been scheduled for 26 June 1902. However, two days before, he was diagnosed with appendicitis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

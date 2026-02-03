@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the occupation of Lovely Rita according to the song by the Beatles. Parking Attendant",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the occupation of Lovely Rita according to the song by the Beatles. Traffic Warden",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the occupation of Lovely Rita according to the song by the Beatles. Police Officer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the occupation of Lovely Rita according to the song by the Beatles. Metermaid",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term 'meter maid' was popularised in The Beatles' song 'Lovely Rita'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term 'parking attendant' is sometimes considered a synonym but sometimes used to refer to the different profession of parking lot attendant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

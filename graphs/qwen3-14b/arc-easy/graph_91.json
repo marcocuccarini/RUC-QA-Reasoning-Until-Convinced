@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Different body sizes are evidence that donkeys and horses are two different species, given that a donkey and a horse can be bred to produce a mule.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A mule is not able to reproduce is evidence that donkeys and horses are two different species, because a donkey and a horse can be bred to produce a mule.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They are found in different environments is the observation that provides evidence that donkeys and horses are two different species, because a donkey and a horse can be bred to produce a mule.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A mule does not resemble either parent is evidence that donkeys and horses are two different species, because a donkey and a horse can be bred to produce a mule.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mules are nearly always sterile due to the difference in the number of chromosomes between the two parent species.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A cross will produce offspring (mule or hinny) with 63 chromosomes, that will not form pairs, which means that they do not divide in a balanced manner during meiosis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

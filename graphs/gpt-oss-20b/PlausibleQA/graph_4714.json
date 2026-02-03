@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What year did E.T. Hit the cinema screen. 1980",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What year did E.T. Hit the cinema screen. 1981",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What year did E.T. Hit the cinema screen. 1983",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What year did E.T. Hit the cinema screen. 1982",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "E.T. the Extra-Terrestrial (or simply E.T.) is a 1982 American science fiction film produced and directed by Steven Spielberg",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "E.T. premiered as the closing film of the Cannes Film Festival on May 26, 1982",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

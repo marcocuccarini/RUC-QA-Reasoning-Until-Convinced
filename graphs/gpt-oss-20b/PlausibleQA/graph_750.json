@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. Christopher Marlowe",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. Ben Jonson",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. John Donne",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. Shakspeare",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shakespeare was the son of John Shakespeare, an alderman and a successful glover (glove‑maker) originally from Snitterfield in Warwickshire, and Mary Arden, the daughter of an affluent landowning family.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ben Jonson was a former rival of Shakespeare.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

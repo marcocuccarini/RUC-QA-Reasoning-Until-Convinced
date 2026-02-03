@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hail is the form of precipitation most likely to cause damage when hitting the roof of a car.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rain is the form of precipitation most likely to cause damage when hitting the roof of a car.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sleet is the form of precipitation most likely to cause damage when hitting the roof of a car.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Snow is the form of precipitation most likely to cause damage when it hits the roof of a car.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hail can cause serious damage, notably to automobiles, aircraft, skylights, glass-roofed structures, livestock, and most commonly, crops.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hail can be a common nuisance to drivers of automobiles, severely denting the vehicle and cracking or even shattering windshields and windows unless parked in a garage or covered with a shielding material.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

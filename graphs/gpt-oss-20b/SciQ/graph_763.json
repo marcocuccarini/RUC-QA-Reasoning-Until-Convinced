@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kinetic theory states that there is no interaction between individual gas particles.",
+      "strength": 0.0925162757002051
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Viscosity theory states that there is no interaction between individual gas particles.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vortex theory states that there is no interaction between individual gas particles.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Avoidance theory states that there is no interaction between individual gas particles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The basic version of the model describes an ideal gas. It treats the collisions as perfectly elastic and as the only interaction between the particles",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The kinetic theory of gases uses their collisions with each other and with the walls of their container to explain the relationship between the macroscopic properties of gases, such as volume, pressure, and temperature, as well as transport properties such as viscosity, thermal conductivity and mass diffusivity",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An ideal gas is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The ideal gas model tends to fail at lower temperatures or higher pressures, where intermolecular forces and molecular size become important.",
+      "strength": 0.5999999024192011
+    },
+    "A8": {
+      "type": "argument",
+      "text": "For real gases, the molecules do interact via attraction or repulsion depending on temperature and pressure, and heating or cooling does occur. This is known as the Joule–Thomson effect.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The relative importance of intermolecular attractions diminishes with increasing thermal kinetic energy, i.e., with increasing temperatures.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Kinetic theory of gases, an account of gas properties in terms of motion and interaction of submicroscopic particles in gases",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

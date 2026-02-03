@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where english is spoken. United States",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where english is spoken. United Kingdom",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where english is spoken. Australia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where english is spoken. Canada",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to the American Community Survey (2020), some 245.4 million people in the U.S. age five and older spoke only English at home.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Twenty-eight states and the United States Virgin Islands have laws that designate English as the sole official language.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Berlin, Germany",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Hamburg, Germany",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Nuremberg, Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did the beer hall putsch take place. Munich , Bavaria",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Beer Hall Putsch, also known as the Munich Putsch, was a failed coup d\\u00e9t\\u00e9at by Nazi Party leader Adolf Hitler, General Erich Ludendorff and other Kampfbund leaders in Munich, Bavaria, on 8\\u20139 November 1923.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The putsch began on the evening of 8 November, when Hitler and a contingent of approximately six hundred Sturmabteilung (SA) members marched on the beer hall Bürgerbräukeller, where Gustav Ritter von Kahr—the Minister-President of Bavaria who had banned some of Hitler's previous planned gatherings—was delivering a speech.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

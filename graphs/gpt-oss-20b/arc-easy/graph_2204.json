@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A nucleus is the cellular structure shared by organisms in the kingdoms Eubacteria, Archaebacteria, and Protista.",
+      "strength": 0.2500974173587746
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A cell membrane is the cellular structure common to organisms in the kingdoms Eubacteria, Archaebacteria, and Protista.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A circular chromosome is the cellular structure that organisms in the kingdoms Eubacteria, Archaebacteria, and Protista have in common.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A mitochondrion is the cellular structure that organisms in the kingdoms Eubacteria, Archaebacteria, and Protista have in common.",
+      "strength": 0.4000000597805733
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In eukaryotic cells, the nuclear membrane separates the contents of the nucleus from the cytoplasm of the cell.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Endosymbiotic theory proposes that through the course of evolution, a eukaryotic cell engulfed these two types of bacteria, leading to the formation of mitochondria and chloroplasts inside eukaryotic cells.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Eukaryotic cells possess a membrane-bound nucleus, and prokaryotic cells lack a nucleus but have a nucleoid region.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The DNA is contained in a circular chromosome in direct contact with the cytoplasm, in a region known as the nucleoid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

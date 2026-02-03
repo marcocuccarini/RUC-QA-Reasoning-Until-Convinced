@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Impressionist",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Chamber Music",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Opera",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Ballet",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He is sometimes seen as the first Impressionist composer, although he vigorously rejected the term.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He completed the only opera he wrote, Pelléas et Mélisande.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Claude Debussy and Maurice Ravel are two leading figures in Impressionism, though Debussy rejected this label",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The perception of Debussy’s compositional language as decidedly post-romantic/Impressionistic—nuanced, understated, and subtle—is firmly solidified among today’s musicians and well-informed audiences",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

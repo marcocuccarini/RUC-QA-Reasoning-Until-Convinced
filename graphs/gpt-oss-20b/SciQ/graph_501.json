@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Six viruses that can cause cancer in humans have been identified by scientists.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "4 viruses that can cause cancer in humans have been identified by scientists.",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Three viruses that can cause cancer in humans have been identified by scientists.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "One virus that can cause cancer in humans has been identified by scientists.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The main viruses associated with human cancers are the human papillomavirus, the hepatitis B and hepatitis C viruses, the Epstein–Barr virus, the human T-lymphotropic virus, the Kaposi's sarcoma-associated herpesvirus (KSHV) and the Merkel cell polyomavirus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "with 11.9% caused by one of seven viruses.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "High-risk HPVs cause about 5% of all cancers worldwide",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

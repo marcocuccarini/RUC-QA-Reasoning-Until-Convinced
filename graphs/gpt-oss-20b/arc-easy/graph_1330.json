@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Obtaining food is the task that a paramecium can perform with its cilia in addition to using them for locomotion, whereas an euglena uses its flagellum to move through the water.",
+      "strength": 0.5999999160114282
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Defend the cell is the task that a paramecium can perform with its cilia, in addition to using those cilia to move through the water.",
+      "strength": 0.5999999160114282
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Attach to a surface is the additional task that a paramecium can perform with its cilia, aside from using those cilia to move through the water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Perform conjugation is the task that a paramecium can do with its cilia, in addition to moving through the water, whereas a euglena uses its flagellum only for locomotion.",
+      "strength": 0.4000876126562776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paramecium feed on microorganisms such as bacteria, algae, and yeasts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Between the alveolar sacs of the pellicle, most species of Paramecium have closely spaced spindle-shaped trichocysts, explosive organelles that discharge thin, non-toxic filaments, often used for defensive purposes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ciliates are eukaryotic microorganisms that possess motile cilia exclusively and use them for either locomotion or to simply move liquid over their surface.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

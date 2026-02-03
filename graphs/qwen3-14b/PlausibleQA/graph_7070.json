@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 2005 NBA Season",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 1990 NBA Finals",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 1989 NBA Season",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 2004 NBA Finals",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This marked the Pistons' fifth championship victory overall as a franchise... and their first since their back-to-back championships in 1989 and 1990.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Detroit would return to the Finals in 2004, and upset the Kobe Bryant and Shaquille O'Neal-led Los Angeles Lakers in five games for their most recent championship.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Pistons defeated the Trail Blazers in five games to repeat as NBA champions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

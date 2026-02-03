@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oceans contain salt water.",
+      "strength": 0.5999999641020304
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Raindrops contain salt water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Groundwater contains salt water.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Polar icecaps contain salt water.",
+      "strength": 0.5999999641020304
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ocean is the body of salt water that covers approximately 70.8% of Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ice formed incorporates some sea salt, but much less than the seawater it forms from.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Salinity in groundwater makes the water unpalatable and unusable and is often the worst in coastal areas, especially due to Saltwater intrusion from excessive use, which are notable in Bangladesh, and East and West India, and many island nations.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Aquifers in surface irrigated areas in semi-arid zones with reuse of the unavoidable irrigation water losses percolating down into the underground by supplemental irrigation from wells run the risk of salination.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

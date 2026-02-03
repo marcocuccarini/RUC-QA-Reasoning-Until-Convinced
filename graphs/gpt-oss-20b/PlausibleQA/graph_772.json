@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who sailed in the yacht 'Suhaili'. Francis Chichester",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who sailed in the yacht 'Suhaili'. Joshua Slocum",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who sailed in the yacht 'Suhaili'. Ellen MacArthur",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who sailed in the yacht 'Suhaili'. Knox-Johnston",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He disappeared in November 1909 while aboard his boat, the Spray.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Suhaili is the name of the 32-foot (9.8 m) Bermudan ketch sailed by Sir Robin Knox-Johnston in the first non‑stop solo circumnavigation of the world in the Sunday Times Golden Globe Race.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Knox-Johnston duly took delivery in February 2020.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

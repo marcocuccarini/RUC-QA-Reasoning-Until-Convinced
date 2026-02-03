@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city were the 1984 Summer Olympics held. New York City",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city were the 1984 Summer Olympics held. Chicago",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city were the 1984 Summer Olympics held. Boston",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city were the 1984 Summer Olympics held. LA",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1984 Summer Olympics were held in Los Angeles, California, United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Los Angeles was chosen as the host city of the 1984 Summer Olympics by the International Olympic Committee (IOC) on 18 May 1978.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

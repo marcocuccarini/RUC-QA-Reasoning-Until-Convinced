@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gas is the amount that the pressure inside a container depends on.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Air is the amount that the pressure inside a container depends on.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Emissions is the amount inside a container that the pressure inside depends on.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Liquids are the amount inside a container that the pressure depends on.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ideal gas law (PV = NkBT) indicates that pressure depends on the number of particles (N), which corresponds to the amount of gas.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The amount of substance of gas (number of moles) is a key factor in the ideal gas law (PV = nRT), indicating that pressure depends on the quantity of gas present.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

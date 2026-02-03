@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How meny times have Liverpool won the Europion Cup. 3",
+      "strength": 0.2500974173587746
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How meny times have Liverpool won the Europion Cup. 7",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How meny times have Liverpool won the Europion Cup. 2",
+      "strength": 0.4000000597805733
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How meny times have Liverpool won the Europion Cup. 5",
+      "strength": 0.5999350949478656
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The following year Liverpool won their third title",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2005, after Liverpool won the Champions League the year before",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Liverpool has earned the multiple-winner badge.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Teams that have won the UEFA Champions League three consecutive times, or five times overall, receive a multiple-winner badge.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

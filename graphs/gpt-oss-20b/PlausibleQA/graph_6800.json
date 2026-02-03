@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of acid is extracted from the juice of lemons, oranges, limes, and grapefruit. Citric Acid",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of acid is extracted from the juice of lemons, oranges, limes, and grapefruit. Malic Acid",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of acid is extracted from the juice of lemons, oranges, limes, and grapefruit. Tartaric Acid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of acid is extracted from the juice of lemons, oranges, limes, and grapefruit. E330",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "citric acid was first isolated from lemon juice",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The concentrations of citric acid in citrus fruits range from 0.005 mol/L for oranges and grapefruits to 0.30 mol/L in lemons and limes",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

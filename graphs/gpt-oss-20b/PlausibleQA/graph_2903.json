@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What would you serve in a samovar. Coffee",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What would you serve in a samovar. Hot Chocolate",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What would you serve in a samovar. Broth",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What would you serve in a samovar. Tea",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Since the heated water is typically used to make tea",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The tea is served by diluting this concentrate with boiled water from the main container, usually at a water-to-tea ratio of 10 to 1, varying to taste",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

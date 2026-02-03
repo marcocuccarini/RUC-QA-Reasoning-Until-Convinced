@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who died in the first episode of stranger things. Will Byers",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who died in the first episode of stranger things. Barb Holland",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who died in the first episode of stranger things. Mr. Clarke",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who died in the first episode of stranger things. Benny",
+      "strength": 0.4000000622202648
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first season, set in November 1983, focuses on the investigation into the disappearance of a young boy named Will Byers while supernatural events are occurring around a town called Hawkins",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Benny Hammond is killed by Hawkins Lab personnel shortly afterwards",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Barb was taken and killed by the monster early in the season.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Will Byers was abducted by a creature from the Upside Down in the first season.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrogen bonding is formed in polar amino acid side chains.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Calcium bonding is the type of bonding formed in polar amino acid side chains.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon bonding is the type of bonding formed in polar amino acid side chains.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Helium bonding is the type of bonding formed in polar amino acid side chains.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bifurcated H-bond systems are common in alpha-helical transmembrane proteins between the backbone amide C=O of residue i as the H-bond acceptor and two H-bond donors from residue i + 4: the backbone amide N−H and a side-chain hydroxyl or thiol H+.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This type of bifurcated H-bond provides an intrahelical H-bonding partner for polar side-chains, such as serine, threonine, and cysteine within the hydrophobic membrane environments.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

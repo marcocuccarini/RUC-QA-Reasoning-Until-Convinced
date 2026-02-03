@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Bus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Airplane",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Ship",
+      "strength": 0.5999999637412498
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Rail",
+      "strength": 0.846056906746563
+    },
+    "A4": {
+      "type": "argument",
+      "text": "train pieces and ship pieces, with a corresponding train card deck and ship card deck, to be played on land routes and on water routes respectively",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ticket to Ride is a series of turn-based strategy railway-themed Eurogames designed by Alan R. Moon",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "rail transport (also known as train transport) is a means of transport using wheeled vehicles running on tracks, which usually consist of two parallel steel rails.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Rapid transit refers to systems built in large cities and has the highest capacity of any passenger transport system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

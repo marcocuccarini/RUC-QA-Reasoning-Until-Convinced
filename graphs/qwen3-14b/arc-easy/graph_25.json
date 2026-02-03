@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ice melts into water is a case in which a physical change occurs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bread burns in a toaster is a case in which a physical change occurs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A cake baking in an oven is a case in which a physical change occurs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Two chemicals forming a new substance is a case in which a physical change occurs.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Melting is a physical change that does not alter the chemical composition of the substance.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The formation of new substances is a chemical change, not a physical change.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

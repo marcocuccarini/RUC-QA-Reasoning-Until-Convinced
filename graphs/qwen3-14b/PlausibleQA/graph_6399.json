@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of a camel with 2 humps. Mongolian",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of a camel with 2 humps. Turkestan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of a camel with 2 humps. Kazakh",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of a camel with 2 humps. Bactrian",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bactrian camel (Camelus bactrianus), also known as the Mongolian camel, domestic Bactrian camel, two-humped camel or double humped camel",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Camelus bactrianus",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Snakes are the symbol of which saint. Saint Patrick",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Snakes are the symbol of which saint. Saint Sebastian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Snakes are the symbol of which saint. Saint John the Evangelist",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Snakes are the symbol of which saint. Maewyn",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Patrick banishes snakes from Ireland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Post‑glacial Ireland never had snakes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Saint Patrick is purported to have expelled all snakes from Ireland while converting the country to Christianity in the 5th century, thus explaining the absence of snakes there.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

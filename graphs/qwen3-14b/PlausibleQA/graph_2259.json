@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which county is Highgrove House the residence of the Prince of Wales. Cornwall",
+      "strength": 0.40000008918213564
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which county is Highgrove House the residence of the Prince of Wales. Norfolk",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which county is Highgrove House the residence of the Prince of Wales. Surrey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which county is Highgrove House the residence of the Prince of Wales. Glos.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Highgrove House is in Doughton in the civil parish of Tetbury Upton, near Tetbury in the county of Gloucestershire in South West England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It lies southwest of Tetbury in Gloucestershire, England.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There are several royal residences in Gloucestershire, including Highgrove House, Gatcombe Park, and (formerly) Nether Lypiatt Manor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

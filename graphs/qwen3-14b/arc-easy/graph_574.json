@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The molecules spread apart and move more slowly after heat is applied to a beaker of water, raising the water temperature a few degrees.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The molecules spread apart and move more quickly when heat is applied to a beaker of water, raising its temperature a few degrees.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The molecules come together and move more slowly after heat is applied to a beaker of water, raising the water temperature a few degrees.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The molecules come together and move more quickly when heat is applied to a beaker of water, raising its temperature a few degrees.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As energy in particles increases, they start moving faster and faster, weakening the intermolecular forces between them and therefore expanding the substance.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When a substance is heated, molecules begin to vibrate and move more, usually creating more distance between themselves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

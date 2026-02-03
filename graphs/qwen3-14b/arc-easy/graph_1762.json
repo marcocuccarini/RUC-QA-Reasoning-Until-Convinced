@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Final velocity is the effect in which, as an object falls, air resistance gradually increases until it equals the pull of gravity.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Initial velocity is the effect in which, as an object falls, air resistance gradually increases until it equals the pull of gravity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Escape velocity is the effect that occurs when an object's falling air resistance gradually increases until it equals the pull of gravity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Terminal velocity is the effect in which, as an object falls, air resistance gradually increases until it equals the pull of gravity.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Onboard video of Space Shuttle Solid Rocket Boosters rapidly decelerating to terminal velocity on entry to the thicker atmosphere... to 220 mph at 6:45 when the parachutes are deployed 90 seconds later—NASA video and sound, @ io9.com.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Terminal settling velocity of a sphere at all realistic Reynolds Numbers, by Heywood Tables approach.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrical energy is required for a television set to work.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Heat is the form of energy required for a television set to work.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Light is the form of energy required for a television set to work.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solar is the form of energy required for a television set to work.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electric utilities measure energy using an electricity meter, which keeps a running total of the electrical energy delivered to a customer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electricity generation is the process of generating electrical energy from other forms of energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

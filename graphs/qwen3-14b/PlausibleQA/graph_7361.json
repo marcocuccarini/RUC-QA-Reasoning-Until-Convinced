@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the first underwater cable laid beneath the english channel. 1830",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the first underwater cable laid beneath the english channel. 1842",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the first underwater cable laid beneath the english channel. 1845",
+      "strength": 0.40008417731488793
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the first underwater cable laid beneath the english channel. 1850",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In August 1850, John Watkins Brett's English Channel Submarine Telegraph Company laid the first line across the English Channel using the converted tugboat Goliath.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In September 1851 a protected core, or true, cable was laid by the reconstituted Submarine Telegraph Company from a government hulk, Blazer, which was towed across the Channel.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1845, the latter suggested that it should be employed to cover the wire which was proposed to be laid from Dover to Calais.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

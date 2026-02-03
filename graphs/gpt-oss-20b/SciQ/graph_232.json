@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Crossover occurs at different locations on a chromosome.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At no locations does a crossover occur on a chromosome.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Crossover occurs at one-two locations on a chromosome.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A crossover occurs at the same location on a chromosome.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Because there is a small probability of recombination at any location along a chromosome, the frequency of recombination between two locations depends on the distance separating them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The crossover process leads to offspring having different combinations of genes from those of their parents, and can occasionally produce new chimeric alleles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

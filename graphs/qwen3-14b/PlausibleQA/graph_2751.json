@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Aside from English what is the official language of India. Bengali",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aside from English what is the official language of India. Tamil",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Aside from English what is the official language of India. Telugu",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aside from English what is the official language of India. Hindi",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Indian constitution declares Hindi as the official language of the Union alongside English.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Indian constitution does not specify a national language, and no other language besides Hindi is designated as an official language of the Union.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

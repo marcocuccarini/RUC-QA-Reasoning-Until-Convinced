@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Both parents are the source from which a male puppy inherits traits.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its mother, only, is the source from which a male puppy inherits traits.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its father, only, is the source from which a male puppy inherits traits.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "When a pair of organisms reproduce sexually, their offspring randomly inherit one of the two alleles from each parent.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The two alleles for a gene are located on identical loci of the two homologous chromosomes, each allele inherited from a different parent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

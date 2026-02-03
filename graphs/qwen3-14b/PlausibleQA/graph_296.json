@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the new French president of 2012. Nicolas Sarkozy",
+      "strength": 0.4000000634771975
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the new French president of 2012. Marine Le Pen",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the new French president of 2012. François Bayrou",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the new French president of 2012. Hollande",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hollande was elected with 51.6% of the vote in the second round on 6 May 2012, defeating incumbent Nicolas Sarkozy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hollande was inaugurated on 15 May 2012, and shortly afterwards appointed Jean-Marc Ayrault to be his Prime Minister.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hollande gave a statement as president at the United Nations General Assembly on 25 September 2012",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

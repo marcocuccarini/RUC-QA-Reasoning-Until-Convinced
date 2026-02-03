@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which French painter lived and worked in Tahiti. Paul Cézanne",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which French painter lived and worked in Tahiti. Claude Monet",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which French painter lived and worked in Tahiti. Pierre-Auguste Renoir",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which French painter lived and worked in Tahiti. Gaugin",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He set sail for Tahiti on 1 April 1891, promising to return a rich man and make a fresh start.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He arrived in September 1895 and was to spend the next six years living, for the most part, an apparently comfortable life as an artist-colon near, or at times in, Papeete.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

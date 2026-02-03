@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sings i want to be a rockstar. Post Malone",
+      "strength": 0.40000003811777657
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sings i want to be a rockstar. Green Day",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sings i want to be a rockstar. Imagine Dragons",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sings i want to be a rockstar. Nickelback",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The song 'I want to be a rockstar' is not mentioned in the text.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Imagine Dragons official site",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Smoke + Mirrors (Asia Tour Edition) at YouTube (streamed copy where licensed)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

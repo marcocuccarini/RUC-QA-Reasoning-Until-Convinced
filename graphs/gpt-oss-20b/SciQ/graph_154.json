@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reproduction is the process by which organisms give rise to offspring.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Differentiation is the process by which organisms give rise to offspring.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Evolution is the process by which organisms give rise to offspring.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process by which organisms give rise to offspring.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Reproduction (or procreation or breeding) is the biological process by which new individual organisms – 'offspring' – are produced from their 'parent' or parents.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The existence of life without reproduction is the subject of some speculation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In sexual reproduction new organisms are formed by the fusion of haploid sperm and eggs resulting in what is known as the zygote.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Spermatids are now haploid and undergo differentiation into sperm cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

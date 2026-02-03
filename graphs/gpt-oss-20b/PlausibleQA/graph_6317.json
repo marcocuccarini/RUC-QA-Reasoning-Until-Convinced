@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Aviva Sports Stadium is in which European country. England",
+      "strength": 0.12314539393176945
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Aviva Sports Stadium is in which European country. Scotland",
+      "strength": 0.40000007449118136
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Aviva Sports Stadium is in which European country. Wales",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Aviva Sports Stadium is in which European country. Airlan",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aviva Stadium, formerly Lansdowne Road (Irish: Bóthar Lansdún, IPA: [ˈbˠoːhəɾˠ ˈl̪ˠan̪ˠsˠd̪ˠuːnˠ]) and also known as the Dublin Arena (during UEFA competitions), is a sports stadium located in Dublin, Ireland.",
+      "strength": 0.7499999999713785
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dublin Arena open for business UEFA.com, 14 May 2010",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During the redevelopment of the Lansdowne Road stadium in 2007–2010, international rugby and soccer were played there.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Geographic data related to Ireland at OpenStreetMap",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Government of Ireland",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Aviva Stadium was a joint venture between the Irish Rugby Football Union, the FAI and the Government.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The Aviva Stadium was developed as a joint venture involving the Irish Rugby Football Union, the FAI and the Government.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

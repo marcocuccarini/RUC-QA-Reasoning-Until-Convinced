@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. Norwegian",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. Swedish",
+      "strength": 0.5999999999403536
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. German",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. Danish",
+      "strength": 0.5999999999403536
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common Danish family name surnames are patronymic and end in -sen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The most common surnames in Sweden are originally patronymic. Family names ending with the suffix 'sson' are the most common names in Sweden.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Andersen is a Scandinavian patronymic surname with suffix '-sen', which is not characteristic of German surnames.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 2009, 22.4% of the Norwegian population had a surname with the suffix '-sen'.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In Iceland, surnames have a gender-specific suffix (-dóttir = daughter, -son = son). This was also the case in Denmark, Norway, and Sweden, until they were abolished by law in 1856, 1923, and 1966 respectively.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many 'Oscars' did the film 'Slumdog Millionaire' win. 5",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many 'Oscars' did the film 'Slumdog Millionaire' win. 10",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many 'Oscars' did the film 'Slumdog Millionaire' win. 3",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many 'Oscars' did the film 'Slumdog Millionaire' win. 8",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 22 February 2009, the film won eight out of ten Academy Awards for which it was nominated, including Best Picture and Best Director.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was nominated for 10 Academy Awards in 2009 and won 8—the most of any 2008 film—including Best Picture, Best Director, and Best Adapted Screenplay.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

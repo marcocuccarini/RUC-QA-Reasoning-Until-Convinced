@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Flemish is almost identical in form to which other language . German",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Flemish is almost identical in form to which other language . Frisian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Flemish is almost identical in form to which other language . Afrikaans",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Flemish is almost identical in form to which other language . DUTCH",
+      "strength": 0.5293011433367869
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Flemish (Vlaams [vlaːms] ) is a Low Franconian dialect cluster of the Dutch language.",
+      "strength": 0.7499409008703515
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Standard Dutch words can have a completely different meaning in Flemish or imply different context, comparable to the differences between the British and North American variants of English.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Nederlandse Taalunie is a Dutch language union.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "K-Dutch CLARIN Knowledge Centre for Dutch is hosted by the Instituut voor de Nederlandse Taal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reducing the mass of the box would most likely require additional force to increase its speed from 1.0 m/s to 3.0 m/s within 5 s on a level surface, where a 5 N force originally achieved this.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increasing the mass of the box would most likely require additional force to increase the speed from 1.0 m/s to 3.0 m/s within 5 s along a level surface, where a 5 N force is originally needed.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Making the surfaces of the box smooth would most likely require additional force to increase the speed from 1.0 m/s to 3.0 m/s within 5 s along a level surface, a task that currently requires 5 N.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Making the surface of the floor smooth would most likely require additional force to produce the same results of increasing the speed of a box from 1.0 m/s to 3.0 m/s within 5 s along a level surface, given that a 5 N force is currently required.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Force equals the product of mass and acceleration: F = m a.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

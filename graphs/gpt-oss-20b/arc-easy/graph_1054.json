@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fat from cells is removed by the human respiratory system.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide from blood is removed by the human respiratory system.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hormones from glands are removed by the human respiratory system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nutrients from food are the substances the human respiratory system is responsible for removing.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is only as a result of accurately maintaining the composition of the 3 liters of alveolar air that with each breath some carbon dioxide is discharged into the atmosphere and some oxygen is taken up from the outside air.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The primary purpose of the respiratory system is the equalizing of the partial pressures of the respiratory gases in the alveolar air with those in the pulmonary capillary blood.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

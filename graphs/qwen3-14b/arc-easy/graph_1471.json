@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Outer core, inner core, asthenosphere, lithosphere is the correct order of Earth's layers from the center to the surface.",
+      "strength": 0.25000004684221083
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Asthenosphere, lithosphere, outer core, inner core incorrectly lists Earth's layers from the center to the surface.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Inner core, asthenosphere, lithosphere, outer core are the layers listed in order from the Earth's center to the surface according to the option.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Inner core, outer core, asthenosphere, lithosphere correctly list Earth's layers in order from the center to the surface.",
+      "strength": 0.5999028678581874
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The primary structure is a series of layers: an outer silicate crust, a mechanically weak asthenosphere, a solid mantle, a liquid outer core whose flow generates the Earth's magnetic field, and a solid inner core.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Earth's outer core... lies above Earth's solid inner core.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Earth's inner core is the innermost geologic layer of the planet Earth.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The solid mantle lies above the liquid outer core.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

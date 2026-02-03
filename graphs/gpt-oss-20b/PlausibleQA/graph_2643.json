@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which was the first US state to secede from the Union in December 1860; the first action of the Civil War took place in that state in April the following year. US-MS",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which was the first US state to secede from the Union in December 1860; the first action of the Civil War took place in that state in April the following year. US-GA",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which was the first US state to secede from the Union in December 1860; the first action of the Civil War took place in that state in April the following year. US-AL",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which was the first US state to secede from the Union in December 1860; the first action of the Civil War took place in that state in April the following year. US-SC",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On January 9, 1861, Mississippi became the second state to declare its secession from the Union.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "South Carolina adopted an ordinance declaring its secession from the United States of America, and by February 1861 six more Southern states had adopted similar ordinances of secession.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The battle is usually recognized as the first of the American Civil War.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

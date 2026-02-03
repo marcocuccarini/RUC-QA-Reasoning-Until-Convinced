@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Exponents are used in scientific notation to write very large or very small numbers.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whole numbers are used to write very large or very small numbers in scientific notation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Zeros are used in scientific notation to write very large or very small numbers.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Coefficients are what scientific notation uses to write very large or very small numbers.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In scientific notation, nonzero numbers are written in the form m times ten raised to the power of n, where n is an integer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the coefficient m is a nonzero real number.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

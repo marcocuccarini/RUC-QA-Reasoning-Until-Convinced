@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. Albert Station",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. Bridge Street Station",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. East End Station",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. Walford",
+      "strength": 0.15394117517501082
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Walford East is a fictional London Underground station for Walford",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Walford East is located on the EastEnders tube map in the position normally occupied by the real Bromley-by-Bow tube station",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Walford East tube station is on George Street, which first appeared on screen in late 1985 when Lou Beale (Anna Wing) collapses outside it",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Amphibians are the broad group of animals that are the first true tetrapods, vertebrates with four limbs.",
+      "strength": 0.5999031133169616
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fish are the broad group of animals that are the first true tetrapods, vertebrates with four limbs.",
+      "strength": 0.15393934642025664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reptiles are the first true tetrapods, vertebrates with four limbs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mammals are the first true tetrapods, vertebrates with four limbs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The earliest tetrapods, such as Ichthyostega and Acanthostega, are part of the stem group and not the crown group, which includes modern amphibians.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tetrapods evolved from lobe-finned fish, but the first true tetrapods (stem group) are distinct from fish themselves.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first major groups of amphibians developed in the Devonian period, from lobe-finned fish.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The first tetrapod land vertebrates, basal amphibian organisms, possessed legs derived from these fins.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The only known extant non-tetrapod sarcopterygians are the two species of coelacanths and six species of lungfishes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The cellular enzymes act as catalysts, allowing biochemical reactions that normally require high temperatures to proceed at body temperature within the cells of living organisms.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The small size of cells keeps reactants together, which is the factor mainly responsible for allowing biochemical reactions to proceed at body temperature within the cells of living organisms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The pH of the cytoplasm increases reaction rate, allowing biochemical reactions that normally require high temperatures to proceed at body temperature within cells of living organisms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The reactants being present in small quantities in the cell is the factor that mainly allows biochemical reactions, which normally require high temperatures, to proceed at body temperature within the cells of living organisms.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Enzymes increase the reaction rate by lowering a reaction's activation energy, often by factors of millions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Without enzymes, metabolism would neither progress through the same steps and could not be regulated to serve the needs of the cell.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

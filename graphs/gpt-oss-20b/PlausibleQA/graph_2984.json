@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which villain, played by Richard Kiel, appeared in two James Bond movies, 'The Spy Who Loved Me' and 'Moonraker'. Karl Koskov",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which villain, played by Richard Kiel, appeared in two James Bond movies, 'The Spy Who Loved Me' and 'Moonraker'. General Orlov",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which villain, played by Richard Kiel, appeared in two James Bond movies, 'The Spy Who Loved Me' and 'Moonraker'. Emilio Largo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which villain, played by Richard Kiel, appeared in two James Bond movies, 'The Spy Who Loved Me' and 'Moonraker'. Jaws",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He appears in the films The Spy Who Loved Me (1977) and Moonraker (1979), played by Richard Kiel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jaws first appeared in the 1977 film The Spy Who Loved Me as a henchman to the villain, Karl Stromberg.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

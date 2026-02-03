@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Strong magnets can generate an electric current in a wire when the magnet is close enough to the wire.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Weak magnets can generate an electric current in a wire when they are close enough to the wire and when the magnet is weak.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "At rest, a magnet can generate an electric current in a wire if the magnet is close enough to the wire.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In motion, a magnet can generate an electric current in a wire if the magnet is close enough to the wire.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A static magnetic field near a wire loop produced no current.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Faraday demonstrated that a changing magnetic field could indeed induce an electric current in a circuit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

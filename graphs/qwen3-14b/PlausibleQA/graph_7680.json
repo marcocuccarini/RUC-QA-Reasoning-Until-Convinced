@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wounded Achilles in the heel, leading to his death. Apollo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wounded Achilles in the heel, leading to his death. Hector",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wounded Achilles in the heel, leading to his death. Diomedes",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wounded Achilles in the heel, leading to his death. PARIS",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Other sources concur that he was killed near the end of the Trojan War by Paris, who shot him with an arrow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the few fragmentary poems of the Epic Cycle which describe the hero's death, there is no trace of any reference to his general invulnerability or his famous weakness at the heel.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In another version he was killed by a knife to the back (or heel) by Paris, while marrying Polyxena, daughter of Priam, in the temple of Thymbraean Apollo, the site where he had earlier killed Troilus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

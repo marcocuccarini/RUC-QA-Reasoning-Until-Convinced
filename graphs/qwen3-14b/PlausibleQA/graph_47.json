@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has won the most masters green jackets. Tiger Woods",
+      "strength": 0.40008417731488793
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has won the most masters green jackets. Arnold Palmer",
+      "strength": 0.40008417731488793
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has won the most masters green jackets. Gary Player",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has won the most masters green jackets. Jack Nicklaus",
+      "strength": 0.5999999193046673
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nicklaus also holds the record for the most wins at the Masters with six",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tiger Woods won five between 1997 and 2019",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Arnold Palmer won four between 1958 and 1964",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

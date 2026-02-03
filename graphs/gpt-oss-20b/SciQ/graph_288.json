@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pressure is the factor that differs, measured in torr, between the inside of the lungs and the air outside during breathing.",
+      "strength": 0.8460569045044471
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Temperature is what breathing involves differences in, measured in torr, between the inside of the lungs and the air outside.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity is the difference measured in torr between the inside of the lungs and the air outside.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Resistance is the difference measured in torr between the inside of the lungs and the air outside that occurs during breathing.",
+      "strength": 0.599999961499134
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During inhalation, the increased volume of alveoli as a result of lung expansion decreases the intra-alveolar pressure to a value below atmospheric pressure about -1 cmH2O.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Changes of alveolar pressure are determined by flow rate and airway resistance.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Alveolar pressure exceeding capillary arterial pressure causes capillaries to collapse, stopping blood flow completely.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Positive pressure ventilation with pressures in excess of 30 mmHg can impair venous return, potentially reducing cardiac output to life‑threatening levels and causing death within minutes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

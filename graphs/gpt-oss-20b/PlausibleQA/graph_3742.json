@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did michael vick start playing for the eagles. 2007 NFL season",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did michael vick start playing for the eagles. 2010 NFL preseason",
+      "strength": 0.5999123873437223
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did michael vick start playing for the eagles. August 2009",
+      "strength": 0.5689656888421853
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did michael vick start playing for the eagles. 2009 NFL season",
+      "strength": 0.5999999999652412
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vick signed a one-year contract with the Philadelphia Eagles on August 13, 2009.",
+      "strength": 0.40000003625875064
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After serving his sentence, Vick signed with the Philadelphia Eagles for the 2009 season.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Philadelphia Eagles named Michael Vick the starting quarterback going into the 2013 season.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Vick spent six seasons with the Falcons before being sentenced to 21 months in prison for his involvement in an illegal interstate dog fighting ring.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Vick won the NFL's Comeback Player of the Year Award in 2010 while playing for the Philadelphia Eagles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

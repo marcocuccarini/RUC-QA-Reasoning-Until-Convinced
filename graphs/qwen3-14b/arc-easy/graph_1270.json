@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A ribosome transports the newly synthesized protein from the site of synthesis to the site of modification by the addition of a carbohydrate.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The endoplasmic reticulum transports a newly synthesized protein from its site of synthesis to the site where the protein is modified by addition of a carbohydrate.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Golgi apparatus transports the newly synthesized protein from its site of synthesis to the site of modification where it receives a carbohydrate addition.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A vacuole transports a newly synthesized protein from the site of synthesis to the site of carbohydrate modification in a cell.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Proteins synthesized in the ER are packaged into vesicles, which then fuse with the Golgi apparatus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Golgi apparatus is a major collection and dispatch station of protein products received from the endoplasmic reticulum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

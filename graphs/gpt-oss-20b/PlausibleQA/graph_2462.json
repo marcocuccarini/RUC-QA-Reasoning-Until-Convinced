@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the five horizontal lines on and between which musical notes are written. Ledger",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the five horizontal lines on and between which musical notes are written. Clef",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the five horizontal lines on and between which musical notes are written. Bar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the five horizontal lines on and between which musical notes are written. Stave",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The staff (UK also stave; plural: staffs or staves), also occasionally referred to as a pentagram, is a set of five horizontal lines and four spaces that each represent a different musical pitch.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Notes outside the range of the staff are placed on or between ledger lines—lines the width of the note they need to hold—added above or below the staff.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

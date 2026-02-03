@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which veteran Hollywood actor played Judge Henry Garth in the TV western series 'The Virginian'. Charles Bickford",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which veteran Hollywood actor played Judge Henry Garth in the TV western series 'The Virginian'. Ward Bond",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which veteran Hollywood actor played Judge Henry Garth in the TV western series 'The Virginian'. Raymond Burr",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which veteran Hollywood actor played Judge Henry Garth in the TV western series 'The Virginian'. Lee Cobb",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ward Bond did not play Judge Henry Garth in 'The Virginian'; he played Judge Robert Garvey in 'Tall in the Saddle' and other roles, but there is no mention of him being in 'The Virginian'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lee J. Cobb played Judge Garth in 'The Virginian'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Charles Bickford played John Grainger, not Judge Garth, in 'The Virginian'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

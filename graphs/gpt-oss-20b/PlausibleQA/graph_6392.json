@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who plays steve 's wife on my three sons. Donna Reed",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who plays steve 's wife on my three sons. Barbara Hale",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who plays steve 's wife on my three sons. Meredith MacRae",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who plays steve 's wife on my three sons. Beverly Garland",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She played Mike's love interest for three seasons (1963–1965).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text does not mention Donna Reed.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "His new bride, widowed teacher Barbara Harper (Beverly Garland)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

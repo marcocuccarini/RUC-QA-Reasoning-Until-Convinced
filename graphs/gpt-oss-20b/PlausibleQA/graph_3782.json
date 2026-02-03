@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the least number of shots that a competitor can take to complete 18 holes of golf. 15",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the least number of shots that a competitor can take to complete 18 holes of golf. 22",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the least number of shots that a competitor can take to complete 18 holes of golf. 12",
+      "strength": 0.2500917442134498
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the least number of shots that a competitor can take to complete 18 holes of golf. 18",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The world record on one round of minigolf is 18 strokes on 18 holes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nearly all par 4 and par 5 holes are too long for golfers to reach in a single shot.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Eighteen-hole courses typically total to an overall par score of 70 to 72 for a complete round.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A perfect round (score of 54 on a par-72 course) is most commonly described as scoring a birdie on all 18 holes, but no player has ever recorded a perfect round in a professional tournament.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

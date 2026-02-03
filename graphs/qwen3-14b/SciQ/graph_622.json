@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Removed is what happens to energy when work is done by a system.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stored energy is what happens to energy when work is done by a system.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Added energy occurs when a system does work.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Multiplied is what happens to energy when work is done by a system.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the amount of internal energy lost by that work must be resupplied as heat by an external energy source or as work by an external machine acting on the system to sustain the work of the system continuously.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the change in internal energy of the system is: ΔU = Q − PΔV...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

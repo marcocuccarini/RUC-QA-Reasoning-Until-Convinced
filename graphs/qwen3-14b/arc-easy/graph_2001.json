@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Series of colors of the rainbow describes the electromagnetic spectrum.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "List of radioactive elements is the description of the electromagnetic spectrum.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Band of frequencies of light waves describes the electromagnetic spectrum.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Range of conductivity of metals is the description of the electromagnetic spectrum.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The light that excites the human visual system is a very small portion of the electromagnetic spectrum. A rainbow shows the optical (visible) part of the electromagnetic spectrum; infrared (if it could be seen) would be located just beyond the red side of the rainbow whilst ultraviolet would appear just beyond the opposite violet end.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The types of electromagnetic radiation are broadly classified into the following classes (regions, bands or types): Gamma radiation, X-ray radiation, Ultraviolet radiation, Visible light (light that humans can see), Infrared radiation, Microwave radiation, Radio waves",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

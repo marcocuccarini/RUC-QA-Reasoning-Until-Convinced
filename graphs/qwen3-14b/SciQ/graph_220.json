@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Every 12 hours is the frequency at which high tides occur.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Every 96 hours is the frequency with which high tides occur.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Every 24 hours is the frequency at which high tides occur.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Every 48 hours is how frequently high tides occur.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ocean tides are cyclic, rising and falling approximately twice a day.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many shorelines experience semi-diurnal tides—two nearly equal high and low tides each day.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

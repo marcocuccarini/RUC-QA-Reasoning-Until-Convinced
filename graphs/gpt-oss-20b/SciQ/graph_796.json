@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cardiovascular is the system whose blood vessels are similar to the lymph vessels that make up the lymphatic circulatory system.",
+      "strength": 0.5999030803074822
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nervous is the system whose blood vessels form a circulatory system similar to the one made up of lymph vessels.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cardiac is the system whose blood vessels are similar to the lymph vessels that make up a lymphatic circulatory system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gastrointestinal vessels make up a circulatory system similar to the lymph vessels.",
+      "strength": 0.40000009282172766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The lymphatic system is an open system providing an accessory route for excess interstitial fluid to be returned to the blood.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lymphatic vessels propel the absorbed fluid into larger collecting ducts that return to the bloodstream via the subclavian veins.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lymph vessels called lacteals are at the beginning of the gastrointestinal tract.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The lymphatic vessels are thin-walled vessels (tubes), structured like blood vessels, that carry lymph.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

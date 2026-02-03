@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Gilbert and Sullivan operetta is sub-titled The Slave of Duty. H.M.S. Pinafore",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Gilbert and Sullivan operetta is sub-titled The Slave of Duty. The Pirates of Penzance",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Gilbert and Sullivan operetta is sub-titled The Slave of Duty. Iolanthe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Gilbert and Sullivan operetta is sub-titled The Slave of Duty. The Slave of Duty",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Pirates of Penzance; or, The Slave of Duty (1879) 363 performances",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "H.M.S. Pinafore; or, The Lass That Loved a Sailor (1878) 571 performances",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

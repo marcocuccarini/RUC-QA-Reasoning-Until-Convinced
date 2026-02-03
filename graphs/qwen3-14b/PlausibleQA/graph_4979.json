@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who painted the ceiling of the florence cathedral. Michelangelo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who painted the ceiling of the florence cathedral. Sandro Botticelli",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who painted the ceiling of the florence cathedral. Domenico Ghirlandaio",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who painted the ceiling of the florence cathedral. Giorgio Vasari",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "His last major commission was a vast The Last Judgement fresco on the ceiling of the cupola of the Florence Cathedral that he began in 1572 with the assistance of the Bolognese painter Lorenzo Sabatini.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Unfinished at the time of Vasari's death, it was completed by Federico Zuccari.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This enormous work, 3,600 metres² (38 750 square metres) was started in 1572 by Giorgio Vasari and would not be completed until 1579.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

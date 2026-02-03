@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which town was the birthplace of David Garrick. Lichfield",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which town was the birthplace of David Garrick. Stratford-upon-Avon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which town was the birthplace of David Garrick. London",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which town was the birthplace of David Garrick. HEREFORD",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "David Garrick was born at the Angel Inn, Widemarsh Street, Hereford in 1716",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some time after David Garrick's birth the family moved to Lichfield, home to his mother",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

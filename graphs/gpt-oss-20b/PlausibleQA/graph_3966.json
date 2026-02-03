@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An orrery, popular in the 13th and 19th centuries, was a model of what. Celestial Sphere",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An orrery, popular in the 13th and 19th centuries, was a model of what. Planetary Alignment",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An orrery, popular in the 13th and 19th centuries, was a model of what. Astronomical Clockwork",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An orrery, popular in the 13th and 19th centuries, was a model of what. Solsys",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An orrery is a mechanical model of the Solar System that illustrates or predicts the relative positions and motions of the planets and moons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He calculated the gear trains needed to represent a year of 365.242 days, and used that to produce the cycles of the principal planets.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Some Solar System models attempt to convey the relative scales involved in the Solar System in human terms. Some are small in scale (and may be mechanical – called orreries) – whereas others extend across cities or regional areas.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

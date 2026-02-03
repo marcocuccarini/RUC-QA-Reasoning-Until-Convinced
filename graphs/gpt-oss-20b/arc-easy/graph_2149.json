@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sunlight causes sound.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vibrations cause sound.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "X-rays cause sound.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pitch is what causes sound.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sound is a vibration that propagates as an acoustic wave through a transmission medium such as a gas, liquid or solid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sound is defined as (a) Oscillation  in pressure, stress, particle displacement, particle velocity, etc., propagated in a medium with internal forces (e.g., elastic or viscous), or the superposition of such propagated oscillation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

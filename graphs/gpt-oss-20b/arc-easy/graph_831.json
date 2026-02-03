@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Their shapes stay the same in any container is the statement that correctly describes both gases and liquids.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Their shapes change when they are in different containers is a statement that correctly describes both gases and liquids.",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Their volumes stay the same in any container is the correct statement describing both gases and liquids.",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Their volumes change when they are in different containers, correctly describing both gases and liquids.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In physics, a fluid is a liquid, gas, or other material that may continuously move and deform (flow) under an applied shear stress, or external force.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Compressible fluid: A fluid that causes volume reduction or density change when pressure is applied to the fluid or when the fluid becomes supersonic.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A gas has no definite shape or volume, but occupies the entire container in which it is confined.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "This means that the shape of a liquid is not definite but is determined by its container.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

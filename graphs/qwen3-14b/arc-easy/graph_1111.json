@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The block with the greatest density is the metal block that raised the temperature of the 10 °C water the most, as determined in the demonstration where four 100‑g blocks of different metals were heated to 60 °C and each was placed in a cup containing 150 g of 10 °C water, with the temperature change measured after 100 s.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The block with the lowest surface area raised the temperature of the 10 °C water the greatest amount after 100 s in the demonstration where each of four 100 g metal blocks was heated to 60 °C and placed into separate cups containing 150 g of 10 °C water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The block with the greatest specific heat raised the temperature of the 10 °C water the most after 100 s when four 100‑g metal blocks, each of a different metal, were heated to 60 °C and placed in separate cups containing 150 g of water at 10 °C.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The block with the lowest thermal conductivity is the one that raised the temperature of the 10 °C water the greatest amount in the demonstration where four 100 g metal blocks, each of a different metal, were heated to 60 °C and then placed in four cups of 150 g polystyrene foam containing 150 g of 10 °C water, with the temperature change measured after 100 s.",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "good electrical conductors are often also good heat conductors",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "thermal conductivity is a measure of a material's ability to conduct heat; materials with high thermal conductivity transfer heat more efficiently than those with low thermal conductivity",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

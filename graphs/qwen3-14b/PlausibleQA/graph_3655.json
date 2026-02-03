@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A Varsovian is a native of which capital city. Warsaw",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A Varsovian is a native of which capital city. Vienna",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A Varsovian is a native of which capital city. Vilnius",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A Varsovian is a native of which capital city. Wa-wa",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A native or resident of Warsaw is known as a Varsovian – in Polish warszawiak, warszawianin (male); warszawianka (female); warszawiacy, and warszawianie (plural).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Warsaw, officially the Capital City of Warsaw, is the capital and largest city of Poland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

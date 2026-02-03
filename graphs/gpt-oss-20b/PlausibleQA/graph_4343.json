@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British group who had most success in the 1970’s were fronted by lead singer Lee Brilleaux . Led Zeppelin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British group who had most success in the 1970’s were fronted by lead singer Lee Brilleaux . The Faces",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British group who had most success in the 1970’s were fronted by lead singer Lee Brilleaux . Foghat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British group who had most success in the 1970’s were fronted by lead singer Lee Brilleaux . Dr. Feelgod",
+      "strength": 0.32010925050343314
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dr. Feelgood (band), a British pub rock band",
+      "strength": 0.7499619694149234
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brilleaux co-founded Dr. Feelgood with Wilko Johnson in 1971 and was the band's lead singer, harmonica player, and occasional guitarist.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lee Brilleaux tribute at Dr Feelgood fan site.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Pub rock (United Kingdom) is a rock music genre that was developed in the mid-1970s in the United Kingdom",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

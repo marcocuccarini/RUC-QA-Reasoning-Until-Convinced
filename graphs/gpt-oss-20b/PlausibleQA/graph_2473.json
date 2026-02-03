@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A frugivore feeds on what. Nuts",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A frugivore feeds on what. Seeds",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A frugivore feeds on what. Pollen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A frugivore feeds on what. Friut",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A frugivore is an animal that thrives mostly on fruits.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Frugivores can benefit or hinder fruit-producing plants by either dispersing or destroying their seeds through digestion.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Approximately 20% of mammalian herbivores eat fruit.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Orangutans discard the skin, eat the flesh, and spit out the seeds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

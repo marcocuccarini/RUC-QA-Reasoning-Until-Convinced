@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Atmospheric nitrogen is low is the condition in which the climate of an area would be expected to have the least temperature fluctuations.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vegetation is sparse is the condition in which the climate of an area would be expected to have the least temperature fluctuations.",
+      "strength": 0.40000006807981364
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Days are longest is where the climate of an area would be expected to have the least fluctuations in temperatures.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Humidity is high is the condition under which an area's climate is expected to have the least temperature fluctuations.",
+      "strength": 0.5191281750339877
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oceanic climates are accompanied by small annual ranges of temperatures",
+      "strength": 0.5999289825610725
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Humid continental climates are marked by large seasonal temperature variance",
+      "strength": 0.40000006807981364
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Vegetation typically prospers in oceanic climates",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Subpolar oceanic climates are less prone to temperature extremes than humid continental climates",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Bodies with relatively large mass and heat capacity typically exhibit slower temperature responses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

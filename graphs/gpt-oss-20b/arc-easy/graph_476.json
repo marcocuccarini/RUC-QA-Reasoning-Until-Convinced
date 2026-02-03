@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tissue → organ system → organ → cell is the correct order of relationships in organisms.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Organ → cell → organ system → tissue is the correct order of relationships in organisms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cell → tissue → organ → organ system is the correct order of relationships in organisms.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Organ system → organ → cell → tissue is the correct order of relationships in organisms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During cell division, a single cell divides into two daughter cells, leading to the growth of tissue in multicellular organisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Multicellular behavior is demonstrated by microorganisms that are cloned from a single cell and form visible microbial colonies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

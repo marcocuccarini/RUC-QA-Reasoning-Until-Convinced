@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Parsifal",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Tannhäuser",
+      "strength": 0.4000876126562776
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Die Meistersinger von Nürnberg",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Lorengel",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Richard Wagner's opera Lohengrin of 1848 is based upon the legend.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The most famous piece from Lohengrin is the 'Bridal Chorus' ('Here Comes the Bride'), still played at many Western weddings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

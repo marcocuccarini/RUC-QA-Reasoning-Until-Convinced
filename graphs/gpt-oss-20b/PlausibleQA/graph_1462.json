@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was the artist of mickey mouse. Walt Disney",
+      "strength": 0.5000649049924877
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was the artist of mickey mouse. Floyd Gottfredson",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was the artist of mickey mouse. Carl Barks",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was the artist of mickey mouse. Ub Iwerks",
+      "strength": 0.749902642362152
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Iwerks was responsible for designing Mickey Mouse.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Walt Disney came up with the original sketch for the character that was eventually called Mickey Mouse.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Floyd Gottfredson left his mark with stories such as Mickey Mouse Joins the Foreign Legion (1936) and The Gleam (1942).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Iwerks revised Disney's provisional sketches to make the character easier to animate.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In the words of one Disney employee, 'Ub designed Mickey's physical appearance, but Walt gave him his soul.'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The book is not very heavy is the factual statement about the observation that a book placed on a table remains stationary.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The table pushes up on the book is a fact about a book placed on a table that remains stationary.",
+      "strength": 0.5000967341380452
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The book probably has a sticky cover, which explains why it remains stationary when placed on the table.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The table is composed of a stronger material than the book is a factual statement regarding the observation that a book placed on a table remains stationary.",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the normal force on the object is equal but in opposite direction to the gravitational force applied on the object (or the weight of the object), that is, F_n = m g",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "requires that the table be sturdy enough to deliver this normal force without breaking",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 'reaction' to that 'action' is not the support force from the table holding up the book, but the gravitational pull of the book acting on the Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

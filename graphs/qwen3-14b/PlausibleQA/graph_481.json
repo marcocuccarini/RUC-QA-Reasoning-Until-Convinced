@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the Japanese martial art, similar to judo, which uses grappling, throws, and non-resistance, to debilitate opponents. 柔術 (Jujutsu)",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the Japanese martial art, similar to judo, which uses grappling, throws, and non-resistance, to debilitate opponents. 空手道 (Karatedo)",
+      "strength": 0.4000000634771975
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the Japanese martial art, similar to judo, which uses grappling, throws, and non-resistance, to debilitate opponents. 剣道 (Kendo)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the Japanese martial art, similar to judo, which uses grappling, throws, and non-resistance, to debilitate opponents. 合気道",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jujutsu developed to combat the samurai of feudal Japan as a method for defeating an armed and armored opponent in which one uses no form of weapon, or only a short weapon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Japanese jujutsu systems typically put more emphasis on throwing, pinning, and joint-locking techniques as compared with martial arts such as karate, which rely more on striking techniques.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Spalding Athletic Library, Jiu Jitsu, The Effective Japanese Mode of Self Defense",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

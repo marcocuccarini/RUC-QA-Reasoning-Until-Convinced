@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what russian language called. Moscow Language",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what russian language called. Slavic Language",
+      "strength": 0.5999999071782728
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what russian language called. Cyrillic Language",
+      "strength": 0.5000967341380452
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what russian language called. Tatar Language",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Slavic languages are Indo-European languages spoken primarily by the Slavic peoples and their descendants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The East Slavic and Eastern South Slavic languages are written in Cyrillic and, with Eastern Orthodox or Eastern-Catholic faith, have had more Greek influence.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Cyrillic script (sih-RI-lik) is a writing system used for various languages across Eurasia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

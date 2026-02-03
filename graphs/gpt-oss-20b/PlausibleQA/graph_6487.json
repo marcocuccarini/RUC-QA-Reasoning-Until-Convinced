@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what disease does robin roberts have. Myelodysplastic Syndrome",
+      "strength": 0.5999999999403536
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what disease does robin roberts have. Leukemia",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what disease does robin roberts have. Lymphoma",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what disease does robin roberts have. Breast cancer",
+      "strength": 0.5999999999403536
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2012, she was diagnosed with myelodysplastic syndrome (MDS), a disease of the bone marrow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2007, Roberts was diagnosed with an early form of breast cancer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Leukemia is a group of blood cancers that usually begin in the bone marrow.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Acute lymphoblastic leukemia (ALL) is a cancer of the lymphoid line of blood cells characterized by the development of large numbers of immature lymphocytes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Latvia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Lithuania",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Estonia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Polnd",
+      "strength": 0.25009176364520974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "LOT Polish Airlines, legally Polskie Linie Lotnicze LOT S.A. (Polish pronunciation: [lɔt], flight), is the flag carrier of Poland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The airline was founded on 29 December 1928 by the Polish government during the Second Polish Republic as a self-governing limited liability corporation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

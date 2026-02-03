@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country is Rhodes a part of. Greece",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country is Rhodes a part of. Turkey",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country is Rhodes a part of. Cyprus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country is Rhodes a part of. Elás",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Dodecanese are a group of 15 larger and 150 smaller Greek islands in the southeastern Aegean Sea and Eastern Mediterranean, off the coast of Anatolia, of which 26 are inhabited.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After the outbreak of the Italian‑Turkish war over Libya in early 1912, Italy, in order to apply pressure on the Ottoman government closer to its metropolitan territories, occupied all the present‑day Dodecanese except for Kastellorizo.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decreases is the usual change in body height as children grow.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increases is the usual change in body height as children grow.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Remains the same is the typical status of body height as children grow.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Physical growth in stature and weight occurs for 15–20 years following birth, as the individual changes from the average weight of 3.5 kg (7.7 lb) and length of 50 cm (20 in) at full term birth to their final adult size.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The speed of physical growth is rapid in the months after birth, then slows, so birth weight is doubled in the first four months, tripled by 1 year, but not quadrupled until 2 years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

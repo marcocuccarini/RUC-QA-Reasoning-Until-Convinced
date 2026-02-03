@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was Pope during World War Two. Pope Pius XI",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was Pope during World War Two. Pope John XXIII",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was Pope during World War Two. Pope Paul VI",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was Pope during World War Two. PPXII",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pope Pius XII was head of the Catholic Church from 2 March 1939 until his death on 9 October 1958.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pius XII's papacy spanned the entire duration of World War II (1939–1945).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

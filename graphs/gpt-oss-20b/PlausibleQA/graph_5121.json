@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sherlock Holmes was proficient in which fictional martial art invented by Sir Arthur Conan Doyle. **Holmestyle**",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sherlock Holmes was proficient in which fictional martial art invented by Sir Arthur Conan Doyle. **Londonjutsu**",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sherlock Holmes was proficient in which fictional martial art invented by Sir Arthur Conan Doyle. **Doyleido**",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sherlock Holmes was proficient in which fictional martial art invented by Sir Arthur Conan Doyle. Baritsu",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "I have some knowledge, however, of baritsu, or the Japanese system of wrestling, which has more than once been very useful to me.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bartitsu, an eclectic martial art that had been founded by Londoner E. W. Barton-Wright in 1899.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

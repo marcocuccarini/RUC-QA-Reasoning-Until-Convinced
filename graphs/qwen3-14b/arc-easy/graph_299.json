@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Very high melting point is a characteristic physical property of all elements in the group located in the rightmost column of the periodic table.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gas state at room temperature is the characteristic physical property of all elements in the group located in the rightmost column of the periodic table.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Good conductor of electric current is a physical property characteristic of all elements in the rightmost column of the periodic table.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Extremely brittle solid at room temperature is the physical property characteristic of all elements in the group located in the rightmost column of the periodic table.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The noble gases have very low melting and boiling points.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The noble gases are all monatomic gases under standard conditions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

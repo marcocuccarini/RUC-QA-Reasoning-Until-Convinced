@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was manager of Sheffield Wednesday when they won the League Cup in 1991, beating Manchester United in the final . Ron Atkinson",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was manager of Sheffield Wednesday when they won the League Cup in 1991, beating Manchester United in the final . Trevor Francis",
+      "strength": 0.25009729379502144
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was manager of Sheffield Wednesday when they won the League Cup in 1991, beating Manchester United in the final . Howard Wilkinson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was manager of Sheffield Wednesday when they won the League Cup in 1991, beating Manchester United in the final . Ronglish",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sheffield Wednesday lost the League Cup final to Arsenal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The following year, Wednesday reached the FA Cup and League Cup finals, losing both to Arsenal, the former after a replay.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Trevor Francis had a management career.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Under Ron Atkinson, Wednesday won the League Cup and promotion to the First Division before departing for Aston Villa in July 1991.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Trevor Francis was appointed as player-manager and guided them to third place in the league in 1992.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "John Curtin became Prime Minister of which country in 1941. Australia",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "John Curtin became Prime Minister of which country in 1941. United Kingdom",
+      "strength": 0.4000000634771975
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "John Curtin became Prime Minister of which country in 1941. New Zealand",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "John Curtin became Prime Minister of which country in 1941. Straya",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Curtin (8 January 1885 – 5 July 1945) was an Australian politician who served as the 14th prime minister of Australia from 1941 until his death in 1945.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He became the first and only prime minister to come from Western Australia.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "John Curtin declared that Australia is at war with Japan in 1941.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

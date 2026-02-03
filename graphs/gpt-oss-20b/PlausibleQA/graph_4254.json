@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Isoprene, Butyl and Nitrile are all types of which substance. Plastic",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Isoprene, Butyl and Nitrile are all types of which substance. Polymer",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Isoprene, Butyl and Nitrile are all types of which substance. Adhesive",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Isoprene, Butyl and Nitrile are all types of which substance. Rubber",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Butyl rubber is a synthetic rubber.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Butyl rubber is a synthetic rubber, a copolymer of isobutylene with isoprene.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Nitrile rubber, also known as nitrile butadiene rubber, NBR, Buna-N, and acrylonitrile butadiene rubber, is a synthetic rubber derived from acrylonitrile (ACN) and butadiene.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Nitrile rubber is used in the automotive and aeronautical industry to make fuel and oil handling hoses, seals, grommets, and self‑sealing fuel tanks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

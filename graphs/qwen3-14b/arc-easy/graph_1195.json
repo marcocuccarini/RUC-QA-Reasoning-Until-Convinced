@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lower pitched is the sound produced by a string on a musical instrument like a guitar when the string is made tighter.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Higher pitched is the sound produced by a string on a musical instrument like a guitar when the string is made tighter.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Louder is the sound produced by a guitar string when it is made tighter, so that the sound will always be louder.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Quieter is the sound produced by a string on a musical instrument like a guitar when that string is made tighter.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the higher the tension, the higher the frequency of the fundamental",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

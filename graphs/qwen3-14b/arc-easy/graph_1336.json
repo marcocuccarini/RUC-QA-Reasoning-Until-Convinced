@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A dog scratches at a door to go outside is a learned characteristic in a dog.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A dog has floppy ears is the statement that best describes a learned characteristic in a dog.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A dog pants to cool itself on a hot day is the best description of a learned characteristic in a dog.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A dog has a dark coat, which is presented as the statement that best describes a learned characteristic in a dog.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thorndike placed hungry cats and dogs in enclosures from which they could escape by some simple act, such as pulling at a loop of cord.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Morgan carefully observed the dog's prior, random, purposeless actions and argued that they involved 'continued trial and failure, until a happy effect is reached', rather than 'methodical planning'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

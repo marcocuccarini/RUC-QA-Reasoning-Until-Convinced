@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water covers most of the Earth's surface.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bare rock covers most of the Earth's surface.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Farm land covers most of the Earth's surface.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cities and towns cover most of the Earth's surface.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Liquid water is present on Earth, covering 71% of its surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Water covers about 71.0% of the Earth's surface, with seas and oceans making up most of the water volume (about 96.5%).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). Paramount",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). Universal",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). MGM",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). Warners",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Warner Bros. was founded by the Warner brothers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The modern Warner Bros. called the current building owners and arranged to save it for its historical significance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

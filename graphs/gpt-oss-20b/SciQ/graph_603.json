@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reactants are the constant external supply that a galvanic fuel cell requires.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Generators are the constant external supply required by a galvanic fuel cell.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electricity is the constant external supply required by a fuel cell, which is a galvanic cell.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Complexes are the constant external supply required by a fuel cell, which is a galvanic cell.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fuel cells are different from most batteries in requiring a continuous source of fuel and oxygen (usually from air) to sustain the chemical reaction",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fuel cells are an electrochemical cell that converts the chemical energy of a fuel (often hydrogen) and an oxidizing agent (often oxygen) into electricity through a pair of redox reactions",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

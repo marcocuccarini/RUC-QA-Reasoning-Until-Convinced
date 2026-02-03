@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wind determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Humidity is the factor that determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Air pressure determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If there is a shallow near-surface layer that is below freezing, freezing rain will result.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In clouds below freezing, when ice crystals gain enough mass they begin to fall.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

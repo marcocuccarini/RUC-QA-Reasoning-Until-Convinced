@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Vegetative budding is the reproductive event that requires meiosis to occur.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Binary fission is a reproductive event that requires meiosis.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cloning is a reproductive event that requires meiosis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fertilization is the reproductive event that requires meiosis to occur.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During fertilisation, the haploid cells produced by meiosis from a male and a female will fuse to create a zygote, a cell with two copies of each chromosome.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Meiosis does not occur in archaea or bacteria, which generally reproduce asexually via binary fission.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

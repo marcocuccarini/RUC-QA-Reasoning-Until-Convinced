@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what language do australia people speak. English",
+      "strength": 0.599999999984994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what language do australia people speak. Australian Aboriginal languages",
+      "strength": 0.8309839644187037
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what language do australia people speak. Mandarin Chinese",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what language do australia people speak. Lojban",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "English is the majority language of Australia today",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Around 120 to 170 Indigenous languages and dialects are spoken today",
+      "strength": 0.4000000156532841
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Total 47 languages are spoken today",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Cultures and languages are strong, supported and flourishing",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "50 Words Project (audio recordings of 50 words in Australian Indigenous languages)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

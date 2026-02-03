@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which year was Mrs Indira Gandhi assassinated. 1975",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which year was Mrs Indira Gandhi assassinated. 1980",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which year was Mrs Indira Gandhi assassinated. 1981",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which year was Mrs Indira Gandhi assassinated. 1984",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 31 October 1984, two of Gandhi's Sikh bodyguards, Satwant Singh and Beant Singh, shot her with their service weapons in the garden of the prime minister's residence at 1 Safdarjung Road, New Delhi, allegedly in revenge for Operation Blue Star.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She was the daughter of Jawaharlal Nehru, the first prime minister of India. She was the mother of Rajiv Gandhi, who succeeded her as prime minister. Her cumulative tenure of 15 years and 350 days makes her the second-longest-serving Indian prime minister after her father.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

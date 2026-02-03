@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. United States",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. Japan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. South Korea",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. Cuba",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cuban team won gold medals in 1992, 1996, and 2004.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "South Korean team won its first gold medal in 2008.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

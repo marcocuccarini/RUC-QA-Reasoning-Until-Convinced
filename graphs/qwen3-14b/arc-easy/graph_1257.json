@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reproduce is the main function of a fish's fins, helping the fish.",
+      "strength": 0.25000003759175476
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "See is the main function of a fish's fins, helping the fish.",
+      "strength": 0.25000003759175476
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Breathe is the main function of a fish's fins, which help the fish.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Move is the main function of a fish's fins to help the fish.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Well developed fins are used for maintaining balance, braking and changing direction.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pectoral fins act as pivots around which the fish can turn rapidly and steer itself.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Their principal function is to help the fish swim.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Some paired fins, such as pectoral fins on leopard sharks, can be angled at varying degrees to allow the animal to rise, fall, or maintain its level in the water column.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "It is supposed that tunas primarily use their pectoral fins for lift.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

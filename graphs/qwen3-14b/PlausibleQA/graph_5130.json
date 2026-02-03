@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hong Kong is one of two 'special administrative regions' of China; what is the other. Macau",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hong Kong is one of two 'special administrative regions' of China; what is the other. Taiwan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hong Kong is one of two 'special administrative regions' of China; what is the other. Shanghai",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hong Kong is one of two 'special administrative regions' of China; what is the other. 澳门",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Macau is a special administrative region of China, with executive, legislative, and judicial powers devolved from the national government.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because negotiations for the Joint Declaration and Basic Law began after transitional arrangements for Hong Kong were made, Macau's structure of government is very similar to Hong Kong's.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

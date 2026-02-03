@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. IV",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. VIII",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. IX",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. XI",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Raiders defeated the Vikings by the score of 32–14 to win their first Super Bowl.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Vikings lost Super Bowl IV to the Kansas City Chiefs.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Vikings played in Super Bowls IV, VIII, IX and XI.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

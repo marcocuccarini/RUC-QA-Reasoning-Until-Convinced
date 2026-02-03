@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where are they building the new raiders stadium. Los Angeles, California",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where are they building the new raiders stadium. San Antonio, Texas",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where are they building the new raiders stadium. Portland, Oregon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where are they building the new raiders stadium. Paradise , Nevada",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Allegiant Stadium is an indoor multi-purpose stadium in Paradise, Nevada.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Allegiant Stadium is located on about 62 acres of land west of Mandalay Bay at Russell Road and Hacienda Avenue, just west of Interstate 15.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

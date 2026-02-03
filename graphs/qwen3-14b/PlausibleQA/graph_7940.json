@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what countries does england border. Wales",
+      "strength": 0.5999999224687765
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what countries does england border. Ireland",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what countries does england border. France",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what countries does england border. Scotland",
+      "strength": 0.5999999224687765
+    },
+    "A4": {
+      "type": "argument",
+      "text": "England shares a land border with Scotland to the north",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "England shares a land border with Wales to the west",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ireland is separated from Great Britain by the Irish Sea and the North Channel",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

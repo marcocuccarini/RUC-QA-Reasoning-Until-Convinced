@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is denmark situated. Scandinavian Peninsula",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is denmark situated. Baltic Sea Region",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is denmark situated. North Sea",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is denmark situated. Euroregion Baltic",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Denmark is the southernmost of the Scandinavian countries, lying southwest of Sweden, south of Norway, and north of Germany",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Denmark proper is situated between the North Sea to the west and the Baltic Sea to the east",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The North Sea lies between Great Britain, Denmark, Norway, Germany, the Netherlands, Belgium, and France.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

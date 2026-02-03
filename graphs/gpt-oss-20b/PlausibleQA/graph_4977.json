@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which 1995 film does Robert Carlisle play the character Begbie. Braveheart",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which 1995 film does Robert Carlisle play the character Begbie. GoldenEye",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which 1995 film does Robert Carlisle play the character Begbie. Leaving Las Vegas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which 1995 film does Robert Carlisle play the character Begbie. Trainspotting",
+      "strength": 0.16901373975399578
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Trainspotting (film), a 1996 film based on the novel.",
+      "strength": 0.40000008654640523
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Trainspotting (novel), a 1993 novel by Irvine Welsh",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Trainspotting, a video game for the Comx-35 home computer",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1996 and 1997, he appeared in the two highest-profile roles of his career to date: as the sociopathic Francis Begbie in Trainspotting",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

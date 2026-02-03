@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what languages are spoken in india the most. Bengali",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what languages are spoken in india the most. Telugu",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what languages are spoken in india the most. Marathi",
+      "strength": 0.5999999402194273
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what languages are spoken in india the most. Hindi",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bengali is the second most spoken and understood language in the country with a significant number of speakers in eastern and northeastern regions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Marathi is the third most spoken and understood language in the country with a significant number of speakers in the southwest",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bengali is the second-most widely spoken language in India.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Bengali is the second most spoken and fifth fastest growing language in India, following Hindi, Kashmiri, Gujarati, and Meitei (Manipuri), according to the 2011 census of India.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

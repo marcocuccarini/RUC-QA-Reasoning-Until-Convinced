@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To know how many people take medicines is the reason a doctor's office must keep accurate records of the medicines prescribed for their patients.",
+      "strength": 0.40000000000000613
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To keep track of all of the people who are sick is why it is important for a doctor's office to keep accurate records of the medicines prescribed for their patients.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To keep track of the next scheduled appointments is why it is important for a doctor's office to keep accurate records of the medicines prescribed for their patients.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Knowing if there is a risk for harmful side effects is why a doctor's office must keep accurate records of the medicines prescribed for their patients.",
+      "strength": 0.7146469603663971
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The medical record may contain a summary of the patient's current and previous medications as well as any medical allergies.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The information contained in the medical record allows health care providers to determine the patient's medical history and provide informed care.",
+      "strength": 0.6323528557308766
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The chronology of the onset of the suspected ADR is important, as another substance or factor may be implicated as a cause; co-prescribed medications and underlying psychiatric conditions may be factors in the ADR.",
+      "strength": 0.5999999841893977
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The confirmation of adverse events by healthcare professionals increases the value of reports, which helps identify risks of harmful side effects.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Accurate medical records allow healthcare providers to determine the chronology of suspected adverse drug reactions, which is critical for identifying causative factors.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Important features of modern EHR include automated drug-drug/drug-food interaction checks and allergy checks, standard drug dosages and patient education information.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Computerized provider order entry (CPOE), formerly called computerized physician order entry, can reduce medication errors by 80% overall but more importantly decrease harm to patients by 55%.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

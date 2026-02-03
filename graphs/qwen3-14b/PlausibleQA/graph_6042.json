@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Italy",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Mexico",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Nigeria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Hungary",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Italian flag ... is a flag featuring three equally sized vertical pales of green, white and red",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Hungarian flag has the same colours as the Italian one, but on the Magyar banner the red, white and green tricolour is arranged horizontally",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The national flag of Mexico ... is a vertical tricolor of green, white, and red with the national coat of arms charged in the center of the white stripe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

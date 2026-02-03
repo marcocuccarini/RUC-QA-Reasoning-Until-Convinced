@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water molecules moving apart are the main reason a pan containing hot water left on the counter becomes cool.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cold air penetrating the hot water is the main cause of a pan containing hot water left on the counter cooling.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Heat from the water moving into the cooler air is the main reason the pan containing hot water left on the counter becomes cool.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hot water reacting with the metal pan is the main reason a pan containing hot water left on the counter becomes cool.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Such spontaneous heat transfer always occurs from a region of high temperature to another region of lower temperature",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heat convection occurs when the bulk flow of a fluid (gas or liquid) carries its heat through the fluid",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

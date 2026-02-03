@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Resistors are metals that easily transfer electricity.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnets are metals that easily transfer electricity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Insulators are metals that easily transfer electricity.",
+      "strength": 0.25000003759175476
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Conductors are metals that easily transfer electricity.",
+      "strength": 0.7499025369867175
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Insulators are non-conducting materials with few mobile charges that support only insignificant electric currents.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Conduction materials include metals, electrolytes, superconductors, semiconductors, plasmas and some nonmetallic conductors such as graphite and conductive polymers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In metals, the Fermi level lies in the conduction band (see Band Theory, above) giving rise to free conduction electrons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Wood is widely regarded as an extremely good insulator, but its resistivity is sensitively dependent on moisture content, with damp wood being a factor of at least 1010 worse insulator than oven-dry.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In metals there are many electron energy levels near the Fermi level, so there are many electrons available to move.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Electrical conductivity (or specific conductance) is the reciprocal of electrical resistivity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dominant is the trait type that probably causes the solid black coat in one of the four cubs from a litter of two spotted leopards, where three cubs are spotted and one is solid black.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Recessive is the trait type that probably explains the solid black coat of one of the four cubs born to two spotted leopards, where the other three cubs are spotted.",
+      "strength": 0.5999999401621742
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Polygenic is the type of trait that probably explains the solid black coat observed in one of the four cubs from a litter produced by two spotted leopards, where the other three cubs are spotted.",
+      "strength": 0.7499025826412249
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sex‑linked is probably the type of trait for the black coat in a litter of four cubs from two spotted leopards, where three cubs are spotted and one is solid black.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "masking both the dominant black (B) allele",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Melanism in leopards is caused by a recessive allele and is inherited as a recessive trait.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "25% are homozygous with the recessive trait and therefore express the recessive trait in the phenotype.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Mendel found that each pair of alleles segregates independently of the other pairs of alleles during gamete formation.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Multiple alleles, epistasis, pleiotropic genes, and polygenic characteristics are some factors that might influence the phenotypic outcome.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The phenotypic result often appears as a blended form of characteristics in the heterozygous state.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

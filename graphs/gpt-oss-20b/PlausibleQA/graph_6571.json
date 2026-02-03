@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What six letter word is used to describe the soft skin that covers a deer's antlers as they develop . Velour",
+      "strength": 0.2263525912009525
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What six letter word is used to describe the soft skin that covers a deer's antlers as they develop . Follic",
+      "strength": 0.40000003589797006
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What six letter word is used to describe the soft skin that covers a deer's antlers as they develop . Cuticle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What six letter word is used to describe the soft skin that covers a deer's antlers as they develop . Panné",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Velour is a pile knit fabric, usually of polyester.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "While an antler is growing, it is covered with highly vascular skin called velvet.",
+      "strength": 0.5999441357039169
+    },
+    "A6": {
+      "type": "argument",
+      "text": "While an antler is growing, it is covered with highly vascular skin called velvet, which supplies oxygen and nutrients to the growing bone.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The antlers emerge as soft tissues (known as velvet antlers) and progressively harden into bony structures.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

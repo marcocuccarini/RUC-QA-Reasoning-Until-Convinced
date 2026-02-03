@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Two meters is the approximate length of the DNA from all 46 chromosomes in a human cell nucleus when laid out end to end.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Three meters is the approximate length of the DNA from all 46 chromosomes in a human cell nucleus when laid out end to end.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Four meters is the approximate length of the DNA from all 46 chromosomes in a human cell nucleus when laid out end to end.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "One meter is the approximate length when the DNA from all 46 chromosomes in a human cell nucleus is laid out end to end.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The total amount of DNA in this reference genome is 3.1 billion base pairs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most human cells are diploid so they contain twice as much DNA (~6.2 billion base pairs).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

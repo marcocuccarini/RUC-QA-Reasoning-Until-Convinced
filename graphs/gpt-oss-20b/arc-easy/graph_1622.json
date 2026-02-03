@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sugar is broken down in the body to release energy.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is broken down in the body to release energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Salt is broken down in the body to release energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oxygen is broken down in the body to release energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Glucose is the human body's key source of energy, through aerobic respiration, providing about 3.75 kilocalories (16 kilojoules) of food energy per gram.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Through glycolysis and later in the reactions of the citric acid cycle and oxidative phosphorylation, glucose is oxidized to eventually form carbon dioxide and water, yielding energy mostly in the form of adenosine triphosphate (ATP).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

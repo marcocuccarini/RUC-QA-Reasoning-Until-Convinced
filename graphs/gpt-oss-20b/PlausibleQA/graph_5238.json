@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The chemical element antimony is found in nature mainly as which sulphite mineral. SbSO3",
+      "strength": 0.4000000000125339
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The chemical element antimony is found in nature mainly as which sulphite mineral. Sb2(SO3)3",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The chemical element antimony is found in nature mainly as which sulphite mineral. SbS2",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The chemical element antimony is found in nature mainly as which sulphite mineral. Sb2S3",
+      "strength": 0.7236603014672648
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stibnite is a sulfide mineral, a mineral form of antimony trisulfide (Sb2S3).",
+      "strength": 0.599999999987466
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Antimony(III) sulfide",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Antimony trisulfide (Sb2S3) is found in nature as the crystalline mineral stibnite and the amorphous red mineral metastibnite.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The structure of the black needle-like form of Sb2S3, stibnite, consists of linked ribbons in which antimony atoms are in two different coordination environments, trigonal pyramidal and square pyramidal.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Recent work suggests that there are a number of closely related temperature dependent structures of stibnite which have been termed stibnite (I) the high temperature form, identified previously, stibnite (II) and stibnite (III).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many hospitals are there in the united states. 4,200",
+      "strength": 0.40000000008380016
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many hospitals are there in the united states. 6,800",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many hospitals are there in the united states. 3,500",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many hospitals are there in the united states. 5,534",
+      "strength": 0.49990517767498155
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As of 2020, there were 5,250 acute care and critical access hospitals in the United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As of 2018, there were 5,534 registered hospitals in the US.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There were 4,840 community hospitals.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "building a data base of more than 6,500 hospitals",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "the number of US hospitals shrinking from 6,933 in 1981 to 5,534 in 2016.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In the United States, the number of hospitalizations grew to its peak in 1981 with 171 admissions per 1,000 Americans and 6,933 hospitals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

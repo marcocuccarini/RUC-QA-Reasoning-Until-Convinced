@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. Cheap Trick",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. The Rolling Stones",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. Weezer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. Big Star",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cheap Trick recorded a cover of Big Star's 1972 song 'In the Street' that was used as the theme song for the Fox sitcom That '70s Show.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The theme song for That '70s Show was a cover of Big Star's song, not performed by Big Star themselves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

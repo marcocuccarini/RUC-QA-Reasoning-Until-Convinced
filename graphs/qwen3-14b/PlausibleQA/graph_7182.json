@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The American roadrunner belongs to which family of birds. Falconidae",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The American roadrunner belongs to which family of birds. Corvidae",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The American roadrunner belongs to which family of birds. Turdidae",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The American roadrunner belongs to which family of birds. Cuckoo",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The New World ground cuckoos include the long-billed roadrunner, which are part of the Cuculidae family.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cuckoos are birds in the Cuculidae (kew-KEW-lih-dee) family.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "indifferent"
+    }
+  ]
+}

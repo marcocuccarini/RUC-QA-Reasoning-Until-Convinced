@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the commercial capital of India. Delhi",
+      "strength": 0.5049504394616647
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the commercial capital of India. Bengaluru",
+      "strength": 0.4000000000212942
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the commercial capital of India. Chennai",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the commercial capital of India. Mubai",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mumbai is the financial, commercial, and entertainment capital of India.",
+      "strength": 0.4000000222130676
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mumbai generates 6.16% of India's GDP and accounts for 25% of the nation's industrial output.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As of 2016 recent estimates of the economy of the Delhi urban area have ranged from $370 billion to $400 billion (PPP metro GDP) ranking it either the most or second-most productive metro area of India.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Delhi is the largest commercial center in northern India.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "As of 31 March 2023, Chennai had an estimated GDP of $143.9 billion, ranking it among the most productive metro areas in India.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The automotive industry in Chennai accounts for more than 35% of India's overall automotive components and automobile output, earning the nickname 'Detroit of India'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

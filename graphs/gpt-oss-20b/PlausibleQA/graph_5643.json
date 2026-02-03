@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which English town/city did the Romans call Dubris. Southampton",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which English town/city did the Romans call Dubris. Portsmouth",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which English town/city did the Romans call Dubris. Exeter",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which English town/city did the Romans call Dubris. Dover",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the fortress settlement of Clausentum was established",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dubris, also known as Portus Dubris and Dubrae, was a port in Roman Britain on the site of present-day Dover, Kent, England.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At its peak, Dubris was a major trading centre, taking over from Rutupiae as the main Roman cross-Channel port.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Katherine Yiner is editor of which daily newspaper. The Times",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Katherine Yiner is editor of which daily newspaper. The Daily Telegraph",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Katherine Yiner is editor of which daily newspaper. The Independent",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Katherine Yiner is editor of which daily newspaper. Guardian",
+      "strength": 0.4000000909837343
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The editor-in-chief Katharine Viner succeeded Alan Rusbridger in 2015.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Geordie Greig was appointed The Independent's Editor-in-Chief in January 2023.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

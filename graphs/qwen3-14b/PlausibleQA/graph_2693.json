@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country has the largest amount of rainforest. Peru",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country has the largest amount of rainforest. Indonesia",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country has the largest amount of rainforest. Colombia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country has the largest amount of rainforest. Brzil",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brazil's forest cover is around 59% of the total land area, equivalent to 496,619,600 hectares (ha) in 2020.",
+      "strength": 0.40009682695977267
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Indonesia has 83% of Southeast Asia's old-growth forests.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Forests cover 47.7% of Indonesia's land area.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

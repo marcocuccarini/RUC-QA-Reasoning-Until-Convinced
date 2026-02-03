@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tumor is often the cause of hypersecretion by an endocrine gland.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Calcium is often the cause of hypersecretion by an endocrine gland.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Inflammation is often the cause of hypersecretion by an endocrine gland.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Viruses are often the cause of hypersecretion by an endocrine gland.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pituitary adenomas are seen in 10% of neurological patients. Most adenomas do not transform. However, even though benign, they have the potential to cause serious health complications by compressing other structures (mass effect) and by producing large amounts of hormones in an unregulated, non-feedback-dependent manner (causing paraneoplastic syndromes).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "While some adrenal adenomas do not secrete hormones at all, often some secrete cortisol, causing Cushing's syndrome, aldosterone causing Conn's syndrome, or androgens causing hyperandrogenism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

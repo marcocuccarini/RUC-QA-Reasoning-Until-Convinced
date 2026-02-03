@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wind is the agent most likely responsible for depositing rock layers composed of sand-sized particles.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is most likely responsible for depositing rock layers with sand‑sized particles.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Glaciers are the most likely agents that deposited rock layers with sand-sized particles.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Landslides are most likely responsible for depositing rock layers that contain sand-sized particles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aeolian sediment transport is common on beaches and in the arid regions of the world, because it is in these environments that vegetation does not prevent the presence and motion of fields of sand.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Coastal sediment transport takes place in near-shore environments due to the motions of waves and currents.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The sand in deserts and the sediment that forms bar islands is from rivers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The alluvium carried by rivers, laden with minerals, is deposited into the floodplain when the banks spill over, providing new nutrients to the soil, allowing them to support human activity like farming as well as a host of plant and animal life.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

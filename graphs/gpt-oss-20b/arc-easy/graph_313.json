@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "During a space mission, astronauts perform the experiment to obtain data to test a hypothesis, even though scientists have predicted the outcome.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To make a complete observation, astronauts perform the experiment in space even though scientists have already predicted the outcome.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To make a report of the procedures, astronauts conduct experiments during a space mission even though scientists have already predicted the outcomes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To make a hypothesis understandable is why astronauts perform the experiment in space, even when scientists have already predicted its outcome, allowing them to confirm the prediction and communicate it clearly.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the outcome is already known, it is called a consequence and should have already been considered while formulating the hypothesis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Scientific inquiry generally aims to obtain knowledge in the form of testable explanations that scientists can use to predict the results of future experiments.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The conclusion of the test is only as solid as the sample upon which it is based.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Statistically significant findings are often misleading in psychology.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

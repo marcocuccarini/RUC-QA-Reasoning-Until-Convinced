@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From Dec.29th 2011 which country will move forward a time zone, a move designed to help trade with China, Australia and New Zealand. Kiribati",
+      "strength": 0.3676471358817052
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From Dec.29th 2011 which country will move forward a time zone, a move designed to help trade with China, Australia and New Zealand. Tonga",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From Dec.29th 2011 which country will move forward a time zone, a move designed to help trade with China, Australia and New Zealand. Fiji",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From Dec.29th 2011 which country will move forward a time zone, a move designed to help trade with China, Australia and New Zealand. Samoa",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1995, Kiribati unilaterally moved the International Date Line far to the east to encompass the Line Islands group, so that the country would no longer be divided by the date line.",
+      "strength": 0.5999999858363227
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The revision of Kiribati's time zone meant that the international date line in effect moved 1,000 kilometers (620 mi) eastwards to go around this country.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At the end of December 2011, Samoa changed its time zone offset from UTC−11 to UTC+13, effectively jumping forward by one day, omitting Friday, 30 December from the local calendar.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "This also changed the shape of the International Date Line, moving it to the east of the territory.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

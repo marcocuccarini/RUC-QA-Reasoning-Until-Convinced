@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Intensity of light is the stimulus that causes a responding plant to demonstrate phototropism.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Direction of light is the stimulus that causes a responding plant to demonstrate phototropism.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Length of day is the stimulus that causes a responding plant to demonstrate phototropism.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Time of day is the stimulus that causes a responding plant to demonstrate phototropism.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The amounts of PHOT1 and PHOT2 present are different depending on the age of the plant and the intensity of the light.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Auxin will move towards the shaded side and promote elongation of the cells on that side to cause the plant to curve towards the light source.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Phototropism is the bending of the plant toward a source of light.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

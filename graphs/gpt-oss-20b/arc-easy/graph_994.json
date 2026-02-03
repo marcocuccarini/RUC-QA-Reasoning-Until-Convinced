@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cave is the most likely formation resulting from the deposition of sediment.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Delta is formed by deposition of sediment.",
+      "strength": 0.7499426574826383
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "River is most likely formed by deposition of sediment.",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A mountain is most likely formed by the deposition of sediment.",
+      "strength": 0.36775696673764335
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Deposited sediments are the source of sedimentary rocks.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deposition is the geological process in which sediments, soil and rocks are added to a landform or landmass.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Deposition can also refer to the buildup of sediment from organically derived matter or chemical processes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Settling – Process by which particulates move towards the bottom of a liquid and form a sediment",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Sedimentary rock – Rock formed by the deposition and cementation of particles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

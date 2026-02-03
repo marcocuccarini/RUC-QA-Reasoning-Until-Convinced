@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the chief ore used to make aluminium. Corundum",
+      "strength": 0.3677550333552537
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the chief ore used to make aluminium. Cryolite",
+      "strength": 0.250000036117761
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the chief ore used to make aluminium. Garnet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the chief ore used to make aluminium. Boxite",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bauxite is the world's main source of aluminium and gallium.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This aluminium oxide is dissolved at a temperature of about 960 °C in molten cryolite.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Next, this molten substance can yield metallic aluminium by passing an electric current through it in the process of electrolysis, which is called the Hall–Héroult process.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It is obtained industrially by mining bauxite, a sedimentary rock rich in aluminium minerals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

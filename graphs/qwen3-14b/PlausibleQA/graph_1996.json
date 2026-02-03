@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. France",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. Netherlands",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. Switzerland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. Beljum",
+      "strength": 0.25009176364520974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "La Brabançonne is the national anthem of Belgium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Belgium formally adopted the song and music as its national anthem in 1860.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

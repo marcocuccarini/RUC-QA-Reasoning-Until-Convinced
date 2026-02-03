@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The eye sockets faced sideways is the clue that led the girl, who found the skull of an unknown animal, to conclude that the animal preyed on other animals for its food.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The skull was much longer than it was wide, which led the girl, who had found the skull but did not know the animal’s identity, to conclude that the animal preyed on other animals for food.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A projecting ridge along the top of the skull was the clue that led the girl to conclude that the animal preyed on other animals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Four of the teeth were long and pointed, which led the girl to conclude that the animal preyed on other animals for its food after she found its skull.",
+      "strength": 0.4000000622202648
+    },
+    "H4": {
+      "type": "hypothesis",
+      "text": "The jaws could move sideways as well as up and down, a clue that led the girl to conclude that the animal whose skull she found preyed on other animals for food.",
+      "strength": 0.5999350949478656
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In most species, the eyes are at the front of the face.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All of the terrestrial species of carnivorans have three incisors on each side of each jaw (the exception is the sea otter (Enhydra lutris) which only has two lower incisor teeth).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Owls and jumping spiders have forward-facing eyes, providing accurate binocular vision over a relatively narrow field of view.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Some snakes can unhinge their jaws to swallow large prey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H4",
+      "relation": "support"
+    }
+  ]
+}

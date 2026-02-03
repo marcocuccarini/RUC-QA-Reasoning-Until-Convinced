@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water at the bottom of the ocean contains more dissolved solids, which is the main reason water at the surface of the ocean is warmer than water at the bottom.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water at the surface of the ocean absorbs more energy from the Sun, which is the main reason it is warmer than water at the bottom of the ocean.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Friction is created by fast‑moving currents at the surface of the ocean, which is the main reason water at the ocean’s surface is warmer than water at the bottom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wave action transfers heat from the bottom of the ocean to the surface, which is the main reason water at the surface of the ocean is warmer than water at the bottom of the ocean.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ocean absorbs part of the energy from sunlight as heat and is initially absorbed by the surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The increased warming in the upper ocean reduces the density of the upper ≈500 m of water, while deeper water does not experience as much warming and as great a decrease in density.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

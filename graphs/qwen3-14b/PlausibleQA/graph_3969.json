@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of creature is a bufflehead. Duck",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of creature is a bufflehead. Fish",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of creature is a bufflehead. Insect",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of creature is a bufflehead. Eend",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The bufflehead (Bucephala albeola) is a small sea duck of the genus Bucephala, the goldeneyes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Buffleheads are monogamous ducks. They nest in cavities in trees, primarily aspens or poplars, using mostly old flicker nests, close (usually < 25 m (82 ft)) to water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

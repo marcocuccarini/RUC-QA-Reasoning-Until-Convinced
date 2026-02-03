@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cools it is what happens to a surface when the evaporative loss of the most energetic water molecules occurs.",
+      "strength": 0.7736590541531099
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Heats it is the result of the evaporative loss of the most energetic water molecules from a surface.",
+      "strength": 0.4000682328053174
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vents it is what happens to a surface when the evaporative loss of the most energetic water molecules occurs.",
+      "strength": 0.5999999999742499
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Charges it is what the evaporative loss of the most energetic water molecules does to a surface.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Evaporative cooling therefore causes a drop in the temperature of air proportional to the sensible heat drop",
+      "strength": 0.5999999736707434
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Apollo spacecraft used sublimators, compact and largely passive devices that dump waste heat in water vapor (steam) that is vented to space",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A swamp cooler cools air by evaporation",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When evaporation occurs, the energy removed from the vaporized liquid will reduce the temperature of the liquid, resulting in evaporative cooling.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Evaporation is an endothermic process, since heat is absorbed during evaporation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

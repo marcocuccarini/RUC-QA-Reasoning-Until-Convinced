@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mechanical energy to electrical energy is the energy conversion provided by the generators that a hospital may rely on after a storm to power some equipment.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Thermal energy to mechanical energy is the energy conversion provided by the backup generators that a hospital may rely on after a storm to power some equipment.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nuclear energy to mechanical energy is the energy conversion performed by the backup generators that a hospital may rely on after a storm to power some equipment.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermal energy to electrical energy is the energy conversion provided by the backup generators that a hospital may rely on to power some equipment after a storm.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A generator, also called an electric generator, electrical generator, and electromagnetic generator is an electromechanical device that converts mechanical energy to electrical energy for use in an external circuit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most power stations in the world burn fossil fuels such as coal, oil, and natural gas to generate electricity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

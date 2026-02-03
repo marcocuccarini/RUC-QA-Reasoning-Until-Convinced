@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Impermeable rock is the material that stops water when it seeps into the ground through permeable material.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bed rock is the layer that stops water seeping into the ground through permeable material.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lava is the material that water seeps into the ground through permeable material stops when it reaches.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Coral is the material that water seeps into the ground through permeable material and stops when it reaches it.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the aquifer is confined by low‑permeability layers, the reduced water pressure in the sand and gravel causes slow drainage of water from the adjoining confining layers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If these confining layers are composed of compressible silt or clay, the loss of water to the aquifer reduces the water pressure in the confining layer, causing it to compress from the weight of overlying geologic materials.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Soils that have smaller pore sizes, such as clay, have lower infiltration capacity and slower infiltration rates than soils that have large pore sizes, such as sands.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

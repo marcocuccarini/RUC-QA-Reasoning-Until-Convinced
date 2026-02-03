@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The average size of the molecules decreased when a sample of water was heated from a liquid to a gas.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The average size of the molecules increased when a sample of water was heated from a liquid to a gas.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The average kinetic energy of the molecules decreased as a sample of water was heated from a liquid to a gas.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The average kinetic energy of the molecules increased in a sample of water that was heated from a liquid to a gas.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "K / ND = 1/2 k_B T",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At higher temperatures (typically thousands of kelvins), vibrational modes become active to provide additional degrees of freedom, creating a temperature-dependence on D and the total molecular energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

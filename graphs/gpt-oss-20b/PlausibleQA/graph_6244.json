@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Complete the name of the MLB (Baseball) team based in Arlington, Texas - 'The Texas....'. Texans",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Complete the name of the MLB (Baseball) team based in Arlington, Texas - 'The Texas....'. Stars",
+      "strength": 0.2263488303143409
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Complete the name of the MLB (Baseball) team based in Arlington, Texas - 'The Texas....'. Longhorns",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Complete the name of the MLB (Baseball) team based in Arlington, Texas - 'The Texas....'. Ranger",
+      "strength": 0.5690494064752774
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Texas Rangers (baseball), an American professional baseball team",
+      "strength": 0.5999463261742976
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1972, the second Washington Senators moved to the Dallas–Fort Worth metroplex to become the Texas Rangers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The MLB team based in Arlington, Texas is the Texas Rangers.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Texas Rangers were unofficially created by Stephen F. Austin in 1823 and formally constituted in 1835.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

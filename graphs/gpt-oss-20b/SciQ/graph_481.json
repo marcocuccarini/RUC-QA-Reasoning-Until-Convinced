@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Substance is a sample of matter that has the same physical and chemical properties throughout itself.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Antimatter is a sample of matter that has the same physical and chemical properties throughout itself.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Essence is a sample of matter that has the same physical and chemical properties throughout itself.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Molecule is a sample of matter that has the same physical and chemical properties throughout itself.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical substance, a material with a definite chemical composition",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Matter, anything that has mass and takes up space",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In chemistry, substance is a unique form of matter with constant chemical composition and characteristic properties.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Many minerals, however, mutually dissolve into solid solutions, such that a single rock is a uniform substance despite being a mixture in stoichiometric terms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

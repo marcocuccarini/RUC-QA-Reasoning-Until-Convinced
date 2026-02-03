@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon is the element present in all organic molecules.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is the element present in all organic molecules.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sodium is present in all organic molecules.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hydrogen is present in all organic molecules.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The modern meaning of organic compound is any compound that contains a significant amount of carbon—even though many of the organic compounds known today have no connection to any substance found in living organisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nickel tetracarbonyl (Ni(CO)4) is typically classified as an organometallic compound.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

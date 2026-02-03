@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On September 28th, NASA announced that what had been detected on Mars. Liquid Methane",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On September 28th, NASA announced that what had been detected on Mars. Geysers",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On September 28th, NASA announced that what had been detected on Mars. Organic Molecules",
+      "strength": 0.25008816554121593
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On September 28th, NASA announced that what had been detected on Mars. Flowing WATER",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As reported in 2018, drill samples taken in 2015 uncovered organic molecules of benzene and propane in 3 billion year old rock samples in Gale.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In March 2024 it was published that Curiosity discovered long chain alkanes with up to 12 consecutive carbon atoms, in mudstone in Gale crater.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

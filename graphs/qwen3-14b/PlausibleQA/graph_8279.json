@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which cult film, starring Harrison Ford, was based on the story Do Androids Dream of Electric Sheep. Blade Runner 2090",
+      "strength": 0.4999050904009558
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which cult film, starring Harrison Ford, was based on the story Do Androids Dream of Electric Sheep. Electric Dreams",
+      "strength": 0.25000009154079683
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which cult film, starring Harrison Ford, was based on the story Do Androids Dream of Electric Sheep. Android",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which cult film, starring Harrison Ford, was based on the story Do Androids Dream of Electric Sheep. V-K",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Blade Runner is a 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples. Starring Harrison Ford, Rutger Hauer, Sean Young, and Edward James Olmos, it is an adaptation of Philip K. Dick's 1968 novel Do Androids Dream of Electric Sheep?",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Blade Runner is an adaptation of Philip K. Dick's 1968 novel Do Androids Dream of Electric Sheep?",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Electric Dreams does not star Harrison Ford",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Blade Runner became a cult classic and one of Ford's most highly regarded films",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

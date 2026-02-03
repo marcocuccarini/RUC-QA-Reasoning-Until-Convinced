@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is added to white wine to make a Kir. Blackberry syrup",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is added to white wine to make a Kir. Peach puree",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is added to white wine to make a Kir. Grand Marnier",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is added to white wine to make a Kir. Cassis",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kir is a French cocktail made with a measure of crème de cassis (blackcurrant liqueur) topped up with white wine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Replacing the crème de cassis with blackcurrant syrup is discouraged.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

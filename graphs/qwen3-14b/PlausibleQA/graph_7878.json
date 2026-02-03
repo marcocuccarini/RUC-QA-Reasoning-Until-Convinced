@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the ballet dancer who requested asylum in France while in Paris with the Kirov Ballet, in June 1961. Rudolf Nureyev's contemporary, Yuri Soloviev",
+      "strength": 0.40000000008380016
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the ballet dancer who requested asylum in France while in Paris with the Kirov Ballet, in June 1961. Russian ballet dancer, Natalia Makarova",
+      "strength": 0.4000000909837343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the ballet dancer who requested asylum in France while in Paris with the Kirov Ballet, in June 1961. Soviet ballet dancer, Maya Plisetskaya",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the ballet dancer who requested asylum in France while in Paris with the Kirov Ballet, in June 1961. Nuriev",
+      "strength": 0.40000000008380016
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1961, he defected to the West, despite KGB efforts to stop him.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was born on a Trans-Siberian train near Lake Baikal, in Siberia, Soviet Union, to a Tatar family.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Natalia Makarova defected to the West in 1970, not in 1961.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Plisetskaya always refused to defect.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

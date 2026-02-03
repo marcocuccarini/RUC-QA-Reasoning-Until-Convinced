@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Slump leaves behind crescent‑shaped scars on a hillside and may be caused by a layer of slippery, wet clay underneath the rock and soil on the hillside.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Creep leaves behind crescent-shaped scars on a hillside and may be caused by a layer of slippery, wet clay underneath the rock and soil on the hillside.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Slide leaves behind crescent-shaped scars on a hillside and may be caused by a layer of slippery, wet clay underneath the rock and soil on the hillside.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Shearing leaves behind crescent-shaped scars on a hillside and may be caused by a layer of slippery, wet clay underneath the rock and soil on that hillside.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Clay expands when wet, then contracts after drying. The expansion portion pushes downhill, then the contraction results in consolidation at the new offset.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The presence of water may help the hillside stay put and give it cohesion, but in a very wet environment or during or after a large amount of precipitation the pores between the grains can become saturated with water and cause the ground to slide along the slip plane it creates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

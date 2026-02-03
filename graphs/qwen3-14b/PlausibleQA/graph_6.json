@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last summer olympics in the usa. 1984",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last summer olympics in the usa. 2008",
+      "strength": 0.3677550564517861
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last summer olympics in the usa. 2012",
+      "strength": 0.22632027643145286
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last summer olympics in the usa. 1996",
+      "strength": 0.5999999999999783
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1996 Olympics are the most recent edition of the Summer Olympics to be held in the United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 2012 Summer Olympics were held in London, England.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 2028 Games in Los Angeles will mark the fifth occasion on which the Summer Olympics have been hosted by the U.S.",
+      "strength": 0.5999625530424765
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The United States has hosted the Summer Games on four occasions, more than any other nation, and is planning to host the fifth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

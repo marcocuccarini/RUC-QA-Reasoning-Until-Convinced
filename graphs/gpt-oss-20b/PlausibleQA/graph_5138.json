@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "cast of the movie pride of the marines. John Garfield",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "cast of the movie pride of the marines. Eleanor Parker",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "cast of the movie pride of the marines. Dane Clark",
+      "strength": 0.5999999402194273
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "cast of the movie pride of the marines. Ann Doran",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pride of the Marines is a 1945 American biographical war film starring John Garfield.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "original stars John Garfield, Eleanor Parker, and Dane Clark reprising their roles from the film.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Parker was cast with John Garfield in Pride of the Marines (1945).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

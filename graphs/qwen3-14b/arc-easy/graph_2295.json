@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Producers are the organisms that eat only plants.",
+      "strength": 0.4000000000584653
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Omnivores are organisms that eat only plants.",
+      "strength": 0.400000060988221
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Herbivores are organisms that eat only plants.",
+      "strength": 0.15393750467301753
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Scavengers are organisms that eat only plants.",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Autotrophs take energy from the environment in the form of sunlight or inorganic chemicals and use it to create fuel molecules such as carbohydrates.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heterotrophs – all animals, almost all fungi, as well as most bacteria and protozoa – depend on autotrophs, or primary producers, for the raw materials and fuel they need.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Although cases exist of herbivores eating meat and carnivores eating plant matter, the classification 'omnivore' refers to the adaptation and main food source of the species in general",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "An omnivore is an animal that eats both plant and animal matter",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Scavengers are animals that feed on dead and decaying organic matter.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Animals that feed on dead plant material are called herbivorous scavengers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

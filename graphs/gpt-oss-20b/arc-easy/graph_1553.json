@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Subsidence is the event that occurred when tectonic motion caused tension between plates in Earth's crust, and the sudden release of that tension produced subsidence.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earthquake is the event that occurs when tectonic motion creates tension between plates in Earth's crust and a sudden release of that energy happens.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Volcanic eruption is the event that occurred when tectonic motion caused tension between plates in Earth's crust and the stored energy was suddenly released.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Meteoroid impact is the event that caused a sudden release of energy due to tectonic motion creating tension between plates in Earth's crust.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earthquakes are caused mostly by the rupture of geological faults but also by other events such as volcanic activity, landslides, mine blasts, fracking and nuclear tests.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Once the fault has locked, continued relative motion between the plates leads to increasing stress and, therefore, stored strain energy in the volume around the fault surface. This continues until the stress has risen sufficiently to break through the asperity, suddenly allowing sliding over the locked portion of the fault, releasing the stored energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

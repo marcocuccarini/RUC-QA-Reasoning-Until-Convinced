@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the capital of the United States between 1785 and 1790. Philadelphia",
+      "strength": 0.5000967377776371
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the capital of the United States between 1785 and 1790. Boston",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the capital of the United States between 1785 and 1790. Baltimore",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the capital of the United States between 1785 and 1790. Ny",
+      "strength": 0.5999999108178649
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On that same September 13, it determined that New York would remain the national capital.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Congress from time to time during the Revolutionary War requisitioned troops from the states. Any contributions were voluntary, and in the debates of  Producto 1783, George Washington defused the Newburgh conspiracy, but riots by unpaid Pennsylvania veterans forced Congress to leave Philadelphia temporarily.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The national capital moved from New York to Philadelphia in 1790",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Its height increases when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its height decreases when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its length shortens when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It crests when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In other words, as the waves approach the shore and the water gets shallower, the waves get taller, slow down, and get closer together.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As waves enter shallower waters, the decrease in group velocity caused by the reduction in water depth leads to a reduction in wave length λ.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wave height changes due to wave shoaling and refraction as the water depth decreases towards the coast.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When the slope, or steepness ratio, of a wave, is too great, breaking is inevitable.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

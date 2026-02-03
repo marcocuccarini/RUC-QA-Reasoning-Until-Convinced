@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Backbone is the characteristic feature that defines Vertebrata.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bones characterize Vertebrata, as they are present in these organisms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Muscles are what vertebrata are characterized by the presence of.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thumbs are the characteristic that Vertebrata are defined by.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vertebrates are distinguished from all other animals, including other chordates, by multiple synapomorphies: namely a vertebral column",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vertebrates (and other chordates) belong to the Bilateria, a group of animals with mirror symmetrical bodies",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

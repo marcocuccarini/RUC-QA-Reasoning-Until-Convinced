@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 2009 to what did the United Kingdom’s largest insurance company, Norwich Union, change its name. Aviva UK",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 2009 to what did the United Kingdom’s largest insurance company, Norwich Union, change its name. NU Insurance",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 2009 to what did the United Kingdom’s largest insurance company, Norwich Union, change its name. Britannia Insurance",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 2009 to what did the United Kingdom’s largest insurance company, Norwich Union, change its name. CGNU",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In April 2002, the company's shareholders voted to change the company name to Aviva plc",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The name of the company upon its formation in May 2000 was CGNU plc",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The rotation of Earth on its axis explains the relationship between hours of sunlight and seasons.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The tilt of Earth's axis relative to the sun explains the relationship between hours of sunlight and seasons.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The location of Earth's orbit in the solar system explains the relationship between hours of sunlight and seasons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The motion of the moon as it travels around Earth explains the relationship between hours of sunlight and seasons.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This is the cause of Earth's seasons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Summer occurs in the Northern Hemisphere when the North Pole is directed toward and the South Pole away from the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

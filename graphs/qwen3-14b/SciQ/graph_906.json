@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Zygote is the diploid cell formed by the fusion of haploid gametes in sexual reproduction.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gonad is the diploid cell formed by the fusion of haploid gametes in sexual reproduction.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fetus is the diploid cell formed by the fusion of haploid gametes in sexual reproduction.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gamete is the diploid cell formed by the fusion of haploid gametes in sexual reproduction.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "a released ovum (a haploid secondary oocyte with replicate chromosome copies) and a haploid sperm cell (male gamete) combine to form a single diploid cell called the zygote",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "a haploid sperm cell (male gamete)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

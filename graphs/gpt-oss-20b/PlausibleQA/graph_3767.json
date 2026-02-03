@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which comedian entered the Guinness Book of Records for telling jokes non stop for three hours and six minutes. Eddie Murphy",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which comedian entered the Guinness Book of Records for telling jokes non stop for three hours and six minutes. Robin Williams",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which comedian entered the Guinness Book of Records for telling jokes non stop for three hours and six minutes. Billy Crystal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which comedian entered the Guinness Book of Records for telling jokes non stop for three hours and six minutes. Ken dodd",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dodd was renowned for the length of his performances, and during the 1960s he earned a place in The Guinness Book of Records for the world's longest ever joke-telling session: 1,500 jokes in three-and-a-half hours (7.14 jokes per minute), undertaken at the Royal Court Theatre, Liverpool.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The record was three-and-a-half hours, not three hours and six minutes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

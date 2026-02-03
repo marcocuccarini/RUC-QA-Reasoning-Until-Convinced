@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lead is the pollutant that eventually contaminates fish after coal is burned, because chemicals in the atmosphere dissolve in water droplets, precipitate with the water, pollute Earth’s water reservoirs, and then enter the food chain when aquatic organisms absorb them.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Arsenic eventually contaminates fish after coal is burned, because atmospheric chemicals dissolve in water droplets, precipitate with the water and pollute reservoirs, and then enter the food chain when aquatic organisms absorb them.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mercury is the pollutant that eventually contaminates fish after coal is burned, because chemicals in the atmosphere dissolve in water droplets, precipitate with the water, pollute water reservoirs on Earth, and enter the food chain when aquatic organisms absorb them.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aluminum eventually contaminates fish after coal is burned, as atmospheric chemicals dissolve in water droplets, precipitate with the water, pollute Earth’s water reservoirs, and then enter the food chain when aquatic organisms absorb them.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "65% from stationary combustion, of which coal-fired power plants are the largest aggregate source (40% of U.S. mercury emissions in 1999).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Studies report mercury concentrations in fish muscle tissue ranging from 0.01 to 0.67 μg/g, with carnivorous species like Plagioscion squamosissimus showing higher levels due to biomagnification, sometimes exceeding the World Health Organization's safety threshold of 0.5 μg/g.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

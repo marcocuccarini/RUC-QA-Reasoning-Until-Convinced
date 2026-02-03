@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which year saw the assassination of US President James Garfield. 1879",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which year saw the assassination of US President James Garfield. 1880",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which year saw the assassination of US President James Garfield. 1882",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which year saw the assassination of US President James Garfield. 1881",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On July 2, 1881, Garfield was shot by Charles J. Guiteau, a deluded office seeker.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He died on September 19 due to infection caused by his doctors' unsanitary methods in treating the wound.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

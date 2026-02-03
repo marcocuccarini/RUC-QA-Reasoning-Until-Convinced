@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "By what first name is West Indian cricketer Sarwan known. Ramna",
+      "strength": 0.2500974210553993
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "By what first name is West Indian cricketer Sarwan known. Devon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "By what first name is West Indian cricketer Sarwan known. Marlon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "By what first name is West Indian cricketer Sarwan known. RAMNARESH",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The input text contains no mention of Sarwan.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ramnaresh Sarwan (born 1980), former West Indian cricketer",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

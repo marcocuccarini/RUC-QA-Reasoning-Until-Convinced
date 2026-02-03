@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when does the next star trek episode come out. 2025",
+      "strength": 0.16901565816704064
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when does the next star trek episode come out. 2022",
+      "strength": 0.5999097191411071
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when does the next star trek episode come out. 2030",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when does the next star trek episode come out. 2018",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Season 4 is expected to be released in 2026.",
+      "strength": 0.40000008654640523
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Paramount confirmed that the fifth season would be the last for the series.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Season 4 of Lower Decks was released from September to November 2023.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Season 2 (2024)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Season 1 (2021–22)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

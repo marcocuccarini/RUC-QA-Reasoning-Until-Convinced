@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Asteroids are the small, rocky bodies that orbit the sun.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Comets are small, rocky bodies that orbit the sun.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Meteorites are small, rocky bodies that orbit the sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fossils are the small, rocky bodies that orbit the sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Asteroids are rocky, metallic, or icy bodies with no atmosphere, and are broadly classified into C-type (carbonaceous), M-type (metallic), or S-type (silicaceous). Asteroids are minor planets—an object larger than a meteoroid (thus 1 meter or larger) that is neither a planet nor an identified comet—that orbits within the inner Solar System or is co-orbital with Jupiter (Trojan asteroids).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main difference between an asteroid and a comet is that a comet shows a coma (tail) due to sublimation of its near-surface ices by solar radiation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

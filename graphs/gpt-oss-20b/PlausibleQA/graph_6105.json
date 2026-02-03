@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Halle Orchestra was founded in which British city. Liverpool",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Halle Orchestra was founded in which British city. Birmingham",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Halle Orchestra was founded in which British city. Leeds",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Halle Orchestra was founded in which British city. Mancs",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In May 1857, the pianist and conductor Charles Hallé set up an orchestra to perform at the Manchester Art Treasures Exhibition",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Hallé is an English symphony orchestra based in Manchester, England",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Manchester has two symphony orchestras, The Hallé and the BBC Philharmonic, and a chamber orchestra, the Manchester Camerata.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

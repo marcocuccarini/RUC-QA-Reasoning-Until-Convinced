@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Glycolysis is the first stage of cellular respiration.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrolysis is the first stage of cellular respiration.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrolisis is the first stage of cellular respiration.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metabolism is the first stage of cellular respiration.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Glycolysis is the metabolic pathway that converts glucose (C6H12O6) into pyruvate and, in most organisms, occurs in the liquid part of cells (the cytosol).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The citric acid cycle (or Krebs Cycle) follows glycolysis, where the acetyl group of the acetyl-CoA is converted into carbon dioxide by two decarboxylation reactions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

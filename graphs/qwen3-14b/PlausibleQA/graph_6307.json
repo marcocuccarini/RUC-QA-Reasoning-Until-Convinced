@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The marathon is named after a city in what country. Greece",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The marathon is named after a city in what country. Japan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The marathon is named after a city in what country. United States",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The marathon is named after a city in what country. Elás",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The name Marathon comes from the legend of Pheidippides, the Greek messenger.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Athens Classic Marathon traces the route of the 1896 Olympic course, starting in Marathon on the eastern coast of Attica, site of the Battle of Marathon of 490 BC",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

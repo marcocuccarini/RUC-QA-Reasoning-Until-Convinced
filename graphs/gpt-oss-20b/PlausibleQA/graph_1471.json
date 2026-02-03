@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What cereal is kid-tested and mother-approved. Froot Loops",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What cereal is kid-tested and mother-approved. Cheerios",
+      "strength": 0.49511223139193045
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What cereal is kid-tested and mother-approved. Lucky Charms",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What cereal is kid-tested and mother-approved. KIX",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cheerios have become a popular baby food.",
+      "strength": 0.4000911881966091
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In May 2009, the U.S. Food and Drug Administration sent a letter to General Mills indicating that Cheerios was being sold as an unapproved new drug, due to labeling which read in part:",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On June 25, the company voluntarily began to recall about 28 million boxes of Apple Jacks, Corn Pops, Froot Loops and Honey Smacks because of an unusual smell and flavor from the packages' liners that could make people ill.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

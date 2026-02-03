@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pupa is the stage of the insect life cycle in which insects begin developing their wings.",
+      "strength": 0.10009549113062087
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Crystalline is the stage of insects' life cycle at which they begin developing their wings.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Larva is the stage of the insect life cycle during which insects begin developing their wings.",
+      "strength": 0.4000000408816272
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pupal is the stage of the insect life cycle in which insects begin developing their wings.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Adult insects typically move about by walking and flying; some can swim.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Insects which undergo holometabolism pass through a larval stage, then enter an inactive state called pupa (called a 'chrysalis' in butterfly species), and finally emerge as adults.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The juvenile forms closely resemble adults, but are smaller and lack adult features such as wings and genitalia. The size and morphological differences between nymphs in different instars are small, often just differences in body proportions and the number of segments; in later instars, external wing buds form.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Insects that undergo incomplete metamorphosis do not have a pupal stage, therefore they must have a different wing morphogenesis.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The first indication of the wing buds is of a thickening of the hypodermis, which can be observed in insect species as early the embryo, and in the earliest stages of the life cycle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

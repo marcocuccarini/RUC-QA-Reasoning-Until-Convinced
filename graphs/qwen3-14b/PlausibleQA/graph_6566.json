@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Goodge Street tube station is on which London Underground line. Central",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Goodge Street tube station is on which London Underground line. Victoria",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Goodge Street tube station is on which London Underground line. Bakerloo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Goodge Street tube station is on which London Underground line. Northern",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The station is on the Charing Cross branch of the Northern line",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is one of three stations that directly serve the Fitzrovia area, the others being Warren Street and Great Portland Street",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

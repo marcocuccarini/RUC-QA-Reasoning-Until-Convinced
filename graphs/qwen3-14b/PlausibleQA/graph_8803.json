@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where will the next summer and winter olympics be held. Paris",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where will the next summer and winter olympics be held. Beijing",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where will the next summer and winter olympics be held. Los Angeles",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where will the next summer and winter olympics be held. Tokyo",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Los Angeles was awarded the 2028 Summer Olympics.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Paris was awarded the 2024 Summer Olympics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

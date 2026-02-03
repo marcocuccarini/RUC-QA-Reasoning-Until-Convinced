@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which film won the oscar for best animated feature in 2007. Happy Feet",
+      "strength": 0.4999159033804452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which film won the oscar for best animated feature in 2007. Flushed Away",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which film won the oscar for best animated feature in 2007. Monster House",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which film won the oscar for best animated feature in 2007. Ratatouille",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pixar holds the most consecutive wins (4, between 2007 and 2010).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Happy Feet, The Last King of Scotland, Letters from Iwo Jima, The Lives of Others, Marie Antoinette, Pirates of the Caribbean: Dead Man's Chest, The Queen, and West Bank Story with one.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

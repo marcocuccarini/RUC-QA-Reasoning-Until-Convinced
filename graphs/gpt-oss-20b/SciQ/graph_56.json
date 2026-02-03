@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrophobic molecules are the kinds of molecules that hydrophilic molecules generally avoid.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aqueous molecules are the kind of molecules that hydrophilic molecules generally avoid.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lipophilic molecules are generally avoided by hydrophilic molecules.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Neutral molecules are the other kinds of molecules that hydrophilic molecules generally avoid.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Because water molecules are polar, hydrophobes do not dissolve well among them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hydrophobic molecules tend to be nonpolar and, thus, prefer other neutral molecules and nonpolar solvents.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

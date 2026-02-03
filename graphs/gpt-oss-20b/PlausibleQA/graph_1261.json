@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are italians classified as. Mediterraneans",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are italians classified as. Latins",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are italians classified as. Westerners",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are italians classified as. Europeans",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "most Italian nationals are native speakers of the country's official language, Italian, a Romance language of the Indo-European language family that evolved from the Vulgar Latin.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Due to historic demographic shifts in the Italian peninsula throughout history, its geographical position in the center of the Mediterranean Sea, and Italy's regional ethnic diversity since ancient times, modern Italians are genetically diverse.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Latin peoples include Italians, French, Spaniards, Catalans, Provençals, Romansh, Portuguese, and Walloons in Western Europe, and Romanians in Eastern Europe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

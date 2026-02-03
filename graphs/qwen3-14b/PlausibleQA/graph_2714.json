@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A hafiz is a person who has memorized what book. Bible",
+      "strength": 0.36775696673764335
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A hafiz is a person who has memorized what book. Torah",
+      "strength": 0.36775696673764335
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A hafiz is a person who has memorized what book. Mahabharata",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A hafiz is a person who has memorized what book. Qran",
+      "strength": 0.400000037362994
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Someone who has memorized the entire Quran is called a hafiz",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hifz means memorization of the Quran",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Guide Book for Huffaz is a Quranic Memorisation Guide",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

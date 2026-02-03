@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What did Pickles find in 1966. A valuable coin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What did Pickles find in 1966. A rare book",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What did Pickles find in 1966. A famous painting",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What did Pickles find in 1966. The Jules Rimet Trophy/World Cup",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Jules Rimet trophy was stolen from an exhibition display... It was later discovered wrapped in newspaper as the dog sniffed under some bushes in London",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prior to the tournament, the Jules Rimet trophy was stolen, but was recovered by a dog named Pickles four months before the tournament began",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "That travel through the object is the color of an object such as an apple.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The color of an object such as an apple is the same as the color of the light waves that are absorbed by the object.",
+      "strength": 0.2500974173587746
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The color that is reflected by an object such as an apple is the same as the color of the light waves.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The light waves that travel around the object are the color of an object such as an apple, which is the same as the color.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The reflectance is the fraction of incident electromagnetic power that is reflected at the boundary.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most objects do not reflect or transmit light specularly and to some degree scatters the incoming light, which is called glossiness.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Atoms emit and absorb light at characteristic energies. This produces 'emission lines' in the spectrum of each atom.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the largest city in the united states per square mile. New York City",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the largest city in the united states per square mile. San Francisco",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the largest city in the united states per square mile. Boston",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the largest city in the united states per square mile. Sitka",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Manhattan's population density of 70,450.8 inhabitants per square mile (27,201.2/km2) in 2022 makes it the highest of any county in the United States and higher than the density of any individual American city.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The city's population density of 27,744.1 inhabitants per square mile (10,712.1/km2) makes it the densest of any American municipality with a population above 100,000.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

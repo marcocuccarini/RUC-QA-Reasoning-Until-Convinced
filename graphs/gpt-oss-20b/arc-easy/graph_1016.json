@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon to revolve once determines the length of one day on Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The length of one day on Earth is determined by how long it takes the Moon to rotate once.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth to rotate once determines the length of one day on Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth to revolve once determines the length of one day on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Over millions of years, Earth's rotation has been slowed significantly by tidal acceleration through gravitational interactions with the Moon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The true solar day tends to be longer near perihelion when the Sun apparently moves along the ecliptic through a greater angle than usual, taking about 10 seconds longer to do so.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

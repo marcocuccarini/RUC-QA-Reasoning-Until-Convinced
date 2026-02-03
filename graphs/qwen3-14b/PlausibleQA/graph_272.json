@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A schism normally refers to a split within what sort of institution. Government",
+      "strength": 0.40000003773849835
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A schism normally refers to a split within what sort of institution. Corporation",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A schism normally refers to a split within what sort of institution. University",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A schism normally refers to a split within what sort of institution. Church",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The word is most frequently applied to a split in what had previously been a single religious body, such as the Great East–West Schism or the Western Schism.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A schism is a division between people, usually belonging to an organization, movement, or religious denomination.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Schism is a rejection of communion with the authorities of a Church.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In this context, 'schismatic', as a noun, denotes a person who creates or incites schism in a church or a person who is a member of a splinter Church.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

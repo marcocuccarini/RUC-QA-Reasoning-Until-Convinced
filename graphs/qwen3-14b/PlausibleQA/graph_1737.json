@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Julius Caesar",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Romulus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Lucius Cornelius Sulla",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Agustus",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Roman emperors were the rulers of the Roman Empire from the granting of the name and title Augustus to Octavian by the Roman Senate in 27 BC onward.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The title of Augustus was conferred on his successors to the imperial position, and emperors gradually grew more monarchical and authoritarian.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

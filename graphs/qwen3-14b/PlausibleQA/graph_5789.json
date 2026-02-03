@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Kamala Harris",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Mike Pence",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Nancy Pelosi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Biden",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kamala Harris was sworn in as vice president at 11:40 a.m. on January 20, 2021, by Justice Sonia Sotomayor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Harris left office on January 20, 2025, and was succeeded by the 50th vice president of the United States, JD Vance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

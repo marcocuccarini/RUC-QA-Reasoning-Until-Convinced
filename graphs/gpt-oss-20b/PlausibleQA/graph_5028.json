@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the capital of Poland prior to Warsaw. Krakow",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the capital of Poland prior to Warsaw. Gniezno",
+      "strength": 0.500064845271561
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the capital of Poland prior to Warsaw. Poznan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the capital of Poland prior to Warsaw. PLKRK",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gniezno was the first historical capital of Poland in the 10th century and early 11th century.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The cities of Gniezno and nearby Poznań were captured, plundered and destroyed in 1038 by the Bohemian duke Bretislav I, which pushed the next Polish rulers to move the Polish capital to Kraków.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The unrest led to the transfer of the capital to Kraków in 1038 by Casimir I the Restorer.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The transfer of the capital to Kraków in 1038 by Casimir I the Restorer indicates that Kraków, not Gniezno, was the capital prior to Warsaw.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

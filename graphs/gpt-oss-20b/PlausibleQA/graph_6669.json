@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "is jaffa cakes a biscuit or a cake. Biscuit",
+      "strength": 0.5999999641020304
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "is jaffa cakes a biscuit or a cake. Pastry",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "is jaffa cakes a biscuit or a cake. Cookie",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "is jaffa cakes a biscuit or a cake. Cake",
+      "strength": 0.5999999641020304
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The product's texture was regarded as being that of a sponge cake.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The product is presented as a snack and eaten with the fingers, like a biscuit, rather than with a fork as a cake might be.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pastry refers to a variety of doughs (often enriched with fat or eggs), as well as the sweet and savoury baked goods made from them.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Pastries tend to have a delicate texture, often flaky or crumbly, and rich flavor—simple breads are thus excluded from the pastry category.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Abundant resources are essential for a population of all species to expand greatly.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Foliage resources are essential for the population of all species to expand greatly.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical resources are essential for the population of all species to expand greatly.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Liquid resources are essential for the population of all species to expand greatly.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Population growth alongside increased consumption is a driver of environmental concerns, such as biodiversity loss and climate change, due to overexploitation of natural resources for human development.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Haber process, named after one of its inventors, the German chemist Fritz Haber, served as the 'detonator of the population explosion', enabling the global population to increase from 1.6 billion in 1900 to 7.7 billion by November 2019.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The rate of change in the population (dN/dt) is equal to growth (rN) that is limited by carrying capacity (1 − N/K).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "at some point the population lacks resources and so the death rate increases, which invalidates our core assumption because the death rate now depends on time.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sediments are being deposited is most likely indicated by land subsidence (ground level dropping).",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is being polluted is the most likely indication that land subsidence (ground level dropping) is occurring.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rocks are being weathered is the most likely indication that land subsidence (ground level dropping) is occurring.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ground water is being depleted when land subsidence, meaning ground level dropping, is most likely an indication that.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dissolution of limestone by fluid flow in the subsurface creates voids (i.e., caves). If the roof of a void becomes too weak, it can collapse and the overlying rock and earth will fall into the space, causing subsidence at the surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Groundwater-related subsidence is the sinking of land resulting from groundwater extraction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

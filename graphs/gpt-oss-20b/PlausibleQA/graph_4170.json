@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the active materials of a lead acid battery. Manganese",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the active materials of a lead acid battery. Copper",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the active materials of a lead acid battery. Zinc",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the active materials of a lead acid battery. Lead",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the fully charged state, the negative plate consists of lead and the positive plate is lead dioxide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lead and lead dioxide, the active materials on the battery's plates, react with sulfuric acid in the electrolyte to form lead sulfate.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

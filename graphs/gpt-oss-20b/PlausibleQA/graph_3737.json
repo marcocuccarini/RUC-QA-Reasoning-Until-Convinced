@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nationality is singer Vanessa Paradis. Italian",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nationality is singer Vanessa Paradis. Spanish",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nationality is singer Vanessa Paradis. Belgian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nationality is singer Vanessa Paradis. French",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vanessa Chantal Paradis  (French pronunciation: [vanɛsa ʃɑ̃tal paʁadi]; born 22 December 1972) is a French singer, model and actress.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Paradis was born in Saint-Maur-des-Fossés, in Paris’ suburbs, to interior designers André and Corinne Paradis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

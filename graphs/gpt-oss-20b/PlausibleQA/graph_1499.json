@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Throughout the 80s and 90s Phil Collins recorded on which record label. Atlantic Records",
+      "strength": 0.3200992585296358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Throughout the 80s and 90s Phil Collins recorded on which record label. EMI Records",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Throughout the 80s and 90s Phil Collins recorded on which record label. Warner Bros. Records",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Throughout the 80s and 90s Phil Collins recorded on which record label. The Pond",
+      "strength": 0.4000000123133093
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Collins was signed to Virgin in the UK as a solo act.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Genesis' contract with Atlantic was up for renewal, and Collins was yet to sign as a solo artist.",
+      "strength": 0.7499678884365423
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On 29 March 1996, Collins's decision to leave Genesis to concentrate on his solo career was publicly announced.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the months surrounding his departure from Genesis, Collins formed the Phil Collins Big Band, seating himself on the drums.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

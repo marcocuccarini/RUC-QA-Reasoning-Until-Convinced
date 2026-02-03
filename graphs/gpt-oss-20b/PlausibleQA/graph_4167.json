@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the president get authority to issue executive orders. Federal Statutes",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the president get authority to issue executive orders. Supreme Court Rulings",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the president get authority to issue executive orders. Congressional Resolutions",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the president get authority to issue executive orders. Constitution",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Article Two of the United States Constitution gives presidents broad executive and enforcement authority to use their discretion to determine how to enforce the law or to otherwise manage the resources and staff of the federal government's executive branch.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The U.S. Supreme Court has held that all executive orders from the president of the United States must be supported by the Constitution, whether from a clause granting specific power, or by Congress delegating such to the executive branch.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The powers of all departments are limited to enumerated grants found in the Constitution.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The president commissions all the offices of the federal government as Congress directs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

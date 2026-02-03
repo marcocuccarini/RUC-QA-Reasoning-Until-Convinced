@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Products are the other component involved in all chemical reactions alongside reactants.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Consumers are the other component involved in all chemical reactions, along with reactants.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Catalysts are the other component involved in all chemical reactions alongside reactants.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Energy is involved in all chemical reactions along with reactants.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical reactions are usually characterized by a chemical change, and they yield one or more products, which usually have properties different from the reactants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When chemical reactions occur, the atoms are rearranged and the reaction is accompanied by an energy change as new products are generated.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Catalysts are substances that make weak bonds with reactants or intermediates and change the pathway (mechanism) of a reaction which in turn increases the speed of a reaction by lowering the activation energy needed for the reaction to take place.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Reactions can proceed by themselves if they are exergonic, that is if they release free energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many noble gases are there. 6 is excluded, so let's start with: 5",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many noble gases are there. 4",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many noble gases are there. 6 is excluded, so the next option is: 7",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many noble gases are there. 6",
+      "strength": 0.5999050903424904
+    },
+    "A6": {
+      "type": "argument",
+      "text": "according to IUPAC, the noble gases extend to include the whole group, including the very radioactive superheavy element oganesson",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "among those who specialize in the superheavy elements, this is not often done: in this case 'noble gas' is typically taken to imply the unreactive behaviour of the lighter elements of the group",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

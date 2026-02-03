@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hamid Karzai became the first elected president of which country in 2004. Afghanistan",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hamid Karzai became the first elected president of which country in 2004. Pakistan",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hamid Karzai became the first elected president of which country in 2004. Iran",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hamid Karzai became the first elected president of which country in 2004. IROA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When Karzai was a candidate in the October 2004 presidential election, he won 21 of the 34 provinces, defeating his 22 opponents and becoming the first democratically elected leader of Afghanistan.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Karzai was sworn in as President of the Islamic Republic of Afghanistan on 7 December 2004, at a formal ceremony in Kabul.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

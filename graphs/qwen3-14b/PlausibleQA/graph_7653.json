@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1746, Scottish naval surgeon James Lind pioneered the treatment of which disease. Malaria",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1746, Scottish naval surgeon James Lind pioneered the treatment of which disease. Scurvy-like disease (but not the actual disease)",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1746, Scottish naval surgeon James Lind pioneered the treatment of which disease. Dysentery",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1746, Scottish naval surgeon James Lind pioneered the treatment of which disease. Scruvy",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1747, James Lind formally demonstrated that scurvy could be treated by supplementing the diet with citrus fruit",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In A Treatise on the Scurvy (1753) Lind explained the details of his clinical trial and concluded 'the results of all my experiments was, that oranges and lemons were the most effectual remedies for this distemper at sea.'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

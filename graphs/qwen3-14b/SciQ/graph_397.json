@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Drought makes marginal lands unsuitable for farming.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Flood makes marginal lands unsuitable for farming.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pestilence makes marginal lands unsuitable for farming.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Disease makes marginal lands unsuitable for farming.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Droughts can cause land degradation and loss of soil moisture, resulting in the destruction of cropland productivity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wind erosion is much more severe in arid areas and during times of drought. For example, in the Great Plains, it is estimated that soil loss due to wind erosion can be as much as 6100 times greater in drought years than in wet years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

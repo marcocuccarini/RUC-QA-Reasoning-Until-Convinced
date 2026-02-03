@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat is released in the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is released into the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen is released in the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electricity is released in the atmosphere when water vapor condenses into liquid droplets as clouds form.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the vapor then condenses to a liquid on a surface, then the vapor's latent energy absorbed during evaporation is released as the liquid's sensible heat onto the surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The large value of the enthalpy of condensation of water vapor is the reason that steam is a far more effective heating medium than boiling water, and is more hazardous.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

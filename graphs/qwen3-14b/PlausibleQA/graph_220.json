@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Bacteremia",
+      "strength": 0.25000003470156335
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Pyemia",
+      "strength": 0.5999999768804
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Toxemia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Sepsis",
+      "strength": 0.3677512664650294
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bacteremia is the presence of bacteria in the bloodstream that are alive and capable of reproducing.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sepsis is characterized by severe inflammatory or immune responses of the host organism to pathogens.",
+      "strength": 0.5999640213586829
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pyaemia is a type of sepsis that leads to widespread abscesses of a metastatic nature.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It is usually caused by the pus-forming organisms in the blood.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Sepsis is caused by a combination of factors related to the particular invading pathogen(s) and the status of the immune system of the host.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

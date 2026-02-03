@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Divide change in velocity by change in time is the calculation used to determine acceleration.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Multiply average velocity by change in time is the calculation used to determine acceleration.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Divide average velocity by mass is the calculation used to determine acceleration.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Multiplying change in velocity by distance traveled is the calculation used to determine acceleration.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Acceleration is the rate of change of the velocity of an object with respect to time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Average acceleration over a period of time is its change in velocity, Δv, divided by the duration of the period, Δt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

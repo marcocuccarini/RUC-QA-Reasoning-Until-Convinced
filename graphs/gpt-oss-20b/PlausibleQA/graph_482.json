@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the movie peter pan come out. 1953",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the movie peter pan come out. 1991",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the movie peter pan come out. 1924",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the movie peter pan come out. 2003",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Peter Pan was first released in the United States on December 29, 1924.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The film inspired Walt Disney to create his company's 1953 animated adaptation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Peter Pan premiered at Radio City Music Hall in New York City on February 5, 1953.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The film also had a special limited re-release at the Philadelphia Film Festival in 2003.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where do they speak turkish. Azerbaijan",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where do they speak turkish. Cyprus",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where do they speak turkish. Bulgaria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where do they speak turkish. Turkey",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Turkish is the national language of Turkey.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Turkish is one of two official languages of Cyprus.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The official language is Turkish, which is the most widely spoken Turkic language in the world.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It is spoken by 85% to 90% of the population as a first language.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "lb is not an SI unit for density.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "kg is an SI unit for density.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "lb/ft^3 is an SI unit for density.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "kg/m³ is an SI unit for density.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The SI unit of kilogram per cubic metre (kg/m3) and the cgs unit of gram per cubic centimetre (g/cm3) are probably the most commonly used units for density.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In US customary units density can be stated in: pound per cubic foot (1 g/cm3 ≈ 62.427961 lb/cu ft).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

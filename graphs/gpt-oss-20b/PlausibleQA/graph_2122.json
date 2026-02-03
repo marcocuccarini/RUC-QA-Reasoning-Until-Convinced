@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of the German encryption machine whose code was deciphered at Bletchley Park during World War II . **Lorenz",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of the German encryption machine whose code was deciphered at Bletchley Park during World War II . **SIGABA",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of the German encryption machine whose code was deciphered at Bletchley Park during World War II . **Tunny",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of the German encryption machine whose code was deciphered at Bletchley Park during World War II . ENIGMA",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "British cryptologists decrypted a vast number of messages enciphered on Enigma.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Enigma machine was invented by German engineer Arthur Scherbius at the end of World War I.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

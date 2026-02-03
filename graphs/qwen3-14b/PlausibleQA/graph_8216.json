@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bedloe’s Island in New York Harbour, is the former name of which island. Liberty Island",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bedloe’s Island in New York Harbour, is the former name of which island. Ellis Island",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bedloe’s Island in New York Harbour, is the former name of which island. Governors Island",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bedloe’s Island in New York Harbour, is the former name of which island. Bedloe",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Liberty Island is a federally owned island... Long known as Bedloe's Island, it was renamed by an act of the United States Congress in 1956.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Liberty Island is... Part of the State of New York, the island is an exclave of the New York City borough of Manhattan, surrounded by the waters of Jersey City, New Jersey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

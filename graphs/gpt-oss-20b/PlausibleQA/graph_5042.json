@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many times does the second-hand of an clockwork clock 'tick' (move) while the hour-hand completes one full rotation. 3600",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many times does the second-hand of an clockwork clock 'tick' (move) while the hour-hand completes one full rotation. 86400",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many times does the second-hand of an clockwork clock 'tick' (move) while the hour-hand completes one full rotation. 2880",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many times does the second-hand of an clockwork clock 'tick' (move) while the hour-hand completes one full rotation. 43200",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The second hand makes one revolution per minute.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The hour hand takes twelve hours to make a complete rotation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

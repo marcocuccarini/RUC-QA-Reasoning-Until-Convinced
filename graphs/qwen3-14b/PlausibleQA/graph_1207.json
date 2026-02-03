@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Maccabees",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Hasmoneans",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Sadducees",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Maqabim",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Books of the Maccabees refer to canonical books of the Bible, including 1 Maccabees and 2 Maccabees.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first two books are considered canonical by the Catholic Church.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

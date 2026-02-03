@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who killed Robert F Kennedy. Lee Harvey Oswald",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who killed Robert F Kennedy. James Earl Ray",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who killed Robert F Kennedy. Theodore White",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who killed Robert F Kennedy. Sirhan Sirhan",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sirhan Bishara Sirhan assassinated Senator Robert F. Kennedy on June 5, 1968.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sirhan was convicted of first-degree murder, among other charges, and subsequently sentenced to death by gas chamber.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

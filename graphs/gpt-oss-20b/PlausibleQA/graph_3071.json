@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Autumn",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Spring",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Indian Summer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Winter",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Each calendar year includes parts of two winters.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the Julian calendar used in the ancient Roman world, winter began on 10 November, its midpoint was the winter solstice on 25 December, and winter ended on 6 February.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

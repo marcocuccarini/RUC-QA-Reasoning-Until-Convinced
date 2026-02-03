@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. Rod Laver",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. Roy Emerson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. Ken Rosewall",
+      "strength": 0.40000008069533344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. FRED STOLLE",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Because of the ILTF's ban once again Rosewall could not enter Wimbledon",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Laver joined the professional tennis circuit in 1963 and as a consequence was banned from competing in the amateur Grand Slams until the start of the Open Era at the 1968 French Open",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what 's the medal count for canada in the olympics. 275",
+      "strength": 0.25009548836582807
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what 's the medal count for canada in the olympics. 412",
+      "strength": 0.25009548836582807
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what 's the medal count for canada in the olympics. 198",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what 's the medal count for canada in the olympics. 501",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Canadian team won 26 medals, tied with 2010 for the second-highest total ever for Canada in Winter Games.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Canadian athletes won 27 medals (nine gold, seven silver and 11 bronze).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This meant Canada finished 12th in the medal table, and 11th in overall medals won.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

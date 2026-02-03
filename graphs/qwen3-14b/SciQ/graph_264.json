@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mitochondria divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Protazoa divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Proteins divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bacteria divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mitochondria divide by a process that is tightly regulated by the host eukaryotic cell",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bacteria perform binary fission",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

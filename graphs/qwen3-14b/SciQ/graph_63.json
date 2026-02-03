@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stormy weather can be expected if a center of low pressure is moving your way.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rain is the kind of weather you can expect when a center of low pressure is moving your way.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rough weather can be expected when a center of low pressure is moving your way.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sunny is the kind of weather you can expect if a center of low pressure is moving your way.",
+      "strength": 0.40000008918213564
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Low-pressure areas are commonly associated with inclement weather (such as cloudy, windy, with possible rain or storms), while high-pressure areas are associated with lighter winds and clear skies.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Low pressure frequently accompanies precipitation and storms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

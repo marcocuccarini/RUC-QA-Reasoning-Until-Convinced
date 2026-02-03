@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cardboard is the material the company should use for the board in its game that employs a magnet that sticks to it.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glass is the material the company should use for the board in its game that employs a magnet that sticks to the board.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Steel is the material the company should use for the board in its game that employs a magnet that sticks to the board.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood is the material a company should use for the board in a game that uses a magnet that sticks to a board.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Some stainless steels, such as the ferritic stainless steels are magnetic, while others, such as the austenitic, are nonmagnetic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "With the advent of faster and cheaper production methods, steel has become easier to obtain and much cheaper.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

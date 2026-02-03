@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is another name for shingles. Herpes",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is another name for shingles. Varicella",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is another name for shingles. Poxvirus",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is another name for shingles. Zoster",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shingles, also known as herpes zoster or zona, is a viral disease characterized by a painful skin rash with blisters in a localized area.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The causative agent for shingles is the varicella zoster virus (VZV)—a double-stranded DNA virus related to the herpes simplex virus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

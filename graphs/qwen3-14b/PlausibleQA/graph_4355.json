@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Aneto, at 3404 metres, is the highest mountain in which mountain range. Alps",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aneto, at 3404 metres, is the highest mountain in which mountain range. Carpathian Mountains",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Aneto, at 3404 metres, is the highest mountain in which mountain range. Apennine Mountains",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aneto, at 3404 metres, is the highest mountain in which mountain range. Pyranees",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Pyrenees are a mountain range straddling the border of France and Spain. They extend nearly 500 km (310 mi) from their union with the Cantabrian Mountains to Cap de Creus on the Mediterranean coast, reaching a maximum elevation of 3,404 metres (11,168 ft) at the peak of Aneto.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Pyrenees are a distinct physiographic province of the larger Alpine System division.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

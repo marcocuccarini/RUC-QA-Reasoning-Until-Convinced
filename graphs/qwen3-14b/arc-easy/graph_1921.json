@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metal is the material that transfers heat energy quickest.",
+      "strength": 0.2500781958203194
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glass is the material that transfers heat energy quickest among the listed materials.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic is the material that transfers heat energy quickest.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood transfers heat energy quickest among the materials listed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The thermal conductivity of natural diamond at room temperature is several times higher than that of a highly conductive metal such as copper",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Silver conducted heat far the best of all other metals, next to this was copper",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

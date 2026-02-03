@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what religion does canada follow. Christianity",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what religion does canada follow. Catholicism",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what religion does canada follow. Protestantism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what religion does canada follow. Islam",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Christianity is the largest religion in Canada, representing 53.3 percent of the population as of the 2021 census.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Canada has no official church and the government is officially committed to religious pluralism.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Islam is the second-largest religion in Canada, practised by approximately 4.9% of the population.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

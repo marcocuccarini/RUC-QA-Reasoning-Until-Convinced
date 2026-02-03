@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Axis is the line along which the distribution of body parts is balanced in the symmetrical body plan of animals, except for sponges.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Skull is the reference point along which the animal body plan is symmetrical, meaning the distribution of body parts is balanced along it, as animals are classified by morphological and developmental characteristics such as body plan, with sponges being the exception.",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Radius is the axis along which the distribution of body parts is balanced in the symmetrical animal body plan, with the exception of sponges.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ulna is the axis along which the distribution of body parts is balanced in animals, except sponges, because their body plan is symmetrical.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The bilateria have two axes of polarity. The first is an anterior–posterior (AP) axis which can be visualised as an imaginary axis running from the head or mouth to the tail or other end of an organism.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adult echinoderms, such as starfish, sea urchins, sea cucumbers and others are also included, since they have a pentamerous symmetry having five discrete symmetric parts arranged around a central axis",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Organisms that are attached to a substrate, such as sponges and animal-like protists also have distinctive ends",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

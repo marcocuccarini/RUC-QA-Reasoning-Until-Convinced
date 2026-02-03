@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of creature is a margay . Leopard",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of creature is a margay . Ocelot",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of creature is a margay . Jaguarundi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of creature is a margay . Wildcat",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The margay (Leopardus wiedii) is a small wild cat native to Mexico, Central and South America.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The margay is very similar to the larger ocelot (Leopardus pardalis) in appearance, although the head is a little shorter, the eyes larger, and the tail and legs longer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

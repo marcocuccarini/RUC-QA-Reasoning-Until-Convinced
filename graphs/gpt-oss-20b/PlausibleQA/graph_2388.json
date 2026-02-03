@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "whos jack the ripper in gotham by gaslight. **Edward Nigma**",
+      "strength": 0.27613506269115623
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "whos jack the ripper in gotham by gaslight. **Oswald Cobblepot**",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "whos jack the ripper in gotham by gaslight. **Victor Zsasz**",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "whos jack the ripper in gotham by gaslight. Jacob Packer",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "he is the Ripper.",
+      "strength": 0.400045737817203
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Selina meets with Gordon at the Gotham City World's Fair and learns to her horror that he is the Ripper.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the killer is actually one of his former victims out for revenge.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

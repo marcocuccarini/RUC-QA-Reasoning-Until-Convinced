@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the largest borough in New York City. Manhattan",
+      "strength": 0.2500000915578924
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the largest borough in New York City. Brooklyn",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the largest borough in New York City. The Bronx",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the largest borough in New York City. Queens",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Manhattan is the most densely populated and geographically smallest of the five boroughs of New York City.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Manhattan is the smallest county by area in the U.S. state of New York, and one of the smallest in the United States.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Bronx has the fourth-largest area, fourth-highest population, and third-highest population density of the boroughs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

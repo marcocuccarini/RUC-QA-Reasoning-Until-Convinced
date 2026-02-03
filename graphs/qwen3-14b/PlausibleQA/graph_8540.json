@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. Rubella",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. Influenza",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. Mononucleosis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. MUMPS",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Inflammation of the parotid glands, called parotitis, is the most common mumps symptom and occurs in about 90% of symptomatic cases",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mumps is a highly contagious viral disease caused by the mumps virus. Initial symptoms of mumps are non-specific and include fever, headache, malaise, muscle pain, and loss of appetite. These symptoms are usually followed by painful swelling around the side of the face (the parotid glands, called parotitis), which is the most common symptom of a mumps infection",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

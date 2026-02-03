@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which knight is with Arthur at the end and throws Excalibur into the lake. Sir Bedivere",
+      "strength": 0.36773979440378096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which knight is with Arthur at the end and throws Excalibur into the lake. Sir Lancelot",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which knight is with Arthur at the end and throws Excalibur into the lake. Sir Gawain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which knight is with Arthur at the end and throws Excalibur into the lake. Bewyr",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bedivere casts away the sword Excalibur that Arthur had received from the Lady of the Lake.",
+      "strength": 0.40002294099456165
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In John Boorman's 1981 film Excalibur, Percival replaces Bedivere as the knight that returns the sword to the Lady of the Lake.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Griflet cast Excalibur into a nearby lake",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "1 year is about how long it takes Earth to make a complete revolution around the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "1 week is about the time it takes Earth to complete one revolution around the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "1 day is about how long it takes Earth to make a complete revolution around the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "1 hour is the approximate time it takes Earth to complete a full revolution around the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth orbits the Sun every 365.2564 mean solar days, or one sidereal year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earth's rotation period relative to the Sun—its mean solar day—is 86,400 seconds of mean solar time (86,400.0025 SI seconds).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

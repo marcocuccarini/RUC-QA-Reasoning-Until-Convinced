@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Manchester born physicist won the Nobel Prize for Physics in 1906 and is regarded as the founder of modern atomic physics. Ernest Rutherford",
+      "strength": 0.36764725034410767
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Manchester born physicist won the Nobel Prize for Physics in 1906 and is regarded as the founder of modern atomic physics. Niels Bohr",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Manchester born physicist won the Nobel Prize for Physics in 1906 and is regarded as the founder of modern atomic physics. Robert Millikan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Manchester born physicist won the Nobel Prize for Physics in 1906 and is regarded as the founder of modern atomic physics. Jjthomson",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ernest Rutherford was awarded the Nobel Prize in Chemistry in 1908.",
+      "strength": 0.5999999626370065
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ernest Rutherford gave the Nobel Lecture on The Chemical Nature of the Alpha Particles from Radioactive Substances on 11 December 1908.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The study of these lines led to the Bohr atom model and to the birth of quantum mechanics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

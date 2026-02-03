@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Iron is the natural material Erin should use to make a strong, light chair.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Granite is the natural material Erin should use to make a strong, light chair.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Clay is the natural material Erin should use to make a strong, light chair.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood is the natural material Erin should use to make a strong, light chair.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wood has always been used extensively for furniture, such as chairs and beds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In many uses of wood, total strength is not the main consideration.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The average density of granite is between 2.65 and 2.75 g/cm³ (165 and 172 lb/cu ft)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "its compressive strength usually lies above 200 MPa (29,000 psi)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

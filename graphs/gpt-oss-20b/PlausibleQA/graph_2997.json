@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "the temperature of gas is proportional to the. Pressure",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "the temperature of gas is proportional to the. Density",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "the temperature of gas is proportional to the. Mass",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "the temperature of gas is proportional to the. volume",
+      "strength": 0.5999999365228031
+    },
+    "A4": {
+      "type": "argument",
+      "text": "pV = nRT",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "PV/T = k",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An alternative statistical mechanics derivation of the ideal-gas law, using the relationship between the Helmholtz free energy and the partition function, is provided.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

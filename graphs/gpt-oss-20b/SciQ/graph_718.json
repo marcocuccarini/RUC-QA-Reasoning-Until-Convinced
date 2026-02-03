@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon is the element whose compounds form the basis of all known life.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is the element in compounds that form the basis of all known life.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Helium is the element whose compounds form the basis of all known life.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the element whose compounds form the basis of all known life.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Just six elements—carbon, hydrogen, nitrogen, oxygen, calcium and phosphorus—make up almost 99% of the mass of living cells, including those in the human body (see composition of the human body for a complete list).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The simplest type of carbohydrate is a monosaccharide, which among other properties contains carbon, hydrogen, and oxygen, mostly in a ratio of 1:2:1 (generalized formula CnH2nOn, where n is at least 3).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

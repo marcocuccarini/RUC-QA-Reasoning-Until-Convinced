@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which chemical element has the atomic number six. Oxygen",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which chemical element has the atomic number six. Nitrogen",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which chemical element has the atomic number six. Boron",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which chemical element has the atomic number six. Carbon",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carbon (from Latin carbo 'coal') is a chemical element; it has symbol C and atomic number 6.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Isotopes of carbon are atomic nuclei that contain six protons plus a number of neutrons (varying from 2 to 16).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which English football club play their home games at Craven Cottage. Chelsea FC",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which English football club play their home games at Craven Cottage. Queens Park Rangers",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which English football club play their home games at Craven Cottage. Brentford FC",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which English football club play their home games at Craven Cottage. Fulham FC",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Craven Cottage has been the home of Fulham F.C. since 1896",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Loftus Road is the home of local rivals QPR",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

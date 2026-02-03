@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Predator‑prey is the relationship type illustrated by a tick attaching to a deer and consuming its blood, thereby harming the deer.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mutualism is the type of relationship in which a tick attaches to a deer, consumes its blood, and harms the deer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Parasite-host is the relationship type that occurs when a tick attaches to a deer, consumes its blood, and harms the deer.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Commensalism is the type of relationship exemplified by a tick attaching to a deer and consuming blood, harming the deer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parasites do not kill their hosts",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Parasitism is a kind of symbiosis, a close and persistent long-term biological interaction between a parasite and its host. Unlike saprotrophs, parasites feed on living hosts... the parasitic relationship harms the host",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

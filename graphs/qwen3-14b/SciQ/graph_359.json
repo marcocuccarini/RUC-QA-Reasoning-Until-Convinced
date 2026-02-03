@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ideal conditions allow populations to grow exponentially.",
+      "strength": 0.27613506595044623
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pleasant conditions are those under which populations can grow exponentially.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Useful conditions are those under which populations can grow exponentially.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lush conditions are those under which populations can grow exponentially.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most populations do not grow exponentially, rather they follow a logistic model.",
+      "strength": 0.400045737817203
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Once the population has reached its carrying capacity, it will stabilize and the exponential curve will level off towards the carrying capacity.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Exponential growth cannot continue indefinitely, however, because the medium is soon depleted of nutrients and enriched with wastes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The slope of this line is the specific growth rate of the organism, which is a measure of the number of divisions per cell per unit time.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "When the population size is small, the population increases exponentially.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

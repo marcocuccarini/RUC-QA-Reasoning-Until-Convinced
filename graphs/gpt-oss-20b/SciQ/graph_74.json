@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Herbivores are non-human organisms that mainly consume plants or other primary producers.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Amphibians are non‑human organisms that mainly consume plants or other primary producers.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carnivores are non-human organisms that mainly consume plants/other primary producers.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Omnivores are non-human organisms that mainly consume plants or other primary producers.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Herbivores form an important link in the food chain because they consume plants to digest the carbohydrates photosynthetically produced by a plant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Carnivores in turn consume herbivores for the same reason, while omnivores can obtain their nutrients from either plants or animals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

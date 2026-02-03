@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To which genus of plant does the Azalea belong. Rhododendron",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To which genus of plant does the Azalea belong. Camellia",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To which genus of plant does the Azalea belong. Magnolia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To which genus of plant does the Azalea belong. Azaleia",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Azaleas are flowering shrubs in the genus Rhododendron",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Azaleas share the economically important disease Phytophthora cinnamomi with more than 3000 other plants",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city were the 2009 World Athletic Championships held. Berlin",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city were the 2009 World Athletic Championships held. London",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city were the 2009 World Athletic Championships held. Paris",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city were the 2009 World Athletic Championships held. DEBER",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 12th IAAF World Championships in Athletics (German: Leichtathletik-Weltmeisterschaften 2009) were held in Berlin, Germany from 15 to 23 August 2009.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The majority of events took place in the Olympiastadion, while the marathon and racewalking events started and finished at the Brandenburg Gate.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

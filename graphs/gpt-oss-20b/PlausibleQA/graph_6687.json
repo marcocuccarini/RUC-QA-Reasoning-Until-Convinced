@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Russian Federation . Mikhail Gorbachev",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Russian Federation . Alexander Rutskoy",
+      "strength": 0.1539393500995737
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Russian Federation . Nikolai Ryzhkov",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first leader of the Russian Federation . Yelcin",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Alexander Vladimirovich Rutskoy (Russian: Александр Владимирович Руцкой; born 16 September 1947) is a Russian politician and former Soviet military officer who served as the only vice president of Russia from 1991 to 1993.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was proclaimed acting president following Boris Yeltsin's impeachment during the 1993 Russian constitutional crisis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1991, Boris Yeltsin was elected president of the RSFSR, becoming the first non-Communist Party member to be elected into a major Soviet political role.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Yeltsin was elected president of the Russian SFSR with 57% of the vote, becoming the first popularly elected president.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

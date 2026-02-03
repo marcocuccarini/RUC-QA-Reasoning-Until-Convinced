@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what nationality is mother teresa. Albanian",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what nationality is mother teresa. Macedonian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what nationality is mother teresa. Italian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what nationality is mother teresa. India",
+      "strength": 0.5999999365228031
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was born on 26 August 1910 into a Kosovar Albanian family in Skopje, Ottoman Empire (now the capital of North Macedonia).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By citizenship, an Indian.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "By blood, I am Albanian.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

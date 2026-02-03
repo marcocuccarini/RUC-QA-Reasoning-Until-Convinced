@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when is the last time the giants won the world series. 2010 World Series",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when is the last time the giants won the world series. 1954 World Series",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when is the last time the giants won the world series. 1905 World Series",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when is the last time the giants won the world series. 2012 World Series",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Giants swept the Series in four games to win their first championship since 1933, defeating the heavily favored Indians, who had won an AL-record 111 games in the 154-game regular season.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Giants would eventually end the curse in 2010 over the Texas Rangers in five games, which marked the start of a dynasty for the Giants.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 1954 World Series title would be their last appearance in the World Series as the New York Giants.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Giants won the first two World Series in the early 1920s over the Yankees.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

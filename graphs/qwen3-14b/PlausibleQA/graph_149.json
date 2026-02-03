@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. International Committee of Humanitarian Law",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. Swiss Aid Society",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. Solferino Relief Organization",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. Red Cross",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The sub-committee formed in 1863 by the Geneva Society for Public Welfare became the International Committee of the Red Cross (ICRC), which is part of the Red Cross movement.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The International Committee of the Red Cross (ICRC) was established in 1863, which is the same organization as the Red Cross.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

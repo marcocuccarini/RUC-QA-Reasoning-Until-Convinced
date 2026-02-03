@@ -1,0 +1,126 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Control is the term for the participants who received a sugar pill, the half of the participants in the drug company’s study testing a pill to reduce cases of stomach virus.",
+      "strength": 0.3572616266872882
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Experimental participants are the half of the participants who received a sugar pill in the drug company’s trial to reduce cases of stomach virus.",
+      "strength": 0.4000000000188863
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The dependent variable is the half of the participants who received a sugar pill in the drug company's study testing a new medicine to reduce cases of stomach virus.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Independent variable is the participants who received the sugar pill in the drug company’s study that tested a pill to reduce cases of stomach virus, with half of the participants given the active medication and the other half given a sugar pill.",
+      "strength": 0.2500954297689898
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Common placebos include inert tablets (like sugar pills)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some suggest that existing medical treatments should be used instead of placebos, to avoid having some patients not receive medicine during the trial.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Subjects are assigned randomly without informing them to which group they belonged.",
+      "strength": 0.6323528120177584
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Many trials are doubled-blinded so that researchers do not know to which group a subject is assigned.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Cochrane Central Register of Controlled Trials (CENTRAL) is a concentrated source for bibliographic reports of randomized controlled trials.",
+      "strength": 0.5999999754507639
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The placebo drug group (P): who receive a placebo drug that simulates the active drug.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The Active drug group (A): who receive the active test drug.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "James Lind Library A source of historical texts on fair tests of treatments in health care.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "The sample or group receiving the drug would be the experimental group (treatment group); and the one receiving the placebo or regular treatment would be the control one.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "In some disciplines (e.g., psychology or political science), a 'true experiment' is a method of social research in which there are two kinds of variables. The independent variable is manipulated by the experimenter, and the dependent variable is measured.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "A8",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A13",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

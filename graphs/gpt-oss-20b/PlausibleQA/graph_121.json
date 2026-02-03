@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. Edward II",
+      "strength": 0.40000002555110964
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. Richard II",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. Henry IV",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. John",
+      "strength": 0.27633854217429227
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Isabella was Queen of England from 1200 to 1216 as the second wife of King John",
+      "strength": 0.40000002555110964
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Isabella of France was Queen of England as the wife of King Edward II",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "By the Spring of 1200, John had been granted permission to have his marriage to Isabella annulled on the grounds of consanguinity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

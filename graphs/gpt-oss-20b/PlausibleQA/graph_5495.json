@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What mountain's peak is the farthest point from Earth's centre/center. Mount Everest",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What mountain's peak is the farthest point from Earth's centre/center. Mauna Kea",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What mountain's peak is the farthest point from Earth's centre/center. Denali (formerly known as Mount McKinley)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What mountain's peak is the farthest point from Earth's centre/center. Chimborazo",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the summit of Chimborazo is 6,384.4 km from Earth's center, 2.1 km farther than the summit of Everest",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the summit of Everest is 6,382.3 km from Earth's center",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

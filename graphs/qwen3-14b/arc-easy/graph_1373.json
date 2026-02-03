@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Meters are the most accurate units for measuring the width of a pencil lead.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Inches are the unit in which the width of a pencil lead is most accurately measured.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Millimeters are the unit in which the width of a pencil lead is most accurately measured.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Feet are the unit in which the width of a pencil lead is most accurately measured.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Digital calipers often measure to 0.01 mm accuracy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The smallest visible object to the human eye is around 0.02–0.04 mm (e.g., a thin human hair).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

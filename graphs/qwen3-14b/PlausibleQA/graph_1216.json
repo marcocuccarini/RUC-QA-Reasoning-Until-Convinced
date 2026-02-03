@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Verso",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Folio",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Rectangular",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Recto",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The recto side of a leaf faces left when the leaf is held upright from the spine (usually an odd-numbered page in a book).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The verso side of a leaf faces right when the leaf is held upright from the spine (usually an even-numbered page in a book).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

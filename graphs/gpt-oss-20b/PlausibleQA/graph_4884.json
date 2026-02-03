@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which BBC2 comedy is set around the church of St Saviours in the Marshes in Hackney. The Vicar of Dibley",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which BBC2 comedy is set around the church of St Saviours in the Marshes in Hackney. Father Ted",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which BBC2 comedy is set around the church of St Saviours in the Marshes in Hackney. The IT Crowd",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which BBC2 comedy is set around the church of St Saviours in the Marshes in Hackney. Rév",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The series is set in the fictional Oxfordshire village of Dibley, which should not be confused with the real Dibleys estate in Blewbury, South Oxfordshire.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hackney Marshes, an open space in Hackney.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hackney, London, a district in London.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

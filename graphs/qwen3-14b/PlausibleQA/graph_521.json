@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many dot positions are usually used in each letter of the Braille system. 3",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many dot positions are usually used in each letter of the Braille system. 4",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many dot positions are usually used in each letter of the Braille system. 5",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many dot positions are usually used in each letter of the Braille system. 6",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A full braille cell includes six raised dots arranged in two columns, each column having three dots.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There are 64 possible combinations, including no dots at all for a word space.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

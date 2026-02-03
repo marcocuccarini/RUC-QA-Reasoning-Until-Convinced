@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who gave Harry Potter his first kiss. Cho Chang",
+      "strength": 0.2914875434167687
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who gave Harry Potter his first kiss. Ginny Weasley",
+      "strength": 0.4000000000056884
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who gave Harry Potter his first kiss. Luna's friend (unknown character)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who gave Harry Potter his first kiss. Lovegood",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The passage makes no reference to Harry's first kiss.",
+      "strength": 0.8461159872702968
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No romantic encounter involving Harry is described.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Harry Potter and the Prisoner of Azkaban title listing at the Internet Speculative Fiction Database",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Harry Potter and the Order of the Phoenix title listing at the Internet Speculative Fiction Database",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Common Sense Media Age Rating",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deuterium is a hydrogen atom with one neutron.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Covalent is a hydrogen atom that has one neutron.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Magnesium is a hydrogen atom with one neutron.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ionic is a hydrogen atom with one neutron.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The deuterium nucleus contains one proton and one neutron.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deuterium (hydrogen-2, symbol 2H or D, also known as heavy hydrogen) is one of two stable isotopes of hydrogen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

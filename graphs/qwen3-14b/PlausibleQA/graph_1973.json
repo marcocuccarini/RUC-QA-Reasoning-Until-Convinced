@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who played john connor in the original terminator. Christian Bale",
+      "strength": 0.25008051077032095
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who played john connor in the original terminator. Nick Stahl",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who played john connor in the original terminator. Thomas Dekker",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who played john connor in the original terminator. Edward Furlong",
+      "strength": 0.2263488282857595
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Linda Hamilton as Sarah Connor, a young diner waitress and the Terminator's target, who is soon to be the mother of the future leader of the resistance, John.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Michael Biehn as Kyle Reese, a member of the resistance against Skynet sent back in time to protect Sarah.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Edward Furlong played John Connor in Terminator 2: Judgment Day.",
+      "strength": 0.5999463261742976
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Stahl replaced Edward Furlong in Terminator 3: Rise of the Machines (2003) as John Connor",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Christian Bale took over the role of John Connor in Terminator Salvation",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

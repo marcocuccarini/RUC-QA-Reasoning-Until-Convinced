@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical is the form into which electrical energy changes when Trevor turns on a lamp.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light is the form of energy that electrical energy changes into when Trevor turns on a lamp and the lamp is on.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mechanical is the form of energy that electrical energy changes into when Trevor turns on the lamp and the lamp is on.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Potential is the form of energy that electrical energy changes into when Trevor turns on a lamp.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electric light produces light from electricity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The remaining 95% is lost as heat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

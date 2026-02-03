@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In our solar system, the sun is composed of mostly which gas. Helium (He)",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In our solar system, the sun is composed of mostly which gas. Oxygen (O₂)",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In our solar system, the sun is composed of mostly which gas. Nitrogen (N₂)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In our solar system, the sun is composed of mostly which gas. H₂",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hydrogen accounts for 74.9% of the mass of the Sun in the photosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sun's surface layer, its photosphere, consists mostly of hydrogen (~73%) and helium (~25%).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

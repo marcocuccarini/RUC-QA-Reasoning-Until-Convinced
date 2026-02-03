@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the US, where would a busboy work. Restaurant",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the US, where would a busboy work. Cafe",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the US, where would a busboy work. Hotel",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the US, where would a busboy work. Eatery",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jerry Lewis, American comedian and actor, worked as a busser at Brown's Hotel in the Catskills",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In North America, a busser, sometimes known as a busboy or busgirl, is a person in the restaurant and catering industry clearing tables, taking dirty dishes to the dishwasher, setting tables, refilling and otherwise assisting the waiting staff.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Most restaurants (other than fast food restaurants and cafeterias) will have various waiting staff to serve food, beverages and alcoholic drinks, including busboys who remove used dishes and cutlery.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

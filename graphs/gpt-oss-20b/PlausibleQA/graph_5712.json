@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which founder of the company Triad was accused by the USA of receiving bribes. Adnan Khashoggi's brother, Mohamed Khashoggi",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which founder of the company Triad was accused by the USA of receiving bribes. Marc Rich",
+      "strength": 0.25000008796785606
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which founder of the company Triad was accused by the USA of receiving bribes. Viktor Bout",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which founder of the company Triad was accused by the USA of receiving bribes. Khashogi",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Marc Rich founded the commodities company Glencore",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Marc Rich was indicted in the United States on federal charges of tax evasion, wire fraud, racketeering, and making oil deals with Iran during the Iran hostage crisis",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2006, Khashoggi was sued by the U.S. Securities and Exchange Commission for securities fraud.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

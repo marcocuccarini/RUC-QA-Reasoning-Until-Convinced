@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Criminology",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Psychology",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Forensics",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Detection",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Laura J. Snyder has examined Holmes's methods in the context of mid- to late-19th-century criminology, demonstrating that they were based upon existing methods and techniques.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Holmes uses analytical chemistry for blood residue analysis and toxicology to detect poisons; Holmes's home chemistry laboratory is mentioned in 'The Naval Treaty'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In law enforcement, it is 'the fact of the police discovering information about crimes'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In general, detection is the action of accessing information without specific cooperation from or with the sender; it is 'the fact of noticing or discovering something'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

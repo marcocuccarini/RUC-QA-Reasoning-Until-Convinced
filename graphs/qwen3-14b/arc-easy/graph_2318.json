@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Intestines are the body part directly affected by a disease that can result from eating undercooked food and affects the digestive system.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Arteries are the body part directly affected by a digestive‑system disease that can result from eating undercooked food.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nerves are the body part directly affected by the disease that can result from eating undercooked food and affect the digestive system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sinuses are the body part directly affected by the disease that can arise from eating undercooked food, a disease that otherwise affects the digestive system.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Enterotoxins are potent compounds produced by various microorganisms that specifically target and damage the intestines, causing many of the most rapid and severe forms of food poisoning.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some types of microbes stay in the intestine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

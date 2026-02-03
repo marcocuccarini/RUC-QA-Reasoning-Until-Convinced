@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Star, galaxy, solar system, universe is the correct order for structures in space from smallest to largest.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Star, solar system, galaxy, universe is the correct order of structures in space from smallest to largest.",
+      "strength": 0.5999029143854268
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Star, solar system, universe, galaxy is a list of structures in space ordered from smallest to largest.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Star, universe, solar system, galaxy is the correct list of structures in space from smallest to largest.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Solar System includes the Sun and all objects that are bound to it by gravity and orbit it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Milky Way has a diameter of at least 26,800 parsecs (87,400 ly) and is separated from the Andromeda Galaxy, its nearest large neighbour, by just over 750,000 parsecs (2.5 million ly).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Hercules–Corona Borealis Great Wall, currently the largest structure in the universe found so far, is 10 billion light-years (three gigaparsecs) in length.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

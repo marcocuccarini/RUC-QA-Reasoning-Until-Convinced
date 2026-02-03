@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dialysis machine is the technology that enables doctors to monitor the function of the heart.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrocardiogram is the technology that enables doctors to monitor the function of the heart.",
+      "strength": 0.8460569045044471
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electroencephalogram is a technology that enables doctors to monitor the function of the heart.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Automatic external defibrillators are the technology that enables doctors to monitor the function of the heart.",
+      "strength": 0.599999961499134
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An ECG conveys a large amount of information about the structure of the heart and the function of its electrical conduction system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Continuous monitoring can be conducted by using Holter monitors, internal and external defibrillators and pacemakers, and/or biotelemetry.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "PysioBank – a free scientific database with physiologic signals (here ecg)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Wave Maven – a large database of practice ECG questions provided by Beth Israel Deaconess Medical Center",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

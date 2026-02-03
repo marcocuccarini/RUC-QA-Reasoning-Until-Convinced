@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what county is houston tx in. Harris County",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what county is houston tx in. Fort Bend County",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what county is houston tx in. Brazoria County",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what county is houston tx in. Montgomery County",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The county seat of Harris County is Houston, the most populous city in Texas.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Houston is the county seat and largest municipality in Harris County, with small parts extending into Fort Bend and Montgomery counties.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

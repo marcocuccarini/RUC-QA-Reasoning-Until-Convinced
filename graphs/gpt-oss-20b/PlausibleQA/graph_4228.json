@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nationality was sculptor Constantin Brancusi. French",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nationality was sculptor Constantin Brancusi. Italian",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nationality was sculptor Constantin Brancusi. Hungarian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nationality was sculptor Constantin Brancusi. ROMANIAN",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Constantin Brâncuși (Romanian: [konstanˈtin brɨŋˈkuʃʲ] ; February 19, 1876 – March 16, 1957) was a Romanian sculptor, painter, and photographer",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brâncuși grew up in the village of Hobița, Gorj, near Târgu Jiu, close to Romania's Carpathian Mountains",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

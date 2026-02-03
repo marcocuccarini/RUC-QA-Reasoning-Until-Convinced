@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. German Language",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. Italian Language",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. Romansh Language",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. French Language",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "62.3% of the population of Switzerland were native speakers of German (either Swiss or Standard German) at home",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "8% Italian (mostly Swiss Italian, but including Lombard)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pimsleur Swiss German Pimsleur Swiss German Course",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

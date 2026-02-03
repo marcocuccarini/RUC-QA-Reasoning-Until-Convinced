@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sings god gave rock and roll to you. Argent",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sings god gave rock and roll to you. REO Speedwagon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sings god gave rock and roll to you. Cheap Trick",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sings god gave rock and roll to you. Kiss",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Legacy Argent recorded the original version of 'God Gave Rock and Roll to You'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kiss covered the song under the name 'God Gave Rock 'n' Roll to You II'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

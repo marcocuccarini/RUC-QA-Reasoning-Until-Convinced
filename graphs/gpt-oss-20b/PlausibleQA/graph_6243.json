@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1986 the prime minister of which European country was assassinated while returning home from the cinema. Italy",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1986 the prime minister of which European country was assassinated while returning home from the cinema. United Kingdom",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1986 the prime minister of which European country was assassinated while returning home from the cinema. France",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1986 the prime minister of which European country was assassinated while returning home from the cinema. SWEDEN",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Close to midnight on 28 February 1986, he was walking home from a cinema when he was shot.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Olof Palme served as prime minister of Sweden from 1969 to 1976 and 1982 to 1986.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

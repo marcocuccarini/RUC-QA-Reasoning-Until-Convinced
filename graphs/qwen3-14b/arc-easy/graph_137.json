@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pointed teeth are the teeth of a carnivore.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rounded teeth are the teeth of a carnivore that are mostly rounded.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wide teeth are characteristic of a carnivore, as its teeth are mostly wide.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Flat teeth are mostly characteristic of a carnivore.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carnivores, on the other hand, have canine teeth to kill prey and to tear meat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For example, plant matter is hard to digest, so herbivores have many molars for chewing and grinding.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

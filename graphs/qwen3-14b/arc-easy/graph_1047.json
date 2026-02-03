@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air temperature is the information that could be collected to best illustrate the noticeable patterns of seasonal change in New England.",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wind speed is the information that best illustrates the noticeable seasonal changes observed in New England.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amount of precipitation is the best information to collect to illustrate seasonal changes in New England.",
+      "strength": 0.5999999402194273
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Number of cloudy days is the information that can best illustrate the noticeable patterns of seasonal change in New England.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Summers are often hot and humid, with high temperatures in the lower Connecticut River valley of southern Massachusetts and Connecticut between 85 and 90 °F (29 and 32 °C) regularly during June, July, and August.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Annual rainfall is typically spread evenly throughout the year, although droughts have historically been most common during the summer months.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "air temperature affects all living organisms",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

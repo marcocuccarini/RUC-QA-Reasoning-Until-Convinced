@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the year; Dunblane massacre, IRA bomb in Manchester city centre, the first cloned mammal, Dolly the sheep, was born. 1995",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the year; Dunblane massacre, IRA bomb in Manchester city centre, the first cloned mammal, Dolly the sheep, was born. 1996 is excluded as per the problem statement, so the next candidate is: 1997",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the year; Dunblane massacre, IRA bomb in Manchester city centre, the first cloned mammal, Dolly the sheep, was born. 1990",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the year; Dunblane massacre, IRA bomb in Manchester city centre, the first cloned mammal, Dolly the sheep, was born. 1996",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was born on 5 July 1996.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

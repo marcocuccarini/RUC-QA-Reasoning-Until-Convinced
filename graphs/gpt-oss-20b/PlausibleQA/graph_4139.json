@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In humans, epicondylitis affects which part of the body. Shoulder",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In humans, epicondylitis affects which part of the body. Knee",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In humans, epicondylitis affects which part of the body. Wrist",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In humans, epicondylitis affects which part of the body. Elbow",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Epicondylitis is the inflammation of an epicondyle or of adjacent tissues.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Epicondylitis occurs due to the overuse or degeneration of the musculature and tendons that attach to the medial and lateral epicondyles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

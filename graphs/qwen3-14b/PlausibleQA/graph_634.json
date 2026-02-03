@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what states share a border with tennessee. Kentucky",
+      "strength": 0.5999999999438272
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what states share a border with tennessee. North Carolina",
+      "strength": 0.5999999414031619
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what states share a border with tennessee. Georgia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what states share a border with tennessee. Virginia",
+      "strength": 0.7499045701748377
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kentucky borders Tennessee to the south",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Virginia to the east, Tennessee to the south",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "North Carolina is bordered by Tennessee to the west",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Virginia is bordered by Tennessee to the southwest",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Georges Pompidou",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Maurice Couve de Murville",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Pierre Mendès France",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the first prime minister of france. Michel Debré",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Michel Debré was the first Prime Minister of the French Fifth Republic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Michel Debré held the position of Prime Minister from 8 January 1959 to 1962.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

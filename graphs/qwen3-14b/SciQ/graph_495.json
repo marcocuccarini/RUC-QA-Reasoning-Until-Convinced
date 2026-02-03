@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the only atom for which the Bohr model works.",
+      "strength": 0.1539375046901133
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Helium is the only atom for which the Bohr model works.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon is the atom for which the Bohr model works only.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Boron is the atom for which the Bohr model works.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bohr model gives almost exact results only for a system where two charged points orbit each other at speeds much less than that of light. This not only involves one-electron systems such as the hydrogen atom, singly ionized helium, and doubly ionized lithium, but it includes positronium and Rydberg states of any atom where one electron is far away from everything else.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At best, it can make predictions about the K-alpha and some L-alpha X-ray emission spectra for larger atoms, if two additional ad hoc assumptions are made.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Bohr model could only predict energy levels with any accuracy for single–electron atoms (hydrogen-like atoms).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It was the complete failure of the Bohr–Sommerfeld theory to explain many-electron systems (such as helium atom or hydrogen molecule) which demonstrated its inadequacy in describing quantum phenomena.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

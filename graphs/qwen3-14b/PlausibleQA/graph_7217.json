@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which English town was awarded city status in March this year. Southend-on-Sea",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which English town was awarded city status in March this year. Milton Keynes",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which English town was awarded city status in March this year. Plymouth",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which English town was awarded city status in March this year. CHELMSFORD",
+      "strength": 0.40000009282172766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Southend was granted city status in January 2022.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chelmsford was granted city status in 2012.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Milton Keynes was granted city status in 2022.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

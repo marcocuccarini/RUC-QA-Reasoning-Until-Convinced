@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The potential energy increases as water at 20 °C, placed on a stove, is heated, absorbs thermal energy, and reaches a maximum temperature of 80 °C.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The evaporation decreases as the water, initially at 20 °C and heated on a stove, absorbs thermal energy and reaches a maximum temperature of 80 °C.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The disorder decreases as water is heated from 20 °C to 80 °C on a stove, during which thermal energy is absorbed by the water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The entropy increases when water at 20 °C is placed on a stove, heated by absorbing thermal energy, and reaches a maximum temperature of 80 °C.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In an isolated system such as the room and ice water taken together, the dispersal of energy from warmer to cooler always results in a net increase in entropy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As the entropy of the universe is steadily increasing, its total energy is becoming less useful.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

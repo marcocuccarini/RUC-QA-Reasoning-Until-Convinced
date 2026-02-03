@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. Cheap Trick",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. The Rolling Stones",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. Weezer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang the theme song to that 70s show. Big Star",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The theme song was originally performed by the Peppermint Trolley Company.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From season two onward, the theme song was recorded in-house by Paramount musicians.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

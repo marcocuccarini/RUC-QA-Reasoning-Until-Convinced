@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nationality was the botanist Carolus Linnaeus. Danish",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nationality was the botanist Carolus Linnaeus. Norwegian",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nationality was the botanist Carolus Linnaeus. German",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nationality was the botanist Carolus Linnaeus. Svensk",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carl Linnaeus was a Swedish biologist and physician",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Linnaeus was born in Råshult, in the countryside of Småland, southern Sweden",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

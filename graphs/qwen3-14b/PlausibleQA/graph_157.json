@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Californium",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Lawrencium",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Seaborgium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Berkelium",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Berkelium is named after the city of Berkeley in California, following a naming convention similar to that of Terbium, which was named after Ytterby.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Californium is named after the state of California, not a specific university in Oakland, California.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lawrencium is named after Ernest Lawrence, a physicist associated with the University of California, Berkeley, not a university in Oakland, California.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

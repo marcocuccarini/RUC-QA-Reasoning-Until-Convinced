@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester did Coronation Street actress Betty Driver sadly pass away recently. Manchester",
+      "strength": 0.36774766208784276
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester did Coronation Street actress Betty Driver sadly pass away recently. Salford",
+      "strength": 0.36774766208784276
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester did Coronation Street actress Betty Driver sadly pass away recently. Bolton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester did Coronation Street actress Betty Driver sadly pass away recently. Heaviley",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stockport is a town in Greater Manchester, England; it lies 8 miles (13 km) south-east of Manchester",
+      "strength": 0.5999654321013873
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tameside is bordered by the metropolitan boroughs of Stockport to the south.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

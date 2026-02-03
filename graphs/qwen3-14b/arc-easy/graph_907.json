@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electromagnetic waves are transverse waves, a property that makes it possible to use them to transmit information between a space shuttle and NASA mission control centers on the ground.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electromagnetic waves have very low velocity, which allows them to be used to transmit information between a space shuttle and NASA mission control centers on the ground.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electromagnetic waves are all visible to human eyes, which is the property that makes it possible to use these waves to transmit information between a space shuttle and NASA mission control centers on the ground.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electromagnetic waves can travel through a vacuum, which is the property that makes it possible to transmit information between a space shuttle and NASA mission control centers on the ground.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electromagnetic radiation is produced by accelerating charged particles such as from the Sun and other celestial bodies or artificially generated for various applications.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In empty space (vacuum), electromagnetic radiation travels at the speed of light, c, 299,792,458 meters per second (approximately 186,000 miles per second).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where was the statue of liberty originally built. New York City",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where was the statue of liberty originally built. Rome",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where was the statue of liberty originally built. London",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where was the statue of liberty originally built. Paris",
+      "strength": 0.7499025239273752
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The statue was built in France",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Made in Paris The Statue of Liberty 1877–1885 – many historical photographs",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The most prestigious sculptors who made their reputation in Paris in the modern era are Frédéric Auguste Bartholdi (Statue of Liberty), Auguste Rodin, Camille Claudel, Antoine Bourdelle, Paul Landowski (statue of Christ the Redeemer in Rio de Janeiro) and Aristide Maillol.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Frédéric Auguste Bartholdi (Statue of Liberty) was among the most prestigious sculptors in Paris.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

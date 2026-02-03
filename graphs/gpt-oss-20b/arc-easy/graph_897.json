@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A hard metal case with flexible foam lining is the best case to protect the several bird eggs a scientist wants to collect on an island.",
+      "strength": 0.32009671708044424
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A flexible metal case with smooth plastic lining is the best case to protect several bird eggs collected by a scientist on an island.",
+      "strength": 0.5999999557134624
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A strong wooden case with lightweight plastic lining is the best case to protect the bird eggs a scientist wants to collect on an island.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A lightweight wooden case with strong aluminum lining is the best case for protecting the bird eggs that a scientist wants to collect on an island.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The loss of foam caused the Space Shuttle Columbia disaster.",
+      "strength": 0.7499999999735639
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Once cured and cooled, the material maintains its shape and properties.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "According to the Columbia accident report, NASA officials found foam loss in over 80% of the 79 missions for which they have pictures.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Any air pocket, dirt or an uncovered tiny spot can knock it off due to extreme conditions of liftoff.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Crumple zones absorb and dissipate the force of a collision, displacing and diverting it away from the passenger compartment and reducing the negative acceleration impact force on the vehicle occupants.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Passive safety to components of the vehicle (primarily airbags, seatbelts and the physical structure of the vehicle) that help to protect occupants during a crash.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Bird eggshells are made of calcium carbonate with a 5% organic matrix. This resilient external surface prevents desiccation of the contents, limits mechanical damage, and protects against microbes, all while allowing the exchange of gas with the surrounding atmosphere.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "In Greater Ani Crotophaga major this vaterite coating is thought to act as a shock absorber, protecting the calcite shell from fracture during incubation, such as colliding with other eggs in the nest.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which grape is used to produce top-quality Burgundy red wines. Pinot Noir",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which grape is used to produce top-quality Burgundy red wines. Gamay",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which grape is used to produce top-quality Burgundy red wines. Syrah",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which grape is used to produce top-quality Burgundy red wines. Rouci",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most famous wines produced here, and those commonly referred to as 'Burgundies', are dry red wines made from pinot noir grapes",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The duke declared the 'vile and disloyal Gamay'... unfit for human consumption and banned the use of organic fertilizer",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ride bikes more is the best way to save animals and trees.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Make more farmland is the BEST way to save animals and trees.",
+      "strength": 0.25000003759877515
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Take care of forests is the best way to save animals and trees.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Move to the city is the best way to save animals and trees.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Extensive cattle ranching is the number one culprit of deforestation in virtually every Amazon country, and it accounts for 80% of current deforestation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Short-term economic gains made by conversion of forest to agriculture, or over-exploitation of wood products, typically leads to a loss of long-term income and long-term biological productivity.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The European Commission found that, in terms of environmental services, it is better to avoid deforestation than to allow for deforestation to subsequently reforest, as the former leads to irreversible effects in terms of biodiversity loss and soil degradation.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Reforestation, if several indigenous species are used, can provide other benefits in addition to financial returns, including restoration of the soil, rejuvenation of local flora and fauna, and the capturing and sequestering of 38 tons of carbon dioxide per hectare per year.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

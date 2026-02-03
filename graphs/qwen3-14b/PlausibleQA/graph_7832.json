@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To whom is Gwyneth Paltrow married. Chris Martin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To whom is Gwyneth Paltrow married. Brad Pitt",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To whom is Gwyneth Paltrow married. Ben Affleck",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To whom is Gwyneth Paltrow married. Moses Martin",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gwyneth Paltrow married Chris Martin on December 5, 2003",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gwyneth Paltrow filed for divorce from Chris Martin in April 2015, which was finalized on July 14, 2016",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

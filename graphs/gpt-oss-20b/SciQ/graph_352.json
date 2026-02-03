@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Protons are the particles that atoms of different elements possess in varying numbers.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrons are the numbers that atoms of different elements have different numbers of.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Neutrons are the particles that atoms of different elements have different numbers of.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The nucleus is what atoms of different elements have different numbers of.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "One or more protons are present in the nucleus of every atom.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In chemistry, the number of protons in the nucleus of an atom is known as the atomic number, which determines the chemical element to which the atom belongs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

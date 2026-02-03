@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What are the first names of art duo Proesch and Passmore. Alexander Pierce",
+      "strength": 0.40000003773849835
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What are the first names of art duo Proesch and Passmore. Julian Stiles",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What are the first names of art duo Proesch and Passmore. Ethan Slade",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What are the first names of art duo Proesch and Passmore. Gilbert Proesch",
+      "strength": 0.43092997217557644
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gilbert Prousch was born 17 September 1943",
+      "strength": 0.4000393669040914
+    },
+    "A5": {
+      "type": "argument",
+      "text": "George Passmore was born 8 January 1942",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "George Passmore is part of the artists Gilbert and George",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The cost of the land is the most important environmental consideration when a community plans to locate a new sanitary landfill.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The location of the groundwater is the most important environmental consideration when a community plans to build a new sanitary landfill.",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The proximity to an industrial park is the most important environmental consideration when locating a new sanitary landfill for your community.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The accessibility to a major highway is the most important environmental consideration when locating a new sanitary landfill in your community.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "estimated aftercare cost of more than 20 million euros per landfill in the Netherlands",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "any landfill liner could leak, so the ground around landfills must be tested for leachate to prevent pollutants from contaminating groundwater",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Human use of groundwater causes environmental problems.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Groundwater may or may not be a safe water source.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

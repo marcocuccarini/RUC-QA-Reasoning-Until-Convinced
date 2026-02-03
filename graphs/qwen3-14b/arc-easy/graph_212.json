@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Removing the old theory from historical records is what the scientific community should do when new research uncovers information proving that data from the old theory is partially incorrect.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Changing the research notes in the original theory is what the scientific community should do when new research proves that data from an old theory is partially incorrect.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Using the new information to update the old theory is what the scientific community should do when new research proves that data from an old theory is partially incorrect.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ban the public from discussing the old theory is what the scientific community should do when new research proves that data from an old theory is partially incorrect.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "modifications to the previous theory are sufficient to explain the new evidence",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the strength of a theory relates to how long it has persisted without major alteration to its core principles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

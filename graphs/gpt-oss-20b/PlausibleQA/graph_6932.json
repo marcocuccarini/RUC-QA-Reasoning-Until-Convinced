@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The medical term bariatric refers (increasingly politically correctly) to what human condition. Overweight",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The medical term bariatric refers (increasingly politically correctly) to what human condition. Malnourished",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The medical term bariatric refers (increasingly politically correctly) to what human condition. Diabetic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The medical term bariatric refers (increasingly politically correctly) to what human condition. Obese",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Surgery for severe obesity is associated with long-term weight loss, improvement in obesity-related conditions, and decreased overall mortality",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "People are classified as obese when their body mass index (BMI)—a person's weight divided by the square of the person's height—is over 30 kg/m2; the range 25–30 kg/m2 is defined as overweight",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

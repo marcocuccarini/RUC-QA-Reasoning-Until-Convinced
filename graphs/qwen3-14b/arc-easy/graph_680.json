@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mercury, Venus, Earth, Saturn, Uranus, Jupiter, Mars, Neptune is the correct order of the planets from the Sun.",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mercury, Earth, Mars, Venus, Saturn, Jupiter, Neptune, Uranus is the correct order of the planets from the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mercury, Venus, Mars, Earth, Jupiter, Uranus, Saturn, Neptune is the correct order of the planets from the Sun.",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune is the correct order of the planets from the Sun.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Closest to the Sun in order of increasing distance are the four terrestrial planets – Mercury, Venus, Earth and Mars.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ceres orbits in the asteroid belt, between Mars and Jupiter, indicating that Jupiter is the fifth planet from the Sun.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The four terrestrial planets (Mercury, Venus, Earth, and Mars) are followed by the four giant planets (Jupiter, Saturn, Uranus, and Neptune) in order of increasing distance from the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

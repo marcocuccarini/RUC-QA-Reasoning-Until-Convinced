@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which mode is used for short wave broadcast service. AM (Amplitude Modulation)",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which mode is used for short wave broadcast service. FM (Frequency Modulation)",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which mode is used for short wave broadcast service. SSB (Single Sideband)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which mode is used for short wave broadcast service. MFSK",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "AM remains in use in many forms of communication in addition to AM broadcasting: shortwave radio",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This is in contrast to frequency modulation (FM) and digital radio where the effect of such noise following demodulation is strongly reduced",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

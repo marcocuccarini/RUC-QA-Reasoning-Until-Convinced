@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which footballer scored a record six international hat- tricks for England. Bobby Charlton",
+      "strength": 0.15384623968423988
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which footballer scored a record six international hat- tricks for England. Michael Owen",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which footballer scored a record six international hat- tricks for England. Alan Shearer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which footballer scored a record six international hat- tricks for England. Greavsie",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1959, Charlton scored a hat-trick as England demolished the US 8–1",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "his second England hat-trick came in 1961 in an 8–0 thrashing of Mexico",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In May 2005, he scored his second international hat-trick in a friendly match against Colombia at Giants Stadium.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Owen was the first player to have scored in four consecutive major tournaments for England.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Greaves holds the record for most hat-tricks for England – six in all.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

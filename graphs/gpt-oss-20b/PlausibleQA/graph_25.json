@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British periodical was founded by Joseph Addison and Richard Steel in 1711, the current magazine bearing the title was launched in 1828. The Tatler",
+      "strength": 0.400000060988221
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British periodical was founded by Joseph Addison and Richard Steel in 1711, the current magazine bearing the title was launched in 1828. The Guardian",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British periodical was founded by Joseph Addison and Richard Steel in 1711, the current magazine bearing the title was launched in 1828. The Times",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British periodical was founded by Joseph Addison and Richard Steel in 1711, the current magazine bearing the title was launched in 1828. The Spectator",
+      "strength": 0.4999049989189936
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Spectator Magazine was an American weekly news magazine published in the San Francisco Bay Area from 1978 until October 2005.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Spectator Magazine ceased publication in October 2005.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1709, Steele began to publish the Tatler.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Spectator began publication on 1 March 1711.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Addison and Steele founded The Spectator in 1711.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Addison and Steele founded The Guardian in 1713.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

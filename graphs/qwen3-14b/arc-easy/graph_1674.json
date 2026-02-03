@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pollution can be eliminated through water testing illustrates that scientists frequently monitor levels of microorganisms at beaches in the summer, where high temperatures, pollution, runoff, and illegal dumping all affect water quality.",
+      "strength": 0.6322429966750173
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High temperatures increase runoff from agricultural fields, illustrating that scientists’ monitoring of microorganism levels at beaches during summer shows how high temperatures, pollution, runoff, and illegal dumping all affect water quality.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water testing identifies the origin of illegal dumping by monitoring microorganism levels at beaches during summer, a process affected by high temperatures, pollution, runoff, and illegal dumping.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Monitoring water quality is important to public health as illustrated by scientists frequently monitoring levels of microorganisms at beaches in the summer, where high temperatures, pollution, runoff, and illegal dumping affect water quality.",
+      "strength": 0.7499426582224752
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A study published in 2017 stated that 'polluted water spread gastrointestinal diseases and parasitic infections and killed 1.8 million people'",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The indicators (bacterial indicator) of fecal contamination of water samples most commonly used are total coliforms (TC) or fecal coliforms (FC), the latter also referred to as thermotolerant coliforms, such as Escherichia coli",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tracking any deterioration in quality is essential for the health of the human population and for the health of ecosystems reliant on water.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The rationale behind this monitoring strategy is that most human pathogens originate from other humans via the sewage stream.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The oceans contain most of the water on Earth.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Watersheds contain most of the water on Earth.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The atmosphere contains most of the water on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ice and aquifers contain most of the water on Earth.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The total volume of water on Earth is estimated at 1.386 billion km3 (333 million cubic miles), with 97.5% being salt water and 2.5% being freshwater.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although in warm periods such as the Mesozoic and Paleogene... today most fresh water exists in the form of ice, snow, groundwater and soil moisture, with only 0.3% in liquid form on the surface.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The ocean contains 97% of Earth's water and is the primary component of Earth's hydrosphere, acting as a huge reservoir of heat for Earth's energy budget, as well as for its carbon cycle and water cycle, forming the basis for climate and weather patterns worldwide.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The ocean is essential to life on Earth, harbouring most of Earth's animals and protist life, originating photosynthesis and therefore Earth's atmospheric oxygen, still supplying half of it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

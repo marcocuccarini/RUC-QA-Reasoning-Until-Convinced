@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. Photoelectric Fire Sensor",
+      "strength": 0.5999999125837895
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. Light Scattering Detector",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. Beam Smoke Detector",
+      "strength": 0.5999088118033908
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. optical smoke detector",
+      "strength": 0.5999999125837895
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Photoelectric, or optical smoke detector, contains a source of infrared, visible, or ultraviolet light—typically an incandescent light bulb or light-emitting diode (LED)—a lens, and a photoelectric receiver—typically a photodiode.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Photoelectric smoke detection is generally more responsive to fires that begin with a long period of smoldering.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In large open areas such as atria and auditoriums, optical beam or projected-beam smoke detectors are used instead of a chamber within the unit: a wall-mounted unit emits a beam of infrared or ultraviolet light which is either received and processed by a separate device or reflected to the receiver by a reflector.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The received light intensity will be reduced due to scattering from particulates of smoke, air-borne dust, or other substances; the circuitry detects the light intensity and generates the alarm if it is below a specified threshold, potentially due to smoke.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

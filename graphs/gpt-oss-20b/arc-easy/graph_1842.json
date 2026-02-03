@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mass is the property that can exist as solids, liquids, and gases.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Matter is the substance that can exist as solids, liquids, and gases.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Weight is a property that solids, liquids, and gases possess.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Volume is the property that can exist in solid, liquid, and gas states.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Matter exists in various states (also known as phases).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By contrast, mass is not a substance but a well-defined, extensive property of matter and other substances or systems.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

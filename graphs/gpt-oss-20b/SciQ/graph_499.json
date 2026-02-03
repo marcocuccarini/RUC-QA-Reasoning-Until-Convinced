@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water is the medium through which light travels more slowly than it does in air.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earth is the medium in which light travels more slowly than in air.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Glass is the material in which light travels more slowly than it does in air.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metal is what light travels more quickly in air than.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The refractive index of liquid water (1.333 at 20 °C) is much higher than that of air (1.0).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The refractive index of liquid water is lower than that of common types of glass (1.4 to 1.6).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Optical glass typically has a refractive index of 1.4 to 2.4",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

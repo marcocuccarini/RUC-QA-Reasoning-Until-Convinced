@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "As well as municipalities, which country is made up of 26 states and one federal district. Argentina",
+      "strength": 0.40000003589797006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "As well as municipalities, which country is made up of 26 states and one federal district. Mexico",
+      "strength": 0.40000003589797006
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "As well as municipalities, which country is made up of 26 states and one federal district. United States",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "As well as municipalities, which country is made up of 26 states and one federal district. Brzil",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brazil is a federation composed of 26 states, one federal district, and the 5,571 municipalities.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Senate represents the 26 states and the Federal District.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Brazil is divided into federative units which have a certain degree of autonomy (self-government, self-regulation, and self-collection) and are endowed with their own government and constitution. There are 26 states (estados) and one federal district (distrito federal).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Producers are the organisms that eat only plants.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Omnivores are organisms that eat only plants.",
+      "strength": 0.40000004749767426
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Herbivores are organisms that eat only plants.",
+      "strength": 0.5999029153259441
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Scavengers are organisms that eat only plants.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "These more broadly also encompass animals that eat non-vascular autotrophs such as mosses, algae and lichens, but do not include those feeding on decomposed plant matters (i.e. detritivores) or macrofungi (i.e. fungivores).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Omnivores can obtain their nutrients from either plants or animals.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The herbivore defenses of Senecio viscusus",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Herbivore defense in Lindera benzoin",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

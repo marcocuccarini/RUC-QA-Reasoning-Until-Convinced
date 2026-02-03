@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A barometer is not considered an instrument to be used to determine weather.",
+      "strength": 0.2500000000000028
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A thermometer is not considered an instrument used to determine weather.",
+      "strength": 0.2500000000000098
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An anemometer is not considered an instrument to be used to determine weather.",
+      "strength": 0.3999999616984823
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A millimeter is not considered an instrument to determine weather.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Barometric pressure and the pressure tendency (the change of pressure over time) have been used in weather forecasting since the late 19th century.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pressure tendency can forecast short term changes in the weather.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Thermometers are used in meteorology and climatology in various levels of the atmosphere and oceans.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Thermometers are used in roadways in cold weather climates to help determine if icing conditions exist.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In meteorology, an anemometer (from Ancient Greek  άνεμος (ánemos) 'wind' and  μέτρον (métron) 'measure') is a device that measures wind speed and direction. It is a common instrument used in weather stations.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Plate anemometers have been used to trigger high wind alarms on bridges.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Measuring both wind speed and direction using a tagged three-cup sensor",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "A millimetre is a unit of length in the International System of Units (SI), equal to one thousandth of a metre.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "One millimetre is also equal to 1000 micrometres.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The musical ‘Half a Sixpence’ was based on which 1905 novel. The Old Wives' Tale",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The musical ‘Half a Sixpence’ was based on which 1905 novel. The House of Mirth",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The musical ‘Half a Sixpence’ was based on which 1905 novel. The Jungle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The musical ‘Half a Sixpence’ was based on which 1905 novel. KIPPS",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Old Wives' Tale is a novel by Arnold Bennett, first published in January 1908.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kipps (1905) is a novel of social realism describing lower-middle-class English life.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

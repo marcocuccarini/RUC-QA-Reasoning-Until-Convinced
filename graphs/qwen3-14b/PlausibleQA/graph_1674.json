@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What tune do the bells of Big Ben chime. Westminster Quarters",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What tune do the bells of Big Ben chime. Oranges and Lemons",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What tune do the bells of Big Ben chime. God Save the Queen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What tune do the bells of Big Ben chime. Four notes from Handel's ?Messiah?",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tune is that of the Cambridge Chimes, first used for the chimes of Great St Mary's church, Cambridge, and supposedly a variation, attributed to William Crotch, based on violin phrases from the air 'I know that my Redeemer liveth' in George Frideric Handel's Messiah.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The four quarter bells play the Westminster Quarters on the quarter hours.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This chime is traditionally, though without substantiation, believed to be a set of variations on the four notes that make up the fifth and sixth bars of 'I know that my Redeemer liveth' from Handel's Messiah.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

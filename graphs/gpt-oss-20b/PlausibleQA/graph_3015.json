@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the new town on the outskirts of Paris which is the site of 'Euro Disney', opened in 1992. Val d'Europe",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the new town on the outskirts of Paris which is the site of 'Euro Disney', opened in 1992. Serris",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the new town on the outskirts of Paris which is the site of 'Euro Disney', opened in 1992. Coupvray",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the new town on the outskirts of Paris which is the site of 'Euro Disney', opened in 1992. Marne-la-Vallée",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Marne-la-Vallée is a new town located near the city centre of Paris.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Disneyland Paris, Walt Disney Studios Park, Val d'Europe, Université Paris-Est Marne-la-Vallée, ESIEE Paris, and École des Ponts ParisTech are located in Marne-la-Vallée.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

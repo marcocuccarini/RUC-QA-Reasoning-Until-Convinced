@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What alphabet is used in Russia. Latin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What alphabet is used in Russia. Greek",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What alphabet is used in Russia. Arabic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What alphabet is used in Russia. Cyrlic",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Russia accounts for about half of the 250 million people in Eurasia who use Cyrillic as the official script for their national languages.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Russian government has mandated that Cyrillic must be used for all public communications in all federal subjects of Russia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

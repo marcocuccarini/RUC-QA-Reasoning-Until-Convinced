@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was the son of king leonidas. Aristodemus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was the son of king leonidas. Agesilaus II",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was the son of king leonidas. Cleomenes I",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was the son of king leonidas. Pleistarchus",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pleistarchus' father King Leonidas perished in 480 BC at the Battle of Thermopylae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pleistarchus was born as a prince, likely the only son of King Leonidas I and Queen Gorgo.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "His grandparents were Kings Anaxandridas II and Cleomenes I.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

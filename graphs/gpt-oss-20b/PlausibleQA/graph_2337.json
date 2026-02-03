@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Strawberry Museum in the town of Wepion is in which country. France",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Strawberry Museum in the town of Wepion is in which country. Netherlands",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Strawberry Museum in the town of Wepion is in which country. Switzerland",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Strawberry Museum in the town of Wepion is in which country. Beljum",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wepion is a commune in the Ardennes department in France, so the Strawberry Museum there is located in France.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wepion is not in the Netherlands; it is a French commune, so the Netherlands hypothesis is incorrect.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wepion is not in Switzerland; it is a French commune, so the Switzerland hypothesis is incorrect.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Wepion is not in Belgium; it is a French commune, so the Beljum hypothesis is incorrect.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

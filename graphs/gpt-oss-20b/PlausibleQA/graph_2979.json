@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which musical instrument can have 21, 22, or 23 strings. Harp",
+      "strength": 0.40000000008898207
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which musical instrument can have 21, 22, or 23 strings. Koto",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which musical instrument can have 21, 22, or 23 strings. Guqin",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which musical instrument can have 21, 22, or 23 strings. Sitar",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Variants were described, ranging from 14 to 17 strings, and the instrument was used by wandering minstrels for accompaniment.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The guqin has a modern form stabilized to seven strings.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A sitar can have 18, 19, 20, or 21 strings",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers went to the world seris. 1988",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers went to the world seris. 1965",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers went to the world seris. 1955",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time the dodgers went to the world seris. 2012",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Dodgers made World Series appearances in 2017 and 2018.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Dodgers did not make a World Series appearance between 1988 and 2017.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The 1988 World Series featured the Los Angeles Dodgers.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The 1988 World Series is documented in multiple sources including WorldSeries.com, Baseball Almanac, and Retrosheet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

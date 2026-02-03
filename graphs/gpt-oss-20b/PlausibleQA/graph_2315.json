@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Aconcagua is the highest mountain in which mountain range. Himalayas",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aconcagua is the highest mountain in which mountain range. Rocky Mountains",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Aconcagua is the highest mountain in which mountain range. Sierra Madre",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aconcagua is the highest mountain in which mountain range. Andes",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The range's highest peak, Argentina's Aconcagua, rises to an elevation of about 6,961 m",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Andes are the highest mountain range outside of Asia",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

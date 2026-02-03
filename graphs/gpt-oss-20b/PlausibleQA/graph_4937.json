@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the Paramount Film Company originally called. Paramount Pictures Corporation",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the Paramount Film Company originally called. Famous Players",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the Paramount Film Company originally called. Lasky Feature Play Company",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the Paramount Film Company originally called. Raleigh Studios",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paramount Pictures dates its existence from the 1912 founding date of the Famous Players Film Company.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On May 8, 1914, Paramount Pictures Corporation (previously known as Progressive Pictures) was founded by a Utah theatre owner, W. W. Hodkinson, who had bought and merged five smaller firms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

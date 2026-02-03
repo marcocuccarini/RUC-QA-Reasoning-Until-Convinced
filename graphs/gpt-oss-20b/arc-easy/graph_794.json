@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nucleus is the cellular organelle in which pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during a biochemical reaction.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cytoplasm is the cellular organelle where pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during the biochemical reaction.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mitochondria are the cellular organelles where pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during a biochemical reaction.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Endoplasmic reticulum is the cellular organelle where pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during this biochemical reaction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In eukaryotic cells the pyruvate decarboxylation occurs inside the mitochondrial matrix",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In eukaryotic cells the pyruvate decarboxylation occurs inside the mitochondrial matrix, after transport of the substrate, pyruvate, from the cytosol",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

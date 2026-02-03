@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which saint established a monastery and Christian community on the island of Iona in the year 563. St. Aidan",
+      "strength": 0.2500974173587746
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which saint established a monastery and Christian community on the island of Iona in the year 563. St. Columbanus",
+      "strength": 0.4000000597805733
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which saint established a monastery and Christian community on the island of Iona in the year 563. St. Patrick",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which saint established a monastery and Christian community on the island of Iona in the year 563. St Colm",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 563, Columba travelled to Scotland and founded the abbey on Iona.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The monastery on the Island of Iona was founded by St Columba.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "St Columba founded the monastery on the Island of Iona.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

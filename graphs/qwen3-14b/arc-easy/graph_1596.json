@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Offspring are genes composed of.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "DNA is what genes are composed of.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cells are what genes are composed of.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Traits are what genes are composed of.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "a gene is a DNA sequence that is transcribed",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the genome is the total genetic material of an organism and includes both the genes and non-coding sequences",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

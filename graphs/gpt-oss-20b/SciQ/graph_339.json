@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hemoglobin is the protein in red blood cells that transports oxygen around the body.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plasma is the protein in red blood cells that transports oxygen around the body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the protein in red blood cells that transports oxygen around the body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hematocrit is the protein in red blood cells that transports oxygen around the body.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hemoglobin (haemoglobin, Hb or Hgb) is a protein containing iron that facilitates the transportation of oxygen in red blood cells.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hemoglobin in the blood carries oxygen from the respiratory organs (lungs or gills) to the other tissues of the body, where it releases the oxygen to enable aerobic respiration which powers an animal's metabolism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

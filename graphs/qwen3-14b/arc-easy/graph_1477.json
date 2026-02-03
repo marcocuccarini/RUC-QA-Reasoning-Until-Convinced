@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On a space station, astronauts who may spend several months orbiting Earth most likely stay while in space.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In a space shuttle, astronauts most likely stay while spending several months in space orbiting Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On a space probe, some astronauts most likely stay while in space orbiting Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In a lunar module, astronauts most likely stay while they spend several months in space orbiting Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Each crew member stays aboard the station for weeks or months but rarely more than a year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The duration record for a single spaceflight is 437.75 days, set by Valeri Polyakov aboard Mir from 1994 to 1995.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

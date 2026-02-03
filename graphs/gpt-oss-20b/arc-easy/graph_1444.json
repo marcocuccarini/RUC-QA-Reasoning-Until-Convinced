@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Density of water is not necessary for determining the buoyant force acting on the small aluminum cube dropped into a beaker of water to determine buoyancy.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Displaced volume is not necessary for determining the buoyant force acting on the small aluminum cube dropped into a beaker of water to assess buoyancy.",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravitational pull on Earth is not necessary in determining the buoyant force acting on a small aluminum cube that is dropped into a beaker of water to determine buoyancy.",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The density of the aluminum cube is not necessary for determining the buoyant force acting on a small aluminum cube that is dropped into a beaker of water to assess buoyancy.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Archimedes' principle states that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially, is equal to the weight of the fluid that the body displaces.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "B = ρ_f V g",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The force the liquid exerts on an object within the liquid is equal to the weight of the liquid with a volume equal to that of the object.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The buoyancy force on a submerged body is directed in the opposite direction to gravity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

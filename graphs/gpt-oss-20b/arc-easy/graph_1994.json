@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From air we obtain the minerals needed to make many things, including jewelry, chalk, and concrete.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From wood is the source of the minerals used to make many things including jewelry, chalk, and concrete.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Minerals needed for making jewelry, chalk, and concrete are obtained from rocks.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Minerals needed to make jewelry, chalk, and concrete come from crops.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ore is natural rock or sediment that contains one or more valuable minerals, typically including metals, concentrated above background levels, and that is economically viable to mine and process.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These are ore deposits which form as a direct result of metamorphism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

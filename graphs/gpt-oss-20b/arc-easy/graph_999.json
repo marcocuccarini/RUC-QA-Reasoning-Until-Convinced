@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "0°C is the boiling point of water in degrees Celsius.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "32°C is the boiling point of water in degrees Celsius.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "100°C is the boiling point of water in degrees Celsius.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "212°C is the boiling point of water in degrees Celsius.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At sea level, the boiling point of water is 100 °C (212 °F).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

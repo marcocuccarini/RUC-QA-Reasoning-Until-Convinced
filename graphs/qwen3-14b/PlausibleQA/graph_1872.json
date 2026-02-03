@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At what age does an individual first become entitled to a free TV licence. 60",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At what age does an individual first become entitled to a free TV licence. 65",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "At what age does an individual first become entitled to a free TV licence. 70",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "At what age does an individual first become entitled to a free TV licence. 75",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Residents of Guernsey and Alderney who are over 75 and are in receipt of Income Support are entitled to a free television licence funded by the BBC",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Residents of Sark who are over the age of 75 are entitled to a free TV licence if they are receiving financial support from the Procureur des Pauvres",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

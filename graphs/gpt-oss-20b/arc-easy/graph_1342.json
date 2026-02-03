@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Higher levels of oxygen in the atmosphere can best explain the approximately 1 °C increase in Earth's average surface temperature over the past century.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lower levels of ozone in the atmosphere best explain the approximately 1 °C increase in Earth's average surface temperature over the past century.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Higher levels of carbon dioxide in the atmosphere can best explain the approximately 1 °C increase in Earth's surface temperature over the past century.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lower levels of nitrogen in the atmosphere are the best explanation for the approximately 1 °C increase in Earth's average surface temperature over the past century.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Measurements of CO2 from the Mauna Loa Observatory show that concentrations have increased from about 313 parts per million (ppm) in 1960, passing the 400 ppm milestone in 2013.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The current observed amount of CO2 exceeds the geological record maxima (≈300 ppm) from ice core data.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

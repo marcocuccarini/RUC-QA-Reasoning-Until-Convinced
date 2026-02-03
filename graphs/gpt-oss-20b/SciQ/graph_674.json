@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metamorphosis is the physical transformation that an insect undergoes as it moves through its stages of life.",
+      "strength": 0.7238204083754556
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Transition is the physical transformation of an insect moving through stages of life.",
+      "strength": 0.5999999071782728
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Growth and Development is the physical transformation of an insect moving through stages of life.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Parthenogenesis is the physical transformation of an insect moving through stages of life.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metamorphosis is a biological process by which an animal physically develops including birth transformation or hatching, involving a conspicuous and relatively abrupt change in the animal's body structure through cell growth and differentiation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Insects can be divided into species that undergo complete metamorphosis ('holometaboly'), incomplete metamorphosis ('hemimetaboly'), or no metamorphosis ('ametaboly').",
+      "strength": 0.5999031730402274
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The larval stage is variously adapted to gaining and accumulating the materials and energy necessary for growth and metamorphosis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The pupa is a quiescent, non-feeding developmental stage.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The nymph often has a thin exoskeleton and resembles the adult stage but lacks wings and functional reproductive organs.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The hemimetabolous (partial) insects are those whose nymphs, called naiads, occupy aquatic habitats while the adults are terrestrial.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

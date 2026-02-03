@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is president of israel. Reuven Rivlin",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is president of israel. Isaac Herzog",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is president of israel. Ehud Barak",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is president of israel. Shimon Peres",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rivlin was elected as the 10th President of Israel on 10 June 2014, receiving the support of 63 MKs in a runoff vote against MK Meir Sheetrit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Isaac Herzog was elected to succeed Rivlin as president.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "President Reuven Rivlin wrote a foreword for the Rabin eBook.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the suffragette killed during the 1913 Derby. Emily Davison",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the suffragette killed during the 1913 Derby. Christabel Pankhurst",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the suffragette killed during the 1913 Derby. Sylvia Pankhurst",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the suffragette killed during the 1913 Derby. Anmer (horse)",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Emily Wilding Davison died after being hit by King George V's horse Anmer at the 1913 Derby.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Anmer—King George V's horse, ridden by Herbert Jones, was the animal that killed Davison.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What gladiator famously led a slave revolt against Rome. Crixus",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What gladiator famously led a slave revolt against Rome. Eunus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What gladiator famously led a slave revolt against Rome. Castus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What gladiator famously led a slave revolt against Rome. Spartacus",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "His revolt began in 73 BC when, along with about 70 other gladiators, he escaped a gladiatorial school near Capua.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The two legions were initially successful—defeating a group of 30,000 rebels commanded by Crixus near Mount Garganus—",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "By the end of 73 BC, Spartacus and Crixus were in command of a large group of armed men with a proven ability to withstand Roman armies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

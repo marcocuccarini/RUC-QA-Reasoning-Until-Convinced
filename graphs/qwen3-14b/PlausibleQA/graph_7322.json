@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country were democratic elections held in May 1989, and though Guillermo Endara was elected president, the results were annulled by the existing government. Argentina",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country were democratic elections held in May 1989, and though Guillermo Endara was elected president, the results were annulled by the existing government. Chile",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country were democratic elections held in May 1989, and though Guillermo Endara was elected president, the results were annulled by the existing government. Nicaragua",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country were democratic elections held in May 1989, and though Guillermo Endara was elected president, the results were annulled by the existing government. Panama",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "General elections were held in Panama on 7 May 1989.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The election was annulled before voting was completed by Noriega's government.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

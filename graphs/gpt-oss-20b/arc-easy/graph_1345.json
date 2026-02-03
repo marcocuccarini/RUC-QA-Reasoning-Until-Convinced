@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Argon is expected to be found in large concentrations in the ocean minimum zone, which lies 200 to 600 meters below the surface, is dark and cold, and has oxygen concentrations less than 10% of surface water due to bacterial breakdown of organic matter.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen is expected to be found in large concentrations in the ocean minimum zone (OMZ), an area from 200 to 600 meters below the ocean's surface that is dark and cold, with oxygen concentrations less than 10% of those in surface water because bacterial activity breaks down organic material falling from the surface.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the dissolved gas expected to be found in large concentrations in the ocean minimum zone—an area 200 to 600 meters below the ocean surface that is dark, cold, and has oxygen concentrations less than 10 % of surface levels due to bacterial breakdown of organic material falling from the surface.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon monoxide is expected to be found in large concentrations in the ocean minimum zone—an area 200 to 600 meters below the surface that is dark and cold, has oxygen concentrations less than 10% of surface water, and experiences low oxygen levels due to bacterial breakdown of organic material falling from the surface.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "There is about fifty times as much carbon dioxide dissolved in the oceans as exists in the atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The oceans act as an enormous carbon sink, and have taken up about a third of CO2 emitted by human activity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

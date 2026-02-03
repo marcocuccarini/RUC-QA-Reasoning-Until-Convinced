@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Color is the property of sugar that remains after sugar is dissolved in water.",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Taste is the property of sugar that remains after it is dissolved in water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Shape is the property of sugar that remains after sugar is dissolved in water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Texture is the property of sugar that remains after sugar is dissolved in water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The strength and nature of solvent-solute interactions influence many properties of the solute, including color",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "physical properties, which can be discerned without changing the substance's structure",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "chemical properties cannot be determined just by viewing or touching the substance; the substance's internal structure must be affected greatly for its chemical properties to be investigated",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oil is the source from which gasoline, a nonrenewable energy resource used in most cars and trucks, is made.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the source from which gasoline, a nonrenewable energy resource used in most cars and trucks, is made.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Natural gas is the source from which gasoline, a nonrenewable energy resource used in most cars and trucks, is made.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water vapor is the source from which gasoline is made, a nonrenewable energy resource used in most cars and trucks.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The alkanes from pentane (C5H12) to octane (C8H18) are refined into gasoline.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Petroleum products include fuels such as gasoline (petrol), diesel, kerosene and jet fuel; bitumen, paraffin wax and lubricants; reagents used to make plastics; solvents, textiles, refrigerants, paint, synthetic rubber, fertilizers, pesticides, pharmaceuticals, and thousands of other petrochemicals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

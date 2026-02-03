@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The number of fish species increases in Florida lakes where human activity has elevated nutrients, leading to rapid algal growth that subsequently dies and decomposes.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The volume of lake water increases when human activity raises nutrient levels in many Florida lakes, leading to rapid algal growth that later dies and decomposes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The buildup of bottom sediments decreases in Florida lakes that have been enriched with nutrients by human activity, leading to rapid algal growth that subsequently dies and decomposes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The amount of dissolved oxygen decreases in Florida lakes as a result of human activity that increases nutrient levels, causing rapid algal overgrowth that dies and decomposes.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The depleted oxygen levels in turn may lead to fish kills and a range of other effects reducing biodiversity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eutrophication can have the following ecological effects: increased biomass of phytoplankton, changes in macrophyte species composition and biomass, dissolved oxygen depletion, increased incidences of fish kills, loss of desirable fish species.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

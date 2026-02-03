@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which teacher taught Helen Keller to communicate. Alexander Graham Bell",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which teacher taught Helen Keller to communicate. Laura Bridgman",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which teacher taught Helen Keller to communicate. Michael Anagnos",
+      "strength": 0.2500954907572107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which teacher taught Helen Keller to communicate. Anne sulavan",
+      "strength": 0.4999364411422277
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Anne Sullivan Macy was the instructor and lifelong companion of Helen Keller.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Michael Anagnos recommended Anne Sullivan Macy as Helen Keller's teacher.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sullivan taught Keller language, including reading and writing.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Michael Anagnos asked Anne Sullivan to become Keller's instructor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

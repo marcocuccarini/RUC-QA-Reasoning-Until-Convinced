@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On 31 May 2010, the President of which country announced his resignation after local politicians criticised comments he made in relation to overseas military deployments. Kyrgyzstan",
+      "strength": 0.049176498528355844
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On 31 May 2010, the President of which country announced his resignation after local politicians criticised comments he made in relation to overseas military deployments. Poland",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On 31 May 2010, the President of which country announced his resignation after local politicians criticised comments he made in relation to overseas military deployments. Afghanistan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On 31 May 2010, the President of which country announced his resignation after local politicians criticised comments he made in relation to overseas military deployments. Nimska",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 15 April 2010, at 19:00, Bakiyev left Kyrgyzstan for Kazakhstan, having signed a resignation letter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The head of the new provisional government, Roza Otunbayeva, declared that Bakiyev had not resigned and was trying to rally support.",
+      "strength": 0.4310335703133607
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Kyrgyz President Replaces Renegade Regional Governor",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In October 2020, President Sooronbay Jeenbekov resigned after protests caused by irregularities in parliamentary elections on 4 October 2020.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "President Bakiyev, together with his relatives, including his son Maksim and brother Janish—were forced to flee to Kazakhstan and then sought asylum in Belarus.",
+      "strength": 0.4000002171700626
+    },
+    "A9": {
+      "type": "argument",
+      "text": "President Kurmanbek Bakiyev reportedly flees the country on April 7, 2010, as the government steps down and protestors overrun the parliament building.",
+      "strength": 0.5999997828299376
+    },
+    "A10": {
+      "type": "argument",
+      "text": "President Kurmanbek Bakiyev escapes Bishkek, purportedly to a southern region of the country through Osh.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "large riots in April 2010 forced him to resign and flee the country",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A9",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A8",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

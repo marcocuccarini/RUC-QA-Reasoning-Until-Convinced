@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The father only is the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The mother only is the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The mother and the father are the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Neither the mother nor the father is the source of genetic information of offspring produced by sexual reproduction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During sexual reproduction, two haploid gametes combine into one diploid cell known as a zygote in a process called fertilization. The nuclei from the gametes fuse, and each gamete contributes half of the genetic material of the zygote.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Organisms inherit genetic material from their parents in the form of homologous chromosomes, containing a unique combination of DNA sequences that code for genes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

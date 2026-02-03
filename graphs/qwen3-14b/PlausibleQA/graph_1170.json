@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Arc de Triomphe",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Notre-Dame Cathedral",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Palace of Versailles",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Invalides",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Napoleon Bonaparte is buried under the Dome of the Invalides, as stated in the text: 'Napoleon was entombed under the Dome of the Invalides with a grand ceremony in 1840.'",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Arc de Triomphe is not mentioned as Napoleon's burial site in the text. The text refers to the tomb being at Les Invalides, not the Arc de Triomphe.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Notre-Dame Cathedral is not referenced as the location of Napoleon's tomb. The text explicitly states that the tomb is at Les Invalides, not Notre-Dame.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Palace of Versailles is not identified as the burial site of Napoleon in the text. The tomb is located at Les Invalides, not Versailles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

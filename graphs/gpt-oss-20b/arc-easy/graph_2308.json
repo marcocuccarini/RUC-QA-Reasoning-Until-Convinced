@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dimples are an inherited trait.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Scrapes is an inherited trait.",
+      "strength": 0.4000876126562776
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Short hair is an inherited trait.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Dirty fingernails is an inherited trait.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "cheek dimple genes occur on the 5th chromosome",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Professor John McDonald concluded that dimples have been mislabeled as genetically inherited and as a dominant trait",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This theory is now known to be wrong—the experiences of individuals do not affect the genes they pass to their children.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

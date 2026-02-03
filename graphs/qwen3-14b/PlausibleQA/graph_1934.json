@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the guy who walked across the twin towers. Harry Houdini",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the guy who walked across the twin towers. Evel Knievel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the guy who walked across the twin towers. Nik Wallenda",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the guy who walked across the twin towers. Philippe Petit",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Philippe Petit ... gained fame for his unauthorized highwire walks between the towers of Notre-Dame Cathedral in Paris in 1971 and of Sydney Harbour Bridge in 1973, as well as between the Twin Towers of the World Trade Center in New York City on August 7, 1974.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Man on Wire, a documentary directed by James Marsh about Petit's walk between the towers, won numerous awards including the 2009 Academy Award for Best Documentary Feature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

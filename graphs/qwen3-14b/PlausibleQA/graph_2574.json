@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From which European country does Limburger cheese originate. Germany",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From which European country does Limburger cheese originate. Netherlands",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From which European country does Limburger cheese originate. Austria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From which European country does Limburger cheese originate. Beljum",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Limburger... originated in the Herve area of the historical Duchy of Limburg, which had its capital in Limbourg-sur-Vesdre, now in the French-speaking Belgian province of Liège.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Herve cheese, or 'Fromage de Herve', is still produced in the territory of the old Duchy of Limburg, in Belgium, where it has been produced since the 15th century.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

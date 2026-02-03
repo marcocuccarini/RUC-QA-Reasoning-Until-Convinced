@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of religion does argentina have. Catholicism",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of religion does argentina have. Islam",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of religion does argentina have. Buddhism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of religion does argentina have. Judaism",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Christianity is the most widely professed religion in Argentina, with Catholic Church being its largest denomination.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Argentina has the largest Muslim minority in Latin America.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "between 62.9% and 63.3% of Argentinians are Catholic",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "92% of the country are nominally Catholic",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

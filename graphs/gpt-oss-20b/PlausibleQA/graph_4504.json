@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country was Marie Curie born? Poland, Austria or Switzerland. Poland",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country was Marie Curie born? Poland, Austria or Switzerland. Austria",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country was Marie Curie born? Poland, Austria or Switzerland. Switzerland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country was Marie Curie born? Poland, Austria or Switzerland. Polnd",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was born in Warsaw, in Congress Poland in the Russian Empire",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She was born in Warsaw, in what was then the Kingdom of Poland, part of the Russian Empire",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

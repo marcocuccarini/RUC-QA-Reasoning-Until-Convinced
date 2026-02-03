@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who succeeded Nikita Kruschev as leader of the Soviet Union in1964. Leonid Brezhnev",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who succeeded Nikita Kruschev as leader of the Soviet Union in1964. Andrei Gromyko",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who succeeded Nikita Kruschev as leader of the Soviet Union in1964. Nikolai Podgorny",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who succeeded Nikita Kruschev as leader of the Soviet Union in1964. Kosygin",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Leonid Brezhnev was a Soviet politician who served as General Secretary of the Communist Party of the Soviet Union from 1964 until his death in 1982.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brezhnev replaced him as First Secretary of the CPSU.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

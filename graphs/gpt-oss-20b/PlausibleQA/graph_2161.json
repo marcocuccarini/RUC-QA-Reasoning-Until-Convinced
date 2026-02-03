@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Newark Broad Street",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Harrison PATH Station",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Newark Liberty International Airport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Newark Penn Station",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Newark Broad Street station is a New Jersey Transit commuter rail and light rail station",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since 1990, all PATH trains are stored and maintained at the Harrison Car Maintenance Facility in New Jersey, located east of the Harrison station.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

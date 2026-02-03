@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gray is the characteristic that describes the texture of a kitten's fur.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Warm is the characteristic that describes the texture of a kitten's fur.",
+      "strength": 0.5999999999403536
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Long is the characteristic that describes the texture of a kitten's fur.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Soft is the characteristic that describes the texture of a kitten's fur.",
+      "strength": 0.5999999999403536
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A fur is a soft, thick growth of hair that covers the skin of almost all mammals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The guard hair keeps moisture from reaching the skin; the underfur acts as an insulating blanket that keeps the animal warm.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "some cats, particularly long-haired cats, occasionally regurgitate sausage-shaped 2–3 cm (0.8–1.2 in) long hairballs of fur that have collected in their stomachs from grooming.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Toe tufts are commonly found on cats with medium to long coats.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

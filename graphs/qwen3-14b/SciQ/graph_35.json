@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A galvanic cell is the electrochemical system in which connecting a magnesium rod to an underground steel pipeline protects the pipeline from corrosion, with the magnesium rod acting as the anode because magnesium (e° = −2.37 V) is more readily oxidized than iron (e° = −0.45 V).",
+      "strength": 0.5999999999999944
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Anode cell is the electrochemical cell in which the magnesium rod, being more easily oxidized (e° = −2.37 V) than iron (e° = −0.45 V), acts as the anode when connected to an underground steel pipeline to protect the pipeline from corrosion.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stimulation cell is the electrochemical cell in which a magnesium rod, which has a more easily oxidized potential (e° = –2.37 V) than iron (e° = –0.45 V), acts as the anode to protect an underground steel pipeline from corrosion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Voltaic cell is a type of electrochemical cell in which a magnesium rod acts as the anode when it is connected to an underground steel pipeline to protect the pipeline from corrosion, because magnesium (e° = −2.37 V) is more easily oxidized than iron (e° = −0.45 V).",
+      "strength": 0.7085108407143296
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The anode is the electrode where oxidation (loss of electrons) takes place (metal A electrode); in a galvanic cell, it is the negative electrode, because when oxidation occurs, electrons are left behind on the electrode.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The standard potential of the cell is equal to the more positive Eo value minus the more negative Eo value.",
+      "strength": 0.8461102886929376
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Electron transfer reactions and redox potentials are involved in galvanic cells.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In order for galvanic cathodic protection to work, the anode must possess a lower (that is, more negative) electrode potential than that of the cathode (the target structure to be protected).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The cell potential is calculated as E_cell = E_cathode - E_anode.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

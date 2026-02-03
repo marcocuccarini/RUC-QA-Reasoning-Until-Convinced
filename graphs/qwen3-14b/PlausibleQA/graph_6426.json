@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which South American capital is the nearest to the equator. Bogotá",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which South American capital is the nearest to the equator. Lima",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which South American capital is the nearest to the equator. Brasília",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which South American capital is the nearest to the equator. Qito",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Quito is the closest capital city to the equator.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The equator runs through the northern part of the metropolitan area in the parish of San Antonio.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Brasília lies between the parallels 15° S and 20° S",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

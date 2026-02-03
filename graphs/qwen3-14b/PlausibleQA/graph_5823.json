@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Bill Sikes",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Professor Moriarty",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Uriah Heep",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Legree",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He is arguably the novel's main antagonist.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The novel reveals that, as a young man, he had abandoned his sickly mother for a life at sea and ignored her letter to see her one last time at her deathbed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

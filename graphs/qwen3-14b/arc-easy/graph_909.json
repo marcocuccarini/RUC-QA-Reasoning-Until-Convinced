@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The speed and direction of the object will both change as long as the forces acting on it remain balanced.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The speed and direction of the object will remain constant as long as the forces acting on it remain balanced.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The speed will change, but the direction will remain constant as long as the forces acting on the object remain balanced.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The speed will remain constant, but the direction will change, when an object moves through space with balanced forces acting on it and those forces remain balanced.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When the net force on a body is equal to zero, then by Newton's second law, the body does not accelerate, and it is said to be in mechanical equilibrium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A body remains at rest, or in motion at a constant speed in a straight line, unless it is acted upon by a force.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

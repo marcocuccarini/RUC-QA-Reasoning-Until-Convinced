@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "during which season does cape town receive rainfall. Autumn",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "during which season does cape town receive rainfall. Winter",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "during which season does cape town receive rainfall. Spring",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "during which season does cape town receive rainfall. summer",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Winter, which lasts from June to September, may see large cold fronts entering for limited periods from the Atlantic Ocean with significant precipitation and strong north-westerly winds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Summer, which lasts from December to March, is warm and dry with an average maximum of 26 °C (79 °F) and minimum of 16 °C (61 °F).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

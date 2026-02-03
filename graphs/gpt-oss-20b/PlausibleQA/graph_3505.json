@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "As at 2010 who is the MP for Belfast West. Martin McGuinness",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "As at 2010 who is the MP for Belfast West. Alex Maskey",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "As at 2010 who is the MP for Belfast West. Paul Maskey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "As at 2010 who is the MP for Belfast West. GERRY ADAMS",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "McGuinness served as Member of Parliament (MP) for Mid Ulster from 1997 until his resignation in 2013.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Member of Parliament since a 2011 by-election is Paul Maskey of Sinn Féin, who succeeded Gerry Adams.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2011, Adams decided to stand in the 2011 Irish general election and vacated his seat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

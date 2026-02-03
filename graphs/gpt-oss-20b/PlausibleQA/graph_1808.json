@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. Albert Station",
+      "strength": 0.40000003589797006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. Bridge Street Station",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. East End Station",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the London Underground station in EastEnders. Walford",
+      "strength": 0.36775700259979593
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Walford East is a fictional London Underground station for Walford.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Walford East Underground station was built, to create further locations when EastEnders went from two to three episodes per week.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "TfL Track Map Archived 6 March 2021 at the Wayback Machine (shows only London Underground-operated trackage)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Birds are the most abundant of all vertebrate classes, and the most recent to evolve.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bony fishes are the most abundant of all vertebrate classes, and the most recent to evolve.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reptiles are the most abundant of all vertebrate classes and the most recent to evolve.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mammals are the most abundant vertebrate class and the most recent to evolve.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Actinopterygii constitute nearly 99% of the over 30,000 living species of fish.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The earliest known fossil actinopterygian is Andreolepis hedei, dating back 420 million years (Late Silurian).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bony fish comprise over 28,000 species.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The oldest known fossils of bony fish are about 425 million years old from the late Silurian.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "There are over 33,000 extant species of fish, easily the largest group of vertebrates and more than all species of the other traditional classes, namely amphibians, reptiles, birds, and mammals, combined.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Fish account for more than half of vertebrate species.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

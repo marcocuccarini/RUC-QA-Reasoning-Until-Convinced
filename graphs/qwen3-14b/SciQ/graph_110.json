@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The third trimester is the period during a human pregnancy that exhibits the greatest growth of the fetus and culminates in labor and delivery.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fourth trimester is the period during a human pregnancy that exhibits the greatest growth of the fetus and culminates in labor and delivery.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The first trimester is the trimester during a human pregnancy that exhibits the greatest growth of the fetus and culminates in labor and delivery.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Second trimester is the trimester during human pregnancy that exhibits the greatest growth of the fetus and culminates in labor and delivery.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Trimester (pregnancy) in humans, where the time of pregnancy is divided into three terms of 13 weeks to refer to the fetus's development",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most weight gain takes place during the third trimester.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Head engagement occurs as the fetal head descends into a cephalic presentation during the third trimester.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

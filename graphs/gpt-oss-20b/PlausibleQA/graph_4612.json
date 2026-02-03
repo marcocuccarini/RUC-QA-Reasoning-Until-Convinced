@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does marta play soccer. FC Rosengård",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does marta play soccer. Paris Saint-Germain",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does marta play soccer. Santos FC",
+      "strength": 0.5999999160114282
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does marta play soccer. Umeå IK",
+      "strength": 0.5999999160114282
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Marta joined Umeå IK during the 2004 season",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She played in the Women's International Club Football Tournament held in Araraquara, helping Santos win the competition",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2004, Brazilian star Marta signed with the club.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

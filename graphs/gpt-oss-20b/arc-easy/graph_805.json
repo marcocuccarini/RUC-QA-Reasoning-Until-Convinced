@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Proposing different conclusions from the same data is the most likely first step other scientists might take when checking the conclusion reached after an experiment.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Studying the data to evaluate the conclusion is the most likely first step other scientists might take when checking the conclusion after an experiment.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Changing current models to fit the conclusion is the most likely first step other scientists might take when checking a conclusion reached after an experiment.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Developing new technologies based on the conclusion is the most likely first step other scientists might take when checking the conclusion after an experiment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The scientific method is an empirical method for acquiring knowledge through careful observation, rigorous skepticism, hypothesis testing, and experimental validation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the test results contradict the predictions, the hypotheses which entailed them are called into question and become less tenable.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

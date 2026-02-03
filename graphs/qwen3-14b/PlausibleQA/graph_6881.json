@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A former software engineer, who created the comic strip character Dilbert. Scott McCloud",
+      "strength": 0.19521718760106702
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A former software engineer, who created the comic strip character Dilbert. Bill Watterson",
+      "strength": 0.19521718760106702
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A former software engineer, who created the comic strip character Dilbert. Berkeley Breathed",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A former software engineer, who created the comic strip character Dilbert. BOCTAOE",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Scott Raymond Adams is the creator of the Dilbert comic strip",
+      "strength": 0.749999972697686
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dilbert.com is the official website of Scott Adams",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Scott Adams participated in a Reddit AMA",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Dilbert is an American comic strip written and illustrated by Scott Adams",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

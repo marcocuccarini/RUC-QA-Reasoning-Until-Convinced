@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Conglomerate rock is a rock made of material that has settled to the bottom of lakes and oceans and been compressed and hardened.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Volcanic rock is rock that is made of material that has settled to the bottom of lakes and oceans and been compressed and hardened.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sedimentary rock is a rock that is made of material that has settled to the bottom of lakes and oceans and has been compressed and hardened.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metamorphic rock is rock that is made of material that has settled to the bottom of lakes and oceans and has been compressed and hardened.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sedimentary rocks are formed by the accumulation of particles at Earth's surface, transported by water, wind, ice, or mass movement, and deposited in layers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lithification follows closely on compaction, as increased temperatures at depth hasten the precipitation of cement that binds the grains together.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

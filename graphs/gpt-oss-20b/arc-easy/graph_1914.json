@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Feathers are what birds, bats, and butterflies have in common.",
+      "strength": 0.4000000000455329
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hair is what birds, bats, and butterflies have in common.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Internal skeleton is what birds, bats, and butterflies have in common.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wings are what birds, bats, and butterflies have in common.",
+      "strength": 0.5999029153259441
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bats are more agile in flight than most birds, flying with their long spread-out digits covered with a thin membrane or patagium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Terrestrial flightless birds have reduced wings or none at all (for example, moa).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A wing injury is often crippling for flying birds, preventing them from feeding, socializing, or avoiding predators.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A parent patrolling a nest will react to potential predators by vocalizing and presenting one or both wings at an extended angle, simulating a fracture; the predator therefore attempts to attack the healthy parent rather than continue foraging for the eggs or chicks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cooler, because it absorbs less sunlight, is what the black can would most likely be compared to the white can after being left in the Sun for 3 hours.",
+      "strength": 0.3677570018889684
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cooler, because it absorbs more sunlight, is the condition that the black can would most likely be compared to the white can after both were left outside in the sun for 3 hours.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The black can would most likely be warmer, because it absorbs less sunlight, compared to the white can after being left in the Sun for 3 hours.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Warmer, because it absorbs more sunlight, is what the black can would most likely be compared to the white can after both empty metal cans of the same size were left outside on a hot day in the sun for 3 hours.",
+      "strength": 0.5999617965637547
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He waited some time and then measured that the black pieces sank furthest into the snow of all the colors, indicating that they got the hottest and melted the most snow.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A black body or blackbody is an idealized physical body that absorbs all incident electromagnetic radiation, while a white body reflects all incident rays.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Real materials emit energy at a fraction—called the emissivity—of black-body energy levels. By definition, a black body in thermal equilibrium has an emissivity ε = 1.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

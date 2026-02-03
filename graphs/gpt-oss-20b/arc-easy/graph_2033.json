@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The powder dissolving in the water makes the fruit drink—created by a student stirring powdered mix into cold water—a solution.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The water changes color is why the fruit drink is a solution when a student stirs powdered mix into cold water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The student stirs the water, which causes the powdered mix to disperse evenly in the cold water and dissolve, thereby forming a solution.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The water is the proper temperature, so when the student stirs the powdered mix into it the mix dissolves, making the fruit drink a solution.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A solution is a liquid or solid phase containing more than one substance, when for convenience one (or more) substance, which is called the solvent, is treated differently from the other substances, which are called solutes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the solvent is water, hydration occurs when the charged solute ions become surrounded by water molecules.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Solubility is the ability of a substance, the solute, to form a solution with another substance, the solvent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

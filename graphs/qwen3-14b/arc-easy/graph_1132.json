@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tornado is the type of storm that causes the most flooding in areas located near an ocean coastline.",
+      "strength": 0.25000003759877515
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A hurricane is the type of storm that causes the most flooding in areas located near an ocean coastline.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Blizzard is the type of storm that causes the most flooding in areas located near an ocean coastline.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Freezing rain is the type of storm that causes the most flooding in areas located near an ocean coastline.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hurricanes may dump as much as 300 mm (12 in) of rainfall in 24 hours over large areas and higher rainfall densities in localized areas. As a result, surface runoff can quickly flood streams and rivers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The deadliest storm surge on record was the 1970 Bhola cyclone.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Coastal flooding can result from a variety of different causes including storm surges created by storms like hurricanes and tropical cyclones",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The catastrophic damage caused by the extensive flooding was the result of the highest recorded storm surges in North America",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

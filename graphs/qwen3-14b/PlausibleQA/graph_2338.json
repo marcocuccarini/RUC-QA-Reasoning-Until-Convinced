@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the space craft that exploded 72 seconds after lift off killing all 7 crew members in 1986.. Challenger",
+      "strength": 0.5000967341380452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the space craft that exploded 72 seconds after lift off killing all 7 crew members in 1986.. Columbia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the space craft that exploded 72 seconds after lift off killing all 7 crew members in 1986.. Apollo 1",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the space craft that exploded 72 seconds after lift off killing all 7 crew members in 1986.. OV-99",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Space Shuttle Challenger Explosion video",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Shuttle Orbiter Challenger (OV-99)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It didn't explode",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

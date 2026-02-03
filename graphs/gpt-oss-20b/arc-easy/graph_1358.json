@@ -1,0 +1,126 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kilometers are the units used to measure great distances in space.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light years are used to measure great distances in space.",
+      "strength": 0.5999350950074552
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Megameters are the unit used to measure great distances in space.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Astronomical units are the units used to measure great distances in space.",
+      "strength": 0.43093666411024406
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The light-year is most often used when expressing distances to stars and other distances on a galactic scale, especially in non-specialist contexts and popular science publications.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The largest unit for expressing distances across space at that time was the astronomical unit, equal to the radius of the Earth's orbit at 150 million kilometres (93 million miles).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The astronomical unit is too small to be convenient for interstellar distances, where the parsec and light-year are widely used.",
+      "strength": 0.4000649050521344
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The light-year is often used in popular works, but is not an approved non-SI unit and is rarely used by professional astronomers.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "It is the preferred measurement unit to express distances between geographical places on land in most of the world; notable exceptions are the United States and the United Kingdom where the statute mile is used.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Kilometers are primarily used for distances within the Solar System and for terrestrial measurements, and are not practical for interstellar or galactic scales.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Light years are the standard unit for expressing distances to stars and galaxies, and are widely used in both popular and scientific literature.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Megameters are generally employed to quantify distances within the Solar System, such as the range between planets, and are not the conventional choice for interstellar measurements.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "Astronomical units are primarily used for intra‑solar measurements, and for interstellar distances astronomers rely on the parsec or light‑year, not the AU.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "The astronomical unit is not suitable for measuring interstellar distances, which is why it is rarely used for such purposes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A13",
+      "target": "A6",
+      "relation": "attack"
+    }
+  ]
+}

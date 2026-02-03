@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Federal Republic",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Constitutional Monarchy",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Parliamentary Democracy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of government is sweden. Unitary state",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sweden is a constitutional monarchy and a parliamentary democracy, with legislative power vested in the 349-member unicameral Riksdag.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is a unitary state, divided into 21 counties and 290 municipalities.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

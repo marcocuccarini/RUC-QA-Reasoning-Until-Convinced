@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In November 1975 Juan Carlos was declared King of which European country. Portugal",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In November 1975 Juan Carlos was declared King of which European country. Greece",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In November 1975 Juan Carlos was declared King of which European country. Belgium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In November 1975 Juan Carlos was declared King of which European country. SPAIN",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Franco died on 20 November 1975, and two days later on 22 November the Cortes Españolas proclaimed Juan Carlos King of Spain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Organic Law approving Juan Carlos's abdication, published in the Boletin Oficial del Estado",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Official website of the Spanish Royal Family",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

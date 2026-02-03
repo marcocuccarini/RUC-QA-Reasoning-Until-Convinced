@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which river runs through the cities of Basel, Strasbourg, Karlsruhe, Mainz, Koblenz, Bonn, Cologne, Dsseldorf, Arnhem, Utrecht and Rotterdam. Rhone",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which river runs through the cities of Basel, Strasbourg, Karlsruhe, Mainz, Koblenz, Bonn, Cologne, Dsseldorf, Arnhem, Utrecht and Rotterdam. Moselle",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which river runs through the cities of Basel, Strasbourg, Karlsruhe, Mainz, Koblenz, Bonn, Cologne, Dsseldorf, Arnhem, Utrecht and Rotterdam. Main",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which river runs through the cities of Basel, Strasbourg, Karlsruhe, Mainz, Koblenz, Bonn, Cologne, Dsseldorf, Arnhem, Utrecht and Rotterdam. Rijn",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Lower Rhine flows through the Rhine-Ruhr region, which includes the cities of Cologne and Düsseldorf.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Rhine enters the Netherlands near Arnhem and flows through Rotterdam as part of the Rhine-Meuse-Scheldt delta.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

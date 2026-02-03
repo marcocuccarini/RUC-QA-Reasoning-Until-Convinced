@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which mountain peak is the highest point in the Western Hemisphere. Denali (formerly known as Mount McKinley)",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which mountain peak is the highest point in the Western Hemisphere. Ojos del Salado",
+      "strength": 0.2500000000173696
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which mountain peak is the highest point in the Western Hemisphere. Monte Pissis",
+      "strength": 0.27613314177606324
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which mountain peak is the highest point in the Western Hemisphere. ACONCAGUA",
+      "strength": 0.5999533382175997
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the same party later used geodetic methods to establish the elevation of Ojos del Salado as 6,885.5 ± 3 metres (22,590.2 ± 9.8 ft) and lower than the 6,960 metres (22,830 ft) high Aconcagua",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During the middle of the 20th century there was a debate on whether Ojos del Salado or Aconcagua was the highest mountain in South America which was eventually resolved in favour of Aconcagua",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Monte Pissis is the third-highest mountain in the Western Hemisphere.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The 2007 Chilean-Argentine-European expedition found Monte Pissis to be 6,793 m (22,287 ft), lower than Ojos del Salado's 6,891 m (22,608 ft).",
+      "strength": 0.4000466617824003
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Aconcagua is the highest mountain in the Western Hemisphere",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Aconcagua CSA (Continental South America) elevation is 6,967.15 m",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "attack"
+    }
+  ]
+}

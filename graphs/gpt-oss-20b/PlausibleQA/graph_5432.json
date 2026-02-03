@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the top speed in miles per hour of the first ever train. 30 mph",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the top speed in miles per hour of the first ever train. 5 mph",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the top speed in miles per hour of the first ever train. 60 mph",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the top speed in miles per hour of the first ever train. 18,000 mph",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Demonstrations also saw Rocket consistently and easily haul a carriage with over 20 persons up the Whiston Incline at over 15 mph (24 km/h), and light engine running of around 30 mph (48 km/h).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rocket passed the trial requirement of achieving an average speed of 10 mph (16 km/h) over 70 miles (110 km) by over 40 percent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

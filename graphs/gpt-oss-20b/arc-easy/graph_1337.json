@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Soil, water, and oxygen are what a plant needs to make sugar through photosynthesis.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen, sunlight, and soil are what a plant needs to make sugar through photosynthesis.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide, sunlight, and soil are what a plant needs to make sugar through photosynthesis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sunlight, water, and carbon dioxide are what a plant needs to make sugar through photosynthesis.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oxygen is a waste product of light-dependent reactions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "CO2 + 2H2O + photons light energy → [CH2O] carbohydrate + O2 + H2O.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

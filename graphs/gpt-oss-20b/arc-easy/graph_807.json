@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tension is the capacity for which steel is used for cables in suspension bridges.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Torsion is the capacity for steel that makes it suitable for cables in suspension bridges.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Compression is the property that makes steel suitable for cables in suspension bridges.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Contraction is the capacity of steel that makes it suitable for use as cables in suspension bridges.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "any load applied to the bridge is transformed into tension in these main cables.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main cables of a suspension bridge will form a catenary when hanging under their own weight only.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

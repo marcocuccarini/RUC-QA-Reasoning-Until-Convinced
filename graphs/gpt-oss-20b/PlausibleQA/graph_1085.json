@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "under article 1 what is the minimum age required to serve in the house of representatives. 18",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "under article 1 what is the minimum age required to serve in the house of representatives. 30",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "under article 1 what is the minimum age required to serve in the house of representatives. 21",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "under article 1 what is the minimum age required to serve in the house of representatives. 25",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State in which he shall be chosen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A senator must be at least 30 years of age, must have been a citizen of the United States for at least nine years before being elected, and must reside in the State they will represent at the time of the election.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

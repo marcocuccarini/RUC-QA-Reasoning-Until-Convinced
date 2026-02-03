@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metastasized is the term used to describe a cancer that has spread.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Destabilized is the term used to describe a cancer that has spread.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Galvanized is the term used to describe a cancer that has spread.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ostracized is the term used to describe a cancer that has spread.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metastasis is the spread of a pathogenic agent from an initial or primary site to a different or secondary site within the host's body.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Metastasis is the term typically used when referring to metastasis by a cancerous tumor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

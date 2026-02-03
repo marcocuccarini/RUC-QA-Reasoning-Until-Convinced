@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer makes the Jazz model. Toyota",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer makes the Jazz model. Ford",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer makes the Jazz model. Volkswagen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer makes the Jazz model. 本田",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Honda Jazz nameplate has been used by the Japanese manufacturer Honda to denote several different motorized vehicles since 1982",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "2001–present — In Europe, Oceania, the Middle East, Southeast Asia, India, and Africa the Honda Fit five-door hatchback automobile is sold as the Jazz",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

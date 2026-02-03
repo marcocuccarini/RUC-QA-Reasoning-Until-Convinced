@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Positive protons are the charge of the nucleus of an atom because they are present in the nucleus.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Negative neutrons are the cause of the charge of the nucleus of an atom.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Negative protons and positive electrons are what give the nucleus of an atom its charge.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Positive protons and negative neutrons are the sources of the charge of the nucleus of an atom.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Protons define the entire charge of a nucleus, and hence its chemical identity. Neutrons are electrically neutral...",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The neutron has a positively charged core of radius ≈ 0.3 fm surrounded by a compensating negative charge of radius between 0.3 fm and 2 fm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

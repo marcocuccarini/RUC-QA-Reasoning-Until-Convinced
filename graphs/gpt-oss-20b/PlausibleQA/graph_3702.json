@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who played the mad hatter in the batman tv show. Roddy McDowall",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who played the mad hatter in the batman tv show. Victor Buono",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who played the mad hatter in the batman tv show. Burgess Meredith",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who played the mad hatter in the batman tv show. David Wayne",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was known for playing the villain King Tut in the television series Batman (1966–1968).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "David Wayne portrayed Jervis Tetch / The Mad Hatter in the Batman television series (1966–1968).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Roddy McDowall was not credited as the actor for the Mad Hatter in the Batman television series.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

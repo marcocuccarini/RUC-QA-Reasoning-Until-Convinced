@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red blood cells are the host's component that parasites infect.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Platelets are the host's component that parasites infect.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plasma is the host component that parasites infect.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White blood cells are the host's components that parasites infect.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the blood, the merozoites rapidly invade individual red blood cells, replicating over 24–72 hours to form 16–32 new merozoites.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The infected red blood cell lyses, and the new merozoites infect new red blood cells, resulting in a cycle that continuously amplifies the number of parasites in an infected person.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

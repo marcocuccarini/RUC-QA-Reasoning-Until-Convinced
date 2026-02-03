@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where in the body is the cuboid bone. Ankle",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where in the body is the cuboid bone. Wrist",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where in the body is the cuboid bone. Elbow",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where in the body is the cuboid bone. FOOT",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The five irregular bones of the midfoot, the cuboid, navicular, and three cuneiform bones, form the arches of the foot.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The cuboid serving as its keystone, it redistributes part of the weight to the calcaneus and the distal end of the fifth metatarsal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

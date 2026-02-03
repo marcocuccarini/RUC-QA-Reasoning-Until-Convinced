@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which Italian track was the Formula One San Marino Grand Prix held. Monza",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which Italian track was the Formula One San Marino Grand Prix held. Mugello",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which Italian track was the Formula One San Marino Grand Prix held. Misano",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which Italian track was the Formula One San Marino Grand Prix held. Ìmola",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All San Marino Grands Prix were held at Imola.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The San Marino Grand Prix was run at the Autodromo Internazionale Enzo e Dino Ferrari in the town of Imola",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

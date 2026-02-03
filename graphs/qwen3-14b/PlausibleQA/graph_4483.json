@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1987, the Fdracion International del Volleyball arranged the first World Beach Volleyball Championships, which was played where. Los Angeles",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1987, the Fdracion International del Volleyball arranged the first World Beach Volleyball Championships, which was played where. Sydney",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1987, the Fdracion International del Volleyball arranged the first World Beach Volleyball Championships, which was played where. Miami",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1987, the Fdracion International del Volleyball arranged the first World Beach Volleyball Championships, which was played where. BRRIO",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first World Beach Volleyball Championships were held in 1997, not 1987, and the location was not Los Angeles. This directly contradicts the claim in the hypothesis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The hypothesis incorrectly states that the first World Beach Volleyball Championships were held in 1987 and in BRRIO (likely a typo for Rio). However, the first official championships were in 1997, and prior events were held in Rio. This directly contradicts the claim in the hypothesis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "indifferent"
+    }
+  ]
+}

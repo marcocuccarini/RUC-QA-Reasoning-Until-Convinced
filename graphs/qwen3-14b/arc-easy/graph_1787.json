@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Having more than one type of cell is required for organisms to carry out the functions of life.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Being exposed to sunlight is required for organisms to carry out the functions of life.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Having at least one cell is required for organisms to carry out the functions of life.",
+      "strength": 0.8460569052668154
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Be able to move is necessary for organisms to carry out the functions of life.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cell theory, developed in 1839 by Matthias Jakob Schleiden and Theodor Schwann, states that all organisms are composed of one or more cells",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cyanobacteria exhibit functional cell differentiation such as heterocysts (for nitrogen fixation), akinetes (resting stage cells), and hormogonia (reproductive, motile filaments)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All living organisms are composed of one or more cells",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The cell is the most basic unit of life",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

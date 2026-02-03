@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A 'Loganberry' is a cross between two berries, name either. Blueberry",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A 'Loganberry' is a cross between two berries, name either. Cranberry",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A 'Loganberry' is a cross between two berries, name either. Elderberry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A 'Loganberry' is a cross between two berries, name either. RASPBERRY or BLACKBERRY",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The loganberry (Rubus × loganobaccus) is a hybrid of the North American blackberry (Rubus ursinus) and the European raspberry (Rubus idaeus), accidentally bred in 1881 by James Harvey Logan, for whom they are named.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The loganberry was derived from a cross between Rubus ursinus (R. vitifolius) 'Aughinbaugh' (octaploid) as the female parent and Rubus idaeus 'Red Antwerp' (diploid) as the male parent (pollen source); the loganberry is hexaploid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

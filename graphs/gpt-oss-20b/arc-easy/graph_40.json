@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The orbits of the planets around the Sun are caused by gravity.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravity is responsible for the rotation of a planet on its axis.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The tilt of Earth's axis is caused by gravity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Phases of the Moon are the result of gravity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Planets orbit the Sun in an ellipse as a consequence of the law of gravity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The force of gravity is weakest at the equator because of the centrifugal force caused by the Earth's rotation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

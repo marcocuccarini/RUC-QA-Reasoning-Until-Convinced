@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Circulation is most likely the result of an organism being born with a genetic abnormality that was not present in any of its ancestors.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Competition is the most likely cause of a genetic abnormality that an organism is born with but that was not present in any of its ancestors.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mutation is the most likely result of an organism being born with a genetic abnormality not present in any of its ancestors.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Respiration is the most likely cause of an organism being born with a genetic abnormality that was not present in any of its ancestors.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mutation is the ultimate source of all genetic variation",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Overall, rates of de novo mutations are low compared to those of inherited mutations, which categorizes them as rare forms of genetic variation",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "When mutations occur in de novo they can result in rare genetic disorders even for individuals who have no previous family history of the condition.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A de novo mutation can arise in a sperm or egg cell and become a germline mutation, or after fertilization as a post-zygotic mutation that cannot be inherited by offspring.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

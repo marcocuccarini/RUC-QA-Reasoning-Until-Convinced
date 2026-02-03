@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mining is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions favorable for algae growth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Farming is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions more favorable for algae growth.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Transportation is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions more favorable for algae growth.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Manufacturing is the human activity that primarily causes excessive algae blooms in some lakes by degrading water quality and creating conditions more favorable for algae growth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "There are several sources of excessive nutrients from human activity including run‑off from fertilized fields, lawns, and golf courses, untreated sewage and wastewater and internal combustion of fuels creating nitrogen pollution.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The growth of marine phytoplankton is generally limited by the availability of nitrates and phosphates, which can be abundant in agricultural run‑off as well as coastal upwelling zones.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

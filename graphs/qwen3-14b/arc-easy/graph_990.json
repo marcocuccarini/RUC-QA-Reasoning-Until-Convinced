@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is the gas that is most abundant in Earth's atmosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen is the most abundant gas in Earth's atmosphere.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water vapor is the gas that is most abundant in Earth's atmosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the most abundant gas in Earth's atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "By mole fraction, dry air contains 78.08% nitrogen",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By mole fraction, dry air contains 20.95% oxygen",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

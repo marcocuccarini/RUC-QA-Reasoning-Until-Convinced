@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what nfl player has the most nfl rings. Joe Montana",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what nfl player has the most nfl rings. Terry Bradshaw",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what nfl player has the most nfl rings. Peyton Manning",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what nfl player has the most nfl rings. Tom Brady",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tom Brady has seven Super Bowl titles, the most of any player in NFL history.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Joe Montana has four Super Bowl rings, which is fewer than Tom Brady's seven.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Terry Bradshaw has four Super Bowl rings, which is fewer than Tom Brady's seven.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Peyton Manning has two Super Bowl rings, which is fewer than Tom Brady's seven.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

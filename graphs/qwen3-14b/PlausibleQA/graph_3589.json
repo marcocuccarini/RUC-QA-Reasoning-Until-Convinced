@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which African country is the Danikil Desert. Ethiopia",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which African country is the Danikil Desert. Eritrea",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which African country is the Danikil Desert. Djibouti",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which African country is the Danikil Desert. FDRE",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Danakil Desert is a desert in northeast Ethiopia",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Danakil Desert is a desert in southern Eritrea",
+      "strength": 0.40000009469685094
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Danakil Depression is located in the Afar Region of Ethiopia",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Afar Region is part of Ethiopia",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

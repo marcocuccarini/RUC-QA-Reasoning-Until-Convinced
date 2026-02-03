@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the generic name for a drug that reduces fever. Antifebrin",
+      "strength": 0.4000000344903905
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the generic name for a drug that reduces fever. Pyrostat",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the generic name for a drug that reduces fever. Thermolysin",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the generic name for a drug that reduces fever. ntipyretic",
+      "strength": 0.3676472365137172
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Medications that lower fevers are called antipyretics.",
+      "strength": 0.5999999655096099
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Paracetamol is used for reducing fever.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ibuprofen is used primarily to treat fever (including post-vaccination fever).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Ibuprofen is used primarily to treat fever (including post-vaccination fever), mild to moderate pain (including pain relief after surgery), painful menstruation, osteoarthritis, dental pain, headaches, and pain from kidney stones.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

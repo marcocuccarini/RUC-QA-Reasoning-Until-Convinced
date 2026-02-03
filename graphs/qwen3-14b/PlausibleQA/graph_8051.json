@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which optical toy was first patented in 1817 by David Brewster. Stereoscope",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which optical toy was first patented in 1817 by David Brewster. Praxinoscope",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which optical toy was first patented in 1817 by David Brewster. Zoetrope",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which optical toy was first patented in 1817 by David Brewster. Kalidescope",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "British patent no. 4136 'for a new Optical Instrument called 'The Kaleidoscope'... was granted in July 1817.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term 'kaleidoscope' was coined by its Scottish inventor David Brewster.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

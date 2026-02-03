@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who as of September 30th is Canadian prime Minister. Justin Trudeau",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who as of September 30th is Canadian prime Minister. Jean Chrétien",
+      "strength": 0.400000060988221
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who as of September 30th is Canadian prime Minister. Paul Martin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who as of September 30th is Canadian prime Minister. Steven Harper",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mark Carney is the current prime minister of Canada, taking office on March 14, 2025.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Justin Trudeau formally notified the Governor General of his resignation on March 14, 2025.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

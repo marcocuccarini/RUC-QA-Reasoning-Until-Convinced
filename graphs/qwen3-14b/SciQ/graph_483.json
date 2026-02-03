@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Abdomen is the third main body segment of an arthropod, alongside the head and thorax.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Legs are the third main body segment of an arthropod, the other two segments being the head and thorax.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tail is the third main body segment of an arthropod, following the head and thorax.",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gluteus is the third main body segment of an arthropod, along with the head and thorax.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the three-part appearance of many insect bodies and the two-part appearance of spiders is a result of this grouping",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The body is organized into three interconnected units: the head, thorax and abdomen.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the thorax carries the three pairs of legs",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

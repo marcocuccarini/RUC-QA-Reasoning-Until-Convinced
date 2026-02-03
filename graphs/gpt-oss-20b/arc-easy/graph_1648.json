@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Energy for photosynthesis is what plants depend on from animals, as animals provide the energy that plants use in photosynthesis.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pest control is what plants depend on from animals, because animals rely on plants for many things, including food.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is what plants depend on from animals, as animals exhale CO₂ that plants need for photosynthesis while animals depend on plants for many things, including food.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oxygen is what plants depend on from animals.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carbon dioxide is an end product of cellular respiration in organisms that obtain energy by breaking down sugars, fats and amino acids with oxygen as part of their metabolism. This includes all plants, algae and animals and aerobic fungi and bacteria.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Plants, algae and cyanobacteria use energy from sunlight to synthesize carbohydrates from carbon dioxide and water in a process called photosynthesis, which produces oxygen as a waste product.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

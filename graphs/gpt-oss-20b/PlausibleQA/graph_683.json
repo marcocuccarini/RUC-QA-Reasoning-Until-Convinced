@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Marie Antoinette, Queen of France and Navarre, was born in which country. France",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Marie Antoinette, Queen of France and Navarre, was born in which country. Germany",
+      "strength": 0.25008814475042074
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Marie Antoinette, Queen of France and Navarre, was born in which country. Italy",
+      "strength": 0.25008814475042074
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Marie Antoinette, Queen of France and Navarre, was born in which country. Ostria",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was born an archduchess of Austria.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She was born an archduchess of Austria, daughter of Emperor Francis I of the Holy Roman Empire.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Queen Marie Antoinette of France was born Archduchess Maria Antonia of Austria.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Barcelona",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Paris",
+      "strength": 0.749902584985255
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Madrid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Málaga",
+      "strength": 0.599999942563457
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Picasso was born at 23:15 on 25 October 1881, in the city of Málaga, Andalusia, in southern Spain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Picasso made his first trip to Paris, then the art capital of Europe, in 1900.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pablo Picasso, Modigliani, and Henri Matisse made Paris their home.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

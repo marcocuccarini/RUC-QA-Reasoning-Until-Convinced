@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A collision is the only way asteroids, which are not geologically active, can change.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Propulsion is the only way asteroids, which are not geologically active, can change.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Combustion is the only way asteroids, which are not geologically active, can change.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Expansion is the only way asteroids can change, since asteroids are not geologically active.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Some asteroids have moons or are co-orbiting binaries: rubble piles, moons, binaries, and scattered asteroid families are thought to be the results of collisions that disrupted a parent asteroid, or possibly a planet.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For asteroids rotating faster than approximately this rate, the inertial force at the surface is greater than the gravitational force, so any loose surface material would be flung out. However, a solid object should be able to rotate much more rapidly. This suggests that most asteroids with a diameter over 100 meters are rubble piles formed through the accumulation of debris after collisions between asteroids.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

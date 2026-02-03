@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Light reactions are the first stage of photosynthesis.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Consumption is the name of the first stage of photosynthesis.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Absorption is the name of the first stage of photosynthesis.",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Contamination is the name of the first stage of photosynthesis.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Light-dependent reactions are the chemical reactions involved in photosynthesis induced by light; all light-dependent reactions occur in thylakoids.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The process always begins when light energy is absorbed by the reaction centers, proteins that contain photosynthetic pigments or chromophores.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In plants, algae, and cyanobacteria, sugars are synthesized by a subsequent sequence of light-independent reactions called the Calvin cycle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

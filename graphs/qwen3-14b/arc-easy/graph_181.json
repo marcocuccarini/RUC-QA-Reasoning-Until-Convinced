@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Its height increases when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its height decreases when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its length shortens when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It crests when the velocity of an ocean wave decreases as it approaches a shore.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As waves enter shallower waters, the decrease in group velocity caused by the reduction in water depth leads to a reduction in wave length and an increase in wave height.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Shoaling waves will also exhibit a reduction in wavelength while the frequency remains constant.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As the water depth decreases towards the coast, wave height increases due to wave shoaling and refraction.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Therefore, the wave energy between rays is concentrated as they converge, with a resulting increase in wave height.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

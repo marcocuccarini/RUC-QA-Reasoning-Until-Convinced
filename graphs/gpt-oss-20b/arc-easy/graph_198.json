@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "During radiation, objects directly transfer heat to each other which affects the air temperature, illustrating how energy transfer within Earth’s atmosphere can influence a weather condition.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "During radiation, electromagnetic waves transfer heat and light energy within Earth's atmosphere, which affects the air temperature.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "During convection, objects directly transfer heat to each other, which affects the amount of precipitation, explaining how energy transfer within Earth's atmosphere can affect a weather condition.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "During convection, electromagnetic waves transfer heat and light energy, which affects the amount of precipitation, illustrating how energy transfer within Earth's atmosphere can affect a weather condition.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When the moisture condenses, it releases energy known as latent heat of vaporization which allows the rising packet of air to cool less than its surrounding air, continuing the cloud's ascension.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Convection plays a crucial role in weather patterns, influencing cloud formation, wind, and the development of thunderstorms, which can be associated with severe weather phenomena like hail, downbursts, and tornadoes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

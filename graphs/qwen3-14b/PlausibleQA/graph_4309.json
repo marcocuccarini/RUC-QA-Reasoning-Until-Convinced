@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which fictional UK television doctor lives in Tannochbrae. Dr. Cameron",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which fictional UK television doctor lives in Tannochbrae. Dr. Monk",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which fictional UK television doctor lives in Tannochbrae. Dr. Who",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which fictional UK television doctor lives in Tannochbrae. Dr Finlay",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The storylines of Dr Finlay's Casebook are centred on a general medical practice in the fictional Scottish town of Tannochbrae during the late 1920s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main characters of Dr Finlay's Casebook include Dr Finlay and Dr Cameron, who are part of the general medical practice in Tannochbrae.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

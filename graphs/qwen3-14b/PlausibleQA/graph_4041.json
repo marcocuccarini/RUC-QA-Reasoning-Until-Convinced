@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. Citric Acid",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. Malic Acid",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. Tartaric Acid",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. E334",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tartaric acid is a white, crystalline organic acid that occurs naturally in many fruits, most notably in grapes",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tartaric acid provides some of the tartness in the wine, although citric and malic acids also play a role",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

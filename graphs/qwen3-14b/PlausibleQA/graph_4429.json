@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester is the TV series set. Bolton",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester is the TV series set. Oldham",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester is the TV series set. Stockport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which town in Greater Manchester is the TV series set. ROCHDALE",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bolton is a town in Greater Manchester in England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Peter Kay filmed comedy TV series That Peter Kay Thing in the town.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

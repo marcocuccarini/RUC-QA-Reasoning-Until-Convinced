@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The objects in constellations, which are patterns of objects seen in the night sky from Earth, are stars.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The objects are planets, the celestial bodies that form constellations—patterns of objects seen in the night sky from Earth—and are like the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The objects are located in this solar system, just as the Sun is.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The objects heat the atmosphere of Earth, indicating that the objects in constellations are like the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 88 constellations recognized by the IAU as well as those by cultures throughout history are imagined figures and shapes derived from the patterns of stars in the observable sky.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Stars in constellations can appear near each other in the sky, but they usually lie at a variety of distances away from the Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

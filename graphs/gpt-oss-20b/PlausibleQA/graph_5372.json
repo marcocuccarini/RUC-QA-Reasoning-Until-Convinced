@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did mubarak get his wealth. Businessman",
+      "strength": 0.5999999071782728
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did mubarak get his wealth. Military Officer",
+      "strength": 0.5000967341380452
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did mubarak get his wealth. Investor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did mubarak get his wealth. Politician",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the personal wealth of Mubarak and his family was between US$40 billion and US$70 billion from military contracts made during his time as an air force officer",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mubarak and his family might be worth up to US$70 billion garnered from corruption, bribes and legitimate business activities",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Prior to the 2011 revolution, critics agreed that corruption in Egypt was widespread and that anti-corruption measures were perceived to be mere cosmetic changes serving Mubarak's political agenda.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

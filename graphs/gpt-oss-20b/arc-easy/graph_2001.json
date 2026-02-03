@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Series of colors of the rainbow describes the electromagnetic spectrum.",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "List of radioactive elements is the description of the electromagnetic spectrum.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Band of frequencies of light waves describes the electromagnetic spectrum.",
+      "strength": 0.7499025789446009
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Range of conductivity of metals is the description of the electromagnetic spectrum.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The electromagnetic spectrum is the full range of electromagnetic radiation, organized by frequency or wavelength.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A rainbow shows the optical (visible) part of the electromagnetic spectrum; infrared (if it could be seen) would be located just beyond the red side of the rainbow whilst ultraviolet would appear just beyond the opposite violet end.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The U.S. Frequency Allocation Chart covers the range 3 kHz to 300 GHz.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

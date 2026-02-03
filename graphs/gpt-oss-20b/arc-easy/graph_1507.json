@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Natural killer T cells are the cells that HIV infects, compromising the body’s ability to protect itself from infection.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Regulatory T cells are the cells that HIV infects; these cells coordinate the human immune response, and when they are killed or compromised, the body cannot effectively protect itself from infection.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cytotoxic T cells are the cells that HIV infects, and when these cells are killed or compromised, the body cannot effectively protect itself from infection.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Helper T cells are the cells that HIV infects, the cells that coordinate the human immune response; when these cells are killed or compromised, the body cannot effectively protect itself from infection.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "HIV mainly targets lymphoid CD4+ T cells, but can infect other cells that express CD4 such as macrophages and dendritic cells (both groups express CD4 at low levels).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Only ~5% of the lymphoid-derived CD4 T cells targeted by HIV are permissive and become productively infected with the virus. More than 95% of the CD4 T cells that die are resting and are unable to support productive infection.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cell death is triggered when the host cell detects HIV foreign DNA intermediates and initiates a suicidal death pathway in an attempt to protect the host, leading to caspase-1 activation in inflammasomes, thus causing pyroptosis (a highly inflammatory form of programmed cell death).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Triggering PD-1 expressed on activated monocytes by its ligand PD-L1, induces IL-10 production which inhibits CD4 T-cell function.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

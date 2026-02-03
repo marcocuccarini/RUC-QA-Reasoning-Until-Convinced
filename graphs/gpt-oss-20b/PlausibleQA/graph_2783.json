@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which island off Cape Cod was once the site of the world's biggest whaling port. Nantucket",
+      "strength": 0.4000000562992237
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which island off Cape Cod was once the site of the world's biggest whaling port. Martha's Vineyard",
+      "strength": 0.4000000000539703
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which island off Cape Cod was once the site of the world's biggest whaling port. Cuttyhunk",
+      "strength": 0.25009542982296007
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which island off Cape Cod was once the site of the world's biggest whaling port. Coatue",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This event started the Nantucket whaling industry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By far the largest number sailed from New Bedford.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1903, Cuttyhunk pilots guided as many as eleven ships a day to New Bedford harbor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

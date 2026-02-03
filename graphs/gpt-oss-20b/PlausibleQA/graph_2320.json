@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1992 Durham joined the County Cricket Championship; which county was the last one to join before Durham. Glamorgan",
+      "strength": 0.5294117647055444
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1992 Durham joined the County Cricket Championship; which county was the last one to join before Durham. Somerset",
+      "strength": 0.5999999999127801
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1992 Durham joined the County Cricket Championship; which county was the last one to join before Durham. Derbyshire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1992 Durham joined the County Cricket Championship; which county was the last one to join before Durham. Morgannŵg",
+      "strength": 0.4999032677370782
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Glamorgan joined the County Championship in 1921.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Durham became the first new first-class county for 70 years.",
+      "strength": 0.7499999999999478
+    },
+    "A6": {
+      "type": "argument",
+      "text": "DCCC celebrate with the County Championship Trophy 2008",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Scorecard from the 2007 Friends Provident Trophy Final",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Somerset joined the County Championship in 1891.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Morgannwg is the Welsh name for Glamorgan.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Coleg Morgannwg is located in Glamorgan.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many levels are there on the eiffel tower. Five",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many levels are there on the eiffel tower. Seven",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many levels are there on the eiffel tower. Two",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many levels are there on the eiffel tower. three",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tower has three levels for visitors, with restaurants on the first and second levels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The third floor is the top floor, publicly accessible by lift.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ice melting is an example of an exothermic process that involves the absorption and release of energy.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ice sublimating is an example of an exothermic process that releases energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water evaporating is an example of an exothermic process in which energy is absorbed and released.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water freezing is an example of an exothermic process, in which energy is released as water transitions from liquid to solid.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The energy released upon freezing is a latent heat, and is known as the enthalpy of fusion and is exactly the same as the energy required to melt the same amount of the solid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Freezing is almost always an exothermic process, meaning that as liquid changes into solid, heat and pressure are released.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

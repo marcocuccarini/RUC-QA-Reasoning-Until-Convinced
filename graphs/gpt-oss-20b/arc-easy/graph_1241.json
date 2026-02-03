@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Breathing becomes faster when the body takes in more food than it uses.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Weight is lost if the body takes in more food than it uses.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The heart rate increases when the body takes in more food than it uses.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The food is stored as fat when the body takes in more food than it uses.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When energy intake exceeds energy expenditure, the body can store the excess energy as fat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Weight gain occurs when more energy (as calories from food and beverage consumption) is gained than the energy expended by life activities, including normal physiological processes and physical exercise.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

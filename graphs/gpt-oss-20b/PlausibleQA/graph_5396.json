@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who received a Best Actress Oscar award for the 1954 film ‘The Country Girt'. Judy Garland",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who received a Best Actress Oscar award for the 1954 film ‘The Country Girt'. Audrey Hepburn",
+      "strength": 0.22634596878469534
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who received a Best Actress Oscar award for the 1954 film ‘The Country Girt'. Ingrid Bergman",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who received a Best Actress Oscar award for the 1954 film ‘The Country Girt'. Gracekelly",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hepburn was nominated for the 1954 Academy Award for Best Actress for her performance in Sabrina.",
+      "strength": 0.5999716981983361
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1954, she played a chauffeur's daughter caught in a love triangle in Billy Wilder's romantic comedy Sabrina, opposite Humphrey Bogart and William Holden.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Hepburn's Hollywood debut as a runaway princess in William Wyler's Roman Holiday (1953), opposite Gregory Peck, made her a star. For her performance, she received the Academy Award for Best Actress.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

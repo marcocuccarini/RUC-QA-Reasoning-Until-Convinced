@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "pH is the factor the Raleigh man used to evaluate the safety of the water when he turned on his kitchen faucet, filled a glass, suspected it might not be safe to drink, and called the water company.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Turbidity is the factor that the Raleigh man used to evaluate the safety of the water he filled in a glass from his kitchen faucet.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nitrate concentration is the factor the Raleigh man used to evaluate the safety of the water he filled in a glass from his kitchen faucet after suspecting it might not be safe to drink and calling the water company.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Phosphate concentration is the factor the Raleigh man used to evaluate the safety of the water he filled from his kitchen faucet and then called the water company about.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The higher the turbidity level, the higher the risk that people may develop gastrointestinal diseases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Suspended solids interfere with water disinfection with chlorine because the particles act as shields for viruses and bacteria.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

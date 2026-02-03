@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Superconductors are materials that can conduct electricity with 100% efficiency, meaning no energy is lost during electrical transmission.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Poor conductors are materials able to conduct electricity with 100% efficiency, meaning that no energy is lost during the electrical transmission.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electromagnets are materials able to conduct electricity with 100% efficiency, meaning that no energy is lost during electrical transmission.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Super-insulators are materials that conduct electricity with 100% efficiency, meaning that no energy is lost during electrical transmission.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Superconductivity is a set of physical properties observed in superconductors: materials where electrical resistance vanishes and magnetic fields are expelled from the material.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An electric current through a loop of superconducting wire can persist indefinitely with no power source.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Ronald Biggs",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Bruce Reynolds",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Charlie Wilson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Buster Edwards",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ronald Biggs was the train robber involved in the Great Train Robbery, as he was the planner and a key participant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the film 'Prisoner of Rio' (1988), Ronald Biggs was portrayed by Paul Freeman, not Phil Collins.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He starred as Buster Edwards opposite Julie Walters in the romantic comedy drama-crime film Buster which centred around the Great Train Robbery from 1963 in Ledburn, Buckinghamshire.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last year the eagles went to the superbowl. 2005",
+      "strength": 0.40008417731488793
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last year the eagles went to the superbowl. 1981",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last year the eagles went to the superbowl. 2004",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last year the eagles went to the superbowl. 2017",
+      "strength": 0.5999158226851121
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Eagles did not return to the Super Bowl until 2017, when they exacted revenge on the Patriots in Super Bowl LII, defeating them 41–33 and winning their first championship since 1960.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Eagles were making their second-ever Super Bowl appearance after a 13–3 regular season record, which occurred in Super Bowl XXXIX in 2005.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Eagles' most recent Super Bowl appearance was in 2017 (Super Bowl LII), which was their first championship since 1960.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Eagles had previously appeared in Super Bowl XXXIX in 2005, but did not return to the Super Bowl until 2017.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

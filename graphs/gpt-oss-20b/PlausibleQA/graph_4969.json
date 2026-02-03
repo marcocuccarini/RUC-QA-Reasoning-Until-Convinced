@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US State ended prohibition in November 1948, a law that had been in place there for 68 years. Oklahoma",
+      "strength": 0.40000008398857245
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US State ended prohibition in November 1948, a law that had been in place there for 68 years. Mississippi",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US State ended prohibition in November 1948, a law that had been in place there for 68 years. Alabama",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US State ended prohibition in November 1948, a law that had been in place there for 68 years. Kan.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oklahoma did not ratify the 21st Amendment and instead approved the sale of beer containing not more than 3.2% alcohol by weight with the Oklahoma Beer Act of 1933.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The last state, Mississippi, finally ended it in 1966.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A nucleus is the smallest unit of a chemical compound that still has the properties of that compound.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A molecule is the smallest unit of a chemical compound that still has the properties of that compound.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An element is the smallest unit of a chemical compound that still has the properties of that compound.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An atom is the smallest unit of a chemical compound that still has the properties of that compound.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earlier definitions were less precise, defining molecules as the smallest particles of pure chemical substances that still retain their composition and chemical properties.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No typical molecule can be defined for salts nor for covalent crystals, although these are often composed of repeating unit cells that extend either in a plane, e.g. graphene; or three-dimensionally e.g.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A molecule is the smallest unit of a substance that still carries all the physical and chemical properties of that substance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

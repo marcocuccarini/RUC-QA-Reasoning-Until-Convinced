@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "rain sleet or snow that contains a high concentration of acids is called. Toxic Precipitation",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "rain sleet or snow that contains a high concentration of acids is called. Corrosive Downpour",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "rain sleet or snow that contains a high concentration of acids is called. Polluted Hydrometeor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "rain sleet or snow that contains a high concentration of acids is called. Acid rain",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Acid rain is rain or any other form of precipitation that is unusually acidic, meaning that it has elevated levels of hydrogen ions (low pH).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Acid rain has a pH level lower than this and ranges from 4–5 on average.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

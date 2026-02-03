@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cairo and Khartoum are two of the three capital cities on the River Nile, name the third.. Kampala",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cairo and Khartoum are two of the three capital cities on the River Nile, name the third.. Addis Ababa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cairo and Khartoum are two of the three capital cities on the River Nile, name the third.. Nairobi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cairo and Khartoum are two of the three capital cities on the River Nile, name the third.. JUBA",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Juba, the capital of South Sudan, is located along the White Nile.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "South Sudan is mentioned in the CIA World Factbook and BBC News profiles.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The input text references South Sudan's government and UN mission, implying its political significance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

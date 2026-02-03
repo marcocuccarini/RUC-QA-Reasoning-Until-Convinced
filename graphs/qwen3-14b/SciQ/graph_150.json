@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cytosol is also found inside all cells.",
+      "strength": 0.5999999071782728
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chloroplasm is also found inside all cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Protein is also found inside all cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chromosomes are found inside the interior of all cells.",
+      "strength": 0.5000967341380452
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cytosol, also known as cytoplasmic matrix or groundplasm, is one of the liquids found inside cells (intracellular fluid (ICF)).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In prokaryotes the cytosol contains the cell's genome, within a structure known as a nucleoid.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is present in most cells, with a few exceptions, for example, red blood cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A complex organism is a unicellular organism best described as being.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A microorganism is best described as a unicellular organism.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An organism with specialized cells is a unicellular organism best described as being.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An organism with different types of tissues is best described as a unicellular organism.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most unicellular organisms are of microscopic size and are thus classified as microorganisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In contrast, even the simplest multicellular organisms have cells that depend on each other to survive.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

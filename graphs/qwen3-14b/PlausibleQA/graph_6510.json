@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose birth and death are commemorated on the same day. Miguel de Cervantes",
+      "strength": 0.25000003759877515
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose birth and death are commemorated on the same day. Inca Emperor Pachacuti",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose birth and death are commemorated on the same day. Ingrid Bergman",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose birth and death are commemorated on the same day. Shakspeare",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Miguel de Cervantes died on 22 April 1616, not 23 April 1616 as previously believed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The date 23 April 1616 is now understood to be Cervantes' burial date, not his death date.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "William Shakespeare died on 23 April 1616.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "William Shakespeare's birth is traditionally observed on 23 April.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

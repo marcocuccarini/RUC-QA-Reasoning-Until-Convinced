@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who 's playing in the world series and when is it. New York Yankees",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who 's playing in the world series and when is it. Los Angeles Dodgers",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who 's playing in the world series and when is it. Atlanta Braves",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who 's playing in the world series and when is it. Houston Astros",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2024 World Series was a best‑of‑seven playoff between the American League champion New York Yankees and the National League champion Los Angeles Dodgers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The series began on October 25 and ended on October 30 with the Dodgers defeating the Yankees in five games.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2024, the New York Yankees returned for the first time since their 2009 championship, meeting the Los Angeles Dodgers in a matchup that had not happened since 1981.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The 2024 World Series was the only World Series to not feature the Astros or Dodgers from 2017-2025.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

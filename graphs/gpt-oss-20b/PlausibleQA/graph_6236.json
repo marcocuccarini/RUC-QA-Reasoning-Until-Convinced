@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many Brandenburg Concertos did Bach write. 6 is excluded, so let's start with: 4",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many Brandenburg Concertos did Bach write. 6 is excluded, so: 6+1 = 7",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many Brandenburg Concertos did Bach write. 5",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many Brandenburg Concertos did Bach write. 6",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Brandenburg Concertos (BWV 1046–1051) by Johann Sebastian Bach are a collection of six instrumental works presented by Bach to Christian Ludwig, Margrave of Brandenburg-Schwedt, in 1721 (though probably composed earlier).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1721, Bach compiled the six concertos, writing them almost entirely in his own hand instead of leaving the work to a copyist.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

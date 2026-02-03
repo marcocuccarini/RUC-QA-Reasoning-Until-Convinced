@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what language does peru speak. Spanish",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what language does peru speak. Aymara",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what language does peru speak. Portuguese",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what language does peru speak. Quechua",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The majority of these languages are Indigenous, but the most common language is Spanish, the main language that about 94.4% of the population speaks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Quechua is the second language of Peru, in terms of number of speakers. It is the official language in areas where it is the dominant language",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Peru is one of the countries where Spanish is co-official with Quechua, Aymara, and other indigenous languages.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

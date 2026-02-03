@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Genetic drift is the process that can cause harmful alleles to become fixed.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Natural selection is a process that can cause harmful alleles to become fixed.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Migration is a process that can cause harmful alleles to become fixed.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mutation is the process that can cause harmful alleles to become fixed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Genetic drift may cause gene variants to disappear completely and thereby reduce genetic variation. It can also cause initially rare alleles to become much more frequent and even fixed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Disadvantageous mutations are usually eliminated quickly within the population",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

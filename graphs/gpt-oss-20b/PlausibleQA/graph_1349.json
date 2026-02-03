@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tessellation technically refers to which form of decoration. Geometric Pattern",
+      "strength": 0.6322429966750173
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tessellation technically refers to which form of decoration. Islamic Art",
+      "strength": 0.5999999999648918
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tessellation technically refers to which form of decoration. Stained Glass",
+      "strength": 0.367757003324983
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tessellation technically refers to which form of decoration. Tiling/mosaic",
+      "strength": 0.749942694810524
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Latin, tessella is a small cubical piece of clay, stone, or glass used to make mosaics.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Historically, tessellations were used in Ancient Rome and in Islamic art such as in the Moroccan architecture and decorative geometric tiling of the Alhambra palace.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tessellation, the mathematical analysis of covering a surface or higher-dimensional object with geometrical shapes",
+      "strength": 0.5999617965637547
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The best way to arrange variously shaped tiles on a surface leads to the mathematical field of tessellation.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Opus regulatum: A grid; all tesserae align both vertically and horizontally.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

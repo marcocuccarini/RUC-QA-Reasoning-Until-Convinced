@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Infant is a baby during the first year after birth.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Toddler is a baby during the first year after birth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Newborn is a baby during the first year after birth.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fetus is the term used to describe a baby during the first year after birth.",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term infant is typically applied to very young children under one year of age; however, definitions may vary and may include children up to two years of age.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A newborn is, in colloquial use, a baby who is only hours, days, or weeks old.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In medical contexts, a newborn or neonate is an infant in the first 28 days after birth.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Before birth, the offspring is called a fetus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which US state was the American Declaration of Independence signed on 4th July 1776. US-MA",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which US state was the American Declaration of Independence signed on 4th July 1776. US-VA",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which US state was the American Declaration of Independence signed on 4th July 1776. US-NC",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which US state was the American Declaration of Independence signed on 4th July 1776. US-PA",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Declaration of Independence was adopted on July 4, 1776, in Independence Hall in Philadelphia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

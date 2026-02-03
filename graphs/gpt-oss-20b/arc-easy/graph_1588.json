@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They vibrate in place within a fixed volume, which best describes the motion of the molecules of a solid object.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They move around freely within a fixed volume is the statement that best describes the motion of the molecules of a solid object.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They vibrate in place and take the shape of a container best describes the motion of the molecules of a solid object.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They move around freely and take the shape of a container is the statement that best describes the motion of the molecules of a solid object.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Phonons are the quantum mechanical description of an elementary vibrational motion in which a lattice of atoms or molecules uniformly oscillates at a single frequency.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the lattice is rigid, the atoms must be exerting forces on one another to keep each atom near its equilibrium position.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

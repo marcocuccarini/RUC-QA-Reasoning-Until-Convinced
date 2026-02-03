@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what did hitler use to kill himself. Poison",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what did hitler use to kill himself. Hanging",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what did hitler use to kill himself. Suffocation",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what did hitler use to kill himself. Gunshot",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hitler shot himself in the head",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Braun bit into a cyanide capsule",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "With this betrayal in his mind, Hitler began to doubt whether the ampoules would be effective.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "He had shot himself with his own pistol.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

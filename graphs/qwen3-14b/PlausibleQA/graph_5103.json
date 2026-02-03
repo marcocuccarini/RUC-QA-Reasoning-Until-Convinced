@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does delaware river start. Catskill Mountains",
+      "strength": 0.5999123873437223
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does delaware river start. Grand Gorge",
+      "strength": 0.5999123873437223
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does delaware river start. Slide Mountain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does delaware river start. Mount Jefferson",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Delaware River has two branches that rise in the Catskill Mountains of New York",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The East Branch of the Delaware River begins from a small pond south of Grand Gorge in the town of Roxbury in Delaware County",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Maps from the 18th and 19th centuries consistently mark the border of the Catskill Mountains as the East Branch of the Delaware River",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The island of Tasmania is governed by which country. New Zealand",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The island of Tasmania is governed by which country. United Kingdom",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The island of Tasmania is governed by which country. Papua New Guinea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The island of Tasmania is governed by which country. Straya",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tasmania is an island state of Australia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Australia has six states—New South Wales (NSW), Victoria (Vic), Queensland (Qld), Western Australia (WA), South Australia (SA) and Tasmania (Tas)—and two mainland self-governing territories—the Australian Capital Territory (ACT) and the Northern Territory (NT).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Australia consists of the mainland Australian continent, the island of Tasmania, numerous smaller offshore islands, and the remote offshore territories of Ashmore and Cartier Islands, Christmas Island, Cocos (Keeling) Islands, Coral Sea Islands, Heard and McDonald Islands, and Norfolk Island.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heart is the most complex part of the human body.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kidney is the most complex part of the human body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "White blood cells are the most complex parts of the human body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The central nervous system is the most complex part of the human body.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The CNS is so named because the brain integrates the received information and coordinates and influences the activity of all parts of the bodies of bilaterally symmetric and triploblastic animals—that is, all multicellular animals except sponges and diploblasts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The brain is the major functional unit of the CNS. While the spinal cord has certain processing ability such as that of spinal locomotion and can process reflexes, the brain is the major processing unit of the nervous system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

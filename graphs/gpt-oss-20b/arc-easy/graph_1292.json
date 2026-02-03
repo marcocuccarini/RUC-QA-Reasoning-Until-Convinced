@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water is the molecule required for animal cells to obtain the most energy possible from a molecule of glucose.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is the molecule required for animal cells to obtain the most energy possible from a molecule of glucose (C6H12O6) that they use to perform functions.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lactic acid is the molecule required for animal cells to obtain the most energy possible from a molecule of glucose, which they use to perform cellular functions.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the molecule required for animal cells to obtain the most energy possible from a molecule of glucose.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oxygen is used in mitochondria of eukaryotes to generate ATP during oxidative phosphorylation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All eukaryotic organisms, including plants, animals, fungi, algae and most protists, need oxygen for cellular respiration, a process that extracts chemical energy by the reaction of oxygen with organic molecules derived from food and releases carbon dioxide as a waste product.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

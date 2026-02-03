@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is not a mixture.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Blood is not a mixture.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Orange juice is not a mixture.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Salt is not a mixture, as the question asks which of the following is NOT a mixture.",
+      "strength": 0.5999029143854268
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sea salt and mined salt may contain trace elements.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Common salt has a 1:1 molar ratio of sodium and chlorine.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The attraction between the Na+ and Cl− ions in the solid is so strong that only highly polar solvents like water dissolve NaCl well.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

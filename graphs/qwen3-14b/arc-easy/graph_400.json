@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Arteries are the part of the circulatory system responsible for exchanging nutrients and wastes, thereby carrying cellular nutrients to the body.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Capillaries are the part of the circulatory system responsible for exchanging nutrients and wastes, carrying cellular nutrients to the body.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The heart is the part of the circulatory system responsible for exchanging nutrients and wastes to carry cellular nutrients to the body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Veins are the part of the circulatory system responsible for exchanging nutrients and wastes to carry cellular nutrients to the body.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Blood flows from the heart through arteries, which branch and narrow into arterioles, and then branch further into capillaries where nutrients and wastes are exchanged.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The capillary wall performs an important function by allowing nutrients and waste substances to pass across it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

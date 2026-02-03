@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Structure is the type of system to which the engine of an automobile belongs.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Propulsion is the type of system that the engine of an automobile belongs to.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Guidance is the type of system that the engine of an automobile is part of.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Control is the type of system that the engine of an automobile is part of.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An aircraft propulsion system generally consists of an aircraft engine and some means to generate thrust, such as a propeller or a propulsive nozzle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A technological system uses an engine or motor as the power source (commonly called a powerplant), and wheels and axles, propellers, or a propulsive nozzle to generate the force.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

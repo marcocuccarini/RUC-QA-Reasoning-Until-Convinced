@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Control is the activity for which a ship’s satellite communication device, used to identify the ship’s position at sea, is most likely used.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Guidance is the activity for which a ship’s satellite communication device, used to identify the ship’s position at sea, is most likely employed.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Propulsion is the activity for which a ship uses a satellite communication device to identify its position at sea.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Suspension is the activity for which a ship's satellite communication device—used to identify the ship's position at sea—is most likely employed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The system can be used for providing position, navigation or for tracking the position of something fitted with a receiver (satellite tracking).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A global navigation satellite system, such as Galileo, is used to determine users location and the location of other people or objects at any given moment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

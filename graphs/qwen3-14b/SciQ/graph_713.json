@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The water cycle ends by repeating itself.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ocean evaporation is how the water cycle ends.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Freezing glaciers is how the water cycle ends.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cloud precipitation is how the water cycle ends.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The water returns to the ocean, to continue the water cycle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ocean holds 97% of the total water on the planet; 78% of global precipitation occurs over the ocean, and it is the source of 86% of global evaporation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

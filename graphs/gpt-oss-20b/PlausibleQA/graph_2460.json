@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was assassinated in 1968 in the Ambassador Hotel in Los Angeles. Martin Luther King Jr.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was assassinated in 1968 in the Ambassador Hotel in Los Angeles. Hubert Humphrey",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was assassinated in 1968 in the Ambassador Hotel in Los Angeles. Eugene McCarthy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was assassinated in 1968 in the Ambassador Hotel in Los Angeles. RFK",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kennedy was shot by Sirhan Sirhan, a 24-year-old Palestinian, in retaliation for his support of Israel following the 1967 Six-Day War.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kennedy was pronounced dead at 1:44 a.m. (PDT) on June 6, 1968.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

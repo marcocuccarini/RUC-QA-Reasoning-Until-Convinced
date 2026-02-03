@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who created the fictional special agent Will Trent. Karin Slaughter",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who created the fictional special agent Will Trent. John Grisham",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who created the fictional special agent Will Trent. James Patterson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who created the fictional special agent Will Trent. Blindsighted",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Her bestselling thriller series, Will Trent, is now a television series in its 4th season on ABC.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Her first novel, Blindsighted (2001), was published in 27 languages and made the Crime Writers' Association's Dagger Award shortlist for 'Best Thriller Debut' of 2001.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

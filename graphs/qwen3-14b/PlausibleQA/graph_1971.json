@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Englsih football club play home matches at the Sports Direct Arena. Newcastle United Reserves",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Englsih football club play home matches at the Sports Direct Arena. Gateshead FC",
+      "strength": 0.25000003759877515
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Englsih football club play home matches at the Sports Direct Arena. Sunderland AFC",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Englsih football club play home matches at the Sports Direct Arena. NUFC",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gateshead Football Club play their home matches at the Gateshead International Stadium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The club have played at the Gateshead International Stadium since their establishment.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "St James' Park is the home of Newcastle United.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "St James' Park has been the home ground of Newcastle United since 1892.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

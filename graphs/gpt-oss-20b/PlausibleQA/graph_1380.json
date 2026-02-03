@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of painter van Gogh’s brother to whom he wrote many letters. Vincent",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of painter van Gogh’s brother to whom he wrote many letters. Paul",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of painter van Gogh’s brother to whom he wrote many letters. Johan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of painter van Gogh’s brother to whom he wrote many letters. Theo",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most comprehensive primary source on Van Gogh is his correspondence with his younger brother, Theo.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There are more than 600 letters from Vincent to Theo and around 40 from Theo to Vincent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

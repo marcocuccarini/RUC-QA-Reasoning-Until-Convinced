@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Genetic mutation allows some organisms in a population to have an increased survival rate over other organisms of the same species.",
+      "strength": 0.5999351571084839
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Species competition allows some organisms in a population to have an increased survival rate over other organisms of the same species.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Asexual reproduction allows for some organisms in a population to have an increased survival rate over other organisms of the same species.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Genetic variation allows some organisms in a population to have an increased survival rate over other organisms of the same species.",
+      "strength": 0.749902642362152
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The new alleles can be favored by natural selection.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Genetic variation will result in phenotypic variation if variation in the order of nucleotides in the DNA sequence results in a difference in the order of amino acids in proteins coded by that DNA sequence, and if the resultant differences in amino-acid sequence influence the shape, and thus the function of the enzyme.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Species less suited to compete should in theory either adapt or die out, since competition plays a powerful role in natural selection.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A portion of all genetic variation is functionally neutral, producing no phenotypic effect or significant difference in fitness.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "point mutations vs. gene duplication or even genome duplication",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Advantageous traits tend to be passed on to offspring, contributing to evolutionary change as those traits become more common.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

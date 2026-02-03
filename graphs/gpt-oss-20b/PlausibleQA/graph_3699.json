@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Norovirus causes illness in humans described by what body part. Stomach",
+      "strength": 0.5999158226851121
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Norovirus causes illness in humans described by what body part. Intestine",
+      "strength": 0.5999158226851121
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Norovirus causes illness in humans described by what body part. Liver",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Norovirus causes illness in humans described by what body part. Cardia",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The virus replicates within the small intestine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Norovirus infection is characterized by nausea, vomiting, watery diarrhea, abdominal pain, and in some cases, loss of taste.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

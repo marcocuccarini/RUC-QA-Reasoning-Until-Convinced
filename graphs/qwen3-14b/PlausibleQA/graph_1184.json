@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who composed the music known as The Nutcracker Suite, for the Christmas themed ballet The Nutcracker, premiered in St Petersburg, 1892. Pyotr Ilyich Glinka",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who composed the music known as The Nutcracker Suite, for the Christmas themed ballet The Nutcracker, premiered in St Petersburg, 1892. Antonín Dvořák",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who composed the music known as The Nutcracker Suite, for the Christmas themed ballet The Nutcracker, premiered in St Petersburg, 1892. Johann Strauss II",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who composed the music known as The Nutcracker Suite, for the Christmas themed ballet The Nutcracker, premiered in St Petersburg, 1892. Tchicovski",
+      "strength": 0.25008816554121593
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Nutcracker Suite was composed by Pyotr Ilyich Tchaikovsky.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Nutcracker Suite was first performed under the composer's direction on 19 March 1892.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

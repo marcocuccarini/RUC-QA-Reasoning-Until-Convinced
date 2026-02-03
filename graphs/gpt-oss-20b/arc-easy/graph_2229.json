@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A balance and a ruler are the best tools for a baker to measure both the volume and temperature of the water when he prepares the dough by mixing 2 cups of flour with 1 cup of water that must be 85 °F.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A balance and a thermometer are the best tools for the baker to measure both the volume and temperature of the water needed when he mixes 2 cups of flour with 1 cup of water at 85°F.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A measuring cup and a balance are the best tools for a baker to measure the 1 cup volume of water at 85°F and weigh the 2 cups of flour when preparing dough for bread.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A measuring cup and a thermometer are the best tools for the baker to measure both the volume and temperature of the water when he prepares dough by mixing 2 cups of flour with 1 cup of water that must be 85°F.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Liquid measure cups tend to be microwave safe for heating and clear to more easily judge the meniscus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In cooking disciplines such as baking, where accurate measurements are important, ingredients are instead measured by weight.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The measuring cup design keeps a perfect ratio of surface area to volume, for consistent accuracy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

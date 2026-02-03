@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which American state is Gettysburg, where Abraham Lincoln made his famous address. US-MD",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which American state is Gettysburg, where Abraham Lincoln made his famous address. US-OH",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which American state is Gettysburg, where Abraham Lincoln made his famous address. US-VA",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which American state is Gettysburg, where Abraham Lincoln made his famous address. US-PA",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gettysburg is a borough in Adams County, Pennsylvania, United States",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Battle of Gettysburg was fought in Gettysburg over three days from July 1 to 3, 1863, during the American Civil War",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who on TV has played a scarecrow and a Time Lord. Tom Baker",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who on TV has played a scarecrow and a Time Lord. David Tennant",
+      "strength": 0.5689657022002197
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who on TV has played a scarecrow and a Time Lord. Christopher Eccleston",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who on TV has played a scarecrow and a Time Lord. Jon Pertwee",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He is best known for portraying the Tenth and Fourteenth Doctor in Doctor Who (2005–2010)",
+      "strength": 0.4000000392786357
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He is best known for portraying the ninth incarnation of the Doctor in the BBC series Doctor Who (2005)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He played the title character in Worzel Gummidge (1979–1981 and 1987–1989)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

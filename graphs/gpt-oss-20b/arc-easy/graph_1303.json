@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Helium is the gas released by plants growing in a pond that fish need to survive.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the gas released by plants growing in a pond that fish use to survive.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nitrogen is the gas released by plants growing in a pond that fish use to survive.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oxygen is the gas released by plants growing in a pond that fish use to survive.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oxygen is produced by biotic photosynthesis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Oxygen is released as a byproduct.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

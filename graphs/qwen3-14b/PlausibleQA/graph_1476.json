@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Integer",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Decimal",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Whole Number",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If you divide a prime number by 4, the answer must result in . Fraction",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Expressed as fully reduced fractions, the decimal numbers are those whose denominator is a product of a power of 2 and a power of 5.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It follows that a number is a decimal fraction if and only if it has a finite decimal representation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

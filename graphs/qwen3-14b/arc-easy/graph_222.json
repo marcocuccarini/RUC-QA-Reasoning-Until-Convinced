@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metal can be used to conduct electricity in a circuit.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wood can be used to conduct electricity in a circuit.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rubber can be used to conduct electricity in a circuit.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Plastic can be used to conduct electricity in a circuit.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A metal is a material that conducts electricity and heat relatively well.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In colloquial use materials such as polymers, wood or ceramics are nonmetallic materials.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

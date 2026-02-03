@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fission is the type of reaction that produces two smaller isotopes, more neutrons, and heat energy.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Reaction is the type of reaction that produces two smaller isotopes, more neutrons, and heat energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diffusion is the type of reaction that produces two smaller isotopes, more neutrons, and heat energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fusion is the type of reaction that produces two smaller isotopes, more neutrons, and heat energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nuclear fission is a reaction in which the nucleus of an atom splits into two or more smaller nuclei.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An average of 2.5 neutrons are emitted during the fission process, with a mean kinetic energy per neutron of ~2 MeV.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

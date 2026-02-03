@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to notes of the same pitch, in modern tuning but written differently, such as Db / C# and Gb / F#. Homophonic",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to notes of the same pitch, in modern tuning but written differently, such as Db / C# and Gb / F#. Pitch Equivalent",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to notes of the same pitch, in modern tuning but written differently, such as Db / C# and Gb / F#. Note Analog",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to notes of the same pitch, in modern tuning but written differently, such as Db / C# and Gb / F#. Enharmonic",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "These written notes are enharmonic, or enharmonically equivalent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In twelve-tone equal temperament tuning, the standard tuning system of Western music, an octave is divided into 12 equal semitones. Written notes that produce the same pitch, such as C♯ and D♭, are called enharmonic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydroxide ions are the species whose concentration determines the strength of a base when it is dissolved in water.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Combustion ions are the concentration that determines the strength of a base when it is dissolved in water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Calcium ions are the species whose concentration, when a base dissolves in water, determines the strength of the base.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Monoxide ions are the species whose concentration determines the strength of a base when it is dissolved in water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Addition of a base to water will reduce the hydrogen cation concentration and therefore increase the hydroxide ion concentration (decrease pH, increase pOH) even if the base does not itself contain hydroxide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In an aqueous solution the hydroxide ion is a base in the Brønsted–Lowry sense as it can accept a proton from a Brønsted–Lowry acid to form a water molecule.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

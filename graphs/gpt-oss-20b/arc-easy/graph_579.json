@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Engine is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Front headlight is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hood is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Steering wheel is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "internal combustion engines have been the power source of choice.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The classic farm tractor is a simple open vehicle, with two very large driving wheels on an axle below a single seat (the seat and steering wheel consequently are in the center), and the engine in front of the driver.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country will host the 2014 FIFA World Cup. Argentina",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country will host the 2014 FIFA World Cup. South Africa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country will host the 2014 FIFA World Cup. Spain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country will host the 2014 FIFA World Cup. Brzil",
+      "strength": 0.22634883032530537
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2014 FIFA World Cup was held in Brazil.",
+      "strength": 0.5999463261742976
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Only Brazil and Colombia formally declared their candidacy but, after the withdrawal of the latter from the process, Brazil was officially elected as host nation unopposed on 30 October 2007.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 2014 FIFA World Cup was hosted by Brazil, the first held in South America since Argentina 1978.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

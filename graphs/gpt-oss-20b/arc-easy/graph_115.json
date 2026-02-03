@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cleavage is the property that the student used to sort mineral samples into dull and shiny groups.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Color is the property the student used to sort mineral samples into dull and shiny groups.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Luster is the property the student used to sort the mineral samples into the dull and shiny groups.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Streak is the property the student used to sort the mineral samples into dull and shiny groups.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dull (or earthy) minerals exhibit little to no lustre, due to coarse granulations which scatter light in all directions, approximating a Lambertian reflector.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Metallic (or splendent) minerals have the lustre of polished metal, and with ideal surfaces will work as a reflective surface.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who owns volkswagen car company. BMW Group",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who owns volkswagen car company. Daimler AG",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who owns volkswagen car company. Toyota Motor Corporation",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who owns volkswagen car company. Volkswagen Group",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Volkswagen AG, or Volkswagen Group, is a German multinational conglomerate automotive manufacturer headquartered in Wolfsburg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Volkswagen AG is a publicly traded family business owned by Porsche SE, which in turn is half-owned but fully controlled by the Austrian-German Porsche and Piëch family.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

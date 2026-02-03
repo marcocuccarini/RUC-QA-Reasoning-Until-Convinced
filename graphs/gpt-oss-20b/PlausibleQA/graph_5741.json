@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 1960's British group originally comprised EricClapton, Steve Winwood, Ginger Baker and Ric Grech. Cream",
+      "strength": 0.25000009529444084
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 1960's British group originally comprised EricClapton, Steve Winwood, Ginger Baker and Ric Grech. Traffic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 1960's British group originally comprised EricClapton, Steve Winwood, Ginger Baker and Ric Grech. Ginger Baker's Airforce",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 1960's British group originally comprised EricClapton, Steve Winwood, Ginger Baker and Ric Grech. Blind Faith",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Official website 'Eric Clapton'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eric Clapton at IMDb",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Blind Faith comprised Eric Clapton, bassist Ric Grech from Family, and Steve Winwood from Traffic on keyboards and vocals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

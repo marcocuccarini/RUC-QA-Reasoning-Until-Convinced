@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An immune response is avoided by treating a cut to the skin with antiseptic first.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A bacterial infection is avoided when a cut to the skin is treated with antiseptic first.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bruising of tissues is avoided when a cut to the skin is treated with antiseptic first.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An allergic reaction is what a cut to the skin is treated with antiseptic first to avoid.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Joseph Lister, in the 1860s, began treating his surgical gauze with carbolic acid, known today as phenol, and subsequently dropped his surgical team's mortality rate by 45%.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Ebers Papyrus, c. 1500 BCE, details the use of ... honey served as an antibiotic agent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

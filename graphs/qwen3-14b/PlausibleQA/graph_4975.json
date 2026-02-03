@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. England",
+      "strength": 0.32010289815032444
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. Australia",
+      "strength": 0.4000000123133093
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. South Africa",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. Cyrmu",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It was played at the Millennium Stadium in Cardiff, Wales, on 6 November 1999",
+      "strength": 0.7499665779387772
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Australia won the game by 35 points to 12, and with it, their second World Cup, having also won the 1991 tournament in England",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Millennium Stadium was constructed in 1999 specifically for the 1999 Rugby World Cup",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Wales national rugby and football teams play their international matches at the Millennium Stadium",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

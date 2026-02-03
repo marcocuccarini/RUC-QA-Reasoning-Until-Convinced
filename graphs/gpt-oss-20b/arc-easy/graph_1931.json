@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liquid at room temperature is the state of copper because copper is a metal.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Copper is nonreactive with other substances because it is a metal.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A poor conductor of electricity is copper because it is a metal.",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A good conductor of heat is copper because it is a metal.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Copper does slowly react with atmospheric oxygen to form a layer of brown-black copper oxide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Copper is a soft, malleable, and ductile metal with very high thermal and electrical conductivity.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For example, under standard conditions the thermal conductivity of copper is over 10000 times that of air.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Silver conducted heat far the best of all other metals, next to this was copper, then gold, tin, iron, steel, Lead.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

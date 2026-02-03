@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time knicks won the championship. 1970 NBA Finals",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time knicks won the championship. 1999 NBA Playoffs",
+      "strength": 0.25000009340748447
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time knicks won the championship. 1994 NBA Finals",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time knicks won the championship. 1973 NBA Finals",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Spurs defeated the Knicks in five games to win their first NBA championship.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As of 2025, this remains New York's last NBA Finals appearance.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This is the Knicks' most recent NBA Championship to date.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "New York would not make it back to the NBA Finals until 1994.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

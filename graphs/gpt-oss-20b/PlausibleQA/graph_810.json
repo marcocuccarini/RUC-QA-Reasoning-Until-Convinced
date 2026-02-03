@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The melody for which famous song was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893. Goodnight to You",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The melody for which famous song was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893. School Days",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The melody for which famous song was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893. Kentucky Home",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The melody for which famous song was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893. Hapy birthday",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Hill sisters were credited as co-writing the tune to the song 'Good Morning to All', which became even more popular as 'Happy Birthday to You' during the 20th century.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The song was first published in 1893 in Song Stories for the Kindergarten as a greeting song for teachers to sing to their students.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "While teaching at the Louisville Experimental Kindergarten School, the Hill sisters wrote the song 'Good Morning to All'; Mildred wrote the melody, and Patty the lyrics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

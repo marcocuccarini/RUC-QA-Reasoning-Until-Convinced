@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Slivovitz is a brandy distilled from which fruit. Apricot",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Slivovitz is a brandy distilled from which fruit. Cherry",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Slivovitz is a brandy distilled from which fruit. Peach",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Slivovitz is a brandy distilled from which fruit. Plum",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Slivovitz is a fruit spirit (or fruit brandy) made from damson plums",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Distilled spirits from different fruits are named similarly. For example, Czech meruňka 'apricot' → meruňkovice 'apricot spirit'; broskev 'peach' → broskvovice 'peach spirit'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

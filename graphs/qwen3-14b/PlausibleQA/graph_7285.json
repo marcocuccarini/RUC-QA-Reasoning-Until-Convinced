@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Fidelio",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Ariadne",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Lohengrin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Leonore",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fidelio is the sole opera by Ludwig van Beethoven.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The opera was originally titled Leonore, oder Der Triumph der ehelichen Liebe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

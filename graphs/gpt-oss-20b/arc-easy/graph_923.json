@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Abnormal cell division is most often the result of cancer.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Natural selection is the most common cause of cancer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacterial infection is most often the result of cancer.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Biological adaptation is most often the result of cancer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This results in uncontrolled cell division and the evolution of those cells by natural selection in the body.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Certain parasitic worms are known to be carcinogenic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

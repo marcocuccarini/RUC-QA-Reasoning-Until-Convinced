@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The official World Cup for which sport, held every second year from 1986 to 2004 and annually thereafter, is hosted by a number of countries from Canada, USA, UK, multiple European countries, to Japan, New Zealand, Australia, and Ireland. Biathlete",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The official World Cup for which sport, held every second year from 1986 to 2004 and annually thereafter, is hosted by a number of countries from Canada, USA, UK, multiple European countries, to Japan, New Zealand, Australia, and Ireland. Cyclist",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The official World Cup for which sport, held every second year from 1986 to 2004 and annually thereafter, is hosted by a number of countries from Canada, USA, UK, multiple European countries, to Japan, New Zealand, Australia, and Ireland. Triathlete",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The official World Cup for which sport, held every second year from 1986 to 2004 and annually thereafter, is hosted by a number of countries from Canada, USA, UK, multiple European countries, to Japan, New Zealand, Australia, and Ireland. Orienteer",
+      "strength": 0.49495476256192583
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The World Orienteering Championships (often abbreviated as WOC) is an international orienteering competition which has been organized by the International Orienteering Federation (IOF) since 1966.",
+      "strength": 0.5999999796987849
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The World Orienteering Championships is considered to be the most prestigious competition in competitive orienteering.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The World Orienteering Championships senior statistics cover 1966–2005.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The annual Orienteering World Cup is hosted over a number of events throughout the year, with winners of the overall world cup being awarded following the final event.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The World Championships were held biennially until 2003 and annually thereafter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen must be combined with a halogen to give the halogen a positive oxidation number.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen must be combined with a halogen to give the halogen a positive oxidation number.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Calcium must be combined with a halogen to give the halogen a positive oxidation number.",
+      "strength": 0.40000008918213564
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon must be combined with a halogen to give it a positive oxidation number.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Calcium fluoride is a salt where fluorine has an oxidation state of -1.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Perchlorates and perchloric acid (HOClO3) are the most stable oxo-compounds of chlorine, where chlorine has an oxidation state of +7.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

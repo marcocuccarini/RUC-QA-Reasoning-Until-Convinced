@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Winter is the season whose beginning experiences the shortest period of daylight hours.",
+      "strength": 0.1952177410691755
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Spring is the season whose beginning experiences the shortest period of daylight hours.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Summer is the season whose beginning experiences the shortest period of daylight hours.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Autumn is the season whose beginning experiences the shortest period of daylight hours.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The winter solstice is the day with the shortest period of daylight and longest night of the year for the hemisphere experiencing it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Traditionally, in many temperate regions, the winter solstice is seen as the middle of winter.",
+      "strength": 0.7499486216849344
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In astronomical reckoning by hours of daylight alone, the solstices and equinoxes are in the middle of the respective seasons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Solar timing is based on insolation in which the solstices and equinoxes are seen as the midpoints of the seasons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

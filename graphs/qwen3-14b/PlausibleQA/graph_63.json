@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did the gettysburg address. Philadelphia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did the gettysburg address. Washington D.C.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did the gettysburg address. Harrisburg",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did the gettysburg address. Gettysburg",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lincoln delivered the speech on the afternoon of November 19, 1863, during a formal dedication of Soldiers' National Cemetery, now known as Gettysburg National Cemetery, on the grounds where the Battle of Gettysburg was fought four and a half months earlier, between July 1 and July 3, 1863, in Gettysburg, Pennsylvania.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Soldiers' National Monument has been challenged by platform occupants in the distant past and by more recent photographic analyses. The National Park Service, in its description of Gettysburg National Cemetery, also identifies this as the location where Lincoln spoke that day: The Soldiers' National Monument... honors the fallen soldiers. [The location of the speech] was actually on the crown of this hill, a short distance on the other side of the iron fence and inside the Evergreen Cemetery, where President Lincoln delivered the Gettysburg Address to a crowd of some 15,000 people.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Abraham Lincoln delivered the Gettysburg Address at Gettysburg National Cemetery in Gettysburg, Pennsylvania.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lincoln gave the dedication for the Gettysburg battlefield cemetery on November 19, 1863.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

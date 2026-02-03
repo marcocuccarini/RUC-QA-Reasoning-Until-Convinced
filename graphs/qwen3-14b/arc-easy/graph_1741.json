@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fragments that broke off of older rocks are the source materials of the particles that make up sandstone and all other types of sedimentary rock.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magma that cooled deep below a volcano is the source material of the particles that make up sandstone and all other types of sedimentary rock.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gases that condensed in the atmosphere are the source materials of the particles that make up sandstone and all other types of sedimentary rock.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vegetation that decayed in thick layers is the source material of the particles that compose sandstone and all other types of sedimentary rock.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Geological detritus originates from weathering and erosion of existing rocks, or from the solidification of molten lava blobs erupted by volcanoes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Coal, formed from vegetation that has removed carbon from the atmosphere and combined it with other elements to build their tissue, this vegetation gets compressed by overlying sediments and undergoes chemical transformation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sedimentary rock is the product of weathered rock, covering a significant portion of Earth's continents and much of the ocean floor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

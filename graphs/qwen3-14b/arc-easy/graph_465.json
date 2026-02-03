@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cell is the location where nutrients are directly absorbed from the bloodstream.",
+      "strength": 0.15394116970562846
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Organ is the structure in which nutrients are directly absorbed from the bloodstream.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Organisms are the entities in which nutrients are directly absorbed from the bloodstream.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tissue is where nutrients are directly absorbed from the bloodstream.",
+      "strength": 0.40000003152184344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "95% of nutrient absorption occurs in the small intestine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The intestinal walls are lined with villi, and their epithelial cells are covered with numerous microvilli to improve the absorption of nutrients by increasing the surface area of the intestine.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The small intestine is the site where most of the absorption of nutrients from ingested food takes place.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The epithelial cells of the villi transport nutrients from the lumen of the intestine into capillaries and lacteals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

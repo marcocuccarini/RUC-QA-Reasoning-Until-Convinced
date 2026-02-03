@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which art movement, founded in a Zurich caf during World War I and consolidated at a meeting held in Paris in 1920, was led by Tristan Tzara. Surrealism",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which art movement, founded in a Zurich caf during World War I and consolidated at a meeting held in Paris in 1920, was led by Tristan Tzara. Cubism",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which art movement, founded in a Zurich caf during World War I and consolidated at a meeting held in Paris in 1920, was led by Tristan Tzara. Futurism",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which art movement, founded in a Zurich caf during World War I and consolidated at a meeting held in Paris in 1920, was led by Tristan Tzara. Dada",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Zürich Dada, with Tzara at the helm, published the art and literature review Dada beginning in July 1917.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After the war, the artists published a series of short-lived political magazines and held the First International Dada Fair, 'the greatest project yet conceived by the Berlin Dadaists', in the summer of 1920.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "he was known best for being one of the founders and central figures of the anti‑establishment Dada movement.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "As early as 1916, Tristan Tzara took distance from the Italian Futurists, rejecting the militarist and proto‑fascist stance of their leader Filippo Tommaso Marinetti.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

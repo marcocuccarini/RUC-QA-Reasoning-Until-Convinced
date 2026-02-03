@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Known as Action Man in the UK, what 1964 Hasbro toy is responsible for the coining the phrase action figure. Major Matt Mason",
+      "strength": 0.25000009340748447
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Known as Action Man in the UK, what 1964 Hasbro toy is responsible for the coining the phrase action figure. Captain Action",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Known as Action Man in the UK, what 1964 Hasbro toy is responsible for the coining the phrase action figure. Johnny West",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Known as Action Man in the UK, what 1964 Hasbro toy is responsible for the coining the phrase action figure. Gijoe",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Major Matt Mason was an action figure created by Mattel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When introduced in 1966, the figures were initially based on design information found in Life Magazine, Air Force Magazine, Jane's, and other aviation- and space-interest periodicals.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The term was coined by Hasbro in 1964 to market G.I. Joe to boys (while competitors called similar offerings boy's dolls).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "G.I. Joe was initially a military-themed 11.5-inch figure proposed by marketing and toy idea-man Stan Weston.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Vendredi is French for which day of the week. Monday",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vendredi is French for which day of the week. Tuesday",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vendredi is French for which day of the week. Wednesday",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vendredi is French for which day of the week. TGIFF",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The word for Friday in most Romance languages is derived from Latin dies Veneris or 'day of Venus', such as vendredi in French.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "vendredi in French is derived from Latin dies Veneris, meaning 'day of Venus', which corresponds to Friday.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The speed of the sound is too fast, which explains why Elizabeth’s specific whistle produces noise that dogs hear but humans cannot hear.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The amplitude of the sound is too low, which explains why the specific type of whistle Elizabeth uses to call her dogs is heard by the dogs but not by the human ear.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The frequency of the sound is too high is why humans cannot hear the sound made by the whistle that Elizabeth uses to call her dogs, a sound that the dogs can hear but the human ear cannot.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The wavelength of the sound is too long, which explains why humans cannot hear the noise produced by Elizabeth's whistle that her dogs can hear.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The frequency of most dog whistles is within the range of 23 to 54 kHz, so they are above the range of human hearing",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The upper limit of the human hearing range is about 20 kilohertz (kHz) for children, declining to 15–17 kHz for middle-age adults",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

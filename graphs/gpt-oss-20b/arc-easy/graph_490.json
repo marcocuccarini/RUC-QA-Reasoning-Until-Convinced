@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Limited is the best description of wind energy.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Renewable is the best description of wind energy.",
+      "strength": 0.8460606499178676
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Damaging is the best description of wind energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Inexpensive is the best description of wind energy.",
+      "strength": 0.7499999066099569
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wind power consumes no fuel, and emits no local air pollution, unlike fossil fuel power sources.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In many locations, new onshore wind farms are cheaper than new coal or gas plants.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wind power is one of the lowest-cost electricity sources per unit of energy produced.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Wind turbines have some of the lowest life-cycle greenhouse-gas emissions of energy sources: far less greenhouse gas is emitted than for the average unit of electricity, so wind power helps limit climate change.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The power available from the wind is a function of the cube of the wind speed, so as wind speed increases, power output increases up to the maximum output for the particular turbine.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Wind energy was the leading source of new capacity in Europe, the US and Canada, and the second largest in China.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

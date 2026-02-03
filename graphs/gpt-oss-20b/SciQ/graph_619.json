@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Freshwater biomes are biomes that have water containing little or no salt.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Coastal biomes are types of biomes that have water containing little or no salt.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Aquatic biomes are biomes that have water containing little or no salt.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Marine biomes are biomes that have water containing little or no salt.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Freshwater ecosystems are a subset of Earth's aquatic ecosystems that include the biological communities inhabiting freshwater waterbodies such as lakes, ponds, rivers, streams, springs, bogs, and wetlands.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Freshwater ecosystems can be contrasted with marine ecosystems, which have a much higher salinity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

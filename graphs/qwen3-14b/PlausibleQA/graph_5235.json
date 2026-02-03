@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many chambers has the heart. 2",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many chambers has the heart. 3",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many chambers has the heart. 5",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many chambers has the heart. 4",
+      "strength": 0.5999088118033908
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The heart has four chambers, two upper atria, the receiving chambers, and two lower ventricles, the discharging chambers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adult amphibians and most reptiles have a heart with three chambers—two atria and one ventricle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

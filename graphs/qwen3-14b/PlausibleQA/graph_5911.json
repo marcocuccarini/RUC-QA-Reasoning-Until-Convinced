@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. Ocicat",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. Bengal",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. Egyptian Mau",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what breed of cat has spots and stripes. tabby",
+      "strength": 0.5999999626370065
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bengal cat is the only domestic breed of cat that has rosette markings.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Domestic cats have four distinct and heritable coat patterns – ticked, mackerel, blotched, and spotted – these are collectively referred to as tabby markings.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Egyptian Mau is one of the few naturally spotted breeds of domesticated cat.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Egyptian Mau's coat contains dark patterns of varying size and shape, located all over the body and limbs. They also may have a stripe running down the lower spine and tail.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

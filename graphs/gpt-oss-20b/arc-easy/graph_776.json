@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth revolves around the sun once per day is a phenomenon that occurs in our solar system.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The moon revolves around Earth once per day in our solar system.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth revolves around the sun once per year is a phenomenon that happens in our solar system.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The moon revolves around Earth once per year in our solar system.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During which time Earth has traveled 940 million km (584 million mi).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One complete orbit takes 365.256 days (1 sidereal year).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

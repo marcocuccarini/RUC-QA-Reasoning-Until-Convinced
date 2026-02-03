@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ozone absorbs ultraviolet light, a process in the atmosphere that protects people from the ultraviolet rays in sunlight.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen reflects ultraviolet light, protecting people from ultraviolet rays in sunlight.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water vapor scatters ultraviolet light, which is the process in the atmosphere that protects people from the ultraviolet rays in sunlight.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide blocks ultraviolet light in the atmosphere, protecting people from the ultraviolet rays in sunlight.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light (from about 200 nm to 315 nm wavelength), which otherwise would potentially damage exposed life forms near the surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "UV-C, which is very harmful to all living things, is entirely screened out by a combination of dioxygen (< 200 nm) and ozone (> about 200 nm) by around 35 kilometres (115,000 ft) altitude.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

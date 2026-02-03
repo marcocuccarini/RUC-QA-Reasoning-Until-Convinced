@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the largest city in the USA. Los Angeles",
+      "strength": 0.22624442087323496
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the largest city in the USA. Chicago",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the largest city in the USA. Houston",
+      "strength": 0.2500955085906131
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the largest city in the USA. Ny",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "New York City is the most populous city in the United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "New York City has more than double the population of Los Angeles, the country's second-most populous city.",
+      "strength": 0.5999999792886732
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Los Angeles has an estimated 3.88 million residents within the city limits as of 2024.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Houston is the fourth-most populous city in the United States.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Greater Houston metropolitan area is the fifth-most populous metropolitan area in the nation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

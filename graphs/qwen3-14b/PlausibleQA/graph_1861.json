@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who elects a new Pope. College of Bishops",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who elects a new Pope. Vatican Council",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who elects a new Pope. Catholic Monarchs",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who elects a new Pope. Cardinalate",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the cardinals have nevertheless consistently elected the Bishop of Rome from among their own membership since the death of Pope Urban VI in 1389, the last non-cardinal to become pope",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It convenes on the death or resignation of a pope as a papal conclave to elect a successor. It is then restricted to eligible cardinals under the age limit of 80",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

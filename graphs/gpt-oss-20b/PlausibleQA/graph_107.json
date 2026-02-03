@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Brazil",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Italy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Netherlands",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Argie",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "West Germany won 1–0 by a late penalty kick taken by Andreas Brehme against Argentina.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1990 FIFA World Cup final was played between West Germany and Argentina, not Brazil.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

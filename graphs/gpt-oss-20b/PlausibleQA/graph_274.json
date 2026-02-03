@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang the american anthem at the super bowl. Lady Gaga",
+      "strength": 0.1539374132165341
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang the american anthem at the super bowl. Christina Aguilera",
+      "strength": 0.4999999126399619
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang the american anthem at the super bowl. Katy Perry",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang the american anthem at the super bowl. Pink",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Country singer Faith Hill sang the national anthem at the Super Bowl.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Whitney Houston gave a soulful rendition before Super Bowl XXV in 1991.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Whitney Houston gave a soulful rendition before Super Bowl XXV in 1991, which was released as a single that charted at number 20 in 1991 and number 6 in 2001.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Christina Aguilera sang the national anthem at Super Bowl XLV.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Super Bowl XLV, which returned to using current pop acts such as the Black Eyed Peas, Katy Perry, and Lady Gaga.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

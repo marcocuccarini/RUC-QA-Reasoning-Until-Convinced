@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mammals replenish a large portion of the atmospheric oxygen supply in the oxygen cycle.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fungi replenish a large portion of the atmospheric oxygen supply in the oxygen cycle.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Insects replenish a large portion of the atmospheric oxygen supply in the oxygen cycle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Plants replenish a large portion of the atmospheric oxygen supply in the oxygen cycle.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Photosynthesizing organisms include the plant life of the land areas, as well as the phytoplankton of the oceans.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main way free oxygen is lost from the atmosphere is via respiration and decay, mechanisms in which animal life and bacteria consume oxygen and release carbon dioxide.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

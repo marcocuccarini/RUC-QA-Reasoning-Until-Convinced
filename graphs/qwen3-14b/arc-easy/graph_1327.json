@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The ability to trap heat is a trait common in gases that contribute to Earth's greenhouse effect.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A tendency to lose electrons is a trait common in gases that contribute to Earth's greenhouse effect.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A tendency to exist as diatomic molecules is a common trait in gases that contribute to Earth's greenhouse effect.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The ability to bond with multiple other elements is a trait common in gases that contribute to Earth's greenhouse effect.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Greenhouse gases are infrared active, meaning they absorb and emit infrared radiation in the same long wavelength range as what is emitted by the Earth's surface, clouds and atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because their molecules contain two atoms of the same element, they have no asymmetry in the distribution of their electrical charges, and so are almost totally unaffected by infrared thermal radiation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

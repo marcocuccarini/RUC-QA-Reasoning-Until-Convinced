@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first Norwegian group to top the UK charts. Oslo Strings",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first Norwegian group to top the UK charts. Lene Marlin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first Norwegian group to top the UK charts. Röyksopp",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first Norwegian group to top the UK charts. A-ha",
+      "strength": 0.43110442236428087
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The album peaked at number one in their native Norway, number two in the UK",
+      "strength": 0.4000000562992237
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Take On Me reached number one in the UK",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first song featured on TOTP was Dusty Springfield with 'I Only Want to Be with You', that week's number one",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

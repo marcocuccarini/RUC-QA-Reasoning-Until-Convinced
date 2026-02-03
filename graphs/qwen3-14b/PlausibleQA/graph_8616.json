@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Of which reptile are there only two species, one living in the Mississippi and the other in China. Crocodile",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Of which reptile are there only two species, one living in the Mississippi and the other in China. Turtle",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Of which reptile are there only two species, one living in the Mississippi and the other in China. Caiman",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Of which reptile are there only two species, one living in the Mississippi and the other in China. Aligator",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The two extant species are the American alligator (A. mississippiensis) and the Chinese alligator (A. sinensis).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "American alligators are found in the southeast United States... The Chinese alligator is found in only the Yangtze River valley and parts of adjacent provinces.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

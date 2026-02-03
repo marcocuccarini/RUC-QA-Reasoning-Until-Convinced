@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The lysosome of an engulfed prokaryotic cell is the organelle from which the outer membrane of the chloroplast originated, according to the endosymbiotic theory.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The chloroplast of an engulfed prokaryotic cell is the organelle from which the outer membrane of the chloroplast originated according to the endosymbiotic theory.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The cell membrane of an eukaryotic host cell is the organelle from which the outer membrane of the chloroplast originated according to the endosymbiotic theory.",
+      "strength": 0.3676472467872672
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The chloroplast of an eukaryotic host cell is the organelle from which the outer membrane of the chloroplast originated according to the endosymbiotic theory.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "both chloroplast membranes are homologous to the cyanobacterium's original double membranes.",
+      "strength": 0.5999999633768432
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The green plants were created around 1.6 billion years ago with a second episode of symbiogenesis that added chloroplasts, derived from cyanobacteria.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Transport proteins called porins are found in the outer membranes of mitochondria and chloroplasts and are also found in bacterial cell membranes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

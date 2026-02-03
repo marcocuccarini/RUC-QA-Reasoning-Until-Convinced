@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which organization claims to have the world's largest collection of public records, unpublished opinions, forms, legal, news, and business information. Westlaw",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which organization claims to have the world's largest collection of public records, unpublished opinions, forms, legal, news, and business information. Bloomberg",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which organization claims to have the world's largest collection of public records, unpublished opinions, forms, legal, news, and business information. Thomson Reuters",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which organization claims to have the world's largest collection of public records, unpublished opinions, forms, legal, news, and business information. Nexis",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Information resources on Westlaw include more than 40,000 databases of case law, state and federal statutes, administrative codes, newspaper and magazine articles, public records, law journals, law reviews, treatises, legal forms and other information resources.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Besides widely available information such as addresses and phone numbers, Westlaw also includes Social Security numbers (SSNs), previous addresses, dates of birth, and other information lawyers use to do background checks on behalf of their clients.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Skin cells are the type of cells that pass on mutations.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nerve cell is the type of cell that passes on mutations.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Red blood cells pass on mutations.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The egg cell is the type of cell that passes on mutations.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Recombination of the genes during meiosis ensures that the chromosomes of gametes are not exact duplicates of either of the sets of chromosomes carried in the parental diploid chromosomes but a mixture of the two.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In contrast to a gamete, which has only one set of chromosomes, a diploid somatic cell has two sets of homologous chromosomes",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "General Charles de Gaulle was French President 1959 to 1969. Who succeeded him. Alain Poher",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "General Charles de Gaulle was French President 1959 to 1969. Who succeeded him. François Mitterrand",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "General Charles de Gaulle was French President 1959 to 1969. Who succeeded him. Valéry Giscard d'Estaing",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "General Charles de Gaulle was French President 1959 to 1969. Who succeeded him. George Pompidou",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "After the failure of the 1969 constitutional referendum, de Gaulle resigned and Pompidou was elected president of France.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the general election of 15 June 1969, Pompidou defeated Alain Poher by a wide margin (58% to 42%).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

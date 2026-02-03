@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Destroy microbes is the action performed by chemicals produced by specialized cells that protect humans from some infections.",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Recycle nutrients are chemicals produced by specialized cells that help protect humans from some infections.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Allow locomotion is the property of the chemicals produced by specialized cells that protect humans from some infections.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Coordinate movement is the action of chemicals produced by specialized cells that protect humans from some infections.",
+      "strength": 0.5999999402194273
+    },
+    "A4": {
+      "type": "argument",
+      "text": "beta-lysine, a protein produced by platelets during coagulation, can cause lysis of many Gram-positive bacteria by acting as a cationic detergent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Histamine dilates blood vessels, causing the characteristic signs of inflammation, and recruits neutrophils and macrophages.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Neutrophils have three methods for directly attacking microorganisms: phagocytosis (ingestion), degranulation (release of soluble anti-microbials), and generation of neutrophil extracellular traps (NETs).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Some bacterial pathogens evolved various mechanisms such as virulence molecules to avoid being killed by neutrophils.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Macrophages have evolved defense mechanisms such as induction of nitric oxide and reactive oxygen intermediates, which are toxic to microbes.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Macrophages have also evolved the ability to restrict the microbe's nutrient supply and induce autophagy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mitosis is the process during which nuclei are duplicated.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Respiration is the process during which nuclei are duplicated.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process during which nuclei are duplicated.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fertilization is the process during which nuclei are duplicated.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mitosis is a part of the cell cycle in eukaryotic cells in which replicated chromosomes are separated into two new nuclei.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This process ensures that each daughter cell receives an identical set of chromosomes, maintaining genetic stability across cell generations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

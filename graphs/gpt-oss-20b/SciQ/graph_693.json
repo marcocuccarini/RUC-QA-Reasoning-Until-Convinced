@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An isolated system is a sealed, vacuum‑insulated reaction flask that approximates a condition in which neither matter nor heat can be exchanged between the system and its surroundings.",
+      "strength": 0.6322474683059868
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shared system is a condition that a sealed, vacuum‑insulated reaction flask approximates, in which neither matter nor heat can be exchanged between system and surroundings.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Changing system is the condition approximated by a sealed, vacuum‑insulated reaction flask, in which neither matter nor heat can be exchanged between the system and its surroundings.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sure system is a sealed, vacuum‑insulated reaction flask that approximates a condition in which neither matter nor heat can be exchanged between the system and the surroundings.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An isolated system obeys the conservation law that its total energy–mass stays constant.",
+      "strength": 0.5999736115750363
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No experience has been reported of an ideally isolated system.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As time passes in an isolated system, internal differences of pressures, densities, and temperatures tend to even out.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "An equivalent statement is that perpetual motion machines of the first kind are impossible; work W done by a system on its surrounding requires that the system's internal energy U decrease or be consumed, so that the amount of internal energy lost by that work must be resupplied as heat Q by an external energy source or as work by an external machine acting on the system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

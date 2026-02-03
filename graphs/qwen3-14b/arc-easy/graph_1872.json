@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Trenches are the landforms most likely associated with hot spots over which tectonic plates move in certain areas.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Volcanoes are the landforms most likely associated with tectonic plates moving over hot spots in certain areas.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Island arcs are the landforms most likely associated with hot spots over which tectonic plates move in certain areas.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mid‑ocean ridges are the landforms most likely associated with hot spots when tectonic plates move over them.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Volcanoes are formed when tectonic plates move over hot spots, as evidenced by the Hawaiian Islands and the Galápagos, which are volcanic chains created by this process.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mid-ocean ridges are formed by the divergence of tectonic plates, not by movement over hot spots, as they are associated with constructive plate boundaries and seafloor spreading.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Trenches are formed by the convergence of tectonic plates, not by movement over hot spots, as they are associated with destructive plate boundaries and subduction zones.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Island arcs are formed by the subduction of one tectonic plate beneath another, not by movement over hot spots, as they are associated with convergent plate boundaries.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

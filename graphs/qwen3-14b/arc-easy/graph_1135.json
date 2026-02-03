@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Throw the cans in the trash is what Carmine's mother should do after drinking four cans of soft drink each day.",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sending the cans to a landfill is what Carmine's mother should do after she drinks four cans of soft drink each day.",
+      "strength": 0.40000000003581737
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Taking the cans to be recycled is what Carmine's mother should do after drinking the four cans of soft drink each day.",
+      "strength": 0.749902524680696
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crushing the cans before putting them in the trash is what Carmine's mother should do after drinking four cans of soft drink each day.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Journalist John Tierney notes that it is generally more expensive for municipalities to recycle waste from households than to send it to a landfill and that 'recycling may be the most wasteful activity in modern America.'",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "However, a 2004 assessment by the Danish Environmental Assessment Institute concluded that incineration was the most effective method for disposing of drink containers, even aluminium ones.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is estimated that Americans throw away nearly 1 billion dollars a year in wasted aluminum.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The aluminum can is also considered the most valuable recyclable material in an average recycling bin.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The city's Department of the Environment's Zero Waste Program has led the city to achieve 80% diversion, the highest diversion rate in North America.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The city's 'Pay-As-You-Throw' system charges customers by the volume of landfill-bound materials, which provides a financial incentive to separate recyclables and compostables from other discards.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

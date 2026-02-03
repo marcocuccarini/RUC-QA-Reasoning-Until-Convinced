@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The umbilical cord supports a developing fetus by providing a protective barrier between the mother and the fetus.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It keeps the fetus inside the mother until birth, which describes how the umbilical cord supports a developing fetus.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It provides a navel when the baby is born, which describes how the umbilical cord supports a developing fetus.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The umbilical cord supplies oxygen and nutrients to the fetus, thereby supporting the developing fetus.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The umbilical cord does not directly connect to the mother's circulatory system, but instead joins the placenta, which transfers materials to and from the maternal blood without allowing direct mixing.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The umbilical vein supplies the fetus with oxygenated, nutrient-rich blood from the placenta.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The syncytiotrophoblast contributes to the barrier function of the placenta.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The umbilical cord connects to the fetus by an umbilical cord of approximately 55–60 cm (22–24 inch) in length, which contains two umbilical arteries and one umbilical vein.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

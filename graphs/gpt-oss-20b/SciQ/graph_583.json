@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Thyroid is the gland controlled by a negative feedback loop that includes the hypothalamus and pituitary gland.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stomach is the gland controlled by a negative feedback loop that includes the hypothalamus and pituitary gland.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The adrenal gland is regulated by a negative feedback loop that includes the hypothalamus and pituitary gland.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pituitary is the gland controlled by a negative feedback loop that includes the hypothalamus and the pituitary gland.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "TSH release in turn is stimulated by thyrotropin releasing hormone (TRH), released in a pulsatile manner from the hypothalamus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The thyroid hormones provide negative feedback to the thyrotropes TSH and TRH: when the thyroid hormones are high, TSH production is suppressed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

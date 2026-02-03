@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kinetic energy converted to potential energy is the type of energy conversion in a hybrid car that uses a braking system to recover energy and store it in batteries.",
+      "strength": 0.22633605877491922
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemical energy converted to kinetic energy is the type of energy conversion exemplified by a certain type of hybrid car that uses a braking system in which energy is recovered and stored in batteries.",
+      "strength": 0.40006490501134456
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical energy converted to thermal energy is the type of energy conversion exemplified by a hybrid car that uses a braking system to recover energy and store it in batteries.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermal energy converted to potential energy is the type of energy conversion performed by a hybrid car that utilizes a braking system in which energy is recovered and stored in batteries.",
+      "strength": 0.40000000000002545
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Feeding power backwards through the system like this allows the energy harvested from deceleration to resupply an energy storage solution such as a battery or a capacitor.",
+      "strength": 0.5999999999999944
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Modern HEVs use energy recovery technologies such as motor–generator units and regenerative braking to recycle the vehicle's kinetic energy to electric energy via an alternator, which is stored in a battery pack or a supercapacitor.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Regenerative braking can be used to recapture energy and store it in batteries.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Electric generator (kinetic energy or mechanical work → electrical energy)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Heat engines, such as the internal combustion engine used in cars, or the steam engine (heat → mechanical energy)",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "This energy, now in the form of kinetic energy and gamma rays, keeps the solar core hot even as electromagnetic radiation carries electromagnetic energy into space.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "The solid‑state battery is also said to have 'three times the energy density', increasing its useful life in electric vehicles, for example.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "The recovered energy is stored in a reservoir (for example a flywheel or high voltage batteries) for later use under acceleration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

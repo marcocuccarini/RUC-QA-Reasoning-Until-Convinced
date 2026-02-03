@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Snakes are the organisms that contribute most to the decomposition of dead organisms.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Viruses are the organisms that contribute most to the decomposition of dead organisms.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Insects contribute most to the decomposition of dead organisms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bacteria contribute most to the decomposition of dead organisms.",
+      "strength": 0.2500000915578924
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fungi are the primary decomposers in many ecosystems.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Only wood-decay fungi have evolved lignin-modifying enzymes necessary to decompose lignin.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The nutrient cycle includes the decomposition of dead bodies; bacteria are responsible for the putrefaction stage in this process.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

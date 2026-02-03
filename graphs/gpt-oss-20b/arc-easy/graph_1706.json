@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Absorption is the process by which eyeglasses help a nearsighted person see.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Diffraction allows eyeglasses to help a nearsighted person see.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reflection is the phenomenon that enables eyeglasses to help a nearsighted person see.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Refraction is what allows eyeglasses to help a nearsighted person see.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Corrective lenses bend the light entering the eye in a way that places a focused image accurately onto the retina.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Corrective lenses for myopia have negative powers because a divergent lens is required to move the far point of focus out to the distance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

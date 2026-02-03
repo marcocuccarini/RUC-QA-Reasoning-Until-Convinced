@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Earth rotating on its axis explains why daylight and darkness occur on Earth.",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun rotates on its axis explains why daylight and darkness occur on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Earth's axis is tilted, which explains why daylight and darkness occur on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Earth revolves around the Sun explains why daylight and darkness occur on Earth.",
+      "strength": 0.5999999365228031
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The spherical Earth rotates about its axis daily and the apparent movement of the stars is a relative motion caused by the rotation of the Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The true solar day tends to be longer near perihelion when the Sun apparently moves along the ecliptic through a greater angle than usual, taking about 10 seconds longer to do so.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "IERS Earth Orientation Center: Earth rotation data and interactive analysis",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

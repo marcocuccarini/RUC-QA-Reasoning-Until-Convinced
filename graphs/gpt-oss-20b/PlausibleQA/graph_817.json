@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Jellyfish",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Box Jellyfish",
+      "strength": 0.7499025789446009
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Sea Snake",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Medusae",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chiropsalmus quadrumanus, commonly known as the four-handed box jellyfish, is a species of box jellyfish found in the western Atlantic Ocean, the Gulf of Mexico and the Pacific Ocean.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chiropsalmus quadrumanus is a cube-shaped, colourless, transparent jellyfish with a diameter of about 14 centimetres (5.5 in) and height a little less than this.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The long tentacles of Chiropsalmus quadrumanus are armed with nematocysts, the purpose of which is to capture prey such as small fish and to deter predators.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

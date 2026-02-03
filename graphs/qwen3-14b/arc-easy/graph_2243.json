@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gas is the state in which molecules of a substance are arranged in the most orderly way.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liquid is the state in which molecules of a substance are arranged in the most orderly way.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plasma is the state in which molecules of a substance are arranged in the most orderly way.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solid is the state in which molecules of a substance are arranged in the most orderly way.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The atoms in a solid are tightly bound to each other in one of two ways: regular geometric lattices called crystalline solids (e.g. metals, water ice), or irregular arrangements called amorphous solids (e.g. glass, plastic).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In contrast to solids, gases are very easily compressed as the molecules in a gas are far apart with few intermolecular interactions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

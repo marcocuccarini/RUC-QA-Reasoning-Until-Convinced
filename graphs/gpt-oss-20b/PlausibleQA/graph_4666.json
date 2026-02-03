@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It began life as The Nashville Network, but changed its name to what in 2003 following a lawsuit raised by an asshat director over the new name. TNN",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It began life as The Nashville Network, but changed its name to what in 2003 following a lawsuit raised by an asshat director over the new name. Country Music Channel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It began life as The Nashville Network, but changed its name to what in 2003 following a lawsuit raised by an asshat director over the new name. Americana Network",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It began life as The Nashville Network, but changed its name to what in 2003 following a lawsuit raised by an asshat director over the new name. SpikeTV",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "TNN was relaunched as Spike TV in 2003.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The channel adopted the name Spike TV, not TNN, in 2003.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A galvanic cell is the electrochemical system in which connecting a magnesium rod to an underground steel pipeline protects the pipeline from corrosion, with the magnesium rod acting as the anode because magnesium (e° = −2.37 V) is more readily oxidized than iron (e° = −0.45 V).",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Anode cell is the electrochemical cell in which the magnesium rod, being more easily oxidized (e° = −2.37 V) than iron (e° = −0.45 V), acts as the anode when connected to an underground steel pipeline to protect the pipeline from corrosion.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stimulation cell is the electrochemical cell in which a magnesium rod, which has a more easily oxidized potential (e° = –2.37 V) than iron (e° = –0.45 V), acts as the anode to protect an underground steel pipeline from corrosion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Voltaic cell is a type of electrochemical cell in which a magnesium rod acts as the anode when it is connected to an underground steel pipeline to protect the pipeline from corrosion, because magnesium (e° = −2.37 V) is more easily oxidized than iron (e° = −0.45 V).",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Magnesium has the most negative electropotential of the three (see galvanic series) and is more suitable for areas where the electrolyte (soil or water) resistivity is higher.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "reduction of water or solvated protons may evolve hydrogen atoms on the cathode surface, for instance leading to hydrogen embrittlement or to disbonding of the coating.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In order for galvanic cathodic protection to work, the anode must possess a lower (that is, more negative) electrode potential than that of the cathode (the target structure to be protected).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Galvanic anodes are selected because they have a more 'active' voltage than the metal of the target structure (typically steel).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

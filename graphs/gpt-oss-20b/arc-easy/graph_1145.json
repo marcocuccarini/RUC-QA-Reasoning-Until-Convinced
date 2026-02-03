@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "There may not be enough drinking water for humans when a stream is polluted with floating garbage, as observed by Sheri during her field trip with her class.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "There may not be enough water in the water cycle as a result of the floating garbage pollution Sheri saw in the stream during her field trip, which could affect humans.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There may not be enough oxygen for humans to breathe because the floating garbage Sheri saw in the stream could reduce dissolved oxygen levels.",
+      "strength": 0.5999999377797358
+    },
+    "A3": {
+      "type": "argument",
+      "text": "One-quarter of the world's population depends on groundwater for drinking, yet concentrated recharging is known to carry short-lived contaminants into carbonate aquifers and jeopardize the purity of those waters.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eutrophication from nitrogen pollution can cause anoxia (oxygen depletion) and severe reductions in water quality may occur.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Plastics make their way into bodies of freshwater, underground aquifers, and moving freshwaters through runoff and erosion of mismanaged plastic waste (MMPW).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

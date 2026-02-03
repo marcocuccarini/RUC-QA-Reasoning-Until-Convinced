@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Releases heat and is endothermic is the reaction that occurs when coal burns.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Releases heat and is exothermic is the reaction that occurs when coal burns.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The reaction that occurs when coal burns absorbs heat and is endothermic.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Absorbs heat and is exothermic is the reaction that occurs when coal burns.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Combustion is a high-temperature exothermic redox chemical reaction between a fuel (the reductant) and an oxidant, usually atmospheric oxygen, that produces oxidized, often gaseous products, in a mixture termed as smoke.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This reaction releases 242 kJ/mol of heat and reduces the enthalpy accordingly (at constant temperature and pressure): 2 H2(g) + O2(g) → 2 H2O↑",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

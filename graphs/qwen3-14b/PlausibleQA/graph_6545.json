@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1968, what telephone number was established as the national emergency number for the United States. 222-2222",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1968, what telephone number was established as the national emergency number for the United States. 333-3333",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1968, what telephone number was established as the national emergency number for the United States. 0-EMERGENCY",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1968, what telephone number was established as the national emergency number for the United States. 911",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1968, the number was agreed upon. AT&T chose the number 911, which was simple, easy to remember, dialed quickly (999, with the rotary dial phones in place at the time, would take longer), and because of the middle 1, which indicated a special number (see also 4-1-1 and 6-1-1), worked well with the phone systems at the time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1968, the first 911 service was established by the Alabama Telephone Company and the first call was made in Haleyville, Alabama in 1968 by Alabama Speaker of the House Rankin Fite and answered by U.S. Representative Tom Bevill.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time astros was in the world series. 2017",
+      "strength": 0.5000967341380452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time astros was in the world series. 2019",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time astros was in the world series. 2021",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time astros was in the world series. 2005",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On November 3, 2017, the Astros won the World Series.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Astros were swept by the Chicago White Sox in the World Series in 2005.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "winning their second World Series in 2022 against the Philadelphia Phillies.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "losing in 2023 against the Texas Rangers",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

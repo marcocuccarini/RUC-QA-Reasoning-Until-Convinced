@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The youngest gold medalist for team GB at the 2012 Olympics, Jade Jones, won in which sport. Boxing",
+      "strength": 0.3200974867114606
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The youngest gold medalist for team GB at the 2012 Olympics, Jade Jones, won in which sport. Gymnastics",
+      "strength": 0.4000000123133093
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The youngest gold medalist for team GB at the 2012 Olympics, Jade Jones, won in which sport. Fencing",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The youngest gold medalist for team GB at the 2012 Olympics, Jade Jones, won in which sport. 태권도",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jones competed in the 2012 Summer Paralympics, not the Olympics.",
+      "strength": 0.7499685242881009
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jones failed to medal in the 400 m and 800 m at the 2012 stripslashes, finishing sixth and fifth respectively.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Jade Jones at ParalympicsGB",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Jade Jones at the International Paralympic Committee",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

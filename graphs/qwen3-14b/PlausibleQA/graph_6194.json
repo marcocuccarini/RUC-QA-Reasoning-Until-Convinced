@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mswati III is the king of which African country. Lesotho",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mswati III is the king of which African country. Botswana",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mswati III is the king of which African country. Zambia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mswati III is the king of which African country. Swasiland",
+      "strength": 0.22635259120164772
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Swaziland",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Eswatini",
+      "strength": 0.5999441357039169
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Eswatini is the country ruled by King Mswati III since 1986",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    }
+  ]
+}

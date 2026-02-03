@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "For what novel did J. K. Rowling win the 1999 Whitbread Children's book of the year award. Harry Potter and the Philosopher's Stone",
+      "strength": 0.2500954298066436
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "For what novel did J. K. Rowling win the 1999 Whitbread Children's book of the year award. The Secret Garden by Frances Hodgson Burnett",
+      "strength": 0.25000006136009423
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "For what novel did J. K. Rowling win the 1999 Whitbread Children's book of the year award. The Golden Compass by Philip Pullman",
+      "strength": 0.4000000408816272
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "For what novel did J. K. Rowling win the 1999 Whitbread Children's book of the year award. HP3",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It was also shortlisted for children's books awards adjudicated by adults, but did not win.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Harry Potter and the Philosopher's Stone won the British Book Awards Children's Book of the Year.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The award body gave Rowling the children's prize instead (worth half the cash amount).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Whitbread Best Book Award: Seamus Heaney, Beowulf",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

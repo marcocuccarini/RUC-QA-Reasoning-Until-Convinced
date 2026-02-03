@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Speed and direction of the electron determine its location around the nucleus of an atom.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Size of the electron and the neutron are the two factors that determine the location of an electron around the nucleus of an atom.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Direction and strength of the electron are the two factors that determine the location of an electron around the nucleus of an atom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Energy and the attraction of the nucleus are the two factors that determine the location of an electron around the nucleus of an atom.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The probability of finding an electron at a given place is also a function of the electron's average momentum at that point.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The size of the orbital is determined by the principal quantum number n, and the higher nuclear charge Z of heavier elements causes their orbitals to contract.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Coulomb's law holds even within atoms, correctly describing the force between the positively charged atomic nucleus and each of the negatively charged electrons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

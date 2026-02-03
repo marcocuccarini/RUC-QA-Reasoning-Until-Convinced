@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Mexican dish is a steamed corn husk filled with meat or vegetables coated in masa dough. Empanada",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Mexican dish is a steamed corn husk filled with meat or vegetables coated in masa dough. Quesadilla",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Mexican dish is a steamed corn husk filled with meat or vegetables coated in masa dough. Sopes",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Mexican dish is a steamed corn husk filled with meat or vegetables coated in masa dough. Tamal",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Usually, the filling (ranging from none, fried bacon, turkey, venison, nuts, and vegetables such as onions, potatoes, squash, and sweet potatoes) can either be filled or mixed with the masa and steamed in a corn husk.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The variety found in Guam, known as tamales guiso, is made with corn masa and wrapped in corn husks, and as with the Philippine tamales, are clear evidence of the influence of the galleon trade that occurred between the ports of Manila and Acapulco.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

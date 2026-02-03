@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shashlik is what type of food dish. Skewered Meat",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shashlik is what type of food dish. Stew",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Shashlik is what type of food dish. Meatball",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Shashlik is what type of food dish. Kebob",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shashlik is similar to, or sometimes a synonym for, shish kebab.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In many English-speaking countries, it refers to the now well-known dish prepared with marinated meat or seafood threaded onto the skewer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

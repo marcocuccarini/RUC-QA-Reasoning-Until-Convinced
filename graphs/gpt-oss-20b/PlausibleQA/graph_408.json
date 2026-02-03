@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who became Lord Mayor of London in 1397. John of Gaunt",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who became Lord Mayor of London in 1397. Geoffrey Chaucer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who became Lord Mayor of London in 1397. William Walworth",
+      "strength": 0.25000009340748447
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who became Lord Mayor of London in 1397. Dick Wittington",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Walworth became Sheriff of London in 1370 and Lord Mayor of London in 1374.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was twice Lord Mayor of London (1374–75 and 1380–81).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sir Richard ('Dick') Whittington (1397, 1398, 1406 and 1419; 4 terms)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

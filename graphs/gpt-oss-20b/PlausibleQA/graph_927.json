@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Charles Henri Sanson's brother, Henri Sanson",
+      "strength": 0.15384621494314465
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Georges Danton",
+      "strength": 0.2500954297690289
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Maximilien Robespierre",
+      "strength": 0.40006361984599315
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Sansom",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sanson was the executioner of Louis XVI.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sanson and his men executed Danton.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The execution by guillotine was performed by Charles-Henri Sanson, then High Executioner of the French First Republic and previously royal executioner under Louis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Charles-Henri Sanson testified that Louis XVI had bravely met his fate.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Towards the end of the Terror in 1794, revolutionary leaders such as Georges Danton, Saint-Just and Maximilien Robespierre were sent to the guillotine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

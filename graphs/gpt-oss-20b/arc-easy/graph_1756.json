@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Organs are the next level of complexity formed from the grouping of tissues, where similar types of cells form tissues.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Organelles are the next level of complexity formed from the grouping of tissues, following the fact that similar types of cells form tissues.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Organisms are the next level of complexity formed by grouping tissues that arise from similar types of cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Organ systems are the next level of complexity formed from the grouping of tissues, where similar types of cells form tissues.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "an organ is a collection of tissues joined in a structural unit to serve a common function",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When three or more organs are present, it is called an organ system",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

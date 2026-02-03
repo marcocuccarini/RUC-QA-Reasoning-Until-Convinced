@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is the Vice-President for George W Bush. Al Gore",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the Vice-President for George W Bush. Colin Powell",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is the Vice-President for George W Bush. Condoleezza Rice",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is the Vice-President for George W Bush. Dick Cheny",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In July 2000, presumptive Republican presidential nominee George W. Bush chose Cheney as his running mate in the 2000 presidential election.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They defeated their Democratic opponents, incumbent vice president Al Gore and senator Joe Lieberman.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which river separates the bronx in new york city from manhattan island. Hudson River",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which river separates the bronx in new york city from manhattan island. East River",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which river separates the bronx in new york city from manhattan island. Bronx Kill",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which river separates the bronx in new york city from manhattan island. Harlem River",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It separates the Bronx from Randalls Island.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The East River separates Long Island, with the boroughs of Brooklyn and Queens, from Manhattan Island, and from the Bronx on the North American mainland.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Bronx Kill joins the East River north of Randalls Island.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

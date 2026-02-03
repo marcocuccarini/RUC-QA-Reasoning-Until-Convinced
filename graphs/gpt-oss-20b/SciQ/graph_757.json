@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tundra is land with permafrost, no trees, and small hardy plants.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Subtropics is land with permafrost, no trees, and small hardy plants.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Taiga is land with permafrost, no trees, and small hardy plants.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Desert is land with permafrost, no trees, and small hardy plants.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The soil there is frozen from 25 to 90 cm (10 to 35 in) down, making it impossible for trees to grow there.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Arctic tundra occurs in the far Northern Hemisphere (Arctic), north of the taiga belt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

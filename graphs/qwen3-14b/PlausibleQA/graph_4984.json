@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the 1st battle of bull run. Union",
+      "strength": 0.25000003759877515
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the 1st battle of bull run. British",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the 1st battle of bull run. French",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the 1st battle of bull run. Confederate",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The battle was a Confederate victory and was followed by a disorganized post-battle retreat of the Union forces.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Union army was slow in positioning themselves, allowing Confederate reinforcements time to arrive by rail.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Confederacy successfully repelled the attack in the First Battle of Bull Run.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Confederate reinforcements under Joseph E. Johnston arrived from the Shenandoah Valley by railroad, and the battle's course quickly changed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. Ester-like compound",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. Amide",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. Ether",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. COOR",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Convert carboxylic acids into esters.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Carboxylic acids are converted into amides, but this conversion typically does not occur by direct reaction of the carboxylic acid and the amine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the title of Simon and Garfunkel’s only UK number one hit single. Bridge Over Troubled Water",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the title of Simon and Garfunkel’s only UK number one hit single. The Sound of Silence",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the title of Simon and Garfunkel’s only UK number one hit single. Cecilia",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the title of Simon and Garfunkel’s only UK number one hit single. Song for the asking",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Simon and Garfunkel's number 1 hit 'Bridge over Troubled Water' was released as the follow-up to their previous number 1 hit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The single did not chart in the UK, despite being released as the follow-up to Simon and Garfunkel's number 1 hit 'Bridge over Troubled Water', and most copies of the UK single misspelled the title as 'Cecelia' on the label.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

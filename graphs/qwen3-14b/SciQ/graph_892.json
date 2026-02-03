@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Visible light is the only light that people can see.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Spectrum light is the only light that people can see.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Infrared light is the only light that people can see.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "UV light is the only light that people can see.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Under ideal laboratory conditions, people can see infrared up to at least 1,050 nm",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Visible light spans the visible spectrum and is usually defined as having wavelengths in the range of 400–700 nanometres (nm)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

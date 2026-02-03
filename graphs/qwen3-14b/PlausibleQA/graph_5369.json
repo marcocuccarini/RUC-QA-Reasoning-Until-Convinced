@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Tom Brady",
+      "strength": 0.15384617116606303
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Drew Brees",
+      "strength": 0.4000000000067427
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Peyton Manning",
+      "strength": 0.4000000000067427
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Favregate",
+      "strength": 0.4704823392094606
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tom Brady did not win the AP Most Valuable Player three consecutive times from 1995-97, as he was not active in the NFL during those years (he was drafted in 2000).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Drew Brees never won the AP Most Valuable Player three consecutive times, and his career pass completions (5,720) and passing yards (65,127) are not the highest in NFL history, as Tom Brady holds those records.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Peyton Manning did not win the AP Most Valuable Player three consecutive times from 1995-97; he was not active in the NFL during those years (he was drafted in 1998).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The claim about three consecutive AP MVPs from 1995-97 refers to Brett Favre, not 'Favregate' (likely a typo), and the records cited (65,127 passing yards, 5,720 completions) are outdated; Tom Brady currently holds these records.",
+      "strength": 0.2500469562443854
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Drew Brees has 68,010 career passing yards with the New Orleans Saints, which exceeds the 65,127 yards cited in the hypothesis as the record for the subject in question.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Drew Brees was named AP 2008 Offensive Player of the Year, but this award is distinct from the AP Most Valuable Player award mentioned in the hypothesis.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "During his time with the Packers, Favre was the first and only NFL player to win three consecutive AP MVP awards.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "He was also the first NFL quarterback to obtain 70,000 yards, 10,000 passes, 6,000 completions, 500 touchdowns, and victories over all 32 teams.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A7",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "A7",
+      "relation": "attack"
+    }
+  ]
+}

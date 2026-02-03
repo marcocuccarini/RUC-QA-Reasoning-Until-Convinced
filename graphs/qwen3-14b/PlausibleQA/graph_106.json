@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Oystercatcher",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Sandpiper",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Avocet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The dotterel belongs to which family of birds. Plover",
+      "strength": 0.22633515734956897
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The IOC recognizes these 69 species of plovers, dotterels, and lapwings in family Charadriidae.",
+      "strength": 0.5999748985537081
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The bird family Charadriidae includes the plovers, dotterels, and lapwings.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The family Charadriidae was introduced (as Charadriadæ) by the English zoologist William Elford Leach in a guide to the contents of the British Museum published in 1820.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The family Charadriidae includes the plovers, dotterels, and lapwings",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A7",
+      "relation": "indifferent"
+    }
+  ]
+}

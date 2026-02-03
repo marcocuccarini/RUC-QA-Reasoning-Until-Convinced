@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Minerals are the best to add to rock particles to create good soil for growing plants, since the first stage of soil formation is the weathering of rock into fine particles.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sand is the best material to add to weathered rock particles to make a good soil for growing plants.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Organic matter is best added to the rock particles to make good soil for growing plants during the first stage of soil formation, which involves the weathering of rock into fine particles.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Silt would be the best material to add to the weathered rock particles to create a good soil for growing plants, as the first stage of soil formation involves the weathering of rock into fine particles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Topsoils deepen with the accumulation of humus originating from dead remains of higher plants and soil microbes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This process is also called arenization, resulting in the formation of sandy soils, thanks to the much higher resistance of quartz compared to other mineral components of granite (e.g., mica, amphibole, feldspar).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The application of finely ground minerals, feldspar and apatite, to soil seldom provides the necessary amounts of potassium and phosphorus at a rate sufficient for good plant growth, as most of the nutrients remain bound in the crystals of those minerals.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The nutrients adsorbed onto the surfaces of clay colloids and soil organic matter provide a more accessible reservoir of many plant nutrients (e.g., K, Ca, Mg, P, Zn).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

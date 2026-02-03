@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Precipitation is the process most responsible for the disappearance of the puddle on a sidewalk that remained after a rain but was gone after a day of sunshine.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Transpiration is the process most responsible for the disappearance of a puddle of water that remains on a sidewalk after a rain and is gone after a day of sunshine.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Evaporation is the process most responsible for the disappearance of the puddle of water on the sidewalk after a day of sunshine following a rain.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Condensation is the process most responsible for the disappearance of the puddle on the sidewalk after a day of sunshine following rain.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The sun (solar energy) drives evaporation of water from oceans, lakes, moisture in the soil, and other sources of water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When photons hits the surface area of the liquid they can make individual molecules break free and disappear into the air without any need for additional heat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

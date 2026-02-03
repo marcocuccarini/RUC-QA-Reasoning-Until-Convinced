@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "High altitude above sea level causes the alpine tundra to be so cold.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Moderate altitude causes the alpine tundra to be so cold.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Low altitude causes the alpine tundra to be so cold.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Low air density at high elevations causes the alpine tundra to be so cold.",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The high elevation causes an adverse climate, which is too cold and windy to support tree growth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The cold climate of the alpine tundra is caused by adiabatic cooling of air, and is similar to polar climate.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The rate of decrease of temperature with elevation is known as the adiabatic lapse rate, which is approximately 9.8 °C per kilometer (or 5.4 °F per 1000 feet) of altitude.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "High altitude is sometimes defined to begin at 2,400 meters (8,000 ft) above sea level, where atmospheric pressure is lower than that at sea level.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

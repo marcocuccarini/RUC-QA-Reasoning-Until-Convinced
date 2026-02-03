@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Front is the boundary between two air masses in weather terms.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cloud is the weather term for the boundary between two air masses.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mass is the boundary between two air masses in weather terms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cover is the boundary between two air masses in weather terms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A stationary front is a non-moving (or stalled) boundary between two air masses, neither of which is strong enough to replace the other.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A weather front is a boundary separating air masses for which several characteristics differ, such as air density, wind, temperature, and humidity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

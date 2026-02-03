@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which nation boasts the world's longest running TV sports show, Hockey Night, first aired 1952. United States",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which nation boasts the world's longest running TV sports show, Hockey Night, first aired 1952. Sweden",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which nation boasts the world's longest running TV sports show, Hockey Night, first aired 1952. Russia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which nation boasts the world's longest running TV sports show, Hockey Night, first aired 1952. ᑲᓇᑕ",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hockey Night in Canada began airing on Saturday nights on CBC Television in 1952.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hockey Night in Canada (often abbreviated Hockey Night or HNiC) is a long-running program of broadcast ice hockey play-by-play coverage in Canada.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the river that runs through Madrid. Tagus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the river that runs through Madrid. Jarama",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the river that runs through Madrid. Guadarrama",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the river that runs through Madrid. Manzanares",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Manzanares (Spanish pronunciation: [manθaˈnaɾes]) is a river in the centre of the Iberian Peninsula.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is formally called Manzanares after the confluence of the Arroyo de la Condesa and the Arroyo de Valdemartín.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

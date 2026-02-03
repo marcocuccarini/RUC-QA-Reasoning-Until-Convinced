@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what music did louis armstrong play. Blues",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what music did louis armstrong play. Swing",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what music did louis armstrong play. Dixieland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what music did louis armstrong play. Jazz",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was an American jazz and blues trumpeter and vocalist.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Armstrong codified the rhythmic technique of swing in jazz and broadened the jazz solo vocabulary.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Armstrong's solos were a significant factor in making jazz a true 20th-century language.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

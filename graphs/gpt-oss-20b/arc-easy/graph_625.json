@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A geometric pattern formed by a mineral is a fossil.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A solid element or compound from Earth's crust is the best description of a fossil.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Remains of an extinct organism found in a rock layer are a fossil.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bits of weathered rocks and pieces of dead organisms are the best description of a fossil.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A fossil (from Classical Latin fossilis, lit. 'obtained by digging') is any preserved remains, impression, or trace of any once-living thing from a past geological age.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A fossil normally preserves only a portion of the deceased organism, usually that portion that was partially mineralized during life, such as the bones and teeth of vertebrates, or the chitinous or calcareous exoskeletons of invertebrates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

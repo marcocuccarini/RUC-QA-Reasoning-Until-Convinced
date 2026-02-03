@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the nationality of composer Frederic Chopin. French",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the nationality of composer Frederic Chopin. Russian",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the nationality of composer Frederic Chopin. German",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the nationality of composer Frederic Chopin. Polski",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chopin was born in Żelazowa Wola and grew up in Warsaw, which in 1815 became part of Congress Poland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Frédéric François Chopin was born in Żelazowa Wola, 46 kilometres (29 miles) west of Warsaw, in what was then the Duchy of Warsaw, a Polish state established by Napoleon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

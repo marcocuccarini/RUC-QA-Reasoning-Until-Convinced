@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The same weight and the same mass are what the rover Spirit, a NASA robotic probe on Mars, has compared to its measurements on Earth, even though Mars’ gravitational attraction is approximately 62 % less than Earth's.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A larger weight, but smaller mass, is what the Spirit probe has on Mars compared to its measurements on Earth, given that Mars' gravity is about 62 % less than Earth's.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A smaller mass and larger weight is what the rover Spirit, a robotic probe NASA placed on Mars, has on Mars compared to its measurements on Earth, given that Mars’ gravitational attraction is approximately 62% less than Earth's.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A smaller weight and the same mass is what the rover Spirit has on Mars compared to its measurements on Earth, because Mars' gravitational attraction is approximately 62 % less than Earth's.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An object on the Moon would weigh less than it does on Earth because of the lower gravity, but it would still have the same mass.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On the surface of the Earth, for example, an object with a mass of 50 kilograms weighs 491 newtons, which means that 491 newtons is being applied to keep the object from going into free fall. By contrast, on the surface of the Moon, the same object still has a mass of 50 kilograms but weighs only 81.5 newtons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

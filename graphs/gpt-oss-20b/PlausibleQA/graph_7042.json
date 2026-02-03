@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. Jane Austen",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. Charles Dickens",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. William Shakespeare",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. Darwin's",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The current polymer £10 note bears the image of author Jane Austen on the reverse.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The final cotton paper note featuring a portrait of naturalist Charles Darwin, first issued in 2000, was withdrawn from circulation on 1 March 2018.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

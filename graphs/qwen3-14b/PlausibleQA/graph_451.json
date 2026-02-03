@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Give a year in the reign of King Stephen.. 1147",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Give a year in the reign of King Stephen.. 1120",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Give a year in the reign of King Stephen.. 1150",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Give a year in the reign of King Stephen.. 1135-1154",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stephen was King of England from 22 December 1135 to his death in 1154.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "King Stephen appointed his son, Eustace IV, Count of Boulogne as co-King on 6 April 1152",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Eustace died the next year during his father's lifetime",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

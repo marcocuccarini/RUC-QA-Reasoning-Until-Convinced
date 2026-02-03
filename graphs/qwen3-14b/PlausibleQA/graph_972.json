@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In Greek mythology who was the twin of Polydeuces. Apollo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In Greek mythology who was the twin of Polydeuces. Ares",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In Greek mythology who was the twin of Polydeuces. Dionysus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In Greek mythology who was the twin of Polydeuces. Castor",
+      "strength": 0.7736521061885242
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Castor and Pollux (or Polydeuces) are twin half-brothers in Greek and Roman mythology",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Castor was the mortal son of Tyndareus, while Pollux was the divine son of Zeus",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pair are thus an example of heteropaternal superfecundation",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

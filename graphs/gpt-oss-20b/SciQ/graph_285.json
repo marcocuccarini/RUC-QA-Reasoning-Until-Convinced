@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Energy is what ecosystems absorb on the earth.",
+      "strength": 0.7736521061885242
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is absorbed by ecosystems on Earth.",
+      "strength": 0.5999999723208136
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen is absorbed by ecosystems on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fuel is absorbed by ecosystems on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Energy and carbon enter ecosystems through photosynthesis",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As water moves through dead organic matter, it dissolves and carries with it the water-soluble components.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The average rate of energy captured by global photosynthesis is approximately 130 terawatts, which is about eight times the total power consumption of human civilization.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Photosynthetic organisms also convert around 100–115 billion tons of carbon into biomass per year.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

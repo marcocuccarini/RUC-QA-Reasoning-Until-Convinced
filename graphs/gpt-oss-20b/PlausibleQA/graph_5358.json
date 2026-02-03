@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was Pete Sampras seeded when he won his first US Open. 1",
+      "strength": 0.36775129958086905
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was Pete Sampras seeded when he won his first US Open. 2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was Pete Sampras seeded when he won his first US Open. 3",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was Pete Sampras seeded when he won his first US Open. 12",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text does not mention Pete Sampras's seed when he won his first US Open.",
+      "strength": 0.5999640213586829
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The article refers to Arthur Ashe as the inaugural US Open champion but makes no mention of Pete Sampras.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

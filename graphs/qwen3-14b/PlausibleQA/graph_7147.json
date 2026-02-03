@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Turin lies on which river. Dora Riparia",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Turin lies on which river. Tanaro",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Turin lies on which river. Sesia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Turin lies on which river. Po",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Four major rivers pass through the city: the Po and three of its tributaries, the River Dora Riparia, the Stura di Lanzo and the Sangone.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The River Dora Riparia is one of the three tributaries of the Po that pass through Turin.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Po flows through many important Italian cities, including Turin, Piacenza, Cremona and Ferrara.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

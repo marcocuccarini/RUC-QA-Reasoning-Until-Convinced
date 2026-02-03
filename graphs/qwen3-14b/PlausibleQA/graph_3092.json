@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From which continent does the world's smallest bear the Sun Bear originate. Africa",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From which continent does the world's smallest bear the Sun Bear originate. North America",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From which continent does the world's smallest bear the Sun Bear originate. South America",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From which continent does the world's smallest bear the Sun Bear originate. SEAsia",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The sun bear is native to the tropical forests of Southeast Asia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Malayan Sun Bear is found in Borneo.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

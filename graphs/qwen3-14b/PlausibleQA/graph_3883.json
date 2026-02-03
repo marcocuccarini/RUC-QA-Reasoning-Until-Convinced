@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the four nations of the united kingdom. Scotland",
+      "strength": 0.8047808908728903
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the four nations of the united kingdom. Ireland",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the four nations of the united kingdom. England",
+      "strength": 0.5999999999895306
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the four nations of the united kingdom. Wales",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The United Kingdom comprises England, Scotland, Wales and Northern Ireland",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Scotland, Wales and Northern Ireland have their own governments and parliaments which control various devolved matters",
+      "strength": 0.749999972697686
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There is no devolved English government, but an attempt to create a similar system on a sub-regional basis was rejected by referendum.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "England is governed directly by the Parliament of the United Kingdom, although other countries of the United Kingdom have devolved governments.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Scotland is a country that is part of the United Kingdom",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was canadian prime minister in 1993. Kim Campbell",
+      "strength": 0.5000948186737755
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was canadian prime minister in 1993. Jean Chrétien",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was canadian prime minister in 1993. John Turner",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was canadian prime minister in 1993. Brian Mulroney",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Campbell became the new prime minister in June 1993 after Mulroney resigned in the wake of declining popularity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mulroney entered 1993 facing a statutory federal election. By then, his popularity had markedly declined, and polls suggested that the Tories would be heavily defeated if he led them into that year's election.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On November 4, 1993, Chrétien became prime minister.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

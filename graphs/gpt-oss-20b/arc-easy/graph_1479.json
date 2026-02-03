@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A sand dune is the feature most likely the result of a flowing river.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A volcano is the feature most likely the result of a flowing river.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A canyon is most likely the result of a flowing river.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A glacier is the feature most likely the result of a flowing river.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rivers have a natural tendency to cut through underlying surfaces, eventually wearing away rock layers as sediments are removed downstream.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The processes of weathering and erosion will form canyons when the river's headwaters and estuary are at significantly different elevations, particularly through regions where softer rock layers are intermingled with harder layers more resistant to weathering.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

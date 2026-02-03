@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name used in North America for a man who makes his living by felling trees. Woodcutter",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name used in North America for a man who makes his living by felling trees. Timberman",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name used in North America for a man who makes his living by felling trees. Arborist",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name used in North America for a man who makes his living by felling trees. Loggers",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An arborist's scope of work is therefore distinct from that of either a forester or a logger.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Arborists generally focus on the health and safety of individual plants and trees, rather than managing forests or harvesting wood (silviculture or forestry).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

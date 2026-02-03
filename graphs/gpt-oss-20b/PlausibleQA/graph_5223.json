@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many games does a football team have to win to be bowl eligible. 3",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many games does a football team have to win to be bowl eligible. 6",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many games does a football team have to win to be bowl eligible. 7",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many games does a football team have to win to be bowl eligible. 5",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Teams with a minimum non-losing, or .500, record can qualify for bowl games if their conference has a contract with a bowl game.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In thirteen-game seasons (used because of conference championship games, or allowable for Hawaiʻi and any of its home opponents in a given season), a team must win seven games.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At the Division I FBS level, teams must earn the right to be bowl eligible by winning at least 6 games during the season.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

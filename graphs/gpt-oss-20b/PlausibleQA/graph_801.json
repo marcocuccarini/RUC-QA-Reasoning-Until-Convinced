@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where did comic book character 'Desperate Dan' live. Drygulch",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where did comic book character 'Desperate Dan' live. Red Rock",
+      "strength": 0.400000060988221
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where did comic book character 'Desperate Dan' live. Buckaroo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where did comic book character 'Desperate Dan' live. Cactusville",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "There is a statue of Dan in Dundee, Scotland, where his publishers, D. C. Thomson & Co. are based.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Desperate Dan is a wild west character in the now-defunct Scottish comic magazine The Dandy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Many of the characters in The Dandy lived in the fictional town of Dandytown.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

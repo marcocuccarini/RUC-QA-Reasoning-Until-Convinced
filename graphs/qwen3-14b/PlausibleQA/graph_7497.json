@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Man Ray was famous in what field. Painting",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Man Ray was famous in what field. Sculpture",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Man Ray was famous in what field. Film",
+      "strength": 0.5999158226851121
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Man Ray was famous in what field. Photo's",
+      "strength": 0.5999158226851121
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was a photography innovator as well as a fashion and portrait photographer, and is noted for his work with photograms, which he called 'rayographs' in reference to himself.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "His 1923 experimental film Le Retour à la raison was the first 'cine-rayograph', a motion picture made without the use of a camera.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

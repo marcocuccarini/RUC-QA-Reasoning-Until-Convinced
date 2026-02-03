@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The liver is the organ in which most absorption of nutrients takes place.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stomach is the organ in which most absorption of nutrients takes place.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Small intestine is the organ where most absorption of nutrients takes place.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The large intestine is the organ in which most absorption of nutrients takes place.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The small intestine or small bowel is an organ in the gastrointestinal tract where most of the absorption of nutrients from food takes place.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The small intestine is the site where most of the nutrients from ingested food are absorbed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

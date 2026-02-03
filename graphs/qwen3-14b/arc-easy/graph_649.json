@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rainfall could reduce the water level of the Great Miami Aquifer over time if there is too much, as the aquifer lies under much of southwest Ohio.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pollution could reduce the water level of the Great Miami Aquifer over time, a large underground water supply that lies under much of southwest Ohio.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Irrigation could reduce the water level of the Great Miami Aquifer, a large underground water supply that lies under much of southwest Ohio, over time.",
+      "strength": 0.8460569052668154
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Evaporation is what could reduce the water level of the Great Miami Aquifer over time by too much, as the aquifer is a large underground water supply that lies under much of southwest Ohio.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Irrigation is the primary activity causing groundwater storage loss across the U.S.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rising temperatures increase surface evaporation and transpiration, resulting in decreased water content of the soil.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Overdrafting (depletion) of underground aquifers can lead to permanent loss of aquifer capacity, decreased water quality, ground subsidence, and other problems.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The advent of diesel and electric motors led to systems that could pump groundwater out of major aquifers faster than drainage basins could refill them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

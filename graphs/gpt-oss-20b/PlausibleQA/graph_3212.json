@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which river flows from northern Moscow to the Caspian Sea. Volga River",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which river flows from northern Moscow to the Caspian Sea. Don River",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which river flows from northern Moscow to the Caspian Sea. Oka River",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which river flows from northern Moscow to the Caspian Sea. Idel",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Volga River rises in the Valdai Hills northwest of Moscow and heads east to the Caspian Sea.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Oka River is a tributary of the Volga.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

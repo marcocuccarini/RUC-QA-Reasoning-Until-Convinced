@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. English",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. Scottish Gaelic",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. Welsh",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. Irish",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the United Kingdom, it is the dominant language for historical reasons without being explicitly defined by law.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Wales and Northern Ireland, English is co-official alongside Welsh and Irish respectively.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On 30 November 2025, (Saint Andrew's Day), the Scottish Parliament's Scottish Languages Act 2025 came into effect, establishing Scottish Gaelic and Scots as official languages of Scotland, in addition to English.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the 2022 census of Scotland, it was found that 2.5% of the Scottish population had some skills in Gaelic, or 130,161 persons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

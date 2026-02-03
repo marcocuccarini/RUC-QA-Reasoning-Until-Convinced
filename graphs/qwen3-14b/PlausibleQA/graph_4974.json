@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which river are the Victoria Falls. Nile",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which river are the Victoria Falls. Congo",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which river are the Victoria Falls. Orange",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which river are the Victoria Falls. Zambesi",
+      "strength": 0.49501960064081457
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Victoria Falls is a waterfall on the Zambezi River",
+      "strength": 0.5999050903424904
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Victoria Falls are considered the boundary between the upper and middle Zambezi",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Zambezi is also spelled Zambeze and Zambesi",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

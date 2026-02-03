@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The heat from the fire travels through the ground and heats the ground around the people, allowing people sitting around a campfire to feel the heat without touching the fire.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The heat from the fire is conducted through air molecules to the people, allowing people sitting around a campfire to feel the heat without touching the fire.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The heat from the fire rises in the air and then settles around the people, allowing those sitting around a campfire to feel the heat without touching the fire.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The heat from the fire radiates from the fire to the people sitting around a campfire, allowing them to feel the heat without touching the fire.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thermal radiation is one of the fundamental mechanisms of heat transfer, along with conduction and convection.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Thermal radiation is a type of electromagnetic radiation which is often modeled by the propagation of waves. These waves have the standard wave properties of frequency, ν, and wavelength, λ, which are related by the equation λ = c/ν where c is the speed of light in the medium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is the Conservative MP for Tatton. Esther McVey",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the Conservative MP for Tatton. Graham Brady",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is the Conservative MP for Tatton. David Rutley",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is the Conservative MP for Tatton. Gideon Osborne",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "David Rutley was MP for Macclesfield from 2010 until 2024.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Esther McVey was elected in 2017.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "George Osborne served the seat until standing down at the 2017 election.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which daily newspaper was founded in 1903 by Alfred Harmsworth as a 'newspaper for women, run by women'. The Daily Mirror",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which daily newspaper was founded in 1903 by Alfred Harmsworth as a 'newspaper for women, run by women'. The Daily Mail",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which daily newspaper was founded in 1903 by Alfred Harmsworth as a 'newspaper for women, run by women'. The Times",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which daily newspaper was founded in 1903 by Alfred Harmsworth as a 'newspaper for women, run by women'. The Scurra",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Daily Mail was first published on 4 May 1896.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Alfred Harmsworth devised the Daily Mail.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

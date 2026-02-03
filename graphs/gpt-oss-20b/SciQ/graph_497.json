@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Joules are the units in which the heat energy transferred in chemical reactions is measured.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Amps are the units used to measure electric current, whereas heat energy transferred in chemical reactions is measured in joules.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amperes are the unit used to measure the transfer of heat energy in chemical reactions.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermals are the units in which the transfer of heat energy in chemical reactions is measured.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "6 gigajoules is about the chemical energy of combusting 1 barrel (159 L) of petroleum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One joule is also the energy dissipated as heat when an electric current of one ampere passes through a resistance of one ohm for one second.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

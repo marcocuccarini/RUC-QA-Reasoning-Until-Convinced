@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. Bismuth",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. Mercury",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. Tantalum",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The four radioactive series titled Thorium, Neptunium, Radium/Uranium and Actinium all decay eventually to stable isotopes of what element. LEad",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Three of lead's stable isotopes—lead-206, lead-207, and lead-208—are the end products of the three major natural decay chains: the uranium chain (from uranium-238), the actinium chain (from uranium-235), and the thorium chain (from thorium-232), respectively.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although the four stable isotopes of lead could theoretically undergo alpha decay to mercury isotopes with an energy release, no such decay has been observed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

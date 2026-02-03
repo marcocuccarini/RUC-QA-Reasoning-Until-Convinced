@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun appears to rise in the west and set in the east each day in the United States.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun appears to rise in the east and set in the west each day in the United States.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rise in the north and set in the south is how the Sun appears each day in the United States.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rise in the south and set in the north is how the Sun appears each day in the United States.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sunrises occur approximately due east on the March and September equinoxes for all viewers on Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Neglecting the effects of refraction and the Sun's non-zero size, whenever sunrise occurs, in temperate regions it is always in the northeast quadrant from the March equinox to the September equinox and in the southeast quadrant from the September equinox to the March equinox.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

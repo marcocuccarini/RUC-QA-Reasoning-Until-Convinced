@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bacteria are eliminated by UV radiation, the primary disinfectant used in the small town's first water treatment plant.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metals are the contaminant that UV radiation will eliminate in the small town’s first water treatment plant, where UV radiation is used as the primary disinfectant.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sediment is the contaminant that UV radiation will eliminate for a small town building its first water treatment plant, whose primary disinfectant is UV radiation.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oil is the contaminant that UV radiation eliminates in a small town’s first water treatment plant, where UV radiation is the primary disinfectant.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dosages for a 90% kill rate of most bacteria and viruses range between 2,000 and 8,000 μJ/cm2.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "UV disinfection does not remove dissolved organics, inorganic compounds or particles in the water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

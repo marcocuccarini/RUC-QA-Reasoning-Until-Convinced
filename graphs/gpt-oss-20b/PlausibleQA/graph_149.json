@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. International Committee of Humanitarian Law",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. Swiss Aid Society",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. Solferino Relief Organization",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant. Red Cross",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eight days later, on 17 February 1863, the five men held the first meeting of the Sub-committee and decided the Sub-committee should declare itself constituted a 'Permanent International Committee', which would thus continue to exist as an 'International Committee for Relief of Wounded in the event of War' after its mandate from the Geneva Society for Public Welfare had expired.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 9 February 1863, the Geneva Society for Public Welfare held a meeting where it was decided to give serious consideration to the suggestions made in Dunant's book and appointed five of its members to form a Sub-committee charged with the preparation of a Memorandum on these matters for submission to the Welfare Congress to be held in Berlin in September 1863.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

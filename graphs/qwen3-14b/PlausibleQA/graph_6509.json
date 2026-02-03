@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Mozambique",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Comoros",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Seychelles",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Madgascar",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Antananarivo is the capital and largest city of Madagascar.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The city remained the capital of Madagascar after regaining independence in 1960.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Antananarivo is the administrative capital and largest city of Madagascar.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

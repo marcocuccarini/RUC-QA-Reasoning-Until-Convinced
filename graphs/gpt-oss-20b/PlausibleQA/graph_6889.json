@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer has its headquarters at Martorell near Barcelona. Ford",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer has its headquarters at Martorell near Barcelona. Renault",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer has its headquarters at Martorell near Barcelona. Volkswagen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer has its headquarters at Martorell near Barcelona. SEAT",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The headquarters and main manufacturing facilities of the company are located in Martorell, an industrial town approximately 30 km northwest of Barcelona.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 22 February 1993, King Juan Carlos of Spain inaugurated this plant, which became the main plant of SEAT.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

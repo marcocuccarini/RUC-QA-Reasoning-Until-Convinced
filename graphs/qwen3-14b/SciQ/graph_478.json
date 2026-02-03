@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Combustion engine is a complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A vapor engine is a complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Convection oven is a complex machine that burns fuel to produce thermal energy and then uses that thermal energy to do work.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Battery is a complex machine that burns fuel to produce thermal energy and then uses that thermal energy to do work.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The combustion process typically results in the production of a great quantity of thermal energy, as well as the production of steam and carbon dioxide and other chemicals at very high temperature; the temperature reached is determined by the chemical make up of the fuel and oxidizers (see stoichiometry), as well as by the compression and other factors.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This process transforms chemical energy into kinetic energy which is used to propel, move or power whatever the engine is attached to.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

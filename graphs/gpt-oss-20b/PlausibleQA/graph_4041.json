@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. Citric Acid",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. Malic Acid",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. Tartaric Acid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which acid is contained in Grapes. E334",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Malic acid is present in grapes",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Concentrations of malic acid in grapes can be as high as 5 g/L",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

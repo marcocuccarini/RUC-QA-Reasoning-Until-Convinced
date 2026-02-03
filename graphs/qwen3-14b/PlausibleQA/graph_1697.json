@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1992 Summer Olympic Games. Atlanta",
+      "strength": 0.4000000000369082
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1992 Summer Olympic Games. Seoul",
+      "strength": 0.4000000000369082
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1992 Summer Olympic Games. Los Angeles",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1992 Summer Olympic Games. Barcelone",
+      "strength": 0.1539411759222833
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1992 Summer Olympics [...] were an international multi-sport event held from 25 July to 9 August 1992 in Barcelona, Catalonia, Spain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Postage stamps of the Republic of Moldova, celebrating the Barcelona Summer Olympics in 1992",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1992, Barcelona hosted the Summer Olympics.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Barcelona's designation as host city of the 1992 Summer Olympics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

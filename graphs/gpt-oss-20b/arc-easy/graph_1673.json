@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Galileo Galilei is credited with discovering the first four moons of Jupiter.",
+      "strength": 0.5999030801290878
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Albert Einstein is credited with discovering the first four moons of Jupiter.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Charles Darwin is credited with discovering the first four moons of Jupiter.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sir Isaac Newton is the scientist credited with discovering the first four moons of Jupiter.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "These satellites were independently discovered by Simon Marius on 8 January 1610 and are now called Io, Europa, Ganymede, and Callisto.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 15 January he concluded that they were orbiting Jupiter: he had supposedly discovered three of Jupiter's four largest moons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The invention of the telescope allowed astronomers to discover the moons in 1610.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1610, Italian polymath Galileo Galilei discovered the four largest moons of Jupiter (now known as the Galilean moons) using a telescope.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The first certain observations of Jupiter's satellites were those of Galileo Galilei in 1609.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

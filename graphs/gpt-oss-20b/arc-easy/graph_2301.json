@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Circulatory is the system that contains the mouth, esophagus, and stomach, as described in the question about the human body's systems.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Digestive is the system that includes the mouth, esophagus, and stomach.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The nervous system is the system of the human body that includes the mouth, esophagus, and stomach.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Skeletal is the system that includes the mouth, esophagus, and stomach.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The mouth is the first part of the upper gastrointestinal tract.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The esophagus is a muscular tube through which food passes from the pharynx to the stomach.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

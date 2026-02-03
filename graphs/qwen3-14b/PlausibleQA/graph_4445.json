@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. Mitt Romney",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. Joe Biden",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. Hillary Clinton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was elected US President in November 2012. OBAMA",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Incumbent Democratic president Barack Obama and his running mate, incumbent vice president Joe Biden, were elected to a second term.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Obama defeated Romney, winning 332 Electoral College votes and 51.1% of the popular vote to Romney's 206 electoral votes and 47.2% of the popular vote.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

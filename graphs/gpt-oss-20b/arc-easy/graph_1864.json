@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Molecules are produced by electric current in a wire, as demonstrated by Michael Faraday.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemicals are produced by electric current in a wire, as demonstrated by Michael Faraday.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A vibration is produced by electric current in a wire, as shown by Michael Faraday.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A magnetic field is produced by electric current in a wire, as demonstrated by Michael Faraday.",
+      "strength": 0.22624448648282072
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hans Christian Ørsted demonstrated that a current-carrying wire is surrounded by a circular magnetic field.",
+      "strength": 0.5999999723208136
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Soon thereafter he published his findings, proving that an electric current produces a magnetic field as it flows through a wire.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In April 1820, Hans Christian Ørsted observed that an electrical current in a wire caused a nearby compass needle to move.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Faraday is also responsible for discovering the laws of electrolysis, and for popularising terminology such as anode, cathode, electrode, and ion, terms proposed in large part by William Whewell.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

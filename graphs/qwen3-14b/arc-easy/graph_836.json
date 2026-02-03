@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stress due to the movement of Earth's crustal plates is the most likely cause of an earthquake that occurs in western Nevada.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravitational variation due to the Moon's orbit around Earth is the most likely cause of an earthquake occurring in western Nevada.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Temperature variation due to Earth's orbit around the Sun is the most likely cause of the earthquake that occurs in western Nevada.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rotational imbalance due to changes in the location of Earth's poles is the most likely cause of an earthquake that occurs in western Nevada.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earthquakes are caused mostly by the rupture of geological faults but also by other events such as volcanic activity, landslides, mine blasts, fracking and nuclear tests.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tectonic earthquakes occur anywhere on the earth where there is sufficient stored elastic strain energy to drive fracture propagation along a fault plane.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

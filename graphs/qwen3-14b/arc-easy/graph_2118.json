@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Gulf Stream is the cause of rising surface temperatures of the Pacific Ocean, drought in the western United States, and flooding on the Pacific coast of South America.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The jet stream is the cause of rising surface temperatures of the Pacific Ocean, drought in the western United States, and flooding on the Pacific coast of South America.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "La Niña is the cause of rising surface temperatures of the Pacific Ocean, drought in the western United States, and flooding on the Pacific coast of South America.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "El Niño is the cause of rising surface temperatures of the Pacific Ocean, drought in the western United States, and flooding on the Pacific coast of South America.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "La Niña phase... sea surface temperature across the eastern equatorial part of the central Pacific Ocean will be lower than normal by 3–5 °C (5.4–9 °F).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During strong El Niño episodes, a secondary peak in sea surface temperature across the far eastern equatorial Pacific Ocean sometimes follows the initial peak.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

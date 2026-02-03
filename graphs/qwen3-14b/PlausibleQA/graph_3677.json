@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "uruguay is located along what body of water. Atlantic Ocean",
+      "strength": 0.7499999120507714
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "uruguay is located along what body of water. Rio de la Plata",
+      "strength": 0.7499999120507714
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "uruguay is located along what body of water. South Atlantic Ocean",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "uruguay is located along what body of water. Bay of Montevideo",
+      "strength": 0.5999088118033908
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Uruguay ... bordering the Río de la Plata to the south and the Atlantic Ocean to the southeast.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Río de la Plata forms part of the border between Argentina and Uruguay.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Río de la Plata empties into the Atlantic Ocean.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Bay of Montevideo is located in Uruguay",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

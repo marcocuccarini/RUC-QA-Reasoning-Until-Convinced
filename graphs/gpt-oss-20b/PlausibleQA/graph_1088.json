@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. King Arthur",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. Sir Lancelot",
+      "strength": 0.1539393500995737
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. Sir Gawain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. Arthuriad",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Modredus (Mordred) married Guenhuuara (Guinevere)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lancelot and his adulterous relationship with Arthur's queen Guinevere",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Guinevere was, according to Arthurian legend, an early-medieval queen of Great Britain and the wife of King Arthur.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Guinevere meets Lancelot one last time, refusing to kiss him, then returns to the convent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

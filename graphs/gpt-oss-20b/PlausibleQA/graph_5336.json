@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which one of these countries is not a permanent member of the UN Security Council, with the power to veto any substantive resolution. Australia",
+      "strength": 0.749908253488935
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which one of these countries is not a permanent member of the UN Security Council, with the power to veto any substantive resolution. Canada",
+      "strength": 0.749908253488935
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which one of these countries is not a permanent member of the UN Security Council, with the power to veto any substantive resolution. Sweden",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which one of these countries is not a permanent member of the UN Security Council, with the power to veto any substantive resolution. Uganda",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Australia was one of the first non-permanent members of the Security Council.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The five permanent members of the Security Council are the Republic of China, France, the Soviet Union, the United Kingdom, and the United States.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The five permanent members of the United Nations Security Council are the five sovereign states to whom the UN Charter of 1945 grants a permanent seat on the UN Security Council: China, France, Russia, United Kingdom, and United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

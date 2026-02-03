@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pituitary is the gland that secretes growth hormones.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The pineal gland secretes growth hormones.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Adrenal secretes growth hormones.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The thyroid gland is the gland that secretes growth hormones.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The anterior pituitary regulates several physiological processes by secreting hormones. This includes stress (by secreting ACTH), growth (by secreting GH), reproduction (by secreting FSH and LH), metabolism rate (by secreting TSH) and lactation (by secreting prolactin).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From week 12 to week 16, the anterior pituitary starts to produce hormones, notably growth hormone and around the 12th to 16th week of gestation, the anterior pituitary begins producing hormones like growth hormone (GH), and adrenocorticotropic hormone (ACTH), essential for fetal development.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

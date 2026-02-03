@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Football League club play their home games at Kingsmeadow, also known as the Cherry Red Records Stadium. Chelsea FC",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Football League club play their home games at Kingsmeadow, also known as the Cherry Red Records Stadium. Fulham FC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Football League club play their home games at Kingsmeadow, also known as the Cherry Red Records Stadium. Queens Park Rangers",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Football League club play their home games at Kingsmeadow, also known as the Cherry Red Records Stadium. AFCW",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The club played at the 4,850 capacity Kingsmeadow in Kingston upon Thames until May 2020.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2015, AFC Wimbledon agreed plans to sell Kingsmeadow to Chelsea in order to help finance their plans to move to a new stadium in Merton.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

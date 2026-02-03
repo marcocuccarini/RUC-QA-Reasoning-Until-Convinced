@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American carnivorous mammal feeds by night, habitually dipping its prey into water before eating. Otter",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American carnivorous mammal feeds by night, habitually dipping its prey into water before eating. Mink",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American carnivorous mammal feeds by night, habitually dipping its prey into water before eating. Fisher",
+      "strength": 0.25000009340748447
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American carnivorous mammal feeds by night, habitually dipping its prey into water before eating. Racoon",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The fisher rarely eats fish.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An omnivore, it feeds on a wide variety of small animals and occasionally on fruits and mushrooms.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Raccoons carry their food to water to wash or douse it before eating.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

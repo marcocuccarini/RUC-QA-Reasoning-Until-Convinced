@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In Harry Potter And The Goblet Of Fire, which dragon did Harry have to defeat. Norbert",
+      "strength": 0.1405080681075724
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In Harry Potter And The Goblet Of Fire, which dragon did Harry have to defeat. Scorch",
+      "strength": 0.2263409186126477
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In Harry Potter And The Goblet Of Fire, which dragon did Harry have to defeat. Ember",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In Harry Potter And The Goblet Of Fire, which dragon did Harry have to defeat. Gurg",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text does not mention the dragon's name.",
+      "strength": 0.5999999801007759
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No dragon name appears in the text.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text lists only website names and does not mention Norbert.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text lists only website names and does not mention Scorch.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

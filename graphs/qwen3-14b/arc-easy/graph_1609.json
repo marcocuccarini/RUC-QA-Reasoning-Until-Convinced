@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lizard, frog, snake are the group of animals that contains only reptiles.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Turtle, lizard, and crocodile are the group of animals that contains only reptiles.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Octopus, snail, turtle is the group of animals that contains only reptiles.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crab, earthworm, snake is a group of animals that contains only reptiles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Turtles (order Testudines) are reptiles characterized by a special shell developed mainly from their ribs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some early morphological phylogenetic studies have placed turtles closer to Lepidosauria (tuataras, lizards, and snakes) than to Archosauria (crocodilians and birds).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

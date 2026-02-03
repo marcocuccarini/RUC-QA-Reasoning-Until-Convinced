@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British playwright was killed with a hammer by his lover Keith Haliwell in 1967. John Osborne",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British playwright was killed with a hammer by his lover Keith Haliwell in 1967. Harold Pinter",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British playwright was killed with a hammer by his lover Keith Haliwell in 1967. Tom Stoppard",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British playwright was killed with a hammer by his lover Keith Haliwell in 1967. Joe Orton",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Kingsley Orton, known by the pen name of Joe Orton, was an English playwright, author, and diarist. His public career, from 1964 until his murder in 1967 by his partner, was short but highly influential.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 9 August 1967, Halliwell bludgeoned to death the 34-year-old Orton at their home in Noel Road with nine hammer blows to the head.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

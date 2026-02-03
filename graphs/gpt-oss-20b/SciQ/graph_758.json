@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pseudocoelom is the partial body cavity filled with fluid in roundworms.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The abdomen is the partial body cavity filled with fluid in roundworms.",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cocklebur is a partial body cavity filled with fluid in roundworms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Spicule is the partial body cavity filled with fluid in roundworms.",
+      "strength": 0.40000000008898207
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During copulation, one or more chitinized spicules move out of the cloaca and are inserted into the genital pore of the female.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The abdominal cavity occupies the entire lower half of the trunk.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pseudocoelomate animals have a pseudocoelom which is a fluid filled body cavity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

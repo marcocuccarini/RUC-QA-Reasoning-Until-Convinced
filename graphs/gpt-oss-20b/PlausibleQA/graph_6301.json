@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor succeeded his father Vespasian in 79. Domitian",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor succeeded his father Vespasian in 79. Nerva",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor succeeded his father Vespasian in 79. Trajan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor succeeded his father Vespasian in 79. Titus",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vespasian died of an infection on 23 or 24 June 79 AD, and was immediately succeeded by his son Titus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After barely two years in office, Titus died of a fever on 13 September 81 AD. He was deified by the Roman Senate and succeeded by his younger brother Domitian.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

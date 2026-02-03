@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Burning the tires is the best way to dispose of scrap tires, which are old, worn‑out rubber tires, for the environment.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dumping the tires in a lake is the best way to dispose of old, worn‑out rubber tires (scrap tires) for the environment.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Burying the tires in a landfill is the best way of disposing of old, worn‑out rubber tires—called scrap tires—for the environment.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Taking the tires to a recycling center is the best way to dispose of old, worn‑out rubber scrap tires for the environment.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tires can be reclaimed into, among other things, the hot melt asphalt, typically as crumb rubber modifier—recycled asphalt pavement (CRM—RAP), and as an aggregate in Portland cement concrete.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tire fires can easily occur, burning for long periods, up to a month and also creating substantial pollution in the air and ground.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

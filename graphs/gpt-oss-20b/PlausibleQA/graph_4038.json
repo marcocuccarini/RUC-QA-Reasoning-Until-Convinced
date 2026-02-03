@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the second biggest state in the united states. Texas",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the second biggest state in the united states. California",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the second biggest state in the united states. Montana",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the second biggest state in the united states. Hawaii",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Texas is the second-largest U.S. state by both area and population.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Texas is the second-largest U.S. state by area, after Alaska, and the largest state within the contiguous United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

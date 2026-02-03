@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From which country does the food brand Del Monte originate. Italy",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From which country does the food brand Del Monte originate. Philippines",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From which country does the food brand Del Monte originate. Brazil",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From which country does the food brand Del Monte originate. US",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Del Monte Foods Inc. is an American food production and distribution company and subsidiary of NutriAsia, headquartered in Walnut Creek, California.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the 1880s, an Oakland, California, foods distributor used the Del Monte name to market a premium blend of coffee that had been prepared for the hotel.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

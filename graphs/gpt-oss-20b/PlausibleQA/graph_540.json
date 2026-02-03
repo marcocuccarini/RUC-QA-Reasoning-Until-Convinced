@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Aesculus hippocastanum is the Latin name for which tree. Horse Chestnut",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aesculus hippocastanum is the Latin name for which tree. Buckeye",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Aesculus hippocastanum is the Latin name for which tree. Sweet Chestnut",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aesculus hippocastanum is the Latin name for which tree. Cheggying",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aesculus hippocastanum, the horse chestnut, is a species of flowering plant in the maple, soapberry and lychee family Sapindaceae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is not to be confused with the sweet chestnut or Spanish chestnut, Castanea sativa, which is a tree in another family, Fagaceae.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Criminology",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Psychology",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Forensics",
+      "strength": 0.5999029153259441
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What science does Sir Arthur Conan Doyle's creation, Sherlock Holmes, practise. Detection",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Skeptoid #821: Forensic (Pseudo) Science.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He uses analytical chemistry for blood residue analysis and toxicology to detect poisons; Holmes's home chemistry laboratory is mentioned in 'The Naval Treaty'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ballistics feature in 'The Adventure of the Empty House' when spent bullets are recovered to be matched with a suspected murder weapon, a practice which became regular police procedure only some fifteen years after the story was published.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

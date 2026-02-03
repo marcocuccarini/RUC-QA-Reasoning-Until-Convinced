@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 1,200 feet",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 950 feet",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 1,500 feet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 1,149 feet",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Stratosphere's observation tower is 1,149 ft (350.2 m) tall, the tallest in the United States and the second-tallest in the Western Hemisphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The tower is not considered a building, according to the Council on Tall Buildings and Urban Habitat.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The tallest building in Las Vegas is the Fontainebleau Las Vegas, which rises 735 feet (224 m) and was topped out in November 2008.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Stratosphere's observation tower is 1,149 feet (350 m) tall, the tallest in the United States and the second-tallest in the Western Hemisphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

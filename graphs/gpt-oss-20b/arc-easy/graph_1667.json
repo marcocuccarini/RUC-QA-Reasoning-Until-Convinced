@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Action potential is the rapid change in membrane potential that occurs when a neuron is stimulated, enabling neurons to respond to stimuli, transmit impulses, and coordinate body functions.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Resting potential indicates the rapid change in the membrane potential when a neuron is stimulated, as neurons respond to stimuli and transmit impulses to coordinate body functions.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The refractory period is the rapid change in the membrane potential that occurs when a neuron is stimulated, as part of how neurons respond to stimuli and transmit impulses to coordinate body functions.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Threshold period is the rapid change in the membrane potential that occurs when a neuron is stimulated, reflecting the neuron's response to stimuli and its role in coordinating body functions.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Action potentials occur when the membrane potential of a specific cell rapidly rises and falls.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The period during which no new action potential can be fired is called the absolute refractory period.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The cell membrane of the axon and soma contain voltage-gated ion channels that allow the neuron to generate and propagate an electrical signal (an action potential).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When an action potential reaches the axon terminal, it opens voltage-gated calcium channels, allowing calcium ions to enter the terminal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

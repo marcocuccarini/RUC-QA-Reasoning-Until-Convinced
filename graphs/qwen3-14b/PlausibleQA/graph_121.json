@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. Edward II",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. Richard II",
+      "strength": 0.25008816554121593
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. Henry IV",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which King of England had two wives, both named Isabella. John",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Richard II married Isabella of Valois, daughter of Charles VI of France, when she came of age.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Richard II married Anne of Bohemia, daughter of Charles IV, Holy Roman Emperor, on 20 January 1382.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

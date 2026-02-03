@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. Rod Laver",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. Roy Emerson",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. Ken Rosewall",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which tennis player played in three consecutive men's singles finals at Wimbledon between 1963 and 1965, losing on all three occasions. FRED STOLLE",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stolle finished as runner-up in these tournaments and losing to compatriot Roy Emerson on no fewer than five occasions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Stolle lost to Roy Emerson on no fewer than five occasions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is the best conductor of electricity.",
+      "strength": 0.40000000007735736
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glass is the best conductor of electricity.",
+      "strength": 0.4000876126562776
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water is the best conductor of electricity.",
+      "strength": 0.40000008398857245
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood is the best conductor of electricity.",
+      "strength": 0.40000000007735736
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wood is widely regarded as an extremely good insulator, but its resistivity is sensitively dependent on moisture content, with damp wood being a factor of at least 1010 worse insulator than oven-dry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A vacuum does not conduct electricity at all.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pure water has a low electrical conductivity, which increases with the dissolution of a small amount of ionic material such as common salt.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lead glasses therefore have high electrical resistance, about two orders of magnitude higher than soda–lime glass (108.5 vs 106.5 Ω⋅cm, DC at 250 °C).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

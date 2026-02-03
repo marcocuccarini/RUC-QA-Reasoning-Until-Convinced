@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lake Neuchatel is in which country. France",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lake Neuchatel is in which country. Germany",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lake Neuchatel is in which country. Italy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lake Neuchatel is in which country. Suiza",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lake Neuchâtel is a lake primarily in Romandy, the French-speaking part of Switzerland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The lake lies mainly in the canton of Neuchâtel, but is also shared by the cantons of Vaud, Fribourg, and Bern.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

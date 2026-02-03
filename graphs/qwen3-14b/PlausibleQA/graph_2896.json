@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What meat is traditionally used in a Wiener Schnitzel. Pork",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What meat is traditionally used in a Wiener Schnitzel. Chicken",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What meat is traditionally used in a Wiener Schnitzel. Beef",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What meat is traditionally used in a Wiener Schnitzel. Veall",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Austrian law requires that Wiener Schnitzel be made of veal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The dish is prepared from butterfly-cut veal slices, about 4 mm in thickness and lightly pounded flat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

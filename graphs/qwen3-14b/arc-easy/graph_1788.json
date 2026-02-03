@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Glass rod is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A wooden stick is the best conductor of electricity.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic straw is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A metal nail is the best conductor of electricity.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A conductor such as a metal has high conductivity and a low resistivity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wood is widely regarded as an extremely good insulator, but its resistivity is sensitively dependent on moisture content, with damp wood being a factor of at least 1010 worse insulator than oven-dry.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

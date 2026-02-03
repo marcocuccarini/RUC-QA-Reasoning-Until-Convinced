@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Square is the shape most like the diagram Ernie drew to model Earth's orbit.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oval is the shape most like the diagram Ernie drew to model Earth’s orbit.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Triangle is the shape most like the diagram Ernie drew to model Earth's orbit.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rectangle is the shape most like what Ernie drew for Earth's orbit in his diagram.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The orbit of each planet in the Solar System is approximately an ellipse with the Sun at one focus point.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

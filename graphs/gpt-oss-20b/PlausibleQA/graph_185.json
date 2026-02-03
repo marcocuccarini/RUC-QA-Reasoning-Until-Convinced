@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the helicopter used to transport the President of the United States. VH-3D Sea King",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the helicopter used to transport the President of the United States. VH-60N White Hawk",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the helicopter used to transport the President of the United States. UH-1N Iroquois",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the helicopter used to transport the President of the United States. Marine I",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The current fleet is made up of the VH-3D, the VH-60N 'Whitehawk', the VH-92, and the MV-22.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the late 1970s, the VH-3As were retired and replaced by the upgraded VH-3D.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

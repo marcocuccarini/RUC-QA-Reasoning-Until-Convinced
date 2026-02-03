@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Glass rod is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A wooden stick is the best conductor of electricity.",
+      "strength": 0.4000000447316251
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic straw is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A metal nail is the best conductor of electricity.",
+      "strength": 0.5999029125598947
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wood is widely regarded as an extremely good insulator, but its resistivity is sensitively dependent on moisture content, with damp wood being a factor of at least 1010 worse insulator than oven-dry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Calcium and the alkali metals have the best resistivity-density products, but are rarely used for conductors due to their high reactivity with water and oxygen, and lack of physical strength.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Aluminium is frequently used rather than copper for long-distance overhead power lines, because it is lighter for the same conductance.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When a metal wire is subjected to electric force applied on its opposite ends, these free electrons rush in the direction of the force, thus forming what we call an electric current.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

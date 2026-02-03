@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In what year was the most recent census in the UK . 2011",
+      "strength": 0.5999048341518065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In what year was the most recent census in the UK . 1991",
+      "strength": 0.40000004297767305
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In what year was the most recent census in the UK . 2021",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In what year was the most recent census in the UK . 2001",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most recent UK census took place in England, Wales and Northern Ireland on 21 March 2021.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because of the COVID-19 pandemic, the census in Scotland was delayed to 20 March 2022.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The UK Census of Population 2011 is available as an official archived version.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The UK Census of Population 1981 (Concepts and Techniques in Modern Geography)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The 2011 census was held in all countries of the UK on 27 March 2011.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The first results from the 2011 census, age and sex, and occupied households estimates for England and Wales and Northern Ireland, were released on 16 July 2012.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They are pure, the property that most rocks and minerals share, as rocks and minerals are common materials found on Earth.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They are solid is the property that most rocks and minerals, common materials found on Earth, share.",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They are liquid is the property that most rocks and minerals share, as rocks and minerals are common materials found on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They are magnetic is the property that most rocks and minerals share, as common materials found on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In contrast, a rock sample is a random aggregate of minerals and/or mineraloids, and has no specific chemical composition.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In geology, a rock (also called a stone) is any naturally occurring solid mass or aggregate of minerals or mineraloid matter.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Some rocks also contain mineraloids, which are rigid, mineral-like substances, such as volcanic glass, that lack crystalline structure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

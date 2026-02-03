@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "element named after fictional planet from which superman came. Promethium",
+      "strength": 0.4000000465571573
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "element named after fictional planet from which superman came. Barium",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "element named after fictional planet from which superman came. Radium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "element named after fictional planet from which superman came. Kryptonite",
+      "strength": 0.5999029143854268
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The planet was named after the chemical element krypton.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When Krypton was destroyed, fragments from the planet were launched into space, resulting in the creation of a harmful radioactive substance known as kryptonite.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Kryptonite was officially introduced in the radio serial The Adventures of Superman, in the story 'The Meteor from Krypton', broadcast in June 1943.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Kryptonite is a mineral from the planet Krypton that drains Superman of his strength and gives superhuman powers to humans.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

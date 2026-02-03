@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Helium (He) is a compound.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrochloric acid (HCl) is a compound.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen (H2) is a compound.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nitrogen (N₂) is a compound.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hydrochloric acid, also known as muriatic acid or spirits of salt, is an aqueous solution of hydrogen chloride (HCl).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hydrogen chloride is produced by combining chlorine and hydrogen: Cl2 + H2 → 2 HCl.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A molecule consisting of atoms of only one element is therefore not a compound.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A chemical compound is a chemical substance composed of many identical molecules (or molecular entities) containing atoms from more than one chemical element held together by chemical bonds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

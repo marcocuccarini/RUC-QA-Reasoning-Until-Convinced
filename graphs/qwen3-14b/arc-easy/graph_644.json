@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Malleable is a chemical property of silver.",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "White metal is a chemical property of silver.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Conductor of heat is a chemical property of silver.",
+      "strength": 0.5999999090162662
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reacting with nitric acid is a chemical property of silver.",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Silver is extremely ductile and malleable.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Silver exhibits the highest thermal conductivity of any metal.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Silver can be prepared by dissolving it in nitric acid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

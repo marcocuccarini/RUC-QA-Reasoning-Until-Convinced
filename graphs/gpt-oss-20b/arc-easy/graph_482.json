@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Noble gases are copper, silver, and nickel, which are classified as such in the context of the periodic table of elements.",
+      "strength": 0.15393935008213258
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Transition metals are the classification for copper, silver, and nickel.",
+      "strength": 0.5999031108796091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Halogens are copper, silver, and nickel.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nonmetals are the classification for copper, silver, and nickel.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Copper, silver, and gold are in group 11 of the periodic table.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These three metals have one s-orbital electron on top of a filled d-electron shell.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Silver does not react with air, even at red heat, and thus was considered by alchemists as a noble metal, along with gold.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Silver is a soft, whitish-gray, lustrous transition metal, and it exhibits the highest electrical conductivity, thermal conductivity, and reflectivity of any metal.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Nickel is a hard and ductile transition metal.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Nickel is one of four elements that are ferromagnetic at or near room temperature; the others are iron, cobalt, and gadolinium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

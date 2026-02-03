@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lymphocytes are the type of cells in which B cells are produced in the body.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Keratinocytes are where B cells are produced in the body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tumors are where B cells are produced in the body.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lungs are where B cells are produced in the body.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "B cells, also known as B lymphocytes, are a type of lymphocyte.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "B cells mature in the bone marrow, which is at the core of most bones.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

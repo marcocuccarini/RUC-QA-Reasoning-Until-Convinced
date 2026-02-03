@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sitting at a desk is an example of work, because work is defined as the product of force and distance.",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pushing on a wall is an example of work, which is the product of force and distance.",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Riding a bike is an example of work, which is a product of force and distance.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reading a book is an example of work, since work is a product of force and distance.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "integrating with respect to position gives a definition for the work done by a force: W = ∫ F ⋅ dx",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the work done by a force: W = ∫ F ⋅ dx, which is equivalent to changes in kinetic energy (yielding the work energy theorem)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

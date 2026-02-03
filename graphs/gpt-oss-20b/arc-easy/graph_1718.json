@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Anemometer is what meteorologists use to measure the amount of precipitation that falls during a storm.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Barometer is the device meteorologists use to measure the amount of precipitation that falls during a storm.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rain gauge is the instrument meteorologists use to measure the amount of precipitation that falls during a storm.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weather vane is what meteorologists use to measure the amount of precipitation that falls during a storm.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A rain gauge (also known as udometer, ombrometer, pluviometer and hyetometer) is an instrument used by meteorologists and hydrologists to gather and measure the amount of liquid precipitation in a predefined area, over a set period of time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A weighing-type precipitation gauge consists of a storage bin, which is weighed to record the mass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

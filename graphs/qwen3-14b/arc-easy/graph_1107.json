@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Grams is the best unit of measurement for the volume of water that students collect in their beakers when they collect pond water.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Meters are the best unit of measurement for the volume of water students collect from the pond in their beakers.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Milliliters are the best unit of measurement for the volume of water that students collect from the pond when they collect it in their beakers.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Centimeters are the best unit of measurement for the volume of water that students collect in their beakers when sampling pond water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Milliliters are the most commonly used derived unit for measuring volume, such as in laboratory settings.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cubic meters are generally used for non-liquid commodities, not for measuring liquid volumes in beakers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

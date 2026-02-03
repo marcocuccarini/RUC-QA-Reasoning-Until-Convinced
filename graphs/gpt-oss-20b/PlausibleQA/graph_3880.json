@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Lithuania",
+      "strength": 0.49990326586195494
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Russia",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Hungary",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Polnd",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The royal election of 1764 resulted in the elevation of Stanisław II Augustus Poniatowski to the monarchy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Stanisław II August (born Stanisław Antoni Poniatowski; 17 January 1732 – 12 February 1798), known also by his regnal Latin name Stanislaus II Augustus, and as Stanisław August Poniatowski (Lithuanian: Stanislovas Augustas Poniatovskis), was King of Poland and Grand Duke of Lithuania from 1764 to 1795, and the last monarch of the Polish–Lithuanian Commonwealth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

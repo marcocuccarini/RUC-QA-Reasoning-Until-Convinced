@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won in the brown vs board of education case. Plaintiffs",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won in the brown vs board of education case. The NAACP",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won in the brown vs board of education case. The Supreme Court",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won in the brown vs board of education case. defendants",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On May 17, 1954, the Supreme Court issued a unanimous 9–0 decision in favor of the Brown family and the other plaintiffs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), was a landmark decision of the United States Supreme Court which ruled that U.S. state laws establishing racial segregation in public schools violate the Equal Protection Clause of the Fourteenth Amendment and hence are unconstitutional, even if the segregated facilities are presumed to be equal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

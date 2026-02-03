@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A lightweight core surrounded by neutral particles is the best description of the structure of an atom.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A massive core surrounded by negatively-charged particles best describes the structure of an atom.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A network of interacting positive and negative particles best describes the structure of an atom.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Overlapping layers of neutral, positive, and negative particles best describe the structure of an atom.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Almost all of the mass of an atom is located in the nucleus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An atom is composed of a positively charged nucleus, with a cloud of negatively charged electrons surrounding it, bound together by electrostatic force.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The electron (e−, or β− in nuclear reactions) is a subatomic particle whose electric charge is negative one elementary charge.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The chemical bond between atoms occurs as a result of electromagnetic interactions, as described by the laws of quantum mechanics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

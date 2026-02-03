@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What fairy tale features a wolf who tries to “huff and puff and blow your house in”. Little Red Riding Hood",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What fairy tale features a wolf who tries to “huff and puff and blow your house in”. The Boy Who Cried Wolf",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What fairy tale features a wolf who tries to “huff and puff and blow your house in”. Goldilocks and the Three Bears",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What fairy tale features a wolf who tries to “huff and puff and blow your house in”. 3 Little Pigs",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Big Bad Wolf blows down the first two pigs' houses which are made of straw and sticks respectively",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "but is unable to destroy the third pig's house that is made of bricks",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

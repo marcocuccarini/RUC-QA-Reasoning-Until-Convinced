@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the world's third largest desert. Sahara",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the world's third largest desert. Arabian Desert",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the world's third largest desert. Great Victoria Desert",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the world's third largest desert. 戈壁",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Sahara is the third-largest desert overall, smaller only than the deserts of Antarctica and the northern Arctic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sahara is the world's largest hot desert.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

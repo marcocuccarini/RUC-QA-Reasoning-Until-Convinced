@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stormy weather can be expected if a center of low pressure is moving your way.",
+      "strength": 0.8460569429910396
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rain is the kind of weather you can expect when a center of low pressure is moving your way.",
+      "strength": 0.5999999851101354
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rough weather can be expected when a center of low pressure is moving your way.",
+      "strength": 0.6323528604083873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sunny is the kind of weather you can expect if a center of low pressure is moving your way.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Low-pressure areas are commonly associated with inclement weather (such as cloudy, windy, with possible rain or storms).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The stronger the pressure difference between a high-pressure system and a low-pressure system, the stronger the wind.",
+      "strength": 0.5999999851101354
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cold fronts often bring rain, and sometimes heavy thunderstorms as well.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Low pressure also creates surface winds deriving from high pressure zones and vice versa.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "A tropical cyclone is a storm system with a closed circulation around a centre of low pressure.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "A rapid deepening of a mid-latitude cyclonic low-pressure area is a bomb cyclone.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

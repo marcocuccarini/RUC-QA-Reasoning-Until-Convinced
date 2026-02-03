@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many Bond themes did Shirley Bassey sing. 1",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many Bond themes did Shirley Bassey sing. 2",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many Bond themes did Shirley Bassey sing. 4",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many Bond themes did Shirley Bassey sing. 3",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "recording the theme songs to three James Bond films – the only artist to officially perform more than one.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bassey recorded a song for the next Bond film, Thunderball (1965).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The song was the second James Bond theme performed by Bassey, following her 1964 hit 'Goldfinger'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

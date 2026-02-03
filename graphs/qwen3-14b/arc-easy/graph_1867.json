@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wind is the agent most likely responsible for depositing rock layers composed of sand-sized particles.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is most likely responsible for depositing rock layers with sand‑sized particles.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Glaciers are the most likely agents that deposited rock layers with sand-sized particles.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Landslides are most likely responsible for depositing rock layers that contain sand-sized particles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aeolian processes are those processes of erosion, transport, and deposition of sediments that are caused by wind at or near the surface of the earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The thickest known deposit of loess, up to 350 meters (1,150 ft), is on the Loess Plateau in China. This very same Asian dust is blown for thousands of miles, forming deep beds in places as far away as Hawaii.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

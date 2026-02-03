@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which football team plays its home games at Portman Road. Ipswich Town FC",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which football team plays its home games at Portman Road. Norwich City FC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which football team plays its home games at Portman Road. Colchester United",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which football team plays its home games at Portman Road. ITFC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ipswich Town have played their home games at Portman Road since 1884.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The club's traditional home colours are blue shirts with white shorts and blue socks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

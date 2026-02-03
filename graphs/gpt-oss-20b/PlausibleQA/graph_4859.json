@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A footpad was a criminal from the 16th to 19th century but what term is used to describe them today. Thief",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A footpad was a criminal from the 16th to 19th century but what term is used to describe them today. Robber",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A footpad was a criminal from the 16th to 19th century but what term is used to describe them today. Bandit",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A footpad was a criminal from the 16th to 19th century but what term is used to describe them today. MUGGER",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The modern usage—referring to robbery against an individual, often by a group—originated in the 1940s among criminals and police.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mugging is a common term for personal robbery, though personal robbery also encompasses forms of theft such as carjacking.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

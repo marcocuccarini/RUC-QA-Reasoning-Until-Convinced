@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electroluminescence is the process by which a neon light produces visible light.",
+      "strength": 0.1539393500995737
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Luminescence is the process by which a neon light produces visible light.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Radiation is the process by which a neon light produces visible light.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mitosis is how a neon light produces visible light.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Unlike neon and fluorescent lamps, EL lamps are not negative resistance devices so no extra circuitry is needed to regulate the amount of current flowing through them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electroluminescence is the result of radiative recombination of electrons and holes in a material, usually a semiconductor.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The lamp glow discharge lights at its striking voltage.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The glowing portion in the lamp is a thin region near the cathode.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

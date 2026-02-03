@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Refracted is what most of the light becomes when it hits a mirror.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Reflected light is most of the light when light hits a mirror.",
+      "strength": 0.5999031108796091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Absorbed is what most of the light becomes when it hits a mirror.",
+      "strength": 0.2500000933900436
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transmitted is the majority of the light when light hits a mirror.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the most general case, a certain fraction of the light is reflected from the interface, and the remainder is refracted.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Note that these are theoretical ideals, requiring perfect alignment of perfectly smooth, perfectly flat perfect reflectors that absorb none of the light.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Polished metallic objects can specularly reflect light very efficiently.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The reflecting material of mirrors is usually aluminum or silver.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "An opaque object does not allow light to transmit through and instead reflecting or absorbing the light it receives.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

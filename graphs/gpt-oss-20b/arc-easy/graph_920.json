@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stems make seeds is the plant part described correctly.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Roots absorb nutrients is the plant part described correctly.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Leaves absorb water is the plant part described correctly.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Flowers are the plant parts that make food, correctly described in the question.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Root hairs form that absorb water and mineral nutrients from the soil.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Root epidermal cells and root hairs take up soil water and dissolved ions; these are then conducted to the shoot via the xylem.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

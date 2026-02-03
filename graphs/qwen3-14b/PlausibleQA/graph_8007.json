@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who designed the first toy released by nintendo. Masayuki Uemura",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who designed the first toy released by nintendo. Hiroshi Yamauchi",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who designed the first toy released by nintendo. Shigeru Miyamoto",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who designed the first toy released by nintendo. Gunpei Yokoi",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1966, Hiroshi Yamauchi took notice of a toy made by Gunpei Yokoi during his spare time and ordered him to develop it as a proper product for the Christmas rush. The Ultra Hand was a huge success and became a flagship product for Nintendo.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gunpei Yokoi, Nintendo's main toy designer at the time, discussed with him the possibility of using Sharp's solar cells on interesting products, using their light-detecting capabilities for a shooting game.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

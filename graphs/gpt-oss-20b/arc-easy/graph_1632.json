@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kinetic energy is the type of energy measured by the 215‑calorie unit on the cereal box that a student reads when checking the nutritional information.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemical energy is the type of energy measured by the unit of calories when a student reads that a single serving of cereal contains 215 calories.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrical is the type of energy being measured by the unit of calories in a single serving of cereal that contains 215 calories.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mechanical energy is the type of energy measured by the unit calories, as indicated by the single serving of cereal containing 215 calories that a student reads on the box.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The unit is most commonly used to express food energy, namely the specific energy (energy per mass) of metabolizing different types of food.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The calorie is a unit of energy that originated from the caloric theory of heat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "FIDE (Federation Internationale Des Echecs) is the world federation of which activity. Chess",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "FIDE (Federation Internationale Des Echecs) is the world federation of which activity. Boxing",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "FIDE (Federation Internationale Des Echecs) is the world federation of which activity. Tennis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "FIDE (Federation Internationale Des Echecs) is the world federation of which activity. Cög",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The International Chess Federation or World Chess Federation, commonly referred to by its French acronym FIDE ( FEE-day, Fédération Internationale des Échecs), is an international organization based in Switzerland that connects the various national chess federations and acts as the governing body of international chess competition.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "FIDE is recognized by the International Olympic Committee (IOC) as the supreme body responsible for the organization of chess and its championships at global and continental levels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

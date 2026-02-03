@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Atom is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Compound is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mixture is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solution is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A compound can be converted, via chemical reaction, into compounds or substances each having fewer atoms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

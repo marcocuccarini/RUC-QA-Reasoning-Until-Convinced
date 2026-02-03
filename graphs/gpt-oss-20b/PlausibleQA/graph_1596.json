@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 1995, Steffi Graf became the only tennis player to have won each of the four grand slam events how many times. 3",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 1995, Steffi Graf became the only tennis player to have won each of the four grand slam events how many times. 2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 1995, Steffi Graf became the only tennis player to have won each of the four grand slam events how many times. 6",
+      "strength": 0.3420225812125034
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 1995, Steffi Graf became the only tennis player to have won each of the four grand slam events how many times. 4",
+      "strength": 0.3420225812125034
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Graf won seven singles titles at Wimbledon, six singles titles at the French Open, five singles titles at the US Open, and four singles titles at the Australian Open.",
+      "strength": 0.6799289228560699
+    },
+    "A5": {
+      "type": "argument",
+      "text": "only female players are Evonne Goolagong Cawley, Margaret Court, Billie Jean King, Chris Evert, Martina Navratilova, Steffi Graf, Serena Williams, Iga Swiatek, Maria Sharapova, Garbiñe Muguruza, Simona Halep and Ashleigh Barty.",
+      "strength": 0.7499778194407085
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Chris Evert is the only woman to have won US Open singles titles on two surfaces (clay and hardcourt).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1973, the US Open became the first Grand Slam tournament to award equal prize money to men and women, with that year's singles champions, John Newcombe and Margaret Court, receiving $25,000 each.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

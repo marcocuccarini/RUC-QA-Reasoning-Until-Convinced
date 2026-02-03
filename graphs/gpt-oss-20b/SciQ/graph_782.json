@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The troposphere is the part of the atmosphere where greenhouse gases trap heat.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Thermosphere is the part of the atmosphere in which greenhouse gases trap heat.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lithosphere is the part of the atmosphere where greenhouse gases trap heat.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Stratosphere is the part of the atmosphere in which greenhouse gases trap heat.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The large amount of CO2 in the atmosphere together with water vapour and sulfur dioxide create a strong greenhouse effect, trapping solar energy and raising the surface temperature to around 740 K (467 °C).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The increase of air temperature at stratospheric altitudes results from the ozone layer's absorption and retention of the ultraviolet (UV) radiation that Earth receives from the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is Paris's largest airport. Orly",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is Paris's largest airport. Le Bourget",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is Paris's largest airport. Beauvais",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is Paris's largest airport. DeGaulle",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2024, Charles de Gaulle Airport handled 70,290,260 passengers, making it the world's fourteenth busiest airport and Europe's third busiest airport.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Charles de Gaulle is the busiest airport within the European Union.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

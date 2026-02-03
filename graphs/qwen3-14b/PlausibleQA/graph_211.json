@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of coal is brown and fibrous. Peat",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of coal is brown and fibrous. Sub-bituminous coal",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of coal is brown and fibrous. Torbanite",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of coal is brown and fibrous. Lignite",
+      "strength": 0.5999999125837895
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Over time, the formation of peat is often the first step in the geological formation of fossil fuels such as coal, particularly low-grade coal such as lignite.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Torbanite is a variety of fine-grained black oil shale",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

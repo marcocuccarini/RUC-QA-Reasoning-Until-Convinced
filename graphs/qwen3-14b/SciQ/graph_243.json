@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An oocyte is a mature egg that has finished meiosis twenty‑four hours before fertilization.",
+      "strength": 0.16891879138867957
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Spermatozoa are the mature egg that has finished meiosis 24 hours before fertilization.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fetus is the mature form that the egg becomes twenty‑four hours before fertilization after it has finished meiosis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Zygote is the mature form of the egg twenty‑four hours before fertilization, after it has finished meiosis.",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The oocyte is arrested in Meiosis II at the stage of metaphase II at the diplotene stage and is considered a secondary oocyte.",
+      "strength": 0.4000000909837343
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An oocyte is an immature ovum, an immature egg cell produced in a female fetus in the ovary during gametogenesis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If these oocytes are fertilized by sperm, they will resume and complete meiosis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Female mammals and birds are born possessing all the oocytes needed for future ovulations, and these oocytes are arrested at the prophase I stage of meiosis.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The union of a human egg and sperm produces a zygote.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The zygote is formed after fertilization, not before.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

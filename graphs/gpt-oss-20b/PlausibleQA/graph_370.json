@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Dogs",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Cattle",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Horses",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The infectious disease roup affects which creatures. Poultry and pigeons",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Canine-specific rabies has been eradicated in the United States, but rabies is common among wild animals, and an average of 100 dogs become infected from other wildlife each year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other sources of rabies in humans include bats, monkeys, raccoons, foxes, skunks, cattle, wolves, coyotes, cats, and mongooses.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dogs are the primary cause of the virus infecting humans outside of the United States.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Birds were first artificially infected with rabies in 1884, with work being done on a large variety of species, including domestic fowl and pigeons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

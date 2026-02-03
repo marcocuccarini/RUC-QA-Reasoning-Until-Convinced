@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reading a book about farm fields is the activity that would best help the hiker determine whether air is warmer in the forest than in the nearby farm field.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Making a weather prediction for the forests is the activity that would best help the hiker find out whether the air is warmer in the forest than in the nearby farm field.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Measuring the wind speed at both locations is the activity that would best help the hiker determine whether air is warmer in the forest than in the nearby farm field.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Recording the temperatures at both locations is the best activity for the hiker to determine whether air is warmer in the forest than in the nearby farm field.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "datasets consisting of repeated standardized measurements can be used to assess temperature trends",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the wind chill factor makes the weather feel colder under windy conditions than calm conditions even though a glass thermometer shows the same temperature",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

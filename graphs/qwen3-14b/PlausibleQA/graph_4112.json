@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who presides over the joint sessions of parliament. Speaker of the House",
+      "strength": 0.4000911008641986
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who presides over the joint sessions of parliament. Prime Minister",
+      "strength": 0.40000000008380016
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who presides over the joint sessions of parliament. Chief Justice",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who presides over the joint sessions of parliament. President",
+      "strength": 0.4999088992196018
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The House of Commons is the most powerful of the components of Parliament, particularly due to its sole right to determine taxation and the supply of money to the government.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Speaker's place may be taken by the Chairman of Ways and Means, the First Deputy Chairman, or the Second Deputy Chairman.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Joint sessions are traditionally presided over by the speaker of the House.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Constitution requires the vice president (as president of the Senate) to preside over the counting of electoral votes by Congress.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The president of the Federal Senate presides over the Board of the National Congress in the joint sessions of both houses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

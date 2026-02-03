@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Noble gases are copper, silver, and nickel, which are classified as such in the context of the periodic table of elements.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Transition metals are the classification for copper, silver, and nickel.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Halogens are copper, silver, and nickel.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nonmetals are the classification for copper, silver, and nickel.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2011 IUPAC Principles define transition metals as elements in groups 3 to 12 on the periodic table.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Main-group element, an element other than a transition metal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

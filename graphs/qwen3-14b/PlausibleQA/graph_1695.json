@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which city in Saxony was known as Karl-Marx-Stadt from 1953 until 1990. Leipzig",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which city in Saxony was known as Karl-Marx-Stadt from 1953 until 1990. Dresden",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which city in Saxony was known as Karl-Marx-Stadt from 1953 until 1990. Zwickau",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which city in Saxony was known as Karl-Marx-Stadt from 1953 until 1990. CHEMNITZ",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 10 May 1953, the city was renamed by decision of the East German government to Karl-Marx-Stadt (German: Karl Marx City) after Karl Marx...",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chemnitz (German: [ˈkɛmnɪts] ; from 1953 to 1990: Karl-Marx-Stadt [kaʁlˈmaʁksˌʃtat]...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

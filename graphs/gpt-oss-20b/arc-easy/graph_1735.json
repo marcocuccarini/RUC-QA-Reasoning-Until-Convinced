@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Location and mass of the sample would probably be most helpful to someone trying to identify a mineral sample.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shape and texture of the sample are probably the most helpful information for someone trying to identify a mineral sample.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hardness and streak of the sample are probably the most helpful information to someone trying to identify a mineral sample.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Color and size of the sample are probably the most helpful information for someone trying to identify a mineral sample.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Mohs scale is useful for identification of minerals in the field.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hardness may be difficult to determine, or may be misleading or meaningless, if a material is a mixture of multiple substances.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Physical properties applied for classification include hardness and streak.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Colour is the most obvious property of a mineral, but it is often non-diagnostic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

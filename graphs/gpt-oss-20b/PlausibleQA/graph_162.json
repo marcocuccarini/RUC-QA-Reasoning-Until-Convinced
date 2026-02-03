@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient of the Mexican breakfast dish huervos rancheros. Tortilla",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient of the Mexican breakfast dish huervos rancheros. Salsa",
+      "strength": 0.5999999655096099
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient of the Mexican breakfast dish huervos rancheros. Cheese",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient of the Mexican breakfast dish huervos rancheros. Egg",
+      "strength": 0.5999999655096099
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The eggs were simply cooked in a mixture of red or green chile sauce and lard.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The basic dish consists of fried eggs served on lightly fried or charred corn or flour tortillas topped with a spicy salsa made of tomatoes, chili peppers, and onion.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tortillas are a cornerstone of Mesoamerican cuisine.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Corn tortillas in Mesoamerica are known from as early as 500 BCE.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

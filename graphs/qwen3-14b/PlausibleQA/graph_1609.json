@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which film of 2005, directed by Sam Mendes, is based on former marine and author Anthony Swafford and his pre Desert Storm experiences in Saudi Arabia and fighting in Kuwait. American Soldier",
+      "strength": 0.40000000009077963
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which film of 2005, directed by Sam Mendes, is based on former marine and author Anthony Swafford and his pre Desert Storm experiences in Saudi Arabia and fighting in Kuwait. Desert Storm Diary",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which film of 2005, directed by Sam Mendes, is based on former marine and author Anthony Swafford and his pre Desert Storm experiences in Saudi Arabia and fighting in Kuwait. Burning Sands",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which film of 2005, directed by Sam Mendes, is based on former marine and author Anthony Swafford and his pre Desert Storm experiences in Saudi Arabia and fighting in Kuwait. JARHEAD",
+      "strength": 0.5999030784341561
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2005, Mendes directed the war film Jarhead, in association with his production company Neal Street Productions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Based in part on an account told to Mendes by his paternal grandfather, Alfred Mendes, it chronicles the story of two young British soldiers in the spring of 1917 at a critical point during World War I.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The novel was adapted into a 2005 feature film of the same name starring Jake Gyllenhaal, Jamie Foxx, Peter Sarsgaard, and Lucas nihil.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Jarhead 2: Field of Fire is the sequel to the 2005 film, followed by Jarhead 3: The Siege.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

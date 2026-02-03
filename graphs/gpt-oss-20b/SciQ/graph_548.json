@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Amphibians are about 6,200 known species.",
+      "strength": 0.2500000000000841
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Primates are about 6,200 known species.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mammals are the group of organisms that includes about 6200 known species.",
+      "strength": 0.49999990910348624
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reptiles are about 6200 known species.",
+      "strength": 0.4000000000872201
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The total number of known (living) amphibian species as of March 31, 2019, is exactly 8,000",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The number of known amphibian species is approximately 8,000, of which nearly 90% are frogs",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "About 12,000 living species of reptiles are listed in the Reptile Database.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "represented by about 5,700 living species (excluding domesticated species).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "According to research published in the Journal of Mammalogy in 2018, the number of recognised mammal species is 6,495, including 96 recently extinct.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "There are 376–524 species of living primates, depending on which classification is used.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

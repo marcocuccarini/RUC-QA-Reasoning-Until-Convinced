@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Consisting of billions of galaxies is how a scientific article about the universe will most likely describe the universe.",
+      "strength": 0.5999617965637547
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Being less than two billion years old is how a scientific article about the universe will most likely describe the universe.",
+      "strength": 0.40000003662315714
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Containing approximately ten planets is what a scientific article about the universe will most likely describe the universe as.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Becoming smaller over time is how a scientific article about the universe will most likely describe the universe.",
+      "strength": 0.367757003324983
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Since the early 20th century, the field of cosmology establishes that space and time emerged together at the Big Bang 13.787±0.020 billion years ago and that the universe has been expanding since then.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the universe has been expanding since then.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The observable universe contains as many as an estimated 2 trillion galaxies.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the expansion rate appears to be accelerating, which dark energy was proposed to explain.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

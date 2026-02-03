@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. John F. Kennedy International Airport",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. LaGuardia Airport",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. Newark Liberty International Airport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. Flushing Airport",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "JFK Airport is located in the Jamaica neighborhood of Queens, 16 miles (26 km) southeast of Midtown Manhattan.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "LaGuardia received a new terminal and longer runways from 1960 to 1966.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "LaGuardia Airport is located in East Elmhurst, Queens, New York City, United States, situated on the northwestern shore of Long Island, bordering Flushing Bay.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Port Authority of New York and New Jersey (PANYNJ) in 2015 announced a multibillion-dollar reconstruction of the airport's passenger infrastructure, which was completed in January 2025.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

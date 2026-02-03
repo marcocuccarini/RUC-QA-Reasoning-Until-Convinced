@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Charles Henri Sanson's brother, Henri Sanson",
+      "strength": 0.20502303494934124
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Georges Danton",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Maximilien Robespierre",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the executioner of Louis XVI. Sansom",
+      "strength": 0.4000000000167507
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The execution by guillotine was performed by Charles-Henri Sanson, then High Executioner of the French First Republic and previously royal executioner under Louis.",
+      "strength": 0.5999999825265822
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Henri Sanson was appointed Executioner of Paris from April 1793, and executed Marie Antoinette.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sanson performed 2,918 executions, including the execution of Louis XVI.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sanson was the executioner of Louis XVI.",
+      "strength": 0.599938874723849
+    },
+    "A8": {
+      "type": "argument",
+      "text": "He had the duty to execute Louis XVI under the power of the sitting provisional government.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Ironman World Championship, which has been held annually in Hawaii since 1978, with an additional race in 1982, involves which sport. Cycling",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Ironman World Championship, which has been held annually in Hawaii since 1978, with an additional race in 1982, involves which sport. Swimming",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Ironman World Championship, which has been held annually in Hawaii since 1978, with an additional race in 1982, involves which sport. Running",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Ironman World Championship, which has been held annually in Hawaii since 1978, with an additional race in 1982, involves which sport. Triathlon",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Ironman World Championship is a triathlon held annually in Hawaii, United States from 1978 to 2022, with no race in 2020 and an additional race in 1982.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the course combining that of three events already held there: the Waikiki Roughwater Swim (2.4 mi./3.86 km), the Around-Oahu Bike Race (115 mi./185.07 km, originally a two-day event), and the Honolulu Marathon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

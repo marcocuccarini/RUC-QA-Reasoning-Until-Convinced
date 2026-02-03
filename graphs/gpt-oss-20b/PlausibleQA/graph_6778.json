@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Astronomy",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Engineering",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Philosophy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The ancient Greek writer Apollonius of Perga wrote on which subject. Math",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Apollonius worked on numerous other topics, including astronomy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "His definitions of the terms ellipse, parabola, and hyperbola are the ones in use today.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "'Apollonius and Conic Sections' (PDF)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

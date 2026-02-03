@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Oligarch",
+      "strength": 0.7499045092427894
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Aristocrat",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Capitalist",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A democracy is a society ruled by the people. What name is given to a society ruled by the wealthy. Plutocrat",
+      "strength": 0.7499045092427894
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oligarchy is a form of government in which power rests with a small number of people.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "plutocracy (rule by the rich)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Oligarchy occurs when a small group of noble or wealthy individuals control public administration.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Modern depictions of aristocracy regard it as plutocracy—rule by the wealthy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The mass of the helium is the factor that would most likely increase and cause a helium‑filled balloon to burst as it rises into the atmosphere.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The density of the helium would most likely increase as the helium-filled balloon rises into the atmosphere, causing the balloon to burst.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The volume of the helium is the factor that would most likely increase as a helium‑filled balloon rises into the atmosphere and cause the balloon to burst.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The temperature of the helium is the factor that would most likely increase and cause the helium‑filled balloon to burst as it rises into the atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Boyle's law states that, at a constant temperature, the product of the pressure and volume of a given mass of an ideal gas in a closed system is always constant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the number of gas molecules and the temperature remain constant, then the pressure is inversely proportional to the volume.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

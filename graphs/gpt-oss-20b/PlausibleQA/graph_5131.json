@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which county would you find Chesil Beach. Devon",
+      "strength": 0.22624445942515606
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which county would you find Chesil Beach. Cornwall",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which county would you find Chesil Beach. Hampshire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which county would you find Chesil Beach. Dorcet",
+      "strength": 0.49495254811050643
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chesil Beach (also known as Chesil Bank) in Dorset, England",
+      "strength": 0.5999999777869326
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chesil Beach is a 27‑kilometre (17 mi) long shingle barrier beach protecting The Fleet.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Chesil Beach is a 27‑kilometre long shingle barrier beach on the Dorset coast.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Dorset Museum is located in Dorset.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

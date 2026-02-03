@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Angiosperms are the most successful phylum of plants.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Spores are the most successful phylum of plants.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gymnosperms are the most successful phylum of plants.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ferns are the most successful phylum of plants.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Angiosperms are by far the most diverse group of land plants with 64 orders, 416 families, approximately 13,000 known genera and 300,000 known species.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the Cretaceous, angiosperms diversified explosively, becoming the dominant group of plants across the planet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

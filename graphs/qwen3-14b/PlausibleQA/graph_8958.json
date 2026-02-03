@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Toyota",
+      "strength": 0.32000007357265986
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Honda",
+      "strength": 0.4000000000052511
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Ford",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Szki",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Japanese manufacturer Suzuki has used the Baleno nameplate since 1996.",
+      "strength": 0.7499999865769758
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Baleno nameplate was discontinued in Europe and Asia-Pacific after 2001.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Baleno nameplate was a rebadged Cultus Crescent from 1996 to 2002.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Baleno was produced and sold in India as the Maruti Suzuki Baleno until 2007.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Vitara continued production under the name Escudo in Japan.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Suzuki produced the Vitara model in Hungary starting in 2015.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

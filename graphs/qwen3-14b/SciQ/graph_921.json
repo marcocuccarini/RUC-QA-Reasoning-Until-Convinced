@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Evaporation is when liquid water changes to water vapor.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Absorption is the process that occurs when liquid water changes to water vapor.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Transpiration is the process when liquid water changes to water vapor.",
+      "strength": 0.40009682695977267
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Evaporation is a type of vaporization that occurs on the surface of a liquid as it changes into the gas phase.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In hydrology, evaporation and transpiration (which involves evaporation within plant stomata) are collectively termed evapotranspiration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

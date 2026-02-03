@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Scottish football team plays home games at Easter Road. Hearts",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Scottish football team plays home games at Easter Road. Celtic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Scottish football team plays home games at Easter Road. Rangers",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Scottish football team plays home games at Easter Road. HIBERNIAN",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hibs obtained a lease on a site that is now known as Easter Road in 1892 and have played their home matches there since February 1893.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Home matches are played at Easter Road, which has been in use since 1893, when the club joined the Scottish Football League.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

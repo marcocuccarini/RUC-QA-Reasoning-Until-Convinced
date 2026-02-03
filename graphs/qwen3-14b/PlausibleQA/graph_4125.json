@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who in the Bible is the mother of Mary, the mother of Jesus. Elizabeth",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who in the Bible is the mother of Mary, the mother of Jesus. Jochebed",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who in the Bible is the mother of Mary, the mother of Jesus. Deborah",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who in the Bible is the mother of Mary, the mother of Jesus. Anne",
+      "strength": 0.25009176364520974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mary's mother is not named in the Bible's canonical gospels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mother of Mary is mentioned but not named in the Quran.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

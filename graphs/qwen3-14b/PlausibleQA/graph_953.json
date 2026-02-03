@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the Principal Conductor of the Halle Orchestra from 1943 to 1970. Malcolm Sargent",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the Principal Conductor of the Halle Orchestra from 1943 to 1970. Adrian Boult",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the Principal Conductor of the Halle Orchestra from 1943 to 1970. Thomas Beecham",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the Principal Conductor of the Halle Orchestra from 1943 to 1970. Barbirolli",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Over the next 27 years, from 1943 to 1970, the orchestra's next music director, Sir John Barbirolli, restored the Hallé to national prominence.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During his tenure, the orchestra gave the first performance of the Symphony No. 1 of Sir Edward Elgar.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

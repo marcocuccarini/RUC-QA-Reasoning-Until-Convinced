@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Metatherian",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Pouchbearer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Neonatid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Marsupiel",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Marsupials are a diverse group of mammals belonging to the infraclass Marsupialia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The young are born in a relatively undeveloped state and then nurtured within a pouch on their mother's abdomen.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "First marsupial genome released.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

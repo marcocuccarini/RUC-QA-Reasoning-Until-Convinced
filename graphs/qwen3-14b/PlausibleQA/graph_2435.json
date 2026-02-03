@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Iodine is added to table salt to prevent what. Thyroid Cancer",
+      "strength": 0.4000000634771975
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Iodine is added to table salt to prevent what. Hypothyroidism",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Iodine is added to table salt to prevent what. Cretinism",
+      "strength": 0.7499026423597177
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Iodine is added to table salt to prevent what. Goider",
+      "strength": 0.5999999999379193
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Iodine deficiency causes thyroid gland problems, including endemic goitre.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ingestion of iodine prevents iodine deficiency. Worldwide, iodine deficiency affects about two billion people and is the leading preventable cause of intellectual and developmental disabilities.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Iodine intake is a risk factor for thyroid cancer.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Adding iodine to table salt has largely eliminated preventable intellectual disability in wealthier nations.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Prevention of hypothyroidism includes adding iodine to table salt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

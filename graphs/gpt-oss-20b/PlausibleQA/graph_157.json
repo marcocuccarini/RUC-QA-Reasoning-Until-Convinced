@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Californium",
+      "strength": 0.22629517202515573
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Lawrencium",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Seaborgium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which chemical element is named after a university in Oakland, California. Berkelium",
+      "strength": 0.32010362077285465
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is named after the city of Berkeley, California, the location of the Lawrence Berkeley National Laboratory (then the University of California Radiation Laboratory) where it was discovered in December 1949.",
+      "strength": 0.7499641751173747
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The naming of the next discovered actinide, californium, was not related to its lanthanide analogue dysprosium, but after the discovery place.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The University of California, Berkeley is a public land‑grant research university in the Southside and Northside neighborhoods of Berkeley, California, United States.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sixteen elements have been discovered at Berkeley (technetium, astatine, neptunium, plutonium, americium, curium, berkelium, californium, einsteinium, fermium, mendelevium, nobelium, lawrencium, rutherfordium, dubnium, and seaborgium).",
+      "strength": 0.5999761227656896
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Glenn T. Seaborg discovered or co‑discovered ten chemical elements at Berkeley and served as chancellor from 1958 to 1961.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Using the cyclotron, Berkeley professors and Berkeley Lab researchers went on to discover sixteen chemical elements—more than any other university in the world.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    }
+  ]
+}

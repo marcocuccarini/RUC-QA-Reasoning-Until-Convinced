@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Elevation is the height above or below sea level.",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Depth is the term used to describe the height above or below sea level.",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Latitude is the term used to describe the height above or below sea level.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Variation is the height above or below sea level.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The elevation of a geographic location is its height above or below a fixed reference point, most commonly a reference geoid, a mathematical model of the Earth's sea level as an equipotential gravitational surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Depth is used for points below the surface.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Path’s Elevation Profile using Google Earth can find the elevation of any place.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

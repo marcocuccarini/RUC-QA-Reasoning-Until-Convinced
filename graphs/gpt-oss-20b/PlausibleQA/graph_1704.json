@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the US election held on 7 November 2000, court cases over the results from which state delayed the announcement of results for over a month. California",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the US election held on 7 November 2000, court cases over the results from which state delayed the announcement of results for over a month. Texas",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the US election held on 7 November 2000, court cases over the results from which state delayed the announcement of results for over a month. New York",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the US election held on 7 November 2000, court cases over the results from which state delayed the announcement of results for over a month. Fla.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The outcome of the 2000 United States presidential election was not known for more than a month after balloting because of the extended process of counting and recounting Florida's presidential ballots.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After an intense recount process and the United States Supreme Court's decision in Bush v. Gore, Bush won Florida's electoral votes by a margin of only 537 votes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which corporation (as at 2010) produces Schwarzkopf haircare and Pritt glue-stick products. Unilever",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which corporation (as at 2010) produces Schwarzkopf haircare and Pritt glue-stick products. Procter & Gamble",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which corporation (as at 2010) produces Schwarzkopf haircare and Pritt glue-stick products. L'Oréal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which corporation (as at 2010) produces Schwarzkopf haircare and Pritt glue-stick products. Henkel",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Henkel's hair and body care brands include Schwarzkopf.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The business unit offers a broad portfolio of adhesives, sealants, and functional coatings for both industry and consumers with brands like Loctite, Technomelt, Teroson, Bonderite, and Aquence, and consumers, craftsmen and building businesses with brands like Pritt, Loctite, Ceresit and Pattex.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

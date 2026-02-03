@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British Cathedral has three spires. Norwich Cathedral",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British Cathedral has three spires. Gloucester Cathedral",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British Cathedral has three spires. York Minster",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British Cathedral has three spires. Lichfield",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The three spires are often referred to as the 'Ladies of the Vale'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The central spire is 77 m (253 ft) high and the western spires are about 58 m (190 ft) with the southern spire a little taller than the northern one.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

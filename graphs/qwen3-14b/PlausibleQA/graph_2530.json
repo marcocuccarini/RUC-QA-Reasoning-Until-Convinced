@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What product invented by Frederick Walton in 1864 became so widely used and 'stepped on' that the name became generic just 14 years after its invention. Asphalt",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What product invented by Frederick Walton in 1864 became so widely used and 'stepped on' that the name became generic just 14 years after its invention. Cork Tile",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What product invented by Frederick Walton in 1864 became so widely used and 'stepped on' that the name became generic just 14 years after its invention. Rubber Flooring",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What product invented by Frederick Walton in 1864 became so widely used and 'stepped on' that the name became generic just 14 years after its invention. Lynolium",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Frederick Walton patented a new material called 'linoleum' in 1863",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the court opining that even if the name had been registered as a trademark, it was by now so widely used that it had become generic, only 14 years after its invention",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is considered to be the first product name to become a generic term",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

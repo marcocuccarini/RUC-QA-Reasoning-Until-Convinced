@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which sub-region of Aquitaine in SW France gives its name to a type of brandy. Gascony",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which sub-region of Aquitaine in SW France gives its name to a type of brandy. Périgord",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which sub-region of Aquitaine in SW France gives its name to a type of brandy. Quercy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which sub-region of Aquitaine in SW France gives its name to a type of brandy. Armagnac",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Armagnac is produced in the Armagnac region in Gascony, southwest France.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Armagnac region lies between the Adour and Garonne rivers in the foothills of the Pyrenees.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

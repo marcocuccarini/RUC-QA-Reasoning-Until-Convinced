@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Colin Firth starred in the film of the famous book, Girl with a Pearl.. (what?). Necklace",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Colin Firth starred in the film of the famous book, Girl with a Pearl.. (what?). Brooch",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Colin Firth starred in the film of the famous book, Girl with a Pearl.. (what?). Tiara",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Colin Firth starred in the film of the famous book, Girl with a Pearl.. (what?). Earring",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Scarlett Johansson stars as Griet, a young 17th-century servant in the household of the Dutch painter Johannes Vermeer (played by Colin Firth) at the time he painted Girl with a Pearl Earring.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Girl with a Pearl Earring is a 2003 drama film directed by Peter Webber from a screenplay by Olivia Hetreed, based on the 1999 eponymous novel by Tracy Chevalier.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

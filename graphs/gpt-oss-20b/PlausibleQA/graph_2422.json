@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who plays harley quinn in the lego batman movie. Tara Strong",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who plays harley quinn in the lego batman movie. Kaley Cuoco",
+      "strength": 0.4000000000584653
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who plays harley quinn in the lego batman movie. Arleen Sorkin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who plays harley quinn in the lego batman movie. Jenny Slate",
+      "strength": 0.4999363802124723
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Strong would also succeed Arleen Sorkin as the voice of Harley Quinn.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Harley Quinn is voiced by Laura Bailey.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Harley Quinn appears in The Lego Batman Movie, voiced by Jenny Slate.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

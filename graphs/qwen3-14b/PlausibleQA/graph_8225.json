@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the latin language from. Ancient Greece",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the latin language from. The Mediterranean Region",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the latin language from. The Roman Empire",
+      "strength": 0.7499025826412249
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the latin language from. Italic languages",
+      "strength": 0.5999999402194273
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Latin was the official language of ancient Rome",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Italic languages form a branch of the Indo-European language family, whose earliest known members were spoken on the Italian Peninsula in the first millennium BC",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

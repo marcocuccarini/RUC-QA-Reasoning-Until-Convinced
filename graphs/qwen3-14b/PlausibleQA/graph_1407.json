@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Pork",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Chicken",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Turkey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If you were making a wiener schnitzel what meat would you buy. Veal",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Austrian law requires that Wiener Schnitzel be made of veal",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Owing to food shortages at that time and the high cost of meat and veal, and due to kashrut laws that forbid eating pork, the local version was made of chicken breast, which was less expensive. Israeli schnitzel is still made of chicken",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

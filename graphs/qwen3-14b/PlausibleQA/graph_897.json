@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "According to the late Dr Robert Atkins, what kind of nutrient will 'make you fat'. Fats",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "According to the late Dr Robert Atkins, what kind of nutrient will 'make you fat'. Proteins",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "According to the late Dr Robert Atkins, what kind of nutrient will 'make you fat'. Fiber",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "According to the late Dr Robert Atkins, what kind of nutrient will 'make you fat'. Carbs",
+      "strength": 0.495151111853788
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Atkins diet is promoted with claims that carbohydrate restriction is the 'key' to weight loss.",
+      "strength": 0.4000587285197913
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the long term, low-carbohydrate diets do not appear to confer a 'metabolic advantage,' and effective weight loss or maintenance depends on the level of calorie restriction, not the ratio of macronutrients in a diet.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Endocrine Society says that body-fat accumulation does not appear to be affected by even very pronounced changes in the amount of fat vs carbohydrate in the diet when calorie intake is constant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

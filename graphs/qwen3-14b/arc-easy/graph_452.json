@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Only objects that have mass are affected by Earth's gravity.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Only objects that sink in water are affected by Earth's gravity.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Only objects that are made of metal are affected by Earth's gravity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Only objects that are heavier than air are affected by Earth's gravity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The weight of an object on Earth's surface is the downwards force on that object, given by Newton's second law of motion, or F = m a (force = mass × acceleration).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In air or water, objects experience a supporting buoyancy force which reduces the apparent strength of gravity (as measured by an object's weight).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

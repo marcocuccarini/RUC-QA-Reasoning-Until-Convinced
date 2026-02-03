@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Harold Shipman's Cellmate",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Dennis Nilsen",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Peter Sutcliffe",
+      "strength": 0.2500000361245061
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Dr Shipman",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Peter William Sutcliffe died on 13 November 2020.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sutcliffe was convicted of murdering thirteen women.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Harold Frederick Shipman hanged himself in his cell at HM Prison Wakefield on 13 January 2004.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Shipman was sentenced to life imprisonment with a whole life order on 31 January 2000.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

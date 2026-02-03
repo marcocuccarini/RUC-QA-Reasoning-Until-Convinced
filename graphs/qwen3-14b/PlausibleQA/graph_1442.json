@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the international telephone dialling code for Germany. 43",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the international telephone dialling code for Germany. 44",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the international telephone dialling code for Germany. 45",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the international telephone dialling code for Germany. 49",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The international telephone dialing code for Germany is 49, as stated in the text under Zone 5: '37 – formerly assigned to East Germany until its reunification with West Germany, now part of 49 Germany'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The hypothesis 'What is the international telephone dialling code for Germany. 43' is incorrect because 43 is the code for Austria, not Germany.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The hypothesis 'What is the international telephone dialling code for Germany. 44' is incorrect because 44 is the code for the United Kingdom, not Germany.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The hypothesis 'What is the international telephone dialling code for Germany. 45' is incorrect because 45 is the code for Denmark, not Germany.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

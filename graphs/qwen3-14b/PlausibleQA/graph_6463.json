@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the music for the song, 'Moon River'. George Gershwin",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the music for the song, 'Moon River'. Leonard Bernstein",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the music for the song, 'Moon River'. Cole Porter",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the music for the song, 'Moon River'. Henry Mancini",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Moon River is a song composed by Henry Mancini with lyrics by Johnny Mercer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The song was originally performed by Audrey Hepburn in the 1961 film Breakfast at Tiffany's, winning an Academy Award for Best Original Song.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

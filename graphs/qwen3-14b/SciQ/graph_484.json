@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Citric acid is the acid contained in oranges and lemons.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitric acid is the acid that oranges and lemons contain.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Urea acid is the acid found in oranges and lemons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Beryllium acid is the acid found in oranges and lemons, which are examples of fruits that contain it.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "citric acid occurs naturally in citrus fruits",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the pH of fruit juices from citrus fruits like oranges and lemons depends on the citric acid concentration",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

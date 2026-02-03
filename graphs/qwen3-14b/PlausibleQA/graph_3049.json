@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Swiss tennis player won the men’s singles title at the 2014 Australian Open. Roger Federer",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Swiss tennis player won the men’s singles title at the 2014 Australian Open. Marc Rosset",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Swiss tennis player won the men’s singles title at the 2014 Australian Open. Stanislas Wawrinka's brother (assuming he has one)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Swiss tennis player won the men’s singles title at the 2014 Australian Open. Wawrinka",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stan Wawrinka defeated Rafael Nadal in the final, 6–3, 6–2, 3–6, 6–3 to win the men's singles tennis title at the 2014 Australian Open.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was his first major title, becoming the first man outside the Big Four to win a major since Juan Martín del Potro at the 2009 US Open.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

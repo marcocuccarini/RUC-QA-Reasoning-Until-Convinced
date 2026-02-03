@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The floor was being built during this stage of construction when workers dug round holes in the ground and filled them with steel and concrete.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The foundation is the part of the new building being constructed when workers dug round holes in the ground and filled them with steel and concrete.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The plumbing was the part of the building being constructed during the stage when workers dug round holes in the ground and filled them with steel and concrete.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The walls were being built during this stage of construction when workers dug round holes in the ground and filled them with steel and concrete.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shallow foundations are usually embedded about a meter or so into soil.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A monopile foundation is a type of deep foundation which uses a single, generally large-diameter, structural element embedded into the earth to support all the loads of a large above-surface structure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

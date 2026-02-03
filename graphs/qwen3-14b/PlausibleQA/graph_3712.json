@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Bus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Airplane",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Ship",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The game Ticket to Ride involves what kind of transport. Rail",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The game includes ship pieces, with a corresponding ship card deck to be played on water routes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The game includes train pieces, with a corresponding train card deck to be played on land routes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

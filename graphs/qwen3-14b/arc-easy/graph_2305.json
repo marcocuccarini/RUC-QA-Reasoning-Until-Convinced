@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Igneous rock has turned into sedimentary rock in a land area where a rock formation originally contained fossils and, after exposure to tremendous heat and pressure, produced a harder rock formation without fossils.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Igneous rock has turned into metamorphic rock is the change in rock type that occurred in a land area where a fossil-containing rock formation was subjected to tremendous heat and pressure, producing a harder rock formation without fossils.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sedimentary rock has turned into igneous rock, a transformation that occurred in a land area where a rock formation containing fossils was subjected to tremendous heat and pressure, producing a harder rock formation without fossils.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sedimentary rock has turned into metamorphic rock in a land area that originally contained fossils, where tremendous heat and pressure changed the formation into a harder rock without fossils.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metamorphic rock can be formed locally when rock is heated by the intrusion of hot molten rock called magma from the Earth's interior.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The protolith may be an igneous, sedimentary, or existing metamorphic rock.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The metamorphic, igneous, and sedimentary rocks of the mountains become the new piles of sediments in the adjoining basins and eventually become sedimentary rock.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "As the two masses are compressed, folded and faulted into a mountain range by the continental collision the whole suite of pre-existing igneous, volcanic, sedimentary and earlier metamorphic rock units are subjected to this new metamorphic event.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

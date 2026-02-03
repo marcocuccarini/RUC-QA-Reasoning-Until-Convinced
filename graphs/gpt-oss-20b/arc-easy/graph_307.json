@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metal is always hotter than wood, which explains why, after a few minutes of stirring a pot of hot soup, the metal spoon feels hotter than the wooden spoon.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metal conducts heat better than wood, explaining why the metal spoon feels hotter than the wooden spoon after a few minutes of stirring a pot of hot soup.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Metal conducts electricity better than wood, which explains why the metal spoon feels hotter than the wooden spoon after a few minutes of stirring a pot of hot soup.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metal heats up the water better than the wood explains why, after a few minutes of stirring a pot of hot soup, a metal spoon feels hotter than a wooden spoon.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metals have this high thermal conductivity due to free electrons facilitating heat transfer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Silver conducted heat far the best of all other metals, next to this was copper, then gold, tin, iron, steel, Lead.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

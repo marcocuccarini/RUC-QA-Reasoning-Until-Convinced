@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wind is the major cause of ocean waves.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Moon's gravity is the major cause of ocean waves.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Salinity is the major cause of ocean waves.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth's rotation is the major cause of ocean waves.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The great majority of large breakers seen at a beach result from distant winds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Waves are distinct from tides, caused by the Moon and Sun's gravitational pull",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

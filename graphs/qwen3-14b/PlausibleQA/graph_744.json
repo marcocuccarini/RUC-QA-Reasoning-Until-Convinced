@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In ‘Othello’, what is the name of Iago’s wife. Bianca",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In ‘Othello’, what is the name of Iago’s wife. Desdemona",
+      "strength": 0.4000000909837343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In ‘Othello’, what is the name of Iago’s wife. Cordelia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In ‘Othello’, what is the name of Iago’s wife. Emilia",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Iago's wife, Emilia, as Desdemona's attendant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When Othello mentions the handkerchief as proof, Emilia realizes what Iago has done, and she exposes him.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Emilia is married to Othello's ensign Iago",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

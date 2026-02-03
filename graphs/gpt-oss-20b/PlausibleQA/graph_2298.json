@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where was the capital of the habsburg empire located. Prague",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where was the capital of the habsburg empire located. Budapest",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where was the capital of the habsburg empire located. Bratislava",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where was the capital of the habsburg empire located. Vienna",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vienna became the seat of the Habsburg emperors during their reigns from 1611 to 1740 and again from 1745 until the dissolution of the Holy Roman Empire in 1806.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During the 16th century, the Habsburgs, who had succeeded the Babenbergs, established Vienna as the seat of the emperors of the Holy Roman Empire, a position it held until the empire's dissolution in 1806, with only a brief interruption.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

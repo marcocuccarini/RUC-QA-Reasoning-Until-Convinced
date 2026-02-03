@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gravity on the Moon is greater because it is closer to the Sun, as the statement that best compares gravity on the Moon to gravity on Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravity on the Moon is less than gravity on Earth because the Moon is smaller than Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity on the Moon is less because it has less atmosphere than the Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gravity on the Moon is greater because it has less mass than the Earth is the statement that best compares gravity on the Moon to gravity on Earth.",
+      "strength": 0.2500000897449246
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The acceleration due to gravity on the Moon is 1.625 m/s², which is approximately 16.6% of Earth's gravitational acceleration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon's gravitational parameter (GM) is 1/81.3 of Earth's, indicating that the Moon has significantly less mass than Earth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Moon's diameter is 3,474 km (2,159 mi), roughly one-quarter of Earth's (about as wide as the contiguous United States).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

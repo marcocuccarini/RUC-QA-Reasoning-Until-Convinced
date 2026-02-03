@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose single I saw mommy kissing Santa Claus sold three million copies in 1952 . Bing Crosby",
+      "strength": 0.2500974210553993
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose single I saw mommy kissing Santa Claus sold three million copies in 1952 . Gene Autry",
+      "strength": 0.4000000634771975
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose single I saw mommy kissing Santa Claus sold three million copies in 1952 . Perry Como",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose single I saw mommy kissing Santa Claus sold three million copies in 1952 . JIMMY BOYD",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "I Saw Mommy Kissing Santa Claus was first recorded by American singer Jimmy Boyd in 1952.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "I Saw Mommy Kissing Santa Claus was performed by Jimmy Boyd on The Ed Sullivan Show (December 13, 1953).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

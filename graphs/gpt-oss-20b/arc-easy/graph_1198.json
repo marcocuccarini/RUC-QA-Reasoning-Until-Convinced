@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mass is what 12.0 grams represents.",
+      "strength": 0.49999993783938224
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Volume represents 12.0 grams.",
+      "strength": 0.15393935008213258
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Speed is what 12.0 grams represents.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Force is what 12.0 grams represents.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The kilogram is 1000 grams (g).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One cubic decimetre of water at the melting point of ice has mass 1000 grams.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The gram is a unit of mass in the International System of Units (SI) equal to one thousandth of a kilogram.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The gram is the most widely used unit of measurement for non‑liquid ingredients in cooking and grocery shopping worldwide.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Weight is a force.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The object's mass also determines the strength of its gravitational attraction to other bodies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

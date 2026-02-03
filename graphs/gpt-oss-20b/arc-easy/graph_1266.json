@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Earth turning on its axis best explains why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon turning on its axis explains why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon orbits around the Earth explains why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Clouds covering the Moon explain why the shape of the moon appears to change regularly during each month.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The appearance of the Moon (its phase) gradually changes over a lunar month as the relative orbital positions of the Moon around Earth, and Earth around the Sun, shift.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because the Moon is tidally locked to Earth, the cycle of phases takes one lunar month and moves across the same side of the Moon, which always faces Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city was the first Model T produced outside the USA. Manchester",
+      "strength": 0.5048854897888961
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city was the first Model T produced outside the USA. Birmingham",
+      "strength": 0.4000000000872201
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city was the first Model T produced outside the USA. London",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city was the first Model T produced outside the USA. Mancs",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ford established a manufacturing facility in the port city of Yokohama in February 1925, where Model T vehicles were assembled using imported knock-down kits",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ford opened its first factory outside North America – in Manchester, England in 1911",
+      "strength": 0.5999050903424904
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Ford Model T was produced in Trafford Park, Greater Manchester, England starting in 1911",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

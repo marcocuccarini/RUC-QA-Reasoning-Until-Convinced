@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What island would you come to first if you travelled due east from Bangladesh. Borneo",
+      "strength": 0.09252369721861489
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What island would you come to first if you travelled due east from Bangladesh. Sulawesi",
+      "strength": 0.4000000000000498
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What island would you come to first if you travelled due east from Bangladesh. Java",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What island would you come to first if you travelled due east from Bangladesh. 臺灣",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Borneo is east of Sumatra.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Borneo is west of Sulawesi.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Andaman Sea is separated from the Bay of Bengal by the Andaman and Nicobar Islands.",
+      "strength": 0.5999088118033908
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Bangladesh has a coastline on the northern littoral of the Bay of Bengal.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Bangladesh borders the Bay of Bengal along its southern coast.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The southern maritime boundary follows coordinates marked by both Myanmar and Thailand towards the maritime tripoint with India's Andaman and Nicobar Islands.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The Andaman and Nicobar Islands are located between Bangladesh and the Andaman Sea.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

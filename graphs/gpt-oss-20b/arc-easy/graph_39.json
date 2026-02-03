@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Boiling only is the process among freezing, melting, and boiling during which heat must be supplied for water to change from one state to another.",
+      "strength": 0.3676473624561274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Melting only is the process during which heat must be supplied for water to change from one state to another, while freezing and boiling do not require heat to be supplied.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Melting and freezing but not boiling are the stages during which heat must be supplied for water to change from one state to another.",
+      "strength": 0.4000000000584653
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Melting and boiling but not freezing are the water state changes during which heat must be supplied.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During a first-order transition, a system either absorbs or releases a fixed (and typically large) amount of energy per volume.",
+      "strength": 0.5999999090162662
+    },
+    "A5": {
+      "type": "argument",
+      "text": "energy must be supplied to a solid in order to melt it",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The heat of solidification (when a substance changes from liquid to solid) is equal in magnitude and opposite in sign.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "enthalpy changes of vaporization are always positive (heat is absorbed by the substance)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The enthalpy of vaporization (symbol ∆Hvap), also known as the (latent) heat of vaporization or heat of evaporation, is the amount of energy (enthalpy) that must be added to a liquid substance to transform a quantity of that substance into a gas",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The addition or removal of heat can cause phase transitions: freezing (water to ice), melting (ice to water), vaporization (water to vapor), condensation (vapor to water), sublimation (ice to vapor) and deposition (vapor to ice).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Boiling only is the process among freezing, melting, and boiling during which heat must be supplied for water to change from one state to another.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Melting only is the process during which heat must be supplied for water to change from one state to another, while freezing and boiling do not require heat to be supplied.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Melting and freezing but not boiling are the stages during which heat must be supplied for water to change from one state to another.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Melting and boiling but not freezing are the water state changes during which heat must be supplied.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "First-order phase transitions are those that involve a latent heat. During such a transition, a system either absorbs or releases a fixed (and typically large) amount of energy per volume.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During this process, the temperature of the system will stay constant as heat is added: the system is in a 'mixed-phase regime' in which some parts of the system have completed the transition and others have not.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

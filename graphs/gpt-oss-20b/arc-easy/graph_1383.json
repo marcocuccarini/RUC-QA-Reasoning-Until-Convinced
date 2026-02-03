@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Adaptation is the process through which a broken bone heals.",
+      "strength": 0.6322430332981378
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mutation is the process through which a broken bone heals.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cell division is the process through which a broken bone heals.",
+      "strength": 0.7499426948455964
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemical digestion is the process through which a broken bone heals.",
+      "strength": 0.500000037326453
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bone healing is a proliferative physiological process in which the body facilitates the repair of a bone fracture.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Seven to nine days after fracture, the cells of the periosteum replicate and transform.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Histochemical localization of calcium in the fracture callus with potassium pyroantimonate",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "a fracture ultimately heals through physiological processes.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Early histological and ultrastructural changes in medullary fracture callus",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Early histological and ultrastructural changes in microvessels of periosteal callus",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

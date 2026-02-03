@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does creatine come from in the body. Kidneys",
+      "strength": 0.5999999160114282
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does creatine come from in the body. Pancreas",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does creatine come from in the body. Skeletal Muscle",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does creatine come from in the body. liver",
+      "strength": 0.5999999160114282
+    },
+    "A4": {
+      "type": "argument",
+      "text": "with the remainder synthesized in the kidneys.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "with the remainder synthesized in the liver.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Muscles have a short-term store of energy in the form of creatine phosphate which is generated from ATP and can regenerate ATP when needed with creatine kinase.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

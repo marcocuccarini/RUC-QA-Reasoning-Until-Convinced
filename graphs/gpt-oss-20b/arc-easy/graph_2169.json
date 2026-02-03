@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The amount of water it absorbs is the trait that a cactus seedling inherits from its parents.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The length of its spines is the trait that a cactus seedling inherits from its parents.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The type of organism that pollinates its flowers is the trait that a cactus seedling inherits from its parents.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The number of organisms that consume its fruit is the trait a cactus seedling inherits from its parents.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carnegiea gigantea is an example of a bat-pollinated cactus, as are many species of Pachycereus and Pilosocereus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some cacti only have spines when young, possibly only when seedlings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Filter salt water is the role of glaciers in the water cycle, as glaciers cover about 10 % of the total land area on Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Storing fresh water is the role of glaciers in the water cycle, as glaciers cover about 10% of Earth's total land area.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Move liquid water is the role of glaciers in the water cycle, as glaciers cover about 10% of the total land area on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Precipitate solid water is the role of glaciers in the water cycle, which cover about 10 % of the total land area on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Earth's ice caps, glaciers, and permanent snowpack store 24,064,000 km3 of water, which accounts for 68.7% of all fresh water on the planet.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ocean holds 97% of the total water on the planet; 78% of global precipitation occurs over the ocean, and it is the source of 86% of global evaporation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

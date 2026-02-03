@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Arc de Triomphe",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Notre-Dame Cathedral",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Palace of Versailles",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which building is Napoleon Bonaparte buried. Invalides",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Napoleon's remains were kept in the Saint Jerome (southwestern) chapel of the Dome church for more than two decades until his final resting place, a tomb made of red quartzite and resting on a green granite base, was finished in 1861.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Tomb of Napoleon is found within the Church of the Dome.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

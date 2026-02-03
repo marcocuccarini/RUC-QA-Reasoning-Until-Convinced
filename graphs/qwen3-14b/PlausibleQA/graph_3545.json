@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the main industry in the canadian shield. Forestry",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the main industry in the canadian shield. Hydroelectric Power",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the main industry in the canadian shield. Tourism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the main industry in the canadian shield. mining",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Canadian Shield is one of the world's richest areas for mineral ores. It is filled with substantial deposits of nickel, gold, silver, and copper.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The shield is covered in parts by vast boreal forests in the south that support natural ecosystems as well as a major logging industry.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In Northern Canada, mining—particularly hardrock mining—has long been one of the most significant sources of economic development.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Many towns in northern Canada, where agriculture is difficult, are sustained by nearby mines or sources of timber.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

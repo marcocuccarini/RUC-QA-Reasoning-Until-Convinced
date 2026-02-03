@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Genetic drift is the phenomenon most important in small populations that occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation.",
+      "strength": 0.6322474683059868
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Genetic DNA is the phenomenon most important in small populations that occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Genetic mutation is the phenomenon, most important in small populations, that occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Genetic code is the phenomenon, most important in small populations, that occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The magnitude of drift is large enough to overwhelm selection at any allele frequency when the selection coefficient is less than 1 divided by the effective population size.",
+      "strength": 0.5999736115750363
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the variance in the number of offspring is much greater than that given by the binomial distribution assumed by the Wright–Fisher model, then given the same overall speed of genetic drift (the variance effective population size), genetic drift is a less powerful force compared to selection.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Genetic drift may cause gene variants to disappear completely, and thereby reduce genetic variability.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The effect of genetic drift is larger for alleles present in few copies than when an allele is present in many copies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

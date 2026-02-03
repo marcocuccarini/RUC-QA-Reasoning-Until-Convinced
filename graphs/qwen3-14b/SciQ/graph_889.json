@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pyruvate is the end product of glycolysis.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fructose is the end product of glycolysis.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gluclose is the end product of glycolysis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hydrolysis is the end product of glycolysis.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The glycolytic end-product, pyruvate (plus NAD+) is converted to acetyl-CoA, CO2 and NADH + H+ within the mitochondria in a process called pyruvate decarboxylation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Glycolysis is the metabolic pathway that converts glucose (C6H12O6) into pyruvate and, in most organisms, occurs in the liquid part of cells (the cytosol).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What dish, especially popular in parts of Wales and the English Midlands,  is traditionally made from pig's heart, liver and fatty belly meat or bacon minced together, with herbs added for flavouring and sometimes bread crumbs. Haggis",
+      "strength": 0.25000003540919297
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What dish, especially popular in parts of Wales and the English Midlands,  is traditionally made from pig's heart, liver and fatty belly meat or bacon minced together, with herbs added for flavouring and sometimes bread crumbs. Scrapple",
+      "strength": 0.25009176364520974
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What dish, especially popular in parts of Wales and the English Midlands,  is traditionally made from pig's heart, liver and fatty belly meat or bacon minced together, with herbs added for flavouring and sometimes bread crumbs. Boudin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What dish, especially popular in parts of Wales and the English Midlands,  is traditionally made from pig's heart, liver and fatty belly meat or bacon minced together, with herbs added for flavouring and sometimes bread crumbs. Fagit",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A traditional haggis recipe describes haggis as 'sheep's 'pluck' (heart, liver, and lungs)...",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The dish is considered traditionally of Scottish origin.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Scrapple is primarily eaten in the southern Mid-Atlantic areas of the United States (Delaware, Maryland, South Jersey, Pennsylvania, Virginia, North Carolina, and Washington, D.C.).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Scrapple is commonly considered an ethnic food of the Pennsylvania Dutch, including the Mennonites and Amish.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

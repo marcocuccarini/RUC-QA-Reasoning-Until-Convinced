@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was elected president of the united states in 1928. Al Smith",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was elected president of the united states in 1928. Calvin Coolidge",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was elected president of the united states in 1928. Charles Curtis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was elected president of the united states in 1928. Herbert Hoover",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hoover won the presidential nomination on the first ballot of the 1928 Republican National Convention.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hoover decisively defeated Smith on election day, taking 58 percent of the popular vote and 444 of the 531 electoral votes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

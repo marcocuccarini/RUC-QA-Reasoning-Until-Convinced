@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The religious order of Poor Ladies of San Damiano has what more common name. Clarissans",
+      "strength": 0.6426998943028783
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The religious order of Poor Ladies of San Damiano has what more common name. Damianites",
+      "strength": 0.40000001070467683
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The religious order of Poor Ladies of San Damiano has what more common name. Assisians",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The religious order of Poor Ladies of San Damiano has what more common name. Minoress",
+      "strength": 0.5999999999901404
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Poor Clares are also known as the Clarisses.",
+      "strength": 0.6322702412382837
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Poor Clares are also known as the Minoresses.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Following her death, the order she founded was renamed in her honor as the Order of Saint Clare, commonly referred to today as the Poor Clares.",
+      "strength": 0.5999722586115568
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The order is commonly referred to today as the Poor Clares.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Poor Clares of the Monastery of Saint Clare.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

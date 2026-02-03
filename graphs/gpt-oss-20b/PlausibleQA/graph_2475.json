@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "a concave mirror can form a real image which is a copy of an object that forms. Upright",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "a concave mirror can form a real image which is a copy of an object that forms. Magnified",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "a concave mirror can form a real image which is a copy of an object that forms. Virtual",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "a concave mirror can form a real image which is a copy of an object that forms. inverted",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the 1/f term is larger than the 1/do term, then 1/di is positive and the image is real. Otherwise, the term is negative and the image is virtual.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Real images can be produced by concave mirrors and converging lenses, only if the object is placed further away from the mirror/lens than the focal point, and this real image is inverted.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As the object approaches the focal point the image approaches infinity, and when the object passes the focal point the image becomes virtual and is not inverted (upright image).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

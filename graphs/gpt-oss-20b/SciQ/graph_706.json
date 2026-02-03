@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air density and pressure are lower when gas molecules are warm.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They are unchanged when gas molecules are warm, meaning that air density and pressure do not change.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They are equal when gas molecules are warm.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They are greater when gas molecules are warm, indicating that air density and pressure increase.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For real gases, the molecules do interact via attraction or repulsion depending on temperature and pressure, and heating or cooling does occur.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since the ideal gas law neglects both molecular size and intermolecular attractions, it is most accurate for monatomic gases at high temperatures and low pressures.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

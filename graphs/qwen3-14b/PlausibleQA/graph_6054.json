@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what band was george clinton in. Parliament",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what band was george clinton in. The Time",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what band was george clinton in. Earth, Wind & Fire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what band was george clinton in. Funkadelic",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parliament was an American funk band formed in 1968 by George Clinton as a flagship act of his P-Funk collective.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clinton was now the leader of two different acts, Parliament and Funkadelic, which featured the same members, but were marketed as creating two different types of funk.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The group that would become Funkadelic was formed by George Clinton in 1964 as the backing section for the Parliaments.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Funkadelic was an American funk rock band formed in Plainfield, New Jersey in 1968 and active until 1982.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

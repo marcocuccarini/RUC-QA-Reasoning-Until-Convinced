@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Satellites have done the most to help predict weather and warn people of approaching storms.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Airplanes have done the most to help predict weather and warn people of approaching storms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Barometers are the invention that has done the most to help predict weather and warn people of approaching storms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Maps have done the most to help predict weather and warn people of approaching storms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Beginning with the Nimbus 3 satellite in 1969, temperature information through the tropospheric column began to be retrieved by satellites from the eastern Atlantic and most of the Pacific Ocean, which led to significant improvements to weather forecasts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Infrared satellite imagery can be used effectively for tropical cyclones with a visible eye pattern, where the difference between the temperature of the warm eye and the surrounding cold cloud tops can be used to determine its intensity (colder cloud tops generally indicate a more intense storm).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

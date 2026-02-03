@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the minimum wage established in the united states. 1912",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the minimum wage established in the united states. 1920",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the minimum wage established in the united states. 1940",
+      "strength": 0.1539313047629579
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the minimum wage established in the united states. 1933",
+      "strength": 0.16901375112535583
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Fair Labor Standards Act of 1938 29 U.S.C. § 203 (FLSA) ... was enacted by the 75th Congress and signed into law by President Franklin D. Roosevelt in 1938.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The act increased the minimum wage from 40 cents to 75 cents per hour, effective January 24, 1950.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "October 24 – The minimum wage is established by law in the U.S.",
+      "strength": 0.4000000408816272
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Congress enacted the Fair Labor Standards Act of 1938.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Fair Labor Standards Act of 1938 created a minimum wage (now $7.25 at federal level, higher in 28 states) and overtime pay of one and a half times.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Fair Labor Standards Act of 1938 requires a federal minimum wage, currently $7.25 but higher in 29 states and D.C., and discourages working weeks over 40 hours through time-and-a-half overtime pay.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The Fair Labor Standards Act of 1938 requires a federal minimum wage, currently $7.25 but higher in 29 states and D.C.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "No lungs are why fish have short esophaguses.",
+      "strength": 0.2500954297690051
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Big tail is why fish have short esophaguses.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "No intestines are the reason fish have short esophaguses.",
+      "strength": 0.14050408164937736
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "No mouths are the reason fish have short esophaguses.",
+      "strength": 0.40000000001625563
+    },
+    "A4": {
+      "type": "argument",
+      "text": "lampreys, hagfishes, chimaeras, lungfishes, and some teleost fish have no stomach at all, with the esophagus opening directly into the intestine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There is no small intestine as such in non-teleost fish, such as sharks, sturgeons, and lungfish. Instead, the digestive part of the gut forms a spiral intestine, connecting the stomach to the rectum.",
+      "strength": 0.5999999999837442
+    },
+    "A6": {
+      "type": "argument",
+      "text": "sharks have much shorter intestines",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Fish ingest food through the mouth and break it down in the esophagus.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The small intestine is a tubular structure around 6 to 7 m long.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Bichirs and lungfish have tetrapod-like paired lungs, requiring them to surface to gulp air, and making them obligate air breathers.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The digestive system consists of a tube, the gut, leading from the mouth to the anus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

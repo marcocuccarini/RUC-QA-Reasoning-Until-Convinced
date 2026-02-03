@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the value of the letter ‘K’ in the game of Scrabble. 3",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the value of the letter ‘K’ in the game of Scrabble. 8",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the value of the letter ‘K’ in the game of Scrabble. 2",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the value of the letter ‘K’ in the game of Scrabble. 5",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the Polish-language edition of Scrabble, the letter ‘K’ is worth 3 points, as indicated by the distribution 'K ×3' under the 2 points category.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text does not explicitly state the value of ‘K’ in the standard English Scrabble set, but the hypothesis of 5 points aligns with common knowledge outside the provided text.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Norwegian Scrabble set excludes ‘K’ entirely due to its rarity, which contradicts the hypothesis that ‘K’ is worth 2 points in the game.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text does not provide any information supporting the hypothesis that ‘K’ is worth 8 points in Scrabble.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

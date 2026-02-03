@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which adjective is used when pertaining to the fox. Vulpine",
+      "strength": 0.5999029153259441
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which adjective is used when pertaining to the fox. Sly",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which adjective is used when pertaining to the fox. Red",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which adjective is used when pertaining to the fox. Fox",
+      "strength": 0.40000004749767426
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It represents the fox-like taxon of the subfamily Caninae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These small canids are distinguished from all other Caninae in possessing a wide paroccipital process that is broadly sutured to the posterior surface of the bulla with a short and laterally turned free tip that barely extends below the body of the process.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The presence of a metaconule and postprotocrista on M2 of vulpines represents the culmination of a reversal that began with late Leptocyon species to resume the form of the primitive canine M2.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

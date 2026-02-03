@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red light has the longest wavelength.",
+      "strength": 0.5999030803074822
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Green light has the longest wavelength.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Violet light has the longest wavelength.",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Yellow light has the longest wavelength.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The visible band sits adjacent to the infrared (with longer wavelengths and lower frequencies)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deep red light has a wavelength of roughly 700 nm.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Violet light has a wavelength of about 400 nm.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Red is the color at the long wavelength end of the visible spectrum of light, next to orange and opposite violet.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Colors with a shorter wavelength, such as blue and green, scatter more strongly, and are removed from the light that finally reaches the eye.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

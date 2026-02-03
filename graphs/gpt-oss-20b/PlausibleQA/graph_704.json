@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The majority of the land area of Africa lies in which hemisphere. Southern",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The majority of the land area of Africa lies in which hemisphere. Eastern",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The majority of the land area of Africa lies in which hemisphere. Western",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The majority of the land area of Africa lies in which hemisphere. Northern",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Africa straddles the equator and the prime meridian.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The continents of North America and mainland Eurasia are located entirely in the Northern Hemisphere, together with about two-thirds of Africa and a small part of South America.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Predator‑prey is the relationship type illustrated by a tick attaching to a deer and consuming its blood, thereby harming the deer.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mutualism is the type of relationship in which a tick attaches to a deer, consumes its blood, and harms the deer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Parasite-host is the relationship type that occurs when a tick attaches to a deer, consumes its blood, and harms the deer.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Commensalism is the type of relationship exemplified by a tick attaching to a deer and consuming blood, harming the deer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Borrelia, the cause of Lyme disease and relapsing fever, is transmitted by vectors, ticks of the genus Ixodes, from the diseases' reservoirs in animals such as deer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Like predation, parasitism is a type of consumer–resource interaction, but unlike predators, parasites, with the exception of parasitoids, are much smaller than their hosts, do not kill them, and often live in or on their hosts for an extended period.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

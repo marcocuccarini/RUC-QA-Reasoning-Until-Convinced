@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which other car company owns Seat. Fiat",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which other car company owns Seat. Renault",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which other car company owns Seat. Peugeot",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which other car company owns Seat. VW",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Volkswagen AG took over the full ownership of SEAT in 1990.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Volkswagen AG acquired a controlling stake in SEAT in 1986, making it the first non-German subsidiary of the Volkswagen Group.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Element is the group of atoms that are identical in size, mass, and other properties.",
+      "strength": 0.047125444557393516
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Molecule atoms are identical in size, mass, and other properties.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An organism has atoms that are identical in size, mass, and other properties.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Function is a term that refers to atoms that are identical in size, mass, and other properties.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An element is a species of atom defined by its number of protons.",
+      "strength": 0.5999999994980825
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Isotopes are atoms of the same element (that is, with the same number of protons in their nucleus), but having different numbers of neutrons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All hydrogen atoms admit exactly one proton, but isotopes exist with no neutrons (hydrogen-1, by far the most common form, also called protium), one neutron (deuterium), two neutrons (tritium) and more than two neutrons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "All known isotopes of elements with atomic numbers greater than 82 are radioactive, although the radioactivity of element 83 (bismuth) is so slight as to be practically negligible.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Atoms of one element can be transformed into atoms of a different element in nuclear reactions, which change an atom's atomic number.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The 1913 discovery by English physicist Henry Moseley that the nuclear charge is the physical basis for the atomic number, further refined when the nature of protons and neutrons became appreciated, eventually led to the current definition of an element based on atomic number (number of protons).",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "In the decay chains of the primordial radioactive elements thorium and uranium, it soon became evident that there were many apparent new elements that had different atomic weights but exactly the same chemical properties.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "A molecule is a group of two or more atoms that are held together by attractive forces known as chemical bonds; depending on context, the term may or may not include ions that satisfy this criterion.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

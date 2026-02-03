@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electromagnet is formed when a solenoid is wrapped around a bar of iron or other ferromagnetic material.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Impoundment is what a solenoid wrapped around a bar of iron or other ferromagnetic material forms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A compass is formed by a solenoid wrapped around a bar of iron or other ferromagnetic material.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A compress is formed when a solenoid is wrapped around a bar of iron or other ferromagnetic material.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When a current passes through the wire wrapped around the core, its magnetic field penetrates the core and turns the domains to align in parallel with the field.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The magnetic field of all the turns of wire passes through the center of the coil, creating a strong magnetic field there.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

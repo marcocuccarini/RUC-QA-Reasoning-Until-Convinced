@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shingles is an adult form of what illness. Measles",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shingles is an adult form of what illness. Mumps",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Shingles is an adult form of what illness. Rubella",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Shingles is an adult form of what illness. Varicella",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Reactivation of VZV results in the clinically distinct syndrome of herpes zoster (i.e., shingles), postherpetic neuralgia, and sometimes Ramsay Hunt syndrome type II.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chickenpox, also known as varicella (VARR-iss-EL-ə), is a highly contagious disease caused by varicella zoster virus (VZV), a member of the herpesvirus family.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

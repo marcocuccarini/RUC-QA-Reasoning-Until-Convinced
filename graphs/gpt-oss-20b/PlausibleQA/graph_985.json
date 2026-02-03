@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many balls are on a snooker table at the beginning of a game. 15",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many balls are on a snooker table at the beginning of a game. 20",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many balls are on a snooker table at the beginning of a game. 18",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many balls are on a snooker table at the beginning of a game. 22",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A snooker ball set consists of 22 unmarked balls: 15 reds, six coloured balls, and one white cue ball.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The game is played with 22 balls, comprising a white cue ball, 15 red balls and six other balls—a yellow, green, brown, blue, pink and black—collectively called 'the colours'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

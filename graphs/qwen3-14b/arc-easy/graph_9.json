@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wood is a substance that is magnetic and conducts heat.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plastic is the substance that is magnetic and conducts heat.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Iron is a substance that is magnetic and conducts heat.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Paper is a substance that is magnetic and conducts heat.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Impurities, lattice defects, or grain and particle boundaries can 'pin' the domains in the new positions, so that the effect persists even after the external field is removed – thus turning the iron object into a (permanent) magnet.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This effect is exploited in devices that need to channel magnetic fields to fulfill design function, such as electrical transformers, magnetic recording heads, and electric motors.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

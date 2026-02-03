@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Alabama. Birmingham",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Alabama. Mobile",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Alabama. Huntsville",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the US state capital of Alabama. Montgomery",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Montgomery is the capital city of the U.S. state of Alabama and the seat of Montgomery County.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The state capital was moved from Tuscaloosa to Montgomery, on January 28, 1846.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Meter is the most appropriate unit of measurement for expressing the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kilometer is the most appropriate unit of measurement to express the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Light-year is the most appropriate unit of measurement to express the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.804780868281809
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Astronomical unit is the most appropriate unit of measurement to express the distance between the Milky Way galaxy and other galaxies.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Distances to objects such as quasars and the Sloan Great Wall run into the billions of light-years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The unit most commonly used in professional astronomy is the parsec.",
+      "strength": 0.7499999999660556
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Eclipsing binaries can give direct distance estimates to galaxies up to about 3 million parsecs (3 Mpc).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Distances based on direct measurements are available only out to about a thousand parsecs.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Milky Way has an estimated diameter of 26.8 ± 1.1 kiloparsecs (87,400 ± 3,600 light-years)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Typically, a void spans a distance of 7–30 megaparsecs.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "the mean free path of a photon in intergalactic space is about 10^23 km, or 10 billion light years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

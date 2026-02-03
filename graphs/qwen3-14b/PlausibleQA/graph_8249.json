@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in italy. Lira",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in italy. Italian Pound",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in italy. Italia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in italy. Euro",
+      "strength": 0.5999999365228031
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The lira (LEER-ə, Italian: [ˈliːra]; pl. : lire, LEER-ay, Italian: [ˈliːre]) was the currency of Italy between 1861 and 2002.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1999, the euro became Italy's unit of account and the lira became a national subunit of the euro at a rate of €1 = Lit 1,936.27, before being replaced as cash in 2002.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pre-euro banknotes of Italy (in English and German)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

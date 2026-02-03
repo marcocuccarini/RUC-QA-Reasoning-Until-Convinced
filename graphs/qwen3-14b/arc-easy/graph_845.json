@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ozone is the substance necessary for burning to take place.",
+      "strength": 0.25000003759877515
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is the substance necessary for burning to take place.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the substance necessary for burning to take place.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the substance necessary for burning to take place.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Combustion, or burning, is a high-temperature exothermic redox chemical reaction between a fuel (the reductant) and an oxidant, usually atmospheric oxygen",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Oxidants for combustion have high oxidation potential and include atmospheric or pure oxygen",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Concentrated O2 will allow combustion to proceed rapidly and energetically.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The 1967 fire that killed the Apollo 1 crew in a launch pad test spread so rapidly because the capsule was pressurized with pure O2 at slightly more than atmospheric pressure to force the doors against their seals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

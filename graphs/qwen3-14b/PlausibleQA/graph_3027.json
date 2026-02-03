@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red Stripe lager comes from which country. Barbados",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Red Stripe lager comes from which country. Trinidad and Tobago",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Red Stripe lager comes from which country. Bahamas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Red Stripe lager comes from which country. Jamica",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Red Stripe is a 4.7% ABV pale lager brewed by Desnoes & Geddes in Jamaica and the Netherlands.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was still being imported to the U.S. in 2023, from Jamaica in bottles, and the Netherlands in kegs and cans.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

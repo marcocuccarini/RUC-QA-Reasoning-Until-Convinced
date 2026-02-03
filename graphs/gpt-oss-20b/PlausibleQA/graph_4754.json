@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The island of Taiwan is off the coast of where. Japan",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The island of Taiwan is off the coast of where. Philippines",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The island of Taiwan is off the coast of where. Korea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The island of Taiwan is off the coast of where. 中国",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The main island of Taiwan, also known as Formosa, lies between the East and South China Seas in the northwestern Pacific Ocean, with the People's Republic of China (PRC) to the northwest, Japan to the northeast, and the Philippines to the south.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main island, known historically as Formosa, makes up 99 percent of this area, measuring 35,808 square kilometres (13,826 sq mi) and lying some 180 kilometres (112 mi) across the Taiwan Strait from the southeastern coast of mainland China.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

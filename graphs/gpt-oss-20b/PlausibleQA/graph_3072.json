@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for the Vietnamese New Year? (Hint: three letters). Lun",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for the Vietnamese New Year? (Hint: three letters). Duc",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for the Vietnamese New Year? (Hint: three letters). Hoi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for the Vietnamese New Year? (Hint: three letters). Tết",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tết (Vietnamese: [tet̚˧˦], chữ Hán: 節) is the most important celebration in Vietnamese culture.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The name Tết is a shortening of Tết Nguyên Đán, literally written as tết (meaning 'festivals'; only used in festival names) and nguyên đán which means the first day of the year.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

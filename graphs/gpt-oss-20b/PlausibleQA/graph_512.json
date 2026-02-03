@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Parsifal",
+      "strength": 0.15862392515574789
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Tannhäuser",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Die Meistersinger von Nürnberg",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Wagner opera tells the story of the eponymous swan knight and features The Bridal Chorus. Lorengel",
+      "strength": 0.40000003662315714
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Bridal Chorus, colloquially known in English-speaking countries as 'Here Comes the Bride', usually played as a processional at weddings, is part of Tristan und Isolde.",
+      "strength": 0.3676472467893531
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 'Bridal Chorus' (German: 'Treulich geführt') from the 1850 opera Lohengrin by German composer Richard Wagner",
+      "strength": 0.5999999633768432
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Treulich geführt is found in Act III, scene 1 of Lohengrin.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The opera is spelled Lohengrin, not Lorengel.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Bridal Chorus from Lohengrin is frequently played as the bride's processional wedding march in English-speaking countries.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the classic ghost story The Monkey's Paw . Edgar Allan Poe",
+      "strength": 0.40000003811777657
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the classic ghost story The Monkey's Paw . Bram Stoker",
+      "strength": 0.40000003811777657
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the classic ghost story The Monkey's Paw . Mary Shelley",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the classic ghost story The Monkey's Paw . WW Jacobs",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He is best known for his story 'The Monkey's Paw'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Monkey's Paw can be read online at American Literature Archived 16 June 2012 at the Wayback Machine",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Works by W. W. Jacobs in eBook form at Standard Ebooks",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

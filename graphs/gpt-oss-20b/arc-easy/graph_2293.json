@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The truck that starts moving first is faster, as determined by a class measuring the time each of two different trucks takes to drive across the parking lot.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The truck that takes less time is faster, allowing a class measuring the time it takes each of two different trucks to drive across a parking lot to determine which truck is faster.",
+      "strength": 0.5999030803074822
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The truck that has bigger tires is faster, as determined by measuring the time it takes for each truck to drive across the parking lot.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The truck that takes more time is faster when determining which of two trucks is faster by measuring the time each takes to drive across the parking lot.",
+      "strength": 0.40000009282172766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Average speed does not describe the speed variations that may have taken place during shorter time intervals (as it is the entire distance covered divided by the total time of travel), and so average speed is often quite different from a value of instantaneous speed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Average speed is defined as the total distance covered divided by the time interval.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Instantaneous speed is the limit of the average speed as the duration of the time interval approaches zero.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Time is a fundamental concept to define other quantities, such as velocity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

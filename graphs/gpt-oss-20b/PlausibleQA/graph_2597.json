@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What team does controversial quarterback Michael Vick play for in the National Football League in the USA. Atlanta Falcons",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What team does controversial quarterback Michael Vick play for in the National Football League in the USA. New York Jets",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What team does controversial quarterback Michael Vick play for in the National Football League in the USA. Pittsburgh Steelers",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What team does controversial quarterback Michael Vick play for in the National Football League in the USA. Iggles",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vick signed a one-year $5 million contract with the New York Jets on March 21, 2014, the same day the Jets released Mark Sanchez.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On June 12, 2017, Vick retired as an Atlanta Falcon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

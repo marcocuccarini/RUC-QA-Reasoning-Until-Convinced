@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "branch of science that deals with the structure of human body parts. Histology",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "branch of science that deals with the structure of human body parts. Physiology",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "branch of science that deals with the structure of human body parts. Embryology",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "branch of science that deals with the structure of human body parts. Anatomy",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term 'anatomy' is commonly taken to refer to human anatomy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Anatomy is quite distinct from physiology and biochemistry, which deal respectively with the functions of those parts and the chemical processes involved.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat from the room is absorbed by the ice cube, which is why an ice cube melts when set out in a warm room.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ice cube molecules move more slowly is the statement that describes the reason why an ice cube melts when set out in a warm room.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "One side of the ice cube is colder than the other explains why an ice cube melts when set out in a warm room.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Heat from the ice cube moves into the air when it is set out in a warm room, causing the ice cube to melt.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Melting is a thermal process that results in the phase transition of a substance from a solid to a liquid. The internal energy of a substance is increased, typically through heat or pressure, resulting in a rise of its temperature to the melting point",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Such spontaneous heat transfer always occurs from a region of high temperature to another region of lower temperature",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

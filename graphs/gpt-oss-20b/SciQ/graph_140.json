@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pinocytosis is another word for cellular drinking.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hypothalamus is another word for cellular drinking.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cellular hydration is another word for cellular drinking.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Altostratus is another word for cellular drinking.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "pinocytosis, otherwise known as fluid endocytosis and bulk-phase pinocytosis, is a mode of endocytosis in which small molecules dissolved in extracellular fluid are brought into the cell through an invagination of the cell membrane.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In humans, this process occurs primarily for absorption of fat droplets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

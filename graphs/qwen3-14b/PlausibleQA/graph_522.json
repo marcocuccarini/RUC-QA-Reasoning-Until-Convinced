@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what did james chadwick invent. Proton Accelerator",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what did james chadwick invent. Geiger Counter",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what did james chadwick invent. Cyclotron",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what did james chadwick invent. Neutron",
+      "strength": 0.5999123873437223
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sir James Chadwick ... received the Nobel Prize in Physics in 1935 for his discovery of the neutron.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "James Chadwick discovered the neutron in 1932, leading to the discovery of nuclear fission in 1938.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1935, Chadwick and his doctoral student Maurice Goldhaber reported the first accurate measurement of the mass of the neutron.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

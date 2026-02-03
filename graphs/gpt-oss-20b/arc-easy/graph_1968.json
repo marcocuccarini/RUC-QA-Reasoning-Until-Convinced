@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They are made of the same materials is the best description of the relationship between Mars, an inner planet, and Jupiter, an outer planet.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They orbit the Sun in opposite directions is the relationship between Mars, an inner planet, and Jupiter, an outer planet.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They have the same orbital periods around the Sun is the best description of the relationship between Mars, an inner planet, and Jupiter, an outer planet.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They are located on opposite sides of the asteroid belt, with Mars being an inner planet and Jupiter being an outer planet.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The asteroid belt is a torus-shaped region in the Solar System, centered on the Sun and roughly spanning the space between the orbits of the planets Jupiter and Mars.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1596, Johannes Kepler wrote, 'Between Mars and Jupiter, I place a planet,' in his Mysterium Cosmographicum, stating his prediction that a planet would be found there.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

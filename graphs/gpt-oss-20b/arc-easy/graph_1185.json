@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water (H₂O), rust (Fe₂O₃), and salt (NaCl) are atoms.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water, rust, and salt are mixtures.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water (H₂O), rust (Fe₂O₃), and salt (NaCl) are elements.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water, rust, and salt are compounds.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A molecule may be homonuclear, that is, it consists of atoms of one chemical element, as with two atoms in the oxygen molecule (O2); or it may be heteronuclear, a chemical compound composed of more than one element, as with water (two hydrogen atoms and one oxygen atom; H2O).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An ionic compound is a chemical compound composed of ions held together by electrostatic forces; this is termed ionic bonding.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

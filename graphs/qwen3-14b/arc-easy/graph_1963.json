@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rain is the point in the water cycle where radioactive contamination would most likely be found, since radioactive waste from nuclear power plants is sealed and deeply buried, reducing the chances that water will become contaminated.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fog is the point in the water cycle where radioactive contamination would most likely be found, given that radioactive waste from nuclear power plants is sealed in containers and deeply buried in the ground, reducing the chances that water will become contaminated.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Groundwater is the point in the water cycle where radioactive contamination would most likely be found, because radioactive waste from nuclear power plants is sealed in containers and deeply buried, which reduces the chances that water will become contaminated.",
+      "strength": 0.4000876126562776
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Surface water is the point in the water cycle where radioactive contamination would most likely be found from radioactive waste that has been sealed in containers and deeply buried in nuclear power plants, as sealing and burying reduces the chances that water will become contaminated.",
+      "strength": 0.4000876126562776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Italy, several radioactive waste deposits let material flow into river water, thus contaminating water for domestic use.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In France in the summer of 2008, ... about 75 kg of the radioactive material seeped into the ground and, from there, into two rivers nearby",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

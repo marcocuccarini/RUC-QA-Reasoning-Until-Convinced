@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Majordomo",
+      "strength": 0.7736521061885242
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Steward",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Housekeeper",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is a senior servant in a large household, specifically in charge of the dining room, wine cellar, and pantries. Butler",
+      "strength": 0.5999999723208136
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In great houses, the household is sometimes divided into departments, with the butler in charge of the dining room, wine cellar, and pantry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In older houses where the butler is the most senior worker, titles such as majordomo, butler administrator, house manager, manservant, staff manager, chief of staff, staff captain, estate manager, and head of household staff are sometimes given.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This is the highest (major) person of a household staff, a head servant who acts on behalf of the owner of a large or significant residence.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Historically, many institutions and governments—monasteries, cathedrals, and cities—as well as noble and royal houses, also had the post of majordomo, who usually was in charge of finances.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

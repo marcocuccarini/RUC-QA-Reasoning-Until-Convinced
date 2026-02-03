@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US state was admitted to the Union in 1876, hence its nickname of 'the Centennial State'. Nebraska",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US state was admitted to the Union in 1876, hence its nickname of 'the Centennial State'. Nevada",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US state was admitted to the Union in 1876, hence its nickname of 'the Centennial State'. Utah",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US state was admitted to the Union in 1876, hence its nickname of 'the Centennial State'. Colo.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "U.S. President Ulysses S. Grant signed a proclamation on August 1, 1876, admitting Colorado to the Union as the 38th state.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Colorado is nicknamed the 'Centennial State' because it became a state 100 years (and four weeks) after the signing of the United States Declaration of Independence.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

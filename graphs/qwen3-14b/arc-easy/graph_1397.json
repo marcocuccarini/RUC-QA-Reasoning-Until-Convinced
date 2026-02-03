@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Disease prevention is the result of abnormal cell division.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tissue repair may result from abnormal cell division.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Metamorphosis is a possible result of abnormal cell division.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cancer can result from abnormal cell division.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A well-known example of this is the Philadelphia chromosome, or translocation of chromosomes 9 and 22, which occurs in chronic myelogenous leukemia and results in production of the BCR-abl fusion protein, an oncogenic tyrosine kinase.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The transformation of a normal cell into cancer is akin to a chain reaction caused by initial errors, which compound into more severe errors, each progressively allowing the cell to escape more controls that limit normal tissue growth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

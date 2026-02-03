@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what was the title of the book charles darwin wrote. The Origin of Life",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what was the title of the book charles darwin wrote. Natural Selection",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what was the title of the book charles darwin wrote. The Species Book",
+      "strength": 0.400000060988221
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what was the title of the book charles darwin wrote. On evolution",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Darwin published his theory of evolution with compelling evidence in On the Origin of Species (1859)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Darwin first used the word evolution in The Descent of Man in 1871, before adding it in 1872 to the 6th edition of The Origin of Species",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On the Origin of Species (or, more completely, On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life) is a work of scientific literature by Charles Darwin that is considered to be the foundation of evolutionary biology.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

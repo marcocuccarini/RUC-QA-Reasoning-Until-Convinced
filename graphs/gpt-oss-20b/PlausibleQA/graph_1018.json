@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . Osaka",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . Nagoya",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . Kobe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . 横浜",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Yokohama is the world's 31st largest seaport in terms of total cargo volume, at 121,326 freight tons as of 2011, and is ranked 37th in terms of TEUs (Twenty-foot equivalent units).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Port of Yokohama was officially opened on June 2, 1859.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

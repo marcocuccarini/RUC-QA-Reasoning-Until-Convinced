@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Calvin cycle is the biochemical pathway in which the stored energy from ATP and NADPH generated during the light reactions of photosynthesis is used in a second set of reactions to produce vital compounds such as glucose.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Carbon fixation is the biochemical pathway involved in the second set of reactions during photosynthesis, which uses the stored energy in ATP and NADPH to produce vital compounds such as glucose.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Respiration is the biochemical pathway that involves the second set of reactions during the light reactions of photosynthesis, using stored energy in ATP and NADPH to produce vital compounds such as glucose.",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transpiration is the biochemical pathway involved in the second set of reactions during photosynthesis that uses stored energy from ATP and NADPH to produce vital compounds such as glucose.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Calvin cycle uses the chemical energy of ATP and the reducing power of NADPH from the light-dependent reactions to produce sugars for the plant to use.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The carbohydrate products of the Calvin cycle are three-carbon sugar phosphate molecules, or 'triose phosphates', namely, glyceraldehyde-3-phosphate (G3P).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An alternative perspective accounts for NADPH (source of e−) and ATP: 3 CO2  +  6 NADPH  +  6 H+  +  9 ATP  +  5 H2O   →   TP  +  6 NADP+  +  9 ADP  +  8 Pi",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The reverse Krebs cycle, also known as the reverse TCA cycle (rTCA) or reductive citric acid cycle, is an alternative to the standard Calvin-Benson cycle for carbon fixation.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Photosynthesis and cellular respiration are distinct processes, as they take place through different sequences of chemical reactions and in different cellular compartments (cellular respiration in mitochondria).",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "2H2O + 2NADP+ + 3ADP + 3Pi → O2 + 2H+ + 2NADPH + 3ATP",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

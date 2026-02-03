@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wave without a medium is how sound travels.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A series of compressions only is how sound travels.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pattern of up and down vibrations is how sound travels.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A pattern of compressions and rarefactions is the way sound travels.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sound cannot travel through a vacuum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sound is transmitted through gases, plasma, and liquids as longitudinal waves, also called compression waves. Longitudinal sound waves are waves of alternating pressure deviations from the equilibrium pressure, causing local regions of compression and rarefaction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

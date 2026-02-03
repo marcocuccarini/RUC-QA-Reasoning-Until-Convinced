@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the worlds first laptop computer introduced in the market and by whom. January 1973 by IBM",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the worlds first laptop computer introduced in the market and by whom. October 1981 by Osborne Computer Corporation",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the worlds first laptop computer introduced in the market and by whom. June 1975 by Xerox",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the worlds first laptop computer introduced in the market and by whom. September 1980",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Osborne 1 was released on April 3, 1981 by Osborne Computer Corporation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Xerox NoteTaker was a prototype developed at Xerox PARC in 1976 by Alan Kay.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The portable microcomputer 'Portal' was officially introduced in September 1980 by R2E Micral CCMC.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is angelina jolie. Humanitarian",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is angelina jolie. Model",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is angelina jolie. Director",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is angelina jolie. Actor",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jolie is known for her humanitarian efforts. The causes she promotes include conservation, education, and women's rights. She has been noted for her advocacy on behalf of refugees as a Special Envoy for the United Nations High Commissioner for Refugees.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jolie made her screen debut as a child alongside her father, Jon Voight, in Lookin' to Get Out (1982). Her film career began in earnest a decade later with the low-budget production Cyborg 2 (1993), followed by her first leading role in Hackers (1995). After starring in the television films George Wallace (1997) and Gia (1998), Jolie won the Academy Award for Best Supporting Actress for the 1999 drama Girl, Interrupted.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Jolie serves as a Special Envoy for Refugee Issues.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Angelina Jolie has an official page on IMDb.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

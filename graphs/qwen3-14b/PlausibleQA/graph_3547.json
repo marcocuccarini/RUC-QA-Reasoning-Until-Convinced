@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US artist married Lee Krasner in 1945. Jackson Pollock",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US artist married Lee Krasner in 1945. Mark Rothko",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US artist married Lee Krasner in 1945. Willem de Kooning",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US artist married Lee Krasner in 1945. Pollockian",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She married Jackson Pollock in 1945.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Krasner's career was often overshadowed by that of her husband, Jackson Pollock, whom she married in 1945.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

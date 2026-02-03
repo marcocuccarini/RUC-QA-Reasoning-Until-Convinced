@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dame Elizabeth Frink (1930-1993) was famous for which art form. Painting",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dame Elizabeth Frink (1930-1993) was famous for which art form. Printmaking",
+      "strength": 0.5999999437007768
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Dame Elizabeth Frink (1930-1993) was famous for which art form. Photography",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Dame Elizabeth Frink (1930-1993) was famous for which art form. Sculpt",
+      "strength": 0.7499025861225748
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was an English sculptor and printmaker.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She made many drawings and prints.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text refers to carving details in a stone sculpture of the Charioteer of Delphi.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

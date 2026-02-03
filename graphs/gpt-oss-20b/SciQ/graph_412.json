@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Goosebumps happen when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bleeding occurs when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Balding occurs when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bruising occurs when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Contraction of these muscles causes the hairs to stand on end, known colloquially as goose bumps (piloerection).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Inducing contraction of the arrector pili muscles via an α1-adrenergic receptor agonist has been shown to reduce hair shedding as a result of traction alopecia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

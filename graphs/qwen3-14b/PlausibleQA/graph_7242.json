@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is playing halftime show super bowl 50. Katy Perry",
+      "strength": 0.4309242551817296
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is playing halftime show super bowl 50. Taylor Swift",
+      "strength": 0.4309242551817296
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is playing halftime show super bowl 50. Rihanna",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is playing halftime show super bowl 50. Beyoncé",
+      "strength": 0.5999581987825118
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Beyoncé and Bruno Mars also performed",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Beyoncé performed at the NFL Super Bowl 50 halftime show",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

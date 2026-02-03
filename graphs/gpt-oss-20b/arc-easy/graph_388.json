@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hot and dry environments are where cactus plants grow best.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hot and wet environments are the habitats where cactus plants grow best.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cold and dry environments are the best habitats for cactus plants.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cold and wet environments are the habitats in which cactus plants grow best.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cacti are adapted to live in very dry environments, including the Atacama Desert, one of the driest places on Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The minimum winter temperature required depends very much on the species of cactus involved. For a mixed collection, a minimum temperature of between 5 °C (41 °F) and 10 °C (50 °F) is often suggested, except for cold-sensitive genera such as Melocactus and Discocactus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

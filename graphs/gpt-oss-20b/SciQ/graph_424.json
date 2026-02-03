@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbohydrate is a macromolecule that includes monosaccharides, disaccharides, and polysaccharides.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glucose is the type of macromolecule that includes monosaccharides, disaccharides, and polysaccharides.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Protein is the type of macromolecule that includes monosaccharides, disaccharides, and polysaccharides.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nutrients are macromolecules that include monosaccharides, disaccharides, and polysaccharides.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Monosaccharides are the simplest carbohydrates in that they cannot be hydrolyzed to smaller carbohydrates.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The most important carbohydrate is glucose, a simple sugar (monosaccharide) that is metabolized by nearly all known organisms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

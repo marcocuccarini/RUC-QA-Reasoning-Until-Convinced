@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Painted Dragon. Butterfly",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Painted Dragon. Fish",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Painted Dragon. Snake",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Painted Dragon. Lizard.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ctenophorus pictus, commonly known as the painted ground-dragon or painted dragon, is a species of lizard from the family Agamidae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The painted dragon is a medium-sized terrestrial lizard with a short, deep head and uniform body scales.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

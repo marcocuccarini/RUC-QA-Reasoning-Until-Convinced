@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In October 2003, which cricketer, playing in a Test series against Zimbabwe, scored a record 380 not out. Brian Lara",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In October 2003, which cricketer, playing in a Test series against Zimbabwe, scored a record 380 not out. Sachin Tendulkar",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In October 2003, which cricketer, playing in a Test series against Zimbabwe, scored a record 380 not out. Ricky Ponting",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In October 2003, which cricketer, playing in a Test series against Zimbabwe, scored a record 380 not out. Haydos",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Matthew Hayden had eclipsed his Test record for highest individual score 375 by five runs in 2003.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the innings of 380 by Matthew Hayden",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

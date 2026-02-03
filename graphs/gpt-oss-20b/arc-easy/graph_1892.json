@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Evaporation is the process that occurs when glacial ice—slow‑moving sheets of ice found on land—is heated to 5° Celsius.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Freezing is the process that occurs when glacial ice, a slow‑moving sheet of ice found on land, is heated to 5 °C.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Melting is the process that occurs when glacial ice—slow‑moving sheets of ice found on land—is heated to 5 °C.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Precipitation is the process that occurs when glacial ice, a slow‑moving sheet of ice found on land, is heated to 5 °C.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common phase transition to ice Ih occurs when liquid water is cooled below 0 °C (273.15 K, 32 °F) at standard atmospheric pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When ice melts it absorbs as much energy as would be required to heat an equivalent mass of water by 80 °C.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

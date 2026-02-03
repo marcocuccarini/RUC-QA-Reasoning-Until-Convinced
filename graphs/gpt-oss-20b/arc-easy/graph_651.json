@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The deserts receive the most direct sunlight on Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The South Pole is the location on Earth that receives the most direct sunlight.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The equator receives the most direct sunlight on Earth.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Western Hemisphere is the location on Earth that receives the most direct sunlight.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "maximum solar radiation is received during the equinoxes, when a place at the equator is under the subsolar point at high noon",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "noontime sunlight appears almost directly overhead (no more than about 23° from the zenith) every day, year-round",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

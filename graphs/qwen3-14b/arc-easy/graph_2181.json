@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth is tilted on the axis is another reason that the phases of the Moon occur, which are daily changes in the appearance of the Moon caused by the Moon reflecting sunlight.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon rises and sets is another reason that the phases of the Moon occur, which are daily changes in the appearance of the Moon caused by its reflection of sunlight.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon orbits Earth is another reason that the phases of the Moon occur, since the phases are daily changes in the Moon’s appearance and one reason is the Moon reflecting sunlight.",
+      "strength": 0.7736474087990474
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth orbits the Sun is another reason that the phases of the Moon occur, along with the Moon reflecting sunlight, which together cause the daily changes in the Moon's appearance.",
+      "strength": 0.7499999461186322
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cycle of phases takes one lunar month and moves across the same side of the Moon, which always faces Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This is due to the Earth's orbit around the Sun.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The angle of the Sun in relation to the Moon determines how much of the Moon is illuminated.",
+      "strength": 0.5999441357039169
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Moon orbits the Earth 13.4 times a year, but only passes between the Earth and Sun 12.4 times.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "At other times, the Moon is in quadrature when it is 90° or 270° from the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

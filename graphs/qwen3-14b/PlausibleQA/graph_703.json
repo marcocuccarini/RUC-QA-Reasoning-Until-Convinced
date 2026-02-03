@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who came up with the first working periodic table. John Newlands",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who came up with the first working periodic table. Julius Lothar Meyer",
+      "strength": 0.2762429031144786
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who came up with the first working periodic table. Antoine Lavoisier",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who came up with the first working periodic table. Dmitri Mendeleev",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lothar Meyer published a paper in 1864 describing 28 elements classified by their valence, but with no predictions of new elements.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mendeleev published his periodic table of all known elements and predicted several new elements to complete the table in a Russian-language journal.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Meyer acknowledged Mendeleev's priority in developing the periodic table.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Mendeleev published his periodic table in 1869, and Meyer's revised version followed a few months later.",
+      "strength": 0.4000000447316251
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Periodic table according to Lothar Meyer (1870)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The first periodic table to become generally accepted was that of the Russian chemist Dmitri Mendeleev in 1869; he formulated the periodic law as a dependence of chemical properties on atomic mass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

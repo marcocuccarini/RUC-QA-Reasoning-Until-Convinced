@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which famous London shop in Piccadilly is there an animated clock on the front, where the original owners turn on the hour to bow to each other. Liberty London",
+      "strength": 0.2500000000000332
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which famous London shop in Piccadilly is there an animated clock on the front, where the original owners turn on the hour to bow to each other. Hamleys",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which famous London shop in Piccadilly is there an animated clock on the front, where the original owners turn on the hour to bow to each other. Selfridges",
+      "strength": 0.40000000003581737
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which famous London shop in Piccadilly is there an animated clock on the front, where the original owners turn on the hour to bow to each other. Fortnums",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Liberty is located on Great Marlborough Street in the West End of London.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The building spans from Carnaby Street in the East to Kingly Street in the West, where it forms a three storey archway over the Northern entrance to the Kingly Street mall that houses the Liberty Clock in its centre.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Selfridges' windows have become synonymous also with the brand, and to a certain degree have become as famous as the company and Oxford Street location itself.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Hamleys moved to its current site on Regent Street in London's West End in 1881.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Every hour, 4‑foot‑high models of William Fortnum and Hugh Mason emerge and bow to each other, with chimes and 18th‑century style music playing in the background.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In 1964, a four‑ton clock was commissioned and installed above the main entrance of Fortnum & Mason as a tribute to its founders.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

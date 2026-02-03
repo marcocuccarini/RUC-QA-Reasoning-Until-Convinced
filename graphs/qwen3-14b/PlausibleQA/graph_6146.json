@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. Photoelectric Fire Sensor",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. Light Scattering Detector",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. Beam Smoke Detector",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which type of fire detector uses the effect of smoke on a light source and photo-electric cell. optical smoke detector",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A photoelectric, or optical smoke detector, contains a source of infrared, visible, or ultraviolet light—typically an incandescent light bulb or light-emitting diode (LED)—a lens, and a photoelectric receiver—typically a photodiode.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "However, once the air in the chamber contains particles (smoke or dust), the light is scattered with some of it reflected back to the sensor, triggering the alarm.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In some types, particularly optical beam types, the light emitted by the light source passes through the air being tested and reaches the photosensor. The received light intensity will be reduced due to scattering from particulates of smoke, air-borne dust, or other substances;",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sulfur will most likely increase in the pond when soap containing phosphate pollutes it, causing algae to reproduce rapidly.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen will most likely increase in the pond when soap containing phosphate causes algae to quickly reproduce.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nitrogen will most likely increase in the pond if it is polluted by soap that contains phosphate, which causes the algae to reproduce rapidly.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the substance that will most likely increase in a pond when soap containing phosphate causes algae to quickly reproduce.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Later stages of eutrophication lead to blooms of nitrogen-fixing cyanobacteria limited solely by the phosphorus concentration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When overproduced macrophytes and algae die in eutrophic water, their decompose further consumes dissolved oxygen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

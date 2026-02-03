@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cl, Br, and F have similar bonding properties.",
+      "strength": 0.4999045215831109
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "K, Ca, and Sc have similar bonding properties.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kr, Cl, and O are a set of elements that have similar bonding properties.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Be, C, and O are the set of elements that have similar bonding properties.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hydrogen fluoride is the only hydrogen halide that forms hydrogen bonds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chlorine and bromine can bond with up to five fluorine atoms, and iodine can bond with up to seven fluorine atoms.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "elements whose atoms have the same number of valence electrons are often grouped together in the periodic table of the elements, especially if they also have the same types of valence orbitals",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "such an atom has the following electron configuration: s2p5; this requires only one additional valence electron to form a closed shell",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

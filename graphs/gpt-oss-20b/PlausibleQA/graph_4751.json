@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Yorkshire",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Warwickshire",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Middlesex",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Durham",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Durham were County Champions for the third time in six seasons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Durham clinched the County Championship on 19 September by winning their match against Nottinghamshire by eight wickets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is an example of a tricyclic antidepressant. Imipramine",
+      "strength": 0.7499999066099569
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is an example of a tricyclic antidepressant. Amitriptyline",
+      "strength": 0.8460606499178676
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is an example of a tricyclic antidepressant. Nortriptyline",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is an example of a tricyclic antidepressant. Amineptine",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Imipramine is a prototypical drug for the development of the later-released TCAs",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Amitriptyline is another tertiary amine TCA",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Imipramine is a tricyclic antidepressant",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Amitriptyline is a tricyclic antidepressant",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Nortriptyline is a tricyclic antidepressant",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Nortriptyline is a secondary amine tricyclic antidepressant, with its N-methylated parent amitriptyline being a tertiary amine",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which northern English city will you find the Royal Armouries Museum. Manchester",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which northern English city will you find the Royal Armouries Museum. Liverpool",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which northern English city will you find the Royal Armouries Museum. Newcastle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which northern English city will you find the Royal Armouries Museum. Leeds",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Royal Armouries Museum is located in Leeds, West Yorkshire, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Royal Armouries Museum is located a short distance from the city centre at Leeds Dock.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

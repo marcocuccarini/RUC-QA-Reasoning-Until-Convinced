@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 18th Century composer wrote ‘The Four Seasons’. Bach",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 18th Century composer wrote ‘The Four Seasons’. Handel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 18th Century composer wrote ‘The Four Seasons’. Telemann",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 18th Century composer wrote ‘The Four Seasons’. Vivaldi",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vivaldi wrote the Four Seasons, four violin concertos that give musical expression to the seasons of the year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Le quattro stagioni (The Four Seasons) of 1723 is his most famous work.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

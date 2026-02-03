@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sweating is how many mammals control their body temperature.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dieting is how many mammals control their body temperature.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Homeostasis is the process by which many mammals control their body temperature.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Itching is how many mammals control their body temperature.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mammals like cats, dogs and pigs, rely on panting or other means for thermal regulation and have sweat glands only in foot pads and snout. The sweat produced on pads of paws and on palms and soles mostly serves to increase friction and enhance grip.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Organisms, when presented with the problem of regulating body temperature, have not only behavioural, physiological, and structural adaptations but also a feedback system to trigger these adaptations to regulate temperature accordingly. The main features of this system are stimulus, receptor, modulator, effector and then the feedback of the newly adjusted temperature to the stimulus. This cyclical process aids in homeostasis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

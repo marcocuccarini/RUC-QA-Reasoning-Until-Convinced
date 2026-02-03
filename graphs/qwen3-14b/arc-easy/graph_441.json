@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A girl hitting a ball with a bat is an example where an object moves because of the force of gravity.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A boy pushing a box across the floor is an example of an object moving because of the force of gravity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A girl hammering a nail into a wall is an example where an object moves because of the force of gravity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A boy falling from a tree onto the ground moves because of the force of gravity.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In classical mechanics, free fall is any motion of a body where gravity is the only force acting upon it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "a person jumping off the ground at low speed (i.e. as long as air resistance is negligible in comparison to weight)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

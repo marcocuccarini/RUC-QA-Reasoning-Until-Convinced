@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mandibles are a characteristic shared by all members of the Arthropoda and Chordata phyla.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Simple eyes are a characteristic shared by all members of the Arthropoda and Chordata phyla.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Jointed limbs are a characteristic shared by all members of Arthropoda and Chordata phyla.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "One pair of wings is a characteristic shared by all members of the Arthropoda and Chordata phyla.",
+      "strength": 0.25009176364520974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Arthropods are invertebrates with segmented bodies and jointed limbs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Arthropods ... have paired jointed appendages.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

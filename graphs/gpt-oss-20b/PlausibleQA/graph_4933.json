@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who enforces the charter of rights and freedoms. Parliament",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who enforces the charter of rights and freedoms. The Prime Minister",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who enforces the charter of rights and freedoms. The Canadian Human Rights Commission",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who enforces the charter of rights and freedoms. courts",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Supreme Court has the ultimate power of judicial review over Canadian federal and provincial laws' constitutional validity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If a law is declared contrary to certain sections of the Charter of Rights and Freedoms, Parliament or the provincial legislatures may make that particular law temporarily valid again against by using the 'override power' of the notwithstanding clause.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

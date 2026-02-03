@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Art Garfunkel trained for which profession although he didn't qualify. Mathematician",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Art Garfunkel trained for which profession although he didn't qualify. Teacher",
+      "strength": 0.5999999402194273
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Art Garfunkel trained for which profession although he didn't qualify. Writer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Art Garfunkel trained for which profession although he didn't qualify. Architect",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He ultimately earned a BA in art history in 1965, followed by an MA in mathematics education from Teachers College, Columbia University in 1967.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Initially majored in architecture at Columbia University, where he was a brother in the Alpha Epsilon Pi fraternity and lived in Carman Hall.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Garfunkel graduated in 1965, returning to Columbia University to pursue a master's degree in mathematics.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Garfunkel studied architecture before switching to art history at Columbia College, Columbia University.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

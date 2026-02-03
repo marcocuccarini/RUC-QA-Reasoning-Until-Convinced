@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which company, founded in 2009, provides an app-based taxi service that uses crowd-sourced drivers. Lyft",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which company, founded in 2009, provides an app-based taxi service that uses crowd-sourced drivers. Via",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which company, founded in 2009, provides an app-based taxi service that uses crowd-sourced drivers. Gett",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which company, founded in 2009, provides an app-based taxi service that uses crowd-sourced drivers. Uber",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lyft was launched in the summer of 2012 by computer programmers Logan Green and John Zimmer",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lyft classifies its drivers as independent contractors",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2009, Uber was founded as Ubercab by Garrett Camp and Travis Kalanick.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

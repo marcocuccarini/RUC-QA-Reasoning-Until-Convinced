@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who discovered the planet Uranus. Galileo Galilei",
+      "strength": 0.31275492549888273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who discovered the planet Uranus. Isaac Newton",
+      "strength": 0.31275492549888273
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who discovered the planet Uranus. Johannes Kepler",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who discovered the planet Uranus. Herschelian",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "William Herschel first observed Uranus on 13 March 1781, leading to its discovery as a planet",
+      "strength": 0.773755494632988
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The discovery of Uranus was the first planet to be discovered since antiquity",
+      "strength": 0.5999999543647366
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The discovery of Uranus was confirmed by verification and consultation with other astronomers",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "William Herschel (1738–1822), astronomer and composer, discoverer of Uranus",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

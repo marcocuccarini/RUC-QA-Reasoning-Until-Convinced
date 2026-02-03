@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who does the voice of little chef in ratatouille. Patrick Stewart",
+      "strength": 0.43092425065039247
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who does the voice of little chef in ratatouille. Jim Broadbent",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who does the voice of little chef in ratatouille. Jason Schwartzman",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who does the voice of little chef in ratatouille. Ian Holm",
+      "strength": 0.5999581987825118
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Little Chef has no voice actor.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ian Holm voiced Chef Skinner in the Pixar animated film Ratatouille (2007).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

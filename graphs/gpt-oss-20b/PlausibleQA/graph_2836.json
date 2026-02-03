@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who gets the golden boot if its a tie. The player with the most assists",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who gets the golden boot if its a tie. The player who scored the fastest goal",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who gets the golden boot if its a tie. The player with the most goals in the knockout stage",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who gets the golden boot if its a tie. shared",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If there is more than one player with the same number of goals, since 1994 the tie-breaker goes to the player with more assists.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If there is still more than one player, the tie (since 2006) is decided by minutes played in the tournament, with the player playing fewest minutes ranked first.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ash is the component that soil that drains slowly most likely contains in high amounts.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sand is the high amount found in soil that drains slowly.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Clay is the component that soil that drains slowly most likely has a high amount of.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Peat is the substance most likely found in high amounts in soil that drains slowly.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fine textured soils generally have a higher capacity for water retention",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "sandy soils contain large pore spaces that allow leaching",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

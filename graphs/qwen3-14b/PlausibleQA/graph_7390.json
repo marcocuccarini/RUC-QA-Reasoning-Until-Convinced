@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was john f kennedy's family. Caroline Kennedy",
+      "strength": 0.5999999999752597
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was john f kennedy's family. Joseph P. Kennedy Jr.",
+      "strength": 0.7499026166138957
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was john f kennedy's family. Robert F. Kennedy",
+      "strength": 0.5689656419901492
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was john f kennedy's family. Arabella Kennedy",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Caroline Bouvier Kennedy... is a member of the Kennedy family and the only surviving child of President John F. Kennedy and First Lady Jacqueline Kennedy Onassis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Caroline and John Jr.'s uncle Robert F. Kennedy became a major presence in both children's lives following their father's assassination, and Kennedy saw Robert as a surrogate father.",
+      "strength": 0.40000002580790256
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Robert F. Kennedy had a brother named John F. Kennedy",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Joseph P. Kennedy Jr. was one of Robert F. Kennedy's siblings",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Jacqueline Kennedy gave birth to a stillborn daughter, Arabella, in August 1956.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Joseph and Rose Kennedy were Jacqueline Kennedy's parents-in-law.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

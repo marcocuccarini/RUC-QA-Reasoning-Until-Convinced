@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Slowly is the manner in which thick lava flows.",
+      "strength": 0.20743282206404637
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Quickly is the speed at which thick lava flows.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rapidly is how lava flows when it is thick.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Steadily is how thick lava flows, as opposed to flowing quickly or slowly.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The average speed of a lava flow scales as the square of its thickness divided by its viscosity.",
+      "strength": 0.6872450745011214
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lava flow speeds vary based primarily on viscosity and slope.",
+      "strength": 0.773755494632988
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An exceptional speed of 32 to 97 km/h (20 to 60 mph) was recorded following the collapse of a lava lake at Mount Nyiragongo.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Viscosity depends continuously on temperature and pressure, it cannot be fully characterized by a finite number of experimental measurements.",
+      "strength": 0.5999999543647366
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Viscosity is the internal resistance to flow, reflecting the internal stickiness of the fluid.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Higher-temperature melts are less viscous, since more thermal energy is available to break bonds between oxygen and network formers.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Felsic lavas usually erupt explosively to produce pyroclastic deposits.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Its high silica content makes rhyolitic magma extremely viscous.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "Peralkaline rhyolites can be 10–30 times more fluid than typical calc-alkaline rhyolites.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

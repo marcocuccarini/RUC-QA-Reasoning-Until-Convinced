@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Archaebacteria are the kingdom into which scientists would classify organisms that thrive in hot water at 90 °C (194 °F) and do not need sunlight or oxygen to live.",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fungi are the kingdom into which scientists would classify organisms that thrive in hot water at 90 °C (194 °F) and do not need sunlight or oxygen to live.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plantae is the kingdom into which scientists would classify organisms that thrive in hot water at 90 °C (194 °F) and do not require sunlight or oxygen to live.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Protista is the kingdom scientists would classify organisms that thrive in hot water at 90 °C (194 °F) and do not need sunlight or oxygen to live.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Archaea were initially classified as bacteria, receiving the name archaebacteria (, in the Archaebacteria kingdom), but this term has fallen out of use.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hyperthermophiles are particularly extreme thermophiles for which the optimal temperatures are above 80 °C (176 °F).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Some are anaerobes that use the sulfur instead of oxygen as an electron acceptor during anaerobic cellular respiration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

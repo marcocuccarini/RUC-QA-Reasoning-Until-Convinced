@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrocarbons are the long chains that free fatty acids, which are carboxylic acids, contain.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vapors are long chains contained in free fatty acids, which are carboxylic acids.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lipds are the long chains contained in free fatty acids, which are carboxylic acids.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Particles are the long chains that free fatty acids, which are carboxylic acids, contain.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fatty acids have an aliphatic chain, which is either saturated or unsaturated.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fatty acids are a major component of the lipids (up to 70% by weight) in some species such as microalgae.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

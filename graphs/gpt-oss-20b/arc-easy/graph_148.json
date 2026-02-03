@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At the bottom of the highest hill is the point at which the front car of the roller coaster will most likely have its greatest potential energy.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At the top of the highest hill, the front car of the roller coaster will most likely have its greatest potential energy.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "At the start of the track, the front car of the roller coaster will most likely have its greatest potential energy as it climbs the highest hill on its track.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "At the end of the track, the front car of the roller coaster will most likely have its greatest potential energy while climbing the highest hill.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "ΔU≈mgh",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gravitational potential energy increases when two objects are brought further apart and is converted to kinetic energy as they are allowed to fall towards each other.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

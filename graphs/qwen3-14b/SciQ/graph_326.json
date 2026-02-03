@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon is the element present in all organic molecules.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen is the element present in all organic molecules.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sodium is present in all organic molecules.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hydrogen is present in all organic molecules.",
+      "strength": 0.40009682695977267
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The modern meaning of organic compound is any compound that contains a significant amount of carbon",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Other compounds lacking C–H bonds but traditionally considered organic include... carbon tetrachloride",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water (H₂O), rust (Fe₂O₃), and salt (NaCl) are atoms.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water, rust, and salt are mixtures.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water (H₂O), rust (Fe₂O₃), and salt (NaCl) are elements.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water, rust, and salt are compounds.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Any substance consisting of two or more different types of atoms (chemical elements) in a fixed stoichiometric proportion can be termed a chemical compound",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A molecule is an electrically neutral group of two or more atoms held together by chemical bonds",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

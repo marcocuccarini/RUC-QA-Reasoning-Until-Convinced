@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Waxing gibbous is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.2500000589556072
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Waning crescent is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.4000611252761509
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "First quarter is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.2500916879142505
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The new moon is the moon phase that occurs approximately 14 days after a full moon.",
+      "strength": 0.2500000589179168
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In astronomy, the new moon is the first lunar phase, when the Moon and Sun have the same ecliptic longitude.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The astronomical new moon occurs by definition at the moment of conjunction in ecliptical longitude with the Sun when the Moon is invisible from the Earth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The duration from full moon to new moon (or new moon to full moon) varies from approximately 13 days 22+1⁄2 hours to about 15 days 14+1⁄2 hours.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The lunar phases progress through the new moon, crescent moon, first-quarter moon, gibbous moon, and full moon phases as the Moon waxes.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The eight phases of the moon in order: new moon, waxing crescent moon, first quarter moon, waxing gibbous moon, full moon, waning gibbous moon, last quarter moon, waning crescent moon.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The eight phases of the moon in order: new moon, waxing crescent moon, first quarter moon, waxing gibbous moon, full moon.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Fingernail moon, a lunar phase waxing until 7 days after or waning since 7 days before the new moon",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

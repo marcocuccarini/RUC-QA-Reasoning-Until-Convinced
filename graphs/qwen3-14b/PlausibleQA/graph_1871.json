@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. Éirean",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. Hibernia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. Erin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. ire",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hibernia was used on a 2016 2 euro coin.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hibernia is a word that is rarely used today with regard to Ireland, except in long-established names.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

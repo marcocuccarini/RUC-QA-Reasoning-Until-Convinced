@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country, a member state of the EC, is noted for the production of the rich dessert wine Commandaria. Greece",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country, a member state of the EC, is noted for the production of the rich dessert wine Commandaria. Italy",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country, a member state of the EC, is noted for the production of the rich dessert wine Commandaria. Portugal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country, a member state of the EC, is noted for the production of the rich dessert wine Commandaria. Kıbrıs",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Commandaria is made in the Commandaria region of Cyprus",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By Cypriot legislation passed on 2 March 1990, it is only produced in a collection of 14 neighbouring villages",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

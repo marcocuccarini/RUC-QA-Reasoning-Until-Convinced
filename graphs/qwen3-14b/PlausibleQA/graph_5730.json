@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ushuaia, which is now generally accepted as the southernmost city in the world, is in which country. Chile",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ushuaia, which is now generally accepted as the southernmost city in the world, is in which country. Australia",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ushuaia, which is now generally accepted as the southernmost city in the world, is in which country. New Zealand",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ushuaia, which is now generally accepted as the southernmost city in the world, is in which country. Argie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ushuaia is the capital of Tierra del Fuego, Antártida e Islas del Atlántico Sur Province, Argentina.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is the only city accessed from the rest of the country by crossing part of the Andes mountain range, which runs along the southern edge of Tierra del Fuego.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

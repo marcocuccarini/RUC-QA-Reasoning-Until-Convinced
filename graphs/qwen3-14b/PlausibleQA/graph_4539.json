@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. Oliver Twist",
+      "strength": 0.367742437677532
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. David Copperfield",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. Great Expectations",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. Fezziwigs",
+      "strength": 0.40000003183864324
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Robert 'Bob' Cratchit is a fictional character in the Charles Dickens 1843 novel A Christmas Carol.",
+      "strength": 0.5999674451790858
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cratchit's son, Tiny Tim, is also a defining character in the novel.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The character of Bob Cratchit has been featured in works based on A Christmas Carol.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

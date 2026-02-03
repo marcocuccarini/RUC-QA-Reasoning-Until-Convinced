@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Calculator is the most likely way a scientist collects data during an experiment.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Graphs are the most likely way a scientist collects data during an experiment.",
+      "strength": 0.4000000447316251
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Observations are the most likely way a scientist collects data during an experiment.",
+      "strength": 0.5999029125598947
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A computer is the most likely way a scientist collects data during an experiment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Scientific measurements are usually tabulated, graphed, or mapped",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The measurements might be made in a controlled setting, such as a laboratory, or made on more or less inaccessible or unmanipulatable objects such as stars or human populations",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Natural experiments rely solely on observations of the variables of the system under study",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The degree to which this is possible depends on the observed correlation between explanatory variables in the observed data",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

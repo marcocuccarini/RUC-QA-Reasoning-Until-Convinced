@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Coming from the Sun is the best description of electrical energy.",
+      "strength": 0.3677550678225764
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Attracting objects is what electrical energy is best described as.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Moving negative charges is the best description of electrical energy.",
+      "strength": 0.3677550678225764
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Developing radiation is the best description of electrical energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electrical energy is the energy transferred as electric charges move between points with different electric potential",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electricity generation is the process of generating electrical energy from other forms of energy",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The amount of work in joules is given by the product of the charge that has moved, in coulombs, and the potential difference that has been crossed, in volts.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Electricity is most often generated at a power station by electromechanical generators, primarily driven by heat engines fueled by chemical combustion or nuclear fission but also by other means such as the kinetic energy of flowing water and wind.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

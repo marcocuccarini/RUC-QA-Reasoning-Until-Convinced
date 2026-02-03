@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Physical properties are the characteristics that classify appearance, texture, and density.",
+      "strength": 0.6322474682897467
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemical properties are the classification for appearance, texture, and density.",
+      "strength": 0.2500000000243988
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Magnetic properties are the classification of appearance, texture, and density.",
+      "strength": 0.40000002529687184
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermal properties are the classification for appearance, texture, and density.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Physical properties are characterized by properties such as opacity, hardness, ductility, and viscosity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chemical properties determine the way a material behaves in a chemical reaction.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Physical properties can be discerned without changing the substance's structure.",
+      "strength": 0.5999736115750363
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Chemical properties can be used for building chemical classifications.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Magnetic materials are classified according to their bulk susceptibility.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Density is an intensive property in that increasing the amount of a substance does not increase its density; rather it increases its mass.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Density is the ratio of mass to volume.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

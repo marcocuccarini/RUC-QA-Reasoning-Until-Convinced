@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who plays the bounty hunter Carson Wells in the 2007 film ‘No Country For Old Men’. Josh Brolin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who plays the bounty hunter Carson Wells in the 2007 film ‘No Country For Old Men’. Javier Bardem",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who plays the bounty hunter Carson Wells in the 2007 film ‘No Country For Old Men’. Tommy Lee Jones",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who plays the bounty hunter Carson Wells in the 2007 film ‘No Country For Old Men’. Woody Harelson",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jones played a Texas sheriff hunting an assassin in No Country for Old Men",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Woody Harrelson played Carson Wells in No Country for Old Men.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Javier Bardem played Anton Chigurh in No Country for Old Men.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

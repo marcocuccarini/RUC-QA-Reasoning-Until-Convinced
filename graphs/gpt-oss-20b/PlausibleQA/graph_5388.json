@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which pop star had the real name of Ernest Evans. Little Richard",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which pop star had the real name of Ernest Evans. Bo Diddley",
+      "strength": 0.32010860768953675
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which pop star had the real name of Ernest Evans. Fats Domino",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which pop star had the real name of Ernest Evans. Chubby Checker",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ellas Bates McDaniel (December 30, 1928 – June 2, 2008), known professionally as Bo Diddley, was an American guitarist and singer.",
+      "strength": 0.7499645112339329
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bo Diddley is included in the Rock and Roll Hall of Fame.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bo Diddley was interviewed on the Pop Chronicles in 1969.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

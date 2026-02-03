@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what films has scarlett johansson been in. Lost in Translation",
+      "strength": 0.5999999999403536
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what films has scarlett johansson been in. The Avengers",
+      "strength": 0.749902642362152
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what films has scarlett johansson been in. Lucy",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what films has scarlett johansson been in. Fall",
+      "strength": 0.4000000622202648
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Johansson played a young woman in a listless marriage in the Sofia Coppola-directed Lost in Translation",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Johansson reprised the role in the Joss Whedon-directed The Avengers in 2012",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Johansson starred in the science fiction film Lucy (2014).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text does not mention a film titled 'Fall'.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Avengers (2012 film), an American superhero film",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

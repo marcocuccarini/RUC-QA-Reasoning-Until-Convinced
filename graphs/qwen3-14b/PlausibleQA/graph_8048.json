@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what political party did andrew johnson belong to. National Union Party",
+      "strength": 0.5999999071782728
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what political party did andrew johnson belong to. Whig Party",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what political party did andrew johnson belong to. American Party",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what political party did andrew johnson belong to. Democratic Party",
+      "strength": 0.5000967341380452
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Johnson ran with Lincoln on the National Union Party ticket in the 1864 presidential election.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Johnson became a strong advocate for the Democratic Party and built a powerful political machine in Greene County.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Johnson stayed independent of both parties after 1865.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

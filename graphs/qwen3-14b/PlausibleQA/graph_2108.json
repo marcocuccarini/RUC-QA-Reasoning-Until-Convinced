@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. German Language",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. Italian Language",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. Romansh Language",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what language is spoken in switzerland. French Language",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2020, 62.3% of the population of Switzerland were native speakers of German (either Swiss or Standard German) at home",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "0.5% Romansh. The German region (Deutschschweiz) is roughly in the east, north, and centre; the French part (la Romandie) in the west; and the Italian area (Svizzera italiana) in the south.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Switzerland, co-official at the federal level with French, Italian, and Romansh, and at the local level in four cantons: Bern (with French), Fribourg (with French), Grisons (with Italian and Romans JAVA) and Valais (with French)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Swiss Standard German is used in the Swiss education system",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

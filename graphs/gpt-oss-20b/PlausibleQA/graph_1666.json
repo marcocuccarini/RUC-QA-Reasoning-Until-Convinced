@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. King's Cross",
+      "strength": 0.5000000153286197
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. Euston",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. St Pancras",
+      "strength": 0.8309839633022482
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. Pangratios",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Master Cutler is a British named express passenger train operated by East Midlands Railway between Sheffield and London St Pancras.",
+      "strength": 0.40000001534332824
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1958, passenger services on the former Great Central route were beginning to be run down, and on 15 September of that year the title of the train switched to a new Class 40 diesel hauled service from Sheffield Victoria to London King's Cross calling at Retford only via East Coast Main Line.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Master Cutler to Sheffield (transferred from King's Cross in 1966, which itself had transferred from Marylebone eight years earlier).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The principal operator is East Midlands Railway (EMR), which operates four InterCity trains every hour from London St Pancras, with two trains per hour to both Nottingham and Sheffield.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Midland Main Line (MML) is a major railway line between London St Pancras and Sheffield, via Leicester, Derby and Chesterfield; a spur of the line terminates at Nottingham.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

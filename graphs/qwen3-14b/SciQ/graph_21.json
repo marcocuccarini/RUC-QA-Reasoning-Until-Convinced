@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process whose products are required for cellular respiration, and whose reverse process, cellular respiration, produces products required for photosynthesis.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Digestion is the process whose products are required for cellular respiration, and whose products are also required for digestion.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Spermatogenesis is the process whose products are needed for cellular respiration, and vice versa.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Circulation is the process that supplies oxygen and nutrients required for cellular respiration, and removes the waste products of respiration.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In general outline, photosynthesis is the opposite of cellular respiration: while photosynthesis is a process of reduction of carbon dioxide to carbohydrates, cellular respiration is the oxidation of carbohydrates or other nutrients to carbon dioxide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The simple carbon sugars photosynthesis produces are then used to form other organic compounds, such as the building material cellulose, the precursors for lipid and amino acid biosynthesis, or as a fuel in cellular respiration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

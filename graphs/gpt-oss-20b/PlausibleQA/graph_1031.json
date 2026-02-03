@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What are motorways called in Germany . Bundesstraße",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What are motorways called in Germany . Schnellweg",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What are motorways called in Germany . Kraftfahrstraße",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What are motorways called in Germany . Autoban",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Only federally built controlled-access highways with certain construction standards including at least two lanes per direction are called Bundesautobahn.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Various other controlled-access highways exist on the federal (Bundesstraße), state (Landesstraße), district, and municipal level but are not part of the Autobahn network and are officially referred to as Kraftfahrstraße.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The official German term is Bundesautobahn (plural Bundesautobahnen, abbreviated 'BAB'), which translates as 'federal motorway'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

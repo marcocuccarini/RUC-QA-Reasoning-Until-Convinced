@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was disestablished as the state religion of Japan after WWII. Buddhism",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was disestablished as the state religion of Japan after WWII. Shintoism",
+      "strength": 0.5999999871841747
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was disestablished as the state religion of Japan after WWII. Taoism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was disestablished as the state religion of Japan after WWII. Sintô",
+      "strength": 0.6798971013471596
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Following Japan's defeat in World War II, Shinto was formally separated from the state.",
+      "strength": 0.7499665779387772
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This enshrined freedom of religion and separated religion from the state, a measure designed to eradicate State Shinto.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The U.S. General Headquarters quickly defined and banned practices it identified as 'State Shinto', but did not place a full ban on Japanese religious ceremonies involving the Emperor.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Today, while the Imperial House continues to perform Shinto rituals as 'private ceremonies', participation and belief are no longer obligatory for Japanese citizens, nor funded by the state.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

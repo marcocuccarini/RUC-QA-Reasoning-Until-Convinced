@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who added a press room to the white house. Theodore Roosevelt",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who added a press room to the white house. Franklin D. Roosevelt",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who added a press room to the white house. Harry S. Truman",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who added a press room to the white house. Richard Nixon",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Truman ordered an addition to the exterior of the White House: a second-floor balcony in the south portico, which came to be known as the Truman Balcony.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Theodore Roosevelt asked that planners include permanent space for the press corps in the executive office building now called the West Wing.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

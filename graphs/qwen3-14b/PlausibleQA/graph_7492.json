@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Christian festival day is held 40 days after the resurrection of Christ . Ascension Day",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Christian festival day is held 40 days after the resurrection of Christ . Easter Monday",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Christian festival day is held 40 days after the resurrection of Christ . Trinity Sunday",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Christian festival day is held 40 days after the resurrection of Christ . Pentecost",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pentecost is a Christian holiday that takes place on the 49th day (50th day when inclusive counting is used) after Easter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The fifty days from Easter Sunday to Pentecost Sunday may also be called Eastertide.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. E.T. the Extra-Terrestrial",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. Labyrinth",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. The Dark Crystal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. Gremlins",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The film 'Gremlins' features a Mogwai named Gizmo.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Mogwai in 'Gremlins' are described as 'small and furry', aligning with the 'cute' characteristic mentioned in the hypothesis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

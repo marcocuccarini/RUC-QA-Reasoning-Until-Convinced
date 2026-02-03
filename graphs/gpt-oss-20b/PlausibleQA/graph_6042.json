@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Italy",
+      "strength": 0.599999999999965
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Mexico",
+      "strength": 0.5999999999638227
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Nigeria",
+      "strength": 0.40000003773849835
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who 's flag is red white and green. Hungary",
+      "strength": 0.8460569430052786
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Italian flag is a flag featuring three equally sized vertical pales of green, white and red, with the green at the hoist side.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Hungarian flag has the same colours as the Italian one, but on the Magyar banner the red, white and green tricolour is arranged horizontally.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Mexican tricolor (green, white, red) has been continuously used for a longer time than the Italian one.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The flag is a vertical bicolour green-white-green design",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The red, white and green tricolour clearly emerged as a sign of national sovereignty during the 1848–1849 revolution against the Habsburgs.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The official adoption of these colors was established by Act XXI of 1848, which for the first time mandated the use of the 'red-white-green' tricolor flag as a national symbol of Hungary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

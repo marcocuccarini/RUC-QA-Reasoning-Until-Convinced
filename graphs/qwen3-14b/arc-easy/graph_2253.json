@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The uppermost complete row of the table is where the most reactive metals are located on the periodic table.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The rows at the bottom of the table connecting two sections are where the most reactive metals are located on the periodic table.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The column at the far left side of the periodic table is where the most reactive metals are located.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The second column from the right side of the table is where the most reactive metals are located on the periodic table.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The alkali metals are located in the leftmost column of the periodic table.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Caesium is the most reactive metal among all elements.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

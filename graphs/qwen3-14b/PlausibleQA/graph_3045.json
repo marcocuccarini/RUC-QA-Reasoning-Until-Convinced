@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. Belgian",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. French",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. German",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nationality was the pointillist artist MONDRIAN. DUTCH",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was a Dutch painter and art theoretician who is regarded as one of the greatest artists of the 20th century.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mondrian was born in Amersfoort, province of Utrecht in the Netherlands, the second of his parents' children.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

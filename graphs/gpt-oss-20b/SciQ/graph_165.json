@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Joint is the location near which bursitis, the inflammation of a bursa, occurs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Brain stem is the structure near which bursitis, the inflammation of a bursa, occurs.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lung is the structure near which bursitis, the inflammation of a bursa, occurs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Muscle is the structure near which bursitis is the inflammation of a bursa.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bursitis commonly affects superficial bursae. These include the subacromial, prepatellar, retrocalcaneal, and pes anserinus bursae of the shoulder, knee, heel and shin, etc.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Shoulders, elbows and knees are the most commonly affected.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

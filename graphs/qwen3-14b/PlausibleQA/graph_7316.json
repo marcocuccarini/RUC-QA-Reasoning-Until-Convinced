@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car company makes the 'X-Trail'. Toyota",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car company makes the 'X-Trail'. Honda",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car company makes the 'X-Trail'. Mazda",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car company makes the 'X-Trail'. 日産",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Nissan X-Trail is produced by the Japanese automaker Nissan since 2000",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

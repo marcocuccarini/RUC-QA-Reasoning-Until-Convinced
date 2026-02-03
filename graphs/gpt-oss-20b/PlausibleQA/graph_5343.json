@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "if a piece of music is perceived to have changed key then we say the piece has. Modulated",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "if a piece of music is perceived to have changed key then we say the piece has. Shifted",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "if a piece of music is perceived to have changed key then we say the piece has. Altered",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "if a piece of music is perceived to have changed key then we say the piece has. transposed",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In sonata form, a modulation separates the first subject from the second subject.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Changes of key may also represent changes in mood.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A piece of music which is primarily written in one key may transition, or modulate, to another.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Music written in one key can be converted to another, or transposed, by raising or lowering each pitch by the same number of semitones.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

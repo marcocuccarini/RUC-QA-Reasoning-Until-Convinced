@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. The Godfather: Part III",
+      "strength": 0.4309261926883358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. Terminator 2: Judgment Day",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. Aliens",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. TGP2",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is the only film in the trilogy not to win for Best Picture, or any other Academy Award for that matter.",
+      "strength": 0.4000409734979248
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Aliens received two awards at the 1987 Academy Awards: Best Sound Effects Editing (Don Sharpe) and Best Visual Effects (Robert Skotak, Stan Winston, John Richardson, Suzanne Benson).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

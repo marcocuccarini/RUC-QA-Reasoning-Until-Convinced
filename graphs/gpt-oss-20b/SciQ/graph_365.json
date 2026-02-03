@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Organ is a structure composed of one or more types of tissues.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A system is a structure composed of one or more types of tissues.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Muscle is a structure composed of one or more types of tissues.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Node is a structure that is composed of one or more types of tissues.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In a multicellular organism, an organ is a collection of tissues joined in a structural unit to serve a common function.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When three or more organs are present, it is called an organ system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

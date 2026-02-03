@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mercury, Venus, Earth, Saturn, Uranus, Jupiter, Mars, Neptune is the correct order of the planets from the Sun.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mercury, Earth, Mars, Venus, Saturn, Jupiter, Neptune, Uranus is the correct order of the planets from the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mercury, Venus, Mars, Earth, Jupiter, Uranus, Saturn, Neptune is the correct order of the planets from the Sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune is the correct order of the planets from the Sun.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ceres orbits in the asteroid belt, between Mars and Jupiter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "According to the IAU's explicit count, there are eight planets in the Solar System; four terrestrial planets (Mercury, Venus, Earth, and Mars) and four giant planets, which can be divided further into two gas giants (Jupiter and Saturn) and two ice giants (Uranus and Neptune).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which US city did the 2004 remake of the film Alfie take place. Los Angeles",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which US city did the 2004 remake of the film Alfie take place. Chicago",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which US city did the 2004 remake of the film Alfie take place. San Francisco",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which US city did the 2004 remake of the film Alfie take place. Ny",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The film was shot on-set in Manhattan.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "New York City locations such as Park Avenue and the Waldorf-Astoria Hotel were used in the film.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

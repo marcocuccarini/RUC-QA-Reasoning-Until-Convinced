@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor was allegedy killed by his wife, Aggripina, in AD54. Caligula",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor was allegedy killed by his wife, Aggripina, in AD54. Nero",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor was allegedy killed by his wife, Aggripina, in AD54. Tiberius",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor was allegedy killed by his wife, Aggripina, in AD54. Claudius",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ancient historians agree that Claudius was murdered by poison – possibly contained in mushrooms or on a feather (ostensibly put down his throat to induce vomiting) – and died in the early hours of 13 October 54.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some historians have cast doubt on whether Claudius was murdered or merely died from illness or old age.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Claudius died in AD 54 under suspicious circumstances, potentially poisoned by Agrippina herself.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Nero had her murdered following an unsuccessful attempt on her life on a boat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

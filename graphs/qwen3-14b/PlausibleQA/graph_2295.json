@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. Norwegian",
+      "strength": 0.500064845271561
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. Swedish",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. German",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the last name andersen originate from. Danish",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Denmark: The most common Danish family name surnames are patronymic and end in -sen; for example Rasmussen, originally meaning 'son of Rasmus' (Rasmus' son).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Norwegian surnames were originally patronymic and similar to the surnames used in modern Iceland, consisting of the father's name and one of the suffixes '-sen'/'-son' (son) or '-datter'/'-dotter' (daughter), depending on the person's gender.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Holdensen and Boldsen from the former Duchy of Schleswig",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Most Norwegian toponymic surnames derive from farm names, and these farms were frequently named after the geographical features of the farm's location",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

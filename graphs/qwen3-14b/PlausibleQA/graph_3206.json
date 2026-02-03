@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was Queen Victoria's first Christian name. Adelaide",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was Queen Victoria's first Christian name. Georgiana",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was Queen Victoria's first Christian name. Charlotte",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was Queen Victoria's first Christian name. Alexandrina",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Official documents prepared on the first day of her reign described her as Alexandrina Victoria, but the first name was withdrawn at her own wish and not used again.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Additional names proposed by her parents—Georgina (or Georgiana), Charlotte, and Augusta—were dropped on the instructions of the Prince Regent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

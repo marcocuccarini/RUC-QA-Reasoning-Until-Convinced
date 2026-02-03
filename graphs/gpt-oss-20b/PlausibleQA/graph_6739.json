@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where do they get the hair for a hair transplant. Arms",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where do they get the hair for a hair transplant. Legs",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where do they get the hair for a hair transplant. Chest",
+      "strength": 0.5000648428318698
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where do they get the hair for a hair transplant. back",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If donor hair numbers from the back of the head are insufficient, it is possible to perform body hair transplantation (BHT) on appropriate candidates who have available donor hair on the chest, back, shoulders, torso and/or legs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Body hair transplantation can use donor hair from the chest, back, shoulders, torso and/or legs.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Follicular unit extraction (FUE; also follicular unit excision or follicular transfer, FT) involves the harvesting, performed under local anaesthetic, of individual hair follicles from the donor site at the back of the head using a tiny 0.8 - 1mm punch",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "FUE provides an alternative to FUT when the scalp is too tight for a strip excision and enables a hair transplant surgeon to harvest finer hair from the nape of the neck to be used at the hairline or for eyebrows",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

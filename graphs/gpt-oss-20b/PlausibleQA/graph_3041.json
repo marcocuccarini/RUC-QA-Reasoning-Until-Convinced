@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Keflavik is the main international airport of which country. Iceland",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Keflavik is the main international airport of which country. Norway",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Keflavik is the main international airport of which country. Denmark",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Keflavik is the main international airport of which country. Hyui",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Keflavík Airport is the largest airport in Iceland",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Keflavík Airport is located approximately 3 km west of the town of Keflavík, Reykjanesbær and 50 km southwest of the capital Reykjavík",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

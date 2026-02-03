@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To become famous is the most important reason for scientists to publish their data and findings that result from a scientific investigation.",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To get paid for their research is the most important reason for scientists to publish their data and findings that result from a scientific investigation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To allow other scientists to try to replicate their results is the most important reason for scientists to publish the data and findings that result from a scientific investigation.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To gain respect from their peers in the scientific community is the most important reason for scientists to publish their data and findings that result from a scientific investigation.",
+      "strength": 0.400000037362994
+    },
+    "A4": {
+      "type": "argument",
+      "text": "To protect against bad science and fraudulent data, government research-granting agencies such as the National Science Foundation, and science journals, including Nature and Science, have a policy that researchers must archive their data and methods so that other researchers can test the data and methods and build on the research that has gone before.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other scientists may start their own research and enter the process at any stage. They might adopt the characterization and formulate their own hypothesis, or they might adopt the hypothesis and deduce their own predictions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Having both the data and the actual code enables others to reproduce the results for themselves (or to uncover problems in the analyses when trying to do so).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "International codes of conduct and national legislation on research integrity have officially endorsed open sharing of scientific output (publications, data, and code used to perform statistical analyses on the data) as ways to limit questionable research practices and to enhance reproducibility.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

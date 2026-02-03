@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . Osaka",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . Nagoya",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . Kobe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of Tokyo's seaport . 横浜",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Port of Yokohama opens onto Tokyo Bay.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Port of Yokohama is located at a latitude of 35.27–00°N and a longitude of 139.38–46°E.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Yokohama is the largest port city and high tech industrial hub in the Greater Tokyo Area and the Kantō region.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

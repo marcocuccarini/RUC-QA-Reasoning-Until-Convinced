@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mars is the celestial body that the Earth moves once around each year.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun is the object around which the Earth moves once each year.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is the body around which the Earth moves once each year.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "All the other planets are the celestial bodies that the Earth moves around once each year.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth orbits the Sun at an average distance of 149.60 million km (92.96 million mi), or 8.317 light-minutes, in a counterclockwise direction as viewed from above the Northern Hemisphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heliocentrism is the scientific model that first placed the Sun at the center of the Solar System and put the planets, including Earth, in its orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An ice cube melting is the thing in Marta’s house that causes a decrease in entropy when heat is forced to flow from a cool spot to a warmer spot.",
+      "strength": 0.15384615384617734
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The refrigerator is something in Marta’s house that causes a decrease in entropy by forcing heat to flow from a cool spot to a warmer spot.",
+      "strength": 0.18587365459894353
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An egg frying is the process that causes a decrease in entropy because heat is forced to flow from a cooler spot to a warmer spot.",
+      "strength": 0.25000006136163117
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The toaster is the household item that causes a decrease in entropy because it forces heat from a cooler spot to a warmer spot.",
+      "strength": 0.25009542980818045
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Reversing the polarity of the voltage applied to the Peltier cells results in a heating rather than cooling effect.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heat cannot spontaneously flow from cold regions to hot regions without external work being performed on the system, which is evident from ordinary experience of refrigeration, for example.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the reversal process and the original process, both cause entropy production, thereby increasing the entropy of the system's surroundings.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The heat expelled from the room (the system), which the air conditioner transports and discharges to the outside air, always makes a bigger contribution to the entropy of the environment than the decrease of the entropy of the air of that system.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In an isolated system such as the room and ice water taken together, the dispersal of energy from warmer to cooler always results in a net increase in entropy.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Similarly, a refrigerator moves heat from inside the cold icebox (the heat source) to the warmer room-temperature air of the kitchen (the heat sink).",
+      "strength": 0.5999999999999944
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The operating principles in both cases are the same; energy is used to move heat from a colder place to a warmer place.",
+      "strength": 0.5999999999999944
+    },
+    "A11": {
+      "type": "argument",
+      "text": "The heat pump works by the use of reverse valves inside a heat pump, enabling a switch from cooling to heating.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "The coefficient of performance of a heat pump is greater than one so the work required is less than the heat released, making a heat pump a more efficient form of heating than electrical resistance heating.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "Thus, when the system of the room and ice water system has reached thermal equilibrium, the entropy change from the initial state is at its maximum.",
+      "strength": 0.5
+    },
+    "A14": {
+      "type": "argument",
+      "text": "Our above result indicates that the entropy of the system as a whole will increase during these processes.",
+      "strength": 0.5
+    },
+    "A15": {
+      "type": "argument",
+      "text": "The law observes that, when the system is isolated from the outside world and from those forces, there is a definite thermodynamic quantity, its entropy, that increases as the constraints are removed, eventually reaching a maximum value at thermodynamic equilibrium, when the inhomogeneities practically vanish.",
+      "strength": 0.5
+    },
+    "A16": {
+      "type": "argument",
+      "text": "As the temperature of a system approaches absolute zero, all processes cease and the entropy of the system approaches a minimum value.",
+      "strength": 0.5
+    },
+    "A17": {
+      "type": "argument",
+      "text": "Such spontaneous heat transfer always occurs from a region of high temperature to another region of lower temperature, as described in the second law of thermodynamics.",
+      "strength": 0.5
+    },
+    "A18": {
+      "type": "argument",
+      "text": "The main disadvantages are high cost for a given cooling capacity and poor power efficiency (a low coefficient of performance or COP).",
+      "strength": 0.5
+    },
+    "A19": {
+      "type": "argument",
+      "text": "Thermoelectric cooling is far less commonly applied to refrigeration than vapor-compression refrigeration is.",
+      "strength": 0.5
+    },
+    "A20": {
+      "type": "argument",
+      "text": "The toaster is a small electric appliance that uses radiant heat to cook sliced bread into toast.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "A9",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "A10",
+      "relation": "support"
+    },
+    {
+      "source": "A13",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A14",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A15",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A16",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A17",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A17",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A18",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A19",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A20",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

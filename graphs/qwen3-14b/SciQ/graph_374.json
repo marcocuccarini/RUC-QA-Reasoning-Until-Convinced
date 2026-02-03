@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mitosis is the multi-phase process in which the nucleus of a cell divides.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cytokinesis is the term for the multi-phase process in which the nucleus of the cell divides.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mutation is the term for the multi-phase process in which the nucleus of the cell divides.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Epistasis is the term for the multi‑phase process in which the nucleus of the cell divides.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mitosis is a part of the cell cycle in which replicated chromosomes are separated into two new nuclei.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cytokinesis is not a phase of mitosis, but rather a separate process necessary for completing cell division.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

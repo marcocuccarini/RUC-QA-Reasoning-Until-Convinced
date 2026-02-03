@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Melting and cooling are the actions that must occur for magma to be converted to igneous rock.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Heating and pressure are the actions that must occur for magma to be converted to igneous rock.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Weathering and erosion are the actions that must occur for magma to be converted to igneous rock.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crystallization and cooling are the actions that must occur for magma to be converted to igneous rock.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Igneous rocks are formed through the cooling and solidification of magma or lava.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Igneous rock may form with crystallization to form granular, crystalline rocks, or without crystallization to form natural glasses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

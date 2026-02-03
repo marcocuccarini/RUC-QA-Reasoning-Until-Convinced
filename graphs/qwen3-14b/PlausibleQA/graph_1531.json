@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Farthings were in use in England as coinage from the 13th century and ceased to be legal tender on 31 December 1960. How many of them were there in a pound (1). 480",
+      "strength": 0.49511441931458994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Farthings were in use in England as coinage from the 13th century and ceased to be legal tender on 31 December 1960. How many of them were there in a pound (1). 800",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Farthings were in use in England as coinage from the 13th century and ceased to be legal tender on 31 December 1960. How many of them were there in a pound (1). 200",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Farthings were in use in England as coinage from the 13th century and ceased to be legal tender on 31 December 1960. How many of them were there in a pound (1). 960",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The penny was subdivided into 4 farthings until 31 December 1960, when they ceased to be legal tender in the UK and Ireland.",
+      "strength": 0.4000949096575096
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The last £sd coins to cease being legal tender in the UK after Decimal Day were the sixpence (withdrawn 1980), the shilling (withdrawn 1991) and the florin (withdrawn 1993).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The farthing (1⁄4d) had been demonetised on 1 January 1961.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

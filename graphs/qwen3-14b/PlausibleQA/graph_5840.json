@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the san francisco newspaper. San Francisco Chronicle",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the san francisco newspaper. San Francisco Examiner",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the san francisco newspaper. SF Weekly",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the san francisco newspaper. AsianWeek",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The San Francisco Chronicle is the only major daily paper covering the city and county of San Francisco.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The San Francisco Examiner became a free tabloid, leaving the Chronicle as the only daily broadsheet newspaper in San Francisco.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hearst subsidiary profile of the San Francisco Chronicle",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

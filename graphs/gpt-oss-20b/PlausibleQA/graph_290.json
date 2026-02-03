@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which company makes/made a watch called 'Submariner'. Omega",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which company makes/made a watch called 'Submariner'. Breitling",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which company makes/made a watch called 'Submariner'. Tag Heuer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which company makes/made a watch called 'Submariner'. Rolex",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Rolex Submariner is a line of sports watches designed for diving and manufactured by Rolex.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Submariner is part of Rolex's Professional line.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

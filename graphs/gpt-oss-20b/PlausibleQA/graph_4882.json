@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which renowned explorer was killed while searching for Umberto Nobile and his airship 'Italia' in 1928. Roald Amundsen's rival, Robert Falcon Scott",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which renowned explorer was killed while searching for Umberto Nobile and his airship 'Italia' in 1928. Ernest Shackleton",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which renowned explorer was killed while searching for Umberto Nobile and his airship 'Italia' in 1928. Lincoln Ellsworth",
+      "strength": 0.40000008918213564
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which renowned explorer was killed while searching for Umberto Nobile and his airship 'Italia' in 1928. Amudsen",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ellsworth senior died in Italy on June 2, 1925, while waiting for news of his lost son.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Roald Amundsen was lost and presumed dead after the French Latham sea plane piloted by René Guilbaud, in which he was flying to join the rescue operation, disappeared en route to Spitsbergen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

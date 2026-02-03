@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Metatherian",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Pouchbearer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Neonatid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for mammals born incompletely developed and carried and suckled in a pouch on the mother's belly. Marsupiel",
+      "strength": 0.400000060988221
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Marsupials constitute a clade stemming from the last common ancestor of extant Metatheria",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Marsupials are a diverse group of mammals belonging to the infraclass Marsupialia",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Metatheria is a more inclusive group than the marsupials; it contains all marsupials as well as many extinct non-marsupial relatives",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kylie Minogue played Charlene Robinson in what soap opera. Neighbours",
+      "strength": 0.6744381958481002
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kylie Minogue played Charlene Robinson in what soap opera. Home and Away",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kylie Minogue played Charlene Robinson in what soap opera. Coronation Street",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Kylie Minogue played Charlene Robinson in what soap opera. Tazzle",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kylie Minogue as Charlene Mitchell",
+      "strength": 0.367685677889561
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She first achieved recognition starring as Charlene Robinson in the Australian soap opera Neighbours (1986–1988).",
+      "strength": 0.599988142916346
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Charlene was introduced to the show along with several new characters, as part of a revamp by Network Ten to increase ratings.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Minogue won four Logie Awards for her portrayal of Charlene, including the Gold Logie, becoming the youngest person to do so.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

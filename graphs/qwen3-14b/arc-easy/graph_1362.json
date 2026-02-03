@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The skeletal system provides the same function in vertebrates as xylem cells do in trees, supporting the trunk and branches with thick‑walled structures.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The endocrine system provides the same function as xylem cells in a tree, which have very thick walls and make up most of a tree trunk and its branches.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The respiratory system is the vertebrate system that performs the same function as xylem cells in a tree, which are thick‑walled cells that make up most of the trunk and branches and transport water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The integumentary system provides the same function in vertebrates as xylem cells do in a tree, which have very thick walls and make up most of the tree trunk and its branches.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Main function – upwards water transport",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "xylem cells transport water",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "xylem cells support the trunk and branches with thick-walled structures",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has won the most superbowls as a player. Joe Montana",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has won the most superbowls as a player. Terry Bradshaw",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has won the most superbowls as a player. Peyton Manning",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has won the most superbowls as a player. Tom Brady",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tom Brady has won seven Super Bowls as a player, which is more than Joe Montana, Terry Bradshaw, and Peyton Manning, who have four, four, and two Super Bowl wins respectively.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tom Brady has won seven Super Bowls as a player, which is more than Terry Bradshaw, who has four Super Bowl wins.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tom Brady has won seven Super Bowls as a player, which is more than Peyton Manning, who has two Super Bowl wins.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Tom Brady has won seven Super Bowls as a player, the most of any individual in NFL history.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

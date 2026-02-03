@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where is the Australian parliament based. Sydney",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where is the Australian parliament based. Melbourne",
+      "strength": 0.5999999723208136
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where is the Australian parliament based. Perth",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where is the Australian parliament based. Canberra",
+      "strength": 0.7736521061885242
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parliament House is located on Capital Hill in Canberra, Australian Capital Territory.",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the first Federal Parliament in Melbourne on 9 May 1901",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On 9 May 1988, a larger and permanent Parliament House was opened on Capital Hill as part of Australia's bicentenary celebrations.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Commonwealth Parliament moved there from the Provisional Parliament House, now known as Old Parliament House.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

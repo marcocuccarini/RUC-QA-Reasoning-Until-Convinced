@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ikarus was the codename for the proposed German invasion of which country. United Kingdom",
+      "strength": 0.2500000566439248
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ikarus was the codename for the proposed German invasion of which country. Soviet Union",
+      "strength": 0.25009542980516736
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ikarus was the codename for the proposed German invasion of which country. Poland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ikarus was the codename for the proposed German invasion of which country. Hyui",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Operation Ikarus was a Second World War German plan to invade Iceland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Operation Sea Lion, also written as Operation Sealion (German: Unternehmen Seelöwe), was Nazi Germany's code name for their planned invasion of the United Kingdom.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Germany, supported by Italy and Romania, invaded the Soviet Union in Operation Barbarossa.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

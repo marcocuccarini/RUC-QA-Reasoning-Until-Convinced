@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "1 day is about the length of a lunar cycle.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A lunar cycle is about 1 week long.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "28 days is about how long a lunar cycle is.",
+      "strength": 0.25008814475042074
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "52 weeks is about how long a lunar cycle is.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A lunar month averages about 29.5 days.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In English common law, a 'lunar month' traditionally meant exactly 28 days.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

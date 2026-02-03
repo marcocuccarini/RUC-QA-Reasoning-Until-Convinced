@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Erode is what the surrounding rock will do when an igneous intrusion comes into contact with it.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Foliate is what the surrounding rock will do when an igneous intrusion comes into contact with it.",
+      "strength": 0.49999991090335777
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Precipitate is the process that the surrounding rock will undergo when an igneous intrusion comes into contact with it.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Recrystallize is what the surrounding rock does when an igneous intrusion comes into contact with it.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rocks formed by contact metamorphism may not present signs of strong deformation and are often fine-grained and extremely tough.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Foliations in the intrusion and the surrounding country rock are roughly parallel, indicating extreme deformation in the country rock.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Hot fluids circulating through pore space in the rock can dissolve existing minerals and precipitate new minerals.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The formation of important ore minerals may occur by the process of metasomatism at or near the contact zone.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

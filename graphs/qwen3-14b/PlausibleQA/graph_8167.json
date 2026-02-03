@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did rudolf virchow conduct his research. University of Berlin",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did rudolf virchow conduct his research. Charité Hospital",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did rudolf virchow conduct his research. University of Heidelberg",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did rudolf virchow conduct his research. University of Würzburg",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1839, he received a military fellowship... to study medicine at the Friedrich Wilhelm University in Berlin (now Humboldt University of Berlin).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "But shortly after, he joined the Charité Hospital in Berlin for internship.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Famous researchers, such as [...] Rudolf Virchow, and Robert Koch, contributed to Berlin University's scientific fame.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

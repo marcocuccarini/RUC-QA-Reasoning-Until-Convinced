@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Melting iron ore is not a primary process that changes natural resources into industrial materials in manufacturing.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Producing lumber is not a primary process, which are the manufacturing steps that transform natural resources into industrial materials.",
+      "strength": 0.40000008741621107
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Molding plastic is not a primary process, because primary processes in manufacturing are the steps that transform natural resources into industrial materials.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crushing rock into gravel is not a primary process, which refers to manufacturing steps that transform natural resources into industrial materials.",
+      "strength": 0.40000008741621107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Logging is an activity included in the primary sector, which involves the extraction and production of raw materials.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mining is an activity included in the primary sector, which involves the extraction and production of raw materials.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Smelting – Inside a blast furnace, carbon monoxide (CO) is released by combusting coke (a high-carbon derivative of coal) and removes the undesired oxygen (O) within ores. CO2 is released as a by-product, carrying away the oxygen and leaving behind the desired pure metal. Most prominently, iron smelting is how steel (largely iron with small amounts of carbon) is created from mined iron ore and coal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

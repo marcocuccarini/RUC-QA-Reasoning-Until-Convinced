@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Winter to spring is the change of seasons occurring as the student walking to school each morning in Maine notices that the mornings are becoming brighter, the Sun rises earlier each day, there is more daylight after school, and the Sun sets later in the day.",
+      "strength": 0.8309839889533667
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Summer to fall is the change of seasons occurring, as the student in Maine walks to school each morning when it is dark outside, but as days pass the mornings become brighter, the sun rises earlier each day, there is more daylight after school, and the sun sets later in the day.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Spring to winter is the change of seasons occurring as a student walks to school each morning in Maine, noting that mornings become brighter, the sun rises earlier, there is more daylight after school, and the sun sets later.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fall to winter is the change of seasons occurring as the student walking to school in Maine notices mornings becoming brighter, the Sun rising earlier each day, more daylight after school, and the Sun setting later.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Daylight is present at a particular location, to some degree, whenever the Sun is above the local horizon.",
+      "strength": 0.40000003183864324
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It may be darker under unusual circumstances like a solar eclipse or very high levels of atmospheric particulates, which include smoke, dust, and volcanic ash.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Atmospheric refraction causes the Sun to be seen while it is still below the horizon.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In late winter and spring, sunrise as seen from temperate latitudes occurs earlier each day, reaching its earliest time shortly before the summer solstice; although the exact date varies by latitude.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "During winter and spring, the days get longer and sunsets occur later every day until the day of the latest sunset, which occurs after the summer solstice.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In the Northern Hemisphere, the latest sunset occurs late in June or in early July, but not on the summer solstice of June 21.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

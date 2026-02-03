@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An air mass is warmer at the leading edge and cooler at the trailing edge.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An air mass has similar temperature and moisture properties throughout it, which is true regarding the properties of an air mass.",
+      "strength": 0.15394123277098462
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An air mass is cooler near the edges and has greater moisture near the center.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An air mass has greater moisture near the edges and is cooler near the center.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Heat from underlying warmer waters can significantly modify an air mass over distances as short as 35 kilometres (22 mi) to 40 kilometres (25 mi).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Subsidence will generally dry out an air mass by adiabatic, or compressional, heating.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Temperature variations on land are greater than on water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

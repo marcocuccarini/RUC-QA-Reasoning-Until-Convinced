@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rice is the plant grown for food.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tobacco is the plant grown for food.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Orchid is a plant grown for food.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cotton is the plant that is grown for food.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Curing and subsequent aging of tobacco leaves contributes to the smoothness of the smoke.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The tubers of terrestrial orchids (mainly early purple orchid, Orchis mascula) are ground to a powder and used for cooking, such as in the hot beverage salep and ice cream.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Some saprophytic orchid species of the group Gastrodia produce potato‑like tubers and were eaten by native peoples in Australia and can be cultivated, notably Gastrodia sesamoides.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

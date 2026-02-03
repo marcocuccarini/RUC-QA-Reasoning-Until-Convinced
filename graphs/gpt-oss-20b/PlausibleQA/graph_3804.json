@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many pounds are in a UK (long) ton. 2000",
+      "strength": 0.40003897519685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many pounds are in a UK (long) ton. 2200",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many pounds are in a UK (long) ton. 2400",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many pounds are in a UK (long) ton. 2240",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A long ton is defined as exactly 2,240 pounds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A long ton, also called the weight ton (W/T), imperial ton, or displacement ton, is equal to: 2,240 pounds (1,016.0 kilograms; 1.0160 metric tons)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "exactly 12% more than the 2,000 pounds of the North American short ton, being 20 long hundredweight (112 lb) rather than 20 short hundredweight (100 lb)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

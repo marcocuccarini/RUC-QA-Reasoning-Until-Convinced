@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Han ethnic people constitute c.90% of mainland. Taiwan",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Han ethnic people constitute c.90% of mainland. Mongolia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Han ethnic people constitute c.90% of mainland. Korea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Han ethnic people constitute c.90% of mainland. 中国",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Taiwan, Han Chinese (including both the earlier Han Taiwanese settlers and the recent Chinese that arrived in Taiwan with Chiang Kai-shek in 1949) constitute over 95% of the population.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Han Chinese represent 91.11% of the population in China.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ethnic minorities constitute 8.49% of China's population in 2010.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

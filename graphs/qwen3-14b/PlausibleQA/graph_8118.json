@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which part of the human body can you find the Malleus or Hammer bone . Wrist",
+      "strength": 0.40000003589797006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which part of the human body can you find the Malleus or Hammer bone . Ankle",
+      "strength": 0.40000003589797006
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which part of the human body can you find the Malleus or Hammer bone . Knee",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which part of the human body can you find the Malleus or Hammer bone . Ucho",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The malleus is a bone situated in the middle ear.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The malleus is attached to the eardrum (tympanic membrane).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The middle ear is the portion of the ear medial to the eardrum, and distal to the oval window of the cochlea (of the inner ear).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The mammalian middle ear contains three ossicles (malleus, incus, and stapes), which transfer the vibrations of the eardrum into waves in the fluid and membranes of the inner ear.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

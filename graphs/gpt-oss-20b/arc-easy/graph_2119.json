@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lake is the type of ecosystem that has the greatest variation in temperature from its top to its bottom.",
+      "strength": 0.49990326586195494
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pond ecosystems exhibit the greatest variation in temperature from their top to bottom.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ocean is the ecosystem that has the greatest variation in temperature from its top to its bottom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Estuary is the type of ecosystem that has the greatest variation in temperature from its top to its bottom.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In a holomictic lake, the uniformity of temperature and density allows the lake waters to completely mix.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As the summer begins, two distinct layers become established, with such a large temperature difference between them that they remain stratified.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Shallow ponds often have a continuous temperature gradient from warmer waters at the surface to cooler waters at the bottom.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

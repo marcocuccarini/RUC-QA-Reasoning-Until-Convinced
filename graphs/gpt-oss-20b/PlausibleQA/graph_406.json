@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Historically, what type of wood was used to make black piano keys. Rosewood",
+      "strength": 0.36775506923015594
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Historically, what type of wood was used to make black piano keys. Bubinga",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Historically, what type of wood was used to make black piano keys. Wenge",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Historically, what type of wood was used to make black piano keys. Ebony",
+      "strength": 0.4950411190279139
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Piano keys have often been made from ivory over the instrument's history",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Black keys were traditionally made of ebony, and the white keys were covered with strips of ivory.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "White keys were covered with strips of ivory.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

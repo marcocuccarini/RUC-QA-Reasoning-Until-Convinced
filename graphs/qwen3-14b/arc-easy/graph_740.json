@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The heart is the organ made mostly of muscle.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lung is the organ made mostly of muscle.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ear is an organ that is made mostly of muscle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Brain is the organ made mostly of muscle.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The heart is a muscular organ found in humans and other animals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The middle layer of the heart wall is the myocardium, which is the cardiac muscle—a layer of involuntary striated muscle tissue surrounded by a framework of collagen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

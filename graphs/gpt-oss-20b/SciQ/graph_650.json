@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "pH is the value that must be known to calculate the concentration of hydrogen ions in a solution.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Temperature is the information needed to calculate the concentration of the hydrogen ion in a solution.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Velocity is the quantity that must be known to calculate the concentration of the hydrogen ion in a solution.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pressure is the quantity that must be known to calculate the concentration of the hydrogen ion in a solution.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "p[H] is the concentration of hydrogen ions, denoted [H+] in modern chemistry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "a_H+ = exp((μ_H+ - μ_H+^⊖)/(RT)).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "pH is defined as the negative logarithm of the concentration of hydronium ions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

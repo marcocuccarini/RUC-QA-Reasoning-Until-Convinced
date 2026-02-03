@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the only sequel to win an Academy Award for Best Picture. The Godfather: Part III",
+      "strength": 0.36774766208784276
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the only sequel to win an Academy Award for Best Picture. Terminator 2: Judgment Day",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the only sequel to win an Academy Award for Best Picture. Aliens",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the only sequel to win an Academy Award for Best Picture. TGP2",
+      "strength": 0.36774766208784276
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Godfather Part II and The Lord of the Rings: The Return of the King are the only sequels to have won the award",
+      "strength": 0.5999654321013873
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is the only film in the trilogy not to win for Best Picture, or any other Academy Award for that matter",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

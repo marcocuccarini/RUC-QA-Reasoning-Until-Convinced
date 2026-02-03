@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which island group in the South Atlantic was once known as the Sebald Islands. Tristan da Cunha",
+      "strength": 0.3677570040648199
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which island group in the South Atlantic was once known as the Sebald Islands. South Georgia",
+      "strength": 0.3677570040648199
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which island group in the South Atlantic was once known as the Sebald Islands. Falkland Islands (Malvinas)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which island group in the South Atlantic was once known as the Sebald Islands. FLK",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text does not refer to Tristan da Cunha as the Sebald Islands.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text does not refer to South Georgia as the Sebald Islands.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text refers to Tristan da Cunha.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text does not mention South Georgia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

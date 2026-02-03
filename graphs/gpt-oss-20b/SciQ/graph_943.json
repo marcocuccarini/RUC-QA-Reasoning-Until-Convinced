@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nitrogen oxides are formed when nitrogen and oxygen combine at high temperatures.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrocarbons are formed when nitrogen and oxygen combine at high temperatures.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nitric acid forms when nitrogen and oxygen combine at high temperatures.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Calcium oxides are the compounds that form when nitrogen and oxygen combine at high temperatures.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At high temperatures, oxygen and nitrogen undergo an endothermic reaction producing various oxides of nitrogen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "NO2 is further oxidized in the gas phase during daytime by reaction with OH (+M) → HNO3 (+M).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which river does the Scottish city of Stirling lie. River Tay",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which river does the Scottish city of Stirling lie. River Clyde",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which river does the Scottish city of Stirling lie. River Dee",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which river does the Scottish city of Stirling lie. Forth",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "From Stirling, the Forth flows east, accepting the Bannock Burn from the south before passing the town of Fallin.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Forth rises in the Trossachs, a mountainous area 30 km (19 mi) west of Stirling.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

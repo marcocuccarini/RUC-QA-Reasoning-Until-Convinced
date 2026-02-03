@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which apostle spoke at the council of jerusalem. Peter",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which apostle spoke at the council of jerusalem. James",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which apostle spoke at the council of jerusalem. Barnabas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which apostle spoke at the council of jerusalem. Paul",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "James was the last named figure to speak, after Peter, Paul, and Barnabas.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "James delivered what he called his 'decision' (Acts 15:13-21).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "James answered, saying, 'Men and brethren, listen to me:'",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The council listened to James because he was the first of the three pillars of church.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

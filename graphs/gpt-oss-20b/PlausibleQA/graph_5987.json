@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What airline had two high-profile plane crashes in 2014. Malaysia Airlines",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What airline had two high-profile plane crashes in 2014. AirAsia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What airline had two high-profile plane crashes in 2014. Indonesia AirAsia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What airline had two high-profile plane crashes in 2014. MHbuddy",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Malaysia Airlines Flight 370, a Boeing 777-200ER – registered 9M-MRO – carrying 227 passengers and 12 crew, went missing on a flight from Kuala Lumpur International Airport to Beijing Capital International Airport. Although the whereabouts of the plane remain unknown, satellite data indicates that the plane was lost in the Southern Indian Ocean and all 239 people on board perished.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "17 July 2014 – Malaysia Airlines Flight 17, a Boeing 777-200ER – registered 9M-MRD – en route to Kuala Lumpur International Airport from Amsterdam Schiphol Airport was shot down over Ukraine by a Buk surface-to-air missile. All 283 passengers and 15 crew members aboard died.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

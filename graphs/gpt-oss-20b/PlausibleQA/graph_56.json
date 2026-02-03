@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What gambling game, requiring only two coins to play, was popular with Australian and New Zealand soldiers in World War II. Heads or Tails",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What gambling game, requiring only two coins to play, was popular with Australian and New Zealand soldiers in World War II. Coin Toss Betting",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What gambling game, requiring only two coins to play, was popular with Australian and New Zealand soldiers in World War II. Matchsticks",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What gambling game, requiring only two coins to play, was popular with Australian and New Zealand soldiers in World War II. 2up",
+      "strength": 0.5999029153259441
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Two-up was played extensively by Australia's soldiers during World War I.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Two-up was played by the 2/12th Commando Squadron",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Newspaper report of a police raid on an illegal two-up school (Adelaide Advertiser 12 December 1931, page 17)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

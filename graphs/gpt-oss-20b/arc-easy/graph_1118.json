@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reflection was the discovery necessary before radio could be invented.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Radiation was the discovery necessary before radio could be invented.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electricity was the discovery necessary before radio could be invented.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gravity was the discovery necessary before the invention of radio.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The work of many researchers enabled the use of electronics to convert signals into high frequency oscillating currents and, via suitably shaped conductors, electricity permits the transmission and reception of these signals via radio waves over very long distances.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Maxwell developed a set of equations that could unambiguously describe the interrelationship between electric field, magnetic field, electric charge, and electric current. He could moreover prove that in a vacuum such a wave would travel at the speed of light, and thus light itself was a form of electromagnetic radiation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Radio waves were first produced deliberately by Heinrich Hertz in 1887, using electrical circuits calculated to produce oscillations at a much lower frequency than that of visible light, following recipes for producing oscillating charges and currents suggested by Maxwell's equations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

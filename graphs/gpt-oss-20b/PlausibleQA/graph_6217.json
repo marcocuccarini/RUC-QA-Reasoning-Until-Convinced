@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where are the highest average incomes found in north america. Massachusetts",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where are the highest average incomes found in north america. California",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where are the highest average incomes found in north america. New York",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where are the highest average incomes found in north america. Virginia",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Per capita GDP in 2021 was $85,546, ranking fourth in the nation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "California has a poverty rate of 23.5%, the highest of any state in the country.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Massachusetts ranks first in per capita income and first in median income.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

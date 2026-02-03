@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Smelting ore is the major cause of acid rain.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Evaporation of polluted water is the major cause of acid rain.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Jet airplane exhaust high in the sky is the major cause of acid rain.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sulfur combining with water vapor in the atmosphere is the major cause of acid rain.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Combustion of fuels and smelting of some ores produce sulfur dioxide and nitric oxides.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Acid rain is caused by emissions of sulfur dioxide and nitrogen oxide, which react with the water molecules in the atmosphere to produce acids.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At the time, the most visible one was acid rain, caused by precipitation from clouds carrying high concentrations of sulfate aerosols in the troposphere.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sulfur dioxide reacts with water to form clouds of sulfurous acid (SO2 + H2O ⇌ HSO−3 + H+), and is a key component of the planet's global atmospheric sulfur cycle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

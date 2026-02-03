@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In a dry area is where a plant needs to be placed to stay alive indoors.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In a dark room is where a plant needs to be placed to stay alive indoors.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The plant needs to be placed on a plant stand to stay alive indoors.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Near a sunny place is where a plant needs to be placed for it to stay alive indoors.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Often, houseplants from tropical areas are understory plants, and because they grow in shady conditions naturally, they are often able to thrive in lower-light conditions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Keeping houseplants too dry can also be detrimental.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

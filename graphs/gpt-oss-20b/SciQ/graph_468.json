@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dead organisms are the source from which most fungi obtain organic compounds.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Inorganic material is what most fungi get organic compounds from.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Living organisms are the source from which most fungi obtain organic compounds.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carnivorous organisms are the source from which most fungi obtain organic compounds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fungi perform an essential role in the decomposition of organic matter",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fungi can also act as mycoparasites or antagonists of other fungi, such as Hypomyces chrysospermus, which grows on bolete mushrooms",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Prime decomposers are bacteria or fungi, though larger scavengers also play an important role in decomposition if the body is accessible to insects, mites and other animals.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "For instance, lignin is a component of wood, which is relatively resistant to decomposition and can in fact only be decomposed by certain fungi, such as the white-rot fungi.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

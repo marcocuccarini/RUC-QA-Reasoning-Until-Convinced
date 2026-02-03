@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Perennials are a type of plant that includes trees and shrubs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Biennial are trees and shrubs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Annuals are trees and shrubs that are examples of a type of plant.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Grasses are the type of plant that trees and shrubs are an example of.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They include a wide assortment of plant groups from non-flowering plants like ferns and liverworts to highly diverse flowering plants like orchids, grasses, and woody plants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Woody – plants with persistent above ground stem that survive from one growing season to the next, with primary and secondary growth, or growth in width protected by an outer cortex.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

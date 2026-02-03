@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. Shanghai",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. Singapore",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. Hong Kong",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In terms of tonnage of cargo handled, which is the world's largest port. R'dam",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2010, Shanghai port overtook the Port of Singapore to become the world's busiest container port.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Singapore's port handled a half million TEU less than Shanghai's in 2010.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

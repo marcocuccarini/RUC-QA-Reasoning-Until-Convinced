@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The genetic code is the relationship between a nucleotide codon and its corresponding amino acid.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "RNA is the relationship between a nucleotide codon and its corresponding amino acid.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "DNA is the relationship between a nucleotide codon and its corresponding amino acid.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Protein is the relationship between a nucleotide codon and its corresponding amino acid.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The codons encoding one amino acid may differ in any of their three positions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Genetic code is a set of rules used by living cells to translate information encoded within genetic material (DNA or RNA sequences of nucleotide triplets or codons) into proteins.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

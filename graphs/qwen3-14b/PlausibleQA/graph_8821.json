@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nationality was the painter Vincent Van Gogh. Belgian",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nationality was the painter Vincent Van Gogh. French",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nationality was the painter Vincent Van Gogh. German",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nationality was the painter Vincent Van Gogh. Dutc",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vincent Willem van Gogh was a Dutch Post-Impressionist painter",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vincent Willem van Gogh was born in Groot-Zundert, in the predominantly Catholic province of North Brabant in the Netherlands",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "April 18, 1775 saw Paul Revere (along with William Dawes) make his famous midnight ride. What was the stated profession of Mr. Revere. Silversmith",
+      "strength": 0.5999999717616569
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "April 18, 1775 saw Paul Revere (along with William Dawes) make his famous midnight ride. What was the stated profession of Mr. Revere. Engraver",
+      "strength": 0.7736521056293675
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "April 18, 1775 saw Paul Revere (along with William Dawes) make his famous midnight ride. What was the stated profession of Mr. Revere. Blacksmith",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "April 18, 1775 saw Paul Revere (along with William Dawes) make his famous midnight ride. What was the stated profession of Mr. Revere. Argyropaea",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paul Revere was an American silversmith.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Born in the North End of Boston, Revere eventually became a prosperous and prominent Bostonian, deriving his income from silversmithing and engraving.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Original copper engravings and other documents in collections of the Massachusetts State Archives.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Revere rolling mill – about the endangered original Revere copper works site in Canton, MA",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

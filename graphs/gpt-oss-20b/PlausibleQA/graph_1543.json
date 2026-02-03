@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the spiked stick or prod used for driving cattle called. Poking Stick",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the spiked stick or prod used for driving cattle called. Cattle Poke",
+      "strength": 0.5999999071782728
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the spiked stick or prod used for driving cattle called. Herding Rod",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the spiked stick or prod used for driving cattle called. Goad",
+      "strength": 0.5000967341380452
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The goad is a traditional farming implement, used to spur or guide livestock, usually oxen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is also known as the cattle prod.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A cattle prod is a handheld device commonly used to make cattle or other livestock move by striking or poking them.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A cattle prod, also called a stock prod or a hot stick, is a handheld device commonly used to make cattle or other livestock move by striking or poking them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

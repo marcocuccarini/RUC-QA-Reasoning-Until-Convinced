@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Admiral Sir John Jellicoe commanded the British fleet at the Battle of Jutland, the largest naval battle of World War I, against a fleet from which country. Germany",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Admiral Sir John Jellicoe commanded the British fleet at the Battle of Jutland, the largest naval battle of World War I, against a fleet from which country. Austria-Hungary",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Admiral Sir John Jellicoe commanded the British fleet at the Battle of Jutland, the largest naval battle of World War I, against a fleet from which country. Russia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Admiral Sir John Jellicoe commanded the British fleet at the Battle of Jutland, the largest naval battle of World War I, against a fleet from which country. Nimska",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Battle of Jutland (German: Skagerrakschlacht, lit. 'Battle of the Skagerrak') was a naval battle between Britain's Royal Navy Grand Fleet, under Admiral Sir John Jellicoe, and the Imperial German Navy's High Seas Fleet, under Vice-Admiral Reinhard Scheer, during the First World War.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The outcome ensured that the Royal Navy denied the German surface fleet access to the North Sea and the Atlantic for the remainder of the war.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

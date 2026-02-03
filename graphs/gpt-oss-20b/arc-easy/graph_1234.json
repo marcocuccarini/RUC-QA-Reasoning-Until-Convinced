@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The shape of the water remained the same in each container in the sea‑level experiment where 400 mL of water was placed in a beaker, a petri dish, an erlenmeyer flask, and a round‑bottom bowl, each heated on a hot plate at 110 °C, 95 °C, 60 °C, and 45 °C respectively.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The rate of evaporation is the characteristic of water that remained the same in each container in the experiment performed at sea level, where 400 mL of water was placed in a beaker (heated to 110 °C), a Petri dish (heated to 95 °C), an Erlenmeyer flask (heated to 60 °C), and a round bottom bowl (heated to 45 °C).",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The boiling point of water is the characteristic that remained the same in each of the 400 mL water containers (beaker, petri dish, Erlenmeyer flask, round bottom bowl) used at sea level with hot plates set to 110 °C, 95 °C, 60 °C, and 45 °C.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The amount of steam released per minute remained the same in each container when 400 mL of water was placed in a beaker (110 °C), a petri dish (95 °C), an Erlenmeyer flask (60 °C), and a round bottom bowl (45 °C) at sea level.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "water boils at 100°C (or with scientific precision: 99.97 °C (211.95 °F)) under standard pressure at sea level",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Evaporation is a surface phenomenon in which molecules located near the liquid's edge, not contained by enough liquid pressure on that side, escape into the surroundings as vapor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

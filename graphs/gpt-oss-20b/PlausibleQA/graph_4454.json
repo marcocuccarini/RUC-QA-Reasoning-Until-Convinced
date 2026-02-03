@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. Bachelor of Arts",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. Juris Doctor",
+      "strength": 0.7499025826412249
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. Master of Public Administration",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. MBA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Romney graduated from BYU in 1971 with a Bachelor of Arts degree in English and a 3.97 GPA.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He completed a JD–MBA program from Harvard.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mitt Romney is an HLS graduate.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

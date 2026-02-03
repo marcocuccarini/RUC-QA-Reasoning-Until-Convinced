@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did joe flacco attend college. University of Maryland",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did joe flacco attend college. Penn State University",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did joe flacco attend college. University of Pittsburgh",
+      "strength": 0.5999999641020304
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did joe flacco attend college. University of Delaware",
+      "strength": 0.6322468306669844
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He played college football for the Pittsburgh Panthers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He played college football for the Delaware Fightin' Blue Hens.",
+      "strength": 0.599963294541916
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Delaware Fightin' Blue Hens bio",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

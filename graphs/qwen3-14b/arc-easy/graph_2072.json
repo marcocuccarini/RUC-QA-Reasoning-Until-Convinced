@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The key is the feature Sal should look for on the map of Massachusetts to determine how many actual miles the inches measured from Boston to Salem represent.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Scale is the feature of the Massachusetts map that Sal should look at to convert the inches he measured from Boston to Salem into the actual miles those inches represent.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Legend is the feature of the Massachusetts map that Sal should examine to determine how many actual miles the measured inches from Boston to Salem represent.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Compass is the map feature Sal should look for to determine how many actual miles the inches from Boston to Salem represent.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The scale of a map is the ratio of a distance on the map to the corresponding distance on the ground.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "True ground distances are calculated by measuring the distance on the map and then multiplying by the inverse of the scale fraction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

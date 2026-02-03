@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The moon and Earth are the representations that a model must include to best demonstrate the cause of the phases of the moon, as investigated by science students.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The moon and the sun are the representations that a model should include to best demonstrate the cause of the phases of the moon, which science students investigated.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The moon, the sun, and Earth are the representations that would best demonstrate the cause of the phases of the moon in the model investigated by science students.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The moon, the sun, and Venus are the representations that the model should include to best demonstrate the cause of the phases of the moon, as investigated by science students.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The angle of the Sun in relation to the Moon determines how much of the Moon is illuminated.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because the Moon is tidally locked to Earth, the cycle of phases takes one lunar month and moves across the same side of the Moon, which always faces Earth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The gravitational attraction that Earth and the Moon (as well as the Sun) exert on each other manifests in a slightly greater attraction on the sides closest to each other, resulting in tidal forces.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

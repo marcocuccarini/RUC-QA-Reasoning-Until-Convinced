@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fast speed is the characteristic that best describes the sound wave Peggy heard, which had a frequency of 15,000 hertz within the human hearing range of 20‑20,000 hertz.",
+      "strength": 0.4310343012211436
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High frequency is the characteristic that best describes the sound wave Peggy heard, which was measured at 15,000 hertz within the human hearing range of 20–20,000 hertz.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Large amplitude is the characteristic that best describes the sound wave Peggy heard, measured at 15,000 hertz within the human hearing range of 20‑20,000 hertz.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Long wavelength is the characteristic that best describes the sound wave Peggy heard, which had a frequency of 15,000 hertz within the human hearing range of 20‑20,000 hertz.",
+      "strength": 0.27624292810525164
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In many media, such as air, the speed of sound is approximately independent of frequency, so the wavelength of the sound waves (distance between repetitions) is approximately inversely proportional to frequency.",
+      "strength": 0.4000000385008666
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Frequencies capable of being heard by humans are called audio or sonic. The range is typically considered to be between 20 Hz and 20,000 Hz.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The speed of sound has a weak dependence on frequency and pressure in dry air, deviating slightly from ideal behavior.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "What we experience as 'higher pitched' or 'lower pitched' sounds are pressure vibrations having a higher or lower number of cycles per second.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

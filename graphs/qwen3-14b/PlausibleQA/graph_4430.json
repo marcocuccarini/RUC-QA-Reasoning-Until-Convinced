@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rahere, an Anglo-Norman monk, founded which London hospital in 1123. St Thomas' Hospital",
+      "strength": 0.14049283836006804
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rahere, an Anglo-Norman monk, founded which London hospital in 1123. Guy's Hospital",
+      "strength": 0.3677570040648199
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rahere, an Anglo-Norman monk, founded which London hospital in 1123. University College Hospital",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rahere, an Anglo-Norman monk, founded which London hospital in 1123. Barts",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The hospital was founded in Southwark in 1106.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The hospital was described as ancient in 1215 and was named after St Thomas Becket – which suggests it may have been founded after 1173 when Becket was canonised.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rahere founded the Hospital of St Bartholomew in 1123.",
+      "strength": 0.5999617965637547
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Photograph of Rahere's tomb in the church of St Bartholomew-the-Great",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

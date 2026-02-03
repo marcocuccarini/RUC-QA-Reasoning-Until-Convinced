@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what countries are part of the baltic. Estonia",
+      "strength": 0.6322449335298111
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what countries are part of the baltic. Lithuania",
+      "strength": 0.5999625530424765
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what countries are part of the baltic. Poland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what countries are part of the baltic. Latvia",
+      "strength": 0.5999999668619974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Baltic states encompass Estonia, Latvia, and Lithuania.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After World War II, the term has been used to group the three countries: Estonia, Latvia, and Lithuania.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lithuania is one of three Baltic states.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the three Baltic states are Estonia, Latvia, and Lithuania.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

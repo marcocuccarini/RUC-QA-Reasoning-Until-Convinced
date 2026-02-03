@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Clots occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Toxins occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tumors occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lesions occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A thrombus (blood clot) usually forms around atherosclerotic plaques.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Arterial thrombosis follows rupture of atheroma (a fat-rich deposit in the blood vessel wall).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Embolisms, depending on their specific location, can cause more significant effects like strokes, heart attacks, or even death.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Arterial thrombosis resulting from hypertension or atherosclerosis can become mobile and the resulting emboli can occlude any artery or arteriole downstream of the thrombus formation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

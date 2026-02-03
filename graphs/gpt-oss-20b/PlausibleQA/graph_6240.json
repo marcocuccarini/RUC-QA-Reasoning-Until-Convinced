@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "According to the Gospel of St. John, what 'lay on the other side of the Brook of Hedron'. Olive Grove",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "According to the Gospel of St. John, what 'lay on the other side of the Brook of Hedron'. Tomb of Absalom",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "According to the Gospel of St. John, what 'lay on the other side of the Brook of Hedron'. Mount of Olives",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "According to the Gospel of St. John, what 'lay on the other side of the Brook of Hedron'. GARDEN OF GETHSEMENE",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John states he went to a garden near the Kidron Valley",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mark and Matthew record that Jesus went to 'a place called the oil press (Gethsemane)' and John states he went to a garden near the Kidron Valley",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

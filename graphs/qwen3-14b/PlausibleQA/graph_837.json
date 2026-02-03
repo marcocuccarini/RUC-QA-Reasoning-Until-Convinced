@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Europe",
+      "strength": 0.5999999437007768
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Africa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Europe and Africa",
+      "strength": 0.4000587285197913
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Asia",
+      "strength": 0.7499118509210894
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Turkey is mainly located in Anatolia in West Asia, with a relatively small part called East Thrace in Southeast Europe.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Turkey's European side includes around 10% of the population and covers 3% of the surface area.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Turkey's capital Ankara is located in Asia.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Istanbul spans both sides of the Bosphorus, making it a transcontinental city in both Europe and Asia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

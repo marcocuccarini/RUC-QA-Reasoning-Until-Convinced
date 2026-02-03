@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nervous and digestive are the two body systems that would most directly remove extra fluid from a person's lungs.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nervous and circulatory are the two body systems that would most directly remove extra fluid from a person's lungs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Respiratory and digestive are the two body systems that would most directly remove extra fluid from a person's lungs.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Respiratory and circulatory systems are the two body systems that most directly remove extra fluid from a person's lungs.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The lymphatic system, a subsystem of the circulatory system, returns excess fluid from tissues back to the circulatory system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The circulatory system includes the lymphatic system, which is essential for returning interstitial fluid to the bloodstream.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The moth populations went extinct in the areas of England where soot from factories had previously increased the percentage of dark‑colored moths, after the soot declined due to pollution laws.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The moth populations migrated south as soot from factories covering the trees in England decreased after pollution laws were enacted.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The percentage of light‑colored moths in the populations decreased in England’s moth species as soot from factories covered the trees in the mid‑1800s, then declined further as soot levels dropped in more recent times due to pollution laws.",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The percentage of dark‑colored moths in the populations decreased in these areas after soot from factories covered the trees in the mid‑1800s, and later declined again as soot levels fell due to pollution laws.",
+      "strength": 0.40000008741621107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "dark-coloured, or melanic, moths, carbonaria, flourished because they could hide on the darkened trees.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "with improved environmental standards, light-coloured peppered moths have again become common, and the dramatic change in the peppered moth's population has remained a subject of much interest and study.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Peppered Moth: The Proof of Darwinian Evolution.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

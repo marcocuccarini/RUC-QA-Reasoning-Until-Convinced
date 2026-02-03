@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Watering a garden is the activity most likely to add pollutants to the environment.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pulling weeds from a lawn is the activity most likely to add pollutants to the environment.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Installing a wooden fence is the activity most likely to add pollutants to the environment.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Burning leaves is the activity most likely to add pollutants to the environment.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In incomplete combustion, products of pyrolysis remain unburnt and contaminate the smoke with noxious particulate matter and gases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Partial oxidation of ethanol can produce harmful acetaldehyde, and carbon can produce toxic carbon monoxide.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

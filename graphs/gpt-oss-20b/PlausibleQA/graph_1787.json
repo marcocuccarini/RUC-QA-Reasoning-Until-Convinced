@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Maryland",
+      "strength": 0.1539073893770194
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Virginia",
+      "strength": 0.2500954298097798
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Delaware",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Washington",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Washington, D.C., is not part of any state, and is not one itself.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "District of Columbia (civil)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Washington, D.C., is a federal district under exclusive jurisdiction of the U.S. Congress.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Washington, D.C., is the capital city and federal district of the United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

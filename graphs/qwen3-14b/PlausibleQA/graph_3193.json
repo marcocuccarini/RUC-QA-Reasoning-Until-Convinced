@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If a chess player completes a move known as en passant, what pieces are involved. Knight",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If a chess player completes a move known as en passant, what pieces are involved. Bishop",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If a chess player completes a move known as en passant, what pieces are involved. Rook",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If a chess player completes a move known as en passant, what pieces are involved. Pawn",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Only pawns may capture or be captured en passant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The capturing pawn moves to the square that the enemy pawn passed over, as if the enemy pawn had advanced only one square.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

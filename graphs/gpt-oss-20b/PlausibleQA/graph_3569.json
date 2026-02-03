@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Bell Rock Lighthouse, said to be the oldest surviving offshore lighthouse in the world, lies off the coast of which European country. England",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Bell Rock Lighthouse, said to be the oldest surviving offshore lighthouse in the world, lies off the coast of which European country. Ireland",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Bell Rock Lighthouse, said to be the oldest surviving offshore lighthouse in the world, lies off the coast of which European country. France",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Bell Rock Lighthouse, said to be the oldest surviving offshore lighthouse in the world, lies off the coast of which European country. H-Alba",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bell Rock Lighthouse, off the coast of Angus, Scotland, is the world's oldest surviving sea-washed lighthouse.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The lighthouse was built between 1807 and 1810 by Robert Stevenson on the Bell Rock (also known as Inchcape) in the North Sea, 11 miles (18 km) east of the Firth of Tay.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bell Rock lighthouse is listed in the 'Lighthouses of Scotland and the Island of Man' guide.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

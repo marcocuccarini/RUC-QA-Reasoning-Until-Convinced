@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In London in 1788, the ‘Daily Universal Register’ was relaunched as which newspaper. The Daily Telegraph",
+      "strength": 0.19523056114085308
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In London in 1788, the ‘Daily Universal Register’ was relaunched as which newspaper. The Guardian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In London in 1788, the ‘Daily Universal Register’ was relaunched as which newspaper. The Observer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In London in 1788, the ‘Daily Universal Register’ was relaunched as which newspaper. Times2",
+      "strength": 0.4000000154975313
+    },
+    "A4": {
+      "type": "argument",
+      "text": "adopting its modern name on 1 January 1788.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Times was founded by publisher John Walter (1738–1812) on 1 January 1785 as The Daily Universal Register, with Walter in the role of editor.",
+      "strength": 0.7499409008703515
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Times was the first newspaper to bear that name, inspiring numerous other papers around the world.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Archive from 1785 to 2008 – full text and original layout, searchable",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Times (London, England) Collection at the Harry Ransom Center",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

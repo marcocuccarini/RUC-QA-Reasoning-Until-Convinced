@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fungi only is the taxonomic group in which the cell could be classified, because its ribosomes are smaller than those found in plants.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Archaea only are the taxonomic group in which a cell whose ribosomes are smaller than those found in plants could be classified.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacteria or archaea are the taxonomic groups in which a cell with ribosomes smaller than those found in plants could be classified.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bacteria or fungi are taxonomic groups in which a cell with ribosomes smaller than those found in plants could be classified.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prokaryotic ribosomes are around 20 nm in diameter, while eukaryotic ribosomes are between 25 and 30 nm in diameter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eukaryotic ribosomes are larger in size compared to prokaryotic ribosomes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

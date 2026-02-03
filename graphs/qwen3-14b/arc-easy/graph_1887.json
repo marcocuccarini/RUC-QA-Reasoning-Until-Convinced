@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Seaweed in an ocean is the population that would be harmed first by a long period of drought.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fish in a lake would be harmed first by a long period of drought.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plants in a pond would be harmed first by a long period of drought.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fish in a bay would be the population harmed first by a long period of drought.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Droughts can reduce water availability, while intense storms can lead to increased runoff and sedimentation, both detrimental to aquatic vegetation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Aquatic plants are integral to healthy aquatic ecosystems, but they face numerous threats from invasive species, nutrient pollution, climate change, and habitat degradation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

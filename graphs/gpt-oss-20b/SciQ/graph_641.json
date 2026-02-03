@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Specialization occurs when competing species evolve different adaptations.",
+      "strength": 0.7238204083754556
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Evolution occurs when competing species evolve different adaptations.",
+      "strength": 0.5999999071782728
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Urbanization occurs when competing species evolve different adaptations.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rate adaptation is the process that occurs when competing species evolve different adaptations.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "species that are better competitors will be specialists, whereas species that are better colonizers are more likely to be generalists.",
+      "strength": 0.40009682695977267
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When one species has even the slightest advantage over another, the one with the advantage will dominate in the long term. This leads either to the extinction of the weaker competitor or to an evolutionary or behavioral shift toward a different ecological niche.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Species can differentiate their niche via a competition-predation trade-off if one species is a better competitor when predators are absent, and the other is better when predators are present.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "As a result, species that produce such defenses are often poor competitors when predators are absent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

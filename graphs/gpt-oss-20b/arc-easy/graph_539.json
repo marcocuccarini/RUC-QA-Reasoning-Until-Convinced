@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Averaging the amount of rain that fell during a lightning storm is the best way to determine whether storms with lightning produce more rain than storms without lightning.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Counting the number of lightning strikes during a one‑hour period is the best way to answer a student’s question about whether storms with lightning produce more rain than storms without lightning.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Recording rainfall amounts in storms with and without lightning is the best way for a student to determine whether storms with lightning produce more rain than storms without lightning.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Calculating the number of fires that are caused by lightning strikes is the best way for a student to determine whether storms with lightning produce more rain than storms without lightning.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A rain gauge (also known as udometer, ombrometer, pluviometer and hyetometer) is an instrument used by meteorologists and hydrologists to gather and measure the amount of liquid precipitation in a predefined area, over a set period of time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tipping buckets also tend to underestimate the amount of rainfall, particularly in snowfall and heavy rainfall events.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Life Insurance",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Flood Insurance",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Health Insurance",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Fire Insurance",
+      "strength": 0.49511441931458994
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1680–81, with 11 associates, he founded an 'Insurance Office for Houses' which offered fire insurance for up to 5,000 households in London.",
+      "strength": 0.5999050903424904
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fires were a major danger in London at the time: the Great Fire destroyed more than 13,000 houses and displaced about 100,000 people, and another conflagration in 1678 damaged the Middle Temple, one of the Inns of Court.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1681, economist Nicholas Barbon and eleven associates established the first fire insurance company, the 'Insurance Office for Houses', at the back of the Royal Exchange to insure brick and frame homes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

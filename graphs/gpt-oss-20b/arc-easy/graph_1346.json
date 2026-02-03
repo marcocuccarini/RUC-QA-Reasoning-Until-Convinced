@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bolts are the best fasteners for fastening the sides of a wooden birdhouse.",
+      "strength": 0.22634596980680774
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hooks are the best fasteners to use to fasten the sides of a wooden birdhouse.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nails are the best fasteners to use for fastening the sides of a wooden birdhouse.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pins are the best fasteners to use to fasten the sides of a wooden birdhouse.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wood screw is a metal screw used to fix wood, with a sharp point and a tapered thread designed to cut its own thread into the wood.",
+      "strength": 0.5999716981983361
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wood screws are typically coated with zinc galvanization or black oxide to prevent corrosion.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For critical high-tensile-strength applications, low-grade bolts may fail, resulting in damage or injury.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

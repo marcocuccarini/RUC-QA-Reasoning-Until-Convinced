@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which monarch granted a royal charter to the British East India Company. James I",
+      "strength": 0.5999999193046673
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which monarch granted a royal charter to the British East India Company. Charles II",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which monarch granted a royal charter to the British East India Company. George III",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which monarch granted a royal charter to the British East India Company. QEI",
+      "strength": 0.5999999193046673
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1609, James I renewed the East India Company's charter for an indefinite period.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Queen granted her charter to the British East India Company in 1600.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "by a series of five charters, Charles granted the East India Company the rights to autonomous government of its territorial acquisitions, to mint money, to command fortresses and troops, to form alliances, to make war and peace, and to exercise both civil and criminal jurisdiction over its possessions in the Indies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

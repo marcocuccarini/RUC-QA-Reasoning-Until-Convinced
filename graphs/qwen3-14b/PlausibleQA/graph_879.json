@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the protease which is released in the stomach. Gastrin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the protease which is released in the stomach. Trypsin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the protease which is released in the stomach. Chymotrypsin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the protease which is released in the stomach. Pepsin",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pepsin is one of the main digestive enzymes in the digestive systems of humans and many other animals, where it helps digest the proteins in food.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pepsin's zymogen (proenzyme), pepsinogen, is released by the gastric chief cells in the stomach wall, and upon mixing with the hydrochloric acid of the gastric juice, pepsinogen activates to become pepsin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

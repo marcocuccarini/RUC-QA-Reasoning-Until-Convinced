@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "All fungi are multicellular heterotrophs.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "All fungi are single-celled heterotrophs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "All animals are multicellular heterotrophs, which is the true statement among the options.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "All animals are single‑celled heterotrophs is the true statement in the question “Which statement is true?”",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Animals are eukaryotic, multicellular, and aerobic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Animals ingest organic material and digest it internally.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

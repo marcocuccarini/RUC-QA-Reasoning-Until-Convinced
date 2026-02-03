@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is the gas B in the cycle in which a tree uses gas A to produce gas B, and an animal uses gas B to produce gas A.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen is the gas that a tree produces from gas A and that an animal uses to produce gas A in this cycle.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the gas B that a tree produces from gas A and that an animal uses to produce gas A in this cycle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon monoxide is gas B in this cycle, where a tree uses gas A to produce carbon monoxide and an animal uses carbon monoxide to produce gas A.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Photosynthesis releases oxygen into the atmosphere, while respiration, decay, and combustion remove it from the atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All eukaryotic organisms, including plants, animals, fungi, algae and most protists, need oxygen for cellular respiration, a process that extracts chemical energy by the reaction of oxygen with organic molecules derived from food and releases carbon dioxide as a waste product.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

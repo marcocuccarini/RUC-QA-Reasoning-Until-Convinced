@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oil seed rape belongs to which plant family. Brassicaceae",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oil seed rape belongs to which plant family. Asteraceae",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oil seed rape belongs to which plant family. Fabaceae",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oil seed rape belongs to which plant family. Mustard",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brassica napus (rapeseed oil) is a member of the Brassicaceae family.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Brassicaceae family is also known as the crucifers or the cabbage family, not the mustard family.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

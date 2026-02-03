@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun is a source that produces light from nuclear energy.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A stove burner produces light from nuclear energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is a source that produces light from nuclear energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A light bulb is a source that produces light from nuclear energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The core is the only region of the Sun that produces an appreciable amount of thermal energy through fusion; 99% of the Sun's power is generated in the innermost 24% of its radius, and almost no fusion occurs beyond 30% of the radius.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fusing four free protons (hydrogen nuclei) into a single alpha particle (helium nucleus) releases around 0.7% of the fused mass as energy, so the Sun releases energy at the mass–energy conversion rate of 4.26 billion kg/s (which requires 600 billion kg of hydrogen), for 384.6 yottawatts (3.846×1026 W), or 9.192×1010 megatons of TNT per second.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

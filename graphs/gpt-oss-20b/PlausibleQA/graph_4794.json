@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. All Roman citizens",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. Only landowners",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. Male citizens over 18",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. unknown",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Male citizens had the rights to vote (ius suffragi)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The optimo iure held the ius suffragii and ius honorum, the additional rights to vote and to hold office",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

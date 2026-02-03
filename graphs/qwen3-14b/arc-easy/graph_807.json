@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tension is the capacity for which steel is used for cables in suspension bridges.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Torsion is the capacity for steel that makes it suitable for cables in suspension bridges.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Compression is the property that makes steel suitable for cables in suspension bridges.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Contraction is the capacity of steel that makes it suitable for use as cables in suspension bridges.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The main cables must be anchored at each end of the bridge, since any load applied to the bridge is transformed into tension in these main cables.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The failure of a single eyebar was found to be the cause of the collapse of the Silver Bridge over the Ohio River.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

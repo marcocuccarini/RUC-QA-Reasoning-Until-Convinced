@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Trisomy 21 is the most common cause of Down syndrome.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Trisomy 22 is the most common cause of Down syndrome.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gametes 21 are the most common cause of Down syndrome.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chromosome 21 is the most common cause of Down syndrome.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common cause (about 92–95% of cases) is a complete extra copy of chromosome 21, resulting in trisomy 21.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Trisomy 21: 94% of the time Down syndrome is caused by an extra copy of chromosome 21 in all cells",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

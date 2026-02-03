@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Medium is what the speed of sound depends on.",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light is the factor that the speed of sound depends on.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Volume is the factor that the speed of sound depends on.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature is what the speed of sound depends on.",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The speed of sound is variable and depends on the properties of the substance through which the wave is travelling.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The speed of sound is proportional to the square root of the absolute temperature, giving an increase of about 0.6 m/s per degree Celsius.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Speed of sound depends on temperature, not air pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

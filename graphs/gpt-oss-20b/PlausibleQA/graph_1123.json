@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rebecca Front plays Detective Chief Superintendent Innocent in which TV series. Midsomer Murders",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rebecca Front plays Detective Chief Superintendent Innocent in which TV series. Foyle's War",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rebecca Front plays Detective Chief Superintendent Innocent in which TV series. Inspector Morse",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rebecca Front plays Detective Chief Superintendent Innocent in which TV series. LEWIS",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Midsomer Murders has featured two lead stars: from its premiere in 1997, John Nettles as Detective Chief Inspector (DCI) Tom Barnaby, until his retirement from the drama in February 2011; then Neil Dudgeon as DCI John Barnaby, Tom's younger cousin, since March 2011.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Between 2006 until 2014, Front had a recurring role as Chief Superintendent Jean Innocent on the detective drama series Lewis, the successor to Inspector Morse on ITV.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

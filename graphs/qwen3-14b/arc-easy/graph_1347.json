@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An atom is the smallest particle of matter that can be identified as an element.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A proton is the smallest particle of matter that can be identified as an element.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An electron is the smallest particle of matter that can be identified as an element.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A molecule is the smallest particle of matter that can be identified as an element.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The number of protons in an atom (which Rutherford called the 'atomic number') was found to be equal to the element's ordinal number on the periodic table and therefore provided a simple and clear-cut way of distinguishing the elements from each other.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

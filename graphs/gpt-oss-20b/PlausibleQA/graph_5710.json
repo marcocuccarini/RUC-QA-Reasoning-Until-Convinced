@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What European country has 227 inhabited islands. Greece",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What European country has 227 inhabited islands. Croatia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What European country has 227 inhabited islands. Norway",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What European country has 227 inhabited islands. Elás",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Greece features a vast number of islands—between 1,200 and 6,000, depending on the definition, 227 of which are inhabited.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The corresponding form in Ancient Greek and conservative formal Modern Greek (Katharevousa) is Ἑλλάς (Hellas, classical: [hel.lás], modern: [eˈlas]).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Both parents are the source from which a male puppy inherits traits.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its mother, only, is the source from which a male puppy inherits traits.",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its father, only, is the source from which a male puppy inherits traits.",
+      "strength": 0.8460569052668154
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Inheritance through the maternal line (in case of mitochondrial DNA loci)",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Inheritance through the paternal line (in case of Y-chromosomal loci)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In humans and many other animals, the Y chromosome contains the gene that triggers the development of the specifically male characteristics.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Nettie Stevens discovered that females only had the X chromosome and males had both X and Y chromosomes, concluding that sex is a chromosomal factor determined by the male.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

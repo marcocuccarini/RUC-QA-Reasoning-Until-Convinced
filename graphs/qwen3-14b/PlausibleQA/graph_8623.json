@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Of which US state is Springfield the capital. Massachusetts",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Of which US state is Springfield the capital. Ohio",
+      "strength": 0.2500954907572107
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Of which US state is Springfield the capital. Tennessee",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Of which US state is Springfield the capital. Ill.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Its capital city is Springfield in the center of the state",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Springfield is the capital city of the U.S. state of Illinois.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As the state capital, the government of Illinois is based in Springfield.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

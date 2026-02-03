@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Carnegie family fortune was built around Andrew Carnegie’s success in manufacture in which industry. Coal",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Carnegie family fortune was built around Andrew Carnegie’s success in manufacture in which industry. Railroads",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Carnegie family fortune was built around Andrew Carnegie’s success in manufacture in which industry. Oil",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Carnegie family fortune was built around Andrew Carnegie’s success in manufacture in which industry. Steel",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carnegie made his fortune in the steel industry, controlling the most extensive integrated iron and steel operations ever owned by an individual in the United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Carnegie’s success was also due to his relationship with the railroad industries, which not only relied on steel for track, but were also making money from steel transport.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Carnegie Steel Company was sold in 1901 to U.S. Steel, a newly formed organization set up by J. P. Morgan. It sold at roughly $492 million ($18.6 billion+ today), of which $226 million ($8.5 billion+ today) went to Carnegie himself.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Carnegie made major technological innovations in the 1880s, especially the installation of the open hearth furnace system at Homestead in 1886. It now became possible to make steel suitable for structural beams and, with the advanced work of George Lauder in arms and armament, for armor plate for the US Navy and the militaries of other governments, which paid far higher prices for the premium product.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

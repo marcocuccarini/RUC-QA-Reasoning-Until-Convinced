@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It becomes warmer and forms clouds as a moist air mass moves upward in the atmosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It becomes cooler and forms clouds as a moist air mass moves upward in the atmosphere.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its temperature remains the same as a moist air mass moves upward in the atmosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Its temperature varies greatly when a moist air mass moves upward in the atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "With further decrease in temperature the water vapor in excess of the equilibrium amount condenses, forming cloud, and releasing heat",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Before saturation, the rising air follows the dry adiabatic lapse rate",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

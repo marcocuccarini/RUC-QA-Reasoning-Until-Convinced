@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did response to state of the union start. 1790",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did response to state of the union start. 1820",
+      "strength": 0.2500974173587746
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did response to state of the union start. 1860",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did response to state of the union start. 1966",
+      "strength": 0.4000000597805733
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On November 22, Adams delivered his fourth State of the Union Address to a joint session of Congress.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This would be the last annual message any president would personally deliver to Congress for the next 113 years.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "January 8 – President of the U.S. George Washington gives the first State of the Union address, in New York City.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

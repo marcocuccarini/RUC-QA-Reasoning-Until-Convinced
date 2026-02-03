@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who became head coach of Sunderland in March 2015. Sam Allardyce",
+      "strength": 0.40000008741621107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who became head coach of Sunderland in March 2015. David Moyes",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who became head coach of Sunderland in March 2015. Tony Pulis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who became head coach of Sunderland in March 2015. Dick Advocaat",
+      "strength": 0.4999088992196018
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Allardyce left West Ham on 24 May 2015, the final day of the season, after his contract was not renewed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Allardyce was named the new Sunderland manager on 9 October 2015, replacing Dick Advocaat.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "veteran Dutchman Dick Advocaat was appointed, saving the club from relegation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

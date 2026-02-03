@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mercury goes around the Sun every 88 days describes rotation.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon going around Earth every 28 days is a description of rotation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth orbits the Sun about every 365 days describes rotation.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth makes one turn on its axis every 24 hours, which describes rotation.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the International System of Quantities (ISQ), rotation (symbol N) is a physical quantity defined as number of revolutions, for example, of a rotating body about a given axis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The turn (symbol tr or pla) is a unit of plane angle measurement that is the measure of a complete angle—the angle subtended by a complete circle at its center.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The speed at any given latitude can be calculated by multiplying the equatorial speed by the cosine of the latitude: at the equator, the speed is about 1,670 kilometres per hour (1,040 mph), calculated by dividing the Earth's equatorial circumference (approximately 40,075 kilometres (24,901 mi)) by the length of a sidereal day (approximately 23.93 hours).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

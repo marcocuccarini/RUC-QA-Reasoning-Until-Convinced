@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1900 Summer Olympics. Athens",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1900 Summer Olympics. London",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1900 Summer Olympics. Berlin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which city hosted the 1900 Summer Olympics. Paříž",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1900 Summer Olympics (French: Jeux olympiques d'été de 1900), today officially known as the Games of the II Olympiad (Jeux de la IIe olympiade) and also known as Paris 1900, were an international multi-sport event that took place in Paris, France, from 14 May to 28 October 1900.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The host nation of France fielded 72% of all athletes (720 of the 997) and won the most gold, silver and bronze medal placings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

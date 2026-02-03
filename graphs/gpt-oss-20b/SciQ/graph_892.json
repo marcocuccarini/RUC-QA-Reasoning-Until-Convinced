@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Visible light is the only light that people can see.",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Spectrum light is the only light that people can see.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Infrared light is the only light that people can see.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "UV light is the only light that people can see.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Under ideal laboratory conditions, people can see infrared up to at least 1,050 nm; children and young adults may perceive ultraviolet wavelengths down to about 310–313 nm.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Visual perception detects light (photons) in the visible spectrum reflected by objects in the environment or emitted by light sources.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The visible range of light is defined by what is readily perceptible to humans, though the visual perception of non-humans often extends beyond the visual spectrum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the Japanese art of paper-folding called. Kamizuki",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the Japanese art of paper-folding called. Origata",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the Japanese art of paper-folding called. Kirikami",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the Japanese art of paper-folding called. 折紙",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Origami (折り紙) is the Japanese art of paper folding.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term 'origata' is one of the old terms for origami.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The paper folded vertically is called 'tategami' (竪紙), while the paper folded horizontally is called 'origami', and origami has a lower status than tategami.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

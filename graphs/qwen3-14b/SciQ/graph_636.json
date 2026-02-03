@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lymphocytes are the type of cells in which B cells are produced in the body.",
+      "strength": 0.08256544021969543
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Keratinocytes are where B cells are produced in the body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tumors are where B cells are produced in the body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lungs are where B cells are produced in the body.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In mammals B cells mature in the bone marrow, which is at the core of most bones.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "B cells develop from hematopoietic stem cells (HSCs) that originate from bone marrow.",
+      "strength": 0.7499999526781811
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In children, haematopoiesis occurs in the marrow of the long bones such as the femur and tibia.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Haematopoietic stem cells (HSCs) reside in the medulla of the bone (bone marrow) and have the unique ability to give rise to all of the different mature blood cell types and tissues.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "In birds, B cells mature in the bursa of Fabricius, a lymphoid organ where they were first discovered by Chang and Glick, (B for bursa) and not from bone marrow as commonly believed.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "All lymphocytes originate, during this process, from a common lymphoid progenitor before differentiating into their distinct lymphocyte types.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

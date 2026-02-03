@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They lack genetic material is a property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They lack a mechanism of motility is the property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They lack internal membrane-bound organelles, a property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They lack a need for proteins in their life functions is a property that supports the hypothesis that eukaryotic mitochondria were once prokaryotic organisms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The genome in a prokaryote is held within a DNA/protein complex in the cytosol called the nucleoid, which lacks a nuclear envelope.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prokaryotes lack mitochondria and chloroplasts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

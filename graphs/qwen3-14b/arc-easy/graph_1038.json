@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The location of the nearest ocean is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The average annual rainfall is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The location of the nearest mountain is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The average winter temperature is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The original source of almost all fresh water is precipitation from the atmosphere, in the form of mist, rain and snow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In coastal areas, fresh water may contain significant concentrations of salts due to wind lifting seawater into clouds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

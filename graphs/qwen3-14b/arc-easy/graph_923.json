@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Abnormal cell division is most often the result of cancer.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Natural selection is the most common cause of cancer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacterial infection is most often the result of cancer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Biological adaptation is most often the result of cancer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The proportion of cells that are in active cell division (versus quiescent cells in G0 phase) in tumors is much higher than that in normal tissue.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many types of cancer are caused by mutations that allow the cells to speed through the various checkpoints or even skip them altogether, going from the S to M to S phase almost consecutively.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

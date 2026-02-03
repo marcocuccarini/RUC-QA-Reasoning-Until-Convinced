@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the Star Wars series of films what is the name of the slug-like alien who had a bounty on Han Solo, who owed him money for dumping an illegal cargo. Jabba the Hutt",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the Star Wars series of films what is the name of the slug-like alien who had a bounty on Han Solo, who owed him money for dumping an illegal cargo. Watto",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the Star Wars series of films what is the name of the slug-like alien who had a bounty on Han Solo, who owed him money for dumping an illegal cargo. Greedo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the Star Wars series of films what is the name of the slug-like alien who had a bounty on Han Solo, who owed him money for dumping an illegal cargo. Ghoel",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Watto is a Toydarian, a slug-like alien species.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Watto is a mean-tempered, greedy Toydarian who owns a second-hand goods store in Mos Espa on Tatooine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

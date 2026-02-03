@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Beers called Budweiser are named after a city of which modern nation. Germany",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Beers called Budweiser are named after a city of which modern nation. Austria",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Beers called Budweiser are named after a city of which modern nation. Poland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Beers called Budweiser are named after a city of which modern nation. ČR",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Budweiser Budvar Brewery is located in České Budějovice, Czech Republic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Beer has been brewed in Budweis, Bohemia (now České Budějovice, Czech Republic) since 1265.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

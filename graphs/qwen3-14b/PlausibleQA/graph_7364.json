@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The ‘Ffestiniog Railway’ in Wales runs from Blaenau Ffestiniog to which harbour town. Porthmadog",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ‘Ffestiniog Railway’ in Wales runs from Blaenau Ffestiniog to which harbour town. Caernarfon",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The ‘Ffestiniog Railway’ in Wales runs from Blaenau Ffestiniog to which harbour town. Conwy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The ‘Ffestiniog Railway’ in Wales runs from Blaenau Ffestiniog to which harbour town. Portmadoc",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The railway is about 13+1⁄2 miles (21.7 km) long and runs from the harbour at Porthmadog to the slate mining town of Blaenau Ffestiniog",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The two railways share the same track gauge and meet at Porthmadog station, with occasional trains working the entire 40-mile (64 km) route from Blaenau Ffestiniog to Caernarfon",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

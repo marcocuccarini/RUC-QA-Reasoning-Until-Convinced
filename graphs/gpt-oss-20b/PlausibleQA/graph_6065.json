@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The first was published in 195. Whose series of five novels featured the conman murderer 'Tom Ripley'. Patricia Highsmith",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The first was published in 195. Whose series of five novels featured the conman murderer 'Tom Ripley'. Agatha Christie",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The first was published in 195. Whose series of five novels featured the conman murderer 'Tom Ripley'. Raymond Chandler",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The first was published in 195. Whose series of five novels featured the conman murderer 'Tom Ripley'. Mary Plangman",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Talented Mr. Ripley was published in December 1955 to favorable reviews in the New York Times Book Review and The New Yorker, their critics praising Highsmith's convincing portrait of a psychopath.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Highsmith was the author of The Talented Mr. Ripley.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

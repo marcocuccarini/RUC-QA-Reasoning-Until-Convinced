@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the largest city and capital of Madeira. Lisbon",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the largest city and capital of Madeira. Porto",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the largest city and capital of Madeira. Ponta Delgada",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the largest city and capital of Madeira. Funchal",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Funchal is the largest city and capital of Madeira.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lisbon is not the largest city or capital of Madeira.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Porto is not the largest city or capital of Madeira.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Ponta Delgada is not the largest city or capital of Madeira.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US state lends its name to a baked pudding, made with ice cream, sponge and meringue. US-AL",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US state lends its name to a baked pudding, made with ice cream, sponge and meringue. US-CA",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US state lends its name to a baked pudding, made with ice cream, sponge and meringue. US-FL",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US state lends its name to a baked pudding, made with ice cream, sponge and meringue. US-AK",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Baked Alaska, also known as Bombe Alaska, omelette norvégienne, omelette surprise, or omelette sibérienne depending on the country, is a dessert consisting of ice cream and cake topped with browned meringue.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The name 'baked Alaska' was supposedly coined in 1876 at Delmonico's, a restaurant in New York City, to honor the acquisition by the United States of Alaska from the Russian Empire in March 1867.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

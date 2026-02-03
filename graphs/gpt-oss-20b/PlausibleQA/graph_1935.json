@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "author of the hymn great is thy faithfulness. Fanny Crosby",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "author of the hymn great is thy faithfulness. Charles Wesley",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "author of the hymn great is thy faithfulness. Isaac Watts",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "author of the hymn great is thy faithfulness. Thomas Chisholm",
+      "strength": 0.49990827176398317
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thomas Chisholm was a Canadian physician and politician.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Thomas Chisholm was a lecturer in the Faculty of Medicine in the University of Western Ontario in London, Ontario.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Great Is Thy Faithfulness is a popular Christian hymn written by Thomas Chisholm (1866–1960) with music composed by William M. Runyan (1870–1957) in Baldwin City, Kansas, U.S.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Chisholm wrote the poem in 1923 about God's faithfulness over his lifetime.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what other movies has ryan gosling been in. La La Land",
+      "strength": 0.400000000085493
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what other movies has ryan gosling been in. The Notebook",
+      "strength": 0.49999991090335777
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what other movies has ryan gosling been in. Drive",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what other movies has ryan gosling been in. Stay",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The film marked the third collaboration between Gosling and Stone, following Crazy, Stupid, Love (2011) and Gangster Squad (2013).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Emma Stone plays Mia, an aspiring actress in Los Angeles.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Notebook is a 2004 American romantic drama film directed by Nick Cassavetes, from a screenplay by Jeremy Leven and Jan Sardi, and based on the 1996 novel by Nicholas Sparks. The film stars Ryan Gosling and Rachel McAdams as a young couple who fall in love in the 1940s.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Stay stars Ryan Gosling",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

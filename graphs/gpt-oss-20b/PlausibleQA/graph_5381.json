@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when were 7 books removed from the bible. 325 AD",
+      "strength": 0.2763349140827113
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when were 7 books removed from the bible. 393 AD",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when were 7 books removed from the bible. 1204 AD",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when were 7 books removed from the bible. 1546",
+      "strength": 0.24999994311327875
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The council re-affirmed the traditional Catholic Canon of biblical books identical to the canon of Scripture issued by the Council of Rome under Pope Damasus in 382.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The canon was issued by the Council of Rome under Pope Damasus in 382.",
+      "strength": 0.40000000002353375
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the 16th century, Martin Luther removed Hebrews, James, Jude, and the Book of Revelation from the New Testament.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In response to this challenge, after the death of Martin Luther (February 8, 1546) the ecumenical Council of Trent officially (\"infallibly\") declared these books (called \"deuterocanonical\" by Catholics) to be part of the canon in April, 1546 A.D.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The wider Christian canon accepted by Augustine became the more established canon in the western Church after being promulgated for use in the Easter Letter of Athanasius (circa 372 A.D.), the Synod of Rome (382 A.D., but its Decretum Gelasianum is generally considered to be a much later addition) and the local councils of Carthage and Hippo in north Africa (391 and 393 A.D).",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "3 Esdras and 4 Esdras were declared apocryphal by the Council of Trent.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "There is no record of any discussion of the biblical canon at the council.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

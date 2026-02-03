@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which unit of the Roman army was one tenth of a legion. Maniple",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which unit of the Roman army was one tenth of a legion. Centuria",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which unit of the Roman army was one tenth of a legion. Turma",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which unit of the Roman army was one tenth of a legion. Cohort",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During much of the republican era, a legion was divided into three lines, each of ten maniples.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the late Republic and much of the imperial period (from about 100 BC), a legion was divided into ten cohorts.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Maniple (military unit), a division of a Roman legion",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

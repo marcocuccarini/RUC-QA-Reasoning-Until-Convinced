@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. France",
+      "strength": 0.14053263675106667
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. Netherlands",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. Switzerland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "La Brabanconne is the national anthem of which country. Beljum",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "La Brabançonne is the national anthem of Belgium.",
+      "strength": 0.5999999717616569
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Belgium: La Brabançonne – Audio of the national anthem of Belgium, with information and lyrics (archive link)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Belgium National Anthem instrumental File MIDI (5ko)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Belgian national anthem was written in September 1830, during the Belgian Revolution.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Brabançonne is also a monument (1930) by the sculptor Charles Samuel on the Surlet de Chokier square in Brussels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

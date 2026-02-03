@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The infected animals do not show symptoms, which explains why diseases transmitted through their bites are not considered contagious diseases.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The person in direct contact is the only one infected in diseases transmitted through the bites of infected animals, which is why they are not considered contagious diseases.",
+      "strength": 0.3999999532178125
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Humans do not become sick from animal diseases, which is why diseases transmitted through bites of infected animals are not considered contagious.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The diseases are treatable with antibiotics is the reason why diseases transmitted through the bites of infected animals are not considered contagious diseases.",
+      "strength": 0.5999028990364653
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Secondary transmission encompasses a category of diseases of animal origin in which the actual transmission to humans is a rare event but, once it has occurred, human-to-human transmission maintains the infection cycle for some period of time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Animal populations are the principal reservoir of the pathogen and horizontal infection in humans is rare.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "treatment is almost never effective and mortality is over 99%",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "no such cases have ever been documented",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The advent of antibiotics improved the outcome of bite wound infections.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Antibiotics to prevent infection are recommended for dog and cat bites of the hand, and human bites if they are more than superficial.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

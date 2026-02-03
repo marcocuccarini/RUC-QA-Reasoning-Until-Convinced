@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Ottawa Senators",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Toronto Maple Leafs",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Detroit Red Wings",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what team does mike fisher play for. Nashville Predators",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Michael Andrew Fisher played for the Ottawa Senators in the National Hockey League (NHL).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fisher was traded to the Nashville Predators in exchange for the Predators' 2011 first round draft pick",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Murray started his overhaul with the trading of Mike Fisher to the Nashville Predators.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

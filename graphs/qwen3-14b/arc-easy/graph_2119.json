@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lake is the type of ecosystem that has the greatest variation in temperature from its top to its bottom.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pond ecosystems exhibit the greatest variation in temperature from their top to bottom.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ocean is the ecosystem that has the greatest variation in temperature from its top to its bottom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Estuary is the type of ecosystem that has the greatest variation in temperature from its top to its bottom.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Due to the unusual relationship between water's temperature and its density, lakes form layers called thermoclines, layers of drastically varying temperature relative to depth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Based upon their thermal stratification, lakes are classified as either holomictic, with a uniform temperature and density from top to bottom at a given time of year, or meromictic, with layers of water of different temperature and density that do not intermix.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

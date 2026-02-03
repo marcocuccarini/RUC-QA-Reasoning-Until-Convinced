@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many squares does a Rubik’s Cube have on each side. 4",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many squares does a Rubik’s Cube have on each side. 16",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many squares does a Rubik’s Cube have on each side. 1",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many squares does a Rubik’s Cube have on each side. 9",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "each of the six faces was covered by nine stickers",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the original (3×3×3) Rubik's Cube has eight corners and twelve edges",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

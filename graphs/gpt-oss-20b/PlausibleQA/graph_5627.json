@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which team has played in 40 of the 105 Baseball World Series and won 27 World Series championships (between 1923 and 2009), the most of any Major League franchise. Boston Red Sox",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which team has played in 40 of the 105 Baseball World Series and won 27 World Series championships (between 1923 and 2009), the most of any Major League franchise. Los Angeles Dodgers",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which team has played in 40 of the 105 Baseball World Series and won 27 World Series championships (between 1923 and 2009), the most of any Major League franchise. San Francisco Giants",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which team has played in 40 of the 105 Baseball World Series and won 27 World Series championships (between 1923 and 2009), the most of any Major League franchise. NYY",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Yankees have won a record 27 World Series championships.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Dodgers are second in total World Series appearances with 22.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

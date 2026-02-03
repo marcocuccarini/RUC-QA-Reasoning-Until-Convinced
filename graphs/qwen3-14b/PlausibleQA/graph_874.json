@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mark David Chapman was scheduled to appear before the New York State parole board next week for his 6th attempt at getting out of prison for the 1980 murder of whom. John Hinckley",
+      "strength": 0.36764711120473303
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mark David Chapman was scheduled to appear before the New York State parole board next week for his 6th attempt at getting out of prison for the 1980 murder of whom. Elvis Presley",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mark David Chapman was scheduled to appear before the New York State parole board next week for his 6th attempt at getting out of prison for the 1980 murder of whom. David Bowie",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mark David Chapman was scheduled to appear before the New York State parole board next week for his 6th attempt at getting out of prison for the 1980 murder of whom. Lennon",
+      "strength": 0.6798926598012616
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mark David Chapman murdered John Lennon in New York City on December 8, 1980.",
+      "strength": 0.7499627224722807
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chapman was denied parole fourteen times since becoming eligible in 2000.",
+      "strength": 0.599999990600272
+    },
+    "A6": {
+      "type": "argument",
+      "text": "“Mark David Chapman, The Catcher in the Rye, and the Killing of John Lennon” by John W. Whitehead, 2000",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "As of September 2025, Chapman has been denied parole 14 times.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "He was shot and killed by Mark David Chapman, three weeks after the album's release.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

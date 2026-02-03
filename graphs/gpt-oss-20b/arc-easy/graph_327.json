@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon reflects light from other planets is why the Moon is visible from Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon reflects light from the Sun, which makes it visible from Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Light is produced by the Moon, which is why the Moon is visible from Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Light from Earth illuminates the Moon, which explains why the Moon is visible from Earth.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Moon also exhibits retro-reflection, scattering light back toward its source and creating a uniform brightness across its disc without significant limb darkening.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon is the brightest celestial object in Earth's night sky because of its large apparent size, while the reflectance (albedo) of its surface is comparable to that of asphalt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

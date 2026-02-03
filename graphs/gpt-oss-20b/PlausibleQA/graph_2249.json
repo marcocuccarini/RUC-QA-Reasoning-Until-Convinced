@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "creating appropriation bills falls under which power of congress. Regulating Commerce",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "creating appropriation bills falls under which power of congress. Providing for the Common Defense",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "creating appropriation bills falls under which power of congress. Declaring War",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "creating appropriation bills falls under which power of congress. raising revenue",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Accordingly, any bill may originate in either house of Congress, except for a revenue bill, which may originate only in the House of Representatives.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Congress may not, by revenue or commerce legislation, give preference to ports of one state over those of another; neither may it require ships from one state to pay duties in another.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

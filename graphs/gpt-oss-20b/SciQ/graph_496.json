@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "mRNA is what leaves the nucleus after exons are cut out.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The gene leaves the nucleus after exons are cut out.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "DNA is what leaves the nucleus after exons are cut out.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "RNA is what leaves the nucleus after exons are cut out.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Once processed, the mature mRNA is exported from the nucleus to the cytoplasm for translation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because eukaryotic transcription and translation is compartmentally separated, eukaryotic mRNAs must be exported from the nucleus to the cytoplasm—a process that may be regulated by different signaling pathways.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "once mature mRNA is generated, it is transported to the cytoplasm for translation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

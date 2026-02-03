@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun is losing mass and hydrogen as a result of transforming matter into energy through nuclear fusion.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun is losing volume and hydrogen, inferred from the fact that it transforms matter into energy through nuclear fusion.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Sun is losing mass and helium because it transforms matter into energy through nuclear fusion.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Sun is losing volume and helium because it transforms matter into energy through nuclear fusion.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Every second, the Sun's core fuses about 600 billion kilograms (kg) of hydrogen into helium and converts 4 billion kilograms of matter into energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The proportion of helium within the core has increased from about 24% to about 60% due to fusion.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

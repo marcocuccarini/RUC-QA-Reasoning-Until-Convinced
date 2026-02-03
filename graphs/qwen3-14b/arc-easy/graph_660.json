@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "4 light-years is the most accurate measurement of the distance between the Sun and its nearest neighboring star.",
+      "strength": 0.25000043137228023
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "400 light-years is the most accurate measurement for describing the distance between the Sun and its nearest neighboring star.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "4 billion kilometers is the most accurate measurement of the distance between the Sun and its nearest neighboring star.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "400 billion kilometers is the most accurate way to describe the distance between the Sun and its nearest neighboring star.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Proxima Centauri is located 4.25 light-years (1.3 parsecs) away from the Sun.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Based on a parallax of 768.0665±0.0499 mas, published in 2020 in Gaia Data Release  למה, Proxima Centauri is 4.2465 light-years (1.3020 pc; 268,550 AU) from the Sun.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The closest system is Alpha Centauri, with Proxima Centauri as the closest star in that system, at 4.2465 light-years from Earth.",
+      "strength": 0.42392233839662125
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A6",
+      "relation": "attack"
+    }
+  ]
+}

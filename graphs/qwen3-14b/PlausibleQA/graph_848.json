@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the 19th century novel ‘Anna Karenina’. Fyodor Dostoevsky",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the 19th century novel ‘Anna Karenina’. Gustave Flaubert",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the 19th century novel ‘Anna Karenina’. Jane Austen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the 19th century novel ‘Anna Karenina’. Tolstoy",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Anna Karenina (Russian: Анна Каренина, IPA: [ˈanːə kɐˈrʲenʲɪnə]) is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tolstoy called it his first true novel.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Confederatio Helvetica was the former name of which modern-day country. Austria",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Confederatio Helvetica was the former name of which modern-day country. Germany",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Confederatio Helvetica was the former name of which modern-day country. Italy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Confederatio Helvetica was the former name of which modern-day country. Suiza",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Latin name Confoederatio Helvetica was introduced after the formation of the federal state in 1848, harking back to the Napoleonic Helvetic Republic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ISO banking code 'CHF' for the Swiss franc, Swiss postage stamps ('HELVETIA'), and the country's top-level domain '.ch' are all derived from the Latin name Confoederatio Helvetica.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

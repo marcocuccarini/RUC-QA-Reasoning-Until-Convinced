@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pneumonia caused by microorganisms is a health condition that is an infectious disease.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Heart problem caused by a high-fat diet is a health condition that is not an infectious disease.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lung cancer caused by smoking is not an infectious disease.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eye damage caused by ultraviolet light is the health condition that is an infectious disease.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pneumonia is due to infections caused primarily by bacteria or viruses and less commonly by fungi and parasites.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mixed infections with both viruses and bacteria may occur in roughly 45% of infections in children and 15% of infections in adults.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A Chimera",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A Sphinx",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A Griffin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A manticore",
+      "strength": 0.40000008741621107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The manticore has the tail of a scorpion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Chimera's head is a goat, not a man.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which national team introduced ‘Total Football’ at the 1974 World Cup in Germany. Brazil",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which national team introduced ‘Total Football’ at the 1974 World Cup in Germany. West Germany",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which national team introduced ‘Total Football’ at the 1974 World Cup in Germany. Argentina",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which national team introduced ‘Total Football’ at the 1974 World Cup in Germany. Holland/Netherlands",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During the 1970s, the team adopted the Total Football strategy pioneered by Ajax, and led by playmaker Johan Cruyff and national team head coach Rinus Michels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The only team I've seen that did things differently was Holland at the 1974 World Cup in West Germany.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

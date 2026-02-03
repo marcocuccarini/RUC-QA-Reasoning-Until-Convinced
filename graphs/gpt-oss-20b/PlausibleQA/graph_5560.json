@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. Dolly Parton",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. Emmylou Harris",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. Alison Krauss's bandmate",
+      "strength": 0.1952194769930582
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. AKUS",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Alison Krauss & Union Station is an American bluegrass and country band associated with singer Alison Krauss.",
+      "strength": 0.7499475837741217
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Alison Krauss had signed to Rounder Records, and at age 16 released her 1987 debut solo album Too Late to Cry.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Two Highways (1989)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Paper Airplane (2011)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

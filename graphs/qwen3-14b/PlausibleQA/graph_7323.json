@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the family home of Cavendish's (Dukes of Devonshire). Hardwick Hall",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the family home of Cavendish's (Dukes of Devonshire). Bolton Abbey",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the family home of Cavendish's (Dukes of Devonshire). Castle Howard",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the family home of Cavendish's (Dukes of Devonshire). Chatsworth",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chatsworth House is a stately home in the Derbyshire Dales... it has belonged to the Cavendish family since 1549.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The family occupies rooms on the ground and first floors of the south front... the present (12th) Duke and Duchess live at Chatsworth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

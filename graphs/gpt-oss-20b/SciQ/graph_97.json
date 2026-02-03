@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solvent is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Yeast is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pigment is added to a measured portion of a more concentrated stock solution to achieve a particular concentration.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If both solute and solvent exist in equal quantities (such as in a 50% ethanol, 50% water solution), the concepts of 'solute' and 'solvent' become less relevant, but the substance that is more often used as a solvent is normally designated as the solvent (in this example, water).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The solubility of liquids in liquids is generally less temperature-sensitive than that of solids or gases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

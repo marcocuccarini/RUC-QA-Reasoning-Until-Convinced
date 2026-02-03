@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The international network for banking communications is known by its acronym. IBAN",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The international network for banking communications is known by its acronym. SEPA",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The international network for banking communications is known by its acronym. BACS",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The international network for banking communications is known by its acronym. SWIFT",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Society for Worldwide Interbank Financial Telecommunication (SWIFT) is a cooperative established in 1973 in Belgium",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "SWIFT provides the main messaging network through which international payments are initiated",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

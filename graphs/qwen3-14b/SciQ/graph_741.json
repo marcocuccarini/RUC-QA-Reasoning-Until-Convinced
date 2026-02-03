@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It expands when water freezes.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Changes to gas is what happens to water when it freezes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water shrinks when it freezes.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Changes volume is what happens to water when it freezes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When water freezes, it increases in volume (about 9% for fresh water).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An unusual property of water is that its solid form—ice frozen at atmospheric pressure—is approximately 8.3% less dense than its liquid form; this is equivalent to a volumetric expansion of 9%スタッフ.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

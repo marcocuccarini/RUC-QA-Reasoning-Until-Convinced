@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cools it is what happens to a surface when the evaporative loss of the most energetic water molecules occurs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Heats it is the result of the evaporative loss of the most energetic water molecules from a surface.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vents it is what happens to a surface when the evaporative loss of the most energetic water molecules occurs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Charges it is what the evaporative loss of the most energetic water molecules does to a surface.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Evaporative cooling therefore causes a drop in the temperature of air proportional to the sensible heat drop and an increase in humidity proportional to the latent heat gain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The temperature of dry air can be dropped significantly through the phase transition of liquid water to water vapor (evaporation).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

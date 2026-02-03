@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To which group of primates do Aye Ayes belong. Tarsier",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To which group of primates do Aye Ayes belong. Lorises",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To which group of primates do Aye Ayes belong. Bushbabies",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To which group of primates do Aye Ayes belong. Lemur",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The aye-aye (genus Daubentonia) has been classified as a specialized indriid, a sister group to all strepsirrhines.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The aye-aye was placed in its own infraorder, Chiromyiformes, while the rest of the lemurs were placed in Lemuriformes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

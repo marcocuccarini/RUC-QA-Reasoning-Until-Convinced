@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Minerals are the exception among renewable resources listed, meaning they are not a renewable resource.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Trees are the resource that is not renewable among the options listed.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind is the resource that is not renewable among those listed.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water is not a renewable resource among the listed options.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Minerals are the most common resource included in this category.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some of these resources, like solar energy, air, wind, water, etc.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

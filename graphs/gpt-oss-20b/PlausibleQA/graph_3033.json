@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "a country having an island location and a country having continental location. Japan",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "a country having an island location and a country having continental location. United Kingdom",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "a country having an island location and a country having continental location. Iceland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "a country having an island location and a country having continental location. Australia",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Japan is an island country in East Asia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Located in the Pacific Ocean off the northeast coast of the Asian mainland",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Australia is sometimes considered the world's largest island and is often dubbed the 'island continent'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Australia is the world's flattest and driest inhabited continent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

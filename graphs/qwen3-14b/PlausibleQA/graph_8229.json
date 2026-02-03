@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which was the first European city this century to open an underground railway system. London",
+      "strength": 0.1539393500995737
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which was the first European city this century to open an underground railway system. Berlin",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which was the first European city this century to open an underground railway system. Vienna",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which was the first European city this century to open an underground railway system. Paříž",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The London Underground opened in January 1863 as the world's first underground passenger railway.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first line to operate underground electric traction trains, the City & South London Railway in 1890, is now part of the Northern line.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Berlin U-Bahn was opened in 1902.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

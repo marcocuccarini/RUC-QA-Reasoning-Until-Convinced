@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the 5 boroughs of new york city. Manhattan",
+      "strength": 0.876826411190793
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the 5 boroughs of new york city. Brooklyn",
+      "strength": 0.599999999993391
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the 5 boroughs of new york city. The Bronx",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the 5 boroughs of new york city. Queens",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The boroughs of New York City are the Bronx, Brooklyn, Manhattan, Queens, and Staten Island.",
+      "strength": 0.7499999827644955
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brooklyn is coextensive with Kings County.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The modern city was formed by the 1898 consolidation of its five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "New York City is sometimes referred to collectively as the Five Boroughs.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Manhattan is the most densely populated and geographically smallest of the five boroughs of New York City.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Coextensive with New York County, Manhattan is the smallest county by area in the U.S. state of New York.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun would appear larger and brighter to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.25009174200592604
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun would appear smaller and brighter to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.4000611252761509
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Sun would appear larger and dimmer to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.40000005409169953
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Sun would appear smaller and dimmer to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The angular diameter of the Sun decreases with increasing distance from the Sun.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Flux decreases with distance according to an inverse-square law",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

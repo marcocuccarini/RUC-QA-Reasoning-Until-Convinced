@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the most common gas in the Earth's atmosphere. Oxygen (O₂)",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the most common gas in the Earth's atmosphere. Carbon Dioxide (CO₂)",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the most common gas in the Earth's atmosphere. Argon (Ar)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the most common gas in the Earth's atmosphere. N₂",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "dry air contains 78.08% nitrogen",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "dry air contains 20.95% oxygen",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

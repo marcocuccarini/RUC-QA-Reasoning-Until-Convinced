@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Microwaves are the kind of waves used in radar guns.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "X-rays are the kind of waves used in radar guns.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "WIFI is the type of waves used in radar guns.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Radio waves are used in radar guns.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Modern radar speed guns normally operate at X, K, Ka, and (in Europe) Ku bands.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Radar speed guns, like other types of radar, consist of a radio transmitter and receiver.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Microwaves are the main wavelengths used in radar, and are used for satellite communication, and wireless networking technologies such as Wi‑Fi.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

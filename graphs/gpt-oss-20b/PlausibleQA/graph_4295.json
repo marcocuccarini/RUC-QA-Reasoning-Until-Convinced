@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is governor of ohio 2011. Ted Strickland",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is governor of ohio 2011. Bob Taft",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is governor of ohio 2011. George Voinovich",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is governor of ohio 2011. John Kasich",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Strickland was narrowly defeated for re-election in the 2010 gubernatorial election by former U.S. representative John Kasich.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Governor Bob Taft was term-limited in 2006 and could not run for re-election.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

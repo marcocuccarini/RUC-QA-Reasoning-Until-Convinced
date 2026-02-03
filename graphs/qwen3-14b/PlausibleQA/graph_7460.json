@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In April 1963, Lester Bowles Pearson became Prime Minister of which country. Australia",
+      "strength": 0.2262443811843583
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In April 1963, Lester Bowles Pearson became Prime Minister of which country. United Kingdom",
+      "strength": 0.2262443811843583
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In April 1963, Lester Bowles Pearson became Prime Minister of which country. New Zealand",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In April 1963, Lester Bowles Pearson became Prime Minister of which country. ᑲᓇᑕ",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lester Bowles Pearson was the 14th prime minister of Canada from 1963 to 1968.",
+      "strength": 0.5999999999900413
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lester B. Pearson – Parliament of Canada biography",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Prime Minister of Canada's channel on YouTube",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Library of Parliament of Canada",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Prime Minister's Official Site – Government of Canada",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Prime Ministers of Canada – Library of Parliament",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

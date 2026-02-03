@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which team won the first 'Super Bowl'. Kansas City Chiefs",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which team won the first 'Super Bowl'. Los Angeles Rams",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which team won the first 'Super Bowl'. New York Giants",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which team won the first 'Super Bowl'. Packers",
+      "strength": 0.7736521061885242
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The NFL's Green Bay Packers won the first two Super Bowls",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Packers defeated the Kansas City Chiefs 35–10 in Super Bowl I",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Packers won Super Bowl II with a 33–14 victory over the Oakland Raiders",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What game, created in 1904 by a quaker, Elizabeth (Lizzie) Phillips, when revised by Charles Darrow and others became one of the world's most played commercial board games. The Landlord's Game",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What game, created in 1904 by a quaker, Elizabeth (Lizzie) Phillips, when revised by Charles Darrow and others became one of the world's most played commercial board games. The Game of Life",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What game, created in 1904 by a quaker, Elizabeth (Lizzie) Phillips, when revised by Charles Darrow and others became one of the world's most played commercial board games. Easy Money",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What game, created in 1904 by a quaker, Elizabeth (Lizzie) Phillips, when revised by Charles Darrow and others became one of the world's most played commercial board games. Monopoly",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The game was derived from The Landlord's Game, created in 1903 in the United States by Lizzie Magie.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The game was created in 1903 in the United States by Lizzie Magie, not Elizabeth (Lizzie) Phillips.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Official website 'Monopoly For Sore Losers Board Game Instructions - Hasbro'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "U.S. patent 2,026,082 Patent awarded to C. B. Darrow for Monopoly on December 31, 1935.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

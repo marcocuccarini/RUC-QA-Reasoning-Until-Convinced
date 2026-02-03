@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chloroplasts are small, free‑floating organelles found in both prokaryotes and eukaryotes that the cell makes from nucleic acids and amino acids found in food, and without which the cell could not make proteins.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mitochondria are small, free‑floating organelles present in both prokaryotes and eukaryotes, synthesized from nucleic acids and amino acids derived from food, and without which the cell cannot synthesize proteins.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ribosomes are small, free‑floating organelles found in both prokaryotes and eukaryotes, made from nucleic acids and amino acids found in food, and without them the cell could not make proteins.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vesicles are small, free‑floating organelles present in both prokaryotes and eukaryotes that the cell constructs from nucleic acids and amino acids found in food, and without which the cell could not synthesize proteins.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ribosomes are sometimes referred to as organelles, but the use of the term organelle is often restricted to describing sub-cellular components that include a phospholipid membrane, which ribosomes, being entirely particulate, do not.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ribosomes from bacteria, archaea, and eukaryotes (in the three-domain system) resemble each other to a remarkable degree, evidence of a common origin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

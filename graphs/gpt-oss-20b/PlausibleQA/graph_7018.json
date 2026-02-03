@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many times was Boris Becker runner-up in the Men's Singles at Wimbledon. 1",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many times was Boris Becker runner-up in the Men's Singles at Wimbledon. 2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many times was Boris Becker runner-up in the Men's Singles at Wimbledon. 3",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many times was Boris Becker runner-up in the Men's Singles at Wimbledon. 4",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Becker contested the Wimbledon final in 1988, where he lost in four sets to Stefan Edberg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1990, Becker met Edberg for the third consecutive year in the Wimbledon final, but this time lost in a five-set match.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

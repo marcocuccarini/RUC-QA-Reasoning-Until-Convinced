@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Kremlin is situated in which city. Saint Petersburg",
+      "strength": 0.40000003811777657
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Kremlin is situated in which city. Kiev",
+      "strength": 0.40000003811777657
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Kremlin is situated in which city. Warsaw",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Kremlin is situated in which city. Moscú",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Moscow Kremlin is located in Moscow, Russia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Travel2moscow.com – Official Moscow Guide (archived)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "tour-planet.com – Sights of the Moscow Kremlin",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

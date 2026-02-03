@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The ports of Puck and Jastarnia are in which European country. Germany",
+      "strength": 0.2500000952766476
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ports of Puck and Jastarnia are in which European country. Denmark",
+      "strength": 0.2500000952766476
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The ports of Puck and Jastarnia are in which European country. Sweden",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The ports of Puck and Jastarnia are in which European country. Polnd",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jastarnia is a resort town in Puck County, Pomeranian Voivodship, northern Poland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Puck is a town in northern Poland.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Puck on the map of Poland",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

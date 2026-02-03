@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which actor does the interviewing in 'Interview with a Vampire'. Tom Cruise",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which actor does the interviewing in 'Interview with a Vampire'. Brad Pitt",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which actor does the interviewing in 'Interview with a Vampire'. Neil Jordan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which actor does the interviewing in 'Interview with a Vampire'. Christian Slater",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cruise starred along with Brad Pitt, Antonio Banderas and Christian Slater in Neil Jordan's Interview with the Vampire.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Christian Slater starred in Neil Jordan's Interview with the Vampire.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Louis tells his story to a San Francisco reporter (Christian Slater).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The narrative is framed by a modern‑day interview, in which Louis tells his story to a San Francisco reporter (Christian Slater).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

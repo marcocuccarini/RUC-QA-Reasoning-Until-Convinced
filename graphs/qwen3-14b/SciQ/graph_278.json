@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrogen is the other element that all biochemical molecules have along with oxygen and carbon.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Helium is the other element found in all biochemical molecules alongside oxygen and carbon.",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nitrogen is the other element that, along with oxygen and carbon, is present in all biochemical molecules.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Calcium is the other element that all biochemical molecules contain, along with oxygen and carbon.",
+      "strength": 0.40000008918213564
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Living things incorporate inorganic carbon compounds into organic compounds through a network of processes (the carbon cycle) that convert carbon dioxide and a hydrogen source like water into simple sugars and other organic molecules.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the organic compound L-isoleucine molecule presents some features typical of organic compounds: carbon–carbon bonds, carbon–hydrogen bonds, as well as covalent bonds from carbon to oxygen and to nitrogen.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The bulk of all life forms on Earth consist of just six elements, described by the acronym CHNOPS: carbon, hydrogen, nitrogen, oxygen, phosphorus, and sulfur.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

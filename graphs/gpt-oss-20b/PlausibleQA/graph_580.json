@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many valves does a trumpet have. 1",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many valves does a trumpet have. 2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many valves does a trumpet have. 4",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many valves does a trumpet have. 3",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Modern trumpets have three (or, infrequently, four) piston valves",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Early trumpets did not provide means to change the length of tubing, whereas modern instruments generally have three (or sometimes four) valves in order to change their pitch.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

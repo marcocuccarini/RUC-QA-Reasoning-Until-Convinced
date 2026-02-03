@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The OK Corral is in which US town. Prescott",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The OK Corral is in which US town. Flagstaff",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The OK Corral is in which US town. Bisbee",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The OK Corral is in which US town. Tombstone",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Taking place in the town of Tombstone in Arizona Territory.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The O.K. Corral fronted Allen Street and had a rear entrance lined with horse stalls on Fremont Street.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

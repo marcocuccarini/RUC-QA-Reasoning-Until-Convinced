@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many countries touches the land boundary of india. Five",
+      "strength": 0.40000007157034034
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many countries touches the land boundary of india. Nine",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many countries touches the land boundary of india. Three",
+      "strength": 0.4000777054553685
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many countries touches the land boundary of india. seven",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "India shares land borders with Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The India–Myanmar border is 1,643 kilometres long and runs from the tripoint with China in the north to the tripoint with Bangladesh in the south.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "India has similar fences on its borders with Pakistan and Bangladesh.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

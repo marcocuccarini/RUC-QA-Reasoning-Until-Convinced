@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Streak is a more reliable trait or measure to identify minerals.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Color is a more reliable trait or measure to identify minerals.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Shape is a more reliable trait or measure to identify minerals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weight is a more reliable trait or measure to identify minerals.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Colour is the most obvious property of a mineral, but it is often non-diagnostic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The trail of finely ground powder generally has a more consistent characteristic color, and is thus an important diagnostic tool in mineral identification.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "However, when the specimen is dragged to produce a streak, it is broken into randomly oriented microscopic crystals, and small impurities do not greatly affect the absorption of light.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

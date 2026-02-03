@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Prefixes are used to indicate the number of atoms of an element that are in the compound.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Indices are used to indicate the number of atoms of an element that are present in a compound.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Suffixes are used to indicate the number of atoms of an element that are in the compound.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Digits are used to indicate the number of atoms of an element that are in the compound.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical formulae most often use integers for each element.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The empirical formula of a chemical is a simple expression of the relative number of each type of atom or ratio of the elements in the compound.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

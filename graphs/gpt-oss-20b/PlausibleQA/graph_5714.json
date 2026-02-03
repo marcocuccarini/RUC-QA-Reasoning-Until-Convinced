@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. **Carte Blanche Club International**",
+      "strength": 0.22633862815059233
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. **Travelers Club International**",
+      "strength": 0.40000002504516374
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. **Diners Club International** is excluded as per the prompt, so let's consider **Esso Club International**",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The first independent credit payment card, inspired in 1949 by a particular service, was called '(What?) Club International'. Dinor",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Diners Club launched a card in March 1950, and American Express only began to seriously consider launching a travel charge card after that.",
+      "strength": 0.5999738741442517
+    },
+    "A5": {
+      "type": "argument",
+      "text": "American Express entered the business in 1957, issuing 250,000 cards before the official launch date of October 1, 1958, indicating that a new independent credit card did not exist prior to Diners Club.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Diners Club, which was created partially through a merger with Dine and Sign, produced the first 'general purpose' charge card and required the entire bill to be paid with each statement.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The concept of customers paying different merchants using the same card was expanded in 1950 by Ralph Schneider and Frank McNamara, founders of Diners Club, to consolidate multiple cards.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

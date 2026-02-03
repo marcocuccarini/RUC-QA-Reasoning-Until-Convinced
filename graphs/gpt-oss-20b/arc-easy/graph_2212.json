@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Measuring oxygen levels in the lake for two months will give the most accurate results for assessing how the lake's ecosystem is affected by the new fish species released into a local lake, a species that had never lived there before.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Checking the lake water for nutrient levels on one day will give the most accurate results for assessing how the lake’s ecosystem is affected by the newly released fish species that had never lived there before.",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sampling fish populations in the lake over several years will give the most accurate results for scientists studying how the lake’s ecosystem is affected by the newly introduced fish species that had never lived in the lake before.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Observing the surface of the lake for signs of the new fish after one week is the method that will give the most accurate results for scientists collecting data on how the ecosystem of a local lake is affected by a newly released species of fish that has never lived in the lake before.",
+      "strength": 0.40000009282172766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The degree of nutrient circulation is system specific, as it depends upon such factors as wind strength and duration, as well as lake or pool depth and productivity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because fish are highly mobile, they are able to deal with unsuitable abiotic factors in one zone by simply moving to another.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Deoxygenation increases the relative population of anaerobic organisms such as plants and some bacteria, resulting in fish kills and other adverse events.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

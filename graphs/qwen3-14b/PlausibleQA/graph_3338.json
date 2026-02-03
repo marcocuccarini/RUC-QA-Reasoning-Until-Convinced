@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who tried to steal Christmas from the town of Whoville. Scrooge",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who tried to steal Christmas from the town of Whoville. Jack Frost",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who tried to steal Christmas from the town of Whoville. Krampus",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who tried to steal Christmas from the town of Whoville. Grinch",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "he enacts a dastardly plan to destroy it once and for all. Aided by his pet dog, Max, he meticulously designs a red suit to disguise himself as Santa Claus and breaks into the Whos' homes on Christmas Eve while they sleep to steal everything they own",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In this adaption, the titled character became a literal monster that will kill anyone who celebrates Christmas",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

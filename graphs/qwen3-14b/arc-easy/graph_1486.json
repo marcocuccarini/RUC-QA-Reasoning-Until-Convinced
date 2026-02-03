@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The water evaporates and the salt remains in the beaker when salt water is boiled.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Both the salt and the water evaporate and leave the beaker when salt water is boiled.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The salt becomes a new compound when salt water is boiled.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The salt will evaporate from the water and disperse into the environment when salt water is boiled.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Water is evaporated and separated from sea water through multi-stage flash distillation",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The water-laden solvent is then heated, causing the solvent to release the now salt-free water",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

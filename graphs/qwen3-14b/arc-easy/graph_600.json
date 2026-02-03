@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mesosphere is the layer of the atmosphere where temperature generally increases with altitude, a region in which some jet airplanes fly.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stratosphere is the layer of the atmosphere where temperature generally increases with altitude and in which some jet airplanes fly.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Thermosphere is the layer of the atmosphere where temperature generally increases with altitude, and some jet airplanes fly in this layer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Troposphere is the layer of the atmosphere in which some jet airplanes fly and where temperature generally increases with altitude.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The increase of temperature with altitude is a result of the absorption of the Sun's ultraviolet (UV) radiation by the ozone layer, where ozone is exothermically photolyzed into oxygen in a cyclical fashion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Commercial airliners typically cruise at altitudes of 9–12 km (30,000–39,000 ft) which is in the lower reaches of the stratosphere in temperate latitudes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

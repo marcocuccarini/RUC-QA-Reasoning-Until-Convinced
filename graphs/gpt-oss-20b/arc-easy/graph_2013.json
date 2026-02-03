@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A change of state is demonstrated when a student drops a white tablet into a glass of water producing carbon dioxide gas.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A chemical reaction is demonstrated when a student drops a white tablet into a glass of water, producing carbon dioxide gas.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The creation of matter is demonstrated when a student drops a white tablet into a glass of water, producing carbon dioxide gas.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The movement of electricity is demonstrated when a student drops a white tablet into a glass of water, producing carbon dioxide gas.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Some chemical reactions have characteristics such as: Evolution of a gas.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chemical reactions are usually characterized by a chemical change, and they yield one or more products, which usually have properties different from the reactants.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The bubbles are created because, when the baking powder is combined with water, the sodium bicarbonate and acid salts react to produce gaseous carbon dioxide.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The products of a neutralization reaction are a salt and water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

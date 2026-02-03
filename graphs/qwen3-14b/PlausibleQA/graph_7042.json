@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. Jane Austen",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. Charles Dickens",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. William Shakespeare",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who appears on the reverse of the current Bank of England £10 note. Darwin's",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the image of author Jane Austen on the reverse",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The decision to replace Darwin with Austen followed a campaign to have a woman on the back of a Bank of England banknote",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

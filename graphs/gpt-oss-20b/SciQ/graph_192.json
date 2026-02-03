@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Neurotransmitters are the chemicals released by an axon when a nerve impulse reaches its end.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neurons are the chemicals released by the axon when a nerve impulse reaches its end.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrolytes are the chemicals released by the axon when a nerve impulse reaches the end of an axon.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Receptors are the chemicals released by the axon when a nerve impulse reaches the end of the axon.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When an action potential reaches the presynaptic terminal, the action potential can trigger the release of neurotransmitters into the synaptic cleft.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Neurotransmitters are released from synaptic vesicles into the synaptic cleft where they are able to interact with neurotransmitter receptors on the target cell.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

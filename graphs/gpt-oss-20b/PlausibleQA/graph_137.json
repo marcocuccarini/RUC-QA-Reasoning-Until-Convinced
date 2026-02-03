@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "five tools of security management to overcome computer crime. Authentication",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "five tools of security management to overcome computer crime. Encryption",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "five tools of security management to overcome computer crime. Firewalls",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "five tools of security management to overcome computer crime. implementation",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "71% of companies surveyed used encryption for some of their data in transit",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most applications of encryption protect information only at rest or in transit, leaving sensitive data in clear text and potentially vulnerable to improper disclosure during processing, such as by a cloud service",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

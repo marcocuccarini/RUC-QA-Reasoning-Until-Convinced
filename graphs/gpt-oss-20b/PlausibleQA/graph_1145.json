@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. Hypocras",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. March Beer",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. Sack Posca",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. Posset",
+      "strength": 0.40000009469685094
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hippocras is a drink made from wine mixed with sugar and spices.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hippocras is a wine-based spiced drink, not a milk-based posset.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "French recipes for honey sweetened spiced wines.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

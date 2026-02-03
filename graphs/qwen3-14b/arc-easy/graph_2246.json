@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Atom is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Compound is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mixture is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solution is produced when two or more elements combine in a chemical reaction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A chemical compound is a chemical substance composed of many identical molecules (or molecular entities) containing atoms from more than one chemical element held together by chemical bonds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A molecule consisting of atoms of only one element is therefore not a compound.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

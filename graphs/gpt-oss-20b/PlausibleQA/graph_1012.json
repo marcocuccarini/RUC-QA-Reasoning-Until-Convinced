@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who had an 80s No 1 hit with Hold On To The Nights. Bryan Adams",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who had an 80s No 1 hit with Hold On To The Nights. REO Speedwagon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who had an 80s No 1 hit with Hold On To The Nights. Journey",
+      "strength": 0.40000009469685094
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who had an 80s No 1 hit with Hold On To The Nights. Richard Marx",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Journy, a commune in the Pas-de-Calais département in the Hauts-de-France region of France",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hold On to the Nights reached the Billboard Hot 100 number 1 position on July 23, 1988.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hold On to the Nights was written and performed by American rock singer/songwriter/musician Richard Marx.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

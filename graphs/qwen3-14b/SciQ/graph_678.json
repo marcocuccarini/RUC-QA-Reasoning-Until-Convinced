@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Exponents are used in scientific notation to write very large or very small numbers.",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whole numbers are used to write very large or very small numbers in scientific notation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Zeros are used in scientific notation to write very large or very small numbers.",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Coefficients are what scientific notation uses to write very large or very small numbers.",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "scientific notation uses exponents (powers of ten) to represent numbers",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "scientific notation uses coefficients (nonzero real numbers) to represent numbers",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the digit 1 is followed or preceded by zeros determined by the exponent's sign and magnitude",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

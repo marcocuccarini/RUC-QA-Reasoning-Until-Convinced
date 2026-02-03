@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what does g stand for in baseball stats. Groundouts",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what does g stand for in baseball stats. Grand Slams",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what does g stand for in baseball stats. Gap Hits",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what does g stand for in baseball stats. Games",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "G – Games played: number of games where the player played, in whole or in part",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "GS – Grand slam: a home run with the bases loaded, resulting in four runs scoring, and four RBIs credited to the batter",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

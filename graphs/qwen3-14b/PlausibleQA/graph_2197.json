@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In most constellations, which letter of the Greek alphabet was designated by German astronomer Johann Bayer to the brightest star. Β",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In most constellations, which letter of the Greek alphabet was designated by German astronomer Johann Bayer to the brightest star. Γ",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In most constellations, which letter of the Greek alphabet was designated by German astronomer Johann Bayer to the brightest star. Δ",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In most constellations, which letter of the Greek alphabet was designated by German astronomer Johann Bayer to the brightest star. Α",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In most constellations, Bayer assigned Greek and Latin letters to stars within a constellation in rough order of apparent brightness, from brightest to dimmest.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The brightest star overall did not necessarily get the designation 'Alpha'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. Lao Tzu",
+      "strength": 0.40000003662315714
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. Zhuangzi",
+      "strength": 0.40000003662315714
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. Mozi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. 丘",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Analects, or Lúnyǔ, also known as the Sayings of Confucius, is an ancient Chinese philosophical text composed of sayings and ideas attributed to Confucius and his contemporaries, traditionally believed to have been compiled by his followers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Core philosophical passages in the Analects of Confucius",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Confucian Analects (Project Gutenberg release of James Legge's Translation)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sun, Earth, Moon is the correct order needed for a solar eclipse to happen.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sun, Moon, Earth is the correct order needed for a solar eclipse to happen.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Moon, Sun, Earth is the correct order needed for a solar eclipse to happen.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Moon, Earth, Sun is the correct order needed for a solar eclipse to happen.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby obscuring the view of the Sun from a small part of Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

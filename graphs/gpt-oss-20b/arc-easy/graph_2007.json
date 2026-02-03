@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decreasing the pitch changes the loudness of sound.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increasing the frequency can change the loudness of sound.",
+      "strength": 0.7499999008350392
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Increasing the amplitude is a way to change the loudness of sound.",
+      "strength": 0.8460568445437275
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Decreasing the wavelength can change the loudness of sound.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The perception of loudness is related to sound pressure level (SPL).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sensitivity of the human ear changes as a function of frequency, as shown in the equal-loudness graph.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The sound pressure level (SPL) or Lp is defined as 10 log10(p^2 / prefp^2) = 20 log10(p / prefp) dB, where p is the root-mean-square sound pressure.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A-weighting attempts to match the response of the human ear to noise and A-weighted sound pressure levels are labeled dBA.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Stanford scientists created a sound so loud it instantly boils water",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the presidential election in egypt 2012. Mohamed Morsi",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the presidential election in egypt 2012. Ahmed Shafik",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the presidential election in egypt 2012. Abdel Moneim Aboul Fotouh",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the presidential election in egypt 2012. Hosni Mubarak",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Egypt's election commission announced that Muslim Brotherhood candidate Mohamed Morsi had won Egypt's presidential elections.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Morsi won by a narrow margin over Ahmed Shafik, the final prime minister under deposed President Hosni Mubarak.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

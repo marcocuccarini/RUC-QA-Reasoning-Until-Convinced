@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What geographical feature means 'almost island'. Isthmus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What geographical feature means 'almost island'. Archipelago",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What geographical feature means 'almost island'. Headland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What geographical feature means 'almost island'. Peninsula",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The word peninsula derives from Latin paeninsula, from paene 'almost' and insula 'island'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A peninsula is a landform that extends from a mainland, is connected to the mainland on only one side, and is mostly surrounded by water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

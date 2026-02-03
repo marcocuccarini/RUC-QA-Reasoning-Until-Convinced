@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the cartoon cat that is always chasing Tweety Pie. Felix",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the cartoon cat that is always chasing Tweety Pie. Tom",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the cartoon cat that is always chasing Tweety Pie. Puss",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the cartoon cat that is always chasing Tweety Pie. Sylvester",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cartoon cat that is always chasing Tweety Pie is Sylvester, not Felix.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The cartoon cat that is always chasing Tweety Pie is Sylvester, not Tom.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The cartoon cat that is always chasing Tweety Pie is Sylvester, not Puss.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sylvester is the correct name of the cartoon cat that is always chasing Tweety Pie.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

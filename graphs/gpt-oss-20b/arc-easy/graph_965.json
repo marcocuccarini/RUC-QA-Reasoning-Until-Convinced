@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gravitational force is the type of force that keeps the planets orbiting the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetic is the type of force that keeps the planets orbiting the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrical is the type of force that keeps the planets orbiting the Sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nuclear force is the type of force that keeps the planets orbiting the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Newton's law of universal gravitation describes gravity as a force by stating that every particle attracts every other particle in the universe with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers of mass.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Einstein's theory, energy and momentum distort spacetime in their vicinity, and other particles move in trajectories determined by the geometry of spacetime.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

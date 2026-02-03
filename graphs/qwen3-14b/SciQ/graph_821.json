@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive is the system in which foodborne illness, food allergies, or a food intolerance cause symptoms.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Respiratory is the system in which foodborne illness, food allergies, or a food intolerance cause symptoms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Circulatory is the system in which foodborne illness, food allergies, or a food intolerance cause symptoms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Skeletal is the system that foodborne illness, food allergies, or a food intolerance cause symptoms in.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Coeliac disease is an autoimmune disorder of the small intestine. This can cause vitamin deficiencies due to the improper absorption of nutrients in the small intestine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A number of problems including malnutrition and anemia can arise from malabsorption, the abnormal absorption of nutrients in the GI tract.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

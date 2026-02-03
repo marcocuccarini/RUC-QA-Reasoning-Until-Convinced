@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. NBC",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. CBS",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. FOX",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. ESPN",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It originally ran on ABC from 1970 to 2005, before moving exclusively to sister network ESPN from 2006 to 2019.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After MNF was awarded to ESPN and Sunday Night Football was acquired by NBC in 2006, the Wild Card doubleheader that had aired on ABC, as well as a share of the rotating rights to the Super Bowl, was also given to NBC.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

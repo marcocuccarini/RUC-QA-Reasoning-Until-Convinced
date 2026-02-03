@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. IV",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. VIII",
+      "strength": 0.5999123873437223
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. IX",
+      "strength": 0.5999123873437223
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time minnesota vikings was in the super bowl. XI",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Vikings played in Super Bowls IV, VIII, IX and XI, but failed to win any of them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Vikings have lost in their last six NFC Championship Game appearances, stretching back to 1978.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Vikings lost Super Bowl VIII, which was a one-sided game.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Vikings lost Super Bowl IX, making it their third Super Bowl loss.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

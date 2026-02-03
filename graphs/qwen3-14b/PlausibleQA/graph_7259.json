@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which animal has breeds called Flemish Giant, French Lop and Netherland Dwarf. Guinea Pig",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which animal has breeds called Flemish Giant, French Lop and Netherland Dwarf. Hamster",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which animal has breeds called Flemish Giant, French Lop and Netherland Dwarf. Cat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which animal has breeds called Flemish Giant, French Lop and Netherland Dwarf. RABBIT",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The breed known as the Belgian hare is actually a domestic rabbit which has been selectively bred to resemble a hare, most likely from Flemish Giant stock originally.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Selective breeding, which began in the Middle Ages, has generated a wide variety of rabbit breeds, of which many (since the early 19th century) are also kept as pets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

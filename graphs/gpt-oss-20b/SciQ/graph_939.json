@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water is the solvent in an aqueous solution.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oil is the solvent in an aqueous solution.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Any liquid is the solvent in an aqueous solution.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Saltwater is the solvent in an aqueous solution.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An aqueous solution is a solution in which the solvent is water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A non-aqueous solution is a solution in which the solvent is a liquid, but is not water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

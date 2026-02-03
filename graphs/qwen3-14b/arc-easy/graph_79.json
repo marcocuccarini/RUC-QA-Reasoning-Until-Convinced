@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A folded chain of amino acids is part of the description of protein.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A folded chain of carbohydrates is part of the description of protein.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A branched chain of fatty acids is part of the description of protein.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A branched chain of nucleic acids is part of the description of protein.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Proteins differ from one another primarily in their sequence of amino acids, which is dictated by the nucleotide sequence of their genes, and which usually results in protein folding into a specific 3D structure that determines its activity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The amino acids in a polypeptide chain are linked by peptide bonds between amino and carboxyl group.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

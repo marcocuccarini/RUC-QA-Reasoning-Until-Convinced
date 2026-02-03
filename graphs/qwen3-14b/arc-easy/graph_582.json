@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A material that has high porosity and high permeability is the most effective aquifer because it contains more empty space and its pores are well connected, allowing water to move freely.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A material that has high porosity and low permeability would make the most effective aquifer, because it contains many empty spaces (pores) yet the pores are poorly connected, limiting water movement.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A material that has low porosity and high permeability would make the most effective aquifer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A material that has low porosity and low permeability is the material that would make the most effective aquifer, based on the definitions that empty spaces in a material are called pores, porosity is the amount of empty space within a material, and permeability describes how well the pores in a material are connected.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Porosity can be proportional to hydraulic conductivity; for two similar sandy aquifers, the one with a higher porosity will typically have a higher hydraulic conductivity (more open area for the flow of water), but there are many complications to this relationship.",
+      "strength": 0.8171822616851475
+    },
+    "A7": {
+      "type": "argument",
+      "text": "porosity is the amount of empty space within a material, and permeability describes how well the pores in a material are connected",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Graphical depiction of different flow rates through materials of differing permeability",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

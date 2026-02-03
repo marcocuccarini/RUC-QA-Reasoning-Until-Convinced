@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which town in Flanders could you visit the World War I memorial called the Menin Gate. Bruges",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which town in Flanders could you visit the World War I memorial called the Menin Gate. Antwerp",
+      "strength": 0.4000000909837343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which town in Flanders could you visit the World War I memorial called the Menin Gate. Ghent",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which town in Flanders could you visit the World War I memorial called the Menin Gate. Iper",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Menin Gate is located in Ypres, Belgium",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ypres is also known as Ieper",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

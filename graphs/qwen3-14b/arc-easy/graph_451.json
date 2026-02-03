@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A winter storm that produces frozen precipitation is a description that best describes a tornado.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A rotating funnel-shaped cloud with strong winds and thunderstorms is a tornado.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A severe weather condition with low temperatures and blowing snow is what best describes a tornado.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A storm that forms over warm ocean water and has extremely strong winds best describes a tornado.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A tornado is a violent, rotating column of air in contact with both the surface of the earth and a cumulonimbus cloud.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tornadoes come in many sizes but are typically in the form of a visible condensation funnel, whose narrow end touches the earth and is often encircled by a cloud of debris and dust.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

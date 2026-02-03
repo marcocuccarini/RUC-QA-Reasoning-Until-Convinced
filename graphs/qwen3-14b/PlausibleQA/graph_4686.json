@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which archipelago in the North Sea belonged to Britain until 1990 when ownership passed to Germany. Frisian Islands",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which archipelago in the North Sea belonged to Britain until 1990 when ownership passed to Germany. Shetland Islands",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which archipelago in the North Sea belonged to Britain until 1990 when ownership passed to Germany. Orkney Islands",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which archipelago in the North Sea belonged to Britain until 1990 when ownership passed to Germany. Helgoland",
+      "strength": 0.2761331426854045
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Heligoland was part of Britain from 1807 to 1890.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "British control of Heligoland lasted until 1952.",
+      "strength": 0.4000466617824003
+    },
+    "A6": {
+      "type": "argument",
+      "text": "1951 news report about the civilian campaign to restore German control to Heligoland",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Italian liqueur is a key ingredient of the well known cocktail, Harvey Wallbanger. Limoncello",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Italian liqueur is a key ingredient of the well known cocktail, Harvey Wallbanger. Sambuca",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Italian liqueur is a key ingredient of the well known cocktail, Harvey Wallbanger. Amaro Nonino",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Italian liqueur is a key ingredient of the well known cocktail, Harvey Wallbanger. Galliano",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Harvey Wallbanger is a mixed drink made with vodka, Galliano, and orange juice.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Harvey Wallbanger was created in 1969 as a marketing campaign by McKesson Imports Company, importer of Galliano.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

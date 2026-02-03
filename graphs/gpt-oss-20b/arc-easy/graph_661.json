@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Glucose is the green pigment that allows plants to change the Sun's energy into chemical energy.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chlorophyll is the green pigment that allows plants to convert the Sun's energy into chemical energy.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mitochondria are the green pigment that allows plants to change the Sun's energy into chemical energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the green pigment that allows plants to change the Sun's energy into chemical energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chlorophyll is any of several related green pigments found in cyanobacteria and in the chloroplasts of algae and plants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The electron flow produced by the reaction center chlorophyll pigments is used to pump H+ ions across the thylakoid membrane, setting up a proton-motive force a chemiosmotic potential used mainly in the production of ATP (stored chemical energy) or to reduce NADP+ to NADPH.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

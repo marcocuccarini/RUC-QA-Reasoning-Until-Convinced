@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From which country did French horns originate. France",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From which country did French horns originate. Germany",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From which country did French horns originate. Austria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From which country did French horns originate. Nimska",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The name 'French horn' first came into use in the late 17th century due to French makers being preeminent in the manufacture of hunting horns and creating the now-familiar circular 'hoop' shape.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "German makers first devised crooks to make such horns playable in different keys—so musicians came to use 'French' and 'German' to distinguish the simple hunting horn from the newer horn with crooks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

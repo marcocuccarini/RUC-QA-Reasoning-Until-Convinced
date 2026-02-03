@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where rivers form is where active volcanoes are most likely to be found.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where tectonic plates meet are the most likely places where active volcanoes are found.",
+      "strength": 0.4999032622223629
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where oceans are deepest is where active volcanoes are most likely to be found.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Active volcanoes are most likely to be found where land and water meet.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The vast majority of the world's active volcanoes occur along plate boundaries, with the Pacific plate's Ring of Fire being the most active and widely known.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some volcanoes occur in the interiors of plates, and these have been variously attributed to internal plate deformation and to mantle plumes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Volcanoes are usually not created at transform tectonic boundaries where two tectonic plates slide past one another.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Volcanoes that occur above subduction zones, such as Mount St. Helens, Mount Etna, and Mount Fuji, lie approximately one hundred kilometers from the trench in arcuate chains called volcanic arcs.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Continental arcs such as the Cascade Volcanic Arc, that form along the coast of continents.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

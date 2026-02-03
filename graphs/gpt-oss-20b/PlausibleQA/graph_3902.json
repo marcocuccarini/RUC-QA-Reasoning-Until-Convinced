@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of money do i need in costa rica. US Dollar",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of money do i need in costa rica. Mexican Peso",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of money do i need in costa rica. Euro",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of money do i need in costa rica. Costa Rican colón",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The colón (plural: colones; sign: ₡; code: CRC) is the currency of Costa Rica.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The colón is sometimes referred to as the peso, which was the name of the Costa Rican currency before the colón, until 1896.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

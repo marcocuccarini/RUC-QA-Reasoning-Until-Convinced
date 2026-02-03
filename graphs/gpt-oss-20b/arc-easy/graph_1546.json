@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Constant weathering and erosion is the condition necessary for metamorphic rocks to form.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Extreme pressure and heating are necessary for metamorphic rocks to form.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rapid burial of sediments is a condition necessary for metamorphic rocks to form.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Slow cooling of magma is the condition necessary for metamorphic rocks to form.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metamorphism takes place at temperatures in excess of 150 °C (300 °F), and often also at elevated pressure or in the presence of chemically active fluids",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Metamorphism is distinct from weathering or diagenesis, which are changes that take place at or just beneath Earth's surface.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

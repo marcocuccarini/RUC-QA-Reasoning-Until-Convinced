@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of books did agatha christie wrote. Mystery Novelist",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of books did agatha christie wrote. Historical Fiction Author",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of books did agatha christie wrote. Romance Writer",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of books did agatha christie wrote. Crime writer",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She wrote 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "She was called the 'Queen of Crime'—a nickname now trademarked by her estate.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "She also wrote six romantic novels under the pseudonym Mary Westmacott.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "She wrote more Poirot stories than any of the others, even though she thought the character to be 'rather insufferable'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The purpose of replacing topsoil after strip mining for coal is to prevent wind from weathering and eroding surface coal.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Preventing radioactive elements from polluting water sources is the purpose of replacing topsoil after strip mining for coal, after the topsoil has been removed, stored, and the land leveled.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To provide an environment for new coal formation is the purpose of replacing topsoil before and after strip mining for coal, where the topsoil is removed and stored, and after mining operations are completed, the land is leveled and the stored topsoil is replaced.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To restore the area to a natural condition is the purpose of replacing topsoil after strip mining for coal, when the topsoil is first removed and stored, and the land is leveled once mining operations are completed.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Topsoil may be placed over the tailing along with planting trees and other vegetation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Large tailing piles left behind may contain heavy metals which can leach out acids such as lead and copper and enter into water systems.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

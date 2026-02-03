@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who played the character Mrs. Merton on TV. Caroline Aherne",
+      "strength": 0.7499426596584895
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who played the character Mrs. Merton on TV. Kathy Burke",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who played the character Mrs. Merton on TV. Julie Walters",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who played the character Mrs. Merton on TV. Mrs Murton",
+      "strength": 0.3677570018889684
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Caroline Aherne played the character Mrs Dorothy Merton on The Mrs Merton Show",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The original portrayal of the character as 'Mrs. Murton' was not picked up by Yorkshire TV",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Caroline Aherne played the character Mrs Merton on The Mrs Merton Show",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Yorkshire TV (Leeds-based ITV) did not pursue the Mrs Murton's Nightcap pilot",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

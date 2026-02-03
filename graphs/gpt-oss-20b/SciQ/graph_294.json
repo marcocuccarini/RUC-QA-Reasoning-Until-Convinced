@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fungi were long considered part of the plant kingdom because of obvious similarities; both are immobile, have cell walls, and grow in soil.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mosses were long considered part of the plant kingdom because of obvious similarities; both are immobile, have cell walls, and grow in soil.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Coral was long considered part of the plant kingdom because both coral and plants are immobile, have cell walls, and grow in soil.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bacteria were long considered part of the plant kingdom because of obvious similarities; both are immobile, have cell walls, and grow in soil.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Taxonomists considered fungi to be members of the plant kingdom because of similarities in lifestyle: both fungi and plants are mainly immobile, and have similarities in general morphology and growth habit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although commonly included in botany curricula and textbooks, fungi are more closely related to animals than to plants, and are placed with the animals in the monophyletic group of opisthokonts.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "current definitions exclude fungi and some of the algae.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the embryophytes or land plants (hornworts, liverworts, mosses, lycophytes, ferns, conifers and other gymnosperms, and flowering plants).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

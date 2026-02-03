@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oviparous is the term that describes reproducing by external fertilization after the female sheds large numbers of small eggs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glandular is the term that describes reproducing by external fertilization after the female sheds large numbers of small eggs.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Glaucous is the term that describes reproducing by external fertilization after the female sheds large numbers of small eggs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Homozygous is the term that describes reproducing by external fertilization after the female sheds large numbers of small eggs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oviparous animals are animals that reproduce by depositing unfertilized egg cells or fertilized zygotes outside the body (i.e., by laying or spawning) in metabolically independent incubation organs (eggs), which nurture the embryo into moving offspring (hatchlings) with little or no embryonic development within the mother.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Monotremes (four species of echidna, and the platypus) are uniquely oviparous.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "External fertilization is a mode of reproduction in which a male organism's sperm fertilizes a female organism's egg outside of the female's body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

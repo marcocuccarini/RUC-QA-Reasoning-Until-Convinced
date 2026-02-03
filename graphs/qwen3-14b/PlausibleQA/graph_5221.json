@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in china. Yuan",
+      "strength": 0.8460587653030452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in china. Chinese Dollar",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in china. Dragon Dollar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the currency used in china. Renminbi",
+      "strength": 0.8460587653030452
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The renminbi is the official currency of China.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Chinese yuan (元) is the basic unit of the renminbi.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "China's currency has two names",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It is the currency of the People's Republic of China to this day.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Chinese yuan (CNY) refers to the renminbi (RMB), which is the official currency used in mainland China.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

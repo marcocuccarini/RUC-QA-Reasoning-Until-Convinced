@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What successful racehorse trainer died on 1 June 2009. Henry Cecil",
+      "strength": 0.2500955085906131
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What successful racehorse trainer died on 1 June 2009. Dick Whittington",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What successful racehorse trainer died on 1 June 2009. John Hawkes",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What successful racehorse trainer died on 1 June 2009. Vincent O'Brien",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He died of cancer on 11 June 2013 in hospital in Cambridge.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cecil died of cancer on 11 June 2013.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

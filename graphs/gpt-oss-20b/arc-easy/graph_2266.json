@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solid to gas is the change that water will undergo after many hours in a freezer.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Solid to liquid is the change the water will undergo after many hours when a student pours water into a cup and places the cup in a freezer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Liquid to solid is the change that water undergoes after many hours in a freezer when a student pours water into a cup and places the cup in the freezer.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Liquid to gas is the state change the water will undergo after being placed in a freezer for many hours.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At a pressure of one atmosphere (atm), ice melts or water freezes (solidifies) at 0 °C (32 °F)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The addition or removal of heat can cause phase transitions: freezing (water to ice)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

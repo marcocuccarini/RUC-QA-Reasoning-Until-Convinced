@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Arthropod is an invertebrate group that has three body segments, a hard exoskeleton, and jointed appendages, and includes spiders and insects.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Annelid is an invertebrate group that has three body segments, a hard exoskeleton, and jointed appendages, which includes spiders and insects.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sauropod is an invertebrate group with three body segments, a hard exoskeleton, and jointed appendages, which includes spiders and insects.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Crustacean is the invertebrate group that has three body segments, a hard exoskeleton, and jointed appendages, including spiders and insects.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Arthropods possess an exoskeleton with a cuticle made of chitin, often mineralised with calcium carbonate, a body with differentiated (metameric) segments, and paired jointed appendages.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Arthropods also have two body elements that are not part of this serially repeated pattern of segments, an ocular somite at the front, where the mouth and eyes originated, and a telson at the rear, behind the anus.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Other terrestrial arthropods, such as centipedes, millipedes, woodlice, spiders, mites and scorpions, are sometimes confused with insects, since they have a jointed exoskeleton.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

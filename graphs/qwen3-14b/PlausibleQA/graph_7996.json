@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which acid is found in apples. Malic Acid",
+      "strength": 0.5999999125837895
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which acid is found in apples. Citric Acid",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which acid is found in apples. Tartaric Acid",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which acid is found in apples. E296",
+      "strength": 0.5000948222412986
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Malic acid was first isolated from apple juice by Carl Wilhelm Scheele in 1785.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Malic acid, when added to food products, is denoted by E number E296.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Other fruits with tartaric acid are bananas, avocados, prickly pear fruit, apples, cherries, papayas, peaches, pears, pineapples, strawberries, mangoes and citrus fruits.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The acid itself is added to foods as an antioxidant E334 and to impart its distinctive sour taste.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

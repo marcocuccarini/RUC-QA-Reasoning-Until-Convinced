@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which order of insects contains the most species. Butterfly",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which order of insects contains the most species. Ant",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which order of insects contains the most species. Fly",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which order of insects contains the most species. Beetel",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Coleoptera, with about 400,000 described species, is the largest of all orders, constituting almost 40% of described arthropods and 25% of all known animal species",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Multiple studies posit that Diptera (flies) and/or Hymenoptera (sawflies, wasps, ants and bees) may have more species",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Over 150,000 living species of Hymenoptera have been described, in addition to over 2,000 extinct ones.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "More than 150,000 have been formally described",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

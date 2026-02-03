@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbohydrates are the term used to describe organic compounds such as sugars and starches.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fats are the term used to describe organic compounds such as sugars and starches.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Proteins are organic compounds such as sugars and starches.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vegetables are the term used to describe organic compounds such as sugars and starches.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A carbohydrate is a sugar (saccharide) or a sugar derivative.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Together with amino acids, fats, and nucleic acids, the carbohydrates are one of the major families of biomolecules.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

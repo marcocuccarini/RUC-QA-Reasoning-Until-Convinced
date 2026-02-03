@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what killed john bonham. Heart Attack",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what killed john bonham. Alcohol Poisoning",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what killed john bonham. Liver Failure",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what killed john bonham. Inhalation of vomit",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The inquest on 27 October 1980 showed that in 24 hours, Bonham had consumed around 40 shots (1–1.4 litres) of 40% ABV vodka.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "after which he vomited and choked, a condition known as pulmonary aspiration.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Alcohol poisoning is listed as a cause of asphyxia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

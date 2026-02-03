@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electricity is the subject of Isaac Newton's study, which has led scientists today to understand how forces work.",
+      "strength": 0.5999999723208136
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetism is what scientists today understand how forces work due to Isaac Newton's study of.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Atoms are what scientists today understand about how forces work, based on Isaac Newton's study of them.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gravity is the force that scientists today understand how forces work because of Isaac Newton's study of it.",
+      "strength": 0.7736521061885242
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Newton conceived four revolutions—in optics, mathematics, mechanics, and gravity—but also foresaw a fifth in electricity, though he lacked the time and energy in old age to fully accomplish it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "he defined the law of universal gravitation. His work achieved the first great unification in physics.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The publication of the law has become known as the 'first great unification', as it marked the unification of the previously described phenomena of gravity on Earth with known astronomical behaviors.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Newton's law of universal gravitation describes gravity as a force by stating that every particle attracts every other particle in the universe with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers of mass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

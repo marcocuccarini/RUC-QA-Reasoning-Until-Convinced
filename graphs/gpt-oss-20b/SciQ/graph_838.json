@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Proteins are broken down into amino acids by pepsin.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glucose is what pepsin helps break down into amino acids.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbohydrates are the substances that pepsin helps break down into amino acids.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fats are substances that pepsin helps break down into amino acids.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pepsin is an endopeptidase that breaks down proteins into smaller peptides and amino acids.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pepsin is one of the main digestive enzymes in the digestive systems of humans and many other animals, where it helps digest the proteins in food.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

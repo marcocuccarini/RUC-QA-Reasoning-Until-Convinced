@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who won the 2007 Nobel Peace Prize for his environmental work including the controversial film An Inconvenient Truth. Leonardo DiCaprio",
+      "strength": 0.2500954545649498
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who won the 2007 Nobel Peace Prize for his environmental work including the controversial film An Inconvenient Truth. James Hansen",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who won the 2007 Nobel Peace Prize for his environmental work including the controversial film An Inconvenient Truth. James Lovelock",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who won the 2007 Nobel Peace Prize for his environmental work including the controversial film An Inconvenient Truth. Algore",
+      "strength": 0.3999998712413678
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gore is the recipient of a number of awards, including the Nobel Peace Prize (together with the Intergovernmental Panel on Climate Change) in 2007",
+      "strength": 0.5000000247865813
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Al Gore on Nobelprize.org including his Nobel Lecture December 10, 2007",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the prize was awarded to the IPCC as an organisation, and not to any individual involved with the IPCC",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Thus it is incorrect to refer to any IPCC official, or scientist who worked on IPCC reports, as a Nobel laureate or Nobel Prize winner",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Al Gore and the Intergovernmental Panel on Climate Change (IPCC) won the 2007 Nobel Peace Prize",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

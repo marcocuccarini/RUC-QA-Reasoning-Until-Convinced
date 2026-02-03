@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What word is used to describe someone within an organisation who leaks information. Informant",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What word is used to describe someone within an organisation who leaks information. Whistleblower",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What word is used to describe someone within an organisation who leaks information. Spy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What word is used to describe someone within an organisation who leaks information. Mole",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Whistleblowing is the activity of a person, often an employee, revealing information about activity within a private or public organization that is deemed wrongful – whether it be illegal, immoral, illicit, unsafe, unethical, or fraudulent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "American civic activist Ralph Nader is said to have coined the phrase in the early 1970s in order to avoid the negative connotations found in other words such as 'informer' and 'snitch'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

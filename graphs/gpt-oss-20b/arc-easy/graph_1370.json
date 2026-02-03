@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A tissue is a group of cells performing the same function in the body.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An organelle is a group of cells performing the same function in the body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An organism is a group of cells performing the same function in the body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A system is a group of cells performing the same function in the body.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "tissue is an assembly of similar cells and their extracellular matrix from the same embryonic origin that together carry out a specific function.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Complex permanent tissue consists of more than one type of cells having a common origin which work together as a unit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

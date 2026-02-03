@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A pencil is the most likely item that is made from only one material.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A bicycle is the item most likely made from only one material.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A paper clip is the item most likely made from only one material.",
+      "strength": 0.25008470852089776
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A pair of shoes is the most likely to be made from only one material.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common material is steel or some other metal, but molded plastic is also used.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some other kinds of paper clips use a two-piece clamping system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the device made of wood and horsehair that is used to play a violin. Fiddlestick",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the device made of wood and horsehair that is used to play a violin. Hairbrush",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the device made of wood and horsehair that is used to play a violin. Stringer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the device made of wood and horsehair that is used to play a violin. Bow",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In music, a bow () is a tensioned stick which has hair (usually horse-tail hair) coated in rosin (to facilitate friction) affixed to it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Rawlins Gallery violin bow, NMM 4882, is attributed to the workshop of Antonio Stradivari, Cremona, c. 1700.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

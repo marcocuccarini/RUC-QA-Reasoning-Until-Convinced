@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Roots contain the most of the special parts that capture sunlight to make food in a plant.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stems are the parts of a plant where most of the light‑capturing cells that use sunlight to make food are found.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Leaves contain the most of the special parts of plant cells that capture sunlight and use it to make food.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Flowers are the location where most of the plant's light‑capturing parts—used by plant cells to convert sunlight into food—are found.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In most plants, chloroplasts are concentrated in the leaves.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chloroplasts do not normally develop from proplastids in root tip meristems.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

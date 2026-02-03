@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Indigestion",
+      "strength": 0.5999123873437223
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Constipation",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Diarrhea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Digestive biscuits were invented as a cure for what. Dyspepsia",
+      "strength": 0.5999123873437223
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The digestive was first developed in 1839 by two doctors to aid digestion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The U.S. patent titled 'Making Malted Bread' included instructions for the manufacture of digestive biscuits, claiming the process would make 'nourishing food for people of weak digestion'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

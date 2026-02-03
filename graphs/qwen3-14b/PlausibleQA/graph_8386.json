@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote Of Mice and Men. Ernest Hemingway",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote Of Mice and Men. F. Scott Fitzgerald",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote Of Mice and Men. William Faulkner",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote Of Mice and Men. Steinbeck",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Of Mice and Men is a 1937 tragic novel that Steinbeck rewrote as a play that same year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "John Ernst Steinbeck... authored 33 books, with one book coauthored alongside Edward Ricketts, including 16 novels, six non-fiction books, and two collections of short stories. He is widely known for... Of Mice and Men (1937).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang one bad apple spoils the bunch. The Jackson 5",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang one bad apple spoils the bunch. The Partridge Family",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang one bad apple spoils the bunch. The Bee Gees",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang one bad apple spoils the bunch. The Osmonds",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "One Bad Apple is a song by the Osmonds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Jackson 5 almost recorded this song first, but chose to record 'ABC' instead.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A planet close to Earth is the best description of the sun, which provides heat and light to Earth.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The closest star to Earth is the sun, which provides heat and light to Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A planet that reflects light is the best description of the sun, which provides heat and light to Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The center of the universe is the best description of the sun that provides heat and light to Earth.",
+      "strength": 0.40000009282172766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Sun is a G-type main-sequence star (G2V), informally called a yellow dwarf, though its light is actually white.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sun is the star at the centre of the Solar System.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The nearest star to Earth is the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

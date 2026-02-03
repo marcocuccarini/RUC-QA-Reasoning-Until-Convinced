@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dinosaurs ate plants could be concluded from scientists finding dinosaur fossils in the bottom rock layers of a cliff and mammal fossils in the middle rock layer of the cliff.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dinosaurs were eaten by mammals is the conclusion that scientists could best draw from finding dinosaur fossils in the bottom rock layers of a cliff and mammal fossils in the middle rock layer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Dinosaurs lived on Earth before the mammals, as dinosaur fossils were found in the bottom rock layers of the cliff while mammal fossils were found in the middle rock layer.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Dinosaurs and mammals lived at the same time is the best conclusion that can be drawn from scientists finding dinosaur fossils in the bottom rock layers of a cliff and mammal fossils in the middle rock layer of the cliff.",
+      "strength": 0.5000648428318698
+    },
+    "A4": {
+      "type": "argument",
+      "text": "rocks of different ages (based on the law of superposition) preserved different assemblages of fossils, and that these assemblages succeeded one another in a regular and determinable order.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because rock sequences are not continuous, but may be broken up by faults or periods of erosion, it is very difficult to match up rock beds that are not directly adjacent.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dinosaurs first appeared in the Mid-Triassic, and became the dominant terrestrial vertebrates in the Late Triassic or Early Jurassic, occupying this position for about 150 or 135 million years until their demise at the end of the Cretaceous.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The first true mammals evolved, remaining relatively small, but spreading widely; the Jurassic Castorocauda, for example, had adaptations for swimming, digging and catching fish.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Cenozoic started with the Cretaceous–Paleogene extinction event, when many species, including the non‑avian dinosaurs, became extinct.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Modern placental mammals originated during this time.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

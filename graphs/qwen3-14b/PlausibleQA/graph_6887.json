@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Painting",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Sculpture",
+      "strength": 0.5999999999127801
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Architecture",
+      "strength": 0.5999999999127801
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of art leonardo da vinci do. Drawing",
+      "strength": 0.5999999108178649
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Leonardo di ser Piero da Vinci [...] was [...] a sculptor",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Leonardo di ser Piero da Vinci [...] was [...] an architect",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "e-Leo: Archivio digitale di storia della tecnica e della scienza, archive of drawings, notes and manuscripts",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The best known depiction of the Last Supper is Leonardo da Vinci's The Last Supper, which is considered the first work of High Renaissance art",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

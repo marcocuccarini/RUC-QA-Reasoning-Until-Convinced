@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Just north of Bolton, on which English motorway will you find Rivington Services. M6",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Just north of Bolton, on which English motorway will you find Rivington Services. M62",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Just north of Bolton, on which English motorway will you find Rivington Services. M1",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Just north of Bolton, on which English motorway will you find Rivington Services. M61",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rivington services is located between junctions 6 and 8 of the M61.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rivington services is located between junctions 6 and 8.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

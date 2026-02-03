@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What French region's capital city is Ajaccio. Provence-Alpes-Côte d'Azur",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What French region's capital city is Ajaccio. Occitanie",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What French region's capital city is Ajaccio. Nouvelle-Aquitaine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What French region's capital city is Ajaccio. Corse",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The regional capital is Ajaccio.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Corsica is a territorial collectivity of France.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

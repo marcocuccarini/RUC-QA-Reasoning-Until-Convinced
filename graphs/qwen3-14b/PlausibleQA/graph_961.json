@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of money do i bring to mexico. US Dollar",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of money do i bring to mexico. Euro",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of money do i bring to mexico. Canadian Dollar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of money do i bring to mexico. Mexican peso",
+      "strength": 0.8460569060140877
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Mexican peso is the official currency of Mexico.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mexican banknotes have been issued by the Bank of Mexico from 1925 until now.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Current banknotes and coins are available at the Banco de México.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

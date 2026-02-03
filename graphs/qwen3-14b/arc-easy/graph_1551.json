@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An ice cube melting is the thing in Marta’s house that causes a decrease in entropy when heat is forced to flow from a cool spot to a warmer spot.",
+      "strength": 0.15390738813662452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The refrigerator is something in Marta’s house that causes a decrease in entropy by forcing heat to flow from a cool spot to a warmer spot.",
+      "strength": 0.25009542980818045
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An egg frying is the process that causes a decrease in entropy because heat is forced to flow from a cooler spot to a warmer spot.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The toaster is the household item that causes a decrease in entropy because it forces heat from a cooler spot to a warmer spot.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A heat pump can reverse this heat flow, but the reversal process and the original process, both cause entropy production, thereby increasing the entropy of the system's surroundings.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The entropy of isolated systems left to spontaneous evolution cannot decrease, as they always tend toward a state of thermodynamic equilibrium where the entropy is highest at the given internal energy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Such spontaneous heat transfer always occurs from a region of high temperature to another region of lower temperature, as described in the second law of thermodynamics.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Heat does not spontaneously flow from a colder body to a hotter body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

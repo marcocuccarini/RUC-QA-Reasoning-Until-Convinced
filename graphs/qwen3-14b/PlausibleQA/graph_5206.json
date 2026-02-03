@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who won the 1952 US Presidential election. Harry S. Truman",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who won the 1952 US Presidential election. Adlai Stevenson",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who won the 1952 US Presidential election. Robert A. Taft",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who won the 1952 US Presidential election. Eisehower",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Republican ticket of general Dwight D. Eisenhower and senator Richard Nixon defeated the Democratic ticket of Illinois Governor Adlai Stevenson II and senator John Sparkman in a landslide victory",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eisenhower won a decisive victory by winning over 55% of the popular vote and carrying 39 of the 48 states",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

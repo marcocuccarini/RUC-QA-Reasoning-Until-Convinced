@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Friction is the force that causes a bicycle to slow down when the brakes are used.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electricity is the force that causes a bicycle to slow down when the brakes are used.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity is the force that causes a bicycle to slow down when the brakes are used.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Magnetism is the force that causes a bicycle to slow down when the brakes are used.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Any wheel equipped with a brake is capable of generating a large retarding force, usually for the purpose of slowing and stopping a vehicle or piece of rotating machinery.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Automobile brakes inherently rely on friction, slowing a vehicle by converting its kinetic energy into heat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

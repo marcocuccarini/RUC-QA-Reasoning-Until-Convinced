@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the capital of Algeria. Algiers",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the capital of Algeria. Oran",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the capital of Algeria. Constantine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the capital of Algeria. Dzair",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Algiers is the capital city of Algeria, located on the Mediterranean Sea in the north-central portion of the country.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It has remained the capital of the modern Algerian state since the Algerian Revolution in 1962.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Cotswolds",
+      "strength": 0.5999999534428432
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Chiltern Hills",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Oxfordshire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Thames Head",
+      "strength": 0.40009708561457313
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thames Head is located in the Cotswolds, Gloucestershire, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Environment Agency and the Ordnance Survey identify Thames Head as the source of the Thames on their maps.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Seven Springs near Cheltenham is also sometimes quoted as the Thames' source, as this location is farthest from the mouth and adds some 14 mi (23 km) to the river's length.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The springs at Seven Springs flow throughout the year, while those at Thames Head are seasonal (a winterbourne).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

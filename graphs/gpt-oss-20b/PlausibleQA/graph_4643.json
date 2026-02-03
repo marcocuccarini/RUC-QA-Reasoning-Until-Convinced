@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the profession of Paul Strand (1890 - 1976). Artist",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the profession of Paul Strand (1890 - 1976). Cinematographer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the profession of Paul Strand (1890 - 1976). Painter",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the profession of Paul Strand (1890 - 1976). Photographr",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paul Strand was an American photographer and filmmaker.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He helped establish photography as an art form in the 20th century.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "including traditional media such as painting, sculpture, photography, and printmaking",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

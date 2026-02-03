@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the first book made into a movie. 1895",
+      "strength": 0.4000000634771975
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the first book made into a movie. 1900",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the first book made into a movie. 1878",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the first book made into a movie. 1924",
+      "strength": 0.2500974210553993
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first film adaptation of the book was The Wizard of Oz (1925 film), an American silent film directed by Larry Semon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The earliest listed adaptation of the book is The Wizard of Oz (1925 film), an American silent film directed by Larry Semon.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The New Wizard of Oz, 1914 silent film written and directed by L. Frank Baum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

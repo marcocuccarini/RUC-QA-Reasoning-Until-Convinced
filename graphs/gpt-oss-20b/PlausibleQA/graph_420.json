@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which monastic order, founded in 529 AD, was based at a monastery at Monte Cassino, Italy, until it was sacked in 580, when the monks fled to Rome and then spread throughout Europe. Benedictines",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which monastic order, founded in 529 AD, was based at a monastery at Monte Cassino, Italy, until it was sacked in 580, when the monks fled to Rome and then spread throughout Europe. Franciscans",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which monastic order, founded in 529 AD, was based at a monastery at Monte Cassino, Italy, until it was sacked in 580, when the monks fled to Rome and then spread throughout Europe. Dominicans",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which monastic order, founded in 529 AD, was based at a monastery at Monte Cassino, Italy, until it was sacked in 580, when the monks fled to Rome and then spread throughout Europe. O.S.B.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When Monte Cassino was sacked by the Lombards about the year 580, the monks fled to Rome, and it seems probable that this constituted an important factor in the diffusion of a knowledge of Benedictine monasticism.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The dominance of the Benedictine monastic way of life began to decline towards the end of the twelfth century, which saw the rise of the mendicant Franciscans and nomadic Dominicans.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Bill Haley and His Comets",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Elvis Presley",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Chuck Berry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who had a hit in 1955 with Rock Around the Clock. Saddlemen",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bill Haley and the Comets performed 'Rock Around the Clock' in an a cappella and a lip-synched version on the NBC television program Texaco Star Theater hosted by Milton Berle on May 31, 1955.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Elvis Presley recorded the song in 1956, combining Haley's arrangement with Turner's original lyrics, but his version was not a substantial hit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

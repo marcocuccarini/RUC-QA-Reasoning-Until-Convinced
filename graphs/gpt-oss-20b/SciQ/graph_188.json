@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Specific ions are one thing that cell membranes are permeable to.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nutrients are one thing that cell membranes are permeable to.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gas is one thing that cell membranes are permeable to.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metals are one thing that cell membranes are permeable to.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cell membrane controls the movement of substances in and out of a cell, being selectively permeable to ions and organic molecules.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nutrients, such as sugars or amino acids, must enter the cell, and certain products of metabolism must leave the cell. Such molecules can diffuse passively through protein channels such as aquaporins in facilitated diffusion or are pumped across the membrane by transmembrane transporters.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The phospholipid bilayer is most permeable to small, uncharged solutes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Osmoregulation is the method by which cells counteract osmotic stress, and includes osmosensory transporters in the membrane that allow K+ and other molecules to flow through the membrane.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

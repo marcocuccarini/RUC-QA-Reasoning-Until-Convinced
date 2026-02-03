@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical to thermal is the energy conversion that occurs when the fuel in a gasoline engine is burned.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Potential energy is converted to nuclear energy when the fuel in a gasoline engine is burned.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Thermal to potential is the energy conversion that occurs when the fuel in a gasoline engine is burned.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electrical to kinetic is the energy conversion that occurs when the fuel in a gasoline engine is burned.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Once ignited and burnt, the combustion products—hot gases—have more available thermal energy than the original compressed fuel-air mixture (which had higher chemical energy).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All internal combustion engines depend on combustion of a chemical fuel, typically with oxygen from the air (though it is possible to inject nitrous oxide to do more of the same thing and gain a power boost).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

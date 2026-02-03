@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They were born on the same day, which explains why identical twins usually look like each other.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They have the same kinds of interests is the reason why identical twins usually look like each other.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They inherited the same characteristics from their parents, which explains why identical twins usually look like each other.",
+      "strength": 0.49990325702879973
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They were taught the same kinds of things at home, which explains why identical twins usually look like each other.",
+      "strength": 0.5999031730402274
+    },
+    "A6": {
+      "type": "argument",
+      "text": "epigenetic differences in monozygotic twins exist",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "identical twins on average are twice as genetically similar as DZ twins",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The effect of shared environment, c2, contributes to similarity between siblings due to the commonality of the environment they are raised in",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

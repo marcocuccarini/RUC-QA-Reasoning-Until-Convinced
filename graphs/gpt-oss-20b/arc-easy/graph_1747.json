@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nuclear energy is an alternative energy resource that adds carbon dioxide to the atmosphere.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Biofuel energy adds carbon dioxide to the atmosphere.",
+      "strength": 0.4311044305365908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind energy is an alternative energy resource that adds carbon dioxide to the atmosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Geothermal energy is an alternative energy resource that adds carbon dioxide to the atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Biofuels emit fewer greenhouse gas emissions when burned in an engine and are generally considered carbon-neutral fuels.",
+      "strength": 0.40000005409169953
+    },
+    "A5": {
+      "type": "argument",
+      "text": "burning wood for energy releases carbon dioxide.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Life-cycle GHG emissions of modern bioenergy alternatives are usually lower than those for fossil fuels.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Carbon dioxide is a by-product of the fermentation of sugar in the brewing of beer, whisky and other alcoholic beverages and in the production of bioethanol.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Some non-renewable sources of energy, such as nuclear power, generate almost no emissions.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Some renewable energy sources can be very carbon-intensive, such as the burning of biomass if it is not offset by planting new plants.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

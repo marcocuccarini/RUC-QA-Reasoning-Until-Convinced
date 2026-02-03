@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which chemical element, atomic number 74, used to be called Wolfram. Molybdenum",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which chemical element, atomic number 74, used to be called Wolfram. Rhenium",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which chemical element, atomic number 74, used to be called Wolfram. Osmium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which chemical element, atomic number 74, used to be called Wolfram. Tungston",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tungsten (also called wolfram) is a chemical element which has the symbol W (from German: Wolfram) and atomic number 74.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The name wolfram (or volfram) is used in most European (especially Germanic and Slavic) languages and is derived from the mineral wolframite, which is the origin of the chemical symbol W.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

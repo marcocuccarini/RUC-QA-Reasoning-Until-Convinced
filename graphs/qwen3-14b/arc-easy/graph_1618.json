@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is not a mixture.",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Blood is not a mixture.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Orange juice is not a mixture.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Salt is not a mixture, as the question asks which of the following is NOT a mixture.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Air is one such example: it can be more specifically described as a gaseous solution of oxygen and other gases dissolved in nitrogen (its major component).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In chemistry, a salt or ionic compound is a chemical compound consisting of an assembly of positively charged ions (cations) and negatively charged ions (anions), which results in a compound with no net electric charge.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Salts do not exist in solution.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

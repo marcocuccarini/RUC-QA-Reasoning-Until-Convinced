@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who composed the 1884 'Holberg Suite'. Johannes Brahms",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who composed the 1884 'Holberg Suite'. Antonín Dvořák",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who composed the 1884 'Holberg Suite'. Pyotr Ilyich Tchaikovsky",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who composed the 1884 'Holberg Suite'. EDVARD GREEG",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Grieg's Holberg Suite was originally written for the piano, and later arranged by the composer for string orchestra.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Holberg Suite, Op. 40, more properly From Holberg's Time, is a suite of five movements based on eighteenth-century dance forms, written by Edvard Grieg in 1884",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

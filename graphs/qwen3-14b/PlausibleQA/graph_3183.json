@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. Europe",
+      "strength": 0.4704815887093127
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. Antarctica",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. North America",
+      "strength": 0.4000000328082743
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which of the continents is the smallest in area. Straya",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Europe is the second-smallest continent (using the seven-continent model)",
+      "strength": 0.25005133592698936
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Antarctica is the fifth-largest continent, being about 40% larger than Europe",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "North America is the third-largest continent by size after Asia and Africa",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The mainland is the world's smallest continent",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

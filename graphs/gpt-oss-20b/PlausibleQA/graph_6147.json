@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what works of art did leonardo da vinci produce. The Last Supper",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what works of art did leonardo da vinci produce. Vitruvian Man",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what works of art did leonardo da vinci produce. Lady with an Ermine",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what works of art did leonardo da vinci produce. Mona Lisa",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Mona Lisa is his best known work",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Last Supper is the most reproduced religious painting of all time",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Mona Lisa is one of the eight major works universally attributed to Leonardo da Vinci.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Lady with an Ermine is widely attributed to Leonardo da Vinci's oeuvre.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

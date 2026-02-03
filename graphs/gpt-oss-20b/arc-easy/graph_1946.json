@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "kg/s is the units that should be used for the density measurements when a researcher is measuring changes in the density of the upper atmosphere over time.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "m³/s is the units that should be used for measuring changes in the density of the upper atmosphere over time.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "L/m³ is the units that should be used for the density measurements of the upper atmosphere over time.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "kg/m³ is the appropriate units for measuring changes in the density of the upper atmosphere over time.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The density of air or atmospheric density, denoted ρ, is the mass per unit volume of Earth's atmosphere at a given point and time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The standard sea level density of air at 101.325 kPa (abs) and 15 °C (59 °F) is 1.2250 kg/m3.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

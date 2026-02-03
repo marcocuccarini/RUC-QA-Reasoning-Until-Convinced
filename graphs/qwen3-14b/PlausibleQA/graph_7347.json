@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. Colin Powell",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. Dick Cheney",
+      "strength": 0.25000008796785606
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. George Tenet",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. Ramsfeld",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cheney served as Secretary of Defense from March 1989 to January 1993.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The U.S. invasion of Afghanistan began in 2001.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Secretary of Defense Donald Rumsfeld aimed to carry out operations in Afghanistan rapidly and leave as fast as possible.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "CIA director George Tenet argued that the US should target al-Qaeda but 'hold off on the Taliban,'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

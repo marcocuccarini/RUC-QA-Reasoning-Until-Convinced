@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kidneys control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lungs control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tongue controls the amount of water, ions, and other substances in the blood by excreting more or less of them in urine.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ears control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The kidney participates in whole-body homeostasis, regulating acid–base balance, electrolyte concentrations, extracellular fluid volume, and blood pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The kidneys help maintain the water and salt level of the body. Any significant rise in plasma osmolality is detected by the hypothalamus, which communicates directly with the posterior pituitary gland. An increase in osmolality causes the gland to secrete antidiuretic hormone (ADH), resulting in water reabsorption by the kidney and an increase in urine concentration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Some of the water was absorbed by the dish is the best explanation for the appearance of sugar crystals after a dish of sugar water was left on a window sill for one week, leaving only the crystals as the water disappeared.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The air condensed is the best explanation for the appearance of sugar crystals in a dish of sugar water that was left on a window sill for one week, during which the water disappeared and only sugar crystals remained.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The light shining on the window sill produced more sugar, which is the best explanation for the appearance of sugar crystals after one week when the water had evaporated from the dish of sugar water left on the window sill.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The water evaporated is the best explanation for the appearance of sugar crystals in a dish of sugar water left on a window sill one week later, leaving only sugar crystals as the water was gone.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the evaporation of water occurs when the surface of the liquid is exposed, allowing molecules to escape and form water vapor; this vapor can then rise up and form clouds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the energy removed from the vaporized liquid will reduce the temperature of the liquid, resulting in evaporative cooling.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

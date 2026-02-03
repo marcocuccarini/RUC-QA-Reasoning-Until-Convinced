@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red giants are the stage during which a star spends most of its life as it evolves through several stages during its lifetime.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A red dwarf is the stage in a star’s lifetime during which it spends most of its life.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "White dwarf is the stage in which a star spends most of its life during its lifetime as it evolves through several stages.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The main sequence is the stage during a star’s lifetime in which it spends most of its life.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thus the main sequence represents the primary hydrogen-burning stage of a star's lifetime.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This results in a much shorter length of time in this stage compared to the main-sequence lifetime.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

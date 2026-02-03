@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solid → gas → liquid is the sequence that lists the states of matter from least to greatest kinetic energy.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gas -> liquid -> solid is the sequence that lists the states of matter from least to greatest kinetic energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Liquid → solid → gas is the sequence that lists the states of matter from least to greatest kinetic energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solid -> liquid -> gas is the sequence that lists the states of matter from least to greatest kinetic energy.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "solid transitions to liquid with an increase in temperature",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "boils into a gas at its boiling point",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The 2012 best selling book 'My Animals and Other Family' is written by whom. Jilly Cooper",
+      "strength": 0.4000000351871426
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The 2012 best selling book 'My Animals and Other Family' is written by whom. Gerald Durrell",
+      "strength": 0.5999999648128578
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The 2012 best selling book 'My Animals and Other Family' is written by whom. James Herriot",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The 2012 best selling book 'My Animals and Other Family' is written by whom. Clare Balding",
+      "strength": 0.7499044914093872
+    },
+    "A4": {
+      "type": "argument",
+      "text": "My Family and Other Animals was published in October 1956",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Durrell, Gerald (2016) [1956].",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "She signed a deal with Viking Press to write an autobiography entitled My Animals and Other Family, which was published in September 2012.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Her memoir My Animals and Other Family, which documents her life growing up in a racing yard, won the National Book Award for 'Autobiography of the Year' in 2012.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

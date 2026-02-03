@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which English public school shares it's name with a farm implement. Plough",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which English public school shares it's name with a farm implement. Rake",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which English public school shares it's name with a farm implement. Sickle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which English public school shares it's name with a farm implement. Harrow",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Harrow School was founded in 1572 by John Lyon, a local landowner and farmer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Harrow School () is a public school (English boarding school for boys) in Harrow on the Hill, Greater London, England.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

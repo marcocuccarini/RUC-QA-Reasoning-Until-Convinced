@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cardiovascular is the system most affected by osteoarthritis, a condition that Dr. Mendez treats in patients who complain of pain and swelling due to loss of cartilage.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Digestive is the system most affected by osteoarthritis in patients who often complain of pain and swelling due to loss of cartilage, as seen in the cases specialized by Dr. Mendez.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The immune system is the most affected system in osteoarthritis, a disease characterized by pain and swelling due to loss of cartilage in patients treated by Dr. Mendez.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The musculoskeletal system is the system most affected by osteoarthritis, the disease that Dr. Mendez treats, which causes his patients pain and swelling due to loss of cartilage.",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The inflammation of the joint lining (synovium) in osteoarthritis is characterized by involving macrophages via activation of the innate immune system",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Osteoarthritis is a type of degenerative joint disease that results from breakdown of joint cartilage and underlying bone.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In a study of hospitalizations in the United States, the most common inpatient OR procedures in 2012 involved the musculoskeletal system: knee arthroplasty, laminectomy, hip replacement, and spinal fusion.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Disorders of the musculoskeletal system mostly encompass functional disorders or motion discrepancies; the level of impairment depends specifically on the problem and its severity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

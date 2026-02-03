@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Hermann Göring",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Heinrich Himmler",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Joseph Goebbels' brother",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the head of the German Ministry of Public Enlightenment and Propaganda from 1933 to 1945. Goebles",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Goebbels was appointed head of the Reich Ministry of Public Enlightenment and Propaganda in March 1933.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Goebbels was Reich Minister of Propaganda from 1933 until his suicide in 1945.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Goebbels had been the Reich propaganda leader of the Nazi Party since April 1930.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Joseph Goebbels, who exercised control over all German mass media and creative artists through his ministry.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

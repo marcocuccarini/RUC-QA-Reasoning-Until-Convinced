@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Quasar is the stage that a star enters after running out of most of its hydrogen fuel, becoming hotter and more luminous in its life cycle.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Protostar is the stage a star reaches after it runs out of most of its hydrogen fuel and becomes hotter and more luminous.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Red giant is the stage that a star enters after it runs out of most of its hydrogen fuel, during which it becomes hotter and more luminous.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White dwarf is the stage in a star’s life cycle that occurs after the star runs out of most of its hydrogen fuel and becomes hotter and more luminous.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "These become cool helium white dwarfs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When the star has mostly exhausted the hydrogen fuel in its core... the star is ascending the red-giant branch.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

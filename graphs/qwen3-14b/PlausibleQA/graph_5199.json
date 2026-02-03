@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What major American city is located on Puget Sound. Seattle",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What major American city is located on Puget Sound. Tacoma",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What major American city is located on Puget Sound. Olympia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What major American city is located on Puget Sound. 舍路",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Seattle is located between the saltwater Puget Sound (an arm of the Pacific Ocean) to the west and Lake Washington to the east.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Port of Seattle is the fourth-largest port in North America in terms of container handling as of 2021.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

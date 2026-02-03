@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tanganyika and Zanzibar merged in 1964 to become which East African Republic. United Republic of East Africa",
+      "strength": 0.49993108146857757
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tanganyika and Zanzibar merged in 1964 to become which East African Republic. Tanzanian Federation",
+      "strength": 0.4949617947291619
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tanganyika and Zanzibar merged in 1964 to become which East African Republic. East African Union",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tanganyika and Zanzibar merged in 1964 to become which East African Republic. TNZ",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the new country was then named the United Republic of Tanganyika and Zanzibar",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the country was renamed the United Republic of Tanzania",
+      "strength": 0.5999999739327239
+    },
+    "A6": {
+      "type": "argument",
+      "text": "United Republic of Tanganyika and Zanzibar, the predecessor of Tanzania",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Zanzibar united with Tanganyika in 1964 to form the present-day United Republic of Tanzania",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "the United Republic of Tanganyika and Zanzibar was soon renamed, blending the two names, as the United Republic of Tanzania",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

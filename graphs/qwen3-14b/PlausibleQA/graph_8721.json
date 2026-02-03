@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Clore Gallery at Tate Britain was built to house which painter's works. Constable",
+      "strength": 0.25009741387742523
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Clore Gallery at Tate Britain was built to house which painter's works. Reynolds",
+      "strength": 0.4000000562992237
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Clore Gallery at Tate Britain was built to house which painter's works. Gainsborough",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Clore Gallery at Tate Britain was built to house which painter's works. Turnerian",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1987, a new wing at the Tate, the Clore Gallery, was opened to house the Turner bequest",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Turner and Constable 2025 exhibition at the Tate Britain",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Periodic dimming of the stars provides evidence of the existence of planets orbiting other stars.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Periodic X‑ray bursts from the stars provide evidence of the existence of planets orbiting other stars.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rapid location changes of the stars provide evidence of the existence of planets orbiting other stars.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Regular spectrum changes from the stars provide evidence of the existence of planets orbiting other stars.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Both CoRoT and Kepler have measured the reflected light from planets. However, these planets were already known since they transit their host star.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The radial velocity can be deduced from the displacement in the parent star's spectral lines due to the Doppler effect.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "COROT and Kepler were space missions dedicated to searching for extrasolar planets using transits.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

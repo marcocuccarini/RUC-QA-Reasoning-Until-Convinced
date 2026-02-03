@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To simulate the air pressure of Earth, a spacesuit is inflated like a balloon.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The spacesuit is inflated like a balloon to help astronauts float in outer space.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To protect astronauts from solar radiation, a spacesuit is inflated like a balloon.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Providing an oxygen supply for breathing is why a spacesuit is inflated like a balloon.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The suit's regulator and fans activate when the servicing umbilicals are removed and the suit reaches an internal pressure of 4.3 psi (30 kPa).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A typical EMU can support an astronaut for 8.5 hours, including 30 minutes of reserves in the case of primary life support failure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

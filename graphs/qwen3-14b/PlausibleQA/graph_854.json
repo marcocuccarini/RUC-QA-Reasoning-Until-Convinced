@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the TV sit-com 'Red Dwarf', what was the name of the ship's sentient computer. Holly",
+      "strength": 0.77365905415362
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the TV sit-com 'Red Dwarf', what was the name of the ship's sentient computer. Mother",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the TV sit-com 'Red Dwarf', what was the name of the ship's sentient computer. S.A.R.A.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the TV sit-com 'Red Dwarf', what was the name of the ship's sentient computer. Ilex",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the ship's computer, Holly",
+      "strength": 0.5999999736707434
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the computer was renamed from Hab to Holly for the television series",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Holly the computer",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

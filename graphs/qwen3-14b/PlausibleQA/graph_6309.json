@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the Roman name for England. Britannia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the Roman name for England. Hibernia",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the Roman name for England. Caledonia",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the Roman name for England. Albion",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the use of Caledonia, one of the Latin terms for Scotland, and Britannia for Britain",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hibernia ... became the main Latin name for Ireland",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the area they called Caledonia was physically separated from the rest of the island by the Antonine Wall. It remained outside the administration of Roman Britain",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Another, post-conquest, Roman name for the island of Great Britain was Albion",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

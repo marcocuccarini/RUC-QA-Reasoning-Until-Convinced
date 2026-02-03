@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Summer is the season in the United States when the South Pole is tilted toward the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fall is the season in the United States when the South Pole is tilted toward the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Winter is the season in the United States when the South Pole is tilted toward the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Spring is the season in the United States when the South Pole is tilted toward the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For the other half of the year, the same happens, but in the Southern Hemisphere instead of the Northern, with the maximum around December 21.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For approximately half of the year (from around March 20 to around September 22), the Northern Hemisphere tips toward the Sun, with the maximum amount occurring on about June antennas.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

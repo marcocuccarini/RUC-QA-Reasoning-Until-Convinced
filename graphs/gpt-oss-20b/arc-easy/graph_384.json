@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Erosion is the action of lichens on rocks that grow on them, producing acid that reacts with part of the rock to form soil.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fertilizer is the action of lichens on rocks, which grow on rocks and produce an acid that reacts with part of the rock, forming soil.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical weathering is the action of lichens on rocks that grow on rocks, producing an acid that reacts with part of the rock to form soil.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mechanical weathering is the action of lichens on rocks, as lichens grow on rocks, produce an acid that reacts with part of the rock, and thereby form soil.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lichens on rocks are among the most effective biological agents of chemical weathering.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Water is the principal agent behind both kinds of weathering, though atmospheric oxygen and carbon dioxide and the activities of biological organisms are also important.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

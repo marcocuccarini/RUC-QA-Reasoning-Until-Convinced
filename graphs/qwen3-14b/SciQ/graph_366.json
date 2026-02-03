@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Live birth is the reproductive result that viviparous refers to in most mammals.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Identical twins are the reproductive result that viviparous, a condition that most mammals possess, refers to.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Spawning is the reproductive result that most mammals are viviparous, which refers to.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Laying eggs is the reproductive result that viviparous refers to in most mammals.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In animals, viviparity is the development of the embryo inside the body of the mother, with the maternal circulation providing for the metabolic needs of the embryo's development, until the mother gives birth to a fully or partially developed juvenile that is at least metabolically independent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This is opposed to oviparity, where the embryos develop independently outside the mother in eggs until they are developed enough to break out as hatchlings",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

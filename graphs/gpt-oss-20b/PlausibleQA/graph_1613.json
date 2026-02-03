@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Scottish author who died in 1930 had Ignatius as one of his christian names. Robert Louis Stevenson",
+      "strength": 0.4999088992196018
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Scottish author who died in 1930 had Ignatius as one of his christian names. James Matthew Barrie",
+      "strength": 0.40000000008380016
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Scottish author who died in 1930 had Ignatius as one of his christian names. John Buchan",
+      "strength": 0.4000000000000804
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Scottish author who died in 1930 had Ignatius as one of his christian names. Doylean",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Buchan died on 11 February 1940.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sir James Matthew Barrie, 1st Baronet, (9 May 1860 – 19 June 1937)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He died of a stroke in his island home in 1894 at age 44.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Robert Louis Stevenson was a Scottish-born author who achieved international reputation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Momentum is the quantity Jon can calculate when he knows the force applied by the hydraulic jack to lift his car 0.25 meter off the ground after encountering a flat tire.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Power is the quantity Jon can calculate knowing the amount of force he used to lift his car 0.25 meters off the ground with a hydraulic jack to change a flat tire.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pressure is what Jon can calculate from the amount of force he uses to lift the car 0.25 meter off the ground with a hydraulic jack.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Work is what Jon can calculate when he knows the amount of force used to lift his car 0.25 meter off the ground with a hydraulic jack while changing a flat tire.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The work W done by a constant force of magnitude F on a point that moves a displacement s in a straight line in the direction of the force is the product W = F ⋅ s",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The work done on the object is W = FgΔy = mgΔy",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

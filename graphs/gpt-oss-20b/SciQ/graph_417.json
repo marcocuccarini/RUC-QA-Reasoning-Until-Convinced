@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pulmonary circulation is the circuit that directs blood from the heart through the lungs and back to the heart in amphibians, reptiles, birds, and mammals.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Systemic circulation is the circuit through which blood flows to the lungs and back to the heart in amphibians, reptiles, birds, and mammals.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sensory circulation is the blood flow circuit that passes through the lungs and returns to the heart in amphibians, reptiles, birds, and mammals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metabolic circulation is the blood flow circuit in amphibians, reptiles, birds, and mammals that directs blood through the lungs and back to the heart.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the lungs the blood is oxygenated and returned to the left atrium to complete the circuit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The other division of the circulatory system is the systemic circulation that begins upon the oxygenated blood reaching the left atrium from the pulmonary circulation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

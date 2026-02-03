@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "First quarter and last quarter are the lunar phases during which spring tides occur.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Full moon and new moon are the lunar phases during which spring tides occur.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "When the moon is waxing, spring tides occur.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "When the moon is waning, spring tides occur during the lunar phases.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When the Sun, Moon, and Earth form a line (a configuration known as a syzygy), the tidal force due to the Sun reinforces that due to the Moon. The tide's range is then at its maximum; this is called the spring tide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When the Moon is at first quarter or third quarter, the Sun and Moon are separated by 90° when viewed from the Earth (in quadrature), and the solar tidal force partially cancels the Moon's tidal force. At these points in the lunar cycle, the tide's range is at its minimum; this is called the neap tide",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. Bachelor of Arts",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. Juris Doctor",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. Master of Public Administration",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what degrees does romney have. MBA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Romney has a Bachelor of Arts degree.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Romney completed a Juris Doctor/Master of Business Administration program from Harvard.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "supports"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "supports"
+    }
+  ]
+}

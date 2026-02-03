@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bedrock is what skyscrapers and other large structures built on soft ground must be anchored to, located below the ground surface.",
+      "strength": 0.8594536096039073
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ocean floor is the location to which skyscrapers and other large structures built on soft ground must be anchored, located below the ground surface.",
+      "strength": 0.5999999999857258
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Groundwater, located below the ground surface, is what skyscrapers and other large structures built on soft ground must be anchored to.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The water table, located below the ground surface, is what skyscrapers and other large structures built on soft ground must be anchored to.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "spread footing which consists of strips or pads of concrete (or other materials) which extend below the frost line and transfer the weight from walls and columns to the soil or bedrock",
+      "strength": 0.5999999838700023
+    },
+    "A5": {
+      "type": "argument",
+      "text": "monopile foundation... embedded into the earth to support all the loads (weight, wind, etc.) of a large above-surface structure. Many monopile foundations have been used in recent years for economically constructing fixed-bottom offshore wind farms in shallow-water subsea locations",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Geotechnical engineers design foundations based on the load characteristics of the structure and the properties of the soils and bedrock at the site",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A deep foundation is a type of foundation that transfers building loads to the earth farther down from the surface than a shallow foundation does to a subsurface layer or a range of depths.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "A geotechnical engineer would recommend a deep foundation over a shallow foundation when there is poor soil at shallow depth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

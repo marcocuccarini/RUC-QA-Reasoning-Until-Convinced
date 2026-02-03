@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. Scotland",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. Norway",
+      "strength": 0.40000003773849835
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. Iceland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Saltire is which country's flag. H-Alba",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Flag of Scotland, called The Saltire or Saint Andrew's Cross, is a blue field with a white saltire.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The saltire is important both in heraldry, being found in many coats of arms, and in vexillology, being found as the dominant feature of multiple flags.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Saltire, rather than the Royal Standard of Scotland, is the correct flag for all private individuals and corporate bodies to fly.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Scottish Government has ruled that the Saltire should, where possible, fly on all its buildings every day from 8am until sunset.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

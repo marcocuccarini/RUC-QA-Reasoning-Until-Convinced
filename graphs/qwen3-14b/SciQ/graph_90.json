@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Macronutrients are nutrients that your body needs in fairly large amounts.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "B-complex is the term for nutrients that the body needs in fairly large amounts.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Super foods are nutrients that your body needs in fairly large amounts.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Antioxidants are nutrients that your body needs in fairly large amounts.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Macronutrients are defined in several ways. The chemical elements humans consume in the largest quantities are carbon, hydrogen, nitrogen, oxygen, phosphorus, and sulphur, summarized as CHNOPS. The chemical compounds that humans consume in the largest quantities and provide bulk energy are classified as carbohydrates, proteins, and fats. Water must be also consumed in large quantities but does not provide caloric value.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Micronutrients are needed in smaller amounts (milligrams or micrograms); they have subtle biochemical and physiological roles in cellular processes, like vascular functions or nerve conduction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

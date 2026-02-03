@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Vanguard 1",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Explorer 1",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Luna 1",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the first spacecraft to orbit the Earth. Sputnik",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sputnik 1 was the first artificial Earth satellite.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Explorer 1 was launched on 31 January 1958.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

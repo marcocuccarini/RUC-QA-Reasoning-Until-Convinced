@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of natural disaster killed 173 people in Victoria, Australia in 2009. Flood",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of natural disaster killed 173 people in Victoria, Australia in 2009. Cyclone",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of natural disaster killed 173 people in Victoria, Australia in 2009. Landslide",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of natural disaster killed 173 people in Victoria, Australia in 2009. Bushfire",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Black Saturday bushfires were a series of bushfires that either ignited or were already burning across the Australian state of Victoria on Saturday, 7 February 2009, and was one of Australia's all-time worst bushfire disasters.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Black Saturday bushfires ... resulted in Australia's highest-ever loss of human life from a bushfire, with 173 fatalities.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

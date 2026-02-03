@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was penicillin first introduced to the public. 1928",
+      "strength": 0.4000000585968386
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was penicillin first introduced to the public. 1930",
+      "strength": 0.25009548836582807
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was penicillin first introduced to the public. 1935",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was penicillin first introduced to the public. 1942",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the United States penicillin was made available to the general public on 15 March 1945.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1930 and 1931, Cecil George Paine successfully used penicillin for medical treatment but did not publish his work.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

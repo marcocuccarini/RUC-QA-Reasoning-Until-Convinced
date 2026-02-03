@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Changing a theory is part of the scientific method that involves collecting data.",
+      "strength": 0.5999640213586829
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Test a hypothesis is part of a scientific method that involves collecting data.",
+      "strength": 0.6322487017184906
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Write a procedure is the purpose of collecting data as part of the scientific method.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Making an observation is part of a scientific method that involves collecting data.",
+      "strength": 0.5999999681613571
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Testing a hypothesis through experiments and statistical analysis is part of the scientific method.",
+      "strength": 0.5999640213586829
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Careful observation and systematic collection of measurements are part of the scientific method.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Depending on the outcomes of the experiment, the theory on which the hypotheses and predictions were based will be supported or not, or may need to be modified and then subjected to further testing.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Accurate analysis of data using standardized statistical methods in scientific studies is critical to determining the validity of empirical research.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

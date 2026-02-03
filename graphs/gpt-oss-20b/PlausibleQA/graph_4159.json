@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which huge global communications brand is derived from a local word for a marten. Samsung",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which huge global communications brand is derived from a local word for a marten. Huawei",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which huge global communications brand is derived from a local word for a marten. Ericsson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which huge global communications brand is derived from a local word for a marten. Nokia",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to Samsung's founder, the meaning of the Korean hanja Samsung (三星) is three stars.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Samsung Electronics is a multinational electronics and information technology company headquartered in Suwon and the flagship company of the Samsung Group.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Finnish communications company Nokia derives its name, via the river Nokianvirta, from a type of marten locally known as the nokia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

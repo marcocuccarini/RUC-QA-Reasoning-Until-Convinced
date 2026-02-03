@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Meadow Brown. Moth",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Meadow Brown. Deer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Meadow Brown. Squirrel",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Meadow Brown. Butterfly",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The meadow brown (Maniola jurtina) is a butterfly found in the Palearctic realm.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adults feed on nectar from a wide spectrum of plants including Centaurea, Cirsium, Leontodon, Erica, Rubus, Heracleum, Eupatorium, (sensu lato) Origanum, Senecio, Scabiosa, Succisa, Ligustrum and Filipendula.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

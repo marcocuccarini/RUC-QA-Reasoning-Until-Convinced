@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pine forest is the most likely place where plants that have stems that store water and no leaves would live.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Grassland is the environment where plants that have stems that store water and no leaves would most likely live.",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Desert is the environment most likely inhabited by plants that have stems storing water and no leaves.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rainforest is the environment where plants that have stems that store water and no leaves would most likely live.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Succulents are often found in deserts, but not in the harshest dry regions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deserts and xeric shrublands (temperate to tropical, arid)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

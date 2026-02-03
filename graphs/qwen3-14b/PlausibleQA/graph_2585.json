@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What term is used when a clot forms in a blood vessel. Thrombus",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What term is used when a clot forms in a blood vessel. Embolism",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What term is used when a clot forms in a blood vessel. Coagulopathy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What term is used when a clot forms in a blood vessel. Trombosis",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A thrombus (pl. thrombi) is a solid or semisolid aggregate from constituents of the blood (platelets, fibrin, red blood cells, white blood cells) within the circulatory system during life.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If an embolus becomes trapped within a blood vessel, it blocks blood flow and is termed as an embolism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

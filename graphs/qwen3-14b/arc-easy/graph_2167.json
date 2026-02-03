@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reducing fluid friction is the way an open parachute increases air resistance when a skydiver jumps from a plane.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increasing surface area is what causes the open parachute to increase the air resistance when a skydiver jumps from a plane.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Increasing terminal velocity is what the open parachute will increase the air resistance by when a skydiver jumps from a plane.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Decreasing mass is the factor by which the open parachute will increase the air resistance when a skydiver jumps from a plane.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vehicle Aerodynamic Drag calculator based on drag coefficient, frontal area and speed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Effect of dimples on a golf ball and a car",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

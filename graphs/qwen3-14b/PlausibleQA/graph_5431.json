@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many runs did Donald Bradman score in his last ever test match innings. 100",
+      "strength": 0.25009174651106497
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many runs did Donald Bradman score in his last ever test match innings. 0",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many runs did Donald Bradman score in his last ever test match innings. 50",
+      "strength": 0.4000000585968386
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many runs did Donald Bradman score in his last ever test match innings. None",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hollies bowled him second ball for a duck with a googly that went between bat and pad.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bradman making a famous duck in his final innings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

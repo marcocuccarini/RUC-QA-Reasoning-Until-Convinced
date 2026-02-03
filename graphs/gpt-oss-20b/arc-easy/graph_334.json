@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Blue eyes are not an inherited trait in humans.",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Long fingers are not an inherited trait in humans.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Calloused hands are not an inherited trait in humans.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Attached earlobes are not an inherited trait in humans.",
+      "strength": 0.4000000000584653
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earlobes do not all fall neatly into either category; there is a continuous range from one extreme to the other, suggesting the influence of several genes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eye color is an inherited trait determined by multiple genes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An individual might inherit the 'brown-eye trait' from one of the parents.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what was the first book charles dickens wrote. The Pickwick Papers",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what was the first book charles dickens wrote. Sketches by Boz",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what was the first book charles dickens wrote. Nicholas Nickleby",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what was the first book charles dickens wrote. Oliver Twist",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sketches by 'Boz,' was Charles Dickens' first book.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The earliest version of Sketches by Boz was published in February 1836, just a month before the publication of the first number of The Pickwick Papers (1836–37).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

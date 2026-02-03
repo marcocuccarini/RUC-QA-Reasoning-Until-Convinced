@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Twice as high as the first sample's temperature is the temperature at which Joyce's second, 400‑milliliter water sample started to boil, given that the first 200‑milliliter sample boiled at 100 °C.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Slightly higher than the first sample's temperature is the temperature when Joyce’s second sample of 400 milliliters of water started to boil.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Half as high as the first sample's is the temperature when Joyce’s 400‑milliliter sample started to boil, after she recorded 100 °C for the 200‑milliliter sample.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The temperature when the second sample started to boil is the same as the first sample's, 100 °C, because the boiling point of water at the same conditions is independent of the volume.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The boiling point of a liquid is the temperature at which the vapor pressure of a liquid equals the pressure surrounding the liquid and the liquid changes into a vapor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The boiling point of a liquid varies depending upon the surrounding environmental pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

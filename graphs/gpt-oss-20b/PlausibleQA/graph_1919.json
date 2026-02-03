@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who presented a list of 23 problems in mathematics at a conference of the International Congress of Mathematicians on 8 August 1900 in the Sorbonne, of which only 10 have resolutions which are fully accepted. Henri Poincaré",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who presented a list of 23 problems in mathematics at a conference of the International Congress of Mathematicians on 8 August 1900 in the Sorbonne, of which only 10 have resolutions which are fully accepted. Bertrand Russell",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who presented a list of 23 problems in mathematics at a conference of the International Congress of Mathematicians on 8 August 1900 in the Sorbonne, of which only 10 have resolutions which are fully accepted. Georg Cantor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who presented a list of 23 problems in mathematics at a conference of the International Congress of Mathematicians on 8 August 1900 in the Sorbonne, of which only 10 have resolutions which are fully accepted. Hilbert",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hilbert presented ten of the problems (1, 2, 6, 7, 8, 13, 16, 19, 21, and 22) at the Paris conference of the International Congress of Mathematicians, speaking on August 8 at the Sorbonne.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Of the cleanly formulated Hilbert problems, numbers 3, 7, 10, 14, 17, 18, 19, and 21 have resolutions that are accepted by consensus of the mathematical community.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "David Hilbert delivered a lecture titled 'Mathematical Problems' before the International Congress of Mathematicians at Paris in 1900.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

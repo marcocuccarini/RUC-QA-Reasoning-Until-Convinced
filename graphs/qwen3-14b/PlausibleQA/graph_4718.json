@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A Chimera",
+      "strength": 0.2500000845185871
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A Sphinx",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A Griffin",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon. A manticore",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Homer described the Chimera in the Iliad as having a lion's fore part, a goat in the midst, and a serpent in the hinder part.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Heraldry, the Chimera is shown to have the hindquarters of a dragon, not a human head.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The griffin, griffon, or gryphon is a legendary creature with the body, tail, and back legs of a lion, and the head and wings of an eagle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They get energy from living organisms, as observed with some sea grasses growing near a group of palm trees on a sandy shore.",
+      "strength": 0.2500974173587746
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They turn decaying matter into nutrients, a role performed by both the sea grasses growing near the group of palm trees on the sandy shore.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They provide food for other organisms that grow near a group of palm trees on a sandy shore.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They absorb oxygen from the environment, which is the role of both the palm trees and sea grasses that grow near each other on a sandy shore.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The main source of such energy is sunlight, but a minute fraction of primary production is driven by lithotrophic organisms, using the chemical energy of inorganic molecules.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Like all autotrophic plants, seagrasses photosynthesize, in the submerged photic zone, and most occur in shallow and sheltered coastal waters anchored in sand or mud bottoms.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Seagrass meadows provide food and habitat for many marine species.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

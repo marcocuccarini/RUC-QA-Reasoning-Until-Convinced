@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produced models called ‘The Imp’ and ‘The Husky’. Rootes",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produced models called ‘The Imp’ and ‘The Husky’. Singer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produced models called ‘The Imp’ and ‘The Husky’. Sunbeam",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produced models called ‘The Imp’ and ‘The Husky’. Hillman",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Hillman Imp was produced from 1963 to 1976.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Hillman Husky was produced from 1954 to 1963.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What phrase describes the runner, driver or rider in the lead of a race. Front-runner",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What phrase describes the runner, driver or rider in the lead of a race. Leader of the pack",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What phrase describes the runner, driver or rider in the lead of a race. Trailblazer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What phrase describes the runner, driver or rider in the lead of a race. Pace-setter",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term 'front-runner' originated in the United States from foot racing.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "According to Merriam-Webster, by 1914, the term 'front-runner' meant 'a contestant who runs best when in the lead'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

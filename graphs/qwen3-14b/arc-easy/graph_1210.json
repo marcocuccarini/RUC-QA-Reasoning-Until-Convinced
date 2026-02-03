@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red is the color of visible light that has the longest wavelength.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Blue is the color of visible light that has the longest wavelength.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Green is the color of visible light that has the longest wavelength.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Orange is the color of visible light that has the longest wavelength among the colors of visible light.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A typical human eye will respond to wavelengths from about 380 to about 750 nanometers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "clean air scatters blue light more than red light, and so the midday sky appears blue",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

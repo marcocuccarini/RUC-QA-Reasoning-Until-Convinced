@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Age of the rocks is the basis on which rocks are classified as sedimentary, metamorphic, or igneous.",
+      "strength": 0.4000000465571573
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The way the rocks were formed is the basis on which rocks are classified as sedimentary, metamorphic, or igneous.",
+      "strength": 0.5999029143854268
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Types of fossils the rocks contain are the basis for classifying rocks as sedimentary, metamorphic, or igneous.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Number of minerals found in the rocks is the basis on which rocks are classified as sedimentary, metamorphic, or igneous.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Igneous rocks are classified based on chemical composition and mineralogy, not their age.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Igneous rocks are classified based on chemical composition and mineralogy rather than the way they were formed.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "They are distinguished from igneous rocks, which form from molten magma, and sedimentary rocks, which form from sediments eroded from existing rock or precipitated chemically from bodies of water.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Metamorphic rocks are formed when existing rock is transformed physically or chemically at elevated temperature, without actually melting to any great degree.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

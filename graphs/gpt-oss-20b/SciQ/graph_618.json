@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fossils are the preserved remains or traces of organisms that lived in the past.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Corals are the preserved remains or traces of organisms that lived in the past.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bones are the preserved remains or traces of organisms that lived in the past.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Detritis is the term for the preserved remains or traces of organisms that lived in the past.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A fossil (from Classical Latin fossilis, lit. 'obtained by digging') is any preserved remains, impression, or trace of any once-living thing from a past geological age.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A fossil normally preserves only a portion of the deceased organism, usually that portion that was partially mineralized during life, such as the bones and teeth of vertebrates, or the chitinous or calcareous exoskeletons of invertebrates.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Plants can commonly be fossilized as layers of carbon where all soluble elements of the plant have been removed.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Trace fossils can also consist of traces of the behaviour or life of organisms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which Arizona town did the Gunfight at the OK Corral take place in 1881. Prescott",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which Arizona town did the Gunfight at the OK Corral take place in 1881. Bisbee",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which Arizona town did the Gunfight at the OK Corral take place in 1881. Flagstaff",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which Arizona town did the Gunfight at the OK Corral take place in 1881. Tombstone",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Gunfight at the O.K. Corral, are among those buried in the town's Boothill Graveyard.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The gunfight occurred in a vacant lot owned by photographer C. S. Fly near, but not in or at, the O.K. Corral, during which the lawmen and Doc Holliday killed Tom McLaury, Frank McLaury, and Billy Clanton.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. Journal of the American Medical Association (JAMA)",
+      "strength": 0.36764714035484913
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. American Journal of Medicine",
+      "strength": 0.400000000000014
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. Archives of Internal Medicine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. NEJM",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The American Journal of the Medical Sciences was established in 1820.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "JAMA was established in 1883 by the American Medical Association.",
+      "strength": 0.5999999849604898
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Free copies of volumes 1–80 (1883–1923), from the Internet Archive and HathiTrust",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Founded in 1812, the journal is among the most prestigious peer-reviewed medical journals.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In September 1811, Boston physician John Collins Warren, along with James Jackson, submitted a formal prospectus to establish the New England Journal of Medicine and Surgery and Collateral Branches of Science as a medical and philosophical journal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

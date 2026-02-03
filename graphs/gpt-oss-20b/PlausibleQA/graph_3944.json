@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose beagle buddy is 'Snoopy'. Charlie Brown",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose beagle buddy is 'Snoopy'. Linus van Pelt",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose beagle buddy is 'Snoopy'. Lucy van Pelt",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose beagle buddy is 'Snoopy'. Woodstock",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Snoopy is very relieved to see a 'NO DOGS ALLOWED' sign and returns to live with Charlie Brown.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Snoopy has a rivalry with Linus Van Pelt over the latter's blanket.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

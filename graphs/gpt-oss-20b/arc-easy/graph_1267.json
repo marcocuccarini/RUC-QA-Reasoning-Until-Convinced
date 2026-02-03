@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hundreds of stars are the best description of a galaxy, which is a cluster of stars.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Thousands of stars are what a galaxy is best described as, a cluster of stars.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Millions of stars are what a galaxy is best described as a cluster of.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Billions of stars are what a galaxy is best described as a cluster of.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Galaxies, averaging an estimated 100 million stars",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most of the mass in a typical galaxy is in the form of dark matter, with only a few percent of that mass visible in the form of stars",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is estimated to contain 100–400 billion stars and at least that number of planets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

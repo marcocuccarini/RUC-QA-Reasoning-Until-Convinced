@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solvent is the substance in a solution that a solute dissolves in.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Particles are the substance a solute dissolves in within a solution.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gas is the substance in which a solute dissolves in a solution.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Atoms are the substance in a solution that a solute dissolves into.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A solvent is a substance that dissolves a solute, resulting in a solution.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The solvent is the dissolving medium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

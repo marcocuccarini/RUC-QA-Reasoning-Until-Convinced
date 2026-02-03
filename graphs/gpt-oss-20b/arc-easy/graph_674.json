@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A solution is magnesium oxide, which is produced when magnesium metal is burned in the presence of oxygen and whose properties differ from those of magnesium and oxygen.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A mixture is magnesium oxide, which is produced when magnesium metal is burned in the presence of oxygen and whose properties differ from those of magnesium and oxygen individually.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Magnesium oxide is a compound produced when magnesium metal burns in the presence of oxygen, and its properties differ from the individual properties of magnesium and oxygen.",
+      "strength": 0.5999029143854268
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An element is magnesium oxide, which is produced when magnesium metal is burned in the presence of oxygen and has properties that differ from those of magnesium and oxygen.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Magnesium oxide is produced by the calcination of magnesium carbonate or magnesium hydroxide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ionic compounds typically have high melting and boiling points, and are hard and brittle.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ionic bonds occur when valence electrons are completely transferred between elements.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

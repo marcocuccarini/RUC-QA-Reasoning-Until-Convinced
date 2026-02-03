@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metal is always hotter than wood, which explains why, after a few minutes of stirring a pot of hot soup, the metal spoon feels hotter than the wooden spoon.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metal conducts heat better than wood, explaining why the metal spoon feels hotter than the wooden spoon after a few minutes of stirring a pot of hot soup.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Metal conducts electricity better than wood, which explains why the metal spoon feels hotter than the wooden spoon after a few minutes of stirring a pot of hot soup.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metal heats up the water better than the wood explains why, after a few minutes of stirring a pot of hot soup, a metal spoon feels hotter than a wooden spoon.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metals typically have high thermal conductivity and are very efficient at conducting heat, while the opposite is true for insulating materials such as mineral wool or Styrofoam.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heat transfer occurs at a lower rate in materials of low thermal conductivity than in materials of high thermal conductivity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

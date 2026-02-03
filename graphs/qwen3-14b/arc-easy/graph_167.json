@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decrease is the most likely outcome for the number of plants and animals living in the area where a large amount of oil was spilled in a lake environment within a few weeks.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increase is the most likely effect on the number of plants and animals living in the area where a large amount of oil was spilled in a lake environment within a few weeks.",
+      "strength": 0.22624448648282072
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The number of plants and animals in the area where a large amount of oil was spilled in a lake environment will most likely remain the same within a few weeks.",
+      "strength": 0.4000000000254939
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Chemical alterations include changes in the loading rates of biostimulatory nutrients, oxygen-consuming materials, and toxins.",
+      "strength": 0.5999999723208136
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The environmental history of the Great Lakes of North America illustrates this problem, particularly how multiple stresses, such as water pollution, over-harvesting and invasive species can combine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Corexit increased the toxicity of the oil by 52 times.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Over 1 million birds died directly from the oil spill.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Immediate effects include the deaths of between 100,000 and 250,000 seabirds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

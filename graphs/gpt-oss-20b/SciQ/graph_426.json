@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nuclear symbols represent radioactive nuclei and particles.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Energy is the symbol that represents radioactive nuclei and particles.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Greek symbols represent radioactive nuclei and particles.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Compound is the symbol used to represent radioactive nuclei and particles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The symbol for the alpha particle is α or α2+.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Alpha particles are named after the first letter in the Greek alphabet, α.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A beta particle, also called beta ray or beta radiation (symbol β)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The gray (Gy) is the SI unit of absorbed dose, which is the amount of radiation energy deposited in the irradiated material.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

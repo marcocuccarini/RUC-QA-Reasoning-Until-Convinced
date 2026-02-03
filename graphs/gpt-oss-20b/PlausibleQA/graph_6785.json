@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the human body, what eight letter word is used to describe the purulent inflammation of the gums and tooth sockets often leading to lossening of the teeth . Gingivis",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the human body, what eight letter word is used to describe the purulent inflammation of the gums and tooth sockets often leading to lossening of the teeth . Periodon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the human body, what eight letter word is used to describe the purulent inflammation of the gums and tooth sockets often leading to lossening of the teeth . Dentitis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the human body, what eight letter word is used to describe the purulent inflammation of the gums and tooth sockets often leading to lossening of the teeth . PYORRHEA",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The word pyorrhea (alternative spelling: pyorrhoea) comes from the Greek pyorrhoia (πυόρροια), 'discharge of matter', itself from pyon, 'discharge from a sore', rhoē, 'flow', and the suffix -ia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text refers to gingivitis, not gingivis, as the inflammatory condition of gums.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

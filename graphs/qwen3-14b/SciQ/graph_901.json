@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrocarbons are molecules made of one carbon and four hydrogen atoms.",
+      "strength": 0.10009709613920598
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fats are molecules made of one carbon and four hydrogen atoms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Proteins are molecules made of one carbon and four hydrogen atoms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Particles are molecules made of one carbon and four hydrogen atoms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The simplest hydrocarbon, methane, burns as follows: CH4 + 2O2 ⟶ CO2 + 2H2O",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The formula for acyclic saturated hydrocarbons (i.e., alkanes) is CnH2n+2",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Methane (US: METH-ayn, UK: MEE-thayn) is a chemical compound with the chemical formula CH4 (one carbon atom bonded to four hydrogen atoms).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Cycloalkanes have the general formula CnH2n.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Ethane has the formula C2H6, which differs from CH4.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "alkanes (methane to nonane)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

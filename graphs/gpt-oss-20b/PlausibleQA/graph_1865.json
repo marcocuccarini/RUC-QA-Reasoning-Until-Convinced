@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what territory is spain and the united kingdom in a dispute over. Falkland Islands",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what territory is spain and the united kingdom in a dispute over. Ceuta",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what territory is spain and the united kingdom in a dispute over. Rockall",
+      "strength": 0.25000003759877515
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what territory is spain and the united kingdom in a dispute over. Gibraltar",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ireland claims that UK rights to Rockall are invalid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Denmark (on behalf of the Faroes) and Iceland have lodged claims of the adjoining seabed.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The status of Gibraltar is a major point of contention in relations between the two nations, dating back to the conflicts in the early 18th century.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In two referendums, held in September 1967 and November 2002, the people of Gibraltar rejected any proposal for the transfer of sovereignty to Spain.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

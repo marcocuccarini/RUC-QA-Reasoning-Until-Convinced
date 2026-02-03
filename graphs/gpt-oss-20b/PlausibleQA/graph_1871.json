@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. Éirean",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. Hibernia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. Erin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937. ire",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the coins became marked Éire, although the Irish pound remained pegged at par to sterling.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The name 'Éire' has been used on Irish postage stamps since 1922.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The name 'Éire' has been used on passports and other official state documents issued since 1937.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

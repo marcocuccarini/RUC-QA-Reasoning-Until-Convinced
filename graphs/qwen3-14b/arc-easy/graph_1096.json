@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It washes away germs, helping to keep you from getting sick.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It makes your hands look nice is how washing your hands helps keep you from getting sick.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It keeps your skin from drying out, helping prevent illness when you wash your hands.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It makes your hands warmer, which can help keep you from getting sick when you wash your hands.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hand washing with soap is the single most effective and inexpensive way to prevent diarrhea and acute respiratory infections (ARI).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Frequent hand washing can lead to skin damage due to drying of the skin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

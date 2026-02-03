@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country did the Battle of El Alamein take place. Libya",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country did the Battle of El Alamein take place. Tunisia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country did the Battle of El Alamein take place. Algeria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country did the Battle of El Alamein take place. EGY",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The battles occurred during the North African campaign in Egypt, in and around an area named after a railway stop called El Alamein.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The battles occurred during the North African campaign in Egypt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

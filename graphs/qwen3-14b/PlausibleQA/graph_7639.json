@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what did the akkadian empire include. Babylon",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what did the akkadian empire include. Sumer",
+      "strength": 0.5689656467628573
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what did the akkadian empire include. Elam",
+      "strength": 0.749902642397058
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what did the akkadian empire include. Assyria",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Akkadian Empire succeeded the long-lived city-states of Sumer.",
+      "strength": 0.40000002686114305
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Akkadian Empire expanded into neighboring states such as Elam, Lullubi, Hatti, and Gutium.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Sumerians and Akkadians originated from different areas.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Akkadian Empire is thought to have included parts of the Levant, Hurrian and Elamite territory.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Weidner Chronicle (ABC 19:51) states that it was Sargon who 'built Babylon in front of Akkad'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

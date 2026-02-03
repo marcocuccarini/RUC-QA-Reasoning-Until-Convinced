@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deinonychus is the dinosaur genus closest to modern birds.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sauropods are the dinosaur genus closest to modern birds.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diplodocus is the dinosaur genus that's closest to modern birds.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rapter is the dinosaur genus that is closest to modern birds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The dromaeosaurids represent one of the non‑avialan dinosaur groups most closely related to birds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Velociraptor is geologically younger than Deinonychus, but even more closely related.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The young of Deinonychus antirrhopus bore longer arms and more robust pectoral girdles than adults, similar to those seen in other flapping theropods, implying that they may have been capable of flight when young.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Zhenyuanlong had a full feathered coat and proportionally large aerodynamic wing feathers, indicating advanced integument similar to birds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

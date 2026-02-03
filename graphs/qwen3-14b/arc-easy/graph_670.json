@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "0°F is the freezing point of water.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "32°F is the freezing point of water.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "50°F is the freezing point of water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "100°F is the freezing point of water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "freezing point of 0 °C (32 °F)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "ice melts or water freezes (solidifies) at 0 °C (32 °F)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

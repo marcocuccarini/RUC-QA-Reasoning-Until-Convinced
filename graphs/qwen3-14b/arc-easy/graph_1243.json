@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A planet is a bright object with a long tail of glowing gases that is in orbit around the Sun.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A star is the bright object with a long tail of glowing gases that is in orbit around the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An asteroid is a bright object with a long tail of glowing gases that is in orbit around the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A comet is a bright object with a long tail of glowing gases that orbits around the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Both the coma and tail are illuminated by the Sun and may become visible when a comet passes through the inner Solar System, the dust reflects sunlight directly while the gases glow from ionisation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Asteroids are thought to have a different origin from comets, having formed inside the orbit of Jupiter rather than in the outer Solar System.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Turning off water while brushing teeth helps conserve water.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wash the car every day would help conserve water.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water the lawn every day would help conserve water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Running the dishwasher after each meal would help conserve water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Turning off the faucet sink while brushing teeth — saves approximately five gallons (about 19 liters) of water",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Using a bucket and sponge when washing a car rather than running a hose",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

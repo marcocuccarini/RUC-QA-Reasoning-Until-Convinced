@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 1987 US film was based on the 1985 French film ‘Trois hommes et un couffin’. Like Father, Like Son",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 1987 US film was based on the 1985 French film ‘Trois hommes et un couffin’. Overboard",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 1987 US film was based on the 1985 French film ‘Trois hommes et un couffin’. Blind Date",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 1987 US film was based on the 1985 French film ‘Trois hommes et un couffin’. 3 Men and a Baby",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Three Men and a Baby is a 1987 American comedy film directed by Leonard Nimoy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was based on a 1913 short story, 'The Three Godfathers', by Peter B. Kyne, which was later adapted to the 1985 French film Three Men and a Cradle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

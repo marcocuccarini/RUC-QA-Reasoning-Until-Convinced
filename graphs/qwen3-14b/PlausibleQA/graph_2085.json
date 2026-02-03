@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country does the drink Cinzano come from. France",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country does the drink Cinzano come from. Spain",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country does the drink Cinzano come from. Portugal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country does the drink Cinzano come from. ItalY",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cinzano is an Italian brand of vermouth, a brand owned since 1999 by Gruppo Campari.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cinzano vermouths date back to 1757 and the Turin herbal shop of two brothers, Giovanni Giacomo and Carlo Stefano Cinzano",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

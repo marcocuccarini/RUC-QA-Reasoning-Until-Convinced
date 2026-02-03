@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who plays at the prudential center in newark. New York Rangers",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who plays at the prudential center in newark. Philadelphia Flyers",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who plays at the prudential center in newark. Seton Hall Pirates",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who plays at the prudential center in newark. New Jersey Devils",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prudential Center is the home of the New Jersey Devils of the National Hockey League (NHL)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prudential Center is the home court of the NCAA's Seton Hall Pirates men's basketball team",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Devils opened their new arena, the Prudential Center, on October 27, 2007, against Ottawa after opening the season with a nine-game road trip.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Devils are one of four major professional sports teams that play their home games in New Jersey; the others are the National Football League's New York Giants and New York Jets, and the New York Red Bulls of Major League Soccer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

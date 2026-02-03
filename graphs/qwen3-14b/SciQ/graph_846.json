@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Life cycles are haploid-dominant in fungi such as black bread mold (rhizopus nigricans).",
+      "strength": 0.6799031716751843
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Birth cycles are haploid-dominant in fungi such as black bread mold (Rhizopus nigricans).",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gene pools are haploid-dominant in fungi, such as black bread mold (Rhizopus nigricans).",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mutations are haploid-dominant in fungi such as black bread mold (Rhizopus nigricans).",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most fungi have both a haploid and a diploid stage in their life cycles.",
+      "strength": 0.7499999999896734
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In sexual reproduction, a dark zygospore is produced at the point where two compatible mycelia fuse.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Upon germination, a zygospore produces colonies that are genetically different from either parent.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In opisthokonts: most fungi (some chytrids, zygomycetes, some ascomycetes, basidiomycetes)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In the whole cycle, zygotes are the only diploid cell; mitosis occurs only in the haploid phase.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Most fungi and algae are haploid during the principal stage of their life cycle, as are some primitive plants like mosses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

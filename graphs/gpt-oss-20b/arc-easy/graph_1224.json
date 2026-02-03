@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Teeth break food into small pieces is the mechanical action performed by the teeth during chewing in digestion.",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Throat muscles push food toward the stomach is the part of digestion that mainly involves a chemical change.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stomach acids dissolve food into nutrients is the part of digestion that is mainly a chemical change.",
+      "strength": 0.7499025789446009
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Intestinal cells transport nutrients into the blood is the part of digestion that is mainly a chemical change.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A small rounded mass of chewed up food enters the stomach.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hydrochloric acid provides the acidic pH of 2 for the proteases to work.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Digestion of proteins in the stomach or tiyan",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

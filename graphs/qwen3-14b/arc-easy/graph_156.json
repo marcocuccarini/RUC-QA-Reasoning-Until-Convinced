@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive is the body system that typically recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Excretory is the body system that typically recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The immune system recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Respiratory is the body system that typically recognizes, attacks, and destroys foreign cells or substances that may cause disease.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The immune system detects and responds to a wide variety of pathogens, such as viruses, bacteria, and parasites, as well as cancer cells and objects, such as wood splinters—distinguishing them from the organism's own healthy tissue.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Phagocytes generally patrol the body searching for pathogens, but can be called to specific locations by cytokines. Once a pathogen has been engulfed by a phagocyte, it becomes trapped in an intracellular vesicle called a phagosome, which subsequently fuses with another vesicle called a lysosome to form a phagolysosome. The pathogen is killed by the activity of digestive enzymes or following a respiratory burst that releases free radicals into the phagolysosome.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

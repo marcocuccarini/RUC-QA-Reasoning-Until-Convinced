@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What element is mixed with Iron to make cast iron. Silicon",
+      "strength": 0.6000972950169277
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What element is mixed with Iron to make cast iron. Manganese",
+      "strength": 0.5999999999999617
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What element is mixed with Iron to make cast iron. Chromium",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What element is mixed with Iron to make cast iron. Carbon",
+      "strength": 0.7499999373987819
+    },
+    "A4": {
+      "type": "argument",
+      "text": "High percentage of silicon forces carbon out of solution, forming graphite and producing grey cast iron.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "To counter the effects of sulfur, manganese is added, because the two form into manganese sulfide instead of iron sulfide.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Carbon combines with iron at high temperatures to form iron carbide cementite.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Removing the impurities from pig iron, but leaving 2–4% carbon, results in cast iron.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Cast iron contains 1–6% silicon.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Adding chromium to steel, its resistance to corrosion can be enhanced, creating stainless steel.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Adding silicon will alter its electrical characteristics, producing silicon steel.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

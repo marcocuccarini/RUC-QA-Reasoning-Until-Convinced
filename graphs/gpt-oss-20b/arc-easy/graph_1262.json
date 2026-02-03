@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Human cell is the object best seen with a microscope.",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cow heart is the object best seen with a microscope.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oak leaf is the best object seen with a microscope.",
+      "strength": 0.5999999365228031
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chicken leg is the object best seen with a microscope.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "By 1935, he had built an electron microscope with twice the resolution of a light microscope, revealing previously unresolvable organelles.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1665, Robert Hooke examined a thin slice of cork under his microscope, and saw a structure of small enclosures.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "2006 animation of molecular mechanisms inside cells",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

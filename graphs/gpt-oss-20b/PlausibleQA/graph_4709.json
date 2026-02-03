@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who used morse code in world war 2. Aircraft",
+      "strength": 0.5999999717616569
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who used morse code in world war 2. Spies",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who used morse code in world war 2. Submarines",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who used morse code in world war 2. warships",
+      "strength": 0.7736521056293675
+    },
+    "A4": {
+      "type": "argument",
+      "text": "civilian and military pilots were required to be able to use Morse code",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Radiotelegraphy using Morse code was vital during World War II, especially in carrying messages between the warships and the naval bases of the belligerents.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Morse code radio operator training. U.S. Navy.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "200 hours of at increasing speeds plus an ASCII-to-CW file generator program.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

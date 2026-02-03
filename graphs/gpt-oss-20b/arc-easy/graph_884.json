@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "June 7 is the approximate date when the next full Moon will be observed in Buffalo, New York, following the full Moon observed there on June 1.",
+      "strength": 0.1538461912531092
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "June 15 is approximately when the next full Moon will be observed in Buffalo, New York, following the full Moon observed on June 1.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "July 1 is the approximate date when the next full Moon will be observed in Buffalo, New York after the full Moon observed on June 1.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "July 7 is the date when the next full Moon will be observed in Buffalo, New York, following the full Moon on June 1.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The duration from full moon to new moon (or new moon to full moon) varies from approximately 13 days 22+1⁄2 hours to about 15 days 14+1⁄2 hours.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A lunar month is the time between successive recurrences of the same phase: due to the eccentricity of the Moon's orbit, this duration is not perfectly constant but averages about 29.5 days.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The mean length of a synodic month is 29.53059 days.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The average period the Moon takes to cycle through its phases (new, first quarter, full, last quarter) and back again is 29–30 days.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The actual time between lunations may vary from about 29.274 days to about 29.829 days.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

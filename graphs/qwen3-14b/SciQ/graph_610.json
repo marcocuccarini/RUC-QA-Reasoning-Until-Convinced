@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "No lungs are why fish have short esophaguses.",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Big tail is why fish have short esophaguses.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "No intestines are the reason fish have short esophaguses.",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "No mouths are the reason fish have short esophaguses.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In most fish, the esophagus is extremely short, primarily due to the length of the pharynx (which is associated with the gills).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some fish, including lampreys, chimaeras, and lungfish, have no true stomach, so that the esophagus effectively runs from the pharynx directly to the intestine, and is therefore somewhat longer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the gold for the men 's figure skating. Nathan Chen",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the gold for the men 's figure skating. Patrick Chan",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the gold for the men 's figure skating. Javier Fernández",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the gold for the men 's figure skating. Yuzuru Hanyu",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Yuzuru Hanyu won the event with a new Olympic record of 280.09 points, finishing ahead of Patrick Chan and Denis Ten.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Patrick Chan finished as the silver medalist, not gold.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

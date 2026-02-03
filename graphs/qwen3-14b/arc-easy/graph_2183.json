@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wool coat is the material that best conducts electricity.",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Copper pipe best conducts electricity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic straw is the material that best conducts electricity.",
+      "strength": 0.4000876126562776
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wooden stick is the material that best conducts electricity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The softness of copper partly explains its high electrical conductivity (59.6×106 S/m) and high thermal conductivity, second highest (second only to silver) among pure metals at room temperature.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many electrical devices rely on copper wiring because of its multitude of beneficial properties, such as its high electrical conductivity, tensile strength, ductility, creep (deformation) resistance, corrosion resistance, low thermal expansion, high thermal conductivity, ease of soldering, and ease of installation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

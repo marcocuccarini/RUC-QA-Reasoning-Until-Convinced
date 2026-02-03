@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the official British coronation crown. Imperial State Crown",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the official British coronation crown. Sovereign's Sceptre Crown",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the official British coronation crown. Crown of Charlemagne",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the official British coronation crown. St Edwards crown",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "St Edward's Crown is the coronation crown of the Crown Jewels of the United Kingdom.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was placed on the high altar and formally used again at the 2023 coronation of Charles III, marking its return as the principal coronation crown of the sovereign.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The direction he ran and the average speed are the additional information Stephen needs to calculate his acceleration during his 12‑second run across a grass field.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The distance he ran and the average velocity are the additional information Stephen needs to calculate his acceleration during the run, which took him 12 seconds across a grass field.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The beginning speed and the direction he ran are the additional information Stephen needs to calculate his acceleration during the 12‑second run across the grass field.",
+      "strength": 0.3677570018889684
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The beginning velocity and the ending velocity are the additional information Stephen needs to calculate his acceleration during his 12‑second run across a grass field.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Acceleration is a vector quantity that depends on the direction of velocity change.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Average acceleration is defined as the change in velocity over the time interval (a¯ = Δv¯ / Δt).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Acceleration accounts for both the rate of change of the magnitude and direction of the velocity vector.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

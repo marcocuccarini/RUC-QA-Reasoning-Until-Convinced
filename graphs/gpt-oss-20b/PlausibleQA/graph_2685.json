@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nicknamed the cannibal, who is the only rider to have won all three jerseys in the same year in the Tour de France. Jacques Anquetil",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nicknamed the cannibal, who is the only rider to have won all three jerseys in the same year in the Tour de France. Bernard Hinault",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nicknamed the cannibal, who is the only rider to have won all three jerseys in the same year in the Tour de France. Miguel Indurain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nicknamed the cannibal, who is the only rider to have won all three jerseys in the same year in the Tour de France. Eddy Merx",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Although a knee injury forced him to quit the 1980 Tour de France while in the lead",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eddy Merckx was nicknamed 'The Cannibal'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "One rider has been King of the Mountains, won the combination classification, combativity award, the points competition, and the Tour in the same year—Eddy Merckx in 1969, which was also the first year he participated.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

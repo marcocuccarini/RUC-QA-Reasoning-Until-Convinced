@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decreases is the atmospheric pressure as altitude increases.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increase is the change in atmospheric pressure that occurs as altitude increases.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stays the same is the correct description of atmospheric pressure when altitude increases.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Depends on other factors is the answer to whether atmospheric pressure increases or decreases as altitude increases.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As altitude increases, atmospheric pressure decreases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Atmospheric pressure varies with the altitude of the surface, so air pressure on mountains is usually lower than air pressure at sea level.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

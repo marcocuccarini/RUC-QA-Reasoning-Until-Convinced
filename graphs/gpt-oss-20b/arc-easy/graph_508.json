@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A cloud forming is the natural event that would take the longest time to happen.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A mountain forming is the natural event that would take the longest time to happen.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A pond evaporating is the natural event that would take the longest time to happen.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A river flooding its banks is the natural event that would take the longest time to happen.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The critical duration of intense rainfall might be only a few minutes for roof and parking lot drainage structures, while cumulative rainfall over several days would be critical for river basins.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The flow rate increased from about 50 to 1,500 cubic feet per second in just one minute.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country did the carrot originate. Afghanistan",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country did the carrot originate. China",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country did the carrot originate. India",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country did the carrot originate. IROA",
+      "strength": 0.5999999125837895
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the wild ancestors probably originated in Greater Iran (regions of which are now Iran and Afghanistan)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the modern carrot originated in Afghanistan at about this time",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

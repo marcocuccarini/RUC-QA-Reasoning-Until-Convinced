@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. Philip Pullman",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. Neil Gaiman",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. C.S. Lewis",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is the author of the 'Harry Potter' books. J.K.R.",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Joanne Rowling ( born 31 July 1965), better known by her pen name J. K. Rowling, is the British novelist who wrote Harry Potter",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the fantasy novels are the best-selling book series in history, with over 600 million copies sold",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

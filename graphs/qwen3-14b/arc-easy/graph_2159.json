@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The number of continents in the world is what a topographic map is primarily used to determine.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The location of major cities in the country is primarily determined by a topographic map.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Elevation of an area is what a topographic map is primarily used to determine.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rainfall of desert regions is primarily determined using a topographic map.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Topographic maps conventionally show topography, or land contours, by means of contour lines. Contour lines are curves that connect contiguous points of the same altitude (isohypse).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These maps depict in detail ground relief (landforms and terrain), drainage (lakes and rivers), forest cover, administrative areas, populated areas, transportation routes and facilities (including roads and railways), and other man-made features.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A metric ruler is the instrument best suited for measuring the volume of a pebble.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A stopwatch is the instrument best for measuring the volume of a pebble.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A triple beam balance is the best instrument for measuring the volume of a pebble.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Graduated cylinder is the instrument best suited for measuring the volume of a pebble.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Graduated cylinders are sometimes used to measure the volume of a solid indirectly by measuring the displacement of a liquid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Graduated cylinders should not be used to perform volumetric analysis; volumetric glassware, such as a volumetric flask or volumetric pipette, should be used, as it is even more accurate and precise.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In laboratories, volume of liquids is measured using graduated cylinders, pipettes and volumetric flasks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

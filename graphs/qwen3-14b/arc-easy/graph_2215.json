@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A metal is sulfur dioxide, a substance formed when sulfur (S) and oxygen (O₂) combine, and also formed when coal and oil are burned.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An atom is the best description of sulfur dioxide, a substance formed by the combination of sulfur (S) and oxygen (O) and also produced when coal and oil are burned.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A compound is sulfur dioxide, which is formed when sulfur and oxygen combine and also when coal and oil are burned.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A nonreactive gas is sulfur dioxide, a substance formed by the combination of sulfur (S) and oxygen (O₂) and also produced when coal and oil are burned.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sulfur dioxide is a chemical compound with the formula SO2.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sulfur dioxide is produced by the combustion of sulfur and the burning of sulfur-bearing hydrocarbon fuels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

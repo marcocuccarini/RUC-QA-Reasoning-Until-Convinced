@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Bee",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Ant",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Hornet",
+      "strength": 0.8460569052668154
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Wasp",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hornets (genus Vespa)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All species of social wasps construct their nests using some form of plant fiber (mostly wood pulp) as the primary material",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hornets build communal nests by chewing wood to make a papery pulp.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Hornets are wasps of the genus Vespa in the subfamily Vespinae.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

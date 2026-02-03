@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. Bunraku",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. Kabuki-odori",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. Gagaku",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. 歌舞伎",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kabuki (歌舞伎; Japanese pronunciation: [ka.bɯ.kʲi]) is a classical form of Japanese theatre, mixing dramatic performance with traditional dance.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bunraku, a traditional Japanese puppet theatre from whose scripts many kabuki plays were adapted.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

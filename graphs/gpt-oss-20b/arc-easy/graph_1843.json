@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cell -> organ -> tissue -> organ system is the sequence that identifies the levels of organization of body structures in a human from simplest to most complex.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Organ system → cell → tissue → organ is the sequence that identifies the levels of organization of body structures in a human from simplest to most complex.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tissue -> organ -> organ system -> cell is the sequence that identifies the levels of organization of body structures in a human from simplest to most complex.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cell → tissue → organ → organ system is the sequence that identifies the levels of organization of body structures in a human from simplest to most complex.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For example, the organism may be described at any of its component levels, including the atomic, molecular, cellular, histological (tissue), organ and organ system levels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Each level in the hierarchy can be described by its lower levels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

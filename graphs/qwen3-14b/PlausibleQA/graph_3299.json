@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British footballer has the most number of International caps. David Beckham",
+      "strength": 0.40000000000002134
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British footballer has the most number of International caps. Bobby Charlton",
+      "strength": 0.2500000346794213
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British footballer has the most number of International caps. Bobby Moore",
+      "strength": 0.40000000000002134
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British footballer has the most number of International caps. Peter Shilton",
+      "strength": 0.36775505642964407
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The provided text does not mention the number of International caps for David Beckham, Bobby Charlton, Bobby Moore, or Peter Shilton, making it impossible to determine which player has the most based on the given information.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "With 125 caps, he is England's most-capped player.",
+      "strength": 0.4000374469575233
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Beckham remained ten caps short of Highland the record number of 125 caps by goalkeeper Peter Shilton, for a player of any position.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "overtaking Bobby Charlton in the process",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "As of October 2023, Bobby Moore is listed first in the all-time England appearances list, indicating he has the most international caps.",
+      "strength": 0.4000374469575233
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Peter Shilton, David Beckham and Steven Gerrard have since overtaken the caps record",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Moore's total of 108 caps continued as a record for an outfield player until 28 March 2009, when David Beckham gained his 109th cap",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A10",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "A8",
+      "relation": "attack"
+    }
+  ]
+}

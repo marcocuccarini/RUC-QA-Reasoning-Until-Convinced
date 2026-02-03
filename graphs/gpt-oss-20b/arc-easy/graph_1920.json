@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Height is an acquired trait.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hair color is an acquired trait.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Language is an acquired trait.",
+      "strength": 0.7238204083754556
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eye shape is an acquired trait.",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mental traits are acquired by learning and adapting native traits to the environment of the individual.",
+      "strength": 0.40009682695977267
+    },
+    "A5": {
+      "type": "argument",
+      "text": "eye appearance (and function, and structure) that occur because of acquired characteristics like injury, illness, old age, or malnutrition are definitely acquired characteristics.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Emergentist theories, such as Brian MacWhinney's competition model, posit that language acquisition is a cognitive process that emerges from the interaction of biological pressures and the environment.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Some linguists argue that certain aspects of language acquisition must result from the specific ways in which the human brain is 'wired'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who designed St Paul’s Cathedral in London. Inigo Jones",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who designed St Paul’s Cathedral in London. John Vanbrugh",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who designed St Paul’s Cathedral in London. Nicholas Hawksmoor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who designed St Paul’s Cathedral in London. Cristopher wren",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The high-domed present structure, which was completed in 1710, is a Grade I listed building that was designed in the English Baroque style by Sir Christopher Wren.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In July 1668, Dean William Sancroft wrote to Wren that he was charged by the Archbishop of Canterbury, in agreement with the bishops of London and Oxford, to design a new cathedral that was 'Handsome and noble to all the ends of it and to the reputation of the City and the nation.'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

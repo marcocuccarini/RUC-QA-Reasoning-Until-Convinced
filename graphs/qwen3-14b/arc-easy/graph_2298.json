@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An increase in the amount of coral reefs is a possible consequence of global warming.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A decrease in temperature, causing earlier frosts, is a possible consequence of global warming.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An increase in the number of heat waves, causing droughts, is a possible consequence of global warming.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A decrease in temperature, causing shorter growing seasons, is a possible consequence of global warming.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rapid environmental change in mountains, coral reefs, and the Arctic is forcing many species to relocate or become extinct.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "heat waves and wildfires are becoming more common. Amplified warming in the Arctic has contributed to thawing permafrost, retreat of glaciers and sea ice decline. Higher temperatures are also causing more intense storms, droughts, and other weather extremes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

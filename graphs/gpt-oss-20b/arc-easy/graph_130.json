@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The gravitational pull on the Moon is too low, so a person shouting in a deep valley on the Moon will not hear an echo reflected back off surrounding mountains, whereas in a similar valley on Earth the same shout produces an echo.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The temperature on the Moon is too low, which is why no echo will be heard in a deep valley on the Moon, unlike in a similar valley on Earth where sound is reflected back off the surrounding mountains.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There is no air on the Moon for the sound to travel through, so a person shouting in a deep valley on the Moon will not hear an echo, whereas on Earth the echo is heard as the sound is reflected back off the surrounding mountains.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The mountains on the Moon cannot reflect sound, so a person shouting in a deep valley on the Moon will not hear an echo, unlike in a similar valley on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The lunar atmosphere contains fewer than 10^6 molecules per cubic centimeter, compared to approximately 10^19 molecules per cubic centimeter at sea level on Earth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pressure of the lunar exosphere is around 3×10^−15 atm, a level considered to be a very good vacuum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

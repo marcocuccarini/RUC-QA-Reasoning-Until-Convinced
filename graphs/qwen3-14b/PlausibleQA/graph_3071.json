@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Autumn",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Spring",
+      "strength": 0.5689657022031145
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Indian Summer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the northern hemisphere, what season begins in one calendar year and ends in the next. Winter",
+      "strength": 0.5999999999652412
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the Northern Hemisphere, winter is defined as starting on 1 December and ending on 1 March.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the Northern Hemisphere, spring is defined as starting on 1 March and ending on 1 June.",
+      "strength": 0.4000000392786357
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In the Northern Hemisphere, the March equinox marks the beginning of spring.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "In the Northern Hemisphere, autumn is defined as starting on 1 September and ending on 1 December.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

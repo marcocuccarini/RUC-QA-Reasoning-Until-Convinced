@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process that plants use to produce food, using oxygen, carbon dioxide, ATP, and NADPH as reactants.",
+      "strength": 0.5999028201016398
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glycolysis is the process that plants use to produce food, in which oxygen, carbon dioxide, ATP, and NADPH act as reactants.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Absorbtion is the process in which oxygen, carbon dioxide, ATP, and NADPH are reactants that plants use to produce food.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chlorophyll is the process that uses oxygen, carbon dioxide, ATP, and NADPH as reactants for plants to produce food.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During the first stage, light-dependent reactions capture the energy of light and use it to make the hydrogen carrier NADPH and the energy-storage molecule ATP.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "CO2 + H2O + photons light energy → carbohydrate + O2",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The source of oxygen produced by photosynthesis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Calvin cycle uses these compounds to convert carbon dioxide and water into organic compounds that can be used by the organism (and by animals that feed on it).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Calvin cycle does not occur in the dark or during nighttime.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

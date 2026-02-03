@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water changes phase as it releases heat to the environment when puddles on a sidewalk evaporate because the Sun heats the water.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water boils as it absorbs energy from the sidewalk when water puddles on a sidewalk evaporate because the Sun heats the water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water becomes a gas as it absorbs energy from the Sun when water puddles on a sidewalk evaporate because the Sun heats the water.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water evaporates as its thermal energy is transferred to the air when the Sun heats puddles on a sidewalk.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Evaporation is an endothermic process, since heat is absorbed during evaporation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sun (solar energy) drives evaporation of water from oceans, lakes, moisture in the soil, and other sources of water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

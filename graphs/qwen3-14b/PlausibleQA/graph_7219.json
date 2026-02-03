@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was President of France for over 10 years from 1958. Georges Pompidou",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was President of France for over 10 years from 1958. François Mitterrand",
+      "strength": 0.25000000008777057
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was President of France for over 10 years from 1958. Valéry Giscard d'Estaing",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was President of France for over 10 years from 1958. DeGaulle",
+      "strength": 0.4000000909837343
+    },
+    "A4": {
+      "type": "argument",
+      "text": "François Mitterrand served as President of France from 1981 to 1995.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "François Mitterrand's presidency lasted 14 years, making him the longest-serving president in French history.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Georges Pompidou served as President of France from 1969 until his death in 1974.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Charles de Gaulle served as President of France from 1959 to 1969.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Valéry Giscard d'Estaing served as President of France from 1974 to 1981.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

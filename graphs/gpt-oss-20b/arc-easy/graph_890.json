@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The cell would continue with mitotic division if it is exposed to a chemical that inhibits the production of spindle fibers as it prepares for mitosis.",
+      "strength": 0.25000009340748447
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The cell would undergo meiotic division if it is exposed to a chemical that inhibits the production of spindle fibers while it is preparing for mitosis.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The cell would break open if it is exposed to a chemical that inhibits the production of spindle fibers while it is preparing for mitosis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The cell would not divide if it is exposed to a chemical that inhibits the production of spindle fibers while it is preparing for mitosis.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If chromosomes are not properly attached to the mitotic spindle by the time of this checkpoint, the onset of anaphase will be delayed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Failure of this spindle assembly checkpoint can result in aneuploidy and may be involved in aging and the formation of cancer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Using drugs such as nocodazole and colchicine, the mitotic spindle disassembles and the cell cycle is blocked at the metaphase-to-anaphase transition.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In what country did Bossa Nova music originate. Argentina",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In what country did Bossa Nova music originate. Portugal",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In what country did Bossa Nova music originate. Cuba",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In what country did Bossa Nova music originate. Brzil",
+      "strength": 0.2500000915578924
+    },
+    "A4": {
+      "type": "argument",
+      "text": "developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Samba combines the rhythmic patterns and feel originating in afro-Brazilian slave communities",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bossa nova is also a well-known style of Brazilian music developed and popularized in the 1950s and 1960s",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

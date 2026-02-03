@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Asian city's international airport is built at the mouth of the Tama-gawa. Osaka",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Asian city's international airport is built at the mouth of the Tama-gawa. Nagoya",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Asian city's international airport is built at the mouth of the Tama-gawa. Fukuoka",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Asian city's international airport is built at the mouth of the Tama-gawa. 東京",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tamagawa Sky Bridge connects the airport with Japan National Route 409 and Shuto Expressway Route K6 to the southwest across Tama River.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Haneda Airport (羽田空港, Haneda Kūkō; IATA: HND, ICAO: RJTT), officially Tokyo International Airport (東京国際空港, Tōkyō kokusai Kūkō) and sometimes abbreviated to Tokyo-Haneda, is the busier of the two international airports serving the Greater Tokyo Area, the other being Narita International Airport (NRT).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

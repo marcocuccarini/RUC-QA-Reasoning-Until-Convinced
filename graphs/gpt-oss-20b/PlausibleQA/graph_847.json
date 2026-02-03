@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the capital of australia victoria state. Sydney",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the capital of australia victoria state. Geelong",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the capital of australia victoria state. Ballarat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the capital of australia victoria state. Melbourne",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Melbourne ( MEL-bərn, locally [ˈmæɫbən] ; Boonwurrung/Woiwurrung: Narrm or Naarm) is the capital and most populous city of the Australian state of Victoria",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Declared a city by Queen Victoria in 1847, it became the capital of the newly separated Colony of Victoria in 1851.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "British actor Maurice Micklewhite is better known by what name. Michael White",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "British actor Maurice Micklewhite is better known by what name. Maurice Manning",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "British actor Maurice Micklewhite is better known by what name. Michael Mann",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "British actor Maurice Micklewhite is better known by what name. Cained",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Caine changed his name by deed poll to his long-time stage name, Michael Caine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was born Maurice Joseph Micklewhite and is known as Michael Caine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

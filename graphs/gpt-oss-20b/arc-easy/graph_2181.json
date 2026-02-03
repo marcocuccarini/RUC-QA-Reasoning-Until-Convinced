@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth is tilted on the axis is another reason that the phases of the Moon occur, which are daily changes in the appearance of the Moon caused by the Moon reflecting sunlight.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon rises and sets is another reason that the phases of the Moon occur, which are daily changes in the appearance of the Moon caused by its reflection of sunlight.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon orbits Earth is another reason that the phases of the Moon occur, since the phases are daily changes in the Moon’s appearance and one reason is the Moon reflecting sunlight.",
+      "strength": 0.7736521061885242
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth orbits the Sun is another reason that the phases of the Moon occur, along with the Moon reflecting sunlight, which together cause the daily changes in the Moon's appearance.",
+      "strength": 0.5999999723208136
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The angle of the Sun in relation to the Moon determines how much of the Moon is illuminated.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because the Moon is tidally locked to Earth, the cycle of phases takes one lunar month and moves across the same side of the Moon, which always faces Earth.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Moon rotates, as it orbits Earth, changing orientation toward the Sun, experiencing a lunar day.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Due to tidal locking, the Moon has a 1:1 spin–orbit resonance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

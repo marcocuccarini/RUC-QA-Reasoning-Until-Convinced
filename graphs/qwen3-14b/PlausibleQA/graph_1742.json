@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which South Korean city was the venue of the 2011 World Athletics Championships. Seoul",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which South Korean city was the venue of the 2011 World Athletics Championships. Busan",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which South Korean city was the venue of the 2011 World Athletics Championships. Incheon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which South Korean city was the venue of the 2011 World Athletics Championships. 大邱",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 13th IAAF World Championships in Athletics (Korean: 제13회 세계육상선수권대회) was an international athletics competition that was held in Daegu, South Korea.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The IAAF announced Daegu as the winning candidate at the IAAF Council Meeting in Mombasa on 27 March 2007.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Website for the IAAF World Championships in Athletics – Daegu 2011",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

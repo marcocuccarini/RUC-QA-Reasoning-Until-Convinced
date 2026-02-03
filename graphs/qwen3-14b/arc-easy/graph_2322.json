@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun appears to rise in the west and set in the east each day in the United States.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun appears to rise in the east and set in the west each day in the United States.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rise in the north and set in the south is how the Sun appears each day in the United States.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rise in the south and set in the north is how the Sun appears each day in the United States.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "in temperate regions it is always in the northeast quadrant from the March equinox to the September equinox and in the southeast quadrant from the September equinox to the March equinox",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "sunrises occur approximately due east on the March and September equinoxes for all viewers on Earth",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the Sun sets due west on the equinoxes for all viewers on Earth",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "As viewed from the Northern Hemisphere, the Sun sets to the northwest (or not at all) in the spring and summer",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

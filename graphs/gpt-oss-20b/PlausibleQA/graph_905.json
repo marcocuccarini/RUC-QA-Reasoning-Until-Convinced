@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In medicine, if something is subcutaneous it is applied or located under which organ of the body. Muscle",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In medicine, if something is subcutaneous it is applied or located under which organ of the body. Fat",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In medicine, if something is subcutaneous it is applied or located under which organ of the body. Bone",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In medicine, if something is subcutaneous it is applied or located under which organ of the body. Skin",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The subcutaneous tissue lies below the dermis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Its purpose is to attach the skin to underlying bone and muscle as well as supplying it with blood vessels and nerves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "There may not be enough drinking water for humans when a stream is polluted with floating garbage, as observed by Sheri during her field trip with her class.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "There may not be enough water in the water cycle as a result of the floating garbage pollution Sheri saw in the stream during her field trip, which could affect humans.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There may not be enough oxygen for humans to breathe because the floating garbage Sheri saw in the stream could reduce dissolved oxygen levels.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Oxygen-depleting substances may be natural materials such as plant matter (e.g. leaves and grass) as well as human-made chemicals.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Elevated water temperatures decrease oxygen levels (due to lower levels of dissolved oxygen, as gases are less soluble in warmer liquids), which can kill fish (which may then rot) and alter food chain composition, reduce species biodiversity, and foster invasion by new thermophilic species.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

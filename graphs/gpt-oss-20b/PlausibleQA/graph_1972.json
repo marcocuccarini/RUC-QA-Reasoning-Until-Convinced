@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who created arthur. PBS Kids",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who created arthur. Marc Brown",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who created arthur. Cookie Jar Entertainment",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who created arthur. WGBH",
+      "strength": 0.5000648428318698
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Marc Tolon Brown (born November 25, 1946) is an American illustrator and children's book author best known for writing and illustrating the Arthur book series",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "produced by WGBH and CINAR Films of Montreal",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Arthur is an animated television series developed by Marc Brown and Kathy Waugh",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

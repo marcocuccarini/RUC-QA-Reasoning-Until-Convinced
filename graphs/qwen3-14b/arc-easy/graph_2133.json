@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mass of 372 g is a chemical property of a substance.",
+      "strength": 0.4000036434297094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The ability to react with HCl is a chemical property of a substance.",
+      "strength": 0.6476541016901772
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Density of 37 g/cm³ is a chemical property of a substance.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White powder with silver specks is a chemical property of a substance.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical properties can be established only by changing a substance's chemical identity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "H1",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

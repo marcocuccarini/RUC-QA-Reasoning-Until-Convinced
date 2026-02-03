@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Writing a brief report is what the scientist must do in order to have the unexpected conclusion from a first‑time experiment accepted by other scientists.",
+      "strength": 0.5690757448182693
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Repeating the experiment is what the scientist must do when performing a new experiment for the first time and reaching an unexpected conclusion, in order for that conclusion to be accepted by other scientists.",
+      "strength": 0.7499372581016508
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Purchase new equipment is what a scientist must do when performing a new experiment for the first time and reaching an unexpected conclusion in order to have the conclusion accepted by other scientists.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Make a data chart is what a scientist must do when performing a new experiment for the first time, reaching an unexpected conclusion, in order to have the conclusion accepted by other scientists.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For significant or surprising results, other scientists may also attempt to replicate the results for themselves, especially if those results would be important to their own work.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Published results of experiments can also serve as a hypothesis predicting their own reproducibility.",
+      "strength": 0.4000418012174884
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Only after one or several such successful replications should a result be recognized as scientific knowledge.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A 2011 study found that 65% of medical studies were inconsistent when re-tested, and only 6% were completely reproducible.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

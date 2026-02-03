@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Use it and then dispose of it is what a student should do with a beaker that has a chip in the rim.",
+      "strength": 0.2500955085906131
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Use it and then return it to where he got it is what the student should do with a beaker that has a chip in the rim.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Dispose of the beaker and get a new one is what the student should do with a beaker that has a chip in the rim.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Put it back where he found it and get a new one is what the student should do when he finds a beaker with a chip in the rim.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Disposal with solid waste poses risks to those handling the waste and may pose unexpected risks to uninformed members of the public.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some industrial waste chemical dumps have been known to spontaneously ignite, years after the waste had been deposited.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

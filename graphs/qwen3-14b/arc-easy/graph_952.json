@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The sound is reflected more in space, which is why crews of two spaceships a similar distance apart cannot communicate by shouting, unlike the crews of two boats at sea.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The pressure is too high inside the spaceships, which is why crews of two spaceships a similar distance apart in space cannot communicate with each other by shouting, unlike crews of two boats at sea.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The spaceships are traveling faster than sound, making it impossible for their crews to communicate by shouting across a similar distance in space, unlike the crews of two boats at sea who can shout to each other.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "There is no air in space for the sound to travel through, which makes it impossible for crews of two spaceships a similar distance apart to communicate by shouting, unlike crews of two boats at sea who can shout to communicate.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sound cannot travel through a vacuum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sound requires a medium to propagate.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

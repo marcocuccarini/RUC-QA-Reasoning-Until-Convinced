@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who picks the players in the nfl draft. NFL Commissioner",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who picks the players in the nfl draft. NFL Draft Committee",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who picks the players in the nfl draft. Team Owners",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who picks the players in the nfl draft. each team",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Each team is given a position in the drafting order",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From this position, the team can either select a player or trade its position to another team for other draft positions, a player, or players, or any combination thereof",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

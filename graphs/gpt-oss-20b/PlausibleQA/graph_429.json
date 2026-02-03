@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what religions are popular in france. Islam",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what religions are popular in france. Protestantism",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what religions are popular in france. Judaism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what religions are popular in france. Catholicism",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to a 2023 Insee survey, Islam is ranked the 2nd largest religion in France.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ipsos focused on Protestants and based on 31,155 interviews found that 57.5% of the total population of France declared to be Catholic and 3.1% declared to be Protestant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

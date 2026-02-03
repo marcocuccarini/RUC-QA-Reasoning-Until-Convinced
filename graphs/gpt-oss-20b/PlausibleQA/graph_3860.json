@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who, in 1936, painted a portrait of Mae West in which her face is also a furnished room. René Magritte",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who, in 1936, painted a portrait of Mae West in which her face is also a furnished room. Max Ernst",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who, in 1936, painted a portrait of Mae West in which her face is also a furnished room. Giorgio de Chirico",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who, in 1936, painted a portrait of Mae West in which her face is also a furnished room. Dalí",
+      "strength": 0.22634596780266047
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Surrealist artist Salvador Dalí created works inspired by West, including Face of Mae West Which May Be Used as an Apartment and the Mae West Lips Sofa, completed in 1938 for Edward James.",
+      "strength": 0.5999716981983361
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Face of Mae West which may be used as a Surrealist Apartment (1934–35).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Two of the most popular objects of the Surrealist movement were Lobster Telephone (1936) and Mae West Lips Sofa (1937) which were commissioned by art patron Edward James.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

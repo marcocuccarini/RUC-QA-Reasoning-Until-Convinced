@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U.S. state of Connecticut. New Haven",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U.S. state of Connecticut. Bridgeport",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U.S. state of Connecticut. Stamford",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the capital of the U.S. state of Connecticut. Hartford",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hartford is the capital city of the U.S. state of Connecticut.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hartford alternated with New Haven as dual capitals of Connecticut from 1664, and Hartford has been the sole capital since 1875.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

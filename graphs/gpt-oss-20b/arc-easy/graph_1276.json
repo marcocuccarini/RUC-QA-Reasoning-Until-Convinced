@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Its decomposers were most likely limited in population size by the European starling’s survival and rapid reproduction throughout North America after its arrival in the late 1800s and spread across the United States by 1955.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its competitors were most likely the organisms whose population size was limited by the survival and rapid reproduction of European starlings that entered North America in the late 1800s and spread throughout the United States by 1955.",
+      "strength": 0.4309206286450958
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its mutualists were most likely limited in population size by the survival and rapid reproduction of European starlings that entered North America in the late 1800s and spread throughout the United States by 1955.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Its predators were most likely limited in population size by the European starling’s survival and rapid reproduction, which enabled the bird to spread throughout the United States from the late 1800s to 1955.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Common starlings introduced to areas such as Australia or North America, where other members of the genus are absent, may affect native species through competition for nest holes. In North America, chickadees, nuthatches, woodpeckers, purple martins and other swallows may be affected.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The species has declined in numbers in parts of northern and western Europe since the 1980s due to fewer grassland invertebrates being available as food for growing chicks.",
+      "strength": 0.4000784864081783
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Common raven (Corvus corax) population in the Mojave Desert increased due to an influx of human garbage, leading to an indirect negative effect on juvenile desert tortoises (Gopherus agassizii).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "As a consequence of this shift, predation by a shared trout predator increases for stickleback but decreases for sculpin in lakes where the two species co-occur compared to lakes in which each species occurs on its own together with trout predators.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

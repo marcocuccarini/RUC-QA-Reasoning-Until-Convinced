@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what channel does thursday night football come on regular tv. CBS",
+      "strength": 0.5999999999623462
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what channel does thursday night football come on regular tv. FOX",
+      "strength": 0.8460569429676595
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what channel does thursday night football come on regular tv. ESPN",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what channel does thursday night football come on regular tv. NBC",
+      "strength": 0.599999961499134
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Under the agreement, all of the Thursday Night Football telecasts would be produced by CBS Sports and called by CBS's primary announcing team of Jim Nantz and Phil Simms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2018, the rights shifted to Fox, through the 2022 season.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Thursday Night Football on NBC",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Fox would air eleven games per season in simulcast with NFL Network, replacing CBS and NBC.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "the NFL on Fox (also known as Fox NFL) is the branding used for broadcasts of National Football League (NFL) games produced by Fox Sports and televised on the Fox broadcast network.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

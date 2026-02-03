@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The name of which French newspaper translates as The World. Le Globe",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The name of which French newspaper translates as The World. La Terre",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The name of which French newspaper translates as The World. Le Monde Entier",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The name of which French newspaper translates as The World. Lemonde",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Le Monde is a French newspaper founded in 1944 by Hubert Beuve-Méry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Le Monde is the most widely read paid national daily newspaper in France, with 2.44 million readers in 2021.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

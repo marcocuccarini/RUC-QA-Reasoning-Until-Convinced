@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "32°C is the temperature that a thermometer should read when placed into a glass of boiling water.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "100°C is the temperature the thermometer should read when placed into a glass of boiling water.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "200°C is the temperature a thermometer should read when placed in a glass of boiling water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "212°C is the temperature the thermometer should read when placed into a glass of boiling water.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "water boils at 100°C (or with scientific precision: 99.97 °C (211.95 °F)) under standard pressure at sea level",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The normal boiling point of water is 100 °C (212 °F) at a pressure of 1 atm (101.325 kPa)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

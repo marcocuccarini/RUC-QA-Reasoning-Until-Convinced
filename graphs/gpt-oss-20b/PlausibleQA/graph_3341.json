@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tuesday marks the birthday of lat night tv host David Letterman. What broadcast channel hosts his show. NBC",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tuesday marks the birthday of lat night tv host David Letterman. What broadcast channel hosts his show. ABC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tuesday marks the birthday of lat night tv host David Letterman. What broadcast channel hosts his show. FOX",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tuesday marks the birthday of lat night tv host David Letterman. What broadcast channel hosts his show. CBS",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He hosted late-night television talk shows for 33 years, beginning with the February 1, 1982, debut of Late Night with David Letterman on NBC",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When NBC instead gave the job to Jay Leno, Letterman departed NBC to host his own late-night show on CBS",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "CBS announced that his successor as the host of the program would be Stephen Colbert",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Late Show with David Letterman is an American late-night talk show hosted by David Letterman on CBS, the first iteration of the Late Show franchise",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

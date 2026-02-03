@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the O’Haras’ plantation in ‘Gone with the Wind’. Tara Heights",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the O’Haras’ plantation in ‘Gone with the Wind’. Oakwood Manor",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the O’Haras’ plantation in ‘Gone with the Wind’. Willowdale",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the O’Haras’ plantation in ‘Gone with the Wind’. Qbs",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Scarlett O'Hara lives at Tara, her family's cotton plantation in Georgia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tara is the name of the O’Haras’ plantation in ‘Gone with the Wind’.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To simulate the air pressure of Earth, a spacesuit is inflated like a balloon.",
+      "strength": 0.43110579353260003
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The spacesuit is inflated like a balloon to help astronauts float in outer space.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To protect astronauts from solar radiation, a spacesuit is inflated like a balloon.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Providing an oxygen supply for breathing is why a spacesuit is inflated like a balloon.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The bladder layer is a rubbery, airtight layer much like a balloon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since the bladder is not under pressure, it will not 'pop' like a balloon, even if punctured.",
+      "strength": 0.40000009469685094
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A can is crushed after boiling water inside it, then moved into a tub of ice-cold water.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "These devices use nearly pure oxygen at about one-third normal pressure, resulting in a normal blood partial pressure of O2.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In the case of spacesuits, the O2 partial pressure in the breathing gas is, in general, about 30 kPa (1.4 times normal), and the resulting O2 partial pressure in the astronaut's arterial blood is only marginally more than normal sea-level O2 partial pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tu is the clothing brand of supermarket chain. George at Asda",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tu is the clothing brand of supermarket chain. F&F at Tesco",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tu is the clothing brand of supermarket chain. Tu at Sainsbury's",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tu is the clothing brand of supermarket chain. SL Shaw",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tu is a British home brand fashion label from the supermarket Sainsbury's.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Tu brand was founded in 2004 by Sainsbury's as a replacement for the Jeff & Co range designed by Jeff Banks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

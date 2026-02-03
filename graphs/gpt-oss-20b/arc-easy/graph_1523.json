@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Conduction caused the repulsion of the negative charges in the small pieces of paper when a negatively charged rubber rod was brought near them.",
+      "strength": 0.25009174651106497
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravitation caused the repulsion of the negative charges in the small pieces of paper when a negatively charged rubber rod was brought near them, as the rod’s charges repelled the negative charges in the pieces.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Induction caused the repulsion of the negative charges in the small pieces of paper when a negatively charged rubber rod was brought near them.",
+      "strength": 0.4999389333206876
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Insulation caused the repulsion of the negative charges in the small pieces of paper when a negatively charged rubber rod was brought near them.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the electrons in the metal will be attracted toward it and move to the side of the object facing it",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since the negative charges are now closer to the external charge than the positive charges, their attraction is greater than the repulsion of the positive charges, resulting in a small net attraction of the molecule toward the charge",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A charged object brought close to an electrically neutral conductive object causes a separation of charge within the neutral object.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

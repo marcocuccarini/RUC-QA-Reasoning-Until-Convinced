@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the Romanian gymnast who scored the first ever perfect ten at the Olympic Games of 1976. Ecaterina Szabo",
+      "strength": 0.40000003811777657
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the Romanian gymnast who scored the first ever perfect ten at the Olympic Games of 1976. Lavinia Milosovici",
+      "strength": 0.40000003811777657
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the Romanian gymnast who scored the first ever perfect ten at the Olympic Games of 1976. Simona Amanar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the Romanian gymnast who scored the first ever perfect ten at the Olympic Games of 1976. Comaneci",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1976, at age 14, Comăneci was the first gymnast to be awarded a perfect score of 10.0 at the Olympic Games.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nadia Comăneci – First Olympics Perfect 10 (Uneven Bars) – Montreal 1976 Olympics – The Olympic Channel, 2015",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Nadia Comăneci makes history at the Montreal 1976 Olympics – The Olympic Channel, 2010",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

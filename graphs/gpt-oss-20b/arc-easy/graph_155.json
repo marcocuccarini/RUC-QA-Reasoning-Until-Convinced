@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Its path widens as a light ray passes from air into water at an angle.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its path bends when a light ray passes from air into water at an angle.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its path becomes shorter as a light ray passes from air into water at an angle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Its path continues in a straight line as a light ray passes from air into water at an angle.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When light enters a slower medium at an angle, one side of the wavefront is slowed before the other. This asymmetrical slowing of the light causes it to change the angle of its travel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Refraction occurs when light goes through a water surface since water has a refractive index of 1.33 and air has a refractive index of about 1.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

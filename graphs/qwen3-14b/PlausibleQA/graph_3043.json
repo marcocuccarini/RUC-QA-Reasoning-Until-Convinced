@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Elizabeth Taylor made a fortune from what business aside from acting. Jewelry",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Elizabeth Taylor made a fortune from what business aside from acting. Real Estate",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Elizabeth Taylor made a fortune from what business aside from acting. Fashion",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Elizabeth Taylor made a fortune from what business aside from acting. Parfum",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Taylor also founded a jewelry company, House of Taylor, in collaboration with Kathy Ireland and Jack and Monty Abramov.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "she earned more money through the fragrance collection than during her entire acting career, and upon her death, the British newspaper The Guardian estimated that the majority of her estimated $600 million-$1 billion estate consisted of revenue from fragrances.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Isotopes are atoms of the same element that differ in their numbers of neutrons.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Reactions are atoms of the same element that differ in their numbers of neutrons.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Organisms are atoms of the same element that differ in their numbers of neutrons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Opposites are atoms of the same element that differ in their numbers of neutrons.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Isotopes are distinct nuclear species (or nuclides) of the same chemical element. They have the same atomic number (number of protons in their nuclei) and position in the periodic table (and hence belong to the same chemical element), but different nucleon numbers (mass numbers) due to different numbers of neutrons in their nuclei.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Each atomic number identifies a specific element, but not the isotope; an atom of a given element may have a wide range in its number of neutrons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

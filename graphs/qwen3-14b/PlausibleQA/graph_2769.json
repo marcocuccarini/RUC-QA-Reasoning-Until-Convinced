@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city is also known as Wien. Vienna",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city is also known as Wien. Berlin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city is also known as Wien. Munich",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city is also known as Wien. Wien",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vienna is the capital, most populous city, and one of the nine states of Austria. It is Austria's primate city, with just over two million inhabitants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the German name for the city, Wien – of which Vienna is a Latinized form – is unrelated, deriving from the River Wien",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

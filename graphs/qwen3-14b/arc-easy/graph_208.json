@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Eclipses occur as a result of the gravitational attraction between the moon and Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ocean tides are phenomena that occur as a result of the gravitational attraction between the moon and Earth.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Seasonal changes are phenomena that occur as a result of the gravitational attraction between the moon and Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Phases of the moon are phenomena that occur as a result of the gravitational attraction between the moon and Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tides are the rise and fall of sea levels caused by the combined effects of the gravitational forces exerted by the Moon (and to a much lesser extent, the Sun).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The tidal force produced by a massive object (Moon, hereafter) on a small particle located on or in an extensive body (Earth, hereafter) is the vector difference between the gravitational force exerted by the Moon on the particle, and the gravitational force that would be exerted on the particle if it were located at the Earth's center of mass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. E.T. the Extra-Terrestrial",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. Labyrinth",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. The Dark Crystal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What movie featured a cute Mogwai that looked like a Furby. Gremlins",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The story follows Billy Peltzer, who receives Gizmo as a pet, who then spawns more of his kind that evolve into the titular imp-like monsters that wreak havoc on Billy's hometown during Christmas Eve.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gizmo is friendly and docile, but when Billy's friend, Pete Fountaine, accidentally spills water on Gizmo, five more mogwai spawn from him.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

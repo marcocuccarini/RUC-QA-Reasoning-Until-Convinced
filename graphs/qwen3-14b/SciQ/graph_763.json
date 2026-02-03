@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kinetic theory states that there is no interaction between individual gas particles.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Viscosity theory states that there is no interaction between individual gas particles.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vortex theory states that there is no interaction between individual gas particles.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Avoidance theory states that there is no interaction between individual gas particles.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Interactions (i.e. collisions) between particles are strictly binary and uncorrelated, meaning that there are no three-body (or higher) interactions, and the particles have no memory.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They exert no other forces on one another.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

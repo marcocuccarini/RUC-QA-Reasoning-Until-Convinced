@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrical to heat is the energy conversion that occurs in a household toaster.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Heat to chemical is the energy conversion that occurs in a household toaster, converting electrical energy into heat that changes the chemical structure of the toasted bread.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrical to chemical is the energy conversion that occurs in a household toaster.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Heat to mechanical is the energy conversion performed by a household toaster.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When cooked the bread browns due to the maillard reaction.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A toaster is a small electric appliance that uses radiant heat to cook sliced bread into toast.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Electric heater (electric energy → heat)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

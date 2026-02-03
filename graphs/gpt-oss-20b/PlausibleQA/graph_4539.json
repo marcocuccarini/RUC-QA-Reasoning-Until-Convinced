@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. Oliver Twist",
+      "strength": 0.07539238614708396
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. David Copperfield",
+      "strength": 0.4000876126562776
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. Great Expectations",
+      "strength": 0.4000000000230678
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous book features the character of Bob Cratchit. Fezziwigs",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bob Cratchit is a fictional character in the Charles Dickens 1843 novel A Christmas Carol.",
+      "strength": 0.7737555314089988
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The character of Bob Cratchit has been featured in works based on A Christmas Carol.",
+      "strength": 0.5999999759368713
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The character of Bob Cratchit (A Christmas Carol);",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Pip, Miss Havisham, Estella and Abel Magwitch (Great Expectations);",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "A Christmas Carol is an 1843 novella by Charles Dickens.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "A Christmas Carol (1908 film), a silent film starring Thomas Ricketts.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Bob Cratchit was a clerk in the novella.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Scrooge regretted mistreating his clerk, Bob Cratchit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

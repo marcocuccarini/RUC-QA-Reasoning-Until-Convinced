@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nitrogen is chemically inert, and it is a gas that has a significant effect on the climates of both Earth and Venus.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sodium vapor reflects solar energy, a characteristic of a gas that significantly influences the climates of both Earth and Venus.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide traps solar energy, a characteristic of a gas that has a significant effect on the climates of both Earth and Venus.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Argon is unable to react with water, a characteristic of a gas that has a significant effect on the climates of both Earth and Venus.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The greenhouse effect on Venus is particularly large, and it brings the surface temperature to as high as 735 K (462 °C; 863 °F). This is due to its very dense atmosphere which consists of about 97% carbon dioxide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Greenhouse gases... contribute to the trapping of heat by impeding the flow of longwave radiation out of a planet's atmosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

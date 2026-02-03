@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The whistle material to shake is what causes a whistle to produce a sound when air is blown into it.",
+      "strength": 0.5999999723208136
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The air inside the whistle to vibrate is what causes a whistle to produce a sound when air is blown into it.",
+      "strength": 0.7736521061885242
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The air being absorbed by the whistle causes a whistle to produce a sound when blowing air into it.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The air in the whistle heats up and expands when blown, causing the whistle to produce a sound.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The conversion of flow energy to sound comes from an interaction between a solid material and a fluid stream.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A whistle is a musical instrument which produces sound from a stream of gas, most commonly air.",
+      "strength": 0.5999711264640173
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sound is a vibration that propagates as an acoustic wave through a transmission medium such as a gas, liquid or solid.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sound can propagate through a medium such as air, water and solids as longitudinal waves and also as a transverse wave in solids.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

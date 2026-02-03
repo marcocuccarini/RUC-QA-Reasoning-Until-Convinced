@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who had won the first grammy award for the best new artist. Ella Fitzgerald",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who had won the first grammy award for the best new artist. Andy Williams",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who had won the first grammy award for the best new artist. Connie Francis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who had won the first grammy award for the best new artist. Bobby Darin",
+      "strength": 0.499908892498724
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ella Fitzgerald, Count Basie, Domenico Modugno, Ross Bagdasarian, and Henry Mancini, each won 2 awards.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bobby Darin is also awarded Best New Artist.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

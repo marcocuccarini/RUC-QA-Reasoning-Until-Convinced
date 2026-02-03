@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what did randy savage died of. Heart Attack",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what did randy savage died of. Stroke",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what did randy savage died of. Cancer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what did randy savage died of. Traffic collision",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An autopsy performed by the medical examiner's office found that he had an enlarged heart and advanced coronary artery disease (more than 90% narrowed) which had resulted in a sudden heart attack.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The cause of death was officially ruled as atherosclerotic heart disease.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

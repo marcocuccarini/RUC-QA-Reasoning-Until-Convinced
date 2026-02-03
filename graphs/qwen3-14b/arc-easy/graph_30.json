@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bifocal lens was invented by Benjamin Franklin.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Telescope lens was invented by Benjamin Franklin.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Telephone was invented by Benjamin Franklin.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Camera was invented by Benjamin Franklin.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Benjamin Franklin is generally credited with the invention of bifocals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the evidence implies, however, that when he sought to order lenses of this type the London opticians were already familiar with them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

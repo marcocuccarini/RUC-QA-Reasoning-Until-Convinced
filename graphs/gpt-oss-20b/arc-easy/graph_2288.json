@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical energy changes to light energy is an energy change that takes place in a light bulb.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemical energy changes to heat energy is the energy change that takes place in a light bulb.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrical energy changes to light energy is an energy change that takes place in a light bulb.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electrical energy changes to chemical energy in a light bulb.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An incandescent light bulb, also known as an incandescent lamp or incandescent light globe, is an electric light that produces illumination by Joule heating a filament until it glows.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electric current is supplied to the filament by terminals or wires embedded in the glass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

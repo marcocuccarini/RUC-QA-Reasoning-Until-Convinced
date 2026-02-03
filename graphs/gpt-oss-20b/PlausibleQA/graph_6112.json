@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country was invaded by Iraq in 1990. Saudi Arabia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country was invaded by Iraq in 1990. Israel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country was invaded by Iraq in 1990. Jordan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country was invaded by Iraq in 1990. KUW",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Iraqi invasion of Kuwait, codenamed Project 17, began on 2 August 1990 and marked the beginning of the Gulf War.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After defeating the State of Kuwait on 4 August 1990, Iraq went on to militarily occupy the country for the next seven months.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

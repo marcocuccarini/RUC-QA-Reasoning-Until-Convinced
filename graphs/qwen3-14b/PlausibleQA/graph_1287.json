@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Voluntary",
+      "strength": 0.5999999160114282
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Efferent",
+      "strength": 0.5999999160114282
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Peripheral",
+      "strength": 0.4000876126562776
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "all the motor neurons that control the skeletal muscles are. Somatic",
+      "strength": 0.5999123873437223
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The somatic nervous system controls all voluntary muscular systems within the body",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The somatic nervous system consists of nerves carrying efferent nerve fibers, which relay motor commands from the CNS to stimulate muscle contraction",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Somatic motor neurons originate in the central nervous system",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Somatic motor neurons project their axons to skeletal muscles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

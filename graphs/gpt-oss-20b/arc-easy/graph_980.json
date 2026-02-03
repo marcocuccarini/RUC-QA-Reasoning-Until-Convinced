@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The climate was once colder is inferred from the discovery of fossils of ocean shells on a mountain top.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The shells were carried by the wind, which explains why a scientist found fossils of ocean shells on a mountain top.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The mountain was covered by water, as indicated by a scientist finding fossils of ocean shells on its top.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The shells once lived on dry land is a statement that can be made based on a scientist finding fossils of ocean shells on a mountain top.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sedimentary rocks can contain fossils because, unlike most igneous and metamorphic rocks, they form at temperatures and pressures that do not destroy fossil remains.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dead organisms in nature are usually quickly removed by scavengers, bacteria, rotting and erosion, but under exceptional circumstances, these natural processes are unable to take place, leading to fossilisation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

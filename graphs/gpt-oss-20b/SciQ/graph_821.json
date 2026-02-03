@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive is the system in which foodborne illness, food allergies, or a food intolerance cause symptoms.",
+      "strength": 0.8460568465073258
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Respiratory is the system in which foodborne illness, food allergies, or a food intolerance cause symptoms.",
+      "strength": 0.7499999027986369
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Circulatory is the system in which foodborne illness, food allergies, or a food intolerance cause symptoms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Skeletal is the system that foodborne illness, food allergies, or a food intolerance cause symptoms in.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They may include itchiness, swelling of the tongue, vomiting, diarrhea, hives, trouble breathing, or low blood pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Respiratory tract symptoms can include nasal congestion, sinusitis, pharyngeal irritations, asthma and an unproductive cough.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "GIT symptoms include mouth ulcers, abdominal cramp, nausea, gas, intermittent diarrhea, constipation, irritable bowel syndrome (IBS), and may include anaphylaxis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "They often include vomiting, fever, aches, and diarrhea.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

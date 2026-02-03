@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). Jacques Anquetil",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). Fausto Coppi",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). Bernard Hinault",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). TOM SIMPSON",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fausto Coppi set the hour record (45.798 km) in 1942",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The record stood until it was beaten by Jacques Anquetil in 1956",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

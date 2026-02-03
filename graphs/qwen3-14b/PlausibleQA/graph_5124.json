@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An encephalogram is an X-Ray photograph of which part of the human body. Skull",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An encephalogram is an X-Ray photograph of which part of the human body. Spinal Cord",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An encephalogram is an X-Ray photograph of which part of the human body. Eyes",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An encephalogram is an X-Ray photograph of which part of the human body. Brain",
+      "strength": 0.25009548836582807
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electroencephalography (EEG) is a method to record an electrogram of the spontaneous electrical activity of the brain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Traditional plain X-rays are less useful in the imaging of soft tissues such as the brain or muscle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

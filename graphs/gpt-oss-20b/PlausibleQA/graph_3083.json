@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has access to the presidential daily briefing. National Security Council",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has access to the presidential daily briefing. Vice President",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has access to the presidential daily briefing. Secretary of State",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has access to the presidential daily briefing. Defense",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The National Security Council (NSC) is the national security council used by the president of the United States for consideration of national security, military, and foreign policy matters.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The regular attendees of the Principals Committee are the secretary of state, the secretary of the treasury, the secretary of defense, the attorney general, the secretary of energy, the secretary of homeland security, the White House chief of staff, the director of national intelligence, the chairman of the Joint Chiefs of Staff, the director of the Central Intelligence Agency, the homeland security advisor, and the United States ambassador to the United Nations.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The distribution list has varied over time but has always or almost always included the vice president, secretaries of State and Defense and the national security advisor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

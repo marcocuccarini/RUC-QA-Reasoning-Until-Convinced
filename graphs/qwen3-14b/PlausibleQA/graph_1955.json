@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was executed for being an american spy during the revolutionary war. Benedict Arnold",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was executed for being an american spy during the revolutionary war. John André",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was executed for being an american spy during the revolutionary war. Ethan Allen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was executed for being an american spy during the revolutionary war. Nathan Hale",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John André was captured, convicted of espionage by the Continental Army, and executed by hanging on George Washington's orders.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nathan Hale was captured and executed by the British, not by the Continental Army.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

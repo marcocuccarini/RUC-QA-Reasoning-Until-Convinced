@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Long hair is a trait that children can inherit from their parents.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Favorite color is a trait that children can inherit from their parents.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Brown eyes is a trait that children can inherit from their parents.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A broken arm is a trait that children can inherit from their parents.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eye color is an inherited trait determined by multiple genes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The genetics of eye color are so complex that almost any parent-child combination of eye colors can occur.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

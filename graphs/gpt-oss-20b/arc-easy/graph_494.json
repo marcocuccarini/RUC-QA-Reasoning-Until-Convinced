@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The muscles pull on the bones to create body movement.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The muscles protect the bones when muscles and bones work together to create body movement.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Muscles grow at the same rate as bones when they work together to create body movement.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Muscles send electrical impulses to bones when muscles and bones work together to create body movement.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tendons attach the muscles to bones to give skeletal movement.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Commands are routed through the basal ganglia and are modified by input from the cerebellum before being relayed through the pyramidal tract to the spinal cord and from there to the motor end plate at the muscles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

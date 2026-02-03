@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which city was the capital of Italy from 1865 to 1871. Rome",
+      "strength": 0.39999990672962604
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which city was the capital of Italy from 1865 to 1871. Milan",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which city was the capital of Italy from 1865 to 1871. Naples",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which city was the capital of Italy from 1865 to 1871. פירנצה",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1871 the capital of Italy was moved from Florence to Rome.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rome then became the focus of hopes of Italian reunification after the rest of Italy was united as the Kingdom of Italy in 1861 with the temporary capital in Florence.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rome was declared the capital of Italy even though it was still under the Pope's control.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the capital was moved from Turin to Florence.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The 1995 autobiography ‘Dreams From My Father’ is by which US politician. Bill Clinton",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The 1995 autobiography ‘Dreams From My Father’ is by which US politician. Al Gore",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The 1995 autobiography ‘Dreams From My Father’ is by which US politician. Hillary Clinton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The 1995 autobiography ‘Dreams From My Father’ is by which US politician. OBAMA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Dreams from My Father, Obama ties his mother's family history to possible Native American ancestors and distant relatives of Jefferson Davis, President of the Confederate States of America during the American Civil War.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The manuscript was published in mid-1995 as Dreams from My Father.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

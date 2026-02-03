@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "When was the first road speed limit set in the UK for powered vehicles. 1830",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "When was the first road speed limit set in the UK for powered vehicles. 1890",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "When was the first road speed limit set in the UK for powered vehicles. 1840",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "When was the first road speed limit set in the UK for powered vehicles. 1861",
+      "strength": 0.49991247133229455
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A backlash against these large vehicles being used on roads resulted in legislation such as the UK Locomotives Act 1865.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1861 Act introduced a UK speed limit of 10 mph (16 km/h) on open roads in town.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first numeric speed limit for mechanically propelled road vehicles was the 10 mph (16 km/h) limit introduced in the United Kingdom in 1861.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

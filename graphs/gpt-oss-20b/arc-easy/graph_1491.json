@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Balance is why the bicyclist’s bicycle stops after riding on a flat road and stopping pedaling without applying the brakes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Friction is the reason the bicycle stops when a bicyclist rides on a flat road, stops pedaling, and does not apply the brakes.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Attraction is why the bicyclist’s bicycle stops after riding on a flat road, when the bicyclist stops pedaling but does not apply the brakes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Magnetism is the reason the bicycle stops when a bicyclist rides on a flat road, stops pedaling, and does not apply the brakes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Any coasting wheeled vehicle will gradually slow down due to rolling resistance including that of the bearings",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The primary cause of pneumatic tire rolling resistance is hysteresis",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

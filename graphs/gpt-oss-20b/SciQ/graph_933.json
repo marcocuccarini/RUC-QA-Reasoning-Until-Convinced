@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The pupil is the part of the eye that allows light to enter.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Eyelid is the part of the eye that allows light to enter.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Retina is the part of the eye that allows light to enter.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The iris is the part of the eye that allows light to enter.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Light enters the eye through the pupil, and the iris regulates the amount of light by controlling the size of the pupil.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In bright light, the pupils constrict to prevent aberrations of light rays and thus attain their expected acuity; in the dark, this is not necessary, so it is chiefly concerned with admitting sufficient light into the eye.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

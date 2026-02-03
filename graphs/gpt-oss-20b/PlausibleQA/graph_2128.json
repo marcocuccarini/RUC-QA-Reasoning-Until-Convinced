@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first US president Barbara Walters interviewed. Jimmy Carter",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first US president Barbara Walters interviewed. Gerald Ford",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first US president Barbara Walters interviewed. Ronald Reagan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first US president Barbara Walters interviewed. Nixon",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During her career, Walters interviewed every sitting U.S. president and first lady from Richard and Pat Nixon to Barack and Michelle Obama.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Her first guests included a joint appearance by President-elect Jimmy Carter and Rosalynn Carter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

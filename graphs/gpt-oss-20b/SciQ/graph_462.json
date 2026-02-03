@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Glacier is the agent that deposits a moraine as sediment.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Human-caused scarring is the sediment deposited by a moraine.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "River erosion is the process that deposits a moraine.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wind is the agent that deposits sediment to form a moraine.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Active processes form or rework moraine sediment directly by the movement of ice.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Moraine is an accumulation of unconsolidated debris carried along by a glacier or ice sheet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

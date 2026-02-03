@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Statue of Liberty, officially presented to the United States on July 4, 1884, holds a torch and a tablet. In what hand is the torch held. Left",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Statue of Liberty, officially presented to the United States on July 4, 1884, holds a torch and a tablet. In what hand is the torch held. Both",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Statue of Liberty, officially presented to the United States on July 4, 1884, holds a torch and a tablet. In what hand is the torch held. Neither",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Statue of Liberty, officially presented to the United States on July 4, 1884, holds a torch and a tablet. In what hand is the torch held. Right",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "she holds a torch above her head with her right hand",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "in her left hand carries a tabula ansata inscribed JULY IV MDCCLXXVI",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

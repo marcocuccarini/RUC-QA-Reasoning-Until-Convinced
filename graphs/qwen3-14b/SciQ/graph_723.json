@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kinetic energy is what a car loses when it is brought to a stop by friction on level ground.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Residual energy is what a car loses when it is brought to a stop by friction on level ground.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Exhibit energy is what a car loses when it is brought to a stop by friction on level ground.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mass energy is what a car loses when it is brought to a stop by friction on level ground.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For example, a car traveling twice as fast as another requires four times as much distance to stop, assuming a constant braking force. As a consequence of this quadrupling, it takes four times the work to double the speed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The kinetic energy of a moving object is equal to the work required to bring it from rest to that speed, or the work the object can do while being brought to rest: net force × displacement = kinetic energy, i.e., F s = 1/2 m v².",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

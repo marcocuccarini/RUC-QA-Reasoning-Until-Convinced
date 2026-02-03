@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "nuclear power plant that blew up in russia. Kursk Nuclear Power Plant",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "nuclear power plant that blew up in russia. Smolensk Nuclear Power Plant",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "nuclear power plant that blew up in russia. Leningrad Nuclear Power Plant",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "nuclear power plant that blew up in russia. Chernobyl",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 26 April 1986, the no. 4 reactor of the Chernobyl Nuclear Power Plant exploded.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Chernobyl Nuclear Power Plant, located near Pripyat, a city in the Ukrainian SSR, Soviet Union (now Ukraine)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Map of residual radioactivity around Chernobyl",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Photographs from inside the zone of alienation and City of Prypyat (2010)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

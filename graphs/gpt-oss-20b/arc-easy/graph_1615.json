@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mars is the fourth planet from the Sun in our solar system.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earth is the fourth planet from the Sun in our solar system.",
+      "strength": 0.25000009340748447
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Venus is the fourth planet from the Sun in our solar system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Jupiter is the planet that is fourth from the Sun in our solar system.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Earth is the third planet from the Sun.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earth orbits the Sun, making Earth the third-closest planet to the Sun and part of the inner Solar System.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Closest to the Sun in order of increasing distance are the four terrestrial planets – Mercury, Venus, Earth and Mars.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

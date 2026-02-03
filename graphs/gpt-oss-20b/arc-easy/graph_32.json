@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A solar-powered calculator is a device that directly converts chemical energy into electrical energy.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A wood‑burning stove directly converts chemical energy into electrical energy.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A battery-powered flashlight directly converts chemical energy into electrical energy.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A wind‑powered sailboat is a device that directly converts chemical energy into electrical energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Batteries are storage media of chemical energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When a fuel is burned, the chemical energy of molecular oxygen and the fuel is converted to heat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

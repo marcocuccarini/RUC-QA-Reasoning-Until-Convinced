@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A planet is a bright object with a long tail of glowing gases that is in orbit around the Sun.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A star is the bright object with a long tail of glowing gases that is in orbit around the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An asteroid is a bright object with a long tail of glowing gases that is in orbit around the Sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A comet is a bright object with a long tail of glowing gases that orbits around the Sun.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ion tails have been observed to extend one astronomical unit (150 million km) or more.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As a comet approaches the inner Solar System, solar radiation causes the volatile materials within the comet to vaporize and stream out of the nucleus, carrying dust away with them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. Ester-like compound",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. Amide",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. Ether",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What common chemical compound type, including many natural fats and essential oils, results from replacing the hydrogen of an acid by an alkyl or other organic group. COOR",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Esters are formed by replacing the hydrogen of a carboxylic acid with an organyl group (R').",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Esters are commonly represented by the formula RCOOR', where R and R' are organyl groups.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

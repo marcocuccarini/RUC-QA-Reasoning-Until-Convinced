@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air density and pressure are lower when gas molecules are warm.",
+      "strength": 0.25009741501474514
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They are unchanged when gas molecules are warm, meaning that air density and pressure do not change.",
+      "strength": 0.4000000574365435
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They are equal when gas molecules are warm.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They are greater when gas molecules are warm, indicating that air density and pressure increase.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ideal gas law (PV = nRT) is most accurate for monatomic gases at high temperatures and low pressures, indicating that higher temperatures reduce the influence of molecular size and intermolecular forces on pressure and density.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the kinetic theory derivation, pressure is directly proportional to the average kinetic energy of molecules (which increases with temperature), suggesting that higher temperatures lead to increased pressure if volume is held constant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

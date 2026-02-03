@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The cocktail called a Tom Collins consists of lemon or lime juice, sugar, soda water and what else. Rum",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The cocktail called a Tom Collins consists of lemon or lime juice, sugar, soda water and what else. Vodka",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The cocktail called a Tom Collins consists of lemon or lime juice, sugar, soda water and what else. Whiskey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The cocktail called a Tom Collins consists of lemon or lime juice, sugar, soda water and what else. GIN",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Tom Collins is a Collins cocktail made from gin, lemon juice, sugar, and carbonated water.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jerry Thomas' Tom Collins gin instructed: ... 1 wine glass full of Old Tom gin ...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

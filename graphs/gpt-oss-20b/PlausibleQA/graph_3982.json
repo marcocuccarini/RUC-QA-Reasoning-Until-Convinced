@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. Toyota",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. Ford",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. Nissan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. SUZUKI",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Suzuki Jimny (Japanese: スズキ・ジムニー, Suzuki Jimunī) is a series of four-wheel drive off-road mini SUVs, manufactured and marketed by Japanese automaker Suzuki since 1970.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Jimny was manufactured and marketed by Japanese automaker Suzuki.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The apple trees could not make leaves if pesticides killed all the pollinators near them.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The trees could not make flowers if pesticides killed all the pollinators near some apple trees.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The trees could not make seeds if pesticides kill all the pollinators near some apple trees.",
+      "strength": 0.06040538944430567
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The trees could not make bark if pesticides killed all the pollinators near some apple trees.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "More than 87.5% of angiosperms, over 75% of tropical tree species, and 30–40% of tree species in temperate regions depend on pollination and seed dispersal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The vicinity of a forest or wild grasslands with native pollinators near agricultural crops, such as apples, almonds or coffee can improve their yield by about 20%.",
+      "strength": 0.599999999732683
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Honey bees and orchard mason bees are used by apple growers to carry pollen during flowering.",
+      "strength": 0.599999999732683
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Cultivars are sometimes classified by the day of peak bloom in the average 30-day blossom period, with pollinizers selected from cultivars within a 6-day overlap period.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Bees care for their brood, they need to collect more food than just to maintain themselves, and therefore are important pollinators.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "A decline, for whatever reason, to one side of this partnership can be catastrophic for the other.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The transfer of pollen (the male gametophytes) to the female stigmas occurs is called pollination. After pollination occurs, the pollen grain germinates to form a pollen tube that grows through the carpel's style and transports male nuclei to the ovule to fertilize the egg cell and central cell within the female gametophyte in a process termed double fertilization.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Apples, blueberries, and cherries are 90% dependent on honeybee pollination.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "No crops originating in the New World depend on the western honey bee, as the bee is an invasive species.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

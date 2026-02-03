@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Heat island is the human‑produced effect that urban weather stations—built in areas surrounded by structures and used to determine mean temperatures in the United States—may be measuring, potentially compromising the validity of their data.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rain shadow is the human-produced effect that urban weather stations could be measuring, potentially affecting the validity of mean temperature data in the United States.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Land breeze is the human‑produced effect that urban weather stations built in the United States may be measuring, potentially compromising the validity of their mean temperature data.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cold front is the human‑produced effect that could be measured by weather stations built in urban areas, whose data—used to determine mean temperatures in the United States—have had their validity questioned due to influence from surrounding human‑made structures.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If a city or town has a good system of taking weather observations the UHI can be measured directly.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One 1999 comparison between urban and rural areas proposed that urban heat island effects have little influence on global mean temperature trends.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Increased urban land use and occupation alters the local thermal field resulting in the development of warmer regions known as urban heat islands (UHIs).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

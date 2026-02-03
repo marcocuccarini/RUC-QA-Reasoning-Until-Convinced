@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of two tyrants who ruled Syracuse in the 2nd century BC. Agathocles",
+      "strength": 0.49990326586195494
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of two tyrants who ruled Syracuse in the 2nd century BC. Hiero",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of two tyrants who ruled Syracuse in the 2nd century BC. Pyrrhus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of two tyrants who ruled Syracuse in the 2nd century BC. Dionisis",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Agathocles of Syracuse was a tyrant from 317 BC and king of much of Sicily from 304 BC until his death.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hiero II was the Greek tyrant of Syracuse from 275 to 215 BC.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Agathocles was the late tyrant of Syracuse, whose mercenaries the Mamertines had seized Messina from.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

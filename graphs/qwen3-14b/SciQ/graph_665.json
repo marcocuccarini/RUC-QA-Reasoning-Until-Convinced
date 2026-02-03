@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrocarbons are the simplest organic compounds.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Proteins are the simplest organic compounds.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Enzymes are the simplest organic compounds.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbohydrates are the simplest organic compounds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Alkanes, such as ethane, are considered organic compounds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The modern definition of organic compounds includes any carbon-containing compound, excluding some traditionally considered inorganic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

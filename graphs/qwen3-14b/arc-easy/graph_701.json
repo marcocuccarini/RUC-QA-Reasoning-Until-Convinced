@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "North is the direction that should face the windows added to the walls of a plant‑growing room in a northern state, allowing enough light to enter for healthy plant growth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "South is the direction that windows should face to best solve the problem of insufficient light for healthy plant growth in a room used for growing plants in a northern state.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "East is the direction to which windows should be added on the walls of a plant‑growing room in a northern state to allow enough light for healthy plant growth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "West is the direction in which windows should be added to a northern state plant‑growing room to allow enough light for healthy plant growth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A vertical window facing south (equator side) is effective for capturing solar thermal energy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the Northern Hemisphere, the winter sun... is on the south (equator) side of the house all day long.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

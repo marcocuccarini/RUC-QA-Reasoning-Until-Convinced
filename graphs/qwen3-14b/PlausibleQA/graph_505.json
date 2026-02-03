@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Missionary",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Philosopher",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Leader",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Writer",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paul spread the teachings of Jesus in the first-century AD and founded several Christian communities in Asia Minor and Europe.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main sources of information on Paul's life and works are Paul's letters and the Acts of the Apostles in the New Testament.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Most scholars believe that Paul actually wrote seven of the thirteen Pauline epistles (Galatians, Romans, 1 Corinthians, 2 Corinthians, Philemon, Philippians, 1 Thessalonians), while three of the epistles in Paul's name are widely seen as pseudepigraphic (1 Timothy, 2 Timothy, and Titus).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Paul explicitly states in multiple epistles that he used secretaries, sometimes mentioned by name, a potential explanation for seemingly non-Pauline epistles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many grooves are there on a 45rpm record. 1",
+      "strength": 0.2500881490789106
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many grooves are there on a 45rpm record. 3",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many grooves are there on a 45rpm record. 4",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many grooves are there on a 45rpm record. 2",
+      "strength": 0.4000000562992237
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vinyl could have up to 260 grooves per inch.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There is no specific number of grooves per 45 rpm record given in the text.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

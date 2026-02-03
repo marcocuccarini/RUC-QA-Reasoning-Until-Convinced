@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British university was the first to throw open all degrees to women (in 1878). University of Cambridge",
+      "strength": 0.2500000915578924
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British university was the first to throw open all degrees to women (in 1878). University of Oxford",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British university was the first to throw open all degrees to women (in 1878). University of Edinburgh",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British university was the first to throw open all degrees to women (in 1878). GBLON",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Female students were granted the right to take University of Cambridge exams beginning in the late 19th century.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Women were not admitted to the Bachelor of Arts degree program until 1948.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1920, women became eligible for admission as full members of the University of Oxford and were given the right to take degrees.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the world 's largest thermometer located. Death Valley, Nevada",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the world 's largest thermometer located. Dubai, United Arab Emirates",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the world 's largest thermometer located. Las Vegas, Nevada",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the world 's largest thermometer located. Baker , California",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The town's most prominent feature is a 134-foot (41 m) thermometer... in Baker, California.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Its height commemorates the hottest temperature ever recorded on Earth, 134 °F (56.7 °C), in nearby Death Valley on July 10, 1913.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

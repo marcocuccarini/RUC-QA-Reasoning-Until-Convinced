@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A drupe is a type of what. Seed",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A drupe is a type of what. Vegetable",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A drupe is a type of what. Nut",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A drupe is a type of what. Friut",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A drupe is a type of fruit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hickory nuts (Carya) and walnuts (Juglans) in the Juglandaceae family grow within an outer husk; these fruits are technically drupes or drupaceous nuts, not true botanical nuts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

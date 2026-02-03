@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The planet to revolve once around the Sun is the event that defines a year, which is a little over 365 days for Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The seasons completing a full cycle is the time it takes for a planet’s year, which on Earth is a little over 365 days.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The planet to rotate once on its axis is the time it takes for the length of a year on a planet, which on Earth is a little over 365 days.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Sun to rotate once on its axis is the time it takes for the length of a year on a planet.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The orbital period (also revolution period) is the amount of time a given astronomical object takes to complete one orbit around another object.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The tropical period of Earth (a tropical year) is the interval between two alignments of its rotational axis with the Sun, also viewed as two passages of the object at a right ascension of 0 hr.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

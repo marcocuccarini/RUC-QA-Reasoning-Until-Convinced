@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Sodium Chloride",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Bleach",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Baking Soda",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Salt",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sodium chloride, commonly known as table salt, is an ionic compound with the chemical formula NaCl",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Salt is found in the Earth's crust as the mineral halite (rock salt)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Salt is a mineral composed primarily of sodium chloride (NaCl)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Salt is mostly sodium chloride (NaCl)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

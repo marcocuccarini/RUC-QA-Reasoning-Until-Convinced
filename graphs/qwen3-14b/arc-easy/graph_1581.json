@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Minerals are the exception among renewable resources listed, meaning they are not a renewable resource.",
+      "strength": 0.5999617965637547
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Trees are the resource that is not renewable among the options listed.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind is the resource that is not renewable among those listed.",
+      "strength": 0.40000003662315714
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water is not a renewable resource among the listed options.",
+      "strength": 0.367757003324983
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Common sources of renewable energy include solar, geothermal and wind power, which are all categorized as renewable resources.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Water can be considered a renewable material when carefully controlled usage and temperature, treatment, and release are followed.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Earth minerals are examples of non-renewable resources.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Renewable resources such as the movement of water (hydropower, tidal power and wave power) are practically infinite and cannot be depleted.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

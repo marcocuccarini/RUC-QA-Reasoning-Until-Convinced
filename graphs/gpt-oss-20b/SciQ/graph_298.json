@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Motion is the subject of Newton’s second law, which is more than a definition; it is a relationship among acceleration, force, and mass.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Newton’s second law of gravity is more than a definition; it is a relationship among acceleration, force, and mass.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Change is Newton’s second law of what; it is more than a definition and is a relationship among acceleration, force, and mass.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Interference is Newton’s second law of what is more than a definition; it is a relationship among acceleration, force, and mass.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At any instant of time, the net force on a body is equal to the body's acceleration multiplied by its mass.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "acceleration implies force, force implies acceleration.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The change of motion of an object is proportional to the force impressed; and is made in the direction of the straight line in which the force is impressed.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Like displacement, velocity, and acceleration, force is a vector quantity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

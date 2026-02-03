@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the fuel depot near Hemel Hempstead that caught fire in December 2005. Buncefield Oil Depot",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the fuel depot near Hemel Hempstead that caught fire in December 2005. Hemel Hempstead Fuel Storage",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the fuel depot near Hemel Hempstead that caught fire in December 2005. Hertfordshire Oil Terminal",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the fuel depot near Hemel Hempstead that caught fire in December 2005. HOSL",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Buncefield oil depot is operated by Hertfordshire Oil Storage Ltd (HOSL) and officially known as the Hertfordshire Oil Storage Terminal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "officially known as the Hertfordshire Oil Storage Terminal",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

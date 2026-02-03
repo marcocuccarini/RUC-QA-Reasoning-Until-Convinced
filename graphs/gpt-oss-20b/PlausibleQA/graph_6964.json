@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What techno group was formed in Düsseldorf in 1970. Neu!",
+      "strength": 0.40000000000005614
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What techno group was formed in Düsseldorf in 1970. DAF",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What techno group was formed in Düsseldorf in 1970. Propaganda",
+      "strength": 0.4000000000584653
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What techno group was formed in Düsseldorf in 1970. Craftwerk",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Neu! was formed in 1971 in Düsseldorf",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Propaganda is a German synth-pop band formed in Düsseldorf in 1982.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Prominent groups associated with the krautrock label included Neu!, Can, Faust, Tangerine Dream, Kraftwerk, Cluster, Ash Ra Tempel, Popol Vuh, Amon Düül II and Harmonia.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The band Kraftwerk is spelled with an 'f' after the 'k', not 'Craftwerk'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

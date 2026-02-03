@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Friction is the force that the efficiency of a machine measures how well it reduces.",
+      "strength": 0.15393564226736056
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tension is the force that the efficiency of a machine measures how well it reduces.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vibration is the force that the efficiency of a machine measures how well it reduces.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sound is the force that the efficiency of a machine measures how well it reduces.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding or grinding against each other.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Coefficients of friction of various material pairs in atmosphere and vacuum",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Values for Coefficient of Friction – CRC Handbook of Chemistry and Physics",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "All real machines lose energy to friction; the energy is dissipated as heat.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The mechanical efficiency of a machine is a dimensionless number between 0 and 1 that is the ratio between the power output of the machine and the power input.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

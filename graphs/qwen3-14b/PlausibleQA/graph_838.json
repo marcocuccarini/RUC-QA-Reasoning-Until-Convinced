@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain pumps protons. Into the mitochondrial matrix",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain pumps protons. Through the cell wall",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain pumps protons. Along the cytoskeleton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the electron transport chain pumps protons. across a membrane",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "protons can be physically moved across a membrane, as seen in mitochondrial Complexes I and IV",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The energy released by reactions of oxygen and reduced compounds... is used by the electron transport chain to pump protons into the intermembrane space",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "protons are pumped across the inner mitochondrial membrane during the electron transport chain",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the electron transport chain pumps protons into the intermembrane space, not into the mitochondrial matrix",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

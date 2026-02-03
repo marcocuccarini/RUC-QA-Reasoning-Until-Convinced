@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On British television, John Steed and Emma Peel were known collectively as what. The Fantastic Duo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On British television, John Steed and Emma Peel were known collectively as what. Secret Agents",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On British television, John Steed and Emma Peel were known collectively as what. The Spy Pair",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On British television, John Steed and Emma Peel were known collectively as what. Avengers",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Avengers also have made a number of cameo appearances in comics over the years:",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first 16 episodes of the fifth series begin with Emma Peel receiving a call-to-duty message from Steed: 'Mrs. Peel, we're needed'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "John Steed  usually known as John Steed, is a fictional character and the central protagonist on the 1960s British spy series The Avengers and its 1970s sequel The New Avengers",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

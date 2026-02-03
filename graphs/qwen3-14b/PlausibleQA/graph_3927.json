@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Peter",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Thomas",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Matthew",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Judas",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Matthew directly states that Judas betrayed Jesus for a bribe of 'thirty pieces of silver' by identifying him with a kiss ('the kiss of Judas') to arresting soldiers of the High Priest Caiaphas, who then turned Jesus over to Pontius Pilate's soldiers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Judas Iscariot ... was, according to Christianity's four canonical gospels, one of the original Twelve Apostles of Jesus Christ. Judas betrayed Jesus to the Sanhedrin in the Garden of Gethsemane, in exchange for thirty pieces of silver, by kissing him on the cheek and addressing him as 'master' to reveal his identity in the darkness to the crowd who had come to arrest him.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

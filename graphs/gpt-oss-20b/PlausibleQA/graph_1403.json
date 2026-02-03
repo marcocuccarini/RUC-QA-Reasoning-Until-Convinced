@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which fashionable London thoroughfare, about three quarters of a mile (1.2 km) long, runs from Hyde Park Corner to Marble Arch, along the length of the eastern side of Hyde Park. Oxford Street",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which fashionable London thoroughfare, about three quarters of a mile (1.2 km) long, runs from Hyde Park Corner to Marble Arch, along the length of the eastern side of Hyde Park. Park Lane",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which fashionable London thoroughfare, about three quarters of a mile (1.2 km) long, runs from Hyde Park Corner to Marble Arch, along the length of the eastern side of Hyde Park. Piccadilly",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which fashionable London thoroughfare, about three quarters of a mile (1.2 km) long, runs from Hyde Park Corner to Marble Arch, along the length of the eastern side of Hyde Park. A4202",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Piccadilly () is a road in the City of Westminster, London, England, to the south of Mayfair, between Hyde Park Corner in the west and Piccadilly Circus in the east.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Park Lane (from the north)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Piccadilly (northeast)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

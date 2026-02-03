@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The weight of the box is greater than the force of friction, which explains why the box begins to move when a student pushes it across the floor.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The weight of the box is less than the force of friction explains why the box begins to move when a student pushes it to slide across the floor.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The applied force is greater than the force of friction, explaining why the box begins to move when a student pushes it to slide across the floor.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The applied force is less than the force of friction, which explains why the box begins to move when a student pushes it across the floor.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Any force larger than Fmax overcomes the force of static friction and causes sliding to occur.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Any force smaller than Fmax attempting to slide one surface over the other is opposed by a frictional force of equal magnitude and opposite direction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

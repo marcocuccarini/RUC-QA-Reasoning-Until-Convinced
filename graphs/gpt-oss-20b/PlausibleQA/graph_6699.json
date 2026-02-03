@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which team opposed Bolton Wanderers in the 1923 'White Horse' F.A.Cup Final at Wembley. West Bromwich Albion",
+      "strength": 0.25008814687138625
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which team opposed Bolton Wanderers in the 1923 'White Horse' F.A.Cup Final at Wembley. Sheffield United",
+      "strength": 0.40000005409169953
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which team opposed Bolton Wanderers in the 1923 'White Horse' F.A.Cup Final at Wembley. Newcastle United",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which team opposed Bolton Wanderers in the 1923 'White Horse' F.A.Cup Final at Wembley. Whufc",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1923 FA Cup final was an association football match between Bolton Wanderers and West Ham United on 28 April 1923 at the original Wembley Stadium in London.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bolton Wanderers and West Ham United were playing in the First Division and Second Division respectively, and both entered the competition at the first round stage, under the tournament format in place at the time.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bolton won their first major trophy in their third final, beating West Ham United 2–0 in the first ever Wembley FA Cup final.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

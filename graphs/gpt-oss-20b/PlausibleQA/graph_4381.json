@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. United States",
+      "strength": 0.40000003811777657
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. Australia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. United Kingdom",
+      "strength": 0.40000003811777657
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Canuck is a nickname for someone from what country. ᑲᓇᑕ",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Canada is a country in North America.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Canada is officially bilingual (English and French) in the federal jurisdiction.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Official website of the Government of Canada",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Governor General of Canada, as Head of State",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

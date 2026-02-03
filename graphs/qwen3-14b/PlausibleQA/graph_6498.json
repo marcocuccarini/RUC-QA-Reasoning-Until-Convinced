@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What kind of bird is a guillemot. Waterfowl",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What kind of bird is a guillemot. Songbird",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What kind of bird is a guillemot. Game Bird",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What kind of bird is a guillemot. Seabird",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Guillemot is the common name for several species of seabird in the Alcidae or auk family, part of the order Charadriiformes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They form very dense colonies on cliffs during the reproductive season.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

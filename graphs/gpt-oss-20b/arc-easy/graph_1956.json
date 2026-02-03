@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Osmosis most likely occurs across a permeable membrane that separates solutions of the same concentration in cells.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Osmosis would most likely occur across a permeable membrane that separates solutions of different concentrations in cells.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Osmosis most likely occurs across a nonpermeable membrane that separates solutions of the same concentration in cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Osmosis most likely occurs across a nonpermeable membrane that separates solutions of different concentrations in cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the medium is hypotonic relative to the cell cytoplasm, the cell will gain water through osmosis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the medium is isotonic, there will be no net movement of water across the cell membrane.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A decrease in the erosion of riverbanks will occur in an area after a major flood.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A decrease in the number of native plants will occur in an area after a major flood.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An increase in the number of animal habitats will occur in an area after a major flood.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An increase in the diversity of insect species will occur in an area after a major flood.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The flooded littoral zone of the river (the zone closest to the river bank) provides an ideal environment for many aquatic species, so the spawning season for fish often coincides with the onset of flooding.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As the floodwaters recede, the littoral experiences blooms of microorganisms, while the banks of the river dry out and terrestrial plants germinate to stabilize the bank.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

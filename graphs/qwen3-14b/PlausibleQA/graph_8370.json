@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1888",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1891",
+      "strength": 0.5999999999627209
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1873",
+      "strength": 0.5999999999627209
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1848-1903",
+      "strength": 0.599999961882224
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1873, around the time he became a stockbroker, Gauguin began painting in his free time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gauguin's last physical contact with them was in 1891",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Gauguin: Catalogue Raisonné of the Paintings, 1889–1903, the digital catalogue raisonné at the Wildenstein Plattner Institute",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Paul Gauguin leaves Paris to rejoin the Pont-Aven School of artists in Brittany, where he will remain until October",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Paul Gauguin joins van Gogh in Arles, bringing Émile Bernard's painting Le Pardon de Pont-Aven",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

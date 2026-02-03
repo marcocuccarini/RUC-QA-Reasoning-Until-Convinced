@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which band released the 1970 album 'In the Wake of Poseidon'. King Crimson",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which band released the 1970 album 'In the Wake of Poseidon'. Emerson, Lake & Palmer",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which band released the 1970 album 'In the Wake of Poseidon'. Gentle Giant",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which band released the 1970 album 'In the Wake of Poseidon'. Crimso",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the Wake of Poseidon was released in May 1970 by King Crimson.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Greg Lake left King Crimson in 1970 to form Emerson, Lake & Palmer with Keith Emerson and Carl Palmer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

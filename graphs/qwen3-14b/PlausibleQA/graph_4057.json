@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rapidly boiling a liquid to make it thicker and more concentrated is called what. Evaporate",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rapidly boiling a liquid to make it thicker and more concentrated is called what. Concentrate",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rapidly boiling a liquid to make it thicker and more concentrated is called what. Boil Down",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rapidly boiling a liquid to make it thicker and more concentrated is called what. Reduce",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The use of evaporation to dry or concentrate samples is a common preparatory step for many laboratory analyses such as spectroscopy and chromatography.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When the vapor pressure reaches the ambient pressure the liquid will boil.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

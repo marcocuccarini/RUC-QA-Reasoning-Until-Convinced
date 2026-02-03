@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of book is where 's waldo. Activity Book",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of book is where 's waldo. Picture Book",
+      "strength": 0.5999999999842246
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of book is where 's waldo. Game Book",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of book is where 's waldo. puzzle",
+      "strength": 0.8594536084514524
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Where's Wally? is a series of children's puzzle books",
+      "strength": 0.5999999835441547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The books consist of a series of detailed double-page spread illustrations each depicting hundreds of people doing a variety of amusing things at a location",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Puzzle books may contain puzzles all of simply one type like (e.g. crosswords, sudoku, or wordsearch) or a mixture of different puzzle types.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A puzzle book is a type of activity book which contains a collection of puzzles for the reader to complete.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The first crossword puzzle book was published in 1924 by the editors of the newspaper New York World.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

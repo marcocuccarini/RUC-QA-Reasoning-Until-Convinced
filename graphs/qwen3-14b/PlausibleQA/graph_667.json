@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the current governor of arizona 2010. John McCain",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the current governor of arizona 2010. Jon Kyl",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the current governor of arizona 2010. Terry Goddard",
+      "strength": 0.40000003625875064
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the current governor of arizona 2010. Jan Brewer",
+      "strength": 0.846056906746563
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Janice Kay Brewer was elected as the governor of Arizona in 2010.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Terry Goddard was the opponent of Janice Kay Brewer in the 2010 Arizona gubernatorial election.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In April 2010, Jan Brewer signed Arizona SB 1070 into law.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Goddard lost the 2010 Arizona gubernatorial election to Jan Brewer by a nearly 12-point margin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

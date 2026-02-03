@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country won the men's football gold medal at the 2012 Olympics. Brazil",
+      "strength": 0.36774766078848303
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country won the men's football gold medal at the 2012 Olympics. Argentina",
+      "strength": 0.36774766078848303
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country won the men's football gold medal at the 2012 Olympics. Spain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country won the men's football gold medal at the 2012 Olympics. EUM",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The gold medal was won by Mexico who defeated Brazil 2–1 in the final.",
+      "strength": 0.5999654321013873
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mexico defeated Brazil 2–1 in the men's football final.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

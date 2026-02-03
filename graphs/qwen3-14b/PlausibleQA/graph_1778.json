@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who plays murderous hitch-hiker John Ryder in the 1986 film ‘The Hitcher’. C. Thomas Howell",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who plays murderous hitch-hiker John Ryder in the 1986 film ‘The Hitcher’. Robert De Niro",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who plays murderous hitch-hiker John Ryder in the 1986 film ‘The Hitcher’. Tom Cruise",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who plays murderous hitch-hiker John Ryder in the 1986 film ‘The Hitcher’. Rutger Hower",
+      "strength": 0.400000060988221
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rutger Hauer stars as the murderous hitchhiker John Ryder in the 1986 film The Hitcher.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "C. Thomas Howell appears in supporting roles in the 1986 film The Hitcher.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "C. Thomas Howell was a hitchhiker's target in the horror film The Hitcher (1986).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

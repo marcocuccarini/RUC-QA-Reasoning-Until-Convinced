@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which European City did the Peace Palace open in 1913. Paris",
+      "strength": 0.5999029153259441
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which European City did the Peace Palace open in 1913. Berlin",
+      "strength": 0.40000004749767426
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which European City did the Peace Palace open in 1913. Vienna",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which European City did the Peace Palace open in 1913. Lahey",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Peace Palace is an international law administrative building in The Hague, Netherlands.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Conference organised on the Occasion of the Centenary of the Peace Palace, 23 September 2013",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Website for Projects connected with the 100 year anniversary of the Peace Palace",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

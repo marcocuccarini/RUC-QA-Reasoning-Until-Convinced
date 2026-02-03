@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which golf shot is the opposite of a slice. Draw",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which golf shot is the opposite of a slice. Fade",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which golf shot is the opposite of a slice. Push",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which golf shot is the opposite of a slice. Hook",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A hook occurs when the clubface is closed relative to the swingpath or with an inside‑out swingpath and thus flies severely from right to left for a right‑handed player, or vice versa for a left‑handed player.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A draw is a stroke played with the effect that, for a right‑handed player, the ball moves from right to left during flight. Conversely the ball will move from left to right for a left‑handed player.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

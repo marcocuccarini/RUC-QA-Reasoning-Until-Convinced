@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "American singer Al, late British television host Hughie and British businessman Philip all share which surname. Green is excluded, so let's start with: Lane",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "American singer Al, late British television host Hughie and British businessman Philip all share which surname. Brooks",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "American singer Al, late British television host Hughie and British businessman Philip all share which surname. King",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "American singer Al, late British television host Hughie and British businessman Philip all share which surname. Green",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Albert Leornes Greene was born on April 13, 1946, in Forrest City, Arkansas, as the sixth of ten children born to Cora Lee and sharecropper Robert G. Greene Jr.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Albert Leornes Greene (born April 13, 1946), known professionally as Al Green, is an American singer, songwriter, pastor and record producer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hugh Hughes Green OStJ was an English radio and television presenter, game show host and actor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

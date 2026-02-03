@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which public holiday is celebrated on the first Monday in September in the USA. Independence Day",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which public holiday is celebrated on the first Monday in September in the USA. Memorial Day",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which public holiday is celebrated on the first Monday in September in the USA. Columbus Day",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which public holiday is celebrated on the first Monday in September in the USA. Laborday",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Memorial Day is observed on the last Monday of May.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Labor Day is the unofficial end of summer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

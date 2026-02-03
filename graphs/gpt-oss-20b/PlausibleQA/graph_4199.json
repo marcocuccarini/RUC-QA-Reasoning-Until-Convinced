@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which opera by Rossini , his last , is based on a play by Schiller . William Tell",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which opera by Rossini , his last , is based on a play by Schiller . Semiramide",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which opera by Rossini , his last , is based on a play by Schiller . The Barber of Seville",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which opera by Rossini , his last , is based on a play by Schiller . Boo! Humbug",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "William Tell is a French-language opera in four acts by Italian composer Gioachino Rossini based on Friedrich Schiller's play Wilhelm Tell.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "William Tell was Rossini's last opera.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

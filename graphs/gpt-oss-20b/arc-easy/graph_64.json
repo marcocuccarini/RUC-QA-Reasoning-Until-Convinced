@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Coal, oil, and natural gas are not all renewable energy sources.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Solar, oil, and geothermal are the energy sources that are all renewable.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind, solar, and tidal are all renewable energy sources.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Natural gas, solar, and tidal are all renewable energy sources.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Renewable energy is usually understood as energy harnessed from continuously occurring natural phenomena.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Solar power, wind power, hydroelectricity, geothermal energy, and biomass are widely agreed to be the main types of renewable energy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

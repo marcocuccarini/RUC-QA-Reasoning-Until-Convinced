@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the 1993 novel “The Joy Luck Club”. Amy Tan",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the 1993 novel “The Joy Luck Club”. Maxine Hong Kingston",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the 1993 novel “The Joy Luck Club”. Ha Jin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the 1993 novel “The Joy Luck Club”. 譚恩美",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Amy Ruth Tan is the author of The Joy Luck Club (1989), which was adapted into a 1993 film.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Joy Luck Club consists of eight related stories about the experiences of four Chinese–American mother–daughter pairs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

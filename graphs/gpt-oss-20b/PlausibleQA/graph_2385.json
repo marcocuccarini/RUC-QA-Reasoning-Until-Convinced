@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "state the process that divides one nucleus into two genetically identical nuclei. Cytokinesis",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "state the process that divides one nucleus into two genetically identical nuclei. Endoreduplication",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "state the process that divides one nucleus into two genetically identical nuclei. Meiosis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "state the process that divides one nucleus into two genetically identical nuclei. mitosis",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mitosis is a part of the cell cycle in eukaryotic cells in which replicated chromosomes are separated into two new nuclei.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Instead of being divided into two new daughter nuclei, the replicated chromosomes are retained within the original nucleus. The cells then re-enter G1 and S phase and replicate their chromosomes again.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

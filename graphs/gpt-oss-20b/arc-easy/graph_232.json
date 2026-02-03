@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Compounds correctly describe all of the following materials: salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mixtures are the term that correctly describes salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Solutions is the term that correctly describes salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Elements correctly describe all of the following materials: salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mixtures are one product of mechanically blending or mixing chemical substances such as elements and compounds, without chemical bonding or other chemical change, so that each ingredient substance retains its own chemical properties and makeup.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Air is an example of a solution as well: a homogeneous mixture of gaseous nitrogen solvent, in which oxygen and smaller amounts of other gaseous solutes are dissolved.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

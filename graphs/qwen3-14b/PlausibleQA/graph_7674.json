@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of language does france speak. French",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of language does france speak. Occitan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of language does france speak. Corsican",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of language does france speak. Breton",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "French has been the official language of the Republic since 1992, although the Ordinance of Villers-Cotterêts made it mandatory for legal documents in 1539.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "France mandates the use of French in official government publications, public education except in specific cases, and legal contracts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

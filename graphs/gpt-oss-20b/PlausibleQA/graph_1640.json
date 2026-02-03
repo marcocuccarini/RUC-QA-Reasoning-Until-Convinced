@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many pieces are there in a standard set of dominoes. 24",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many pieces are there in a standard set of dominoes. 32",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many pieces are there in a standard set of dominoes. 40",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many pieces are there in a standard set of dominoes. 28",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Domino set made up of 28 tiles with all the combinations from 0 to 6.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Domino set, common in Austria, made up of 45 tiles with all the combinations from 0 to 8.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

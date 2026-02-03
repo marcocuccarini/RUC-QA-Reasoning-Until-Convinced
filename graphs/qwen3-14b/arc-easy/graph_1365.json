@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Spring is the season the Northern Hemisphere experiences when it is tilted away from the Sun.",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Summer is the season the Northern Hemisphere experiences when it is tilted away from the Sun.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Autumn is the season the Northern Hemisphere experiences when it is tilted away from the Sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Winter is the season the Northern Hemisphere experiences when it is tilted away from the Sun.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Around the March equinox, the Northern Hemisphere will be experiencing spring as the hours of daylight increase",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Northern Hemisphere experiences most direct sunlight during May, June, and July (thus the traditional celebration of Midsummer in June), as the hemisphere faces the Sun",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Summer occurs in the Northern Hemisphere when the North Pole is directed toward and the South Pole away from the Sun.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "This means that one pole (and the associated hemisphere of Earth) will be directed away from the Sun at one side of the orbit, and half an orbit later (half a year later) this pole will be directed towards the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What chromosomes do the two main human sexes have. Men: XZ, Women: XX",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What chromosomes do the two main human sexes have. Men: YY, Women: XY",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What chromosomes do the two main human sexes have. Men: XX, Women: ZZ",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What chromosomes do the two main human sexes have. Men: XY, Women: XX",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 23rd pair of chromosomes are called allosomes. These consist of two X chromosomes in females, and an X chromosome and a Y chromosome in males.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In most mammals, females are XX, and can pass along either of their Xs; since males are XY they can pass along either an X or a Y.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The centrifugal force created by rapid rotation is what keeps stars such as the Sun from collapsing under their own self-gravity.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The electrical repulsion of nuclei in the plasma keeps stars such as the Sun from collapsing from their own self‑gravity.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The gravitational pull created by orbiting planets is what keeps stars such as the Sun from collapsing from their own self‑gravity.",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The outward pressure created by nuclear fusion keeps stars such as the Sun from collapsing under their own self‑gravity.",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the star has a massive nearby companion object, tidal forces come into play as well, which distort the star into a scalene shape if rotation alone would make it a spheroid.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The outward force due to the pressure gradient within the star is exactly balanced by the inward force due to gravity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

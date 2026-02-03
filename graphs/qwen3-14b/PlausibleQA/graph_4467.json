@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the governor election in texas. Greg Abbott",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the governor election in texas. Wendy Davis",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the governor election in texas. Ted Cruz",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the governor election in texas. Rick Perry",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On November 8, 2022, current governor Greg Abbott was re-elected and became the fifth Texas governor to serve three terms following Shivers, Daniel, Connally and Perry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Former governor Rick Perry, who served from 2000 to 2015, surpassed both these records, becoming the first Texas governor to serve three consecutive four-year terms.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the November general election, Abbott defeated Wendy Davis by over 20 percentage points.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the November 6 general election, Abbott defeated Democratic nominee Lupe Valdez with about 56% of the vote.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

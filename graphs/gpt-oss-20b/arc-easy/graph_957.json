@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water quality will improve if chemicals from fertilizers run off into lakes and streams.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aquatic animals will thrive if chemicals from fertilizers run off into lakes and streams.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fish will die from a lack of oxygen when chemicals from fertilizers run off into lakes and streams.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aquatic plants will stop growing if chemicals from fertilizers run off into lakes and streams.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eutrophication is caused by excessive concentrations of nutrients, most commonly phosphates and nitrates, although this varies with location.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If oxygen depletion becomes extreme, aerobic organisms (such as fish) may die, resulting in what is known as a 'summer kill'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

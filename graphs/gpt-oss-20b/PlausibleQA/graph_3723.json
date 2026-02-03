@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Republic of China (ROC) did not compete at the Montreal Olympics in 1976 because the People's Republic of China (PRC) pressured the organisers to stop them competing under that name. What name did the ROC use when it next competed in 1984. Taiwan",
+      "strength": 0.4000629868179487
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Republic of China (ROC) did not compete at the Montreal Olympics in 1976 because the People's Republic of China (PRC) pressured the organisers to stop them competing under that name. What name did the ROC use when it next competed in 1984. Formosa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Republic of China (ROC) did not compete at the Montreal Olympics in 1976 because the People's Republic of China (PRC) pressured the organisers to stop them competing under that name. What name did the ROC use when it next competed in 1984. Chinese Taipei",
+      "strength": 0.7236595944433725
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Republic of China (ROC) did not compete at the Montreal Olympics in 1976 because the People's Republic of China (PRC) pressured the organisers to stop them competing under that name. What name did the ROC use when it next competed in 1984. China-Taipei",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chinese Taipei has been listed under the 'T' group in IOC protocol order.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Taiwan has competed under this name and flag exclusively at each Games since the 1984 Winter Olympics.",
+      "strength": 0.599999945908301
+    },
+    "A6": {
+      "type": "argument",
+      "text": "ROC is not permitted to participate in the Montreal Summer Games, as long as it insists on the name of Republic of China, because the host country, Canada, recognises the PRC as the sole legitimate government of China.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "1984 – Chinese Taipei competes for the first time under the new moniker at the Sarajevo Winter Games.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The ROCOC was renamed as the 'Chinese Taipei Olympic Committee' (CTOC, 中華奧林匹克委員會) as mentioned in the 'Agreement between the International Olympic Committee, Lausanne, and the Chinese Taipei Olympic Committee, Taipei' signed by Shen Jia-ming ... on 23 March 1981, with the assistance of Juan Antonio Samaranch, the IOC president.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The ROCOC was forced to change the name of the committee and would no longer be allowed to use the national anthem and national flag of the Republic of China according to the results of a postal ballot (62:17) by the Executive Committee of the International Olympic Committee in Nagoya, Japan.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

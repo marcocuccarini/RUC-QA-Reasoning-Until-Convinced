@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. Utah",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. California",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. Oregon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. Wyo.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Utah granted full voting rights to women in 1870, 26 years before becoming a state.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Utah granted women's suffrage in 1870, not 1869.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wyoming granted suffrage to women earlier than Utah.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

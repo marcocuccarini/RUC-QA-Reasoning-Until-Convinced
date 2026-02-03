@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive and skeletal systems are the two human body systems most responsible for getting oxygen to cells.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Skeletal and circulatory systems are the two human body systems most responsible for getting oxygen to cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The circulatory and respiratory systems are the two human body systems most responsible for getting oxygen to cells.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The respiratory and digestive systems are the two human body systems most responsible for getting oxygen to cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The respiratory system equalizes the partial pressures of respiratory gases in alveolar air with those in pulmonary capillary blood through simple diffusion across the blood–air barrier.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The blood leaving the alveolar capillaries is distributed throughout the body, ensuring systemic arterial blood has partial pressures of oxygen and carbon dioxide matching those in the alveoli.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

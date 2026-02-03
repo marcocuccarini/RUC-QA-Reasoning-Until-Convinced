@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of Terence and Shirley Conran's dress designer son. Sebastian",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of Terence and Shirley Conran's dress designer son. Jasper",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of Terence and Shirley Conran's dress designer son. Felix",
+      "strength": 0.40000008918213564
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of Terence and Shirley Conran's dress designer son. Jaspis",
+      "strength": 0.40000008918213564
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Conran married his second wife, journalist Shirley Pearce, in 1955 with whom he had two sons – Sebastian and Jasper – before they divorced in 1962.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jasper Alexander Thirlby Conran is the second son of Sir Terence Conran and Shirley Pearce",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

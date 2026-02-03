@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who does don draper gets engaged to. Joan Harris",
+      "strength": 0.22633986702176273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who does don draper gets engaged to. Peggy Olson",
+      "strength": 0.14050745745976687
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who does don draper gets engaged to. Rachel Menken",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who does don draper gets engaged to. Betty Draper",
+      "strength": 0.2500000651308274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Don announces his engagement to Megan Calvet, his secretary.",
+      "strength": 0.5999999999835808
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Don Draper married Megan Calvet in 1966.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Betty filed for divorce in 1964 after she discovered Don Draper's true identity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "He is married to Betty Draper.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Megan Calvet and Don Draper get married by season 5.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In Episode 11, Don tells Betty he is engaged to Megan Calvet, not Peggy Olson.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "In Episode 11, Don tells Betty he is engaged to Megan Calvet, not Joan Harris.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

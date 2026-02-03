@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Its kinetic energy is increasing is true of a car that is accelerating along a horizontal roadway.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Its kinetic energy is decreasing is the true statement about a car accelerating along a horizontal roadway.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its potential energy is increasing is true of a car that is accelerating along a horizontal roadway.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Its potential energy is decreasing for a car accelerating along a horizontal roadway.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The work done by the net force on a particle equals the change in its kinetic energy (W = ΔE_k).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The work done by gravity (wΔz) equals the change in kinetic energy (m/2)V², demonstrating energy transfer without potential energy change in horizontal motion.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

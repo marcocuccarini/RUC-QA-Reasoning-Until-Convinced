@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fire is the change most likely to be slow among changes that can be fast or slow.",
+      "strength": 0.40000003589797006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Flood is the most likely slowest change among the given changes, as some changes occur rapidly while others occur slowly.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Landslide is the most likely slowest change among changes that can be fast or slow.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Drought is the change that is most likely the slowest among changes that can be fast or slow.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fire became more abundant when grasses became the dominant component of many ecosystems, around 6 to 7 million years ago, providing excellent tinder for more rapid spread of fire.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clay and silt slides are usually slow but can experience episodic acceleration in response to heavy rainfall or rapid snowmelt.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Earthflows are more slow-moving and are covered with solid material carried along by the flow from within.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

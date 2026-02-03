@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The gravesite of what American writer, buried in Baltimore, is mysteriously visited every January 19th, to receive a toast of cognac and 3 roses. Herman Melville",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The gravesite of what American writer, buried in Baltimore, is mysteriously visited every January 19th, to receive a toast of cognac and 3 roses. F. Scott Fitzgerald",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The gravesite of what American writer, buried in Baltimore, is mysteriously visited every January 19th, to receive a toast of cognac and 3 roses. Edgar Lee Masters",
+      "strength": 0.40000000009077963
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The gravesite of what American writer, buried in Baltimore, is mysteriously visited every January 19th, to receive a toast of cognac and 3 roses. Poe",
+      "strength": 0.40000009469685094
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He is buried in Oakland cemetery in Petersburg, Illinois.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "John P. Poe, Sr. (1836–1909), Attorney General of Maryland, 1891–95.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Plan, Prospectus, and Terms, for the Establishment of a Public Cemetery, at the City of Baltimore (1838)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

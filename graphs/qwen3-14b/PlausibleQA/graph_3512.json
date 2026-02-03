@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What colour are the berries of the mistletoe plant. Red",
+      "strength": 0.5000967341380452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What colour are the berries of the mistletoe plant. Purple",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What colour are the berries of the mistletoe plant. Green",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What colour are the berries of the mistletoe plant. White",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "European mistletoe has ... waxy, white berries that it bears in clusters of two to six.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A related species with red fruits, rather than white, Viscum cruciatum, occurs in Southwest Spain and Southern Portugal, as well as in Morocco in North Africa and in southern Africa.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The fruit is a white or yellow berry, and except for very rarely, containing one seed embedded in the very sticky, glutinous fruit pulp.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

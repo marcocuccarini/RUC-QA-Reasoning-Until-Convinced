@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Pneumonia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Influenza",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Typhoid Fever",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which illness caused Edward VII's coronation to be delayed by six weeks. Appendictic",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Edward was diagnosed with appendicitis two days before his coronation was scheduled",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Edward's coronation was delayed due to appendicitis, which was diagnosed two days before the originally scheduled date",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

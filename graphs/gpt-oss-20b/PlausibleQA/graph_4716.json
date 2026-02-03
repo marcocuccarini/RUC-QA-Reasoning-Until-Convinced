@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Marc Bolland has announced that he is to stand down as Chief Executive of which Major High Street Store. Tesco",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Marc Bolland has announced that he is to stand down as Chief Executive of which Major High Street Store. Sainsbury's",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Marc Bolland has announced that he is to stand down as Chief Executive of which Major High Street Store. John Lewis",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Marc Bolland has announced that he is to stand down as Chief Executive of which Major High Street Store. M&S",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This role was eliminated in October 2024.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In January 2016, it was announced that Bolland would be retiring as CEO of Marks and Spencer effective April 2016, and would be replaced by Steve Rowe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

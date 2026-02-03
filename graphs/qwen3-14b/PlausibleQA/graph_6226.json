@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Mali",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Guinea",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Gambia",
+      "strength": 0.40006361984599315
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Sengal",
+      "strength": 0.400000060988221
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dakar is the capital and largest city of Senegal",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dakar replaced Saint-Louis as the capital of French West Africa in 1902",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Dakar Rally was an off-road endurance motorsport race that ran from Paris, France, to Dakar, Senegal",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The 2026 Summer Youth Olympics are planned to be held in Dakar, Senegal",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Camellia sinensis",
+      "strength": 0.8460569045044471
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Thea assamica",
+      "strength": 0.4000000385008666
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Camellia japonica",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the scientific name given to tea. Tea Plant",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Camellia sinensis is a species of evergreen shrub or small tree in the flowering plant family Theaceae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Indian Assam tea [C. sinensis var. assamica]",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The effect of a component of tea (Camellia sinensis) on methicillin resistance in Staphylococcus",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "List of Chemicals in Camellia sinensis (Dr. Duke's Databases)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

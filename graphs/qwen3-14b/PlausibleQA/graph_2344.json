@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Conservative Party",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Brexit Party",
+      "strength": 0.5000967341380452
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Liberal Democrats",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nigel Farage is the leader of which political party. Ukip",
+      "strength": 0.5999999071782728
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Farage was the leader of the Brexit Party (renamed Reform UK in 2021) from 2019 to 2021.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Farage was the leader of the UK Independence Party (UKIP) from 2006 to 2009 and 2010 to 2016.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Brexit Party was renamed Reform UK in 2021.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

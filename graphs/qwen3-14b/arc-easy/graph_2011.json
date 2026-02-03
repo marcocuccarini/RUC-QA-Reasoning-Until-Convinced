@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Producers are humans as members of a food web.",
+      "strength": 0.2500000897449246
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Consumers are humans considered to be members of a food web.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Decomposers are humans as members of a food web.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Scavengers are humans considered to be as members of a food web.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Autotrophs are fundamental to the food chains of all ecosystems in the world.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Autotrophs do not need a living source of carbon or energy and are the producers in a food chain, such as plants on land or algae in water.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the 1980s, Lewis Binford suggested that early humans primarily obtained meat via scavenging, not through hunting.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

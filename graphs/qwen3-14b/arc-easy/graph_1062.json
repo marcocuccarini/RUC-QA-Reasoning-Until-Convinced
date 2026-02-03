@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrical is the type of chemical process most likely that occurred when students added sodium hydroxide crystals to a beaker of water and allowed the resulting solution to cool.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Energetic is the type of chemical process most likely to have occurred when students added sodium hydroxide crystals to a beaker of water and allowed the resulting solution to cool.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Exothermic is the type of chemical process that most likely occurred when students added sodium hydroxide crystals to a beaker of water and allowed the resulting solution to cool.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Endothermic is the type of chemical process that most likely occurred when students added sodium hydroxide crystals to a beaker of water and allowed the resulting solution to cool.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The opposite is an endothermic reaction, which usually takes up heat and is driven by an entropy increase in the system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In an exothermic reaction, by definition, the enthalpy change has a negative value: ΔH = Hproducts - Hreactants < 0",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Once initiated, the exothermic transformation is complete in a few minutes, with a 6.5% increase in volume of the solid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

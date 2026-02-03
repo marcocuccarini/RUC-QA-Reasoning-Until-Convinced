@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Impressionist",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Chamber Music",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Opera",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of music did claude debussy play. Ballet",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Le martyre de Saint-Sébastien, vocal score, transcribed by André Caplet",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "La chambre magique: prélude (acte II), orchestral score",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The best known is the opera of the same name (1902) by Claude Debussy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

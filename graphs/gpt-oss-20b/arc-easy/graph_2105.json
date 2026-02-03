@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lakes are Earth's largest source of drinkable water.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rivers are Earth's largest source of drinkable water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oceans are Earth's largest source of drinkable water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aquifers are Earth's largest source of drinkable water.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Groundwater is a major source of fresh water for many regions, although it can present various challenges for the environment, such as overdrafting (extracting groundwater beyond the equilibrium yield of the aquifer), groundwater-related subsidence of land, and the salinization or pollution of the groundwater.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Guarani Aquifer, located beneath the surface of Argentina, Brazil, Paraguay, and Uruguay, is one of the world's largest aquifer systems and is an important source of fresh water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

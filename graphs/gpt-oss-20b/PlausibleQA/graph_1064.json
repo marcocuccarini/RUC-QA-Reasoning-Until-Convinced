@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city are Argentine, Bel-Air, Bolivar, Liege, Rome and Stalingrad all found within a few miles of each other. Buenos Aires",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city are Argentine, Bel-Air, Bolivar, Liege, Rome and Stalingrad all found within a few miles of each other. Washington D.C.",
+      "strength": 0.1538462487119102
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city are Argentine, Bel-Air, Bolivar, Liege, Rome and Stalingrad all found within a few miles of each other. Mexico City",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city are Argentine, Bel-Air, Bolivar, Liege, Rome and Stalingrad all found within a few miles of each other. Paříž",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text does not mention Argentine, Bel-Air, Bolivar, Liege, Rome, or Stalingrad as being located in Washington D.C.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text lists Jefferson Memorial, Lincoln Memorial, and Washington Monument, none of which are Argentine, Bel-Air, Bolivar, Liege, Rome, or Stalingrad.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text lists Jefferson Memorial, Lincoln Memorial, and Washington Monument.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text provides links to Washington DC neighborhood websites.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The text provides links to Washington DC neighborhood websites, not Mexico City.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

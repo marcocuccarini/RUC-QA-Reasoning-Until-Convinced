@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Formula is the chemical property from which the name of a simple covalent compound can be determined.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Models are used to determine the name of a simple covalent compound from its chemical structure.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Configuration is the chemical property that determines the name of a simple covalent compound.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Map is the name of a simple covalent compound that can be determined from its chemical this.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The chemical formula CH3CH=CHCH3 does not identify the two isomers of but-2-ene.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The relative position of the two methyl groups must be indicated by additional notation denoting whether the methyl groups are on the same side of the double bond (cis or Z) or on the opposite sides from each other (trans or E).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

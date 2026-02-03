@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the US, which state lies to the west of New Hampshire. Massachusetts",
+      "strength": 0.4309242551817296
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the US, which state lies to the west of New Hampshire. Maine",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the US, which state lies to the west of New Hampshire. New York",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the US, which state lies to the west of New Hampshire. US-VT",
+      "strength": 0.5999581987825118
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Massachusetts borders New Hampshire and Vermont to its north.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vermont to the west",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Massachusetts to the south",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

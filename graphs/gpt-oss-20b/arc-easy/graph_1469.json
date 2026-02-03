@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fair is the most likely weather in Massachusetts when white, fluffy clouds appear.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stormy weather is most likely the condition when white, fluffy clouds appear in Massachusetts.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Foggy is the most likely weather in Massachusetts on a day when white, fluffy clouds appear.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rainy will be the most likely weather in Massachusetts when white, fluffy clouds appear.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cumulus humilis clouds usually indicate fair weather.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cumulus clouds usually produce little or no precipitation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

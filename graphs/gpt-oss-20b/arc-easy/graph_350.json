@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The inner core is the part of Earth's structure that exists in the solid phase due to low temperatures.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The outer core is the part of Earth's structure that exists in the solid phase due to low temperatures.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The lithosphere is the part of Earth's structure that exists in the solid phase due to low temperatures.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The asthenosphere is the part of Earth's structure that remains solid due to low temperatures.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The lithosphere remains rigid for very long periods of geologic time in which it deforms elastically and through brittle failure, while the asthenosphere deforms viscously and accommodates strain through plastic deformation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The layer below the lithosphere is called the asthenosphere, which is the weaker, hotter, and deeper part of the upper mantle that is able to convect.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Help digest food is the most important function of enzymes in animals.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Carry oxygen is the most important function of enzymes in animals.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Transport messages is the most important function of enzymes in animals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Excrete waste is the most important function of enzymes in animals.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Enzymes such as amylases and proteases break down large molecules (starch or proteins, respectively) into smaller ones, so they can be absorbed by the intestines.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In ruminants, which have herbivorous diets, microorganisms in the gut produce another enzyme, cellulase, to break down the cellulose cell walls of plant fiber.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

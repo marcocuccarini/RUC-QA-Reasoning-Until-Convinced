@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Measuring oxygen levels in the lake for two months will give the most accurate results for assessing how the lake's ecosystem is affected by the new fish species released into a local lake, a species that had never lived there before.",
+      "strength": 0.39999999669478165
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Checking the lake water for nutrient levels on one day will give the most accurate results for assessing how the lake’s ecosystem is affected by the newly released fish species that had never lived there before.",
+      "strength": 0.40000000220489684
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sampling fish populations in the lake over several years will give the most accurate results for scientists studying how the lake’s ecosystem is affected by the newly introduced fish species that had never lived in the lake before.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Observing the surface of the lake for signs of the new fish after one week is the method that will give the most accurate results for scientists collecting data on how the ecosystem of a local lake is affected by a newly released species of fish that has never lived in the lake before.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The environmental impact assessment (EIA) studies are conducted over a short period of time and therefore the understanding of the environmental trends, based on a few months of primary data, has limitations.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In many EIA studies, the secondary data needs could be as high as 80% of the total data requirement.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The sample collection procedure must assure correct weighting of individual sampling times and locations where averaging is appropriate.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The measurement of interest may vary seasonally or from day to night or in response to some activity of man or natural populations of aquatic plants and animals.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The amount of dissolved oxygen in a water body is frequently the key substance in determining the extent and kinds of organic life in the water body.",
+      "strength": 0.647656053135452
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A8",
+      "relation": "support"
+    }
+  ]
+}

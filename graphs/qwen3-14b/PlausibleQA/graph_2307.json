@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The fictional station in BBC's flagship Eastenders soap serial is. Albertville",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The fictional station in BBC's flagship Eastenders soap serial is. Bricklane",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The fictional station in BBC's flagship Eastenders soap serial is. Stratford",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The fictional station in BBC's flagship Eastenders soap serial is. Walford",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "EastEnders is set in the fictional borough of Walford in the East End of London",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The name Walford is a blend of Walthamstow and Stratford—the areas of Greater London where the creators were born",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

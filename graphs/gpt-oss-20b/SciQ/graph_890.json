@@ -1,0 +1,136 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Voltages are the quantities of the individual cells that sum to give the overall voltage of the battery.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Currents of the individual cells sum to give the overall voltage of the battery.",
+      "strength": 0.10000002096364008
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Resistances are the quantity that is summed to give the overall voltage of the battery, which is therefore the sum of the resistances of the individual cells.",
+      "strength": 0.15384619127577515
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weights are the overall voltage of the battery, which equals the sum of the weights of the individual cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The net emf of a cell is the difference between the emfs of its half-cells.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the cells are connected in series, the voltage of the battery will be the sum of the cell voltages.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The total current is the sum of the currents through the individual components, in accordance with Kirchhoff's current law.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "If the cells are connected in parallel, the battery voltage will be the same as the cell voltage, but the current supplied by each cell will be a fraction of the total current.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The total resistance of two or more resistors connected in series is equal to the sum of their individual resistances.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Voltage between points can be caused by the build-up of electric charge (e.g., a capacitor), and from an electromotive force (e.g., electromagnetic induction in a generator).",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "In a static electric field, it corresponds to the work needed per unit of charge to move a positive test charge from the first point to the second point.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "The measured voltage output is lower than the no-load voltage when current is delivered, due to voltage drop caused by internal resistance.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "In use, the voltage across the terminals of a disposable battery driving a load decreases until it drops too low to be useful; this is largely due to an increase in internal resistance rather than a drop in the voltage of the equivalent source.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "Individual fuel cells produce relatively small electrical potentials, about 0.7 volts, so cells are 'stacked', or placed in series, to create sufficient voltage to meet an application's requirements.",
+      "strength": 0.5
+    },
+    "A14": {
+      "type": "argument",
+      "text": "Cell potentials have a possible range of roughly zero to 6 volts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A13",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A14",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

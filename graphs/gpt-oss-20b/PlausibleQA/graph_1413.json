@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . British National Party",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . UK Independence Party",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . English Democrats",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . NATIONAL FRONT",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The National Front had its Westminster headquarters.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The National Front is currently led by Tony Martin.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The National Front was featured in a BBC documentary called 'The Lost Race' in 1999.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "BBC 1975: National Front rallies against Europe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

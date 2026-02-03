@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Smooth muscle regulates air flow in lungs.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vascular muscle regulates air flow in lungs.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Striated muscle regulates air flow in the lungs.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Alveoli are the kind of muscle that regulates air flow in lungs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During coughing, contraction of the smooth muscle in the airway walls narrows the trachea by pulling the ends of the cartilage plates together and by pushing soft tissue into the lumen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The external oblique muscle... reverses the inhalatory movement, while compressing the abdominal contents, thus increasing the pressure in all the air sacs.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The contraction of the diaphragm and intercostal muscles increases the volume of the thoracic cavity, facilitating inhalation.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The bronchioles have no cartilage and are surrounded instead by smooth muscle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

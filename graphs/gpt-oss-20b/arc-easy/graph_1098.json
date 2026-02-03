@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrons are most likely located with the quarks in an atom.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "With the neutrons, electrons are most likely located in an atom.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Outside the nucleus is where electrons are most likely located in an atom.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Near the protons is where electrons most likely are located in an atom.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In atoms, an electron's matter wave occupies atomic orbitals around a positively charged atomic nucleus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electrons are bound to the nucleus to different degrees.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The electron will eventually lose energy (by releasing a photon) and drop into the lower orbital.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Electrons are never in a single point location, though the probability of interacting with the electron at a single point can be found from the electron's wave function.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

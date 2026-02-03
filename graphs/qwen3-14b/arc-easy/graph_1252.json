@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Finding new coal resources on Earth is one way to help slow down or stop the greenhouse effect.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cleaning up the litter in neighborhoods is one way to help slow down or stop the greenhouse effect.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cleaning up the water pollution in local lakes is one way to help slow down or stop the greenhouse effect.",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Walking or riding a bike instead of driving a car is one way to help slow down or stop the greenhouse effect.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The vast majority of carbon dioxide emissions by humans come from the burning of fossil fuels, with remaining contributions from agriculture and industry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The carbon cycle takes thousands of years to fully absorb CO2 from the atmosphere, while methane lasts in the atmosphere for an average of only 12 years.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A 2023 study published in Journal of Transport Geography found that shared electric bicycle systems reduce urban transport-related carbon emissions by about 108–120 grams per kilometer, particularly in non-central urban areas and when powered by low-carbon electricity sources.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

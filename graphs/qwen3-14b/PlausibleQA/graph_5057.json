@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Vermillion is a shade of which colour. Orange",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Vermillion is a shade of which colour. Pink",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Vermillion is a shade of which colour. Purple",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vermillion is a shade of which colour. Red",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vermilion is synonymous with red orange, which often takes a modern form, but is 11% brighter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vermilion is not one specific hue; mercuric sulfides make a range of warm hues, from bright orange-red to a duller reddish-purple that resembles fresh liver.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cagliari is the capital of which island. Sicilian",
+      "strength": 0.36775506923015594
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cagliari is the capital of which island. Corsican",
+      "strength": 0.36775506923015594
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cagliari is the capital of which island. Italian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cagliari is the capital of which island. Sardic",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cagliari is an Italian municipality and the capital and largest city of the island of Sardinia, an autonomous region of Italy.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sardinia is the second largest island in the Mediterranean Sea after Sicily, and one of the twenty regions of Italy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

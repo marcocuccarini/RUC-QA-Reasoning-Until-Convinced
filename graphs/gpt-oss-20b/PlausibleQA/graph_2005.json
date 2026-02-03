@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what timezone is elizabethtown kentucky. Central Time Zone",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what timezone is elizabethtown kentucky. Eastern Standard Time",
+      "strength": 0.4000000585968386
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what timezone is elizabethtown kentucky. Pacific Time Zone",
+      "strength": 0.25009548836582807
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what timezone is elizabethtown kentucky. North American Eastern Time Zone",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pacific Time Zone (Zone U), which comprises roughly the states on the Pacific coast, plus Nevada and the Idaho Panhandle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "divides Kentucky in half roughly along a line that is west of Louisville, Kentucky running from northwest to southeast.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "About 60% of Kentucky lies in the Eastern Time Zone, with the rest in the Central Time Zone.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

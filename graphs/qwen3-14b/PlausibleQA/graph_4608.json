@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Salmorejo",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Porra",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Ajoblanco",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Spanish soup containing onions, tomatoes, peppers and cucumbers and traditionally thickened with stale breadcrumbs is always served cold . Gazpacho",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Salmorejo is served cold and may be garnished with diced Spanish ibérico ham and diced hard-boiled eggs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In gazpacho, stale bread soaked in water is generally used.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

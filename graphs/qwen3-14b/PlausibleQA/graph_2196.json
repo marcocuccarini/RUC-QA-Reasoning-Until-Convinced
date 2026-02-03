@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Nazi regime was Germany's Third Reich; which was the first Reich. Holy Roman Empire",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Nazi regime was Germany's Third Reich; which was the first Reich. Carolingian Empire",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Nazi regime was Germany's Third Reich; which was the first Reich. German Confederation",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Nazi regime was Germany's Third Reich; which was the first Reich. HREGN",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Beginning in 1923, early twentieth-century German nationalists and Nazi Party propaganda would identify the Holy Roman Empire as the 'First' Reich (Erstes Reich, Reich meaning empire), with the German Empire as the 'Second' Reich and what would eventually become Nazi Germany as the 'Third' Reich.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The adoption of this new name [Holy Roman Empire of the German Nation] coincided with the loss of imperial territories in Italy and Burgundy to the south and west by the late 15th century, but also to emphasize the new importance of the German Imperial Estates in ruling the Empire due to the Imperial Reform.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

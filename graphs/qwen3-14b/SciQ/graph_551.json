@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metalloids are the third class of elements after metals and nonmetals.",
+      "strength": 0.16901003245031204
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Halogens are the third class of elements after metals and nonmetals.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Synthetics are the third class of elements after metals and nonmetals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Noble gases are the third class of elements after metals and nonmetals.",
+      "strength": 0.4000850233109672
+    },
+    "A4": {
+      "type": "argument",
+      "text": "No widely accepted definition of a metalloid exists, nor any division of the periodic table into metals, metalloids, and nonmetals; Hawkes questioned the feasibility of establishing a specific definition",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Classifying an element as a metalloid has been described by Sharp as 'arbitrary'",
+      "strength": 0.4000000392786357
+    },
+    "A6": {
+      "type": "argument",
+      "text": "there is neither an IUPAC definition nor a precise consensus on exactly which elements should be considered metals, nonmetals, or semi-metals (sometimes called metalloids)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Six nonmetals are classified as noble gases: helium, neon, argon, krypton, xenon, and the radioactive radon.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Some consider metalloids distinct from both metals and nonmetals, while others classify them as nonmetals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

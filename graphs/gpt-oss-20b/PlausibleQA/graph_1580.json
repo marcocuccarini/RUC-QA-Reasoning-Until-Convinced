@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Harold Shipman's Cellmate",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Dennis Nilsen",
+      "strength": 0.15384624871383096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Peter Sutcliffe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders. Dr Shipman",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dennis Andrew Nilsen was imprisoned at HM Prison Full Sutton in the East Riding of Yorkshire.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Convicted at the Old Bailey of six counts of murder and two of attempted murder",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dennis Nilsen's 2004 appeal to the Royal Courts of Justice, seeking to overturn a 2003 ruling his autobiography cannot be returned to him and must remain unpublished",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Shipman hanged himself in his cell at Wakefield Prison on 13 January 2004, one day short of his 58th birthday.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

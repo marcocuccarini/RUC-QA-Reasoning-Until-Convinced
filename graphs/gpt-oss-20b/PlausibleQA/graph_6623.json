@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the capital of the Portuguese empire from 1808 to 1815. Lisbon",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the capital of the Portuguese empire from 1808 to 1815. Rio de Janeiro",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the capital of the Portuguese empire from 1808 to 1815. Salvador",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the capital of the Portuguese empire from 1808 to 1815. BRRIO",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1808, when the Portuguese Royal Court moved to Brazil, Rio de Janeiro became the seat of the court of Queen Maria I of Portugal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The city remained primarily a colonial capital until 1808, when the Portuguese royal family and most of the associated Lisbon nobles, fleeing from Napoleon's invasion of Portugal, moved to Rio de Janeiro.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

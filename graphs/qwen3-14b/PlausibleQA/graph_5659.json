@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what year did the baltimore ravens win superbowl. 2001",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what year did the baltimore ravens win superbowl. 1999",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what year did the baltimore ravens win superbowl. 2002",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what year did the baltimore ravens win superbowl. 2000 NFL season",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The game was played on January 28, 2001, at Raymond James Stadium in Tampa, Florida, making it the first time Raymond James Stadium held a Super Bowl.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Super Bowl XXXV was an American football game between the American Football Conference (AFC) champion Baltimore Ravens and the National Football Conference (NFC) champion New York Giants to decide the National Football League (NFL) champion for the 2000 season.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The season ended with Super Bowl XXXV when the Baltimore Ravens defeated the New York Giants, 34–7, at Raymond James Stadium in Tampa, Florida.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It would be the last NFL season to date to start on Labor Day weekend.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

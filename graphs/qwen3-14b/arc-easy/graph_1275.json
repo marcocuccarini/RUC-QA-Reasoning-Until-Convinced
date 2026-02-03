@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Magnetism is what causes an object to fall to the ground when you let it drop from your hand.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravity is the force that causes an object to fall to the ground when you let it drop from your hand.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Air resistance causes an object to fall to the ground when you let it drop from your hand.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The push from your hand causes an object to fall to the ground when you let it drop from your hand.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Galileo established that gravitational acceleration is the same for all objects.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Galileo postulated that air resistance is the reason that objects with a low density and high surface area fall more slowly in an atmosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

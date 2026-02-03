@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen, carbon, hydrogen, and nitrogen are the four elements that make up most of the human body.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Silicon, calcium, oxygen, and aluminum are the four elements that make up most of the human body.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon, sodium, hydrogen, and oxygen are the four elements that make up most of the human body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sulfur, phosphorous, calcium, nitrogen are the four elements that make up most of the human body.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "About 99% of the mass of the human body is made up of six elements: oxygen, carbon, hydrogen, nitrogen, calcium, and phosphorus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Aluminium, the third most common element in the Earth's crust (after oxygen and silicon), serves no function in living cells, but is toxic in large amounts, depending on its physical and chemical forms and magnitude, duration, frequency of exposure, and how it was absorbed by the human body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

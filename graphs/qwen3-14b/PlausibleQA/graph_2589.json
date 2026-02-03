@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What are the international registration letters of a vehicle from Iceland. IC",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What are the international registration letters of a vehicle from Iceland. ICE",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What are the international registration letters of a vehicle from Iceland. IL",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What are the international registration letters of a vehicle from Iceland. IS",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The United Nations uses ISO 3166-1 alpha-2 codes for international vehicle registration codes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The code IC is already reserved for the Canary Islands.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

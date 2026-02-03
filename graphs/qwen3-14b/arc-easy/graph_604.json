@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Weather varies more than climate over a summer.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Climate varies more than weather over a summer.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Climate varies, but weather stays the same over a summer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weather and climate vary to the same degree over a summer.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Weather refers to day-to-day temperature, precipitation, and other atmospheric conditions, whereas climate is the term for the averaging of atmospheric conditions over longer periods of time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earth's weather system is a chaotic system; as a result, small changes to one part of the system can grow to have large effects on the system as a whole.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

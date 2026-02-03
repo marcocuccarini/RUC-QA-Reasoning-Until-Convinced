@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A compound is the snack Ben is eating, which contains raisins, chocolate pieces, and nuts, from which he picks out all the raisins.",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An element is the best description of the snack Ben is eating, which contains raisins, chocolate pieces, and nuts, but Ben removes all of the raisins as he eats.",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A solution is the snack Ben is eating, composed of raisins, chocolate pieces, and nuts, from which he picks out all of the raisins.",
+      "strength": 0.4000000000584653
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A mixture is the snack Ben is eating, consisting of raisins, chocolate pieces, and nuts that he picks out as he eats.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Solution (chemistry), a mixture where one substance is dissolved in another",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chemical compounds have a unique and defined chemical structure held together in a defined spatial arrangement by chemical bonds.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Chemical compounds are substances made of atoms of different elements; they can have molecular or non-molecular structure.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Elements are such Substances as cannot be resolved, or reduced, into two or more Substances of different Kinds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

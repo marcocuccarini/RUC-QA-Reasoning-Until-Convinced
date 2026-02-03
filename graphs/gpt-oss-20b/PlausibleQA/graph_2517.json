@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Matt Busby played for Manchester City from 1928 to 1936. Which club did he play for from 1936 to 1941. Liverpool",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Matt Busby played for Manchester City from 1928 to 1936. Which club did he play for from 1936 to 1941. Bolton Wanderers",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Matt Busby played for Manchester City from 1928 to 1936. Which club did he play for from 1936 to 1941. Everton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Matt Busby played for Manchester City from 1928 to 1936. Which club did he play for from 1936 to 1941. Lerpwl",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Busby was sold to Liverpool for £8,000 on 12 March 1936, having made more than 200 appearances for Manchester City.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Busby made his debut for Liverpool on 14 March 1936, away to Huddersfield Town; the match ended in a 1–0 Liverpool defeat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

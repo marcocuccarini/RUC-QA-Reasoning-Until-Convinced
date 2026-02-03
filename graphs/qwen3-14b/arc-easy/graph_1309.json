@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Blocked sunlight casts a shadow is the best example of a chemical reaction.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sunlight evaporates water from a lake is the best example of a chemical reaction.",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oxygen absorbing sunlight to form ozone molecules is the best example of a chemical reaction.",
+      "strength": 0.25009548836582807
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A prism refracts sunlight into light of different wavelengths is the best example of a chemical reaction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ozone can also be produced from oxygen at the anode of an electrochemical cell.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ozone can be produced from oxygen through photochemical reactions involving sunlight.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Evaporation of water from a lake by sunlight does not involve chemical changes or new products.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

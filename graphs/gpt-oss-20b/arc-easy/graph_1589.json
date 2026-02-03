@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tar is the product made from silica sand, a resource used in large volume in Nevada.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glass is the product made from silica sand, a resource used in large volume in Nevada.",
+      "strength": 0.5999030796687862
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic is the product that is made from silica sand, a resource used in large volumes in Nevada.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electricity is the product made from silica sand, a resource used in large volume in Nevada.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For high melting point casting, such as steels, a minimum of 98% pure silica sand must be used;",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This sand is usually used when casting large steel workpieces.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Glass can form naturally from volcanic magma.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Obsidian is a common volcanic glass with high silica (SiO2) content formed when felsic lava extruded from a volcano cools rapidly.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Silica is the primary ingredient in the production of most glass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

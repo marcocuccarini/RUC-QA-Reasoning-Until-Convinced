@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A puddle disappearing on a hot summer afternoon is an example of water condensing.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sweat forming on your forehead after you do a lot of exercise is an example of water condensing.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ice cubes melting when you put them out in the sun is an example of water condensing.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Dew forming on plants during a cold night is an example of water condensing.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When surface temperature drops, eventually reaching the dew point, atmospheric water vapor condenses to form droplets on the surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When the exposed surface cools by radiating its heat, atmospheric moisture condenses at a rate greater than that at which it can evaporate, resulting in the formation of water droplets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

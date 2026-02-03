@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where are the cones in the eye located. The macula",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where are the cones in the eye located. The optic nerve",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where are the cones in the eye located. The choroid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where are the cones in the eye located. the retina",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The fovea centralis is a small, central pit composed of closely packed cones in the eye. It is located in the center of the macula lutea of the retina.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The fovea is a depression in the inner retinal surface, about 1.5 mm wide, the photoreceptor layer of which is entirely cones and which is specialized for maximum visual acuity.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Photons of light falling on the light-sensitive cells of the retina (photoreceptor cones and rods) are converted into electrical signals that are transmitted to the brain by the optic nerve and interpreted as sight and vision.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

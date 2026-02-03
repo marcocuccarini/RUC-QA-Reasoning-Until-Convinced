@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Voltage is what the membrane potential begins to move back toward during repolarization.",
+      "strength": 0.72365945048438
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Charge is the target toward which the membrane potential moves back during repolarization.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Resistance is the resting component that the membrane potential moves back toward during repolarization.",
+      "strength": 0.25000004110568635
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tension is the resting value toward which the membrane potential moves back during repolarization.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The resting potential is mostly determined by the concentrations of the ions in the fluids on both sides of the cell membrane and the ion transport proteins that are in the cell membrane.",
+      "strength": 0.5999999725962261
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The resting potential exists due to the differences in membrane permeabilities for potassium, sodium, calcium, and chloride ions, which in turn result from functional activity of various ion channels, ion transporters, and exchangers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Recovery from an action potential is partly dependent on a type of voltage‑gated potassium channel that is closed at the resting voltage level but opens as a consequence of the large voltage change produced during the action potential.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "This concentration gradient along with potassium leak channels present on the membrane of the neuron causes an efflux of potassium ions making the resting potential close to EK ≈ −75 mV.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Potassium channels are then activated, and there is an outward current of potassium ions, returning the electrochemical gradient to the resting state.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The interactions between ion channels and ion pumps produce a voltage difference across the membrane, typically a little less than 1/10 of a volt at baseline.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Neurons are electrically excitable, due to the maintenance of voltage gradients across their membranes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

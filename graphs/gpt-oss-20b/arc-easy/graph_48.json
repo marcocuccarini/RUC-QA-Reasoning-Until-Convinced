@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sour taste is a property of a chemical base, as noted in the context that common soaps are often basic.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "pH equal to 6 is a property of a chemical base, as seen in common soaps that are often basic.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Turning litmus paper blue is a property of a chemical base, such as common soaps that are often basic.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Forms bubbles with limestone is a property of a chemical base, as common soaps are often basic.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "bases turn red litmus paper blue",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "pH of a basic solution at standard conditions is greater than seven.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

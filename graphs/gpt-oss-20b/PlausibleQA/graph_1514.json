@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What German battleship was sunk in December 1943 during the Battle of the North Cape, by HMS Duke of York and her escorts. BISMARCK",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What German battleship was sunk in December 1943 during the Battle of the North Cape, by HMS Duke of York and her escorts. TIRPITZ",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What German battleship was sunk in December 1943 during the Battle of the North Cape, by HMS Duke of York and her escorts. GNEISENAU",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What German battleship was sunk in December 1943 during the Battle of the North Cape, by HMS Duke of York and her escorts. SCHARNHORST",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Scharnhorst was brought to battle and sunk by the battleship HMS Duke of York and its cruisers and destroyers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Battle of the North Cape took place only a few months after the successful Operation Source, which had severely damaged the German battleship Tirpitz with midget submarines as she lay at anchor in Norway.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

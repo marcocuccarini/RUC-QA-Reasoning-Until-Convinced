@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The number of fish species increases in Florida lakes where human activity has elevated nutrients, leading to rapid algal growth that subsequently dies and decomposes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The volume of lake water increases when human activity raises nutrient levels in many Florida lakes, leading to rapid algal growth that later dies and decomposes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The buildup of bottom sediments decreases in Florida lakes that have been enriched with nutrients by human activity, leading to rapid algal growth that subsequently dies and decomposes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The amount of dissolved oxygen decreases in Florida lakes as a result of human activity that increases nutrient levels, causing rapid algal overgrowth that dies and decomposes.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Natural decomposers present in the water begin decomposing the dead algae, consuming dissolved oxygen present in the water during the process. This can result in a sharp decrease in available dissolved oxygen for other aquatic life.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The process of the oversupply of nutrients leading to algae growth and oxygen depletion is called eutrophication.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

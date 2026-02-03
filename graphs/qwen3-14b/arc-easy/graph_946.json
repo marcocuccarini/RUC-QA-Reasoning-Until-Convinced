@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sulfur (S), nitrogen (N), phosphorus (P), and bromine (Br) are noble (inert) gases.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They are nonmetals, as is true for the elements sulfur (S), nitrogen (N), phosphorus (P), and bromine (Br).",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They (sulfur, nitrogen, phosphorus, and bromine) have the same thermal conductivity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They have the same number of protons, a property common to sulfur (S), nitrogen (N), phosphorus (P), and bromine (Br).",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Noble gases are nonmetals, including helium, neon, argon, krypton, xenon, and radon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nonmetals include sulfur, nitrogen, phosphorus, and bromine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

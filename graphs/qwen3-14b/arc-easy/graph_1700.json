@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cool, rainy fall weather is what the student will most likely expect when she steps outside after hearing that the outside temperature is 32°C on the radio.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cold, snowy winter weather is the type of weather the student most likely expects when she steps outside after hearing on the radio that the outside temperature is 32 °C.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hot, sunny summer weather is the type of weather the student will most likely expect when she steps outside after hearing that the outside temperature is 32 °C.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Spring weather with flowers blooming is what the student will most likely expect when she steps outside after hearing on the radio that the outside temperature is 32 °C.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The IPCC defines a heatwave as 'a period of abnormally hot weather, often defined with reference to a relative temperature threshold, lasting from two days to months.'",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Netherlands defines a heat wave as a period of at least five consecutive days in which the maximum temperature in De Bilt exceeds 25 °C (77 °F).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

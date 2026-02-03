@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A neutral one is produced when equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A economical one is the result when equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A lateral one is the result when equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A thermodynamic one is the result when equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When a strong acid is neutralized by a strong base there are no excess hydrogen ions left in the solution.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pH of such a solution is close to a value of 7; the exact pH value is dependent on the temperature of the solution.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

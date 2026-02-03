@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Asian country has the Tugrik as its currency. China",
+      "strength": 0.22634789437063227
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Asian country has the Tugrik as its currency. Japan",
+      "strength": 0.3677327762498912
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Asian country has the Tugrik as its currency. India",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Asian country has the Tugrik as its currency. Menggu",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tögrög is the official currency of Mongolia.",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Banknotes of Mongolia.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bank of Mongolia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

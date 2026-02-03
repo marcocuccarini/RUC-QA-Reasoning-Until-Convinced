@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What merchant bank collapsed in 1995 due to unauthorised debts accumulated by trader Nick Leeson. Morgan Stanley",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What merchant bank collapsed in 1995 due to unauthorised debts accumulated by trader Nick Leeson. Goldman Sachs",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What merchant bank collapsed in 1995 due to unauthorised debts accumulated by trader Nick Leeson. Lehman Brothers",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What merchant bank collapsed in 1995 due to unauthorised debts accumulated by trader Nick Leeson. Barings",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Barings was declared insolvent on 26 February 1995",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Leeson's activities had generated losses totalling £827 million ($1.3 billion)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

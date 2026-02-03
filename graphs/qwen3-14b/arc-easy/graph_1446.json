@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Adult → pupa → larva → egg is the sequence that shows the life cycle of some insects.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Egg -> pupa -> larva -> adult is the sequence that shows the life cycle of some insects.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Larva → pupa → egg → adult is a sequence that shows the life cycle of some insects.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Egg → larva → pupa → adult is the sequence that shows the life cycle of some insects.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Holometabolous insects pass through a larval stage, then enter a pupal stage, and finally emerge as adults.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In holometabolous insects, immature stages are called larvae, which then enter an inactive pupal stage before emerging as adults.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

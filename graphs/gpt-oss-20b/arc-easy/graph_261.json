@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solid to gas are the states of matter involved when nitrogen boils at -196 °C.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liquid to gas is the states of matter involved when nitrogen boils at –196 °C.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Liquid to solid are the states of matter involved when nitrogen boils at its boiling point of –196 °C.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gas to liquid is the states of matter involved when nitrogen boils at its boiling point of –196 °C.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Liquid nitrogen has a boiling point of about −196 °C.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Liquid nitrogen (LN2) is nitrogen in a liquid state at low temperature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

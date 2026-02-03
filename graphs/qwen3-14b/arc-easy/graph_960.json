@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Annual rainfall would increase if Earth revolved at a faster rate.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Daylight hours would decrease if Earth revolved at a faster rate.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Seasons would be shorter is the most likely outcome if Earth revolved at a faster rate.",
+      "strength": 0.40008417731488793
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Annual temperature variation would be greater if Earth revolved at a faster rate.",
+      "strength": 0.40008417731488793
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The length of astronomical seasons varies due to the elliptical nature of Earth's orbit, as discovered by Johannes Kepler.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Earth's axial tilt accounts for most of the seasonal variation in climate in both hemispheres.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

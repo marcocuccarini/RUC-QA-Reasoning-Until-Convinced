@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Swimming speed is increased by an individual fish when a group of the same species swim together.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Body temperature is increased by a group of the same species of fish swimming together.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chance of survival is increased when a group of the same species of fish swim together.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Visibility to predators is increased for an individual when a group of the same species of fish swim together.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Experiments varying the group size of the water striders showed that the attack rate per individual water strider decreases as group size increases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The horse-fly often attacks these horses, sucking blood and carrying diseases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

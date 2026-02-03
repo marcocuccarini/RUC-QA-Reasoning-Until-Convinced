@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which state on the Gulf of Mexico is nearest the end of the alphabet. US-MS",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which state on the Gulf of Mexico is nearest the end of the alphabet. US-AL",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which state on the Gulf of Mexico is nearest the end of the alphabet. US-LA",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which state on the Gulf of Mexico is nearest the end of the alphabet. US-TX",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Texas has a coastline on the Gulf of Mexico to the southeast.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Texas is the second-largest U.S. state by both area and population.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

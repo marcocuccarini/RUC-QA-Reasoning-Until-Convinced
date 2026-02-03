@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What are the French speaking citizens of Belgium called. Belgians",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What are the French speaking citizens of Belgium called. Francophones",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What are the French speaking citizens of Belgium called. Belgae",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What are the French speaking citizens of Belgium called. Walons",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Walloons are a Gallo-Romance ethnic group native to Wallonia, Belgium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Walloon language, widespread in use up until the Second World War, has been dying out of common use due in part to its prohibition by the public school system, in favor of French.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

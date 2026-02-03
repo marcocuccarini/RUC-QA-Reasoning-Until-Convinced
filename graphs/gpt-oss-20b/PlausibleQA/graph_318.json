@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who played david on the assassination of gianni versace. Darren Criss",
+      "strength": 0.15393935004823606
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who played david on the assassination of gianni versace. Finn Wittrock",
+      "strength": 0.4310344825812567
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who played david on the assassination of gianni versace. Jon Jon Briones",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who played david on the assassination of gianni versace. Cody Fern",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2018, he portrayed murder victim Jeffrey Trail in the FX crime drama series The Assassination of Gianni Versace: American Crime Story for which he received a second Emmy nomination.",
+      "strength": 0.40000000002575015
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He rose to fame starring on the television series Glee (2010–2015) and received a Primetime Emmy Award and Golden Globe Award for his leading role as spree killer Andrew Cunanan in The Assassination of Gianni Versace: American Crime Story (2018).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2018, he appeared in The Assassination of Gianni Versace: American Crime Story as Modesto Cunanan",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 2018, Fern made his television debut in the acclaimed FX true crime anthology series The Assassination of Gianni Versace: American Crime Story as David Madson.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

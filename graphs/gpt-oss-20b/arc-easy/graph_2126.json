@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If all of the atoms were removed from a chair, the chair would still be there but it would weigh less.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The chair would be exactly the same as it was before if you took all of the atoms out of it.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There would be nothing left of the chair if all of its atoms were removed.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Only a pool of liquid would be left on the floor if you took all of the atoms out of a chair.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A vacuum is space devoid of matter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "QED vacuum is a state with no matter particles (hence the name), and no photons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

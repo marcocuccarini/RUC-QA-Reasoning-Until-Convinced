@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. Sashimi-style Nigiri",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. Yubiwa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. Tataki",
+      "strength": 0.8460569074645342
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi. 刺身",
+      "strength": 0.5999999644592211
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sashimi (刺身; English: sə-SHEE-mee, Japanese: [saɕimiꜜ]) is a Japanese delicacy consisting of fresh raw fish or meat sliced into thin pieces and often eaten with soy sauce.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tataki ('pounded') is a type of sashimi that is quickly and lightly seared on the outside, leaving it raw inside.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Fish such as tuna or horse mackerel are chopped and mixed with garnishes such as garlic, ginger, green onions or shiso leaves.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Soy sauce may be poured over the chopped mixture before consumption.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. All Roman citizens",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. Only landowners",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. Male citizens over 18",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was allowed to vote in the roman republic. unknown",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An adult male citizen with the full complement of legal and political rights was called optimo iure (lit. 'having the greatest rights')",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Citizens optimo iure could participate in assemblies that elected magistrates, enacted legislation, presided over trials in capital cases, declared war and peace, and forged or dissolved treaties",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

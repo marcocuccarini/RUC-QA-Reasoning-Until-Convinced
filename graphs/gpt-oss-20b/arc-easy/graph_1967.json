@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It is a sugar‑free product is the inference that can be drawn from a food product advertisement that claims “30 % less fat than our leading competitors.”",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It will help a person lose weight can be inferred from a food product advertisement that claims 30 % less fat than our leading competitors.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It is the healthiest choice available is inferred from a food product advertisement that claims “30% less fat than our leading competitors.”",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The fat content of the item is reduced by 30% compared to leading competitors, as claimed in the food product advertisement.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For example, an evaluation of evidence from 1966 to 1973 of the observed health impact of replacing dietary saturated fat with linoleic acid found that it increased rates of death from all causes, coronary heart disease, and cardiovascular disease.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Replacement of saturated fat with polyunsaturated fat in the American diet could reduce the risk of cardiovascular diseases by 30%.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "None of these studies suggested any connection between percentage of calories from fat and risk of cancer, heart disease, or weight gain.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In contrast, it is now well‑established that consumption of trans fats, such as those present in partially hydrogenated vegetable oils, are a risk factor for cardiovascular disease.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

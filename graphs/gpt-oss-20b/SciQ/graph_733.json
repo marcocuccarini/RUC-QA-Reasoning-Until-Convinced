@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxidants are compounds capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Antioxidants are compounds that are capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oxygen is a compound capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Residues are compounds capable of accepting electrons, such as O₂ or F₂.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Common oxidizing agents are oxygen, hydrogen peroxide, and the halogens.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A classic oxidizing agent is the ferrocenium ion Fe(C5H5)+2, which accepts an electron to form Fe(C5H5)2.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

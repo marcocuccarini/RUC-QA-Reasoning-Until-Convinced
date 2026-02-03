@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Symphony number 104 by Joseph Haydn and symphony number 2 by Ralph Vaughan Williams are both named after which European capital city. Paris",
+      "strength": 0.2500954919892547
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Symphony number 104 by Joseph Haydn and symphony number 2 by Ralph Vaughan Williams are both named after which European capital city. Vienna",
+      "strength": 0.2500954919892547
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Symphony number 104 by Joseph Haydn and symphony number 2 by Ralph Vaughan Williams are both named after which European capital city. Prague",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Symphony number 104 by Joseph Haydn and symphony number 2 by Ralph Vaughan Williams are both named after which European capital city. GBLON",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "London",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Museum of London",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The London symphonies were composed by Joseph Haydn between 1791 and 1795.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Symphonies Nos. 99–104 were composed in Vienna and London for Haydn's second visit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

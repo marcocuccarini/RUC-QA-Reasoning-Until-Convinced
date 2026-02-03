@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "at what age are you no longer a toddler. 48 months",
+      "strength": 0.4704823572082805
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "at what age are you no longer a toddler. 40 months",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "at what age are you no longer a toddler. 60 months",
+      "strength": 0.4704823572082805
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "at what age are you no longer a toddler. 36 months",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A toddler is a child approximately 1 to 3 years old, though definitions vary.",
+      "strength": 0.2500469562443854
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Toddler (12–24 months)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Young toddlers (12 months) have a wider midfoot than older toddlers (24 months)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

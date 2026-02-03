@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Blue eyes are not an inherited trait in humans.",
+      "strength": 0.15384615393005266
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Long fingers are not an inherited trait in humans.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Calloused hands are not an inherited trait in humans.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Attached earlobes are not an inherited trait in humans.",
+      "strength": 0.40000008741621107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eye color is an example of an inherited characteristic in humans.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eye color inheritance is now recognized as a polygenic trait, meaning that it is controlled by the interactions of several genes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A study in Rotterdam (2009) found that it was possible to predict eye color with more than 90% accuracy for brown and blue using just six SNPs.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "there is a continuous range from one extreme to the other, suggesting the influence of several genes",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Research has linked the ratio of lengths between the index and ring fingers to higher levels of testosterone, and to various physical and behavioral traits such as penis length and risk for development of alcohol dependence or video game addiction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

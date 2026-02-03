@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Brown, American Rainbow and Cutthroat are all types of which fish. Salmon",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Brown, American Rainbow and Cutthroat are all types of which fish. Bass",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Brown, American Rainbow and Cutthroat are all types of which fish. Char",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Brown, American Rainbow and Cutthroat are all types of which fish. Trout",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The name 'trout' is commonly used for many species in three of the seven genera, including Salmo (Brown trout), Oncorhynchus (Rainbow and Cutthroat trout), and Salvelinus (Lake trout).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brook trout and three other extant species of North American trout, despite the names, are actually char (or charr), which are salmonids also closely related to trout and salmon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

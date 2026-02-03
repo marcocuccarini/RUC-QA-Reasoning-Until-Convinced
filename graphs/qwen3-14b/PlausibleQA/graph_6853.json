@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Turkey",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Syria",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Iran",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Iraq",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Euphrates originates in Turkey",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Euphrates flows through Syria and Iraq",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Tigris originates in Turkey",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Tigris flows through Syria",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

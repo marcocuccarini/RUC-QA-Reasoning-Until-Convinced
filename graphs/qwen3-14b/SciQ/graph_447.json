@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pupa is the stage of the insect life cycle in which insects begin developing their wings.",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Crystalline is the stage of insects' life cycle at which they begin developing their wings.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Larva is the stage of the insect life cycle during which insects begin developing their wings.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pupal is the stage of the insect life cycle in which insects begin developing their wings.",
+      "strength": 0.4000000465571573
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In hemimetabolous insects, external wing buds form in later instars of nymphs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is during the pupal stage that the adult structures of the insect are formed while the larval structures are broken down.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The adult structures grow from imaginal discs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

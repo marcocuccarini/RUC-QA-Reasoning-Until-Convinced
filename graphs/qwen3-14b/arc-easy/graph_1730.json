@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sunspots are evidence that could most likely be used to explain an event in the geologic past, reflecting James Hutton’s assertion that evidence of past occurrences can explain events which happen today.",
+      "strength": 0.6799999243142999
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earthquakes can most likely be used to explain an event in the geologic past, based on James Hutton's 1785 statement that evidence of past occurrences can be used to explain events which happen today.",
+      "strength": 0.8460569430000096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wave patterns are most likely used to explain an event in the geologic past, consistent with James Hutton’s 1785 assertion that evidence of past occurrences can be used to explain events which happen today.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cloud formations are the most likely evidence that can be used to explain an event in the geologic past, as James Hutton stated in 1785 that evidence of past occurrences can be used to explain events which happen today.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hutton advanced the idea that the physical world's remote history can be inferred from evidence in present-day rocks.",
+      "strength": 0.7499999861681838
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the solid parts of the present land appear in general, to have been composed of the productions of the sea...",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the greater part of our land, if not the whole had been produced by operations natural to this globe",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Hutton then sought evidence to support his idea that there must have been repeated cycles, each involving deposition on the seabed, uplift with tilting and erosion, and then moving undersea again for further layers to be deposited.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Such earthquakes can serve as an early warning of volcanic eruptions, as during the 1980 eruption of Mount St. Helens.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Earthquake swarms can serve as markers for the location of the flowing magma throughout the volcanoes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

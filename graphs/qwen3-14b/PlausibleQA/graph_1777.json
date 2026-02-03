@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of government does iran have after 1979. Islamic Republic",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of government does iran have after 1979. Authoritarian Regime",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of government does iran have after 1979. Constitutional Monarchy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of government does iran have after 1979. Theocracy",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Iran is an Islamic theocracy governed by elected and unelected institutions, with ultimate authority vested in the supreme leader.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Iranian government is authoritarian and has been widely criticized for its poor human rights record, including restrictions on freedom of assembly, expression, and the press.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Iran officially became an Islamic Republic on 1 April 1979, after Iranians overwhelmingly approved a national referendum to make it so a day before.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Iranian government's constitution is based on the concept of velayat-e faqih, the idea that Muslims require 'guardianship' by leading Islamic jurists.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

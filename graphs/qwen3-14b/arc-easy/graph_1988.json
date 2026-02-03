@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Time is the unit represented by the ounce, the pound, and the ton.",
+      "strength": 0.4000000000299173
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Weight is the unit for the ounce, the pound, and the ton.",
+      "strength": 0.5999028990364653
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Length is the unit of the ounce, the pound, and the ton.",
+      "strength": 0.25000004684221083
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Distance is the unit of the ounce, the pound, and the ton.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An ounce is any of several units of mass",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ounce-force, a unit of force, one sixteenth of a pound-force",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pound or pound-mass is a unit of mass",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The yard or the metre shall be the unit of measurement of length and the pound or the kilogram shall be the unit of measurement of mass",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Ton is a unit of measure of mass",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The displacement, essentially the weight, of a ship is traditionally expressed in long tons",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

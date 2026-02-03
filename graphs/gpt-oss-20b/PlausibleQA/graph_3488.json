@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Punchestown Racecourse is in which European country. United Kingdom",
+      "strength": 0.1405527054874428
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Punchestown Racecourse is in which European country. France",
+      "strength": 0.40000000003021796
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Punchestown Racecourse is in which European country. Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Punchestown Racecourse is in which European country. Airlan",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Punchestown Racecourse is located in the parish of Eadestown, between the R410 and R411 regional roads near Naas, County Kildare, in Ireland.",
+      "strength": 0.5999499548566241
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Punchestown Racecourse is the home of Irish Jumps Racing.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Punchestown Festival is held in Ireland.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text includes 'Wikimedia Atlas of Ireland'.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The text references the Government of Ireland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 18th century inventor and founding father of the United States coined the phrase 'time is money'. Thomas Jefferson",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 18th century inventor and founding father of the United States coined the phrase 'time is money'. Eli Whitney",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 18th century inventor and founding father of the United States coined the phrase 'time is money'. Robert Fulton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 18th century inventor and founding father of the United States coined the phrase 'time is money'. Benjamin Franklyn",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Benjamin Franklin was one of the Founding Fathers of the United States; a drafter and signer of the Declaration of Independence; and the first postmaster general.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Benjamin Franklin became wealthy publishing Poor Richard's Almanack, which he wrote under the pseudonym 'Richard Saunders'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

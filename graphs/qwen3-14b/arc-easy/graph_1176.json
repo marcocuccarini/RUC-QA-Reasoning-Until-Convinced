@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To move water throughout the body is a function of the cardiovascular system.",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Providing structural support for the body is a function of the cardiovascular system.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To eliminate waste from the body is a function of the cardiovascular system.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To transport gases throughout the body is a function of the cardiovascular system.",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A major function is to carry the lymph, draining and returning interstitial fluid into the lymphatic ducts back to the heart for return to the circulatory system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The systemic circulation is a circuit loop that delivers oxygenated blood from the left heart to the rest of the body, and returns deoxygenated blood back to the right heart via large veins known as the venae cavae.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pulmonary circulation is a circuit loop from the right heart taking deoxygenated blood to the lungs where it is oxygenated and returned to the left heart.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The pumped blood carries metabolic waste such as carbon dioxide to the lungs.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The pumped blood carries oxygen and nutrients to the tissue.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "indifferent"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

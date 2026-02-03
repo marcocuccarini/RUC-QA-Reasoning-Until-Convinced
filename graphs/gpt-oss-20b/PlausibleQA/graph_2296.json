@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which author created the character Moll Flanders. Henry Fielding",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which author created the character Moll Flanders. Samuel Richardson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which author created the character Moll Flanders. Jonathan Swift",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which author created the character Moll Flanders. Daniel Foe",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Defoe wrote Moll Flanders.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Moll Flanders was published anonymously for over fifty years until Francis Noble named Daniel Defoe on their title pages in edition publication in 1775 and 1774.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

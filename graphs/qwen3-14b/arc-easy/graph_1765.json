@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "-10°C is the temperature at which the second container of 90 mL water freezes, whereas the first container of 100 mL water freezes at 0 °C.",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "-1°C is the temperature at which the second container, holding 90 mL of water, freezes, while the first container with 100 mL of water freezes at 0 °C in a freezer.",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "0°C is the temperature at which the second container of 90 mL of water freezes when placed in a freezer, because the water in the container freezes at 0 °C.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "10°C is the temperature at which the second container of 90 mL of water freezes when placed in a second freezer, while the first container of 100 mL of water freezes at 0°C.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The melting point of ice is 0 °C (32 °F; 273 K) at standard pressure",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

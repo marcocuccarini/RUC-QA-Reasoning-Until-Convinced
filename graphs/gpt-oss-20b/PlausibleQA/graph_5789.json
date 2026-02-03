@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Kamala Harris",
+      "strength": 0.49990706066335916
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Mike Pence",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Nancy Pelosi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is the vice President of the,USA. Biden",
+      "strength": 0.4000000909837343
+    },
+    "A4": {
+      "type": "argument",
+      "text": "JD Vance is the 50th and current vice president since January 20, 2025.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Joe Biden asked President Barack Obama to let him always be the 'last person in the room' when a big decision was made; later, as president himself, Biden adopted this model with his own vice president, Kamala Harris.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "White House website for Vice President Kamala Harris",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

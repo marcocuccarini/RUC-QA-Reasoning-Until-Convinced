@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A protostar is what the Sun is most likely to become toward the end of its lifetime.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A black hole is what the Sun is most likely to become toward the end of its lifetime.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A neutron star is the most likely object the Sun will become toward the end of its lifetime.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A white dwarf star is the most likely final state for the Sun toward the end of its lifetime.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the mass of a main‑sequence star is between 0.5 and 8 M☉, its core will become sufficiently hot to fuse helium into carbon and oxygen via the triple‑alpha process, but it will never become sufficiently hot to fuse neon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It will then expel most of its outer material to form a planetary nebula, leaving only the carbon–oxygen core.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

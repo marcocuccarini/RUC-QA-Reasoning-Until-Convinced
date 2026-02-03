@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who succeeded Brezhnev as Soviet premier. Kosygin",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who succeeded Brezhnev as Soviet premier. Gromyko",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who succeeded Brezhnev as Soviet premier. Ustinov",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who succeeded Brezhnev as Soviet premier. Andropov",
+      "strength": 0.5000911007803982
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Upon Brezhnev's death on 10 November 1982, Andropov succeeded him as General Secretary and, by extension, as the leader of the Soviet Union.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Alexei Kosygin became the new premier, and Anastas Mikoyan kept his office as chairman of the Presidium of the Supreme Soviet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

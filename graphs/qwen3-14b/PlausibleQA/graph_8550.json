@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the author of 'The Shortest Way with Dissenters' and `A Journey of the Plague Year'. Jonathan Swift",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the author of 'The Shortest Way with Dissenters' and `A Journey of the Plague Year'. Henry Fielding",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the author of 'The Shortest Way with Dissenters' and `A Journey of the Plague Year'. Samuel Johnson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the author of 'The Shortest Way with Dissenters' and `A Journey of the Plague Year'. Daniel Foe",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Shortest Way with the Dissenters; Or, Proposals for the Establishment of the Church is a pamphlet written by Daniel Defoe, first published anonymously in 1702.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A Journal of the Plague Year... is undersigned by the initials 'H. F.', suggesting the author's uncle Henry Foe as its primary source.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

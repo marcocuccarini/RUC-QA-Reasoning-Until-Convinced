@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Thymus gland is the location where T cells mature.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liver is the organ where T cells mature.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bone marrow is where T cells mature.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pituitary gland is where T cells mature.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The thymus facilitates the maturation of T cells.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "T cells begin as hematopoietic precursors from the bone-marrow, and migrate to the thymus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

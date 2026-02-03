@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deer receive their energy directly from the Sun, as every organism in an ecosystem obtains energy from another source.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fungus receives its energy directly from the Sun, while every organism in an ecosystem obtains energy from another source.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grass receives its energy directly from the Sun, as it is an organism in an ecosystem that obtains energy from another source.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The hawk receives its energy directly from the Sun, as every organism in an ecosystem obtains energy from another source.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Plants convert light energy into the chemical energy necessary to fuel their metabolism.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Other organisms, called heterotrophs, take in autotrophs as food to carry out functions necessary for their life.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "During photosynthesis, primary producers receive energy from the sun and use it to produce sugar and oxygen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

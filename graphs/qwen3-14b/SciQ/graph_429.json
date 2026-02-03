@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Move is what heating ice to its melting point (0°C) gives its molecules enough energy to do.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Settle is what the molecules do when ice is heated to its melting point (0 °C), giving them enough energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Evaporate is what heating ice to its melting point (0 °C) gives its molecules enough energy to do.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Freeze is what heating ice to its melting point (0 °C) gives its molecules enough energy to do.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Heat is nothing but the internal motion of the particles of a body; the hotter a body is, the more violently are the particles moved.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The average translational kinetic energy per molecule is directly proportional to the absolute temperature, as shown by the equation $\\\\frac{1}{2}mv^2 = \\\\frac{3}{2}k_B T$.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

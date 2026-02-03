@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Forms in layers is a characteristic of sedimentary rock.",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Looks very shiny is a characteristic of sedimentary rock.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Contains crystals is a characteristic of sedimentary rock.",
+      "strength": 0.5999999090162662
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Forms from magma is a characteristic of sedimentary rock.",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The sequence of beds that characterizes sedimentary rocks is called bedding. Single beds can be a couple of centimetres to several meters thick.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chemical sedimentary rocks have a non-clastic texture, consisting entirely of crystals.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Deposited sediments are the source of sedimentary rocks",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

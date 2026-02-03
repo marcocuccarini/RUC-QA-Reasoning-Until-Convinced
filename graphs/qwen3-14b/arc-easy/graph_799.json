@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hydrogen, nitrogen, and carbon are the atoms whose clusters are rearranged when the body digests plant sugars to make glycogen.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Oxygen, sulfur, and carbon atoms are rearranged in clusters when the body digests plant sugars to make glycogen, a way humans store energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon, hydrogen, and oxygen atoms are rearranged when the body digests plant sugars to make glycogen, a way humans store energy.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nitrogen, carbon, and sulfur are the atoms whose clusters are rearranged when the body digests plant sugars to make glycogen, a way humans store energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For the simplest carbohydrates, the carbon-to-hydrogen-to-oxygen atomic ratio is 1:2:1, i.e. they are often represented by the empirical formula (CH2O)n.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Plants synthesize carbohydrates from carbon dioxide and water by photosynthesis storing the absorbed energy internally, often in the form of starch or lipids.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

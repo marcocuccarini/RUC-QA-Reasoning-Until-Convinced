@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. The Cheshire Cat",
+      "strength": 0.2263360588711796
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. The White Rabbit",
+      "strength": 0.3676470589212362
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. The Duchess",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who, along with the March Hare, throws a perpetual tea party in Lewis Caroll's Alice's Adventures in Wonderland. 10/6",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Hatter having tea with the March Hare and the Dormouse.",
+      "strength": 0.59999999998734
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Alice finds the Hatter, March Hare, and a sleepy Dormouse in the midst of a tea party.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Thackery hosts a tea party, which he shares with Tarrant Hightopp the Mad Hatter, Mallymkun the Dormouse, and Chess the Cheshire Cat.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In Lewis Carroll's Alice's Adventures in Wonderland, Alice becomes a guest at a tea party along with the March Hare, the Hatter, and a sleeping Dormouse.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

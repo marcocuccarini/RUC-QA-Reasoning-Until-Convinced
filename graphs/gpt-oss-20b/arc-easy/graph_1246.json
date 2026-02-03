@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A mixture is the type of substance formed when chlorine gas reacts with sodium metal.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A compound is the type of substance formed when chlorine gas reacts with sodium metal.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An element is the type of substance formed when chlorine gas reacts with sodium metal.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An alloy is the type of substance formed when chlorine gas reacts with sodium metal.",
+      "strength": 0.5
+    },
+    "H4": {
+      "type": "hypothesis",
+      "text": "A solution is the type of substance formed when chlorine gas reacts with sodium metal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sodium chloride, commonly known as table salt, is an ionic compound with the chemical formula NaCl, representing a 1:1 ratio of sodium and chloride ions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Common salt has a 1:1 molar ratio of sodium and chlorine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

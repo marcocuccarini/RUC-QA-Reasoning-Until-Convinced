@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. In-N-Out Burger",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. Del Taco",
+      "strength": 0.40000000003581737
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. Carl's Jr.",
+      "strength": 0.25000009340748447
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. McD",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first Del Taco restaurant was opened in Yermo, California, on September 16, 1964.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Carl's Jr. was founded in 1941 by Carl Karcher in Los Angeles, starting with a hot dog cart.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first Carl's Jr. restaurants were opened in 1956 in Anaheim and Brea, California.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Brothers Richard and Maurice McDonald founded McDonald's in San Bernardino, California, in 1940 as a hamburger stand.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The first McDonald's at 1398 North E Street at West 14th Street in San Bernardino, California, on May 15, 1940.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Geothermal heating is the primary energy source driving circulation of ocean currents on Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Planetary rotation is the primary energy source driving circulation of ocean currents on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Solar heating is the primary energy source driving the circulation of ocean currents on Earth.",
+      "strength": 0.5999029143854268
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lunar tidal forces are the primary energy source driving circulation of ocean currents on Earth.",
+      "strength": 0.4000000465571573
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ocean currents are driven by the wind, by the gravitational pull of the Moon in the form of tides, and by the effects of variations in water density.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Thermohaline circulation is a part of the large-scale ocean circulation driven by global density gradients formed by surface heat and freshwater fluxes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1908, Johan Sandström performed a series of experiments at a Bornö Marine Research Station which proved that the currents driven by thermal energy transfer can exist, but require that 'heating occurs at a greater depth than cooling'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is the best conductor of electricity.",
+      "strength": 0.4000000562992237
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glass is the best conductor of electricity.",
+      "strength": 0.2500881490789106
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water is the best conductor of electricity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood is the best conductor of electricity.",
+      "strength": 0.4000000000539703
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wood is widely regarded as an extremely good insulator",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The most important insulation material is air.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Glass has a higher dielectric strength.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lead glasses therefore have high electrical resistance, about two orders of magnitude higher than soda–lime glass (108.5 vs 106.5 Ω⋅cm, DC at 250 °C).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The ionosphere is a region of the atmosphere that is ionized by solar radiation.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Ionization in the mesosphere largely ceases during the night.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

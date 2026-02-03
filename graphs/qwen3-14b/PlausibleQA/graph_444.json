@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which prominent Irish Nationalist was hung for treason in 1916 due to his involvement in the Easter Uprising. Patrick Pearse",
+      "strength": 0.5999999999858678
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which prominent Irish Nationalist was hung for treason in 1916 due to his involvement in the Easter Uprising. James Connolly",
+      "strength": 0.7499999631457305
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which prominent Irish Nationalist was hung for treason in 1916 due to his involvement in the Easter Uprising. Éamon de Valera",
+      "strength": 0.2500955085906131
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which prominent Irish Nationalist was hung for treason in 1916 due to his involvement in the Easter Uprising. Easmainn",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pearse and fourteen other leaders, including his brother Willie, were court-martialled and executed by firing squad.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was wounded in the fighting and, following the rebel surrender at the end altre of Easter week, was executed along with the six other signatories to the Proclamation of the Irish Republic.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Connolly was among 16 republican prisoners executed for their role in the Rising.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "He was arrested and sentenced to death, but released for a variety of reasons, including his American citizenship and the public response to the British execution of Rising leaders.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "First, he was one of the last to surrender and he was held in a different prison from other leaders, thus his execution was delayed by practicalities.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

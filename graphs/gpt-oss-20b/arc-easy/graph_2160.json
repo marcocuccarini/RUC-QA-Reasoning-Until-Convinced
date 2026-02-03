@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Day is the interval about which a new moon occurs.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Year is the approximate interval between successive new moons.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Week is the approximate interval between new moons.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Month is the interval after which a new moon occurs about every month.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A lunation, or synodic month, is the period from one new moon to the next.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The length of any one synodic month can vary from 29.26 to 29.80 days (12.96 hours) due to the perturbing effects of the Sun's gravity on the Moon's eccentric orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

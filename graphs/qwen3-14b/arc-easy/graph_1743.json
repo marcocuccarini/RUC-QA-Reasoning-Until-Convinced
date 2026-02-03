@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An atom is the water formed when hydrogen and oxygen combine in this reaction.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A reactant is the water in the reaction where hydrogen and oxygen combine to form water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An element is the description of the water produced when hydrogen and oxygen combine.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A compound is the water formed when hydrogen and oxygen combine.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A chemical compound is a chemical substance composed of many identical molecules containing atoms from more than one chemical element held together by chemical bonds.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A molecule consisting of atoms of only one element is therefore not a compound.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

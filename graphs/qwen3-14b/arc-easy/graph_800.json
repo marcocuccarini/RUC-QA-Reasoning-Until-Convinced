@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Respiration is the process during which plants use carbon dioxide from the atmosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fertilization is the process during which plants use carbon dioxide from the atmosphere.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Evaporation is the process during which plants use carbon dioxide from the atmosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process by which plants use carbon dioxide from the atmosphere.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "photosynthesis captures energy from sunlight to convert carbon dioxide into carbohydrates",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "cellular respiration is the oxidation of carbohydrates or other nutrients to carbon dioxide",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

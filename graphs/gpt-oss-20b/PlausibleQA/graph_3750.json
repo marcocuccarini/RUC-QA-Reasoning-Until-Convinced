@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bithynia was an ancient province on which sea. Mediterranean",
+      "strength": 0.4000332124719206
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bithynia was an ancient province on which sea. Aegean",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bithynia was an ancient province on which sea. Marmara",
+      "strength": 0.632255851664178
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bithynia was an ancient province on which sea. Euxine",
+      "strength": 0.5999999681613571
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bithynia is a geographical region of northwestern Asia Minor (in present-day Turkey), adjoining the Sea of Marmara.",
+      "strength": 0.5999667875280791
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bithynia is a geographical region of northwestern Asia Minor (in present-day Turkey), adjoining the Black Sea.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Sea of Marmara is a small inland sea entirely within the borders of Turkey.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Sea of Marmara has a surface salinity of about 22 parts per thousand, which is slightly more than that of the Black Sea, but only about two-thirds that of most oceans.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

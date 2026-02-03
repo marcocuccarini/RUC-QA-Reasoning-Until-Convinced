@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Fresh",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Junior",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Senior",
+      "strength": 0.4000876126562776
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Secs",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term sophomore is also used to refer to a student in the second year of college or university studies in the United States",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In high school, a sophomore is equivalent to a tenth grade or Class-10 student",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

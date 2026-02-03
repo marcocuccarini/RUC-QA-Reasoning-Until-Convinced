@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "number of degree of freedom for plane mechanism. One",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "number of degree of freedom for plane mechanism. Three",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "number of degree of freedom for plane mechanism. Four",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "number of degree of freedom for plane mechanism. two",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For a single particle in a plane two coordinates define its location so it has two degrees of freedom;",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A train of rigid cars connected by hinges to an engine still has only one degree of freedom because the positions of the cars behind the engine are constrained by the shape of the track.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The group SE is three-dimensional, which means that every position of a body in the plane is defined by three parameters.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The cam joint formed by two surfaces in sliding and rotating contact is a two degree-of-freedom joint.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

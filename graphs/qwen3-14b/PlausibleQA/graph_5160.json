@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which wife of Henry VIII had already married twice before she became queen, and married for a fourth time after Henry's death. Catherine of Aragon",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which wife of Henry VIII had already married twice before she became queen, and married for a fourth time after Henry's death. Anne Boleyn",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which wife of Henry VIII had already married twice before she became queen, and married for a fourth time after Henry's death. Jane Seymour",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which wife of Henry VIII had already married twice before she became queen, and married for a fourth time after Henry's death. Lady Latimer",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Catherine of Aragon married Arthur, Prince of Wales, and then King Henry VIII before becoming queen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Catherine of Aragon was referred to as 'Dowager Princess of Wales' and lived at The More Castle after her marriage to Henry VIII was annulled, with no mention of a fourth marriage after his death.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

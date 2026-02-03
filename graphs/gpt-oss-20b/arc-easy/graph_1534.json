@@ -1,0 +1,131 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Using open flames to heat all materials is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.09242153833119442
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Keeping your cell phone on the laboratory countertop is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Knowing where your instructor/laboratory leader is at all times is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Removing your safety glasses when moving from station to station is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.08255457838294894
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Laboratories, especially those using solvents in any quantity, have the potential for flash fires, explosions, rapid spread of fire, and high toxicity of products of combustion (heat, smoke, and flame).",
+      "strength": 0.5999999414031619
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rapid heating (or cooling) may cause uneven thermal expansion putting too much mechanical stress on the surface and cause it to fracture.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Correct eye protection should be worn in most experiments involving glassware.",
+      "strength": 0.7499045702019773
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Heat-resistant gloves are commonly used as PPE.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Goggles with high air flow should be used to prevent fogging.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Safety glasses are made with break-proof plastic lenses to protect the eye from flying debris or other matter.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Safety glasses are worn to protect the eyes in various situations.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Flammable solvents (and rags soaked with solvent) placed in enclosed trash cans",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "Kitchen fires from unattended cooking, grease fires/chip pan fires",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "Safety glasses are made with break‑proof plastic lenses to protect the eye from flying debris or other matter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A13",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

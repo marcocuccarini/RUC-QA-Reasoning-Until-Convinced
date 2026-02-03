@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From what illness did Mary II die in 1694. Smallpox-like illness (e.g., Cowpox)",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From what illness did Mary II die in 1694. Measles",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From what illness did Mary II die in 1694. Influenza",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From what illness did Mary II die in 1694. Variola",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mary died from smallpox in 1694",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The rash had 'turned inward', a sign that Mary was suffering from a usually fatal form of smallpox",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

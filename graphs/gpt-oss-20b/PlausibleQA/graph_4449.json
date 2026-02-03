@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Cotswolds",
+      "strength": 0.7499372581016508
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Chiltern Hills",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Oxfordshire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the thames river source. Thames Head",
+      "strength": 0.5690757448182693
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thames Head is a group of seasonal springs that arise in the Cotswolds, in the county of Gloucestershire, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Environment Agency, the Ordnance Survey and other authorities have the source of the Thames as Thames Head.",
+      "strength": 0.4000418012174884
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Seven Springs near Cheltenham, where the Churn (which feeds into the Thames near Cricklade) rises, is also sometimes quoted as the Thames' source.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The springs at Seven Springs flow throughout the year, while those at Thames Head are seasonal (a winterbourne).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

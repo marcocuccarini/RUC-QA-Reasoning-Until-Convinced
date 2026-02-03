@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Enzymes are the catalysts found in living organisms.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Proteins are catalysts in living things.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbohydrates are the catalysts found in living things.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Enzymes are known to catalyze over 5,000 types of biochemical reactions.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Other biological catalysts include catalytic RNA molecules, or ribozymes, which are sometimes classified as enzymes despite being composed of RNA rather than protein.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

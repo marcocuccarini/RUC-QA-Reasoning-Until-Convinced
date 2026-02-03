@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The energy is stored as food is the way the energy most likely becomes unavailable before it can be transferred to organisms in the next trophic level in an ecosystem where not all of the available energy is used by organisms.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The energy is dissipated as heat in an ecosystem when not all of the available energy is used by organisms and some becomes unavailable before it can be transferred to the next trophic level.",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The energy is trapped in dead organisms, making it unavailable to organisms in the next trophic level in an ecosystem where not all available energy is used by organisms.",
+      "strength": 0.569073807311664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The energy is moved to another ecosystem is the most likely way that some energy becomes unavailable before it can be transferred to organisms in the next trophic level in an ecosystem where not all available energy is used by organisms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Energy is lost as heat when cellular respiration is performed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The assimilation efficiency can be expressed by the amount of food the consumer has eaten, how much the consumer assimilates and what is expelled as feces or urine.",
+      "strength": 0.4000409734979248
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Consumers at each level convert on average only about 10% of the chemical energy in their food to their own organic tissue (the ten-per cent law).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

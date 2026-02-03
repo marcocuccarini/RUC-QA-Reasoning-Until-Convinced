@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The rotation of Earth is the cause of most earthquakes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The direction of the wind is the cause of most earthquakes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The pull of Earth's gravity is the cause of most earthquakes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The movement of plates on Earth's crust is the cause of most earthquakes.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Faults tend to be geologically active, experiencing earthquakes, volcanic activity, mountain-building, and oceanic trench formation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Transform faults occur across a spreading center. Strong earthquakes can occur along a fault.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "For which movie did Katharine Hepburn win her second Oscar. The Philadelphia Story",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "For which movie did Katharine Hepburn win her second Oscar. Bringing Up Baby",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "For which movie did Katharine Hepburn win her second Oscar. Holiday",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "For which movie did Katharine Hepburn win her second Oscar. Guess Who's Coming To Dinner",
+      "strength": 0.4000000909837343
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She received three more Academy Awards for her performances in Guess Who's Coming to Dinner (1967), The Lion in Winter (1968), and On Golden Pond (1981).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At the 41st Academy Awards in 1969, Barbra Streisand and Katharine Hepburn received the same number of votes and so shared the award, the only time this has occurred.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

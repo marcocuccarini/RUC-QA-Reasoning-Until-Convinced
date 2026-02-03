@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. Tokyo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. Madrid",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. Doha",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. BRRIO",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rio de Janeiro was announced as the host city at the 121st IOC Session in Copenhagen, Denmark, on 2 October 2009.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The final voting was held in Copenhagen on 2 October 2009, with Madrid and Rio de Janeiro considered favorites to secure the Games. Rio de Janeiro took a significant lead over Madrid, heading into the final round; the lead was held, and Rio de Janeiro was announced as host of the 2016 Summer Olympics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

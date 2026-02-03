@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In an alphabetical list of world capital cities, which comes last. Wellington",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In an alphabetical list of world capital cities, which comes last. Warsaw",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In an alphabetical list of world capital cities, which comes last. Zagreb is excluded, so let's consider: Yangon",
+      "strength": 0.32000017674971487
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In an alphabetical list of world capital cities, which comes last. זגרב",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Yangon was the capital of Myanmar until 2005 and served as such until 2006.",
+      "strength": 0.7499999659792215
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The national capital was moved from Yangon to a site near Pyinmana in November 2005.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The military junta officially named the new capital Naypyidaw on 27 March 2006.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Although many capitals are defined by constitution or legislation, many long-time capitals have no such legal designation, including Bern, Edinburgh, Lisbon, London, Paris, and Wellington.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

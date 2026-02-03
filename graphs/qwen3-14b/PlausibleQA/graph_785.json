@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the thames river begin and end. Oxford",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the thames river begin and end. London",
+      "strength": 0.40000001474170777
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the thames river begin and end. Gloucestershire",
+      "strength": 0.5295001531947843
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the thames river begin and end. Near Tavistock",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The River Thames rises at Thames Head in Gloucestershire",
+      "strength": 0.25003844452132795
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The River Thames flows into the North Sea near Tilbury, Essex and Gravesend, Kent",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The source of the River Thames does not have a fixed location – rather, it changes according to the level of the groundwater in the limestone.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 2011, the lowest recorded start of the Thames was just upstream of Ashton Keynes, which is over six miles (ten kilometres) downstream from Thames Head.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

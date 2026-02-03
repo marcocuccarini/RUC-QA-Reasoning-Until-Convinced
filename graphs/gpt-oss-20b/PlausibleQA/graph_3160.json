@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Capital Punishment",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Mandatory Minimum Sentences",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Corporal Punishment",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Execute",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1972, the Supreme Court of the United States struck down capital punishment statutes in Furman v. Georgia, reducing all pending death sentences to life imprisonment.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1976, the Supreme Court affirmed the legality of the death penalty in the 1976 case Gregg v. Georgia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

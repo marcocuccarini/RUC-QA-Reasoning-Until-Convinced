@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Flowers are the structure that all plants, even when different from each other, have in common.",
+      "strength": 0.4000000000573076
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fruit is the structure that all plants have in common, even though plants that are different from each other may have similar structures.",
+      "strength": 0.25000009338770457
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Roots are the structure that all plants have in common, even though different plants may have similar structures.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Trunks are the structure that all plants have in common, even though plants that are different from each other may have similar structures.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Structures such as flowers and fruits are only found in the angiosperms",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fruits that completely envelop the seeds are only found in angiosperms",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Structures such as trunks are not found in all plants, as gymnosperms are perennial woody plants while angiosperms include herbaceous species",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Roots are present in both gymnosperms and angiosperms, as all vascular plants including gymnosperms have root systems",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

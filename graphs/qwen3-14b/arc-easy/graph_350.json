@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The inner core is the part of Earth's structure that exists in the solid phase due to low temperatures.",
+      "strength": 0.25000000003394446
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The outer core is the part of Earth's structure that exists in the solid phase due to low temperatures.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The lithosphere is the part of Earth's structure that exists in the solid phase due to low temperatures.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The asthenosphere is the part of Earth's structure that remains solid due to low temperatures.",
+      "strength": 0.2500000915578924
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The inner core is solid at high temperature because of its high pressure, in accordance with the Simon-Glatzel equation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The temperature at the surface of the inner core is estimated to be approximately 5,700 K (5,430 °C; 9,800 °F), about the temperature at the surface of the Sun.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The asthenosphere is almost solid, but a slight amount of melting (less than 0.1% of the rock) contributes to its mechanical weakness.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The lithosphere-asthenosphere boundary is conventionally taken at the 1,300 °C (2,370 °F) isotherm.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The outer core is liquid, unlike its inner core, which is solid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

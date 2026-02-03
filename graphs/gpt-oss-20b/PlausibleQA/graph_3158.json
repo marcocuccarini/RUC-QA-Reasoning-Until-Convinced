@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who did michigan state play in the rose bowl. USC Trojans",
+      "strength": 0.24999994365704886
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who did michigan state play in the rose bowl. Oregon Ducks",
+      "strength": 0.25000000000021017
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who did michigan state play in the rose bowl. Washington Huskies",
+      "strength": 0.25008809283586014
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who did michigan state play in the rose bowl. Stanford Cardinal",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Washington won 56–21, setting up a showdown with Michigan in the Rose Bowl on January 1, 1992.",
+      "strength": 0.4000000000000028
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the following year's Rose Bowl, the Bruins defeated Michigan State.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Wolverines defeated the Oregon State Beavers by a score of 34–7.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Michigan State played UCLA in the 1966 Rose Bowl.",
+      "strength": 0.599999999999972
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Rose Bowl (stadium) is the home stadium of the UCLA football team.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Washington's victory over AP and UPI national champion Minnesota in the 1961 Rose Bowl",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Spartans defeated USC in the 1988 Rose Bowl.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Washington subsequently entered the Rose Bowl with a record of 9–2 against Iowa.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

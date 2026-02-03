@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which river originates in the Taurus Mountains, and flows through Syria and Iraq. Euphrates River is excluded as per your request, so let's consider the Orontes River",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which river originates in the Taurus Mountains, and flows through Syria and Iraq. Khabur River",
+      "strength": 0.4000000351871426
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which river originates in the Taurus Mountains, and flows through Syria and Iraq. Great Zab River",
+      "strength": 0.25009176364520974
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which river originates in the Taurus Mountains, and flows through Syria and Iraq. פרת",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Khabur (Tigris) rises in Turkey.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Great Zab rises in Turkey in the mountainous region east of Lake Van at an elevation of approximately 3,000 metres (9,800 ft) amsl.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Great Zab is an approximately 400-kilometre (250 mi) long river flowing through Turkey and Iraq.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red giant is the stage in the life cycle of stars in which stars spend most of their lifetime, as identified by scientists who have studied the specific stages.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Black dwarf is the stage in the life cycle of stars that scientists have studied and found to be where stars spend most of their lifetime.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "White dwarf is the stage in the life cycle of stars that scientists have studied in which stars spend most of their lifetime.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The main sequence is the stage in the life cycle of stars during which stars spend most of their lifetime.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stars spend the majority of their lives on the main sequence, during which core hydrogen burning is dominant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This results in a much shorter length of time in this stage compared to the main‑sequence lifetime.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

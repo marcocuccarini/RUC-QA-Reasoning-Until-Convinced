@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. Toyota",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. Ford",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. Nissan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the Jimmy model. SUZUKI",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "General Motors introduced the Chevrolet S-10 Blazer, and its rebadged GMC S-15 Jimmy variant, as 1983 models.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chevrolet (S-10) Blazer and its badge engineered GMC (S-15) Jimmy counterpart are compact/mid-size SUVs manufactured and marketed by Chevrolet and GMC",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Suzuki Jimny is manufactured and marketed by Japanese automaker Suzuki since 1970.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Suzuki has marketed 2.85 million Jimnys in 194 countries through September 2018.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

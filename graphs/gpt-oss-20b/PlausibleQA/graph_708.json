@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which duo had a hit album entitled Sweet Dreams (Are Made of This). Depeche Mode",
+      "strength": 0.15394113752157315
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which duo had a hit album entitled Sweet Dreams (Are Made of This). The Human League",
+      "strength": 0.4000000000000175
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which duo had a hit album entitled Sweet Dreams (Are Made of This). Erasure",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which duo had a hit album entitled Sweet Dreams (Are Made of This). Eurythmix",
+      "strength": 0.14053431497530877
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They achieved global acclaim with their second album, Sweet Dreams (Are Made of This) (1983).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The title track became a worldwide hit, reaching number two in the UK Singles Chart, and number one in Canada and on the US Billboard Hot 100.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sweet Dreams (Are Made of This) is a song by British synth-pop duo Eurythmics.",
+      "strength": 0.5999999717616569
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It was the first single released by Eurythmics in the United States.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Sweet Dreams (Are Made of This) (album), by Eurythmics, or the title song (see below), 1983",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Eurythmics, a British rock/pop duo, released Sweet Dreams (Are Made of This).",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The album reached number three in the UK and was certified platinum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

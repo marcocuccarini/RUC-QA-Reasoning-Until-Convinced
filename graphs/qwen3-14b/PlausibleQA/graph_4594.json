@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who composed the opera Cosi Fan Tutte. Gioachino Rossini",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who composed the opera Cosi Fan Tutte. Christoph Willibald Gluck",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who composed the opera Cosi Fan Tutte. Niccolò Paganini",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who composed the opera Cosi Fan Tutte. Mosart",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Così fan Tutte is the last of the three Da Ponte operas, premiered in 1790.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mozart produced operas in each of the prevailing styles, including Così fan Tutte.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

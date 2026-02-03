@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which company were responsible for the production of the Spitfire. Rolls-Royce",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which company were responsible for the production of the Spitfire. de Havilland",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which company were responsible for the production of the Spitfire. Hawker Aircraft",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which company were responsible for the production of the Spitfire. Supermarine",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Full-scale production of the Spitfire began at Supermarine's facility in Woolston.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first production Spitfire, K9787, did not roll off the Woolston, Southampton assembly line until mid-1938.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

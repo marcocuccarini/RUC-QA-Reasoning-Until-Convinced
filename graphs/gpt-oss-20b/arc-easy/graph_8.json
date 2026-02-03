@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At sea level is the best location for the types of telescopes that can provide the scientists with the clearest images of very distant celestial bodies.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In outer space is the best location for the types of telescopes that can provide scientists with the clearest images of very distant celestial bodies.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On mountain tops is the best location for the types of telescopes that can provide scientists studying images of very distant celestial bodies with the clearest images.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "At higher latitudes, the best location for the types of telescopes that can provide the scientists with the clearest images.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Space telescopes avoid several problems caused by the atmosphere, including the absorption or scattering of certain wavelengths of light, obstruction by clouds, and distortions due to atmospheric refraction such as twinkling.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Performing astronomy from ground-based observatories on Earth is limited by the filtering and distortion of electromagnetic radiation (scintillation or twinkling) due to the atmosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Moth is an organism in which cell walls can be found.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Grass is an organism in which cell walls can be found.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Snake is an organism in which cell walls can be found.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hawk is an organism in which cell walls can be found.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In land plants, the primary cell wall comprises polysaccharides like cellulose, hemicelluloses, and pectin.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cell walls are prevalent in fungi, algae and plants but absent from animals and many other taxa.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

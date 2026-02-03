@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. Brain",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. Lungs",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. Liver",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "pace maker is associated with which body organ. heart",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pacemakers, comprising a small battery powered generator implanted under the skin and one or more leads that extend to the heart",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A pacemaker is an artificial cardiac pacemaker, that is an implanted medical device that generates electrical impulses delivered by electrodes to the chambers of the heart either the upper atria, or lower ventricles to cause the targeted chambers to contract and pump blood.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the artificial pacemaker takes over from the primary SA node pacemaker to regulate the function of the heart's electrical conduction system",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

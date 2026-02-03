@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. Church Committee",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. Rockefeller Commission",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. House Select Committee on Assassinations",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. Warren Report",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Church Commission conducted an investigation into the assassination of John F. Kennedy and found that federal agencies failed in their duties.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Select Committee on Assassinations was established by the U.S. House of Representatives in 1979.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

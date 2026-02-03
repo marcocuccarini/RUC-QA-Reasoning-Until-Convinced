@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which composer did pianist Clara Wieck marry in 1840. Franz Liszt",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which composer did pianist Clara Wieck marry in 1840. Johannes Brahms",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which composer did pianist Clara Wieck marry in 1840. Frédéric Chopin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which composer did pianist Clara Wieck marry in 1840. Robert Schumann",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Schumann and Clara finally married on 12 September 1840, the day before her twenty-first birthday.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clara gave birth to a daughter in September 1841, the first of the Schumanns' seven children to survive.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

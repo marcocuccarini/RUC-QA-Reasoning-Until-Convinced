@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ninette de Valois was involved professionally in what activity. Opera",
+      "strength": 0.5999999999878364
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ninette de Valois was involved professionally in what activity. Theater",
+      "strength": 0.5999999867938747
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ninette de Valois was involved professionally in what activity. Music",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ninette de Valois was involved professionally in what activity. Balet",
+      "strength": 0.8594536200348806
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was appointed principal dancer of the Beecham Opera, which was then the resident opera company at the Royal Opera House.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most notably, she danced professionally with Serge Diaghilev's Ballets Russes, later establishing the Royal Ballet, one of the foremost ballet companies of the 20th century and one of the leading ballet companies in the world.",
+      "strength": 0.5999999867938747
+    },
+    "A6": {
+      "type": "argument",
+      "text": "She founded the Academy of Choreographic Art in 1926, a dance school for girls.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "She was engaged by Lilian Baylis to stage dance performances at Old Vic and Sadler's Wells theatres.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "She established the Vic-Wells Ballet company and Sadler's Wells Ballet School, the forerunners of today's Royal Ballet, Birmingham Royal Ballet and Royal Ballet School.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "She was a colleague of Cecchetti during her professional career with the Ballets Russes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

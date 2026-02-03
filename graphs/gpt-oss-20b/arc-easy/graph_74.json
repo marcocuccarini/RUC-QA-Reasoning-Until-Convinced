@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Eye color is a trait that a child can inherit from its parents.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A broken leg is a trait that a child can inherit from its parents.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Length of hair is a trait that a child can inherit from its parents.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Language skills are a trait that a child can inherit from its parents.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eye color is an inherited trait determined by multiple genes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eye color inheritance is polygenic, meaning that it is controlled by the interactions of several genes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

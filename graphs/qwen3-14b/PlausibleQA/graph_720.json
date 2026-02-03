@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when is the last time the ravens won a superbowl. Super Bowl XXXV",
+      "strength": 0.5000648415749372
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when is the last time the ravens won a superbowl. Super Bowl XLVIII",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when is the last time the ravens won a superbowl. Super Bowl XXXVI",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when is the last time the ravens won a superbowl. Super Bowl XLVII",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Ravens, who posted a 10–6 regular-season record, made their second Super Bowl appearance in franchise history, having previously won Super Bowl XXXV",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Baltimore's victory made them the only current NFL franchise to have appeared in at least two Super Bowls without ever losing any of their appearances",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Super Bowl XLVII play-by-play: Ravens 34, 49ers 31",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Super Bowl XLVII Box Score at Pro Football Reference",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

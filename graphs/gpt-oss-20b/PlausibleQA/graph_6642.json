@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which Ayrshire village will you find the cottage birthplace of poet Robert Bums which is now a museum. Tarbolton",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which Ayrshire village will you find the cottage birthplace of poet Robert Bums which is now a museum. Mauchline",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which Ayrshire village will you find the cottage birthplace of poet Robert Bums which is now a museum. Catrine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which Ayrshire village will you find the cottage birthplace of poet Robert Bums which is now a museum. Alloway",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Robert Burns, considered the national poet of Scotland, was born in Alloway.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The birthplace of Robert Burns, known as 'Burns Cottage', is located in Alloway, now adjacent to a museum containing original manuscripts of his poetry.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

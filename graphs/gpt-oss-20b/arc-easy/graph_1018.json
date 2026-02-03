@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon blocks the Earth from the Sun when a solar eclipse occurs.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The first four planets in the solar system are aligned when a solar eclipse occurs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth blocks the Moon from the Sun is what occurs during a solar eclipse.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth's shadow falling on the Sun is the event that constitutes a solar eclipse.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In a total eclipse, the disk of the Sun is fully obscured by the Moon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby obscuring the view of the Sun from a small part of Earth, totally or partially.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

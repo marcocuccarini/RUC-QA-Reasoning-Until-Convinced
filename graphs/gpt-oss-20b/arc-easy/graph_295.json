@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sediments are being deposited is most likely indicated by land subsidence (ground level dropping).",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is being polluted is the most likely indication that land subsidence (ground level dropping) is occurring.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Rocks are being weathered is the most likely indication that land subsidence (ground level dropping) is occurring.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ground water is being depleted when land subsidence, meaning ground level dropping, is most likely an indication that.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Groundwater-related subsidence is the sinking of land resulting from groundwater extraction.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Subsidence resulting from tectonic deformation of the crust is known as tectonic subsidence and can create accommodation for sediments to accumulate and eventually lithify into sedimentary rock.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Groundwater extraction for use in water supplies lowers the overall water table, the level that groundwater sits at in an area.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It codes for proteins, enabling DNA in the nucleus to control the functioning of the cell.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It inhibits division of cells is how DNA in the nucleus controls the working of the cell.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It helps in energy transformation, describing how DNA controls the working of the cell in the nucleus that contains DNA.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It regulates traffic in and out of the cell is how DNA controls the working of the cell, as the nucleus contains DNA.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The central dogma of molecular biology deals with the flow of genetic information within a biological system. It is often stated as 'DNA makes RNA, and RNA makes protein', although this is not its original meaning.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The transfer of information from nucleic acid to nucleic acid, or from nucleic acid to protein may be possible, but transfer from protein to protein, or from protein to nucleic acid is impossible.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

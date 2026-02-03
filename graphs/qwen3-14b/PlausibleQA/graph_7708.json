@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who declared the 1936 summer Olympic Games open? (Both names required.). Adolf Hitler and Hermann Göring",
+      "strength": 0.3677407554618417
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who declared the 1936 summer Olympic Games open? (Both names required.). Paul von Hindenburg and Adolf Hitler",
+      "strength": 0.3677407554618417
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who declared the 1936 summer Olympic Games open? (Both names required.). Wilhelm Frick and Joseph Goebbels",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who declared the 1936 summer Olympic Games open? (Both names required.). Hitlar",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Adolf Hitler declared the 1936 summer Olympic Games open.",
+      "strength": 0.5999680898077302
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adolf Hitler officiated at the opening ceremonies of the 1936 Summer Olympic Games in Berlin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

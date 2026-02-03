@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang the songs on walk the line. Joaquin Phoenix",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang the songs on walk the line. Reese Witherspoon",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang the songs on walk the line. Willie Nelson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang the songs on walk the line. Waylon Payne",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They both performed their own vocals in the film (with their version of 'Jackson' being released as a single).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All of Cash's vocal tracks in the film and on the accompanying soundtrack are played and sung by Phoenix.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It featured nine songs performed by Joaquin Phoenix, four songs by Reese Witherspoon, two songs by Tyler Hilton, and one song each by Waylon Payne, Johnathan Rice, and Shooter Jennings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

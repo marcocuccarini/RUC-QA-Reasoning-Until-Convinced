@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The kick decreases the weight of the ball, which causes the ball to move along the ground when a student places it on the ground and kicks it.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The kick applies a contact force to the ball when a student places it on the ground and kicks it, causing the ball to move along the ground.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The kick decreases the force of gravity acting on the ball that a student places on the ground and then kicks, causing the ball to move along the ground.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The kick removes friction between the ball and the ground, causing the ball to move along the ground after a student places it on the ground and kicks it.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pushing a car or kicking a ball are everyday examples where contact forces are at work.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Friction is a result of both microscopic adhesion and chemical bond formation due to the electromagnetic force",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Leaving the television on all day is a human activity that will help conserve Earth's natural resources.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Recycling plastic bottles is a human activity that helps conserve Earth's natural resources.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cutting down trees is a human activity that helps conserve Earth's natural resources.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Burning trash in the yard is a human activity that helps conserve Earth's natural resources.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The United States Environmental Protection Agency (EPA) has concluded in favor of recycling, saying that recycling efforts reduced the country's carbon emissions by a net 49 million metric tonnes in 2005.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "According to the United Nations Framework Convention on Climate Change secretariat, the overwhelming direct cause of deforestation is subsistence farming (48% of deforestation) and commercial agriculture (32%), which is linked to food, not paper production.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

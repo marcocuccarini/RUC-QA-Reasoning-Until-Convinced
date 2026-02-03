@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time oklahoma won a national championship in football. 1975",
+      "strength": 0.5999999071782728
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time oklahoma won a national championship in football. 1985",
+      "strength": 0.5000967341380452
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time oklahoma won a national championship in football. 1956",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time oklahoma won a national championship in football. 2000",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oklahoma won the national championship in 1985.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Oklahoma claimed back-to-back national championships in 1974 and 1975.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1988, OU became the first school to participate in both the football and basketball national championships in the same year.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

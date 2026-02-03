@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "4 m/s² is the acceleration of a 5‑kg object at rest when a 20‑N force acts on it on a frictionless surface.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "15 m/s² is the acceleration of the 5‑kg object when a 20‑N force acts on it at rest on a frictionless surface.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "25 m/s² is the acceleration of a 5‑kg object at rest that is acted on by a 20‑N force on a frictionless surface.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "100 m/s² is the acceleration of a 5‑kg object at rest when a 20‑N force acts on it on a frictionless surface.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "force equals the product of the mass and the time derivative of the velocity, which is the acceleration: F = m dv/dt = m a",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the net force on a body is equal to the body's acceleration multiplied by its mass",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

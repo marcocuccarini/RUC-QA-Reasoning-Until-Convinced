@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Lion",
+      "strength": 0.2500000000000028
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Tiger",
+      "strength": 0.400000000000026
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Valiant",
+      "strength": 0.22624448648439718
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Eagle",
+      "strength": 0.4999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lion was a weekly British comics periodical published by Amalgamated Press (and later Fleetway Publications and IPC Magazines) from 23 February 1952 to 18 May 1974.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lion (Amalgamated Press, 1952 Series) at the Grand Comics Database",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lion and Eagle (IPC, 1969 Series) at the Grand Comics Database",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Tiger was a weekly British comics periodical published by Amalgamated Press, Fleetway Publications and IPC Magazines from 11 September 1954 to 30 March 1985.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Valiant launched on 6 October 1962",
+      "strength": 0.5999999723208136
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Valiant (1962-1963) at the Grand Comics Database",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "the first issue of Eagle was released on 14 April 1950",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A8",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

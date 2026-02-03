@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Enzymes are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Inhibitor is a biochemical catalyst that speeds up biochemical reactions.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Metabolites are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Polymers are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Enzymes increase the reaction rate by lowering a reaction's activation energy, often by factors of millions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Enzyme activity can be enhanced by activators or diminished by inhibitors, many of which serve as drugs or poisons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What Brazilian city exports more coffee than any other port in the world. Rio de Janeiro",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What Brazilian city exports more coffee than any other port in the world. Paranaguá",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What Brazilian city exports more coffee than any other port in the world. Vitória",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What Brazilian city exports more coffee than any other port in the world. Santos",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Port of Santos is the biggest seaport in Latin America, which handled 96 million tons and 2.7 million TEUs in 2010. It has large industrial complexes and shipping centers, which handle a large portion of the world's coffee exports",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The export of coffee from the Port of Santos gave rise to the city and mostly accounted for the wealth of the city at the turn of the 20th century",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

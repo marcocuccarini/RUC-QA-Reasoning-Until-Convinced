@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To control population size, trees like oaks and walnuts depend upon squirrels.",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To pollinate their flowers is why trees such as oaks and walnuts depend upon squirrels.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To remove dead wood is why trees like oaks and walnuts depend upon squirrels.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To aid in seed distribution, trees such as oaks and walnuts depend upon squirrels.",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Some species of squirrel selectively excise the embryos from the acorns that they store, meaning that the food store lasts longer and that the acorns will never germinate.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Animals including squirrels and jays – Eurasian jays in the Old World, blue jays in North America – feed on acorns, and are important agents of seed dispersal as they carry the acorns away and bury many of them as food stores.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rodents may also disperse seeds when the presence of secondary metabolites in ripe fruits causes them to spit out certain seeds rather than consuming them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

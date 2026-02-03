@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which mammal constructs a lodge in which to store food, rear young, and pass the winter. Otter",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which mammal constructs a lodge in which to store food, rear young, and pass the winter. Muskrat",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which mammal constructs a lodge in which to store food, rear young, and pass the winter. Marmot",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which mammal constructs a lodge in which to store food, rear young, and pass the winter. Beever",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Other semi-aquatic mammals, such as water voles, muskrats, minks, and otters, will shelter in beaver lodges.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Beavers build dams and lodges using tree branches, vegetation, rocks and mud; they chew down trees for building material.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

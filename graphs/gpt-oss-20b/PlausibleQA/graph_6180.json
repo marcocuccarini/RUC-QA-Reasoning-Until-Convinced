@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the scientific discipline that deals with the measurement and representation of the Earth, including its gravitational field, in a three-dimensional time-varying space. Geophysics",
+      "strength": 0.4999032677370782
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the scientific discipline that deals with the measurement and representation of the Earth, including its gravitational field, in a three-dimensional time-varying space. Cartography",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the scientific discipline that deals with the measurement and representation of the Earth, including its gravitational field, in a three-dimensional time-varying space. Geomagnetism",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the scientific discipline that deals with the measurement and representation of the Earth, including its gravitational field, in a three-dimensional time-varying space. Geodosy",
+      "strength": 0.2262443440766558
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Geodesy refers to the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D.",
+      "strength": 0.599999999972383
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Geodesy appears in Encyclopædia Britannica, Vol. 11 (11th ed.). 1911.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text contains the word 'Geodesy'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Geophysics () is a subject of natural science concerned with the physical processes and properties of Earth and its surrounding space environment, and the use of quantitative methods for their analysis.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Society of Exploration Geophysicists focuses on geophysics.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "USGS runs a Geomagnetism Program.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

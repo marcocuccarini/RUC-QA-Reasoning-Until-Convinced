@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sperm is the source from which chloroplast genes are inherited in a few species.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mothers are the only source of chloroplast genes in a few species.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Siblings are the only source from which chloroplast genes are inherited in a few species.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eggs are the only parent from which chloroplast genes are inherited in a few species.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gymnosperms, such as pine trees, mostly pass on chloroplasts paternally, while flowering plants often inherit chloroplasts maternally.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "There are many documented cases of angiosperms inheriting chloroplasts paternally.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

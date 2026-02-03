@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A geometric pattern formed by a mineral is a fossil.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A solid element or compound from Earth's crust is the best description of a fossil.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Remains of an extinct organism found in a rock layer are a fossil.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bits of weathered rocks and pieces of dead organisms are the best description of a fossil.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cuvier is generally regarded as the first paleontologist, and the origins of paleontology as a science trace their origins directly to his demonstrations that fossils in stone were traces of organisms that were once alive but had gone extinct.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most fossils are made up of the hard parts of an organism that have been recrystallized by minerals, preserving bone, wood, or shells in a material than can be harder or denser than in life.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

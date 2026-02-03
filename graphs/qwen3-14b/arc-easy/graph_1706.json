@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Absorption is the process by which eyeglasses help a nearsighted person see.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Diffraction allows eyeglasses to help a nearsighted person see.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reflection is the phenomenon that enables eyeglasses to help a nearsighted person see.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Refraction is what allows eyeglasses to help a nearsighted person see.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Corrective lenses are used to correct refractive errors by bending the light entering the eye in order to alleviate the effects of conditions such as nearsightedness (myopia)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pinhole glasses do not actually refract the light or change focal length. Instead, they create a diffraction limited system, which has an increased depth of field",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Optical prisms and lenses use refraction to redirect light, as does the human eye.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

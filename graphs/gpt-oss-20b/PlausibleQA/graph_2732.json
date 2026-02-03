@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In golf, what name is given to a score of three under par on a given hole. Condor",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In golf, what name is given to a score of three under par on a given hole. Eagle",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In golf, what name is given to a score of three under par on a given hole. Albatross",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In golf, what name is given to a score of three under par on a given hole. אלבטרוס",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A hole score of three strokes fewer than par (three under par, −3) is known as an albatross",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A hole score of two strokes fewer than par (two under par, −2) is known as an eagle",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

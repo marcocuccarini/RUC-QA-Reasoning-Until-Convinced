@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The NASA spacecraft Messenger reached what planet destination in 2008. Venus",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The NASA spacecraft Messenger reached what planet destination in 2008. Mars",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The NASA spacecraft Messenger reached what planet destination in 2008. Jupiter",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The NASA spacecraft Messenger reached what planet destination in 2008. Mercury",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "MESSENGER performed a flyby of Mercury in January 2008.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "MESSENGER's trajectory included three flybys of Mercury before orbital insertion in 2011.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

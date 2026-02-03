@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun causes surface ocean currents.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The wind is the factor that causes surface ocean currents.",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is the factor that causes surface ocean currents.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hurricanes cause surface ocean currents.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Surface oceanic currents are driven by wind currents, the large scale prevailing winds drive major persistent ocean currents, and seasonal or occasional winds drive currents of similar persistence to the winds that drive them, and the Coriolis effect plays a major role in their development.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ocean currents are driven by the wind, by the gravitational pull of the Moon in the form of tides.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wind-driven surface currents (such as the Gulf Stream) travel polewards from the equatorial Atlantic Ocean, cooling en route, and eventually sinking at high latitudes (forming North Atlantic Deep Water).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The wind systems are a crucial determinant of ocean currents. Wind wave systems influence oceanic heat exchange, the condition of the sea surface, and can alter ocean currents.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

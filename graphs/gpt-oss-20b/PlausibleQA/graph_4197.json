@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "For which 1960 film did Billy Wilder become the first person to win three Oscars for the same film. Ocean's 11",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "For which 1960 film did Billy Wilder become the first person to win three Oscars for the same film. The Alamo",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "For which 1960 film did Billy Wilder become the first person to win three Oscars for the same film. Elmer Gantry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "For which 1960 film did Billy Wilder become the first person to win three Oscars for the same film. The Apartment",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The film received ten Academy Awards nominations and won five awards, including three for Wilder: Best Picture, Best Director and Best Screenplay.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The film earned critical acclaim after it premiered at the Cannes Film Festival and competed in the main competition, where it received the Festival's top prize, the Palme d'Or, and four Academy Awards including for Best Picture. Wilder earned the Oscars for Best Director and Best Screenplay and Milland won Best Actor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Parasite is a species that benefits and harms the host organism.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Viruses are species that both benefit and harm the host organism.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Predators are species that benefit and harm the host organism.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Host is a species that benefits and harms the host organism.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parasites increase their own fitness by exploiting hosts for resources necessary for their survival, in particular by feeding on them and by using intermediate (secondary) hosts to assist in their transmission from one definitive (primary) host to another.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Unlike predators, parasites, with the exception of parasitoids, are much smaller than their hosts, do not kill them, and often live in or on their hosts for an extended period.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Parasites reduce host fitness by general or specialised pathology, that ranges from parasitic castration to modification of host behaviour.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Parasitism is a close relationship between species, where one organism, the parasite, lives (at least some of the time) on or inside another organism, the host, causing it some harm, and is adapted structurally to this way of life.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

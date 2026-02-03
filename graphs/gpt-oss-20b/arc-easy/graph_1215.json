@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Weigh the mineral is the action that should be taken to identify the streak of a mineral during an investigation.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dip the mineral in acid is the action that should be taken in order to identify the streak of a mineral during an investigation.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Heat the mineral until it melts is the action taken to identify the streak of a mineral during an investigation.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Dragging an edge of the mineral across a tile is the action taken to identify the streak of a mineral during an investigation.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common way of testing this property is done with a streak plate, which is made out of porcelain and coloured either white or black.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Streak testing is constrained by the hardness of the mineral, as those harder than 7 powder the streak plate instead.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

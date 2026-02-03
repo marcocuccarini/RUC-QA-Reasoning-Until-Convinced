@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Shania Twain",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Jewel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Sarah McLachlan",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Alanis",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Alanis Morissette released the album Jagged Little Pill in 1995.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The album Jagged Little Pill sold 33 million copies worldwide, making it the second biggest-selling album by a female artist.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

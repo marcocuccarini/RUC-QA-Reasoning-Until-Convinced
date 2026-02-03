@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Isle of Capri is close to which Italian resort. Amalfi",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Isle of Capri is close to which Italian resort. Positano",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Isle of Capri is close to which Italian resort. Naples",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Isle of Capri is close to which Italian resort. Sorrento",
+      "strength": 0.846056906746563
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Capri is located approximately 5 km from the mainland tip of the Sorrento Peninsula.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sorrentine Peninsula has views of Naples, Vesuvius and the Isle of Capri.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ferries and hydrofoils connect the city to Naples, Amalfi, Positano, Capri and Ischia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

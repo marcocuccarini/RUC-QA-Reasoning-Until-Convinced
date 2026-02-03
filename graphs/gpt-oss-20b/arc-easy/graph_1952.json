@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wind energy is produced when coal is burned and converted to supply energy for homes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nuclear energy is the energy coal can be burned and converted to for homes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrical energy is produced by burning coal and converting it for homes.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solar energy is the energy that coal can be burned and converted to for homes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Coal-fired power stations convert chemical energy stored in coal successively into thermal energy, mechanical energy and, finally, electrical energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The furnace heat converts boiler water to steam, which is then used to spin turbines that turn generators.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

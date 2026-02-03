@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Simple diffusion is the type of diffusion that allows small hydrophobic molecules to squeeze through lipid molecules.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Difficult is the kind of diffusion that allows small hydrophobic molecules to squeeze through lipid molecules.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Slippery is the type of diffusion that allows small hydrophobic molecules to squeeze through lipid molecules.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Complex is the kind of diffusion that small hydrophobic molecules squeeze through lipid molecules.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lipid bilayers are generally impermeable to ions and polar molecules.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Small molecules and ions such as carbon dioxide (CO2) and oxygen (O2) can move across the plasma membrane by diffusion",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

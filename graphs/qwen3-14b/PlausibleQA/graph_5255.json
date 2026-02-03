@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. Sony",
+      "strength": 0.32010860768953675
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. Nintendo",
+      "strength": 0.40000001388321754
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. Electronic Arts (EA)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. MSLI",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Xbox 360 is a home video game console developed by Microsoft.",
+      "strength": 0.7499645112339329
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Microsoft released two redesigned models of the console: the Xbox 360 S in 2010, and the Xbox 360 E in 2013.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Microsoft support for Xbox 360",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Xbox development team blog",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

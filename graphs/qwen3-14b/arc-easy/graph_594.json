@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hibernate in winter is what a bird builds a nest to do.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shelter its offspring is why a bird builds a nest.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Produce more feathers is the purpose for which a bird builds a nest.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eliminate waste is the purpose for which a bird builds a nest.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A bird nest is the spot in which a bird lays and incubates its eggs and raises its young.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In constructing nests, birds act as ecosystem engineers by providing... a hibernation site... for invertebrates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The death rate was greater than the birth rate explains how the moose population on Isle Royale rose to about 2,000 individuals by 1925, after the moose were reintroduced in the early 1900s.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "There was unlimited food for the moose to eat, which explains the rapid increase of the moose population to about 2,000 individuals on Isle Royale by 1925 after they were reintroduced in the early 1900s.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The birth rate was constant and few moose died, which explains how the moose population on Isle Royale—a large island in Lake Superior that had lost most of its trees, wolves, and moose in the 1800s—rose to about 2,000 individuals by 1925 after moose were reintroduced in the early 1900s.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "There were no predators to control the population on Isle Royale, which explains how the moose population grew rapidly to about 2,000 individuals by 1925 after being reintroduced in the early 1900s.",
+      "strength": 0.4999032622223629
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Coyotes appeared around 1905 and disappeared shortly after wolves arrived in the 1950s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Larger habitat size reduces the probability of extinction due to chance events.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Research conducted at the rainforest research station on Barro Colorado Island has yielded a large number of publications concerning the ecological changes following the formation of islands, such as the local extinction of large predators and the subsequent changes in prey populations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

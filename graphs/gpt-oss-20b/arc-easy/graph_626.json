@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gas → liquid → solid shows how frozen water changes as the temperature of the air increases.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Solid -> gas -> liquid is the sequence that shows how frozen water changes as the temperature of the air increases.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Liquid → gas → solid is the sequence that shows how frozen water changes as the temperature of the air increases.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solid -> liquid -> gas shows how frozen water changes as the temperature of the air increases.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Familiar examples are the melting of ice or the boiling of water (the water does not instantly turn into vapor, but forms a turbulent mixture of liquid water and vapor bubbles).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At a pressure of one atmosphere (atm), ice melts or water freezes (solidifies) at 0 °C (32 °F) and water boils or vapor condenses at 100 °C (212 °F).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

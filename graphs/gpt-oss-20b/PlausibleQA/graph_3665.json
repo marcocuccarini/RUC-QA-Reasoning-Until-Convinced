@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What dog breed has Queen Elizabeth II traditionally had as pets. Poodle",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What dog breed has Queen Elizabeth II traditionally had as pets. Beagle",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What dog breed has Queen Elizabeth II traditionally had as pets. Afghan Hound",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What dog breed has Queen Elizabeth II traditionally had as pets. Corgi",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Queen Elizabeth II had a long association with Corgis, and she reportedly had said, 'my Corgis are family'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Queen Elizabeth II personally owned more than 30 Pembrokes or Corgi-Dachshund crosses, known as dorgis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

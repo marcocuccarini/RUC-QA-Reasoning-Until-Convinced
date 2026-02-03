@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which musician founded the Red Hot Peppers. Anthony Kiedis",
+      "strength": 0.6798933299516496
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which musician founded the Red Hot Peppers. Flea",
+      "strength": 0.6798933299516496
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which musician founded the Red Hot Peppers. Hillel Slovak",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which musician founded the Red Hot Peppers. F.P. Lamothe",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Red Hot Chili Peppers were formed in Los Angeles by Kiedis, Flea, the guitarist Hillel Slovak, and the drummer Jack Irons.",
+      "strength": 0.7499652139585837
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When Kiedis received an offer to be the opening act for a local band, he enlisted Flea, Slovak, and drummer Jack Irons. After a show under the name Tony Flow and the Miraculously Majestic Masters of Mayhem, the band progressed and the lineup eventually became the Red Hot Chili Peppers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Kiedis began working with Flea and drummer Jack Irons, where he was described as a 'manic master of ceremonies' before he even began singing for the group. Irons and Slovak began playing together in a high school band called Chain Reaction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

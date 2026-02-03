@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. Hypocras",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. March Beer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. Sack Posca",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which drink, popular in the Middle Ages, is prepared by curdling hot milk with wine or ale, and adding spices. Posset",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Milk was heated to a boil, then mixed with wine or ale, which curdled it, and spiced with nutmeg and cinnamon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was considered a specific remedy for some minor illnesses, such as a cold, and a general remedy for others.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

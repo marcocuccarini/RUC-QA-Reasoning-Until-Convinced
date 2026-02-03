@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An exothermic process is a change that releases heat when matter undergoes chemical reactions or physical changes.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetic process is a change that releases heat when matter undergoes chemical reactions and physical changes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An oxidized process is a change that releases heat in matter undergoing chemical reactions and physical changes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Biochemical process is a change that releases heat when matter undergoes chemical reactions or physical changes.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An exothermic reaction is a 'reaction for which the overall standard enthalpy change ΔH° is negative.'",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Aerobic respiration captures the released energy for the formation of ATP.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An exothermic reaction occurs when heat is released to the surroundings.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Examples of exothermic processes are: Combustion of fuels such as wood, coal and oil/petroleum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

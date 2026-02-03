@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who are the two teams in super bowl 2018. New England Patriots",
+      "strength": 0.7499045092427894
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who are the two teams in super bowl 2018. Pittsburgh Steelers",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who are the two teams in super bowl 2018. Green Bay Packers",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who are the two teams in super bowl 2018. Philadelphia Eagles",
+      "strength": 0.7499045092427894
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the 2017–18 playoffs, the New England Patriots lost to the Philadelphia Eagles in Super Bowl LII.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Eagles traveled to Minneapolis to compete in Super Bowl LII, their third attempt at a title, against Tom Brady and the New England Patriots in a rematch of Super Bowl XXXIX from 2005",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

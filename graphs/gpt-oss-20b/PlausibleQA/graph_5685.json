@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how long prime minister stay in office canada. Five years",
+      "strength": 0.1286073394042638
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how long prime minister stay in office canada. Three years",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how long prime minister stay in office canada. Six years",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how long prime minister stay in office canada. four years",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The prime minister serves at His Majesty's pleasure, meaning the post does not have a fixed term, and once appointed and sworn in by the governor general, the prime minister remains in office until they resign, are dismissed, or die.",
+      "strength": 0.5999999739327239
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Where a government has lost the confidence of the House of Commons, the prime minister is obliged to either resign (allowing the governor general to appoint the leader of the Opposition to the office) or seek the dissolution of Parliament and the call of a general election.",
+      "strength": 0.5999999739327239
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The last prime ministers to lose confidence votes were Stephen Harper in 2011, Paul Martin in 2005 and Joe Clark in 1979, all involving minority governments.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Mandates cannot exceed five years; an election must occur by the end of this time.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "All others have resigned, either after losing an election or upon retirement.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Since 1920, the outgoing prime minister has only formally resigned when the new government is ready to be formed.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Once sworn in, the prime minister holds office until their resignation or removal by the governor general, after either a motion of no confidence or defeat in a general election.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Should no particular party hold a majority in the House of Commons, the leader of one party—either the party with the most seats or one supported by other parties—will be called by the governor general to form a minority government.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

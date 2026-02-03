@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was the 11th prime minister of canada. John Diefenbaker",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was the 11th prime minister of canada. Pierre Trudeau",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was the 11th prime minister of canada. John A. Macdonald",
+      "strength": 0.2500000915578924
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was the 11th prime minister of canada. R.B. Bennett",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John A. Macdonald was the first prime minister of Canada",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 24th and current prime minister is Mark Carney, who assumed office on 14 March 2025",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "John George Diefenbaker was the 13th prime minister of Canada",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

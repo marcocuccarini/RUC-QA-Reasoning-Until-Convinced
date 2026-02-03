@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is mali located. Asia",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is mali located. South America",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is mali located. Europe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is mali located. Africa",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mali, officially the Republic of Mali, is a landlocked country in West Africa.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mali borders Algeria to the north, Niger to the east, Burkina Faso to the south-east, Ivory Coast to the south, Guinea to the south-west, and Senegal to the west and Mauritania to the north-west.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A test tube is the best tool for a student to use when measuring a precise amount of liquid.",
+      "strength": 0.4000000351871426
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A meter stick is the best tool for a student who needs to measure out a precise amount of liquid.",
+      "strength": 0.36764705892602983
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Balance scale is the best tool for a student to use to measure out a precise amount of liquid.",
+      "strength": 0.25009176364520974
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A graduated cylinder is the best tool for a student to use when they need to measure out a precise amount of liquid.",
+      "strength": 0.40000000001330893
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Graduated cylinders are generally more accurate and precise than laboratory flasks and beakers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Volumetric glassware, such as a volumetric flask or volumetric pipette, should be used, as it is even more accurate and precise.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A pipette is a laboratory tool commonly used in chemistry and biology to transport a measured volume of liquid.",
+      "strength": 0.5999999999866908
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Glass pipettes are used to transfer precise quantities of fluids.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Burettes are similar to graduated cylinders but have a valve at the end used to disperse precise amounts of liquid reagents often for titrations.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Test tubes are widely used by chemists to handle chemicals, especially for qualitative experiments and assays.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Unlike spring-based scales, balances are used for the precision measurement of mass as their accuracy is not affected by variations in the local gravitational field.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "The balance (also balance scale, beam balance and laboratory balance) was the first mass measuring instrument invented.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

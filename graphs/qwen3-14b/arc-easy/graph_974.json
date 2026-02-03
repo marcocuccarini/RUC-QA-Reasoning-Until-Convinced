@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The schoolyard has few trees is the fact about Clara's schoolyard that most helps her claim that her school is in a desert.",
+      "strength": 0.5999123873437223
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The schoolyard has rocks and sand, which most helps Clara’s claim that her school is in a desert.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The schoolyard gets warm in the summer, which most helps Clara’s claim that her school is in a desert.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The schoolyard gets little rain during the year is the fact that most helps Clara claim that her school is in a desert.",
+      "strength": 0.5999123873437223
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Deserts generally receive less than 250 mm (10 in) of precipitation each year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A desert is a region of land that is very dry because it receives low amounts of precipitation (usually in the form of rain, but it may be snow, mist or fog), often has little coverage by plants, and in which streams dry up unless they are supplied by water from outside the area.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

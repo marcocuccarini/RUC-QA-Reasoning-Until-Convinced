@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hot gases make up most of the surface of Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dry land is the feature that makes up most of the surface of Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Craters make up most of the surface of Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water makes up most of the surface of Earth.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most of Earth's surface is ocean water: 70.8% or 361 million km2 (139 million sq mi).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Earth's land covers 29.2%, or 149 million km2 (58 million sq mi) of Earth's surface.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

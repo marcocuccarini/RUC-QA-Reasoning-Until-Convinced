@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the third season of total drama. Total Drama Action",
+      "strength": 0.25000009340748447
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the third season of total drama. Drama Island 2",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the third season of total drama. Total Drama Revenge",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the third season of total drama. World Tour",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Total Drama Action is the second season of Total Drama, airing after Total Drama Island.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Total Drama Action was created by the makers of 6teen, another Teletoon program.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Total Drama: Revenge of the Island is a sequel to Total Drama World Tour, which was the third season of Total Drama.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Total Drama: Revenge of the Island features an entirely new cast, which is the first time the series completely replaces every existing cast member with an all-new cast.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the TV series Doctor Who, who was the creator of the Daleks and arch enemy of the Doctor. The Master",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the TV series Doctor Who, who was the creator of the Daleks and arch enemy of the Doctor. Cyber Controller",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the TV series Doctor Who, who was the creator of the Daleks and arch enemy of the Doctor. Rassilon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the TV series Doctor Who, who was the creator of the Daleks and arch enemy of the Doctor. Davros",
+      "strength": 0.4999051813262246
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Daleks were created by Terry Nation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Daleks, their creator Davros, the Cybermen, and the renegade Time Lord the Master.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Daleks were created by the writer Terry Nation and BBC designer Raymond Cusick.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

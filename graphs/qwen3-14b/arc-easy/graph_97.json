@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Erosion is the process by which today's limestone caverns, once solid rock, were formed as acidic rainwater seeped through the rock over hundreds of years and dissolved part of the rock.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Deposition is the process by which today's limestone caverns, once solid rock, were formed as acidic rainwater seeped through the rock over hundreds of years, dissolving part of the rock.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Physical weathering is the process by which today’s limestone caverns, once solid rock, were formed as acidic rainwater seeped through the rock over hundreds of years, dissolving part of the rock and creating the caverns.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemical weathering is the process by which today's limestone caverns were formed, as acidic rainwater seeping through the rock over hundreds of years dissolved part of the rock, forming caverns.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carbonic acid + calcium carbonate → calcium bicarbonate",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Atmospheric carbon dioxide enhances solution weathering",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

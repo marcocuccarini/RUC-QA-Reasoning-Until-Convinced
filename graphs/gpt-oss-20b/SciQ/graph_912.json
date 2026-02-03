@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sperm and eggs are produced in the process of gametogenesis, of which meiosis is a part.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chromosomes are produced during gametogenesis, a process that includes the meiotic division.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Egg only is the product of gametogenesis, a process that includes meiosis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sperm only is what meiosis produces during gametogenesis.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Spermatogenesis, the process of male gamete formation in animals, involves meiosis in a diploid primary spermatocyte to produce haploid spermatozoa.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Oogenesis, the process of female gamete formation in animals, involves meiosis (including meiotic recombination) of a diploid primary oocyte to produce a haploid ovum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

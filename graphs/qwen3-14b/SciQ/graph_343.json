@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Flowering plants are thought to have evolved at least 200 million years ago from gymnosperms like gnetae.",
+      "strength": 0.2500000862259758
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Yeasts are thought to have evolved at least 200 million years ago from gymnosperms like gnetae.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cone-bearing plants are thought to have evolved at least 200 million years ago from gymnosperms like gnetophytes.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Deciduous trees are thought to have evolved at least 200 million years ago from gymnosperms such as gnetophytes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Molecular evidence suggests that the ancestors of angiosperms diverged from the gymnosperms during the late Devonian, about 365 million years ago.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ancestors of flowering plants diverged from the common ancestor of all living gymnosperms before the end of the Carboniferous, over 300 million years ago.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A 2018 phylogenomic study estimated the divergence between Gnetales and Pinaceae at around 241 million years ago, in the early Triassic, while a 2021 study placed it earlier, in the Carboniferous.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

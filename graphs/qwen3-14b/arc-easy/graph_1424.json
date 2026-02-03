@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Digestive system -> circulatory system -> body cells is the pathway that most nutrients take after a person takes a bite of food.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Circulatory system -> body cells -> digestive system is the pathway most nutrients take after a person takes a bite of food.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Digestive system → body cells → circulatory system is the pathway most nutrients take after a person takes a bite of food.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Circulatory system → digestive system → body cells is the pathway most nutrients take after a person takes a bite of food.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When the digested food particles are reduced enough in size and composition, they can be absorbed by the intestinal wall and carried to the bloodstream.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The last part of the small intestine is the ileum. This also contains villi and vitamin B12; bile acids and any residue nutrients are absorbed here.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

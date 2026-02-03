@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The orbits of the planets around the Sun are caused by gravity.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravity is responsible for the rotation of a planet on its axis.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The tilt of Earth's axis is caused by gravity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Phases of the Moon are the result of gravity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The fundamental laws of astrodynamics are Newton's law of universal gravitation and Newton's laws of motion",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The motion of these objects is usually calculated from Newton's laws of motion and the law of universal gravitation",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Time is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pressure is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Natural gas is formed when layers of organic matter are thermally decomposed under oxygen-free conditions, subjected to intense heat and pressure underground over millions of years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Natural gas is created when organic matter is heated and compressed deep underground.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Maturation of source rocks depends strongly on temperature, such that the majority of oil generation occurs in the 60 to 120 °C (140 to 248 °F) range.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The critical moment is crucial since it is based on the burial history of the source rock when it is at maximum burial depth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

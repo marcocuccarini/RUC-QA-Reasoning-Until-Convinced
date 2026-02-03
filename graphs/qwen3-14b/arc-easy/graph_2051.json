@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Time is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pressure is responsible for changing the remains of prehistoric sea animals into natural gas.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Natural gas is formed when layers of organic matter are thermally decomposed under oxygen-free conditions, subjected to intense heat and pressure underground over millions of years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Thermogenic gas takes a much longer period of time to form and is created when organic matter is heated and compressed deep underground.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The resulting high temperature and pressure caused the organic matter to chemically alter, first into a waxy material known as kerogen, and then with more heat into liquid and gaseous hydrocarbons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Over geological time this organic matter, mixed with mud, became buried under further heavy layers of inorganic sediment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

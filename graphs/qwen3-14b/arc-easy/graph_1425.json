@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wind determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Humidity is the factor that determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Air pressure determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature determines whether precipitation will be in the form of rain or snow.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In cold conditions, falls in the form of snow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rain or drizzle that freezes on contact within a subfreezing air mass is called 'freezing rain' or 'freezing drizzle'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

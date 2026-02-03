@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name given to the German annexation of Austria in 1938. Ostmarkierung",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name given to the German annexation of Austria in 1938. Deutsche Einigung",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name given to the German annexation of Austria in 1938. Österreichische Eingliederung",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name given to the German annexation of Austria in 1938. Anshluß",
+      "strength": 0.32010739047511455
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The annexation was called the Anschluss",
+      "strength": 0.7499627132623069
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Anschluss – a soundbite history of the German invasion into Austria",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Germany annexed Austria in the Anschluss of 1938.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "First appearing on TV in 1967, which detective solved all of his crimes sitting down. Columbo",
+      "strength": 0.400000000085493
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "First appearing on TV in 1967, which detective solved all of his crimes sitting down. Kojak",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "First appearing on TV in 1967, which detective solved all of his crimes sitting down. Miss Marple",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "First appearing on TV in 1967, which detective solved all of his crimes sitting down. Ironside",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The character first appeared in a 1960 episode of The Chevy Mystery Show",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kojak is an American action crime drama television series starring Telly Savalas... aired on CBS from 1973 to 1978.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ironside (1967 TV series), an American television series (1967–1975) starring Raymond Burr",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

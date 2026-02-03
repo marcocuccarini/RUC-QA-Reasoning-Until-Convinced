@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If dogs are canine and cats feline, what adjective is used for geese. Avian",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If dogs are canine and cats feline, what adjective is used for geese. Galliform",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If dogs are canine and cats feline, what adjective is used for geese. Waterfowl",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If dogs are canine and cats feline, what adjective is used for geese. Anserine",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term 'waterfowl' is commonly used to describe birds such as geese, ducks, and swans, which are all part of the Anatidae family within the order Anseriformes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The adjective 'anserine' refers specifically to the family Anseridae, which includes geese and swans, but is not as widely used as 'waterfowl' in general contexts.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The term 'galliform' is used to describe birds in the order Galliformes, which includes chickens, turkeys, and pheasants, not geese.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The term 'avian' is a general term for all birds, not specific to geese, and is not the adjective used to describe geese in the same way that 'canine' is used for dogs or 'feline' for cats.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

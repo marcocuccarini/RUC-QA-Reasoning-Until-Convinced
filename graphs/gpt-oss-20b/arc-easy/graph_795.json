@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The color of the galaxy is the characteristic on which galaxy classification is based.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The shape of the galaxy is the characteristic on which the classification of galaxies is based.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many stars make up the galaxy is the characteristic on which classification of galaxies is based.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The number of planets that make up a galaxy is the characteristic on which classification of galaxies is based.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the primary criteria used to assign the morphological type has been the nature of the spiral arms",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Another criticism of the Hubble classification scheme is that, being based on the appearance of a galaxy in a two-dimensional image, the classes are only indirectly related to the true physical properties of galaxies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

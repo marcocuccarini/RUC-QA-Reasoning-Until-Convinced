@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. Bone Marrow",
+      "strength": 0.7499426582224752
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. Spleen",
+      "strength": 0.6322429966750173
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. Thymus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. lymph",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Resultant plasma cells migrate to bone marrow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Resultant plasma cells stay within the SLO.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Long‑lived plasma cells reside in the bone marrow and secrete antibodies for decades.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Short‑lived cells remain in the extramedullary regions of lymph nodes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

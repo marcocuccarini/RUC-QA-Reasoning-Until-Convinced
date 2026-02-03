@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Molting is the process that changes a beetle from larva to adult in a life cycle similar to that of a butterfly.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Migration is the process that changes a beetle from larva to adult in a life cycle similar to that of a butterfly.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process that changes the beetle from larva to adult in a life cycle similar to that of a butterfly.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metamorphosis is the process that changes a beetle from larva to adult, similar to the life cycle of a butterfly.",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Holometabolism, also called complete metamorphosis, is a form of insect development which includes four life stages: egg, larva, pupa, and imago (or adult).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The larva must moult to pass from each larval stage.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pupa is a quiescent, non-feeding developmental stage.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In preparation for pupation, the larvae of many species seek protected sites or construct a protective cocoon of silk or other material, such as its own accumulated feces.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

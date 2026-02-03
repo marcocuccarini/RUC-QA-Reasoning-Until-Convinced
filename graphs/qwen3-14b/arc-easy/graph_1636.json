@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Low density is the property of matter in the initial moments of the universe that particle accelerators, such as the Large Hadron Collider in Europe, are designed to simulate by accelerating subatomic particles to great speeds, moving them in opposite directions at nearly the speed of light, and colliding them to recreate early‑universe conditions.",
+      "strength": 0.6323528119937558
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High energy is the property of matter in the initial moments of the universe that particle accelerators, such as the Large Hadron Collider, are designed to simulate by accelerating subatomic particles to great speeds, moving them in opposite directions at nearly the speed of light, and colliding them to recreate the conditions that existed as the universe formed.",
+      "strength": 0.7499026423977891
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Massive nuclei are the property of matter in the initial moments of the universe that particle accelerators, such as the Large Hadron Collider in Europe, are designed to simulate by accelerating subatomic particles to nearly the speed of light and colliding them.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Circular movement is the property of matter in the initial moments of the universe that particle accelerators, such as the Large Hadron Collider, are designed to simulate by accelerating subatomic particles to great speeds, moving them in opposite directions at nearly the speed of light, and colliding them to recreate early‑universe conditions.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "accelerating subatomic particles to great speeds, moving them in opposite directions at nearly the speed of light, and colliding them to recreate early-universe conditions",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "recreate early-universe conditions",
+      "strength": 0.5999999754507639
+    },
+    "A7": {
+      "type": "argument",
+      "text": "colliding gold ions at nearly the speed of light, reaching temperatures of 4 trillion degrees Celsius",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "colliding relativistically accelerated gold and other ion species (at RHIC) or lead (at LHC) with each other or with protons",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

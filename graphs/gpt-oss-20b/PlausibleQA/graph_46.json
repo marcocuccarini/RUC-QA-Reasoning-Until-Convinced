@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the palace and monastery , situated some 25 miles north of Madrid, founded by King Phillip II of Spain. El Pardo",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the palace and monastery , situated some 25 miles north of Madrid, founded by King Phillip II of Spain. Alcázar of Segovia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the palace and monastery , situated some 25 miles north of Madrid, founded by King Phillip II of Spain. Monasterio de las Huelgas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the palace and monastery , situated some 25 miles north of Madrid, founded by King Phillip II of Spain. Escorial",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "El Escorial is a historical residence of the king of Spain located in the town of San Lorenzo de El Escorial",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Built between 1563 and 1584 by order of King Philip II (who reigned 1556–1598), El Escorial is the largest Renaissance building in the world",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

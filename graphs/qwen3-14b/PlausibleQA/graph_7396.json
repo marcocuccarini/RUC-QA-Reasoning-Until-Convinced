@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which English cathedral is the tomb of King John. Canterbury Cathedral",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which English cathedral is the tomb of King John. York Minster",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which English cathedral is the tomb of King John. Lincoln Cathedral",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which English cathedral is the tomb of King John. Worcester",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Cathedral contains the tomb of King John in its chancel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Before his death in Newark in 1216, John had requested to be buried at Worcester.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Surface water is water found on the surface of the earth.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Groundwater is water found on the surface of the earth.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reservoir water is water found on the surface of the earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Runoff is water found on the surface of the earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Surface water is water located on top of land, forming terrestrial (surrounding by land on all sides) waterbodies",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Levels of surface water lessen as a result of evaporation as well as water moving into the ground becoming ground-water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

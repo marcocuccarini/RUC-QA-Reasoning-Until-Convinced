@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reptile is the class of animals that includes cold‑blooded vertebrates with smooth skin.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fish are a class of animals that are cold‑blooded vertebrates with smooth skin.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amphibian is the class of cold‑blooded vertebrates that have smooth skin.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mammal is the class of animals to which a cold‑blooded vertebrate with smooth skin belongs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Modern non‑avian reptiles exhibit some form of cold‑bloodedness (i.e. some mix of poikilothermy, ectothermy, and bradymetabolism) so that they have limited physiological means of keeping the body temperature constant and often rely on external sources of heat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In lepidosaurs, such as lizards and snakes, the whole skin is covered in overlapping epidermal scales.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Amphibians are ectothermic (cold‑blooded) vertebrates that do not maintain their body temperature through internal physiological processes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Their skin contains little keratin and lacks scales, apart from a few fish-like scales in certain caecilians.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what genre of art is the mona lisa. Landscape",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what genre of art is the mona lisa. Still Life",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what genre of art is the mona lisa. Abstract",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what genre of art is the mona lisa. Portrait",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Mona Lisa is a half-length portrait painting by the Italian artist Leonardo da Vinci.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It became the definitive example of the Renaissance portrait.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

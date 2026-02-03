@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US gangster was released from Alcatraz prison in November 1939. George \"Machine Gun\" Kelly",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US gangster was released from Alcatraz prison in November 1939. Meyer Lansky",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US gangster was released from Alcatraz prison in November 1939. Lucky Luciano",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US gangster was released from Alcatraz prison in November 1939. CaPone",
+      "strength": 0.2500000828450069
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Capone completed his term in Alcatraz on January 6, 1939, and was transferred to the Federal Correctional Institution at Terminal Island.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Capone was paroled on November 16, 1939, after his wife Mae appealed to the court, based on his reduced mental capabilities.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lansky helped arrange a deal with the government via a high-ranking United States Navy official that secured Luciano's release from prison",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

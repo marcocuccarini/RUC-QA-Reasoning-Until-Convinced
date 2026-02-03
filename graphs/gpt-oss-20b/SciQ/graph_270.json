@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The right lobe of the liver is near the gallbladder.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The left lobe of the liver is the lobe near which the gallbladder is located.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Central lobe is the lobe of the liver near which the gallbladder is located.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The internal lobe is the lobe of the liver near which the gallbladder is located.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The gallbladder lies in a shallow depression below the right lobe of the liver.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What substance was believed by Alchemists to transmute other metals into gold. Mercury",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What substance was believed by Alchemists to transmute other metals into gold. Sulfur",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What substance was believed by Alchemists to transmute other metals into gold. Quartz",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What substance was believed by Alchemists to transmute other metals into gold. Carmot",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mercury was called for in attempts at the transmutation of base (or impure) metals into gold, which was the goal of many alchemists.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They believed that different metals could be produced by varying the quality and quantity of sulfur contained within the mercury.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

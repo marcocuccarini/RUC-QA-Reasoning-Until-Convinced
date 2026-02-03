@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The original United Artists film studio was founded in 1919 by D.W. Griffith, Mary Pickford, Douglas Fairbanks and who else. Charlie Chaplin",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The original United Artists film studio was founded in 1919 by D.W. Griffith, Mary Pickford, Douglas Fairbanks and who else. Cecil B. DeMille",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The original United Artists film studio was founded in 1919 by D.W. Griffith, Mary Pickford, Douglas Fairbanks and who else. Harold Lloyd",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The original United Artists film studio was founded in 1919 by D.W. Griffith, Mary Pickford, Douglas Fairbanks and who else. Chaplinian",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chaplin, Pickford, Fairbanks, and D. W. Griffith incorporated United Artists as a joint venture company on February 5, 1919.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The idea for the venture originated with Fairbanks, Chaplin, Pickford and cowboy star William S. Hart a year earlier. Already Hollywood veterans, the four stars talked of forming their own company to better control their own work.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

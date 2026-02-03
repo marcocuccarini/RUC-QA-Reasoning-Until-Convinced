@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ore is what metals start out as.",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metal molecules are what metals start out as.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Aluminum is what metals start out as.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nickel is what metals start out as.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ore is natural rock or sediment that contains one or more valuable minerals, typically including metals, concentrated above background levels, and that is economically viable to mine and process.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Metal production begins with the processing of ores to extract the metal, and includes the mixture of metals to make alloys.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Certain metals, such as tin, lead, and copper can be recovered from their ores by simply heating the rocks in a comparatively moderate-temperature fire or blast furnace in a process known as smelting.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

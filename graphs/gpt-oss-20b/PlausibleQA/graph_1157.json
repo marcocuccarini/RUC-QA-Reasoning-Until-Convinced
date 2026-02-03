@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the opiate-like substances produced in the brain by pituitary glands. Neurokin",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the opiate-like substances produced in the brain by pituitary glands. Pituiton",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the opiate-like substances produced in the brain by pituitary glands. Cerebrin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the opiate-like substances produced in the brain by pituitary glands. Endorfin",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Endorphins (contracted from endogenous morphine) are peptides produced in the brain that block the perception of pain and increase feelings of wellbeing.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Endorphins are endogenous painkillers often produced in the brain and adrenal medulla during physical exercise or orgasm and inhibit pain, muscle cramps, and relieve stress.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

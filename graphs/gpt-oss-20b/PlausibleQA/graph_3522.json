@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the prr first begin its passenger service between pittsburgh and philadelphia. 1838",
+      "strength": 0.40000002713110205
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the prr first begin its passenger service between pittsburgh and philadelphia. 1849",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the prr first begin its passenger service between pittsburgh and philadelphia. 1820",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the prr first begin its passenger service between pittsburgh and philadelphia. 1854",
+      "strength": 0.2263459708706336
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1852, a continuous railroad line ran between Philadelphia and Pittsburgh over the tracks of several entities including the Pennsylvania Railroad.",
+      "strength": 0.5999716981983361
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1853, the Pennsy was granted trackage rights over the Philadelphia and Columbia, providing a connection between the two cities and connecting with the HPMtJ&L at Lancaster and Columbia.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "on November 29 the full line was completed, forming the first all-rail route between Philadelphia and Pittsburgh",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

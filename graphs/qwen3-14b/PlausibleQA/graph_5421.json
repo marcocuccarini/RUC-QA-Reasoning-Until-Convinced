@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mark Bolland is the current Dutch born CEO of which retail chain. Tesco",
+      "strength": 0.400000033807435
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mark Bolland is the current Dutch born CEO of which retail chain. Sainsbury's",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mark Bolland is the current Dutch born CEO of which retail chain. Asda",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mark Bolland is the current Dutch born CEO of which retail chain. M&S",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In October 2019, Tesco announced that CEO Dave Lewis would step down in 2020, and would be succeeded by Ken Murphy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2016, Marc Bolland stepped down as CEO of M&S and was replaced by Steve Rowe.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2022, Stuart Machin was appointed managing director of Food at M&S, succeeding Steve Rowe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which African country is Mount Kilimanjaro. Kenya",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which African country is Mount Kilimanjaro. Ethiopia",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which African country is Mount Kilimanjaro. Democratic Republic of the Congo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which African country is Mount Kilimanjaro. TNZ",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mount Kilimanjaro is a large dormant volcano in Tanzania.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tanzania is the site of Africa's highest and lowest points: Mount Kilimanjaro, at 5,895 metres (19,341 ft) above sea level, and the floor of Lake Tanganyika, at 1,471 metres (4,826 ft) below sea level, respectively.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tanzania is mountainous and densely forested in the north-east, where Mount Kilimanjaro, the highest mountain in Africa, is located.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

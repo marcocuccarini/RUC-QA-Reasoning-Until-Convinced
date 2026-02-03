@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Drought is caused by having dry, hot weather for a long time.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A thunderstorm is caused by having dry, hot weather for a long time.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A tornado can be caused by having dry, hot weather for a long time.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A flood can be caused by having dry, hot weather for a long time.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "once a region is within drought, feedback mechanisms such as local arid air, hot conditions which can promote warm core ridging, and minimal evapotranspiration can worsen drought conditions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "high level of reflected sunlight and above average prevalence of high pressure systems, winds carrying continental, rather than oceanic air masses, and ridges of high pressure areas aloft can prevent or restrict the developing of thunderstorm activity or rainfall over one certain region.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

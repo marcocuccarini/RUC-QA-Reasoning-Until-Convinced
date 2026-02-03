@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Russia's TU-144 plane was the broad equivalent of which western airliner. Boeing 2707",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Russia's TU-144 plane was the broad equivalent of which western airliner. Lockheed L-2000",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Russia's TU-144 plane was the broad equivalent of which western airliner. Airbus A300",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Russia's TU-144 plane was the broad equivalent of which western airliner. CONCORDE",
+      "strength": 0.5999030784341561
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Despite the similarity in appearance of the Tu-144 to the Anglo-French supersonic aircraft (which earned it the nickname 'Concordski'), there were significant differences between the two aircraft.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Concorde was one of only two supersonic jetliner models to operate commercially; the other was the Soviet-built Tupolev Tu-144, which operated in the late 1970s.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This plane could cross the Atlantic in 3.5 hours.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

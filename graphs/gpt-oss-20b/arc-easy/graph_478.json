@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sitting at a desk is an example of work, because work is defined as the product of force and distance.",
+      "strength": 0.4310343569620326
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pushing on a wall is an example of work, which is the product of force and distance.",
+      "strength": 0.4000000000000308
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Riding a bike is an example of work, which is a product of force and distance.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reading a book is an example of work, since work is a product of force and distance.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For example, when a ball is held above the ground and then dropped, the work done by the gravitational force on the ball as it falls is positive, and is equal to the weight of the ball (a force) multiplied by the distance to the ground (a displacement).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The result of a cross product is always perpendicular to both of the original vectors, so F ⊥ v. The dot product of two perpendicular vectors is always zero, so the work W = F ⋅ v = 0, and the magnetic force does not do work.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The work done by a force is defined as W = ∫ F⋅dx.",
+      "strength": 0.5999999665289549
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In science, work is the energy transferred to or from an object via the application of force along a displacement.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Thus, the work done for a variable force can be expressed as a definite integral of power over time.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Up to 99% of the energy delivered by the rider into the pedals is transmitted to the wheels.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The bicycle is the most efficient human-powered means of transportation in terms of energy a person must expend to travel a given distance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

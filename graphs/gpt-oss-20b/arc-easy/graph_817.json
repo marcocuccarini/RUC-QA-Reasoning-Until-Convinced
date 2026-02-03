@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "6 a.m. is approximately when the Sun reaches its highest point in the sky for an observer in New York State.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Noon is the approximate time of day when the Sun is at the highest point in the sky for an observer in New York State.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "6 p.m. is the approximate time of day when the Sun is at its highest point in the sky for an observer in New York State.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Midnight is the approximate time of day when the Sun is at the highest point in the sky to an observer in New York State.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Solar noon is the moment when the Sun contacts the observer's meridian (culmination or meridian transit), reaching its highest position above the horizon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

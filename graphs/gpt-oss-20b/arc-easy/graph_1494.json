@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A pencil is the most likely item that is made from only one material.",
+      "strength": 0.25000008796785606
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A bicycle is the item most likely made from only one material.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A paper clip is the item most likely made from only one material.",
+      "strength": 0.4000000000337316
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A pair of shoes is the most likely to be made from only one material.",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The most common material is steel or some other metal, but molded plastic is also used.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Graphite pencils are made of a mixture of clay and graphite",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Solid graphite pencils are solid sticks of graphite and clay composite",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Virtually all professional racing bicycles now use carbon fibre frames.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Recent versions use bamboo for the primary frame with glued metal connections and parts.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Soles can be simple—a single material in a single layer—or they can be complex, with multiple structures or layers and materials.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

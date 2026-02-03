@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In Switzerland, 1978, the corpse of which entertainer was reburied in concrete after it was recovered from extortionists. Charlie Chaplin",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In Switzerland, 1978, the corpse of which entertainer was reburied in concrete after it was recovered from extortionists. Peter Sellers",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In Switzerland, 1978, the corpse of which entertainer was reburied in concrete after it was recovered from extortionists. Audrey Hepburn",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In Switzerland, 1978, the corpse of which entertainer was reburied in concrete after it was recovered from extortionists. Chaplinian",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It was re-interred in the Corsier cemetery in a reinforced concrete vault.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 1 March 1978, Chaplin's coffin was dug up and stolen from its grave by Roman Wardas and Gantcho Ganev.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

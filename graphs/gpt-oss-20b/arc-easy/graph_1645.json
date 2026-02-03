@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Speed and direction of the electron determine its location around the nucleus of an atom.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Size of the electron and the neutron are the two factors that determine the location of an electron around the nucleus of an atom.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Direction and strength of the electron are the two factors that determine the location of an electron around the nucleus of an atom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Energy and the attraction of the nucleus are the two factors that determine the location of an electron around the nucleus of an atom.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In atoms with one electron (hydrogen-like atom), the energy of an orbital (and, consequently, any electron in the orbital) is determined mainly by n.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The higher nuclear charge Z of heavier elements causes their orbitals to contract by comparison to lighter ones, so that the size of the atom remains very roughly constant, even as the number of electrons increases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

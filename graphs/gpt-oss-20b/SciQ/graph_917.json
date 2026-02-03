@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It will float when the buoyant force is greater than the force of gravity acting on a ship.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It will sink if the buoyant force is greater than the force of gravity acting on a ship.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It will bobble if the buoyant force is greater than the force of gravity acting on a ship.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It will explode if the buoyant force is greater than the force of gravity acting on a ship.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the buoyancy forces exceed the weight, the object is positively buoyant, and will tend to float upwards in the fluid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

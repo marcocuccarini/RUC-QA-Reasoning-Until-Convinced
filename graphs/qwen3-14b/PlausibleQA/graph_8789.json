@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. Texas Rangers",
+      "strength": 0.25009741501474514
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. Philadelphia Phillies",
+      "strength": 0.4000000574365435
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. New York Yankees",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. Slcards",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Cardinals defeated the Rangers in seven games to win their 11th World Series championship",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Cardinals were the first wild card team to win the World Series since the 2004 Red Sox",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the Cardinals won the 2011 World Series in seven games over the Texas Rangers",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

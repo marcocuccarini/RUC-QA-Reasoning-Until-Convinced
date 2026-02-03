@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mitochondrion is a structure that a rabbit cell and a bacillus cell have in common.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Capsule is the structure that rabbit cells and bacillus cells have in common.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The nucleus is the structure that a rabbit cell and a bacillus cell have in common.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "DNA is the structure that both a rabbit cell and a bacillus cell possess.",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prokaryotic cells lack a nucleus, and the other usually present membrane-bound organelles.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The DNA of a bacterium is in direct contact with the cytoplasm in a region called the nucleoid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

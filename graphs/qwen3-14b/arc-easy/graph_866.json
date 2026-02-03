@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ocean trenches form when magma emerges between two diverging oceanic plates.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fault boundaries are the features that form when magma emerges between two diverging oceanic plates.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mid‑ocean ridges are the features that form when magma emerges between two diverging oceanic plates.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Composite volcanoes form when magma emerges between two diverging oceanic plates.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mid-ocean ridges are seafloor mountain systems formed by plate tectonics. It typically has a depth of about 2,600 meters (8,500 ft) and rises about 2,000 meters (6,600 ft) above the deepest portion of an ocean basin. This feature is where seafloor spreading takes place along a divergent plate boundary.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The oceanic lithosphere is formed at an oceanic ridge, while the lithosphere is subducted back into the asthenosphere at ocean trenches.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

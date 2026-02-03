@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. Malaysia",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. Brunei",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. Thailand",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. 新加坡",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1990, Goh Chok Tong succeeded Lee and became Singapore's second prime minister.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Former prime ministers of Singapore, Lee Kuan Yew and Goh Chok Tong, have stated that Singapore does not fit the traditional description of a nation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

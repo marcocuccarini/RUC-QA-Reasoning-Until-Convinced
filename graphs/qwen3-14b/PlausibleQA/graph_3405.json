@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. France",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. Belgium",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. Switzerland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "From which country do French fries originate? France, Belgium or Switzerland. Suiza",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Belgian food historian Pierre Leclercq has traced the history of the french fry and asserts that 'it is clear that fries are of French origin'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The modern style of fries born in Paris around 1855 is different from the domestic fried potato that existed in the 18th century.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

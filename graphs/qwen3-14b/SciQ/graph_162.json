@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Vaccine is the preventative measure traditionally used to stimulate the immune system with weakened or inactive forms of microorganisms or viruses.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Infection is the preventative measure that traditionally uses weakened or inactive forms of microorganisms or viruses to stimulate the immune system.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Assimilation is the preventative measure that traditionally uses weakened or inactive forms of microorganisms or viruses to stimulate the immune system.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pathogen is the preventative measure that traditionally used weakened or inactive forms of microorganisms or viruses to stimulate the immune system.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The live Mycobacterium tuberculosis vaccine developed by Calmette and Guérin is not made of a contagious strain but contains a virulently modified strain called 'BCG' used to elicit an immune response to the vaccine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

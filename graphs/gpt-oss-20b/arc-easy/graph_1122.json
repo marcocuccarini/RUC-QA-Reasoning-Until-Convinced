@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Light‑year, astronomical unit, kilometer, angstrom is the list of units of length from smallest to largest.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Angstrom, kilometer, astronomical unit, light-year are units of length listed from smallest to largest.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Astronomical unit, angstrom, kilometer, light‑year is a list of units of length from smallest to largest.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Kilometer, angstrom, light‑year, astronomical unit is a list of units of length from smallest to largest.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One au is approximately equivalent to 499 light-seconds.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The astronomical unit is too small to be convenient for interstellar distances, where the parsec and light-year are widely used.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

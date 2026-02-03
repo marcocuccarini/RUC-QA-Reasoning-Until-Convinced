@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Mozart",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Tchaikovsky",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Gluck",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which great composer's only ballets were, 'The Creatures Of Prometheus' and 'Ritterballet'. Betoven",
+      "strength": 0.25008470852089776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Beethoven completed a ballet, The Creatures of Prometheus (op. 43).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Waldstein commissioned Beethoven's first work for the stage, the ballet Musik zu einem Ritterballett (WoO 1).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

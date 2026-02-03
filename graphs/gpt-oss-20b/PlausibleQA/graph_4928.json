@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when does the sa node begin electrical signaling. Automatically",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when does the sa node begin electrical signaling. Periodically",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when does the sa node begin electrical signaling. In response to stretch",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when does the sa node begin electrical signaling. spontaneously",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Immediately after repolarization, the membrane potential of these cells begins to depolarise again automatically, a phenomenon known as the pacemaker potential.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In a healthy heart, the SA node continuously produces action potentials, setting the rhythm of the heart (sinus rhythm), and so is known as the heart's natural pacemaker.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Electrical signals arising in the SA node (located in the right atrium) stimulate the atria to contract.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "If the SA node fails to initialize, the AV junction can take over as the main pacemaker of the heart.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The SA node spontaneously generates action potentials.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

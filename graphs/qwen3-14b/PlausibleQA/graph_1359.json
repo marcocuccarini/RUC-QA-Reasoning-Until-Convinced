@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what countries are in the uk yahoo. England",
+      "strength": 0.5999999637412498
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what countries are in the uk yahoo. Scotland",
+      "strength": 0.846056906746563
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what countries are in the uk yahoo. Northern Ireland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what countries are in the uk yahoo. Wales",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It comprises England, Scotland, Wales and Northern Ireland",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Scotland is a country that is part of the United Kingdom.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As one of the countries of the United Kingdom, the British Armed Forces are the armed forces of Scotland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

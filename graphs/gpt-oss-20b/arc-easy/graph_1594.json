@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Igneous is the type of rock in which the fossil imprint of a fern leaf is most likely to be found.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metamorphic rock is the type of rock in which a fossil imprint of a fern leaf is most likely to be found.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sedimentary rock is the type of rock in which the fossil imprint of a fern leaf is most likely to be found.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Volcanic rock is the type of rock in which the fossil imprint of a fern leaf is most likely to be found.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Among the three major types of rock, fossils are most commonly found in sedimentary rock.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Unlike most igneous and metamorphic rocks, sedimentary rocks form at temperatures and pressures that do not destroy fossil remains.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

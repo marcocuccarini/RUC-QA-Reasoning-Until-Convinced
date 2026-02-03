@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical composition is the information about stars that can be learned by using a spectrometer.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Distance from Earth is the information about stars that can be learned by using a spectrometer.",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Size is the information about stars that can be learned by using a spectrometer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Speed is the information about stars that can be learned by using a spectrometer.",
+      "strength": 0.5999999626370065
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A stellar spectrum can reveal many properties of stars, such as their chemical composition, temperature, density, mass, distance and luminosity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Spectroscopy can show the velocity of motion towards or away from the observer by measuring the Doppler shift.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Spectrometers are used in astronomy to analyze the chemical composition of stars and planets",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Because each element leaves its spectral signature in the pattern of lines observed, a spectral analysis can reveal the composition of the object being analyzed",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

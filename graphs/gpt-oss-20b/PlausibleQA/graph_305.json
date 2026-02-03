@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the leader of France’s Vichy Government during World War II. Philippe Pétain's successor, François Darlan",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the leader of France’s Vichy Government during World War II. Pierre Laval",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the leader of France’s Vichy Government during World War II. Marshal Alphonse Juin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the leader of France’s Vichy Government during World War II. Petain",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prime Minister Paul Reynaud resigned, recommending to President Albert Lebrun that he appoint Pétain in his place, which he did that day.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pierre Laval as Minister of Foreign Affairs (this appointment was briefly vetoed by Weygand)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

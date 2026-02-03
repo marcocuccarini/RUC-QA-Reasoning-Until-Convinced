@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decreases is the atmospheric pressure as altitude increases.",
+      "strength": 0.8460569429676595
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increase is the change in atmospheric pressure that occurs as altitude increases.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stays the same is the correct description of atmospheric pressure when altitude increases.",
+      "strength": 0.4000000385008666
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Depends on other factors is the answer to whether atmospheric pressure increases or decreases as altitude increases.",
+      "strength": 0.5999999999623462
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As altitude increases, atmospheric pressure decreases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Temperature and humidity also affect the atmospheric pressure. Pressure is proportional to temperature and inversely related to humidity, and both of these are necessary to compute an accurate figure.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Test showing a can being crushed after boiling water inside it, then moving it into a tub of ice-cold water.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The barometric formula is a formula used to model how the air pressure (or air density) changes with altitude.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Assuming constant temperature, integrating gives the second barometric formula: P = P0 e^{-Mgz/R*T}.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

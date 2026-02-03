@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Exothermic reactions are the type of chemical reactions that release energy.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sulfuric reactions are the type of chemical reactions that release energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Endothermic reactions are the type of chemical reactions that release energy.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Biochemical reactions are the type of chemical reactions that release energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the energy of the forming bonds is greater than the energy of the breaking bonds, then energy is released.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If more energy is needed to break the bonds than the energy being released, energy is taken up.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

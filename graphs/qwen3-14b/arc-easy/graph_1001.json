@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The height of your parents is the factor most likely to affect your adult height.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The height of your brothers and sisters is most likely to affect your adult height.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Your hair color is most likely to affect your adult height.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Your weight is the factor most likely to affect your adult height.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Differences in human height is 60−80% heritable, according to several twin studies",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A child's height based on parental heights is subject to regression toward the mean, therefore extremely tall or short parents will likely have correspondingly taller or shorter offspring, but their offspring will also likely be closer to average height than the parents themselves",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In Shakespeare’s play what is the name of Hamlet’s mother. Ophelia",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In Shakespeare’s play what is the name of Hamlet’s mother. Lady Macbeth",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In Shakespeare’s play what is the name of Hamlet’s mother. Cordelia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In Shakespeare’s play what is the name of Hamlet’s mother. Gertrud",
+      "strength": 0.4999051813262246
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gertrude is Hamlet's mother and Queen of Denmark.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ophelia is the daughter of Polonius, not Hamlet's mother.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Gertrude is the queen of Denmark and Hamlet's mother.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

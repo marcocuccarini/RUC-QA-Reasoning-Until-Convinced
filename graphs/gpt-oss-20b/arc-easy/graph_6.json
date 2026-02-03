@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun remains in the same location in the sky of the Northern Hemisphere each night.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Little Dipper remains in the same location in the sky of the Northern Hemisphere each night.",
+      "strength": 0.40000000008898207
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The North Star remains in the same location in the sky of the Northern Hemisphere each night.",
+      "strength": 0.5999030803074822
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Moon remains in the same location in the sky of the Northern Hemisphere each night.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Because Polaris lies nearly in a direct line with the Earth's rotational axis above the North Pole, it stands almost motionless in the sky, and all the stars of the northern sky appear to rotate around it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In those times, it was not yet as close to the north celestial pole as it is now, and used to rotate around the pole.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2018 Polaris was 0.66° (39.6 arcminutes) away from the pole of rotation and so revolves around the pole in a small circle 1.3° in diameter.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Because it is so close to the celestial north pole, its right ascension is changing rapidly due to the precession of Earth's axis, going from 2.5h in AD 2000 to 6h in AD 2100.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Polaris is within 1° of the north celestial pole and remains the current Pole star.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Polaris itself remains almost stationary, always at the north (i.e. azimuth of 0°), and always at the same altitude (angle from the horizon), equal to the observer's latitude.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

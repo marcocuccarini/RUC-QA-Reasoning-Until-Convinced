@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Lion",
+      "strength": 0.4000000465571573
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Tiger",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Valiant",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The first issue of which British children’s comic was published in April 1950. Eagle",
+      "strength": 0.5999029143854268
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lion was first published in 1952",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eagle was already in circulation when Lion debuted in 1952",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Following a huge publicity campaign, the first issue of Eagle was released in April 1950",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Eagle was a British children's comics periodical, first published from 1950 to 1969",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

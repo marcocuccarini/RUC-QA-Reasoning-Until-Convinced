@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Brain cells are where meiosis occurs, a type of cell division in which germ cells divide to produce haploid cells.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bone cells are the cells where meiosis occurs, which is a type of cell division in which germ cells divide to produce haploid cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Muscle cells are where meiosis, a type of cell division in which germ cells divide to produce haploid cells, occurs.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ovary cells are where meiosis occurs, a type of cell division in which germ cells divide to produce haploid cells.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Somatic cells make up the body of the organism and are not involved in gamete production.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In females, meiosis occurs in cells known as oocytes (singular: oocyte).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

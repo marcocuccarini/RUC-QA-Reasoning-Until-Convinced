@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which bird was once called apteryx. Ostrich",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which bird was once called apteryx. Penguin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which bird was once called apteryx. Emu",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which bird was once called apteryx. Kiwi",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1813, George Shaw named the genus Apteryx in his species description of the southern brown kiwi, which he called 'the southern apteryx'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The five extant species fall into the family Apterygidae and genus Apteryx.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It will melt to form liquid water when a large piece of ice is placed on the sidewalk on a warm day.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It will melt to form water vapor when a large piece of ice is placed on the sidewalk on a warm day.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It will freeze to form liquid water is what will happen to a large piece of ice placed on the sidewalk on a warm day.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It will not change at all when a large piece of ice is placed on the sidewalk on a warm day.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Melting, or fusion, is a physical process that results in the phase transition of a substance from a solid to a liquid.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Melting occurs when the Gibbs free energy of the liquid becomes lower than the solid for that material.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

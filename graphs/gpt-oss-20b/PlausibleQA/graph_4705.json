@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what position did vince lombardi play in college. Left Tackle",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what position did vince lombardi play in college. Center",
+      "strength": 0.43092425065039247
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what position did vince lombardi play in college. Defensive End",
+      "strength": 0.43092425065039247
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what position did vince lombardi play in college. Right Guard",
+      "strength": 0.5999581987825118
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prior to the beginning of his sophomore year, Lombardi was projected to start games at the tackle position.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Guard Vince Lombardi later became one of the greatest of pro coaches.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

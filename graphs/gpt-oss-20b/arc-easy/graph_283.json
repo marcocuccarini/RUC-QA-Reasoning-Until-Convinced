@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Adelle receiving an artificial hip to ease her arthritis is the surgery most like the way a transgenic organism is made.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kwan receives a pacemaker to regulate his heartbeat is the surgery most like the way a transgenic organism is made.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hector receives a replacement heart valve from a cow is the surgery most like the way a transgenic organism is made, because both involve transferring biological material from one species to another.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Denise receiving a kidney donated by her identical twin is the surgery most like the way a transgenic organism is made.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Xenotransplantation involves transferring living cells, tissues, or organs from one species to another.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bioprosthetic artificial heart valves are generally pig or bovine‑derived, but the cells are killed by glutaraldehyde treatment before insertion, therefore technically not fulfilling the WHO definition of xenotransplantation of being live cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

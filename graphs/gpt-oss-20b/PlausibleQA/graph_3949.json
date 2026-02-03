@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US President has a statue in Parliament Square. Abraham Lincoln",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US President has a statue in Parliament Square. Franklin D. Roosevelt",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US President has a statue in Parliament Square. George Washington",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US President has a statue in Parliament Square. KENNEDY",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parliament Square contains twelve statues of statesmen and other notable individuals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Parliament Square is home to twelve statues of British, Commonwealth, and Anglosphere political figures.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Soil can be washed away when water is poured over a sloping tray of soil.",
+      "strength": 0.7499025826412249
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Soil creation may take years, as demonstrated by pouring water over a sloping tray of soil.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "River sediment forms a delta, as demonstrated by pouring water over a sloping tray of soil.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Planting grass protects the soil, as demonstrated by pouring water over a sloping tray of soil.",
+      "strength": 0.5999999402194273
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sheet erosion is the transport of loosened soil particles by overland flow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The roots of the plants bind the soil together, and interweave with other roots, forming a more solid mass that is less susceptible to both water and wind erosion.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If the runoff has sufficient flow energy, it will transport loosened soil particles (sediment) down the slope.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The removal of vegetation increases the rate of surface erosion.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Sediment transport is the movement of solid particles (sediment), typically due to a combination of gravity acting on the sediment, and the movement of the fluid in which the sediment is entrained.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Sediment discharge into a reservoir formed by a dam forms a reservoir delta. This delta will fill the basin...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "supports"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attacks"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

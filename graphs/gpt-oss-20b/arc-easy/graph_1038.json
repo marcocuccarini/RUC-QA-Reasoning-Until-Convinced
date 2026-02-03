@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The location of the nearest ocean is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The average annual rainfall is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The location of the nearest mountain is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The average winter temperature is the factor that has the greatest effect on a community's stores of freshwater.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Approximately 505,000 cubic kilometres (121,000 mi3) of water falls as precipitation each year: 398,000 cubic kilometres (95,000 mi3) over oceans and 107,000 cubic kilometres (26,000 mi3) over land.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The average annual precipitation is 990 millimetres (39 in), but over land it is only 715 millimetres (28.1 in).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Research has shown that global warming is causing shifts in precipitation patterns, increased frequency of extreme weather events, and changes in the timing and intensity of rainfall.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

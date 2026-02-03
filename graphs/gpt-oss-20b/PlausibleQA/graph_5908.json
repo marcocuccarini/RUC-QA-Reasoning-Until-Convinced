@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Saint Valentine's Day",
+      "strength": 0.123076949267266
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Saint George's Day",
+      "strength": 0.3200000749694343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Saint Patrick's Day",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which Saint's Day in 1572 did a massacre of Huguenots take place. Bartalmai",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The massacre began in the night of 23–24 August 1572, the eve of the Feast of Saint Bartholomew the Apostle.",
+      "strength": 0.7499999863058127
+    },
+    "A5": {
+      "type": "argument",
+      "text": "St Bartholomew'sDay Massacre, BBC Radio 4 discussion with Diarmaid McCulloch, Mark Greengrass & Penny Roberts, chaired by Melvyn Bragg (In Our Time, 27 November 2003)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Saint Bartholomew's Day Massacre, a foundational event (at Massacres.org)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the current Roman General Calendar Saint Bartholomew's feast occurs on 24 August.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The feast day of the Apostle is solemnly celebrated there on 24 August by the Christian laity and the Church officials alike.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The St. Bartholomew's Day massacre lasted from 24 August to 3 October 1572.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "In what became known as the St. Bartholomew's Day massacre of 24 August – 3 October 1572, Catholics killed thousands of Huguenots in Paris and similar massacres took place in other towns in the following weeks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Silt, pebbles, and clay is the best soil mixture for plant growth and drainage.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sand, rocks, and clay is the best soil mixture for plant growth and drainage.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Humus, clay, and sand is the best soil mixture for plant growth and drainage.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Clay, silt, and rocks are the best soil mixture for plant growth and drainage.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Loam soils generally contain more nutrients, moisture, and humus than sandy soils and have better drainage and infiltration of water and air than silt- and clay-rich soils.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Loam soils generally have better drainage and infiltration of water and air than silt- and clay-rich soils.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

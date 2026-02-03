@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Transformed bacteria express a new protein product, which is the most likely effect of transformation on bacteria such as E. coli.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Transformed bacteria have multiple chromosomes, the most likely effect of transformation on bacteria such as E. coli.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Transformed bacteria reproduce more quickly when they undergo transformation, which is the most likely effect on bacteria such as E. coli.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transformed bacteria become a new species is the statement that describes the most likely effect of transformation on bacteria such as E. coli.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The transforming plasmid contains a gene that confers resistance to an antibiotic that the bacteria are otherwise sensitive to.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "DNA integrated into the host chromosome is usually (but with rare exceptions) derived from another bacterium of the same species, and is thus homologous to the resident chromosome.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Plants clean the soil.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plants make sunlight brighter, which is how they affect their environment.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plants make food used by other organisms, which is how they affect their environment.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Plants create water, which is how they affect their environment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "C4 plants can produce more sugar than C3 plants in conditions of high light and temperature.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The bulk of a plant's biomass comes from the inputs of photosynthesis, not the soil itself.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

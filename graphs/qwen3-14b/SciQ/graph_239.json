@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electroluminescence is the process by which a vapor light produces visible light.",
+      "strength": 0.06449555869274974
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Solutes are the process by which a vapor light produces visible light.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Luminescent is the process by which a vapor light produces visible light.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solar Energy is the process by which a vapor light produces visible light.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electroluminescence is the result of radiative recombination of electrons and holes in a material, usually a semiconductor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electroluminescent devices are fabricated using either organic or inorganic electroluminescent materials. The active materials are generally semiconductors of wide enough bandwidth to allow the exit of the light.",
+      "strength": 0.5999050903424904
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A mercury-vapor lamp is a gas-discharge lamp that uses an electric arc through vaporized mercury to produce light.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When power is applied, if there is sufficient voltage to ionize the argon, the ionized argon gas will strike a small arc between the starting electrode and the adjacent main electrode.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Electroluminescence, a result of an electric current passed through a substance",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Light-emitting diodes (LEDs) emit light via electro-luminescence",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

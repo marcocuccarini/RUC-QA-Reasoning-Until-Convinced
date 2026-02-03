@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time new england had a hurricane. Hurricane Henri",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time new england had a hurricane. Hurricane Sandy",
+      "strength": 0.7499025789446009
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time new england had a hurricane. Hurricane Bob",
+      "strength": 0.5999999365228031
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time new england had a hurricane. Hurricane Hanna",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sandy made landfall near Brigantine, New Jersey, with sustained winds of 80 mph (130 km/h).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hurricane Bob (1991)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Monitoring Storm Tide and Flooding from Hurricane Sandy along the Atlantic Coast of the United States, October 2012 from the United States Geological Survey",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

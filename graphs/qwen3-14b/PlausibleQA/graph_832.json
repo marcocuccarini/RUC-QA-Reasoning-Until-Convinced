@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the last state became a state. Alaska",
+      "strength": 0.5999999999764661
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the last state became a state. Arizona",
+      "strength": 0.6000953683958988
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the last state became a state. New Mexico",
+      "strength": 0.5999363801540067
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the last state became a state. Hawaii",
+      "strength": 0.599999999999977
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hawaii was admitted as a U.S. state on August 21, 1959.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Alaska was admitted as the 49th state of the U.S. on January 3, 1959.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Arizona became a U.S. state on February 14, 1912, coinciding with Valentine's Day.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Arizona was the 48th state admitted to the U.S. and the last of the contiguous states to be admitted.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "New Mexico was admitted to the Union as the 47th state on January 6, 1912.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

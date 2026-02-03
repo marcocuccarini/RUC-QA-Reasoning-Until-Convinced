@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Meter stick and test tubes can be used to measure the density of a material.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Beaker and stopwatch are used to measure the density of a material.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Thermometer and computer probes are used to measure the density of a material.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A balance and graduated cylinder are used to measure the density of a material.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Graduated cylinders are generally more accurate and precise than laboratory flasks and beakers, but they should not be used to perform volumetric analysis; volumetric glassware, such as a volumetric flask or volumetric pipette, should be used, as it is even more accurate and precise.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This allows the scale, by comparing weights, to also compare masses.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mass is not the same as weight, even though mass is often determined by measuring the object's weight using a spring scale, rather than balance scale comparing it directly with known masses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

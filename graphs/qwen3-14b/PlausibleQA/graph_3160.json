@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Capital Punishment",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Mandatory Minimum Sentences",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Corporal Punishment",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was abolished by the Supreme Court in 1972, but reinstated in 1976. Execute",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Supreme Court's decision in Furman v. Georgia (1972) invalidated the death penalty for rape and resulted in over 630 death sentences being vacated and reduced to life imprisonment.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1976, the Supreme Court upheld new death penalty statutes in Gregg v. Georgia, which included bifurcated trials and standards for sentencing, marking a reinstatement of capital punishment under revised legal frameworks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

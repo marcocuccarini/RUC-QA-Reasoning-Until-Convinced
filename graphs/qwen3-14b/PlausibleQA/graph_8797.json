@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what language do people from the uk speak. English",
+      "strength": 0.5999999641020304
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what language do people from the uk speak. Scottish Gaelic",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what language do people from the uk speak. Welsh",
+      "strength": 0.5999999641020304
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what language do people from the uk speak. Irish",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "English is the most widely spoken and de facto official language of the United Kingdom.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Welsh is spoken by 538,300 people in Wales according to the 2021 census.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the 2022 census of Scotland, it was found that 2.5% of the Scottish population had some skills in Gaelic, or 130,161 persons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 2022, the census showed that 3,551 people recorded Gaelic as their 'main language'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The major UK/European mobile network corp EE was originally branded. Orange",
+      "strength": 0.5689656431664063
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The major UK/European mobile network corp EE was originally branded. T-Mobile",
+      "strength": 0.7236595294998991
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The major UK/European mobile network corp EE was originally branded. Everything Everywhere",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The major UK/European mobile network corp EE was originally branded. 4GEE",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "EE was formed following the merger of T-Mobile UK and Orange UK",
+      "strength": 0.4000000260672763
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Orange and Deutsche Telekom merged their UK businesses in 2010 to form a joint venture branded as EE",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "T-Mobile UK, a former UK mobile phone network operator which merged with the former Orange UK to create EE",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

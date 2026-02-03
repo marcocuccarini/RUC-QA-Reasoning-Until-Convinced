@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the largest city in Turkey. Istanbul",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the largest city in Turkey. Ankara",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the largest city in Turkey. Izmir",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the largest city in Turkey. Lygos",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Istanbul is the largest city in Turkey, constituting the country's economic, cultural, and historical heart.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "With a population over 15 million, it is home to 18% of the population of Turkey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

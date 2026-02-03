@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fluorescent light is a luminous light is the reason that apple slices in box A, exposed to a lighted 20‑watt incandescent light, dried faster than those in box B, exposed to a lighted 20‑watt fluorescent light.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Incandescent light produces more heat, so the apple slices in box A, which had a 20‑watt incandescent bulb, dried faster than the slices in box B, which had a 20‑watt fluorescent bulb.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fluorescent light has a lower frequency, which caused the apple slices in box A to dry faster than those in box B when a 20‑watt incandescent bulb was placed in box A and a 20‑watt fluorescent light was placed in box B, with the slices divided evenly between the two identical metal boxes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Incandescent light causes a chemical reaction, which makes the apple slices in box A dry faster than those in box B, even though both identical metal boxes contain an equal number of slices and each light source is 20 watts.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For a given quantity of light, an incandescent light bulb consumes more power and emits more heat than most other types of electric light.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Less than 5% of the power consumed by a typical tungsten incandescent light bulb is converted into visible light, with most of the rest being emitted as invisible infrared radiation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

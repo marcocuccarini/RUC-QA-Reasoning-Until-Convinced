@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when is the last time the dolphins went to the superbowl. 1973",
+      "strength": 0.40000008568525414
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when is the last time the dolphins went to the superbowl. 1985",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when is the last time the dolphins went to the superbowl. 1999",
+      "strength": 0.40000008568525414
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when is the last time the dolphins went to the superbowl. 1984",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Miami also appeared in Super Bowl XVII and Super Bowl XIX, losing both games.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Marino led the Dolphins to five division titles, 10 playoff appearances, and an appearance in Super Bowl XIX before retiring following the 1999 season.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Miami Dolphins lost Super Bowl XIX in 1984 season",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

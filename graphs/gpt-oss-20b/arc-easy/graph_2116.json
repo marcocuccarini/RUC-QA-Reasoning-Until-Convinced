@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Natural selection is the process that best describes how, in a laboratory setting, the presence of an antibiotic allows an existing genetic variant in a bacterial strain to help the bacteria survive, leading to antibiotic resistance.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Selective breeding is the process that best describes the resistance of bacteria due to an existing genetic variant, observed when the presence of an antibiotic allows an existing variant within the genetic code to help a bacterial strain survive in a lab setting.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Asexual reproduction is the process by which a bacterial strain in a laboratory survives the presence of an antibiotic because an existing genetic variant confers resistance and helps the bacteria survive.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Behavioral adaptation is the process by which a bacterial strain’s resistance to an antibiotic—enabled by an existing genetic variant that allows the bacteria to survive in the presence of the antibiotic—is best described.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Response strategies typically include the use of different, stronger antibiotics; however, new strains of MRSA have recently emerged that are resistant even to these drugs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The probability of a beneficial mutation occurring on some member of a population depends on the total number of replications of that variant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

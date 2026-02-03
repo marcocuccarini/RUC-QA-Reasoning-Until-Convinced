@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sulfur dioxide (SO₂) is the form in which atmospheric sulfur is found.",
+      "strength": 0.5999999999127801
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Formaldehyde is the form in which atmospheric sulfur is found.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sulfuric acid is the form in which atmospheric sulfur is found.",
+      "strength": 0.5999999999127801
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sulfur monoxide is the form in which atmospheric sulfur is found.",
+      "strength": 0.4950496314906478
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When sulfur-containing fuels such as coal or oil are burned, sulfur dioxide is the main byproduct.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sulfuric acid is formed naturally by the oxidation of sulfide minerals, such as pyrite.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sulfur monoxide has also been found in the atmosphere of Venus, in Comet Hale–Bopp, in 67P/Churyumov–Gerasimenko, and in the interstellar medium.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "When concentrated or condensed, it converts to S2O2 (disulfur dioxide).",
+      "strength": 0.5999999071782728
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The S−O bond length is 145.8 pm, shorter than in the monomer.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Formaldehyde is an organic compound with the chemical formula CH2O and structure H2C=O.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

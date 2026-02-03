@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Become red supergiants is how very massive stars end their lives.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Become super novas are the end state of very massive stars.",
+      "strength": 0.5999999448155762
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Very massive stars explode at the end of their lives.",
+      "strength": 0.7499025872373742
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Consumed by a black hole is the fate of very massive stars when they end their lives.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A supernova occurs during the last evolutionary stages of a massive star.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The core collapse may cause violent expulsion of the outer layers of the star resulting in a supernova.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The resulting supernova explosion expels much or all of the stellar material with velocities as much as 10% the speed of light (or approximately 30,000 km/s)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

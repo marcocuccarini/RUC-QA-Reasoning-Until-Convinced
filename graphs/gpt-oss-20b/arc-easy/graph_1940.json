@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Color is the property of an object that describes how easily electricity travels through it.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Temperature is the property of an object that describes how easily electricity travels through it.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Reflectivity is the property of an object that describes how easily electricity travels through it.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Conductivity is the property of an object that describes how easily electricity travels through it.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electrical conductivity (or specific conductance) is the reciprocal of electrical resistivity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The electrical resistivity of most materials changes with temperature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

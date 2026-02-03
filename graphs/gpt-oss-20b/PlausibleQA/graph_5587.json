@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "three act puccini opera first performed in 1900. La Bohème",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "three act puccini opera first performed in 1900. Madama Butterfly",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "three act puccini opera first performed in 1900. Turandot",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "three act puccini opera first performed in 1900. Tosca",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tosca, libretto by Luigi Illica and Giuseppe Giacosa (in three acts – premiered at the Teatro Costanzi, 14 January 1900)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "La bohème, libretto by Luigi Illica and Giuseppe Giacosa (in four acts – premiered at the Teatro Regio, 1 February 1896)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Melting ice is not an example of a chemical change.",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Corroding silver is not an example of a chemical change.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Burning match is NOT an example of a chemical change.",
+      "strength": 0.4000000465571573
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rotting vegetation is not an example of a chemical change.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical reactions yield one or more products, which usually have properties different from the reactants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Combustion reaction, an element or compound reacts with an oxidant, usually oxygen.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Physical changes occur when objects or substances undergo a change that does not change their chemical composition.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Heating and cooling many elements and some compounds change from solids to liquids and from liquids to gases when heated and the reverse when cooled.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

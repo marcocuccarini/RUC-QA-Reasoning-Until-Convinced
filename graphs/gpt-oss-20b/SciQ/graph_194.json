@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Arthropods are the animal phylum to which bees, wasps, ants, butterflies, moths, flies, and beetles belong.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Insects are the animal phylum that contains bees, wasps, ants, butterflies, moths, flies, and beetles.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Crustaceans are the animal phylum to which bees, wasps, ants, butterflies, moths, flies, and beetles belong.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cephalopods are the animal phylum to which bees, wasps, ants, butterflies, moths, flies, and beetles belong.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "One arthropod sub-group, the insects, includes more described species than any other taxonomic class.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The most abundant group of pancrustaceans are the terrestrial hexapods, which comprise insects, diplurans, springtails, and proturans, with six thoracic legs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

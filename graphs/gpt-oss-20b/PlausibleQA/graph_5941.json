@@ -1,0 +1,196 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 11.6",
+      "strength": 0.15464868115022742
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 10.16",
+      "strength": 0.25000000000009287
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 12.1",
+      "strength": 0.06896558597391114
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the current mac os operating system. 10.13. 4",
+      "strength": 0.367647058823534
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As of 2025, the most recent release of macOS is macOS 26 Tahoe, the 22nd major version of macOS.",
+      "strength": 0.4950495051431192
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2025, Apple unified the version number across all of its products to align with the year after their WWDC announcement, so the release announced at the 2025 WWDC, macOS Tahoe, is macOS 26.",
+      "strength": 0.4000000000000028
+    },
+    "A6": {
+      "type": "argument",
+      "text": "macOS Ventura is the nineteenth major release of macOS.",
+      "strength": 0.5999999999055158
+    },
+    "A7": {
+      "type": "argument",
+      "text": "macOS Ventura was succeeded by macOS Sonoma, which was released on September 26, 2023.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "macOS 13 Ventura was archived on September 26, 2023",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "macOS Sonoma (version 14) is the twentieth major release of macOS.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "macOS Sonoma was succeeded by macOS Sequoia, which was released on September 16, 2024.",
+      "strength": 0.5999999999999944
+    },
+    "A11": {
+      "type": "argument",
+      "text": "macOS 26 Tahoe was announced on June 9, 2025, during the WWDC25 keynote speech.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "macOS Sequoia was released on September 16, 2024.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "macOS Ventura (version 13) was launched on October 24, 2022.",
+      "strength": 0.5
+    },
+    "A14": {
+      "type": "argument",
+      "text": "macOS Big Sur was internally referred to as 10.16 during beta releases, but its public release is version 11.",
+      "strength": 0.5
+    },
+    "A15": {
+      "type": "argument",
+      "text": "macOS Big Sur is the first macOS version to support Macs with ARM-based processors and is version 11, not 12.1.",
+      "strength": 0.5
+    },
+    "A16": {
+      "type": "argument",
+      "text": "macOS 11 Big Sur was archived on the Wayback Machine on October 18, 2021.",
+      "strength": 0.5
+    },
+    "A17": {
+      "type": "argument",
+      "text": "macOS Monterey is version 12.",
+      "strength": 0.5999999033901463
+    },
+    "A18": {
+      "type": "argument",
+      "text": "macOS Monterey is the eighteenth major release of macOS.",
+      "strength": 0.5
+    },
+    "A19": {
+      "type": "argument",
+      "text": "macOS 12 Monterey was archived on the Wayback Machine on October 18, 2022.",
+      "strength": 0.5
+    },
+    "A20": {
+      "type": "argument",
+      "text": "Apple Inc. on OpenSecrets, a website that tracks and publishes data on campaign finance and lobbying.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "A10",
+      "relation": "support"
+    },
+    {
+      "source": "A13",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A14",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A15",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A16",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A17",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A18",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A19",
+      "target": "A17",
+      "relation": "support"
+    },
+    {
+      "source": "A20",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

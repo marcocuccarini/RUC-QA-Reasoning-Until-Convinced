@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "in the early 1800s california society was dominated by which group. Mexican",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "in the early 1800s california society was dominated by which group. Russian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "in the early 1800s california society was dominated by which group. Native American",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "in the early 1800s california society was dominated by which group. Spanish",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Under Spanish and Mexican rule, the ranchos prospered and grew.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rancheros (cattle ranchers) and pobladores (townspeople) evolved into the unique Californio culture.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The early missions and their sub-missions formed the nuclei of what would later become the major metropolitan areas of San Francisco and Los Angeles, as well as many other smaller municipalities.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Between 1846 and 1870, California's Indian population plunged from perhaps 150,000 to 30,000.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

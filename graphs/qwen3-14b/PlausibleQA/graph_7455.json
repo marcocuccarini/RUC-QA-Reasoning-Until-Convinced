@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Chessmaster",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Bigbrain",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Checkmate",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Deepblue",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Deep Blue was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The IBM computer that defeated Garry Kasparov in 1997 was renamed from Deep Thought to Deep Blue in 1989.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

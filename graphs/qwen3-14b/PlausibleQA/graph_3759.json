@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did president theodore roosevelt take office. 11/8/1900",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did president theodore roosevelt take office. 3/4/1901",
+      "strength": 0.22635452122488764
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did president theodore roosevelt take office. 9/20/1901",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did president theodore roosevelt take office. 9/14/1901",
+      "strength": 0.5999430071702765
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Roosevelt took office as vice president in March 1901.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He assumed the presidency after McKinley's assassination in 1901.",
+      "strength": 0.5999430071702765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Roosevelt was sworn into office on September 14, 1901.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Roosevelt took office upon the assassination of President William McKinley.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

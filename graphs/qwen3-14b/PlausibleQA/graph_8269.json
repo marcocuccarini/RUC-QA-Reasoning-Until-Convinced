@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. Jonathan",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. Saul",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. Samson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. داود",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1 Samuel 17, David kills Goliath with a stone from his sling.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "2 Samuel 21:19 states that Elhanan, son of Jair, killed Goliath the Gittite.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

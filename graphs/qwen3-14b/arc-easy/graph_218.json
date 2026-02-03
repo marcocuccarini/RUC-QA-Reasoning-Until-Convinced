@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Iron is the material attracted to a magnet.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wood is not attracted to a magnet.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic is the material attracted to a magnet.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ice is a material that is attracted to a magnet.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Only a few substances are ferromagnetic; the most common ones are iron, cobalt, nickel, and their alloys.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The force of a magnet on paramagnetic, diamagnetic, and antiferromagnetic materials is usually too weak to be felt and can be detected only by laboratory instruments",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

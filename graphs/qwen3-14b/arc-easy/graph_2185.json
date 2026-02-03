@@ -1,0 +1,126 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The changing of the seasons is caused by Earth’s orbit around the Sun.",
+      "strength": 0.08247422682880619
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Daily tidal cycles are caused by Earth orbiting the Sun.",
+      "strength": 0.25000003540919297
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Day to become night is caused by Earth orbiting the Sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The phases of the Moon are caused by Earth orbiting the Sun.",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The seasons are not the result of the variation in Earth's distance to the Sun because of its elliptical orbit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The seasons result from the Earth's axis of rotation being tilted with respect to its orbital plane by an angle of approximately 23.4 degrees.",
+      "strength": 0.7499999999863431
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Earth's axis remains tilted in the same direction with reference to the background stars throughout a year – this is the cause of Earth's seasons.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Moon has a stabilizing effect on Earth's obliquity.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The changing Earth-Sun distance results in an increase of about 7% in total solar energy reaching the Earth at perihelion relative to aphelion.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The seasons of the solstices and equinoxes in the southern hemisphere are the reverse of those in the northern hemisphere.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The resulting theory, however, was incorrect as he attributed the tides to the sloshing of water caused by the Earth's movement around the Sun.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Isaac Newton (1642–1727) was the first person to explain tides as the product of the gravitational attraction of astronomical masses.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "The phases of the Moon are caused by the Moon's shadow on itself and the angle of the Sun relative to the Moon.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "The visible side of the Moon is sunlit to varying extents, depending on the position of the Moon in its orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A13",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

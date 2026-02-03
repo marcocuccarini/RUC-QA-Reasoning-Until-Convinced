@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Star clusters are groups of stars that are smaller than a galaxy.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Milky Way are groups of stars called that are smaller than a galaxy.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nebuli are groups of stars that are smaller than a galaxy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Constellations are groups of stars that are smaller than a galaxy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Star clusters are groups of stars predominantly within a galaxy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "some galaxies are much richer in globulars than the Milky Way.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

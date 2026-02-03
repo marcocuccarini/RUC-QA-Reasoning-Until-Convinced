@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Populations living in an area are what a biological community is made up of.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Natural resources present in an area make up a biological community.",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Members of a species on Earth are what a biological community is made up of.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Environments on Earth make up a biological community.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An ecosystem, originally defined by Tansley (1935), is a biotic community (or biocenosis) along with its physical environment (or biotope).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A biocenosis (UK English, biocoenosis, also biocenose, biocoenose, biotic community, biological community, ecological community, life assemblage), coined by Karl Möbius in 1877, describes the interacting organisms living together in a habitat (biotope).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ecology studies populations of different species rather than populations of a single species.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Each community consists of populations of animals and plants that live together, interacting and being dependent on each other.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

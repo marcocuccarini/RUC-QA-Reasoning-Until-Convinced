@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A lipid that coats lactose molecules is lacking in the digestive systems of some individuals who are unable to digest the lactose found in cow’s milk.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An ability to produce lactose internally is what the digestive systems of individuals who are unable to digest lactose found in cow milk most likely lack.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An enzyme that catalyzes lactose breakdown is most likely lacking in the digestive systems of individuals who cannot digest the lactose found in cow milk.",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A tolerance to lactose developed during childhood is what the digestive systems of individuals unable to digest the lactose found in cow milk most likely lack.",
+      "strength": 0.4000949096575096
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Without lactase, lactose-intolerant people pass the lactose undigested to the colon where bacteria break it down, creating carbon dioxide which leads to bloating and flatulence.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In most of the world's population, lactase transcription is down-regulated after weaning, resulting in diminished lactase expression in the small intestine, which causes the common symptoms of adult-type hypolactasia, or lactose intolerance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

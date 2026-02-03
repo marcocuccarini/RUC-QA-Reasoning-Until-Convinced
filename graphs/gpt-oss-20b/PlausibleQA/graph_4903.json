@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the population of the tri-cities washington. 250,000",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the population of the tri-cities washington. 320,000",
+      "strength": 0.25008814687138625
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the population of the tri-cities washington. 200,000",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the population of the tri-cities washington. 283,846",
+      "strength": 0.40000005409169953
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The official 2023 estimate of the Tri-Cities MSA population is 314,253.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The combined population of the three principal cities themselves was 228,482 according to 2023 estimates from the United States Census Bureau.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Tri-Cities region has a mid-sized metropolitan area of approximately 303,622 people.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

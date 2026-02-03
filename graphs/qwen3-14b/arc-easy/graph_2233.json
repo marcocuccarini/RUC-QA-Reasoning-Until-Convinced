@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red, white, and pink are the possible color offspring that could be produced when two pink flowered plants (RW) are crossed, following a cross of a red flowered plant (RR) with a white flowered plant (WW) that yields pink (RW) plants.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Red and white are the possible colors of offspring that can result from crossing two pink flowered plants (genotype RW).",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pink and red are the colors that could be produced when two pink-flowered (RW) plants are crossed, following a cross in which a red (RR) plant and a white (WW) plant yielded pink (RW) offspring.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pink and white are the colors that could result from crossing two pink flowered plants (RW), following the cross of a red (RR) plant with a white (WW) plant that produced pink (RW) progeny.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When plants of the F1 generation are self-pollinated, the phenotypic and genotypic ratio of the F2 generation will be 1:2:1 (Red:Pink:White).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pink snapdragon is the result of incomplete dominance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

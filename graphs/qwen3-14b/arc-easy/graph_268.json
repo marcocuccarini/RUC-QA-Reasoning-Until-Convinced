@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The turtle that started first is fastest in a turtle race where each turtle walks a 3‑meter track one at a time.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The turtle that finished first is fastest when each turtle walks a 3‑meter track one at a time in a turtle race.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The turtle that took the shortest time is fastest in a turtle race where each turtle walks one 3‑meter track at a time.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The turtle that took the longest time is fastest in a turtle race where each turtle walks a 3‑meter track and the turtles walk one at a time.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Likewise, if 320 kilometres are travelled in 4 hours, the average speed is also 80 kilometres per hour.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the average speed of an object in an interval of time is the distance travelled by the object divided by the duration of the interval",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

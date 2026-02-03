@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Skin cells are the type of cells that pass on mutations.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nerve cell is the type of cell that passes on mutations.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Red blood cells pass on mutations.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The egg cell is the type of cell that passes on mutations.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Germ cells produce gametes and are the only cells that can undergo meiosis as well as mitosis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mutation frequency of female germline cells in mice is about 5-fold lower than that of somatic cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

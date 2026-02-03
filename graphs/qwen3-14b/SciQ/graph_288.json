@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pressure is the factor that differs, measured in torr, between the inside of the lungs and the air outside during breathing.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Temperature is what breathing involves differences in, measured in torr, between the inside of the lungs and the air outside.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gravity is the difference measured in torr between the inside of the lungs and the air outside.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Resistance is the difference measured in torr between the inside of the lungs and the air outside that occurs during breathing.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "contraction of the diaphragm muscle causes a pressure variation, which is equal to the pressures caused by elastic, resistive and inertial components of the respiratory system",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the process of breathing does not fill the alveoli with atmospheric air during each inhalation (about 350 ml per breath), but the inhaled air is carefully diluted and thoroughly mixed with a large volume of gas (about 2.5 liters in adult humans) known as the functional residual capacity",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

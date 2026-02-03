@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what other countries border argentina. Brazil",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what other countries border argentina. Uruguay",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what other countries border argentina. Paraguay",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what other countries border argentina. Chile",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brazil borders Uruguay to the south",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brazil borders Argentina and Paraguay to the southwest",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Uruguay borders Argentina to the west and southwest",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

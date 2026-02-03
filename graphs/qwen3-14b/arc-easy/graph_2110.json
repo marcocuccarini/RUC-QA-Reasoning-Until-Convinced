@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Beaker is the part of the system that experiences an increase in heat energy when a student transfers a beaker containing a hot solution from the lab table to a cool water bath.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The lab table is the part of the system that experiences an increase in heat energy when a student transfers a beaker containing a hot solution from the lab table to a cool water bath.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The solution experiences an increase in heat energy when a student in a laboratory transfers a beaker containing a hot solution from the lab table to a cool water bath.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The water bath experiences an increase in heat energy when a student transfers a beaker containing a hot solution from the lab table to it.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Heat flows from a region of high temperature to another region of lower temperature, as described in the second law of thermodynamics.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Conduction is the transfer of energy between objects that are in physical contact.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

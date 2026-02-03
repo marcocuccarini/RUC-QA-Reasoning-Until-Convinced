@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Peter",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Thomas",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Matthew",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who betrayed Jesus for 30 pieces of silver. Judas",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Matthew 26:15 states that Judas committed the betrayal in exchange for thirty pieces of silver.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Judas betrayed Jesus to the Sanhedrin in the Garden of Gethsemane, in exchange for thirty pieces of silver, by kissing him on the cheek and addressing him as 'master' to reveal his identity in the darkness to the crowd who had come to arrest him.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

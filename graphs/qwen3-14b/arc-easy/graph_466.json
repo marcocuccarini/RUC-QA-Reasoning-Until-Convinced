@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A single-celled organism is a paramecium.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Multiple organisms is what a paramecium is an example of.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An inorganic substance is what a paramecium is an example of.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A group of cells is what a paramecium is an example of.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paramecium is a unicellular organism",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Paramecium are not composed of multiple organisms",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

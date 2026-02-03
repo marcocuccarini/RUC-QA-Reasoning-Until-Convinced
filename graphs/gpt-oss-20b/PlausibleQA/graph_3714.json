@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which motorway would you find the Blackburn with Darwen service area. M6",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which motorway would you find the Blackburn with Darwen service area. M61",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which motorway would you find the Blackburn with Darwen service area. M62",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which motorway would you find the Blackburn with Darwen service area. M65",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rivington services is located between junctions 6 and 8 of the M61.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The M61 has one service station: Rivington services.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

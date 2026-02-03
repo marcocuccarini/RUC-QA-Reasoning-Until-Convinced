@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is the best conductor of heat at room temperature.",
+      "strength": 0.3523331038978408
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water is the best conductor of heat at room temperature.",
+      "strength": 0.4000032967115312
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sulfur is the best conductor of heat at room temperature.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Copper is the best conductor of heat at room temperature.",
+      "strength": 0.25000000305501563
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Silver conducted heat far the best of all other metals, next to this was copper",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the absence of convection, air and other gases are good insulators",
+      "strength": 0.6476635993925789
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Copper has high thermal conductivity, second highest (second only to silver) among pure metals at room temperature.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "thermal conductivity (between 0.561 and 0.679 W/(m·K))",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A decrease in the amount of available oxygen is the abiotic factor most likely changed as a result of the pollution and rain that caused the death of some trees in the Adirondack forests of New York.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An increase in the amount of sunlight is the abiotic factor most likely altered by the air pollution and rain that led to the death of some trees in the Adirondack forests of New York.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A decrease in the pH of the soil is the abiotic factor most likely changed by air pollution and rain, resulting in the death of some trees in the Adirondack forests of New York.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An increase in the nutrients is the abiotic factor most likely changed by air pollution and rain, leading to the death of some trees in the Adirondack forests of New York.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Acid rain causes the leaching of base cations such as calcium and magnesium from the soil, leading to soil acidification.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Acid rain damages leaves by reducing chlorophyll and causing cellular deformation, which impairs photosynthesis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

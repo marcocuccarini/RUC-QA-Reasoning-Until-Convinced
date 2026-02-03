@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "the vascular layer of the eye is the. Choroid",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "the vascular layer of the eye is the. Sclera",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "the vascular layer of the eye is the. Retina",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "the vascular layer of the eye is the. uvea",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The uvea is the vascular middle layer of the eye.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The outer retina, sclera, and lens lack any intrinsic blood supply.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

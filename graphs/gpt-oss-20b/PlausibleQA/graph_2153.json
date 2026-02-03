@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the symbol for a 30th wedding anniversary. Diamond",
+      "strength": 0.15393392277228804
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the symbol for a 30th wedding anniversary. Ruby",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the symbol for a 30th wedding anniversary. Sapphire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the symbol for a 30th wedding anniversary. Pearl",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A diamond jubilee celebrates the 60th anniversary of a significant event related to a person (e.g. accession to the throne or wedding, among others) or the 60th anniversary of an institution's founding.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term is also used for 75th anniversaries, although the human lifespan makes this usage more common for institutions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "60th anniversary: diamond",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "40th anniversary: ruby",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

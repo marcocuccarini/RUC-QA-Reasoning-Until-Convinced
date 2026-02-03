@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Makes the object move is the effect that gravity always has on an object on Earth.",
+      "strength": 0.5999999637412498
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravity makes an object stay still on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pushes the object upward is the effect that gravity always has on an object on Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pulls the object downward is the effect that gravity always has on an object on Earth.",
+      "strength": 0.846056906746563
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The strength of the gravitational field is numerically equal to the acceleration of objects under its influence.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The gravitational attraction is directed towards the center of the Earth, which is downward.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Moon's orbital motion is a result of free fall toward the Earth.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The velocity of an object in free fall is given by v(t) = v0 - gt, indicating a downward acceleration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

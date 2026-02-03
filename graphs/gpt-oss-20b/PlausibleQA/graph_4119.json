@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Painting",
+      "strength": 0.7499999439196919
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Sculpture",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Architecture",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of art did leonardo da vinci make. Drawing",
+      "strength": 0.7736454776749137
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Leonardo was active as a painter",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Leonardo was active as a draughtsman",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There are eleven surviving manuscripts of Leonardo da Vinci's notes and drawings, amounting to thousands of pages in total.",
+      "strength": 0.5999430071702765
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The small number of surviving paintings is due in part to Leonardo's habit of disastrous experimentation with new techniques and his chronic procrastination, resulting in many incomplete works.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Codex Arundel on the British Library's Digitised Manuscripts Website",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where is the venue for the next Winter Olympics in 2010. Whistler",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where is the venue for the next Winter Olympics in 2010. Salt Lake City",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where is the venue for the next Winter Olympics in 2010. Innsbruck",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where is the venue for the next Winter Olympics in 2010. Vancouvr",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2010 Winter Olympics were held in Vancouver, British Columbia, Canada, with some events in surrounding areas.",
+      "strength": 0.5999088118033908
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 2010 Winter Olympics featured events held in the nearby resort town of Whistler.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Vancouver, along with Whistler and Richmond, was the host city for the 2010 Winter Olympics and the 2010 Winter Paralympics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "supports"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "supports"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

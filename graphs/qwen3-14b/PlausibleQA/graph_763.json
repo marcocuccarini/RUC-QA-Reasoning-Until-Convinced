@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who ruled the ottoman empire in the 1500s. Suleiman the Magnificent",
+      "strength": 0.5999999999403536
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who ruled the ottoman empire in the 1500s. Bayezid II",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who ruled the ottoman empire in the 1500s. Mehmed II",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who ruled the ottoman empire in the 1500s. Selim I",
+      "strength": 0.8460606499178676
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Suleiman I (6 September 1566), commonly known as Suleiman the Magnificent, was the Ottoman sultan from 1520 till 1566.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After succeeding his father Selim I on 30 September 1520, Suleiman began his reign...",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Selim I was the sultan of the Ottoman Empire from 1512 to 1520.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Bayezid II was the sultan of the Ottoman Empire from 1481 to 1512.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Bayezid II was the son of Şehzade Mehmed (later Mehmed II)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Bayezid II abdicated his throne to his son, Selim I",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

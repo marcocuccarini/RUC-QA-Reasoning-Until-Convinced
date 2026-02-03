@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Visiting the Moon is an example of a change in both mass and weight, illustrating how the meanings of mass and weight can often be confused.",
+      "strength": 0.5999999871841747
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A stone eroding in a river demonstrates a change in both mass and weight, highlighting the often-confused meanings of mass and weight.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Living on the space station is an example of a change in both mass and weight, illustrating the confusion between the meanings of mass and weight.",
+      "strength": 0.6798933299516496
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A ship floating on the ocean is an example of a change in both mass and weight.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An object on the Moon would weigh less than it does on Earth because of the lower gravity, but it would still have the same mass.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The force known as 'weight' is proportional to mass and acceleration in all situations where the mass is accelerated away from free fall.",
+      "strength": 0.7499652139585837
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The strength of the gravitational field is numerically equal to the acceleration of objects under its influence.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The force of gravity experienced by objects on Earth's surface is the vector sum of two forces: (a) The gravitational attraction in accordance with Newton's universal law of gravitation, and (b) the centrifugal force, which results from the choice of an earthbound, rotating frame of reference.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

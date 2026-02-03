@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rice contains the highest percentage of protein.",
+      "strength": 0.27624309392231455
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dates contain the highest percentage of protein among foods.",
+      "strength": 0.4000000000539703
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carrots are the food that contains the highest percentage of protein.",
+      "strength": 0.2500881490789106
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chicken contains the highest percentage of protein among foods.",
+      "strength": 0.4000000000000028
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rice: 2.6 to 10.9.",
+      "strength": 0.4000000000000518
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Egg white, dried: 81.1.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cooked white rice is 69% water, 29% carbohydrates, 2% protein, and contains negligible fat.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Rice contains 2% protein.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Deglet noor dates are 21% water, 75% carbohydrates (63% sugars and 8% dietary fibre), 2% protein, and less than 1% fat.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Raw carrots contain 1% protein.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Plants can consist of as much as 1% by weight of this enzyme.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

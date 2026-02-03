@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The holiday resort of Paphos is on which Mediterranean island. Crete",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The holiday resort of Paphos is on which Mediterranean island. Corsica",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The holiday resort of Paphos is on which Mediterranean island. Sardinia",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The holiday resort of Paphos is on which Mediterranean island. Kıbrıs",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The busier international airport in the government-controlled areas of Cyprus is in Paphos.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The island is the third largest and third most populous in the Mediterranean, after Sicily and Sardinia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

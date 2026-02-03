@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "this inventor co-created the film fred ott 's sneeze. Eadweard Muybridge",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "this inventor co-created the film fred ott 's sneeze. Louis Le Prince",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "this inventor co-created the film fred ott 's sneeze. William Kennedy Dickson",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "this inventor co-created the film fred ott 's sneeze. Edison",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fred Ott's Sneeze (also known as Edison Kinetoscopic Record of a Sneeze) is an 1894 short, black-and-white silent film shot by William K.L. Dickson and featuring Fred Ott.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The film was produced by the Edison Manufacturing Company",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The majority of the productions were short films showing everything from acrobats to parades to fire calls including titles such as Fred Ott's Sneeze (1894)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

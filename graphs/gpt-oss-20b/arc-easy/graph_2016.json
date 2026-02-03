@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Grass is best classified as a nonrenewable resource.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Aluminum is the best classified as a nonrenewable resource.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sunlight is best classified as a nonrenewable resource.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oxygen is the resource best classified as a nonrenewable resource.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aluminium is almost never found in the elemental state; instead it is found in oxides or silicates.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most of these Al-O-OH systems are produced from ores by a variety of wet processes using acid and bases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

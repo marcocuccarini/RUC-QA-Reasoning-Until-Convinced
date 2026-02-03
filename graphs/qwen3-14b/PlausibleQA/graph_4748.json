@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is currently the Supreme Governor of the Church of England. Queen Victoria",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is currently the Supreme Governor of the Church of England. Prince Charles",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is currently the Supreme Governor of the Church of England. Archbishop of Canterbury",
+      "strength": 0.1539393500995737
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is currently the Supreme Governor of the Church of England. E2R",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The British monarch (currently Charles III) is the supreme governor",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The British monarch has the constitutional title of Supreme Governor of the Church of England",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Archbishop of Canterbury is the spiritual leader of the Church of England",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The sovereign is the supreme governor of the established Church of England",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

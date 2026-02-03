@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who did michael showers play on vampire diaries. Enzo",
+      "strength": 0.12316849745172803
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who did michael showers play on vampire diaries. Kol Mikaelson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who did michael showers play on vampire diaries. Professor Shane",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who did michael showers play on vampire diaries. The Man",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Michael Showers is a British convicted drug trafficker",
+      "strength": 0.7499999242853648
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Michael Showers was jailed for 20 years in 1991 after attempting to negotiate a route for £2m worth of high-grade heroin to enter the UK",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During the 1990s, his plot was thwarted by a police sting called 'Operation Rain Man'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "He was arrested in 2010 in Turkey by a joint operation by the Turkish Police and the British Serious Organised Crime Agency (SOCA), linked to alleged cannabis smuggling.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Michael Malarkey as Enzo St. John",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

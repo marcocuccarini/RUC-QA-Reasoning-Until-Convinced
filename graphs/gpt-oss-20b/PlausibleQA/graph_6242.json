@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who did Simple Simon meet on his way to the fair. Baker",
+      "strength": 0.5999999053031495
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who did Simple Simon meet on his way to the fair. Juggler",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who did Simple Simon meet on his way to the fair. Fortune Teller",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who did Simple Simon meet on his way to the fair. Pieman",
+      "strength": 0.500096732262922
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Pieman is a bakery in Thornlands, Queensland, Australia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Simple Simpson, that features the Pie Man character.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Pi Man, a short story by Alfred Bester",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

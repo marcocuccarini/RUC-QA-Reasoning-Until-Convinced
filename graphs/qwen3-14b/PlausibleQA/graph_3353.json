@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the standard game of Monopoly, you go to jail if you throw how many consecutive sets of doubles on the dice. 2",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the standard game of Monopoly, you go to jail if you throw how many consecutive sets of doubles on the dice. 4",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the standard game of Monopoly, you go to jail if you throw how many consecutive sets of doubles on the dice. 5",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the standard game of Monopoly, you go to jail if you throw how many consecutive sets of doubles on the dice. 3",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rolling doubles allows a player to take another turn after moving their piece; however, if three consecutive doubles are rolled, the player is immediately sent to jail.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A player lands in Jail by: ...Throwing three consecutive doubles in one turn",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

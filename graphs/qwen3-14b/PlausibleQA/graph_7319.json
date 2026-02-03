@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is Head of State of New Zealand. Queen Elizabeth",
+      "strength": 0.6322449307698443
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is Head of State of New Zealand. Prime Minister of New Zealand",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is Head of State of New Zealand. Governor-General of New Zealand",
+      "strength": 0.6322449307698443
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is Head of State of New Zealand. E2R",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Constitution Act 1986 explicitly identifies the monarch as New Zealand's head of state",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the governor-general has been described by academics and politicians as the de facto head of state",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All executive authority is vested in the King, and his assent is required for parliament to enact laws",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the governor-general... represents the monarch in Niue, carrying out all the monarch's constitutional and ceremonial duties of state on their behalf",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

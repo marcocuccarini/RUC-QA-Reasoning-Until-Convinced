@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Otter",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Ferret",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Badger",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Mink",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 14 extant otter species are all semiaquatic, both freshwater and marine.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lutrinae is a branch of the Mustelidae family, which includes weasels, badgers, mink, and wolverines, among other animals.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "There are two extant species referred to as 'mink', the American mink and the European mink.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Mink are semiaquatic, carnivorous mammals in the family Mustelidae, which includes weasels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

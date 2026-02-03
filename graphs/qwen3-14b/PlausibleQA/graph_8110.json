@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which highway was Revisited in a classic 60s album by Bob Dylan. Highway 66",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which highway was Revisited in a classic 60s album by Bob Dylan. Highway 40",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which highway was Revisited in a classic 60s album by Bob Dylan. Highway 51",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which highway was Revisited in a classic 60s album by Bob Dylan. 61",
+      "strength": 0.5999029143854268
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text mentions 'Highway 61 Entertainment' but the associated album 'World Tour 1966: The Home Movies' is from 2003, not the 1960s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text mentions 'Highway 61 Revisited, 1965 album by Bob Dylan' which directly refers to the highway being revisited in a classic 60s album by Bob Dylan.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "US Route 61 is also known as 'The Blues Highway', from which the song, album, and film are based.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

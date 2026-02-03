@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Obi-Wan Kenobi",
+      "strength": 0.36775130093325664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Yoda",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Han Solo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Aniken",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Obi-Wan confirms that Vader is Luke's father, and reveals that Leia is Luke's twin sister.",
+      "strength": 0.5999640213586829
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Yoda confirms that Vader is Luke's father, something Vader had told Luke in the previous film.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

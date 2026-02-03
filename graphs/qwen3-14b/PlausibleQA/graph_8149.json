@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the earliest (post-gamete) developmental stage of the human embryo. Morula",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the earliest (post-gamete) developmental stage of the human embryo. Blastocyst",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the earliest (post-gamete) developmental stage of the human embryo. Embryoblast",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the earliest (post-gamete) developmental stage of the human embryo. Zygote",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fertilization occurs when the sperm cell successfully enters and fuses with an egg cell (ovum). The genetic material of the sperm and egg then combine to form the single cell zygote and the germinal stage of development commences.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The germinal stage refers to the time from fertilization through the development of the early embryo until implantation is completed in the uterus. The germinal stage takes around 10 days. During this stage, the zygote divides in a process called cleavage.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

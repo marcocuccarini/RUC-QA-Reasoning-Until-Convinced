@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In 2009, who was convicted of the murder of Lana Clarkson. O.J. Simpson",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In 2009, who was convicted of the murder of Lana Clarkson. Charles Manson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In 2009, who was convicted of the murder of Lana Clarkson. Robert Blake",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In 2009, who was convicted of the murder of Lana Clarkson. Phil spectre",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2009, Harvey Philip Spector was convicted of the murder of Lana Clarkson and sentenced to 19 years to life in prison.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The retrial of Spector for murder in the second degree began on October 20, 2008, and the jury returned a guilty verdict on April 13, 2009.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

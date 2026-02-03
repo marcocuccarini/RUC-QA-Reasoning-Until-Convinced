@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Red blood cells are flattened, disk-shaped cells in blood that carry oxygen.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plasma is the flattened, disk-shaped cells in blood that carry oxygen.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Platlets are flattened, disk-shaped cells in blood that carry oxygen.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "White blood cells are the flattened, disk-shaped cells in blood that carry oxygen.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In humans, mature red blood cells are flexible biconcave disks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hemoglobin is responsible for the transport of more than 98% of the oxygen in the body (the remaining oxygen is carried dissolved in the blood plasma).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

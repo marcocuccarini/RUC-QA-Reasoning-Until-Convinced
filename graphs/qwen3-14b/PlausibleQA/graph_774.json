@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the play ‘The Iceman Cometh’. Eugene O'Neill",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the play ‘The Iceman Cometh’. Tennessee Williams",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the play ‘The Iceman Cometh’. Arthur Miller",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the play ‘The Iceman Cometh’. SS Glencairn",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "After a ten-year pause, O'Neill's now renowned play The Iceman Cometh was produced in 1946.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As his health worsened, O'Neill lost inspiration for the project and wrote three largely autobiographical plays, The Iceman Cometh, Long Day's Journey into Night, and A Moon for the Misbegotten, which he completed in 1943, just before leaving Tao House and losing his ability to write.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

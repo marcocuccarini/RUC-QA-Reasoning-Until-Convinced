@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1455",
+      "strength": 0.49511563552519033
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1400",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1460",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who invented the printing press and in what year. 1440",
+      "strength": 0.599999999999913
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Germany, around 1440, the goldsmith Johannes Gutenberg invented the movable-type printing press",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Gutenberg Bible was produced in 1455",
+      "strength": 0.40009682695977267
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first precisely datable printing is Gutenberg's 31-line Indulgence which certainly existed by 22 October 1454",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "1462 The Gutenberg Bible Latin Vulgate – via archive.org",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

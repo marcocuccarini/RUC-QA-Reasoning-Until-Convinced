@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Distance determines how long a planet’s orbit is around the sun.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Size determines how long a planet's orbit is around the sun.",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Age determines how long a planet's orbit is around the sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Direction determines how long a planet's orbit is around the sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The third law expresses that the farther a planet is from the Sun, the longer its orbital period.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The square of a planet's orbital period is proportional to the cube of the length of the semi-major axis of its orbit.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For all ellipses with a given semi-major axis the orbital period is the same, regardless of eccentricity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Thus, as an alternative for using a very small number like G, the strength of universal gravity can be described using some reference material, such as water: the orbital period for an orbit just above the surface of a spherical body of water is 3 hours and 18 minutes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

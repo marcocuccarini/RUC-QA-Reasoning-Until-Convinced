@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pen, paper, and a computer are the best set of tools to use for dissecting in a biology lab.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Scissors, forceps, and a scalpel are the best set of tools to use for dissecting in a biology lab.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Petri dish, flask, and a Bunsen burner are the best set of tools to use for dissecting in a biology lab.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Glass slides, dye, and a light microscope are the best tools to use for dissecting in a biology lab.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Scalpel blades are usually made of hardened and tempered steel, stainless steel, or high carbon steel",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In medical applications, each blade is only used once (sometimes just for a single, small cut)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

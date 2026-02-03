@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was the father of king george vi. Edward VII",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was the father of king george vi. Prince Albert",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was the father of king george vi. King George IV",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was the father of king george vi. George V",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "George V was the second son of the Prince and Princess of Wales (later King Edward VII and Queen Alexandra).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "George was third in the line of succession to the British throne behind his father, and his elder brother, Prince Albert Victor.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "His father ascended the throne as George V in 1910.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The future George VI was named Albert at birth after his late great-grandfather Prince Albert of Saxe-Coburg and Gotha.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

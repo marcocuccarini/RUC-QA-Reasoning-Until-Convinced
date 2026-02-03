@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Zinc is the resource produced in greater quantities by Nevada mines than by any other state.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Copper is the resource produced in greater quantities from Nevada mines than from any other state.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gold is the resource produced from Nevada mines, which produce greater quantities of it than any other state.",
+      "strength": 0.4999051813262246
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lead is the resource produced in greater quantities by Nevada mines than by any other state.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2022, 4,040,000 troy ounces (126 t) of gold worth $7.3 billion were mined in Nevada, and the state accounted for 4% of world gold production",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By 2008, mines in the Carlin Trend had produced over 70 million ounces of gold, worth around $85 billion at 2010 prices.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

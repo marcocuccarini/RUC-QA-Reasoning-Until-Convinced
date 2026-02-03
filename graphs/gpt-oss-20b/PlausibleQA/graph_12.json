@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Olympic athlete is nicknamed ‘The Lightning Bolt’. Carl Lewis",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Olympic athlete is nicknamed ‘The Lightning Bolt’. Maurice Greene",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Olympic athlete is nicknamed ‘The Lightning Bolt’. Asafa Powell",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Olympic athlete is nicknamed ‘The Lightning Bolt’. Usan Bolt",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bolt has the nickname 'Lightning Bolt' due to his name and speed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After his record-breaking run in New York City, which was preceded by a lightning storm, the press frequently made puns on the Jamaican's name, nicknaming him 'Lightning Bolt' and the 'Bolt from the blue'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

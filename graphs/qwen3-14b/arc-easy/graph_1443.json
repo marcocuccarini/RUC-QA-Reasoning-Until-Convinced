@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Snow is the natural process responsible for the formation of the Mississippi Delta.",
+      "strength": 0.40000003662315714
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Drought is the natural process responsible for the formation of the Mississippi Delta.",
+      "strength": 0.40000003662315714
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Deposition is the natural process responsible for the formation of the Mississippi Delta.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weathering is the natural process responsible for the formation of the Mississippi Delta.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Mississippi Delta is part of an alluvial plain, created by regular flooding of the Mississippi and Yazoo rivers over thousands of years",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Overbank – Alluvial geological deposit",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sedimentary rock – Rock formed by the deposition and cementation of particles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

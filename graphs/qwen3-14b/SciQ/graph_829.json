@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Base indicates that a substance has a pH value greater than 7.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Acidic indicates that a substance has a pH value greater than 7.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Neutral indicates that a substance has a ph value greater than 7.",
+      "strength": 0.4000000622202648
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Volatile is the indication that a substance has a pH value greater than 7.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "At 25 °C (77 °F), solutions of which the pH is less than 7 are acidic, and solutions of which the pH is greater than 7 are basic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pure water has a pH of 7 at 25 °C, meaning it is neutral.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pH of a 0.01 M solution of sodium hydroxide (NaOH) is equal to 2 (pOH = −log10(0.01)), which corresponds to a pH of about 12.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Acidic foods, such as citrus fruits, tomatoes, and vinegar, typically have a pH below 4.6.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

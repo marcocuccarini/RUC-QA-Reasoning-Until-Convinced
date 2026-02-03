@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In what European city was snooker player John Higgins stung by the News of the World newspaper relating to an alleged betting fix. Warsaw",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In what European city was snooker player John Higgins stung by the News of the World newspaper relating to an alleged betting fix. Budapest",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In what European city was snooker player John Higgins stung by the News of the World newspaper relating to an alleged betting fix. Prague",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In what European city was snooker player John Higgins stung by the News of the World newspaper relating to an alleged betting fix. Kiev",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 30  April, an undercover News of the World team, led by Mazher Mahmood, posing as promoters, had met Higgins and his manager in a hotel room in Kyiv under the pretence of organising a series of events linked to the World Series of Snooker.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2010, a tabloid newspaper carried out a sting operation in Ukraine, in which it claimed to show Higgins and his then-manager arranging to lose specific frames in future matches for money.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

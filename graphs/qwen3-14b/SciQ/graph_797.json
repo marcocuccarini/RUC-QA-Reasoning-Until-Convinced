@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Comets are icy objects that have very elliptical orbits around the sun.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Meteors are icy objects that have very elliptical orbits around the sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Asteroids are icy objects that have very elliptical orbits around the sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Craters are icy objects that have very elliptical orbits around the sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most comets are small Solar System bodies with elongated elliptical orbits that take them close to the Sun for a part of their orbit and then out into the further reaches of the Solar System for the remainder.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Comets usually have highly eccentric elliptical orbits, and they have a wide range of orbital periods, ranging from several years to potentially several millions of years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

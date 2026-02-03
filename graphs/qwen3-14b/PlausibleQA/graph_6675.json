@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who owns the majority of the us debt. China",
+      "strength": 0.2500000845185871
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who owns the majority of the us debt. United Kingdom",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who owns the majority of the us debt. Ireland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who owns the majority of the us debt. Japan",
+      "strength": 0.4000876126562776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "China is the second largest foreign creditor of the United States, after Japan.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "China remains a major holder of United States treasury securities, although the amount has decreased as of at least 2022.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During Reagan's first term Japanese government and private investors held a third of the debt sold by the US Treasury",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

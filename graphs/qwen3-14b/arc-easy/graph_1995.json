@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon is the element that has properties most similar to calcium (Ca) based on the Periodic Table of the Elements.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Barium [Ba] has properties most similar to calcium (Ca) according to the Periodic Table of the Elements.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sodium (Na) is the element whose properties are most similar to those of calcium (Ca) according to the Periodic Table of the Elements.",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Manganese (Mn) has properties most similar to calcium (Ca) based on the Periodic Table of the Elements.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Its physical and chemical properties are most similar to its heavier homologues strontium and barium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Calcium, strontium, barium, and radium are always considered to be alkaline earth metals; the lighter beryllium and magnesium, also in group 2 of the periodic table, are often included as well.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Barium is chemically similar to magnesium, calcium, and strontium, but more reactive.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

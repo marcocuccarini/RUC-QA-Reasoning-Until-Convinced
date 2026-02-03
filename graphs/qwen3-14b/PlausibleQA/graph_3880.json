@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Lithuania",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Russia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Hungary",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Stanislaw August Poniatowski was the last king of which European country. Polnd",
+      "strength": 0.4999051813262246
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stanisław II August was King of Poland",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Stanisław II August was the last monarch of the Polish–Lithuanian Commonwealth",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the partitioning powers, seeing the increasing unrest in the remaining Commonwealth, decided to solve the problem by erasing any independent Polish state from the map",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

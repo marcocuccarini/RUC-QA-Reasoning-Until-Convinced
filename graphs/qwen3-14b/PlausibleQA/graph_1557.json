@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In geometry, what name is given to a straight line from the circumference to the centre of a circle or sphere. Diameter",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In geometry, what name is given to a straight line from the circumference to the centre of a circle or sphere. Chord",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In geometry, what name is given to a straight line from the circumference to the centre of a circle or sphere. Tangent",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In geometry, what name is given to a straight line from the circumference to the centre of a circle or sphere. RADIUS",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In classical geometry, a radius (pl. : radii or radiuses) of a circle or sphere is any of the line segments from its center to its perimeter",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The diameter D is defined as twice the radius",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

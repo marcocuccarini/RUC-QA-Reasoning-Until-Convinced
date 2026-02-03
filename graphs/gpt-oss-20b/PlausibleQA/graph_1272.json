@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. United States",
+      "strength": 0.5000967341380452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. Japan",
+      "strength": 0.5999999071782728
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. South Korea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country won 3 of the 5 Olympic gold medals awarded in baseball. Cuba",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Japan defeated the United States in the inaugural tournament finale in 1984.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1988, the United States won over Japan.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Since becoming a medal sport, it was the first time Cuba had not won the gold medal.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "United States became Olympic Champions for the first time in its baseball history by defeating Cuba 4–0.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

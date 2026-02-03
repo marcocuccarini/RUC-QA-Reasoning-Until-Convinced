@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "I Drove All Night in 1993 was the last solo UK chart entry for which singer. Elvis Presley",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "I Drove All Night in 1993 was the last solo UK chart entry for which singer. Roy Orbison",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "I Drove All Night in 1993 was the last solo UK chart entry for which singer. Tom Jones",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "I Drove All Night in 1993 was the last solo UK chart entry for which singer. Orbison",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Roy Orbison's version of 'I Drove All Night' reached number 7 on the UK Singles Chart in 1992.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cyndi Lauper's version of 'I Drove All Night' was a top-10 hit in the UK in 1989.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Harmonica",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Accordion",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Calliope",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Aeoline",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Christian Friedrich Ludwig Buschmann is often cited as the inventor of the harmonica in 1821",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1829, Charles Wheatstone developed a mouth-organ under the name 'Aeolina'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

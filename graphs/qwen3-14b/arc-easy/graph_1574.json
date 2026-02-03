@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mass is the characteristic of an element that determines its placement in the periodic table.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Size determines an element's placement in the periodic table.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The number of neutrons is the characteristic of an element that determines its placement in the periodic table.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The number of protons is the characteristic of an element that determines its placement in the periodic table.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The atomic number (Z) of a chemical element is the charge number of its atomic nucleus. For ordinary nuclei composed of protons and neutrons, this is equal to the proton number (np)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A simple numbering based on atomic weight position was never entirely satisfactory",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

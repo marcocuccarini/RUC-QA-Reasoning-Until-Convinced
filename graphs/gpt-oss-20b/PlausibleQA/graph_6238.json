@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). Tokyo",
+      "strength": 0.40000003773849835
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). New York City",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). Mumbai",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). 沪",
+      "strength": 0.43103430460338665
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The population of the city proper is the second largest in the world with around 24.87 million inhabitants in 2023.",
+      "strength": 0.40000003773849835
+    },
+    "A5": {
+      "type": "argument",
+      "text": "More than 70% of its 30-million population are agricultural workers living in a rural setting.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The definition of 'urban' varies from country to country, and, with periodic reclassification, can also vary within one country over time, making direct comparisons difficult.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "New York metropolitan area population: 19,940,274",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Delhi Metropolitan Area: 31,422,508",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

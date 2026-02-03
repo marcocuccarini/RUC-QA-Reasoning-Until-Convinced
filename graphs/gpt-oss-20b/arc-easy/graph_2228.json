@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The year would be shorter if Earth's rate of rotation significantly increased.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The year would be longer if Earth's rate of rotation significantly increased.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The day would be shorter if Earth's rate of rotation significantly increased.",
+      "strength": 0.5999222945446315
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The day would be longer if Earth's rate of rotation significantly increased.",
+      "strength": 0.19521911236035705
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The length of a day increased by about 2.3 milliseconds per century since the 8th century BCE.",
+      "strength": 0.7499999707351223
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mean length, however, is 24 hours (with fluctuations on the order of milliseconds).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tidal drag between the Earth and the Moon and Sun increases the length of the day and of the month (by transferring angular momentum from the rotation of the Earth to the revolution of the Moon);",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Scientists reported that in 2020 Earth had started spinning faster, after consistently spinning slower than 86,400 seconds per day in the decades before.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Some recent large-scale events, such as the 2004 Indian Ocean earthquake, have caused the length of a day to shorten by 3 microseconds by reducing Earth's moment of inertia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

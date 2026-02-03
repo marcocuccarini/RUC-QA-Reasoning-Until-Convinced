@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is someone allergic to if they have coeliac disease. Lactose",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is someone allergic to if they have coeliac disease. Casein",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is someone allergic to if they have coeliac disease. Lectin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is someone allergic to if they have coeliac disease. Glutin",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "People with celiac disease must avoid traces of gluten even if they do not experience overt acute symptoms from cross-contact.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Celiac disease (CD) is a chronic, multiple-organ autoimmune disorder primarily affecting the small intestine caused by the ingestion of wheat, barley, rye, oats, and derivatives, that appears in genetically predisposed people of all ages.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

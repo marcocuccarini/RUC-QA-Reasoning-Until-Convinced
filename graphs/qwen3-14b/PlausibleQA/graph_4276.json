@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who wrote the operas Oedipus Rex and The Rake's Progress. Mozart",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who wrote the operas Oedipus Rex and The Rake's Progress. Benjamin Britten",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who wrote the operas Oedipus Rex and The Rake's Progress. Richard Strauss",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who wrote the operas Oedipus Rex and The Rake's Progress. Strawinski",
+      "strength": 0.4999088957919631
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oedipus rex is an opera-oratorio by Igor Stravinsky",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Rake's Progress was composed by Igor Stravinsky",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

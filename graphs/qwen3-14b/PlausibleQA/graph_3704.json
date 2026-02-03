@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the opposite of an acid. Alkali",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the opposite of an acid. Neutralizer",
+      "strength": 0.5999999641020304
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the opposite of an acid. Antacid",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the opposite of an acid. BASE",
+      "strength": 0.5999999641020304
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bases and acids are seen as chemical opposites because the effect of an acid is to increase the hydronium (H3O+) concentration in water, whereas bases reduce this concentration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bases are generally compounds that can neutralize an amount of acid.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Antacids contain alkaline ions that chemically neutralize stomach gastric acid, reducing damage to the stomach lining and esophagus, and relieving pain.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "An antacid is a substance which neutralizes stomach acidity and is used to relieve heartburn, indigestion, or an upset stomach.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

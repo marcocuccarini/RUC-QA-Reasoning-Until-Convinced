@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A magnet touching the loop of wire is a set of conditions that will produce an electric current in a closed loop of wire.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A magnet at rest inside the loop of wire will produce an electric current in a closed loop of wire.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A magnet at rest outside the loop of wire is a set of conditions that will produce an electric current in a closed loop of wire.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A magnet passing through the loop of wire will produce an electric current in a closed loop of wire.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Initial experiments revealed that a static magnetic field had no effect on a nearby circuit: simply placing a magnet near a wire loop produced no current.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The breakthrough came in 1831, when Michael Faraday demonstrated that a changing magnetic field could indeed induce an electric current in a circuit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

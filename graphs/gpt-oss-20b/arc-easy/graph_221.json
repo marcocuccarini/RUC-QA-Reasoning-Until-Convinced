@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical energy is the form of energy produced in the greatest amount by pedaling a bicycle down the sidewalk.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Radiant is the form of energy produced in the greatest amount by pedaling a bicycle down the sidewalk, as riding a bicycle generates several forms of energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kinetic energy is produced in the greatest amount by pedaling a bicycle down the sidewalk.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sound is the form of energy produced in the greatest amount when pedaling a bicycle down the sidewalk, as riding a bicycle generates several forms of energy.",
+      "strength": 0.4000000622202648
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The energy is not destroyed; it has only been converted to another form by friction.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Another possibility would be for the cyclist to apply the brakes, in which case the kinetic energy would be dissipated through friction as heat.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "up to 99% of the energy delivered by the rider into the pedals is transmitted to the wheels, although the use of gearing mechanisms may reduce this by 10–15%.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The bicycle is extraordinarily efficient in both biological and mechanical terms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

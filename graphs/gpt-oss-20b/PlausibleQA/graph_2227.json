@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which English city is the HQ of the Ordnance Survey. London",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which English city is the HQ of the Ordnance Survey. Manchester",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which English city is the HQ of the Ordnance Survey. Bristol",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which English city is the HQ of the Ordnance Survey. Soton",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Ordnance Survey largely remained at its Southampton city centre HQ until 1969.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The bombing during the Blitz devastated Southampton in November 1940 and destroyed most of the Ordnance Survey's city centre offices.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

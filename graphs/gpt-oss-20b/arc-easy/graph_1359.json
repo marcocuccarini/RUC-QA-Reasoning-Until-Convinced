@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is needed to change ice into water.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Energy is needed to change ice into water.",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Stirring is needed to change ice into water.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemicals are needed to change ice into water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It was known that when the air temperature rises above freezing—air then becoming the obvious heat source—snow melts very slowly and the temperature of the melted snow is close to its freezing point.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Black next showed that a water temperature of 176 °F was needed to melt an equal mass of ice until it was all 32 °F.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The enthalpy of fusion is the amount of energy required to convert one mole of solid into liquid.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "energy must be supplied to a solid in order to melt it and energy is released from a liquid when it freezes",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

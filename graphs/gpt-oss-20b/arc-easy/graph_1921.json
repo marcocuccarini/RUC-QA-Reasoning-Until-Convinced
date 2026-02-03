@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metal is the material that transfers heat energy quickest.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glass is the material that transfers heat energy quickest among the listed materials.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic is the material that transfers heat energy quickest.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood transfers heat energy quickest among the materials listed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Metals typically have high thermal conductivity and are very efficient at conducting heat",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The thermal conductivity of copper is over 10000 times that of air",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

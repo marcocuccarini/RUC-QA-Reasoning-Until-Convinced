@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who co-starred with George Clooney in the 2013 movie Gravity. Sandra Bullock",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who co-starred with George Clooney in the 2013 movie Gravity. Warner Bros.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who co-starred with George Clooney in the 2013 movie Gravity. Alfonso Cuarón",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who co-starred with George Clooney in the 2013 movie Gravity. Fortis Films",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It stars Sandra Bullock and George Clooney as American astronauts who attempt to return to Earth after the destruction of their Space Shuttle in orbit.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gravity is a 2013 science fiction thriller film directed by Alfonso Cuarón, who also co-wrote, co-edited, and produced the film.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

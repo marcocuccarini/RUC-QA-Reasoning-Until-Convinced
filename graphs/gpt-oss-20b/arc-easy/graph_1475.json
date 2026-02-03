@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electric current is the phenomenon taking place inside an active hot pack, which releases heat when the chemicals inside it interact.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A net loss of mass is taking place inside an active hot pack that releases heat when the chemicals inside it interact.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Thermal insulation is taking place inside an active hot pack, a product that releases heat when chemicals inside of it interact.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An exothermic reaction is taking place inside an active hot pack when the chemicals inside it interact and release heat.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Combustion of natural gas releases heat: CH4 + 2O2 → CO2 + 2H2O ΔH° = - 890 kJ/mol.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Exothermic reactions usually release heat.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

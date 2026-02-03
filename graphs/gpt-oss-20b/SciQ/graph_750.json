@@ -1,0 +1,126 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical reactions are reactions that produce heat.",
+      "strength": 0.1342981816534096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemistry is a type of reaction that produces heat.",
+      "strength": 0.1951221302700233
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon is a reaction that produces heat.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Physical is the type of reaction that produces heat.",
+      "strength": 0.4000000000000222
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The opposite is an endothermic reaction, which usually takes up heat and is driven by an entropy increase in the system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The opposite of an exothermic process is an endothermic process, one that absorbs energy, usually in the form of heat.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Some reactions produce heat and are called exothermic reactions.",
+      "strength": 0.7499999433454967
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Heat is one of the forms of energy.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The chemical reaction will, in general, transform some chemical potential energy into thermal energy.",
+      "strength": 0.5999050903424904
+    },
+    "A9": {
+      "type": "argument",
+      "text": "For reactions which go rapidly to completion, it is often possible to measure the heat of reaction directly using a calorimeter.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The heat released by combustion at high temperature is lost to the surroundings as the system returns to its initial temperature.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "A change of internal energy of a system may be achieved by any combination of heat added or removed and work performed on or by the system.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "In a process without transfer of matter, the change in internal energy, ΔU, of a thermodynamic system is equal to the energy gained as heat, Q, less the thermodynamic work, W, done by the system on its surroundings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "A8",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

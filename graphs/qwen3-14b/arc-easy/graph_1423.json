@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An iron nail is attracted by a magnet.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An ice cube is attracted by a magnet, as some objects are attracted by magnets.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A plastic knife is an object that is attracted by a magnet.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A wooden ruler is an object that is attracted by a magnet.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Only a few substances are ferromagnetic; the most common ones are iron, cobalt, nickel, and their alloys.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The force of a magnet on paramagnetic, diamagnetic, and antiferromagnetic materials is usually too weak to be felt and can be detected only by laboratory instruments, so in everyday life, these substances are often described as non-magnetic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

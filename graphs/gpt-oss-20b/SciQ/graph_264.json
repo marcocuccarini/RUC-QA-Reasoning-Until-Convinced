@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mitochondria divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.6322474683059868
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Protazoa divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Proteins divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Bacteria divide on their own by a process that resembles binary fission in prokaryotes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mitochondria divide by mitochondrial fission, a form of binary fission that is also done by bacteria although the process is tightly regulated by the host eukaryotic cell and involves communication between and contact with several other organelles.",
+      "strength": 0.5999736115750363
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mitochondria may replicate their DNA and divide mainly in response to the energy needs of the cell, rather than in phase with the cell cycle.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mitochondrial fission is coordinated with the mitochondrial DNA replication process.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Phosphatidylinositol 4-phosphate (PI(4)P) must be delivered to the mitochondrial membrane for fission to proceed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

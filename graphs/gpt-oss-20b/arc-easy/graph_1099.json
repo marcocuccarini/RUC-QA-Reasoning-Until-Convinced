@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "There is no life in any of an animal's parts when it hibernates.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It stops breathing when an animal hibernates.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Its temperature is higher than when it is active when an animal hibernates.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It is absorbing energy for use when it is active.",
+      "strength": 0.5
+    },
+    "H4": {
+      "type": "hypothesis",
+      "text": "Using less energy than when it is active is what happens when an animal hibernates.",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "To achieve this energy saving, an endothermic animal decreases its metabolic rate and thereby its body temperature.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hibernation functions to conserve energy when sufficient food is not available.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H4",
+      "relation": "support"
+    }
+  ]
+}

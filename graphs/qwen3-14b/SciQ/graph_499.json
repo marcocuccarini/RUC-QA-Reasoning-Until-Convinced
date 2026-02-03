@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water is the medium through which light travels more slowly than it does in air.",
+      "strength": 0.7499118509210894
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Earth is the medium in which light travels more slowly than in air.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Glass is the material in which light travels more slowly than it does in air.",
+      "strength": 0.7499118509210894
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metal is what light travels more quickly in air than.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The refractive index of water is approximately 1.3, meaning that light in water travels at c/1.3 ≈ 230,000 km/s, which is slower than in air (c/1.0003 ≈ 299,700 km/s).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The refractive index of glass is typically around 1.5, meaning that light in glass travels at c/1.5 ≈ 200,000 km/s, which is slower than in air (c/1.0003 ≈ 299,700 km/s).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The refractive index of liquid water (1.333 at 20 °C (68 °F)) is much higher than that of air (1.0)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The refractive index of common types of glass ranges from 1.4 to 1.6, which is higher than that of air (1.0)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

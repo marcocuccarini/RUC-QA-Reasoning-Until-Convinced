@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Both the wasp parasite and the insect larva host benefit from the relationship in which the wasp lays its eggs inside the larva.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Both the parasite and the host are harmed is the relationship between the parasite and the host when a species of wasp lays its eggs in the larva of another insect.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The parasite benefits and the host is harmed when a wasp lays its eggs in the larva of another insect.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The parasite is harmed and the host benefits is the relationship between the wasp that lays its eggs in the larva of another insect and that larva.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parasitoids are insects which sooner or later kill their hosts, placing their relationship close to predation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Parasitism is a close relationship between species, where one organism, the parasite, lives (at least some of the time) on or inside another organism, the host, causing it some harm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of planet is neptune known as. Ice Planet",
+      "strength": 0.5999999402194273
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of planet is neptune known as. Gas Planet",
+      "strength": 0.4000000597805733
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of planet is neptune known as. Blue Planet",
+      "strength": 0.749902642364491
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of planet is neptune known as. giant",
+      "strength": 0.5999999999426925
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Neptune is the densest giant planet.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Traces of methane in Neptune's outermost regions make it appear faintly blue.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Uranus and Neptune are now referred to as ice giants.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Neptune and Uranus consist of only about 20% hydrogen and helium by mass, compared to the Solar System's gas giants, Jupiter and Saturn, which are more than 90% hydrogen and helium by mass.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Neptune, a planet in the Solar System that appears blue and can therefore be called 'Blue planet'",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

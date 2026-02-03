@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who are you in assassin 's creed 4. A pirate",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who are you in assassin 's creed 4. A British sailor",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who are you in assassin 's creed 4. A Spanish colonist",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who are you in assassin 's creed 4. an Abstergo agent",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The main character of the game is Edward Kenway, a Welsh privateer-turned-pirate",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The player is hired by Abstergo Entertainment to examine the memories of Desmond's ancestor Edward Kenway",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Edward Kenway was a privateer, a type of sailor",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

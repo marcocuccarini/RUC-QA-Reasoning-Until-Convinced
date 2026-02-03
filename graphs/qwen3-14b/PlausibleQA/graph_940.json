@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. China",
+      "strength": 0.2500955085906131
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. Hong Kong",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. Taiwan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. US",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bruce Lee was born in San Francisco, California, United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "His birth in the U.S. allowed him to claim U.S. citizenship due to the United States' jus soli citizenship laws.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

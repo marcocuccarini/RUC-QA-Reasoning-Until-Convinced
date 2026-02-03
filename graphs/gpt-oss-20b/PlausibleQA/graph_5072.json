@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What kind of bird is the Ugly Duckling. Goose",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What kind of bird is the Ugly Duckling. Pochard",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What kind of bird is the Ugly Duckling. Merganser",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What kind of bird is the Ugly Duckling. Swan",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He had been not a duckling but a cygnet all this time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He decides to throw himself at a flock of swans, feeling that it is better to be killed by such beautiful birds than to live a life of ugliness.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fossil fuels are formed in shallow areas over short periods of time.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fossil fuels are formed from the remains of organisms.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fossil fuels are formed in underground reservoirs that are relatively cool.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fossil fuels are formed by high winds and temperatures.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The origin of fossil fuels is the anaerobic decomposition of buried dead organisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The conversion from these organic materials to high-carbon fossil fuels is typically the result of a geological process of millions of years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

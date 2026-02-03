@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What Olympics-like event is for athletes with physical disabilities. Special Olympics",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What Olympics-like event is for athletes with physical disabilities. Disability Games",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What Olympics-like event is for athletes with physical disabilities. Adaptive Olympics",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What Olympics-like event is for athletes with physical disabilities. Paralympic",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The IOC-recognized Special Olympics World Games include athletes with intellectual disabilities (although since 1992, people with intellectual disabilities also participate in the Paralympic Games).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Athletes with one of these disabilities can compete in the Paralympics, are divided within each category according to their level of impairment, in a functional classification system which differs from sport to sport.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

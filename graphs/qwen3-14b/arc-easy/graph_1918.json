@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rocks and minerals are categories into which elements on the Periodic Table of the Elements are classified.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Molecules and atoms are categories into which elements on the Periodic Table of the Elements are classified.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mixtures and compounds are categories into which elements on the Periodic Table of the Elements are classified.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metals and nonmetals are categories into which elements on the Periodic Table of the Elements are classified.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Some divide the p-block elements from groups 13 to 16 by metallicity, although there is neither an IUPAC definition nor a precise consensus on exactly which elements should be considered metals, nonmetals, or semi-metals (sometimes called metalloids).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Elements near the borderline are difficult to classify: they tend to have properties that are intermediate between those of metals and nonmetals, and may have some properties characteristic of both.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

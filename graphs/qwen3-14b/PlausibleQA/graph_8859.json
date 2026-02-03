@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the perfect score in ten pin bowling. 200",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the perfect score in ten pin bowling. 400",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the perfect score in ten pin bowling. 250",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the perfect score in ten pin bowling. 300",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The maximum score is 300, achieved by getting twelve strikes in a row within the same game (known as a perfect game)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The maximum score is 300, achieved with ten consecutive strikes (as opposed to twelve in traditional scoring), but with no bonus pins received in the tenth frame",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

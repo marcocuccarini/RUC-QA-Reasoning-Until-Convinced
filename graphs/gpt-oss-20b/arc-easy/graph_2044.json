@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Binary fission is the best example of sexual reproduction.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Budding is the best example of sexual reproduction.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fusing gametes is the best example of sexual reproduction.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fragmentation is the best example of sexual reproduction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "a gamete (haploid reproductive cells, such as a sperm or egg cell) with a single set of chromosomes combines with another gamete to produce a zygote",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sexual reproduction does not occur in prokaryotes, unicellular organisms without cell nuclei, such as bacteria and archaea.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

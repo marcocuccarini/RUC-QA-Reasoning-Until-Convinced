@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which hormone is released from the ruptured follicle or corpus luteum. Progesterone",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which hormone is released from the ruptured follicle or corpus luteum. Testosterone",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which hormone is released from the ruptured follicle or corpus luteum. Relaxin",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which hormone is released from the ruptured follicle or corpus luteum. estrogen",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The corpus luteum secretes progesterone, which is a steroid hormone responsible for the decidualization of the endometrium (its development) and maintenance, respectively.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It also produces relaxin, a hormone responsible for softening of the pubic symphysis which helps in parturition.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Progesterone is produced in high amounts in the ovaries (by the corpus luteum) from the onset of puberty to menopause.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Visible light represents only a very small portion of the spectrum, with wavelengths from 400–700 nm.",
+      "strength": 0.7236595944433725
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Invisible light represents only a very small portion of the spectrum with wavelengths from 400‑700 nm.",
+      "strength": 0.4000000000518541
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sunlight represents only a very small portion of the spectrum with wavelengths from 400‑700 nm.",
+      "strength": 0.4000000000518541
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ultraviolet light represents only a very small portion of the spectrum whose wavelengths range from 400 to 700 nanometers.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Visible light spans the visible spectrum and is usually defined as having wavelengths in the range of 400–700 nanometres (nm).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Solar radiation peaks in the visible region of the electromagnetic spectrum when plotted in wavelength units, and roughly 44% of the radiation that reaches the ground is visible.",
+      "strength": 0.599999945908301
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Other wavelengths, especially near infrared (longer than 760 nm) and ultraviolet (shorter than 380 nm) are also sometimes referred to as light, especially when the visibility to humans is not relevant.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Sun emits its peak power in the visible region, although integrating the entire emission power spectrum through all wavelengths shows that the Sun emits slightly more infrared than visible light.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Another example is incandescent light bulbs, which emit only around 10% of their energy as visible light and the remainder as infrared.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The main source of natural light on Earth is the Sun.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The wavelength of a 100 MHz electromagnetic (radio) wave is about 3 m.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Coal is the substance that is correctly identified as a mineral.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Quartz is correctly identified as a mineral.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Granite is correctly identified as a mineral.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sandstone is the substance correctly identified as a mineral in the question asking which of these substances is correctly identified as a mineral.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Quartz is a hard mineral composed of silica (silicon dioxide).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Quartz is classified structurally as a framework silicate mineral and compositionally as an oxide mineral.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

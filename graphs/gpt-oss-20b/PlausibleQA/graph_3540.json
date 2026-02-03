@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Quartz",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Silica-rich Rocks",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Feldspar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Sand",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Silica sand is the most commonly used sand because of its great abundance, and, thus, low cost.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sand also has the dimensional instability associated with the conversion of quartz from alpha quartz to beta quartz at 680 °C (1250 °F).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

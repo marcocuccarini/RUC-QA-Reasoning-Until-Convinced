@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Australian prime minister was presumed drowned in 1967. Robert Menzies",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Australian prime minister was presumed drowned in 1967. John McEwen",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Australian prime minister was presumed drowned in 1967. John Gorton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Australian prime minister was presumed drowned in 1967. Harold Holt",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In December 1967, Holt disappeared while swimming in rough conditions at Cheviot Beach, Victoria. He was presumed dead, although his body was never recovered.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Holt was sworn in as prime minister on 26 January 1966, following the retirement of Robert Menzies six days earlier.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

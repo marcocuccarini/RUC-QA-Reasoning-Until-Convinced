@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what book did benjamin franklin published. Autobiography",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what book did benjamin franklin published. Poor Richard's Almanack",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what book did benjamin franklin published. The Way to Wealth",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what book did benjamin franklin published. Address",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Autobiography of Benjamin Franklin was published by Charles E. Merrill Co. in 1892.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Autobiography of Benjamin Franklin: Poor Richard's Almanac and other papers was published by A. L. Burt Co. in 1900.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Poor Richard's Almanack was a yearly almanac published by Benjamin Franklin, who adopted the pseudonym of 'Poor Richard' or 'Richard Saunders' for this purpose.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "This was later published as The Way to Wealth, and was popular in both America and England.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

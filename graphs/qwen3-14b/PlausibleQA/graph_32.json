@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gwyl San Steffan is the name for 26th December (St Stephen's Day or Boxing Day) in which country. Scotland",
+      "strength": 0.5999999999162
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gwyl San Steffan is the name for 26th December (St Stephen's Day or Boxing Day) in which country. Ireland",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gwyl San Steffan is the name for 26th December (St Stephen's Day or Boxing Day) in which country. Isle of Man",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gwyl San Steffan is the name for 26th December (St Stephen's Day or Boxing Day) in which country. Cyrmu",
+      "strength": 0.5999999125837895
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Boxing Day did not become a bank holiday in Scotland until 1974.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Wales, Saint Stephen's Day is known as Gŵyl San Steffan, celebrated every year on 26 December.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the Isle of Man and in parts of Ireland, it is also known as Wren Day.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In most of Ireland, Saint Stephen's Day is referred to as Saint Stephen's Day.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

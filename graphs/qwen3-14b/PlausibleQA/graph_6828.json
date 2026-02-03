@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Malt whisky is made by distilling which grain. Barley",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Malt whisky is made by distilling which grain. Wheat",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Malt whisky is made by distilling which grain. Rye",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Malt whisky is made by distilling which grain. Vrs1",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Malt whisky is whisky made from a fermented mash consisting of malted barley.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although malt whisky can be made using other malted grains besides barley, those types are not called malt whisky without specifying the grain, such as rye malt whisky or buckwheat malt whisky.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

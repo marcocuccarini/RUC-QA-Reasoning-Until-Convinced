@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. NBC",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. CBS",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. FOX",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what network is showing the monday night football game. ESPN",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Monday Night Countdown – Weekly recap show aired on Monday evenings during the NFL season, also serves as the pre-game show for Monday Night Football",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "ESPN's Sunday Night Football games would become the highest-rated NFL telecasts for the next 17 years (before losing the rights to NBC in 2006)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

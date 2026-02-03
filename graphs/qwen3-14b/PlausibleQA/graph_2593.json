@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If you were to fly due east out of Rio de Janeiro, which country's coastline would you fly over first. Angola",
+      "strength": 0.25009548836582807
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If you were to fly due east out of Rio de Janeiro, which country's coastline would you fly over first. South Africa",
+      "strength": 0.25009548836582807
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If you were to fly due east out of Rio de Janeiro, which country's coastline would you fly over first. Namibia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If you were to fly due east out of Rio de Janeiro, which country's coastline would you fly over first. Nambam",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brazil is bounded by the Atlantic Ocean on the east.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Brazil lies between longitudes 28° and 74°W, meaning its easternmost point is at 28°W, not adjacent to any landmass eastward.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

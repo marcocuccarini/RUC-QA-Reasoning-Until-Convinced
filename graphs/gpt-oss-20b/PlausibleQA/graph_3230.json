@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. Scotland",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. Ireland",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. England",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. Airlan",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A version of the filleadh beag (philibeg), or small kilt (also known as the walking kilt), similar to the modern kilt was invented by an English Quaker from Lancashire named Thomas Rawlinson some time in the 1720s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although the origins of the Irish kilt continue to be a subject of debate, current evidence suggests that kilts originated in the Scottish Highlands and Isles and were worn by Irish nationalists from at least 1850s onwards and then cemented from the early 1900s as a symbol of Gaelic identity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

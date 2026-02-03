@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shake the container vigorously is the best way for the student to learn more about the chemical properties of the substance labeled with a long chemical name.",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Smelling a very small amount of the substance is the best way for a student to learn more about the chemical properties of a bottle that is labeled with a long chemical name.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Looking up the name in a science book is the best way for the student who finds a bottle labeled with a long chemical name to learn more about the chemical properties of that substance.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Testing a small amount to see if it feels slippery is the best way for the student to learn more about the chemical properties of the substance labeled with a long chemical name on the bottle.",
+      "strength": 0.400000037362994
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical properties cannot be determined just by viewing or touching the substance; the substance's internal structure must be affected greatly for its chemical properties to be investigated.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many chemical compounds have a unique CAS number identifier assigned by the Chemical Abstracts Service.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Molecular compounds are held together by covalent bonds, ionic compounds are held together by ionic bonds, intermetallic compounds are held together by metallic bonds, and coordination complexes are held together by coordinate covalent bonds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

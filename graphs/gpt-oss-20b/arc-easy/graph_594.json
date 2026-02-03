@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hibernate in winter is what a bird builds a nest to do.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shelter its offspring is why a bird builds a nest.",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Produce more feathers is the purpose for which a bird builds a nest.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eliminate waste is the purpose for which a bird builds a nest.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Birds that nest colonially may benefit from increased protection against predation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In constructing nests, birds act as ecosystem engineers by providing a sheltered microclimate, a hibernation site, and concentrated food sources for invertebrates.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During nest construction, some species seek out plant matter from plants with parasite-reducing toxins to improve chick survival.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Incubation, which regulates temperature for chick development, usually begins after the last egg has been laid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

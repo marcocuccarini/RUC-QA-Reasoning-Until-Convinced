@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the world's biggest car maker. Volkswagen",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the world's biggest car maker. General Motors",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the world's biggest car maker. Ford",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the world's biggest car maker. トヨタ",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Toyota is the largest automobile manufacturer in the world, producing about 10 million vehicles per year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By 2020, Toyota reclaimed its position as the largest automaker in the world, surpassing Volkswagen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

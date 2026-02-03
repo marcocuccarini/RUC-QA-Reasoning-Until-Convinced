@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nucleus, electrons, and quarks are the particles that make up an atom.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Protons, neutrons, and electrons are the particles that make up an atom.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ionic bonds, covalent bonds, and ions describe the particles that make up an atom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The particles that make up an atom are the nucleus, electron cloud, and energy levels.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Protons are composed of two up quarks of charge +2/3 e each, and one down quark of charge −1/3 e.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Protons and neutrons, each with a mass of approximately one dalton, are jointly referred to as nucleons (particles present in atomic nuclei).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Neutrons are found, together with a similar number of protons in the nuclei of atoms.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Neutrons are not elementary particles; each is composed of three quarks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

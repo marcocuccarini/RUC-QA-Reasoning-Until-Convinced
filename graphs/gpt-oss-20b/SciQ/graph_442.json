@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Greenhouse gases are gases that absorb heat in the atmosphere.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Microwave gases are gases that absorb heat in the atmosphere.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ozone gases are gases that absorb heat in the atmosphere.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbonate gases are gases that absorb heat in the atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Greenhouse gases are infrared active, meaning that they absorb and emit infrared radiation in the same long wavelength range as what is emitted by the Earth's surface, clouds and atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "tropospheric ozone, because this gas has a cooling effect in the stratosphere, but a warming influence comparable to nitrous oxide and CFCs in the troposphere.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Greenhouse gases absorb 90% of the longwave radiation emitted by the surface, thus accumulating energy and warming the Earth's surface.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Greenhouse gases contribute most of the greenhouse effect in Earth's energy budget.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

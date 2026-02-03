@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Mali",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Guinea",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Gambia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city. Sengal",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dakar is the capital and largest city of Senegal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1960, it became the capital of the independent Republic of Senegal.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

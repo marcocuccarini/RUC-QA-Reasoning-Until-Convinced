@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which notorious murderer lived at 10 Rillington Place. Dennis Nilsen",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which notorious murderer lived at 10 Rillington Place. Fred West",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which notorious murderer lived at 10 Rillington Place. Peter Sutcliffe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which notorious murderer lived at 10 Rillington Place. John Christie",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Reginald Halliday Christie (8 April 1899 – 15 July 1953) was an English serial killer and serial rapist active during the 1940s and early 1950s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He murdered at least eight people—including his wife Ethel—by strangling them inside his flat at 10 Rillington Place, Notting Hill, London.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

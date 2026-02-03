@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cutting is the manufacturing process used to permanently put parts together.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Shaping is the manufacturing process used to permanently put parts together.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Finishing is the manufacturing process used to permanently put parts together.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Assembling is the manufacturing process used to permanently put parts together.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Welding joins two pieces of metal using heat, pressure, or both.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Welding also requires a form of shield to protect the filler metals or melted metals from being contaminated or oxidized.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

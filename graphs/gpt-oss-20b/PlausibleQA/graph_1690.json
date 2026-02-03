@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is washington redskins backup qb. Kirk Cousins",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is washington redskins backup qb. Colt McCoy",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is washington redskins backup qb. Robert Griffin III",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is washington redskins backup qb. Rex Grossman",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cousins spent his first three seasons with the Redskins as a backup to Robert Griffin III before replacing an injured Griffin in 2015.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Following a poor performance in the first half in the Week 7 game against the Tennessee Titans, he was benched at halftime in favor of backup quarterback Colt McCoy, and did not play in any more games for the remainder of the season.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Shanahan suddenly reversed direction by naming veteran backup Rex Grossman to the starting position.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Colt McCoy started games in the second half of the season.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fluorescence is the process by which substances such as minerals glow in characteristic visible wavelengths when exposed to ultraviolet.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plasma is the process by which substances, such as minerals, glow in characteristic visible wavelengths when exposed to ultraviolet.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical reaction is the process by which substances, such as minerals, glow in characteristic visible wavelengths when exposed to ultraviolet.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pigment is the term for the process by which, when exposed to ultraviolet, some substances such as minerals glow in characteristic visible wavelengths.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When exposed to ultraviolet radiation, many substances will glow (fluoresce) with colored visible light.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fluorescence is a photoluminescence, the emission of light by a substance that has absorbed light or other electromagnetic radiation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

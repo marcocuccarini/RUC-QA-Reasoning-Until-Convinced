@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Increasing strength for moving around in the cabin is the best reason for exercising on space flights.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To keep from becoming overweight on a space mission is the best reason for exercising on space flights.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Minimizing the loss of muscle mass due to microgravity is the best reason for exercising on space flights.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ensuring that bodily fluids do not tend to collect in the feet is the best reason for exercising on space flights.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In humans, prolonged periods of immobilization, as in the cases of bed rest or astronauts flying in space, are known to result in muscle weakening and atrophy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The rate of muscle atrophy from disuse (10–42 days) is approximately 0.5–0.6% of total muscle mass per day although there is considerable variation between people.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ashkenazic and sephardic cuisines are associated with which ethnic group. Arab",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ashkenazic and sephardic cuisines are associated with which ethnic group. Greek",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ashkenazic and sephardic cuisines are associated with which ethnic group. Turkish",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ashkenazic and sephardic cuisines are associated with which ethnic group. Jew",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jewish cuisines vary widely depending on their regions of origin, but they tend to be broadly categorized into Sephardic (Iberian, Anatolian, and North African), Mizrahi (Middle Eastern, Caucasian, and Central Asian) and Ashkenazi (Eastern, Western, and Central European) families.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The need to preserve kashrut does lead to a few significant changes (most notably, the use of olive oil instead of animal fat is often considered to be a legacy of Jewish residency in an area, due to the fact that olive oil may be eaten with milk, unlike animal fat).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

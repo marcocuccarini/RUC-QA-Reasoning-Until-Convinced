@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The metal spoon will feel hottest after 15 seconds when a metal, wooden, and plastic spoon are placed in hot water.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The wooden spoon will feel hottest after 15 seconds when a metal spoon, a wooden spoon, and a plastic spoon are placed in hot water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The plastic spoon will feel hottest after 15 seconds in hot water, compared with the metal and wooden spoons.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The three spoons will feel the same after being placed in hot water for 15 seconds, regardless of being a metal, wooden, or plastic spoon.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "metals typically have high thermal conductivity and are very efficient at conducting heat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "metals typically have high thermal conductivity and are very efficient at conducting heat, while the opposite is true for insulating materials such as mineral wool or Styrofoam.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

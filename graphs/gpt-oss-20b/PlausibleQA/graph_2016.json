@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what countries have english as their official language. United States",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what countries have english as their official language. United Kingdom",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what countries have english as their official language. Australia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what countries have english as their official language. Canada",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "English holds official status in numerous countries within the Commonwealth of Nations.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "English is an official language (de facto or de jure) of the following countries and territories.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As of 2025, 32 out of the 50 states of the United States have designated English as their official language.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The United Kingdom, Australia, New Zealand, Antigua and Barbuda, and the United States do not have English as a de jure official language, but it is the de facto working language for their governments.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

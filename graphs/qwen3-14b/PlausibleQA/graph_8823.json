@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the minority leader of the house of representatives now. Kevin McCarthy",
+      "strength": 0.25000003951718464
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the minority leader of the house of representatives now. Steve Scalise",
+      "strength": 0.43092615497313724
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the minority leader of the house of representatives now. Elise Stefanik",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the minority leader of the house of representatives now. Nancy Pelosi",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Minority Leader Hakeem Jeffries of New York",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Majority Leader Steve Scalise of Louisiana",
+      "strength": 0.4000409734979248
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Kevin McCarthy resigned from the House in October 2023",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "House minority whip Steve Scalise",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

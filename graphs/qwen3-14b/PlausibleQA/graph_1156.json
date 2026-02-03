@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. Robert Peel",
+      "strength": 0.4000000597805733
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. William Gladstone",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. Lord Palmerston",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British prime Minister wrote two novels 'Coningsby' and 'Sybil' in the 1840s. Disraeli",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the 1840s Disraeli wrote a trilogy of novels with political themes. Coningsby attacks the evils of the Whig Reform Bill of 1832 and castigates the leaderless conservatives for not responding. Sybil; or, The Two Nations (1845) reveals Peel's betrayal over the Corn Laws.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Disraeli's novels are his main literary achievement. These themes are expanded in Tancred (1847). With Coningsby; or, The New Generation (1844), Disraeli, in Blake's view...",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Benjamin Disraeli wrote the novel Sybil in 1845.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

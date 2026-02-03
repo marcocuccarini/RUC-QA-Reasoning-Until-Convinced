@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city is famously 5,280 feet above sea level. Albuquerque",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city is famously 5,280 feet above sea level. Salt Lake City",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city is famously 5,280 feet above sea level. Cheyenne",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city is famously 5,280 feet above sea level. Denver",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Denver's nickname is the 'Mile-High City', as its official elevation is one mile (5,280 ft; 1,609 m) above sea level, defined by the elevation of the spot of a benchmark on the steps of the State Capitol building.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The elevation of the entire city ranges from 5,130 to 5,690 feet (1,560 to 1,730 m).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

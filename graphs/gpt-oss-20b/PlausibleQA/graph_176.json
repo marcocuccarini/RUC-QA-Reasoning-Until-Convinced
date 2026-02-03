@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. XCV-330",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. NX-5000",
+      "strength": 0.4999999390702449
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. ECS-1001",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what was the first star trek enterprise ship. NCC - 1701",
+      "strength": 0.15393750467301753
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Star Trek: Enterprise follows the adventures of the crew of the first starship Enterprise, designation NX-01.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first vessel controlled by the player in each storyline is the Enterprise (NX-01).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Enterprise was the first warp five capable vessel in the 22nd century, designated NX-01.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The series followed the voyages of the crew of the starship USS Enterprise, a space exploration vessel built by the United Federation of Planets in the 23rd century.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

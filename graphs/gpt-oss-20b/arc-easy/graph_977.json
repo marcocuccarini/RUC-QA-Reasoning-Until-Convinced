@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun would appear larger and brighter to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun would appear smaller and brighter to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Sun would appear larger and dimmer to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Sun would appear smaller and dimmer to an astronaut on Pluto compared with how it looks from Earth.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Light from the Sun takes 5.5 hours to reach Pluto at its orbital distance of 39.5 AU.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pluto has a moderately eccentric and inclined orbit, ranging from 30 to 49 astronomical units (4.5 to 7.3 billion kilometres; 2.8 to 4.6 billion miles) from the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

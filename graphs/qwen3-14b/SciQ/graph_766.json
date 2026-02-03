@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Resistance is the property that a narrow wire has more of than a wide wire when considering electrical current.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Voltage is the property that a narrow wire will have more of than a wide wire in relation to electrical current.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wattage is the property that a narrow wire has more of than a wide wire when considering electrical current.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Current is the property that a narrow wire will have more of than a wide wire, in relation to electrical current.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For a given material, the resistance is inversely proportional to the cross-sectional area; for example, a thick copper wire has lower resistance than an otherwise-identical thin copper wire.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A wire's resistance is higher if it is long and thin, and lower if it is short and thick.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

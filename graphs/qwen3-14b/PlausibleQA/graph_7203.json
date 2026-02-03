@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which heavyweight boxing champion knocked out Max Schmeling in the first round of their re-match at Yankee Stadium in New York City in June 1938. Jack Dempsey",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which heavyweight boxing champion knocked out Max Schmeling in the first round of their re-match at Yankee Stadium in New York City in June 1938. Gene Tunney",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which heavyweight boxing champion knocked out Max Schmeling in the first round of their re-match at Yankee Stadium in New York City in June 1938. Max Baer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which heavyweight boxing champion knocked out Max Schmeling in the first round of their re-match at Yankee Stadium in New York City in June 1938. Joe Loius",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Louis battered Schmeling with a series of swift attacks, forcing him against the ropes and giving him a paralyzing body blow... Schmeling was knocked down three times and only managed to throw two punches in the entire bout.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The fight lasted two minutes and four seconds... On the third knockdown, Schmeling's trainer threw in the towel and referee Arthur Donovan stopped the fight.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

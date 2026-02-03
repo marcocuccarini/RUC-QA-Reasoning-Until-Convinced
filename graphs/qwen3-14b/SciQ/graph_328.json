@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Head is the part of the body that the sternocleidomastoid, the major muscle, laterally flexes and rotates.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The tongue is laterally flexed and rotated by the sternocleidomastoid, which is the major muscle that performs this action.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Eye is the structure that the sternocleidomastoid, the major muscle, laterally flexes and rotates.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The sternocleidomastoid is the major muscle that laterally flexes and rotates the knee.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When one side acts alone, it causes the head to rotate to the opposite side and flexes laterally to the same side (ipsilaterally).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The primary actions of the muscle are rotation of the head to the opposite side and flexion of the neck.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

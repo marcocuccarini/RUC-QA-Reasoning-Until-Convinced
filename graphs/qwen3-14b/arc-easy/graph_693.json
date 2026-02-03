@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An organ is the term that best identifies the parts of the body that carry out the function of digestion, a process that begins in the mouth and involves many different body parts.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An organism is the term that best identifies the parts of the body that carry out the function of digestion, a process in humans that begins in the mouth and involves many different parts of the body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A system is the term that best identifies the parts of the body that carry out digestion, a process that begins in the mouth and involves many different parts of the human body.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A tissue is the part of the body that carries out the function of digestion, a process that in humans begins in the mouth and involves many different body parts.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The human digestive system consists of the gastrointestinal tract plus the accessory organs of digestion (the tongue, salivary glands, pancreas, liver, and gallbladder).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The largest structure of the digestive system is the GI tract.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

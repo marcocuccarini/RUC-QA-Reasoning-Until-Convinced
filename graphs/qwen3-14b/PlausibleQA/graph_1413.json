@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . British National Party",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . UK Independence Party",
+      "strength": 0.25009176364520974
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . English Democrats",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward . NATIONAL FRONT",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "UK Independence Party was founded in 1991 by Alan Sked",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "UK Independence Party originated as the Anti-Federalist League, a somewhat single-issue Eurosceptic party established in London by Alan Sked in 1991",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The National Front (NF) is a far-right, fascist political party in the United Kingdom. It is currently led by Tony Martin.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Founded in 1967, it reached the height of its electoral support during the mid-1970s, when it was briefly England's fourth-largest party in terms of vote share.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Size is the information missing when a student is given the volume and description of a substance and is asked to determine its density.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mass is the information missing when a student is given the volume and description of a substance and is asked to determine its density.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Boiling point is the missing information needed for the student to determine the density of the substance when only its volume and description are given.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Melting point is the information missing when a student, given the volume and description of a substance, is asked to determine its density.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Density is calculated as the ratio of mass to volume (ρ = m/V), where mass is normally measured with a scale or balance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

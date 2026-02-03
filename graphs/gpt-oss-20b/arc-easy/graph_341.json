@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Earth rotating on its axis causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Moon rotating on its axis causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth revolving around the Sun causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Moon revolving around Earth causes the appearance of the Moon to change as seen from Earth throughout the month.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The visible side of the Moon is sunlit to varying extents, depending on the position of the Moon in its orbit, with the sunlit portion varying from 0% (at new moon) to nearly 100% (at full moon).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon is tidally locked to Earth, so it rotates at the same rate as it orbits, keeping the same face toward Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which British monarch introduced The George Cross. King Edward VIII",
+      "strength": 0.25009174651106497
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which British monarch introduced The George Cross. King George III",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which British monarch introduced The George Cross. King George V",
+      "strength": 0.2500916879703994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which British monarch introduced The George Cross. GVIR",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The George Cross was announced on 23 September 1940 by King George VI.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He had been introduced as 'His Royal Highness Prince Edward' for the abdication broadcast, but George VI felt that by abdicating and renouncing the succession, Edward had lost the right to bear royal titles, including 'Royal Highness'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "George V was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Edward abdicated in December of that year and was succeeded by his younger brother Albert, who took the regnal name George VI.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

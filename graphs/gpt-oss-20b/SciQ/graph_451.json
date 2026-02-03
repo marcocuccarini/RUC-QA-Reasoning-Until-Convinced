@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sweating is how many mammals control their body temperature.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dieting is how many mammals control their body temperature.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Homeostasis is the process by which many mammals control their body temperature.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Itching is how many mammals control their body temperature.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the sweat glands in the skin are stimulated via cholinergic sympathetic nerves to secrete sweat onto the skin, which, when it evaporates, cools the skin and the blood flowing through it.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Panting is an alternative effector in many vertebrates, which cools the body also by the evaporation of water, but this time from the mucous membranes of the throat and mouth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The main features of this thermoregulation system are stimulus, receptor, modulator, effector and feedback, aiding in homeostasis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Animals with a body covered by fur have limited ability to sweat, relying heavily on panting to increase evaporation of water across the moist surfaces of the lungs and the tongue and mouth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

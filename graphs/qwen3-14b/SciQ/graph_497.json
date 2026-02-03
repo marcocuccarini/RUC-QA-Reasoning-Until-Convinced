@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Joules are the units in which the heat energy transferred in chemical reactions is measured.",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Amps are the units used to measure electric current, whereas heat energy transferred in chemical reactions is measured in joules.",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amperes are the unit used to measure the transfer of heat energy in chemical reactions.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermals are the units in which the transfer of heat energy in chemical reactions is measured.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The joule was explicitly intended as the unit of energy to be used in both electromagnetic and mechanical contexts. The ratification of the definition at the ninth General Conference on Weights and Measures, in 1948, added the specification that the joule was also to be preferred as the unit of heat in the context of calorimetry, thereby officially deprecating the use of the calorie.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One joule is equal to the amount of work done when a force of one newton displaces a body through a distance of one metre in the direction of that force. It is also the energy dissipated as heat when an electric current of one ampere passes through a resistance of one ohm for one second.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

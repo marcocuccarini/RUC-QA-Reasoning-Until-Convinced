@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "the inner sanctuary of the parthenon where the statue of athena is located in known as the. Cellae",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "the inner sanctuary of the parthenon where the statue of athena is located in known as the. Adyton",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "the inner sanctuary of the parthenon where the statue of athena is located in known as the. Opisthodomos",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "the inner sanctuary of the parthenon where the statue of athena is located in known as the. naos",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "With very few exceptions, Greek buildings were of a peripteral design that placed the cella in the center of the plan, such as the Parthenon and the Temple of Apollo at Paestum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Classical architecture, a cella (Latin for 'small chamber') or naos (from Ancient Greek  ναός (naós) 'temple') is the inner chamber of an ancient Greek or Roman temple.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 5th-century BC accounts of the building, the structure is simply called ὁ νᾱός (ho naos; lit. 'the temple').",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The spaces between the columns of the opisthodomos and the peristyle were walled up, though a number of doorways still permitted access.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

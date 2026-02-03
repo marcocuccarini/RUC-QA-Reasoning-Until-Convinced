@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A 'wherry' is a Drink; Cheese; Wind; or Boat. Vehicle",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A 'wherry' is a Drink; Cheese; Wind; or Boat. River",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A 'wherry' is a Drink; Cheese; Wind; or Boat. Fish",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A 'wherry' is a Drink; Cheese; Wind; or Boat. Boat",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A wherry is a type of boat that was traditionally used for carrying cargo or passengers on rivers and canals in England, and is particularly associated with the River Thames and the River Cam.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sulfur dioxide (SO₂) is the form in which atmospheric sulfur is found.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Formaldehyde is the form in which atmospheric sulfur is found.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sulfuric acid is the form in which atmospheric sulfur is found.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sulfur monoxide is the form in which atmospheric sulfur is found.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sulfur dioxide is found on Earth and exists in very small concentrations in the atmosphere at about 15 ppb. On other planets, sulfur dioxide can be found in various concentrations, the most significant being the atmosphere of Venus, where it is the third-most abundant atmospheric gas at 150 ppm.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It has been implicated as a key agent in the warming of early Mars, with estimates of concentrations in the lower atmosphere as high as 100 ppm, though it only exists in trace amounts. The James Webb Space Telescope has observed the presence of sulfur dioxide on the exoplanet WASP-39b, where it is formed through photochemistry in the planet's atmosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

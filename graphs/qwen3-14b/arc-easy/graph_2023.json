@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Organelles are absent in organisms belonging to the phylum Porifera, whose cells are not organized into tissues.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cells are absent in organisms belonging to the phylum Porifera, where the cells of organisms found in that phylum are not organized into tissues.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Genes are the structures absent in organisms belonging to the phylum Porifera, whose cells are not organized into tissues.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Organs are absent in organisms belonging to the phylum Porifera, where the cells are not organized into tissues.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Unlike other animals, they lack true tissues and organs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They do not have complex nervous, digestive or circulatory systems.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The less-advanced taxa (i.e. Placozoa, Porifera, Ctenophora and Cnidaria) do not show unification of their tissues into organs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. China",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. Hong Kong",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. Taiwan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country was kung fu expert Bruce Lee born. US",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Born in San Francisco and raised in British Hong Kong, Bruce Lee was introduced to the Hong Kong film industry as a child actor by his father Lee Hoi-chuen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bruce was born in San Francisco, California, United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

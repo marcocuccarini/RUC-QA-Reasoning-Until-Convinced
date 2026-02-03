@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gray is the color of light produced when all of the colors of visible light in the electromagnetic spectrum are combined.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "White is the color of light produced when all colors of visible light in the electromagnetic spectrum are combined.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Black is the color produced when all colors of visible light in the electromagnetic spectrum are combined.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Brown is the color of light produced when all colors of visible light in the electromagnetic spectrum are combined.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "white light can be defined as a mixture of 'all colors' or 'all visible wavelengths'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "White light can be fabricated using light with only two wavelengths, for instance by mixing light from a red and cyan laser or yellow and blue lasers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A typical human eye will respond to wavelengths from about 380 to about 750 nanometers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The visible spectrum is limited to wavelengths that can both reach the retina and trigger visual phototransduction (excite a visual opsin).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

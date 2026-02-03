@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reflected is what most of the sunlight that strikes a snow‑covered surface does, which is why people often wear sunglasses in polar regions.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Absorbed is what most of the sunlight that strikes a snow‑covered surface does in polar regions, which is why people often wear sunglasses.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Refracted is most of the sunlight that strikes a snow‑covered surface, which is why people often wear sunglasses in polar regions.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transmitted is the fact that most of the sunlight that strikes a snow‑covered surface is transmitted, which is why people often wear sunglasses in polar regions.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fresh snow has an albedo as high as 0.9.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dirty snow has an albedo as low as 0.2.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mountaineers are exposed to higher-than-ordinary levels of UV radiation, both because there is less atmospheric filtering and because of reflection from snow and ice.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

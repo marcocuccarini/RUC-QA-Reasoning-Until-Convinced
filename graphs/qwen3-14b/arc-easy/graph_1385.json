@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It was once underwater, as evidenced by fossils of sea animals found in a cave in Arkansas.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It was once much warmer, as indicated by fossils of sea animals found in a cave in Arkansas.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It has become a rockier place, as the discovery of fossils of sea animals in a cave in Arkansas shows that the area was once underwater.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It has changed little from then, because fossils of sea animals were found in a cave in Arkansas.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Classic paleoecology uses data from fossils and subfossils to reconstruct the ecosystems of the past.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The fossil or physical records are inherently incomplete - the geologic record is selective and some environments are more likely to be preserved than others.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

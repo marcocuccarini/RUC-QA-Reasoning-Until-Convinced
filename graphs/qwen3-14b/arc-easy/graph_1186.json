@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Waste from nuclear power plants is one of the main causes of acid rain.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Spills from chemical manufacturing plants are one of the main causes of acid rain.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gases from burning fossil fuels are one of the main causes of acid rain.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gases from aerosol spray cans are one of the main causes of acid rain.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Combustion of fuels and smelting of some ores produce sulfur dioxide and nitric oxides.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Power plants, which use electric power generators, account for a quarter of nitrogen oxides and two-thirds of sulfur dioxide within the atmosphere.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

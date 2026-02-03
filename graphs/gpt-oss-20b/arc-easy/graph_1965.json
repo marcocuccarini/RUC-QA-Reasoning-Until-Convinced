@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Trash can is where the cracked, clean, empty Erlenmeyer flask should be placed during a laboratory investigation after it has been cracked but not broken and can no longer be used.",
+      "strength": 0.36764724678864374
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A biohazard bag should be used to place a clean, empty Erlenmeyer flask that a student cracks during a laboratory investigation, does not break, but can no longer be used.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The broken glass bin is where a cracked, clean, empty Erlenmeyer flask should be placed after a student cracks it during a laboratory investigation, as the flask does not break but can no longer be used.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The hazardous waste bin is where the cracked, empty Erlenmeyer flask should be placed during a laboratory investigation.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Disposal with solid waste poses risks to those handling the waste and may pose unexpected risks to uninformed members of the public.",
+      "strength": 0.5999999633768432
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In some cases, glass is specifically separated into its own container because broken glass is a hazard to the people who later manually sort the co‑mingled recyclables.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Regulated Medical Waste, UN 3291 – Waste or reusable material derived from medical treatment of an animal or human, or from biomedical research, which includes the production and testing.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

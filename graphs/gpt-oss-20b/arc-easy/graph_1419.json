@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Submission of an article to a peer‑reviewed journal is the first means by which a scientist should communicate results suggesting a new explanation for the digestion of certain proteins in humans to the scientific community.",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Inclusion of the new explanation in a biology textbook is the first means by which a scientist should communicate results from an experiment that suggests a new explanation for the digestion of certain proteins in humans to the scientific community.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Posting observations and conclusions on the scientist's website is the first way the scientist should communicate results of an experiment that suggests a new explanation for the digestion of certain proteins in humans to the scientific community.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Inviting reporters from many organizations to a press conference is the way a scientist should first communicate the results of an experiment that suggests a new explanation for the digestion of certain proteins in humans to the scientific community.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The editorial peer review process has been found to be strongly biased against 'negative studies,' i.e. studies that do not work.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The number of these peer reviewers (or 'referees') varies according to each journal's editorial practice – typically, no fewer than two, though sometimes three or more, experts in the subject matter of the article produce reports upon the content, style, and other factors, which inform the editors' publication decisions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If scientists are describing experiments or calculations, they should also explain how they did them so that an independent researcher could repeat the experiment or calculation to verify the results, or so that they could evaluate whatever the research article's findings were.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

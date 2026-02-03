@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 2007",
+      "strength": 0.39999990672727226
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 2014",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 1994",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the cleveland browns last winning game. 2016",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Browns have only posted four winning seasons (2002, 2007, 2020, and 2023)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2020, the Browns secured their first playoff berth since 2002 by defeating the Pittsburgh Steelers in week 17 and finishing the season 11–5",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This would be Cleveland's last winning season until 2020",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In Week 6 of the 2014 season, the Browns defeated the Steelers 31–10",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

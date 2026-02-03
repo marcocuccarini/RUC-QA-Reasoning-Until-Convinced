@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did frank sinatra first sing new york new york. 1947",
+      "strength": 0.4704888884242387
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did frank sinatra first sing new york new york. 1955",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did frank sinatra first sing new york new york. 1966",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did frank sinatra first sing new york new york. 1979",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He recorded several albums and released 'New York, New York' in 1980.",
+      "strength": 0.25004740235967626
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Sinatra Report, a special section of Billboard's November 20, 1965, issue – beginning immediately after page 34",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Kander wrote the standard 'New York, New York' (officially known as 'Theme from New York, New York').",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

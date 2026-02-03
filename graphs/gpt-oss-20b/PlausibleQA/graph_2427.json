@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Violetlight",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Ultralux",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Actinic Radiation",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Blacklite",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term actinic rays is used to refer to this phenomenon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Shorter wavelengths are regarded as 'violet' (400nm) and blacklight (365nm).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Black lights are used in applications in which extraneous visible light must be minimized; mainly to observe fluorescence, the colored glow that many substances give off when exposed to UV light.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Ultraviolet has a higher frequency (thus a shorter wavelength) than violet light.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nuclear is the kind of change that occurs in wood when it burns in a campfire, releases heat, and becomes ash.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetic is the kind of change that occurs in the wood as it burns and releases heat.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical change occurs in the wood when it burns and releases heat, turning it into ash in a campfire.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mechanical is the type of change that occurs in wood when it burns and releases heat, turning it into ash in a campfire.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Combustion is a high-temperature exothermic redox chemical reaction between a fuel (the reductant) and an oxidant, usually atmospheric oxygen, that produces oxidized, often gaseous products, in a mixture termed as smoke.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Combustion does not always result in fire, because a flame is only visible when substances undergoing combustion vaporize, but when it does, a flame is a characteristic indicator of the reaction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

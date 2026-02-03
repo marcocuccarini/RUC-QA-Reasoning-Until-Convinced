@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the muslim dress. Abaya",
+      "strength": 0.5999999071782728
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the muslim dress. Jilbab",
+      "strength": 0.7238204083754556
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the muslim dress. Niqab",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the muslim dress. hijab",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The abaya is a simple, loose over-garment, essentially a robe-like dress, worn by some women in the Muslim world including most of the Middle East, North Africa, and parts of the Horn of Africa.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Indonesia, the abaya takes on a unique style called the 'jilbab.'",
+      "strength": 0.40009682695977267
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The term jilbāb refers to any long and loose-fit coat or outer garment worn by Muslim women.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In Indonesia, the term jilbāb refers to a headscarf rather than a long and loose overgarment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the 2003 Turner Prize winning artist whose alter ego is Claire. Jeremy Deller",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the 2003 Turner Prize winning artist whose alter ego is Claire. Gillian Wearing",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the 2003 Turner Prize winning artist whose alter ego is Claire. Mark Wallinger",
+      "strength": 0.22635259229013752
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the 2003 Turner Prize winning artist whose alter ego is Claire. Grayson Perry",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mark Wallinger was awarded the 2007 Turner Prize for State Britain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mark Wallinger in the 1995 Turner Prize",
+      "strength": 0.5999441357039169
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Other nominees included Lebanese-born installation/video artist Mona Hatoum, abstract painter Callum Innes and multi‑media artist Mark Wallinger.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

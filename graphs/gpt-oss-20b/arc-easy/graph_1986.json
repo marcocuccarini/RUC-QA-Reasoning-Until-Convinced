@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mass of the soil is the primary determinant of the texture of soil.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water in the soil is the primary factor on which the texture of soil depends.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Composition of the soil is what primarily determines the texture of soil.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vegetation growing in the soil is the primary factor that determines the texture of soil.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Soils that have a high percentage of sand, such as sandy loam or sandy clay, have a gritty texture.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Soil texture focuses on the particles that are less than two millimeters in diameter which include sand, silt, and clay.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

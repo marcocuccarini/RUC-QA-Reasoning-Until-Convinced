@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Land on the Moon was the first mission to have astronauts land on the Moon, allowing Apollo 11 to retrieve samples of the Moon's surface.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Orbit a planet is the reason Apollo 11 could retrieve samples of the Moon's surface, being the first mission to have astronauts orbit a planet.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Return to Earth was the reason the Apollo 11 mission was able to retrieve samples of the Moon's surface, because it was the first mission to have astronauts return to Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Walk in space was the reason the Apollo 11 mission was able to retrieve samples of the Moon's surface, as it was the first mission to have astronauts walk in space.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Apollo 11 was the first spaceflight to land humans on the Moon.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Apollo 10 conducted a 'dress rehearsal' in lunar orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

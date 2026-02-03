@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tundra is the biome that an area is most likely part of if it is semiarid, has few trees, and is home to ground‑nesting birds.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Taiga is the biome most likely part of an area that is semiarid, has few trees, and is home to ground‑nesting birds.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grassland is an area that is semiarid, has few trees, and is home to ground‑nesting birds.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Desert is the biome that is semiarid, has few trees, and is home to ground‑nesting birds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The taiga has coniferous forests, which are dense, indicating that it has many trees rather than few.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the interior of the continents, with the driest climates, the boreal forests might grade into temperate grassland, suggesting that grassland can exist in drier regions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

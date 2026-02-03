@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Accurate records must be kept in order for scientific data to be verified through repetition.",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Modern technology must be used in order for scientific data to be verified through repetition.",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Investigations must be conducted by trained scientists in order for scientific data to be verified through repetition.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Observations must be made by more than one scientist in order for scientific data to be verified through repetition.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term reproducible research refers to the idea that scientific results should be documented in such a way that their deduction is fully transparent. This requires a detailed description of the methods used to obtain the data and making the full dataset and the code to calculate the results easily accessible.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The use of software and automation enhances the reproducibility of research methods.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The National Institute of Standards and Technology provides guidelines on expressing uncertainty in measurement results, which contributes to accurate record-keeping.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

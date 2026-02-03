@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which musical instrument is Albert Schweitzer known to have played. Piano",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which musical instrument is Albert Schweitzer known to have played. Violin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which musical instrument is Albert Schweitzer known to have played. Cello",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which musical instrument is Albert Schweitzer known to have played. Organ",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He studied organ in Mulhouse from 1885 to 1893 with Eugène Munch, organist at the Protestant cathedral",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Schweitzer studied piano under Isidor Philipp, head of the piano department at the Paris Conservatory",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

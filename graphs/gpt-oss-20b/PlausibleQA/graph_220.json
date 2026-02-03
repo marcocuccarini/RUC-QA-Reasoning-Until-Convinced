@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Bacteremia",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Pyemia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Toxemia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for the infection of living tissues such as skin, lung or bowel by bacteria. Sepsis",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sepsis is caused by a combination of factors related to the particular invading pathogen(s) and the status of the immune system of the host.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bacteremia refers to bacteria present in the blood at abnormal levels and are the causative issue.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

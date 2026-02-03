@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They will stop producing energy because wind and water are examples of renewable energy sources.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They were formed millions of years ago, so wind and water are examples of renewable energy sources.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They are always available to produce energy, which is why wind and water are examples of renewable energy sources.",
+      "strength": 0.39990505270428955
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They take millions of years to start producing energy, which is why wind and water are examples of renewable energy sources.",
+      "strength": 0.3676470589352571
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Variable renewable energy sources are those that have a fluctuating nature, such as wind power and solar power.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Renewable energy is energy made from renewable natural resources that are replenished on a human timescale.",
+      "strength": 0.5999999999854375
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wind power goes through predictable variation by season, but is intermittent on a daily basis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Hydroelectricity can be increased or decreased in seconds or minutes in response to varying electricity demand.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In many places, wind and solar generation are complementary on a daily and a seasonal scale: there is more wind during the night and in winter when solar energy production is low.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Renewable energy is sustainable in its production; the available supply will not be diminished for the foreseeable future - millions or billions of years.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Wind energy could also be produced even if the climate changes in line with current predictions, as it relies solely on wind.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

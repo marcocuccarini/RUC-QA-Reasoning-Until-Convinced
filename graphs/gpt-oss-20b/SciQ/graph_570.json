@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Become red supergiants is how very massive stars end their lives.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Become super novas are the end state of very massive stars.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Very massive stars explode at the end of their lives.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Consumed by a black hole is the fate of very massive stars when they end their lives.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For cores of around 60–130 M☉, the fusion of oxygen and heavier elements is so energetic that the entire star is disrupted, causing a supernova.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For cores of 40–60 M☉, the collapse halts and the star remains intact, but collapse will occur again when a larger core has formed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

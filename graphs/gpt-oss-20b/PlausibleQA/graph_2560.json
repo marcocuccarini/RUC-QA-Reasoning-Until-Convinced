@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The same (not the same as the question above, simply, 'the same') - from Italian. Idem",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The same (not the same as the question above, simply, 'the same') - from Italian. Stesso",
+      "strength": 0.5999999125837895
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The same (not the same as the question above, simply, 'the same') - from Italian. Medesimo",
+      "strength": 0.5999999125837895
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The same (not the same as the question above, simply, 'the same') - from Italian. Ditto",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Italian medesimo means 'same'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Italian usually prefers the shorter stesso.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Didi & Ditto is an edutainment software series.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

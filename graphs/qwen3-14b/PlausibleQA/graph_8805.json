@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Gibson Les Paul",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Rickenbacker 360",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Epiphone Casino",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Fender Stratocaster",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In July 1968, Clapton gave him a Gibson Les Paul that had been stripped of its original finish and stained cherry red",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In early 1966, Harrison and Lennon each purchased Epiphone Casinos, which they used on Revolver",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In December 1964, George Harrison and John Lennon acquired Stratocasters and used them for 'Help!', and onwards.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The double unison guitar solo on 'Nowhere Man', was played by Harrison and Lennon on their new Stratocasters.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

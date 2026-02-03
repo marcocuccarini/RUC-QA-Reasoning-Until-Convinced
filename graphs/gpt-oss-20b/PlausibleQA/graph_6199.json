@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Germany",
+      "strength": 0.11315825378626088
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Hungary",
+      "strength": 0.11315825378626088
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Czech Republic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Ostria",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Austria was the birthplace of many famous composers such as Joseph Haydn, Michael Haydn, Franz Liszt, Franz Schubert, Anton Bruckner, Johann Strauss Sr., and Johann Strauss Jr., as well as members of the Second Viennese School such as Arnold Schoenberg, Anton Webern, and Alban Berg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Joseph Haydn was born in Rohrau, Austria",
+      "strength": 0.7499292587071497
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Franz Peter Schubert was born in Himmelpfortgrund (now a part of Alsergrund), Vienna, Archduchy of Austria.",
+      "strength": 0.5999528692588901
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Rohrau, Austria, is a town in Lower Austria",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Notable composers born in Vienna include Franz Schubert, Arnold Schoenberg, Alban Berg, Anton Webern, Joseph Lanner, Johann Strauss I, and Johann Strauss II.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Vienna is renowned for its rich musical heritage, having been home to many celebrated classical composers, including Haydn and Schubert.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Turkey",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Syria",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Iran",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the euphrates and tigris river located on a map. Iraq",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Euphrates originates in Turkey, flows through Syria and Iraq to join the Tigris in the Shatt al-Arab in Iraq, which empties into the Persian Gulf.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Euphrates flows through Syria.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Tigris is 1,750 km (1,090 mi) long, rising in the Taurus Mountains of eastern Turkey about 25 km (16 mi) southeast of the city of Elazığ and about 30 km (19 mi) from the headwaters of the Euphrates.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Baghdad, the capital of Iraq, stands on the banks of the Tigris.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

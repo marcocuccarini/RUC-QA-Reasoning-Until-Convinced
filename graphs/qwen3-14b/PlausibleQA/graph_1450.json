@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Pituitary",
+      "strength": 0.4999045254301656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Thyroid",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Adrenal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Hypophyse",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The hypothalamic-hypophysial portal system secretes hypothalamic hormones to the anterior pituitary lobe, indicating the hypothalamus regulates pituitary hormone release.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The anterior pituitary contains cell types that synthesize and secrete hormones, showing it is a gland that releases hormones under hypothalamic control.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cortical development of the adrenal gland is regulated mostly by ACTH, a hormone produced by the pituitary gland that stimulates cortisol synthesis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Glucocorticoid synthesis is stimulated by adrenocorticotropic hormone (ACTH), a hormone released into the bloodstream by the anterior pituitary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

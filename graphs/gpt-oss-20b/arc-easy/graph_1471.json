@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Outer core, inner core, asthenosphere, lithosphere is the correct order of Earth's layers from the center to the surface.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Asthenosphere, lithosphere, outer core, inner core incorrectly lists Earth's layers from the center to the surface.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Inner core, asthenosphere, lithosphere, outer core are the layers listed in order from the Earth's center to the surface according to the option.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Inner core, outer core, asthenosphere, lithosphere correctly list Earth's layers in order from the center to the surface.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The asthenosphere lies below the lithosphere, at a depth between c. 80 and 200 km below the surface, and extends as deep as 700 km.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The lithosphere-asthenosphere boundary (LAB) is relatively sharp and likely coincides with the onset of partial melting or a change in composition or anisotropy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

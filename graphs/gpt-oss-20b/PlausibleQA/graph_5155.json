@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Vienna",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Prague",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Berlin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city was Wolfgang Amadeus Mozart born in 1756. Iuvavum",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wolfgang Amadeus Mozart was born and raised in Salzburg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wolfgang Amadeus Mozart was born on 27 January 1756 at Getreidegasse 9 in Salzburg.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He was baptised the day after his birth, at St. Rupert's Cathedral in Salzburg.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

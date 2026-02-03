@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Glaciers carried the fossils up the mountains, as scientists concluded from finding an unusual type of fossil clam in rock layers high in the Swiss Alps and the same type in the Rocky Mountains of North America.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Rocky Mountains and the Swiss Alps are both volcanic in origin because an unusual type of fossil clam is found in high rock layers of the Swiss Alps and the same type is also found in the Rocky Mountains of North America.",
+      "strength": 0.40000000003475883
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Clams once lived in mountains, but have since evolved into sea‑dwelling creatures, as inferred from the discovery of an unusual type of fossil clam in high‑altitude rock layers of the Swiss Alps and the same type found in the Rocky Mountains of North America.",
+      "strength": 0.4000000562992237
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The layers of rocks in which the unusual fossil clam was found in the Swiss Alps and in the Rocky Mountains are from the same geologic age.",
+      "strength": 0.3999119072724849
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rock formations separated by great distances but containing the same index fossil species are thereby known to have both formed during the limited time that the species lived.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The presence of the trace fossil Treptichnus pedum was used to define the base of the Cambrian period, but it has since been found in older strata.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Misleading results are produced if the index fossils are incorrectly dated.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "During the Paleozoic, western North America lay underneath a shallow sea, which deposited many kilometers of limestone and dolomite.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Tetons and other north-central ranges contain folded and faulted rocks of Paleozoic and Mesozoic age draped above cores of Proterozoic and Archean igneous and metamorphic rocks ranging in age from 1.2 billion (e.g., Tetons) to more than 3.3 billion years (Beartooth Mountains).",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "They live in both freshwater and marine environments;",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The Early Cambrian fossils Fordilla and Pojetaia are regarded as bivalves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

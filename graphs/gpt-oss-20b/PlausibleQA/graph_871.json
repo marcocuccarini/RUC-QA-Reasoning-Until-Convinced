@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who supported states rights during the civil war. Southern Democrats",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who supported states rights during the civil war. The Democratic Party",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who supported states rights during the civil war. Libertarians",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who supported states rights during the civil war. the Confederacy",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Previous party affiliation played a part in voter selection, predominantly secessionist Democrat or unionist Whig.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Its establishment flowed from and deepened Southern nationalism, which prepared men to fight for 'The Southern Cause'. This 'Cause' included support for states' rights, tariff policy, and internal improvements, but above all, cultural and financial dependence on the South's slavery-based economy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "After the election of Abraham Lincoln, Southern Democrats led the charge to secede from the Union and establish the Confederate States.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Andrew Johnson of Tennessee, the only senator from a state in rebellion to reject secession.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

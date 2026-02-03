@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Scales are what a reptile’s skin is covered in to protect it from drying out.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Bacteria cover a reptile’s skin to protect it from drying out.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oil is a substance that covers reptiles’ skin to protect them from drying out.",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Dye is what reptiles' skin is covered in to protect them from drying out.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Its scales are made of keratin and are used for protection, similar to an armadillo's armor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The scales of all reptiles have an epidermal component (what one sees on the surface), but many reptiles, such as crocodilians and turtles, have osteoderms underlying the epidermal scale.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cells in the epidermis contain a structural matrix of keratin, which makes this outermost layer of the skin almost waterproof",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Cornification is the process of forming an epidermal barrier in stratified squamous epithelial tissue",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

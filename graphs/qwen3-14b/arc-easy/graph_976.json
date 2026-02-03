@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whole milk is the liquid most likely to contain a dissolved gas.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "House paint is the liquid most likely to contain a dissolved gas.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mud puddle is the liquid most likely to contain a dissolved gas.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbonated soda is a liquid that most likely contains a dissolved gas.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carbonation levels range up to 5 volumes of CO2 per liquid volume.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The dissolution of carbon dioxide (CO2) in a liquid, gives rise to effervescence or fizz.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

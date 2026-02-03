@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What drink was invented by oilmen who used to use their tools to stir it. The Drill Bit",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What drink was invented by oilmen who used to use their tools to stir it. The Rigger",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What drink was invented by oilmen who used to use their tools to stir it. The Oil Slick",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What drink was invented by oilmen who used to use their tools to stir it. The screwdriver",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Another unattributed story is that auto workers in the US used to pour vodka in their breakfast orange juice before starting the shift and used screwdrivers to stir the glass.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An unattributed but popular story for the name is that the Americans lacked a spoon and instead used a screwdriver as a stirring stick.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

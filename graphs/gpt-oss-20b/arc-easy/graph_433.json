@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "0.15 m/s² is the average rate of acceleration of the train that travels at 13 m/s and increases its speed to 22 m/s over the next 60 seconds.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "0.21 m/s² is the average rate of acceleration of a train that travels at 13 m/s and increases its speed to 22 m/s over the next 60 seconds.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "0.36 m/s² is the average rate of acceleration of the train that travels at 13 m/s and increases to 22 m/s over 60 seconds.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "0.58 m/s² is the average rate of acceleration of a train that starts at 13 m/s and increases its speed to 22 m/s over 60 seconds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "a = d v / d t = lim Δt→0 (v(t+Δt)-v(t))/Δt.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Consequently, the acceleration is the second derivative of position, often written d²s/dt².",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

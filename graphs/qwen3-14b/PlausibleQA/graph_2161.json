@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Newark Broad Street",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Harrison PATH Station",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Newark Liberty International Airport",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the path train stop in newark. Newark Penn Station",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Newark Penn Station is the western terminus of the Newark–World Trade Center line of the PATH train",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Port Authority of New York and New Jersey conducted a study on extending PATH's Newark–World Trade Center line from Penn Station to Newark Liberty International Airport Station",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. Dolly Parton",
+      "strength": 0.15393744933541414
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. Emmylou Harris",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. Alison Krauss's bandmate",
+      "strength": 0.4000000355407793
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American bluegrass-country singer and fiddler has won 26 Grammy Awards, making her the most awarded female artist (and the third most awarded artist overall) in Grammy history since she recorded for the first time at the age of 14. AKUS",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As of 2025, she has won 27 Grammy Awards from 46 nominations, ranking her fourth behind Beyoncé, Quincy Jones and classical conductor Georg Solti for most Grammy Award wins overall.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Krauss was the singer and female artist with the most awards in Grammy history until Beyoncé won her 28th Grammy in 2021.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dolly Parton has earned 11 Grammy Awards from 55 nominations, ranking her third among female artists in terms of nominations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

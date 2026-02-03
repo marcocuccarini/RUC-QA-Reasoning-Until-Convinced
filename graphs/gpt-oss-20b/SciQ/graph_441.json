@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Distance determines how long a planet’s orbit is around the sun.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Size determines how long a planet's orbit is around the sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Age determines how long a planet's orbit is around the sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Direction determines how long a planet's orbit is around the sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The third law expresses that the farther a planet is from the Sun, the longer its orbital period.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ratio of the square of an object's orbital period with the cube of the semi-major axis of its orbit is the same for all objects orbiting the same primary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

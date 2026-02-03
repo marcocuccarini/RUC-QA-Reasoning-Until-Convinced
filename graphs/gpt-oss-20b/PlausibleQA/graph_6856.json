@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of dance shoe has a specially hardened sole or attached metal plates. Tap Shoe",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of dance shoe has a specially hardened sole or attached metal plates. Ballroom Shoe",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of dance shoe has a specially hardened sole or attached metal plates. Jazz Shoe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of dance shoe has a specially hardened sole or attached metal plates. Hoofer",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Pointe shoes, for instance, are designed for ballet dancing, featuring a stiffened toe box and hardened sole to allow dancers to stand on the tips of their toes.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The sound is made by shoes that have a metal 'tap' on the heel and toe.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The screws are driven into a soundboard – a thin fiberboard integrated into the sole that can be firmly 'gripped' by the screws – to reliably attach the tap to the shoe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

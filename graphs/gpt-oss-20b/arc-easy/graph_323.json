@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Increased fish populations are the most likely result of large‑scale agricultural fertilization on aquatic systems.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "More biodiversity over time is the most likely result of large-scale agricultural fertilization on aquatic systems.",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Less oxygen available for fish is the most likely result of large‑scale agricultural fertilization on aquatic systems.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reduced water levels are the most likely result of large‑scale agricultural fertilization on aquatic systems.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Increased competition for the added nutrients can cause potential disruption to entire ecosystems and food webs, as well as a loss of habitat, and biodiversity of species.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The process of the oversupply of nutrients leading to algae growth and oxygen depletion is called eutrophication.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "This can result in a sharp decrease in available dissolved oxygen for other aquatic life.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

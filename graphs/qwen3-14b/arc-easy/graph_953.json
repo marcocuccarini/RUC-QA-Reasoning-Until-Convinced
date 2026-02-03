@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Amplitude is a sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes for the wave to reach the target and then return to its source.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wavelength is the sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes to reach the target and return to its source.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Frequency is the sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes for the wave to reach the target and return to its source.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Speed is the sound wave characteristic that must be known when using sonar to measure distances underwater by sending a sound wave to a target and measuring the total time it takes for the wave to reach the target and return to its source.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The depth measurement is calculated by multiplying the speed of sound in water (averaging 1,500 meters per second) by the time between emission and echo return.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "To measure the distance to an object, the time from transmission of a pulse to reception is measured and converted into a range using the known speed of sound.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

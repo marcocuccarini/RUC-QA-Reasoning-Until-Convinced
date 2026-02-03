@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Corolla is the term for all of the petals together.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stamen are all of the petals together.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Anthers are all of the petals together.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Stalk is the term used for all of the petals together.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All of the petals of a flower are collectively known as the corolla.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pollen is produced by the male flower or by the male organs of hermaphroditic flowers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

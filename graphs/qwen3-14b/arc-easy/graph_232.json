@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Compounds correctly describe all of the following materials: salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mixtures are the term that correctly describes salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Solutions is the term that correctly describes salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Elements correctly describe all of the following materials: salt water, vinegar, bronze, air, and beach sand.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The substances in a mixture keep their separate properties.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mixtures can be separated by physical methods such as filtration, freezing, and distillation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

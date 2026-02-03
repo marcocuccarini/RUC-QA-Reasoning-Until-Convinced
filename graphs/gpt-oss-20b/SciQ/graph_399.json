@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Underside is where the mouth opening is located on a jellyfish.",
+      "strength": 0.4999088992196018
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The left side is where the mouth opening is located on a jellyfish.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The mouth opening on a jellyfish is located on the right side.",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The mouth opening on a jellyfish is located on the top.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The mouth opens into a central stomach.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The mouth opens into a central stomach, from which four interconnected diverticula radiate outwards.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At its tip is the mouth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

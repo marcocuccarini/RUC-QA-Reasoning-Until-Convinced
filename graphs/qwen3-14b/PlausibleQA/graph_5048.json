@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "kings and queens of england in the 1900s. Edward VII",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "kings and queens of england in the 1900s. Victoria",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "kings and queens of england in the 1900s. George VI",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "kings and queens of england in the 1900s. George V",
+      "strength": 0.5000648415749372
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Edward was succeeded as king by his only surviving son, George V.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Edwardian era, which covered Edward's reign and was named after him, coincided with the start of a new century and heralded significant changes in technology and society.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Portraits of King Edward VII at the National Portrait Gallery, London",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Macaulay, James (editor) (1889). Speeches and addresses of H. R. H. the Prince of Wales: 1863–1888 London: Murray",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

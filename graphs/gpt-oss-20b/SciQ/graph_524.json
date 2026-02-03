@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Velocity is the term for a measure of both speed and direction.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Acceleration is a measure of both speed and direction.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Momentum is the term for a measure of both speed and direction.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Intensity is the term for a measure of both speed and direction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Velocity is a vector quantity, meaning that both magnitude and direction are needed to define it (velocity vector).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In classical mechanics, Newton's second law defines momentum, p, as a vector that is the product of an object's mass and velocity, given mathematically as p = m v.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hypha is the structure from which conidiospores, unicellular or multicellular asexual spores, are released directly from the tip or side.",
+      "strength": 0.14052804500453756
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ganglion is the structure from which unicellular or multicellular conidiospores, a type of asexual spore, are released directly from the tip or side.",
+      "strength": 0.3677550678225764
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Idioma is the structure from which conidiospores, which are unicellular or multicellular asexual spores, are released directly from the tip or side.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Goychay is the tip or side from which conidiospores—unicellular or multicellular asexual spores—are released.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Conidiomata, such as pycnidia and acervuli, are the structures from which conidia are released through openings like the ostiole.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Conidia are borne on specialized stalks called conidiophores, which are distinct from the hypha.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Acervular conidiomata, or acervuli, are cushion-like structures that form within the tissues of a host organism: subcuticular, lying under the outer layer of the plant (the cuticle), intraepidermal, inside the outer cell layer (the epidermis), subepidermal, under the epidermis, or deeper inside the host. Mostly they develop a flat layer of relatively short conidiophores which then produce masses of spores.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The conidial anastomosis tubes are morphologically and physiologically distinct from germ tubes. After conidia are induced to form conidial anastomosis tubes, they grow homing toward each other, and they fuse.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

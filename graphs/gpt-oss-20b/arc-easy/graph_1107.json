@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Grams is the best unit of measurement for the volume of water that students collect in their beakers when they collect pond water.",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Meters are the best unit of measurement for the volume of water students collect from the pond in their beakers.",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Milliliters are the best unit of measurement for the volume of water that students collect from the pond when they collect it in their beakers.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Centimeters are the best unit of measurement for the volume of water that students collect in their beakers when sampling pond water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "One litre of water has a mass of almost exactly one kilogram when measured at its maximal density, which occurs at 3.984 °C.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cubic metres are generally used for non‑liquid commodities, such as sand and gravel, or storage space.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The most commonly used derived unit is the millilitre, defined as one‑thousandth of a litre, and also often referred to by the SI derived unit name 'cubic centimetre'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The litre is defined as one cubic decimetre.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

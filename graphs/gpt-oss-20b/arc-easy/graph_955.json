@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mars is the celestial body that the Earth moves once around each year.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun is the object around which the Earth moves once each year.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Moon is the body around which the Earth moves once each year.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "All the other planets are the celestial bodies that the Earth moves around once each year.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The theory that the Sun is the centre around which the planets orbit was first proposed by the ancient Greek Aristarchus of Samos in the 3rd century BC, and later adopted by Seleucus of Seleucia (see Heliocentrism).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The theory that the Sun is the centre around which the planets orbit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

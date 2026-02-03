@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Long Island Sound separates Long Island from which American state. New York",
+      "strength": 0.49990326586195494
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Long Island Sound separates Long Island from which American state. New Jersey",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Long Island Sound separates Long Island from which American state. Rhode Island",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Long Island Sound separates Long Island from which American state. Conn.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It lies predominantly between the U.S. state of Connecticut to the north and Long Island in New York state to the south.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Bridgeport & Port Jefferson Ferry travels between Bridgeport, Connecticut, and Port Jefferson, New York.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The state's access to the open Atlantic Ocean is both to the west (toward New York City) and to the east (toward the 'race' near Rhode Island).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

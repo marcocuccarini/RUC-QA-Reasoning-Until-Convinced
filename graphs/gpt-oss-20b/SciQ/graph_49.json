@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liverworts are most often found along stream beds.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liverworts are most often found in the ocean.",
+      "strength": 0.4000000000000028
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On mountains, liverworts are most often found.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In deserts, liverworts are most often found.",
+      "strength": 0.20909065576924518
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Today, liverworts can be found in many ecosystems across the planet except the sea and excessively dry environments, or those exposed to high levels of direct solar radiation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They are most common in moist tropical areas.",
+      "strength": 0.6799999235997657
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bryophytes are characteristically limited in size and prefer moist habitats although some species can survive in drier environments.",
+      "strength": 0.7499999860291717
+    },
+    "A7": {
+      "type": "argument",
+      "text": "400-year-old bryophyte specimens left behind by retreating glaciers in Canada are brought back to life in the laboratory.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Regeneration of Little Ice Age bryophytes emerging from a polar glacier with implications of totipotency in extreme environments.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Grasses and low shrubs are the dominant vegetation here and the ground may be covered with lichens.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

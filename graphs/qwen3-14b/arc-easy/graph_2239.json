@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The increased size of the telephone book is the technological change responsible for the need for a new telephone area code in Massachusetts, as recently announced by the telephone company.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The increase in use of modems, fax machines, and cellular phones is responsible for the need for a new telephone area code for Massachusetts, as recently announced by the telephone company.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The increase in use of speed dialing and call waiting is the technological change responsible for the need for a new telephone area code in Massachusetts, as recently announced by the telephone company.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The increased demand for telephone repairs and installation is responsible for the need for a new area code in Massachusetts, as announced by the telephone company.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The widespread adoption of fax, modem, and mobile phone communication, as well as the deregulation of local telecommunication services in the United States during the mid-1990s, increased the demand for telephone numbers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Number allocations had to be made in 10,000-number blocks even when many fewer numbers were required for each new vendor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

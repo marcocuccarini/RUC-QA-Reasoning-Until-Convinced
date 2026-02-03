@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cytoplasm is where DNA is located in prokaryotic cells.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ribosomes are where DNA is located in prokaryotic cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cytoskeleton is where DNA is located in prokaryotic cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mitochondria are not where DNA is located in prokaryotic cells.",
+      "strength": 0.5000648428318698
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The genome in a prokaryote is held within a DNA/protein complex in the cytosol called the nucleoid, which lacks a nuclear envelope.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prokaryotes lack mitochondria. Instead, processes such as oxidative phosphorylation and photosynthesis take place across the prokaryotic cell membrane.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The nucleoid is located within the prokaryotic cell and contains the genetic material.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Prokaryotes lack mitochondria, which are not present in prokaryotic cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

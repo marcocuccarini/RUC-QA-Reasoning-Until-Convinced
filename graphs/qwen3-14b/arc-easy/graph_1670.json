@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Day is the time period on Earth during which two high tides and two low tides occur.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hour is the interval after which two high tides and two low tides occur on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A week is the period during which Earth experiences two high tides and two low tides.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Month is the period in which two high tides and two low tides occur on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ocean tides are cyclic, rising and falling approximately twice a day.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many shorelines experience semi-diurnal tides—two nearly equal high and low tides each day.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

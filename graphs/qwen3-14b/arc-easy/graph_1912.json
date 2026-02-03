@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The initial velocity of the object is a factor that determines the rate of acceleration of an object, along with its mass.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The forces acting on the object, together with its mass, determine the rate of acceleration of an object.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The direction of movement of the object is a factor that determines the rate of acceleration of an object, along with the object's mass.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The change in kinetic energy of the object is a factor that, together with the object's mass, determines the rate of acceleration of an object.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Force equals the product of the mass and the time derivative of the velocity, which is the acceleration: F = m a.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The acceleration is the same for all bodies, independently of their mass.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The force of gravity on an object is directly proportional to its mass: F = mg.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

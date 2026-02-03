@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "According to the World Meteorological Organisation and the UK Met Office, what is the highest number on the Beaufort scale, representing hurricane force. 15",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "According to the World Meteorological Organisation and the UK Met Office, what is the highest number on the Beaufort scale, representing hurricane force. 8",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "According to the World Meteorological Organisation and the UK Met Office, what is the highest number on the Beaufort scale, representing hurricane force. 18",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "According to the World Meteorological Organisation and the UK Met Office, what is the highest number on the Beaufort scale, representing hurricane force. 12",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "World Meteorological Organization Manual on Marine Meteorological Services (2012 edition) defined the Beaufort Scale only up to force 12 and there was no recommendation on the use of the extended scale.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Beaufort scale was extended in 1946 when forces 13 to 17 were added.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A nail rusting is an example of a new substance being formed.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A wall being painted is an example of a new substance being formed.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water changing to steam is an example of a new substance being formed.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Paper being folded is an example of a new substance being formed.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rust is a general name for a complex of oxides and hydroxides of iron, which occur when iron or some alloys that contain iron are exposed to oxygen and moisture for a long period of time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When iron rusts, the oxides take up more volume than the original metal; this expansion can generate enormous forces, damaging structures made with iron.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which book begins 'When he was nearly thirteen my brother Jem got his arm badly broken'. To Kill a Mockingbird's lesser-known counterpart",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which book begins 'When he was nearly thirteen my brother Jem got his arm badly broken'. The Secret Garden",
+      "strength": 0.40000003811777657
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which book begins 'When he was nearly thirteen my brother Jem got his arm badly broken'. The Adventures of Tom Sawyer",
+      "strength": 0.40000003811777657
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which book begins 'When he was nearly thirteen my brother Jem got his arm badly broken'. Tkam",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jem suffers a fractured arm and is knocked unconscious in the struggle",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The story, told by Jean Louise 'Scout' Finch, takes place during three years (1933–35) of the Great Depression in the fictional town of Maycomb, Alabama",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "To Kill a Mockingbird is a novel.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "To Kill a Mockingbird was archived on June 18, 2013, at the Wayback Machine in the Encyclopedia of Alabama.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

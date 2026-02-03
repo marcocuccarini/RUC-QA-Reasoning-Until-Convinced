@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nucleus is the cellular organelle in which pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during a biochemical reaction.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cytoplasm is the cellular organelle where pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during the biochemical reaction.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mitochondria are the cellular organelles where pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during a biochemical reaction.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Endoplasmic reticulum is the cellular organelle where pyruvate (C3H4O3) is converted into carbon dioxide (CO2) and water (H2O) during this biochemical reaction.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The pyruvate dehydrogenase complex (PDC) is located in the mitochondria of eukaryotic cells and in the cytosol of prokaryotes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the presence of oxygen, acetyl-CoA enters the citric acid cycle (Krebs cycle) inside the mitochondrial matrix, and is oxidized to CO2 while at the same time reducing NAD to NADH.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

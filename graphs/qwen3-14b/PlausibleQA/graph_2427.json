@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Violetlight",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Ultralux",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Actinic Radiation",
+      "strength": 0.5000911007803982
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is another name for ultra-violet light. Blacklite",
+      "strength": 0.5000911007803982
+    },
+    "A4": {
+      "type": "argument",
+      "text": "blacklight (365nm)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Actinic light denotes light from solar or other sources that can cause photochemical reactions such as photosynthesis in a species",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "blacklight is a lamp that emits long-wave (UV-A) ultraviolet light",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "AgNa is a product of the reaction between silver nitrate (AgNO₃) and sodium chloride (NaCl).",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "ClNO₃ is a product of the reaction between silver nitrate and sodium chloride, AgNO₃ + NaCl.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Na₃NO is a product of the reaction between silver nitrate and sodium chloride, as represented by the equation AgNO₃ + NaCl → Na₃NO.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "AgCl is a product of the reaction between silver nitrate and sodium chloride: AgNO₃ + NaCl → AgCl.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "AgNO3 + NaCl  →  AgCl↓ + NaNO3",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ag+(aq) + Cl−(aq)  →  AgCl(s)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

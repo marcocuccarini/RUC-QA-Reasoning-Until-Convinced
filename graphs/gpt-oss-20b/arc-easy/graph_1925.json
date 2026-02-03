@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The lysosome of an engulfed prokaryotic cell is the organelle from which the outer membrane of the chloroplast originated, according to the endosymbiotic theory.",
+      "strength": 0.3676470590219466
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The chloroplast of an engulfed prokaryotic cell is the organelle from which the outer membrane of the chloroplast originated according to the endosymbiotic theory.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The cell membrane of an eukaryotic host cell is the organelle from which the outer membrane of the chloroplast originated according to the endosymbiotic theory.",
+      "strength": 0.0924680255913004
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The chloroplast of an eukaryotic host cell is the organelle from which the outer membrane of the chloroplast originated according to the endosymbiotic theory.",
+      "strength": 0.40000009282172766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The chloroplasts come via endosymbiosis by engulfment of a photosynthetic cyanobacterium by the eukaryotic, already mitochondriate cell.",
+      "strength": 0.5999999999734658
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Transport proteins called porins are found in the outer membranes of mitochondria and chloroplasts and also bacterial cell membranes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Genome comparisons suggest a close relationship between plastids and cyanobacteria.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Both chloroplast membranes are homologous to the cyanobacterium's original double membranes.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The two innermost lipid‑bilayer membranes that surround all chloroplasts correspond to the outer and inner membranes of the ancestral cyanobacterium's gram negative cell wall, and not the phagosomal membrane from the host, which was probably lost.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The plastid of photosynthetic Paulinella species is often referred to as the 'cyanelle' or chromatophore, and had a much more recent endosymbiotic event about 90–140 million years ago; it is the only known primary endosymbiosis event of cyanobacteria outside of the Archaeplastida.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

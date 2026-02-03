@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fluorocarbons from aerosol spray cans are the pollutant in the atmosphere that causes most of the acid rain, which can damage limestone buildings and marble statues and harm organisms living in ponds and other ecosystems.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrous oxide from volcanic eruptions is the pollutant in the atmosphere that causes most of the acid rain, which can damage limestone buildings and marble statues and harm organisms living in ponds and other ecosystems.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sulfur dioxide from burning fossil fuels is the pollutant in the atmosphere that causes most of the acid rain, which can damage limestone buildings, marble statues, and harm organisms living in ponds and other ecosystems.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Soil particles from the use of farm equipment are the pollutant in the atmosphere that causes most of the acid rain, which can damage limestone buildings and marble statues and harm organisms living in ponds and other ecosystems.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The usual anthropogenic sources are sulfur dioxide and nitrogen oxide. They react with water (as does carbon dioxide) to give solutions with pH < 5.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Acid rain has been shown to have adverse impacts on forests, freshwaters, soils, microbes, insects and aquatic life-forms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Shania Twain",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Jewel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Sarah McLachlan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who made the 1995 album 'Jagged Little Pill' which sold 33 million copies. Alanis",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "After relocating to Los Angeles, she released the alternative rock album Jagged Little Pill (1995), which became one of the best-selling albums of all time and has appeared on several all-time lists.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jagged Little Pill sold more than 16 million copies in the U.S.; it sold 33 million worldwide, making it the second biggest-selling album by a female artist (behind Shania Twain's Come On Over).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

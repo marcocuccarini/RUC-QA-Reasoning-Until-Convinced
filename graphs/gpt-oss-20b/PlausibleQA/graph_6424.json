@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). Jacques Anquetil",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). Fausto Coppi",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). Bernard Hinault",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "One question, three answers. Which three cyclists have won this award? (In any order.). TOM SIMPSON",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jacques Anquetil won the Tour de France five times, in 1957 and from 1961 to 1964.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Anquetil won eight Grand Tours in his career, which was a record when he retired and was surpassed only by Eddy Merckx and Bernard Hinault.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

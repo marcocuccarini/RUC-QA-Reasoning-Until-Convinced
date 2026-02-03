@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cloning is the process during which mutations that occur in sex cells can be passed from parent to offspring.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Budding is the process during which mutations that occur in sex cells can be passed from parent to offspring.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Binary fission is the process during which mutations that occur in sex cells can be passed from parent to offspring.",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sexual reproduction is the process during which mutations that occur in sex cells can be passed from parent to offspring.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sexual reproduction does not occur in prokaryotes, unicellular organisms without cell nuclei, such as bacteria and archaea.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mutations in germ cells are passed on to offspring when a mutated sperm or oocyte combine to form a zygote.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Binary fission occurs in prokaryotes, which do not have sex cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

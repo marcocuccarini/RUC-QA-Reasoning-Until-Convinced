@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Protons are the basic units of matter that have the same properties as an element.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrons are the basic units of matter that have the same properties as an element.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Atoms are the basic units of matter that have the same properties as an element.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Neutrons are the basic units of matter that have the same properties as an element.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The chemical elements are distinguished from each other by the number of protons that are in their atoms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the brightest star in our celestial sphere. Canopus",
+      "strength": 0.2500000897449246
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the brightest star in our celestial sphere. Alpha Centauri",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the brightest star in our celestial sphere. Vega",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the brightest star in our celestial sphere. Sirus",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sirius is the brightest star in the night sky",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sirius is almost twice as bright as Canopus, the next brightest star",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sirius will continue to be the brightest star as seen from Earth (other than the Sun) for the next 210,000 years.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Alpha Centauri is the third-brightest star in the night麂, outshone by only Sirius and Canopus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A marsupial is a therian mammal in which the embryo is born at an early, immature stage.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Rodent is a therian mammal in which the embryo is born at an early, immature stage.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bat is a therian mammal in which the embryo is born at an early, immature stage.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carnivore is a therian mammal in which the embryo is born at an early, immature stage.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The baby (joey) is born in a fetal state, equivalent to an 8–12 week human fetus, blind, furless, and small in comparison to placental newborns: sizes range from 4–800g+.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Marsupials are altricial animals, needing intensive care following birth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

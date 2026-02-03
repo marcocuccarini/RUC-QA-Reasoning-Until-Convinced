@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrons in the outer shell are the number that the atomic number of an element refers to.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neutrons in the outer shell are the number that an element's atomic number refers to.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrons in the nucleus is the atomic number of an element that refers to the number of electrons in the nucleus.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Protons in the nucleus are the number that the atomic number of an element refers to.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For ordinary nuclei composed of protons and neutrons, this is equal to the proton number (np) or the number of protons found in the nucleus of every atom of that element.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In an ordinary uncharged atom, the atomic number is also equal to the number of electrons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

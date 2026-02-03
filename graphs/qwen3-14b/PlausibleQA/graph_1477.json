@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Calvados apple brandy is traditionally produced in which country. Italy",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Calvados apple brandy is traditionally produced in which country. United States",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Calvados apple brandy is traditionally produced in which country. Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Calvados apple brandy is traditionally produced in which country. FRANCE",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Calvados is a brandy from Normandy in France, made from apples and/or pears.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Like many French wines, calvados is governed by appellation contrôlée regulations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

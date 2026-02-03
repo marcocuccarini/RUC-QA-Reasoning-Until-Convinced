@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gravitational potential energy is the energy form that downhill skiers gain more of than the small initial kinetic energy, giving them little advantage from a running start.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravitational kinetic energy is the energy form in which downhill skiers gain little advantage from a running start because their initial kinetic energy is small compared with the gain in gravitational kinetic energy.",
+      "strength": 0.5999999622615022
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical energy is the energy form that downhill skiers gain more from than their initial kinetic energy, which is why a running start gives little advantage.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Thermal energy is the other energy form whose gain far exceeds the initial kinetic energy, so downhill skiers gain little advantage from a running start because the initial kinetic energy is small compared with the gain in thermal energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gravitational potential energy increases when two objects are brought further apart and is converted to kinetic energy as they are allowed to fall towards each other.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since the acceleration due to gravity is g=GM/R^2, this can be simplified to ΔU≈mgh.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Another practical use is utilizing gravitational potential energy to descend (perhaps coast) downhill in transportation such as the descent of an automobile, truck, railroad train, bicycle, airplane, or fluid in a pipeline.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Roller coasters are an entertaining way to utilize potential energy – chains are used to move a car up an incline (building up gravitational potential energy), to then have that energy converted into kinetic energy as it falls.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

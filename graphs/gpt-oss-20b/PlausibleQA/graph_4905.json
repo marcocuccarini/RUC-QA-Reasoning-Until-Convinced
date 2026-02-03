@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sign Of Four was a detective story written by which author. Arthur Conan Doyle",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sign Of Four was a detective story written by which author. Agatha Christie",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Sign Of Four was a detective story written by which author. Edgar Allan Poe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Sign Of Four was a detective story written by which author. Doylean",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Sign of the Four, also called The Sign of Four, is an 1890 detective novel, and it is the second novel featuring Sherlock Holmes by British writer Sir Arthur Conan Doyle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sir Arthur Conan Doyle described how he was commissioned to write the story over a dinner with Joseph Marshall Stoddart, managing editor of the American publication Lippincott's Monthly Magazine, at the Langham Hotel in London on 30 August 1889.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

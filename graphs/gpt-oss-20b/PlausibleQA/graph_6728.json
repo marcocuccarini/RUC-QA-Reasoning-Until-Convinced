@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is harvested from Hevea brasiliensis, whose other plant names separately feature the words Para and India. Rubber",
+      "strength": 0.5999999999648918
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is harvested from Hevea brasiliensis, whose other plant names separately feature the words Para and India. Seeds",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is harvested from Hevea brasiliensis, whose other plant names separately feature the words Para and India. Timber",
+      "strength": 0.6322430332630662
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is harvested from Hevea brasiliensis, whose other plant names separately feature the words Para and India. Latex",
+      "strength": 0.7499426582224752
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the milky latex extracted from the tree is the primary source of natural rubber.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "rubber trees are generally felled when they reach the age of 25 to 30 years.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the latex extracted from it was called 'caucho'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A properly managed tree responds to wounding by producing more latex for several years.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The economic life of rubber trees in plantations is around 32 years, with up to 7 years being an immature phase and about 25 years of productive phase.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

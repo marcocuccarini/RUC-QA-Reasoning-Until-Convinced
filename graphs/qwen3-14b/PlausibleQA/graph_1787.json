@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Maryland",
+      "strength": 0.3200001734557039
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Virginia",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Delaware",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what state is washington d.c. located. Washington",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As such, Washington, D.C., is not part of any state, and is not one itself.",
+      "strength": 0.749999966652878
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Maryland... borders the national capital and federal district of Washington, D.C. to the southwest.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Georgetown, Maryland, which was ceded to the United States federal government in 1790 to form the Washington, D.C.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It is bordered by Maryland and Washington, D.C. to the northeast",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

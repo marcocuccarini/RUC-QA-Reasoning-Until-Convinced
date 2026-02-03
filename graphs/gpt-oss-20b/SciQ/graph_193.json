@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is made of molecules of many different gases, and is something we usually can’t see, taste, or smell; we can only feel it when it moves.",
+      "strength": 0.8460587709477708
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light is made of molecules of many different gases, and it is something we usually can’t see, taste, or smell; we can only feel it when it moves.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sound is made of molecules of many different gases, and is something we usually can’t see, taste, or smell; we can only feel it when it moves.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "the remaining gases are often referred to as trace gases, among which are other greenhouse gases, principally carbon dioxide, methane, nitrous oxide, and ozone.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Besides argon, other noble gases, neon, helium, krypton, and xenon are also present.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Earth's atmosphere contains many trace gas species that vary significantly depending on nearby sources and sinks.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "H2S has a characteristic foul odor of rotten eggs and can be smelt in concentrations as low as 0.47 ppb.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Wind is the natural movement of air or other gases relative to a planet's surface.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

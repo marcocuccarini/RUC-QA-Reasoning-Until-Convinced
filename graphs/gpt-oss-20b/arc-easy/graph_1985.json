@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A virus is the kind of agent Dr. Wagner is studying, because she discovers that one of its structures is double‑stranded RNA.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A protist is the newly discovered, disease‑causing agent that Dr. Wagner is studying, because she determined that one of its structures is double‑stranded RNA.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A fungus is the kind of disease-causing agent Dr. Wagner is studying, which she determined to contain double‑stranded RNA.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A bacterium is the kind of agent Dr. Wagner is studying, because she discovered that one of its structures is double‑stranded RNA.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rotaviruses, known globally as a common cause of gastroenteritis in young children, are dsRNA viruses.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since cells do not produce double‑stranded RNA during normal nucleic acid metabolism, natural selection has favored the evolution of enzymes that destroy dsRNA on contact.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

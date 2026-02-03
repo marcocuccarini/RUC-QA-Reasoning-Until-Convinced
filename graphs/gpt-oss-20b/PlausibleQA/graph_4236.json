@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Judge",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Lawyer",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Diplomat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who would take silk as part of their job. Barrister",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Successful applicants are normally barristers (or, in Scotland, advocates) with at least 10-15 years of experience.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They wear the same black frock coat and waistcoat worn when appearing in court (never the 'bum freezer', however) but add lace at the wrists and a lace stock at the collar.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "U-turn lets QC title live on for now",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

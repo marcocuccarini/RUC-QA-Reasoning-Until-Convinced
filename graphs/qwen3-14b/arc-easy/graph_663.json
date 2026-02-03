@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Radiation is most responsible for the uneven heating of the air in the atmosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Convection is the process most responsible for the uneven heating of the air in the atmosphere.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Conduction is the process most responsible for the uneven heating of the air in the atmosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Condensation is most responsible for the uneven heating of the air in the atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Convective transport of heat and evaporative transport of latent heat both remove heat from the surface and redistribute it in the atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The greenhouse effect is a process by which thermal radiation from a planetary surface is absorbed by atmospheric greenhouse gases and clouds, and is re-radiated in all directions, resulting in a reduction in the amount of thermal radiation reaching space relative to what would reach space in the absence of absorbing materials.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

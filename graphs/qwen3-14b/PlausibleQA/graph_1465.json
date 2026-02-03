@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Parliamentary Democracy",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Federal Republic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Presidential System",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Constitutional republic",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The workings of the government of France are based on the principle of collegiality.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The government is responsible to the French Parliament. In particular, the government must assume responsibility for its actions before the National Assembly, and the National Assembly can dismiss the government with a motion of censure.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Fifth Republic emerged from the collapse of the Fourth Republic, replacing the former parliamentary republic with a semi-presidential (or dual-executive) system that split powers between a president as head of state and a prime minister as head of government.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Fifth Republic is France's current republican system of government. It was established on 4 October 1958 by Charles de Gaulle under the Constitution of the Fifth Republic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

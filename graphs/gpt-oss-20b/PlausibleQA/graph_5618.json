@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country is the world's largest producer of Tobacco. India",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country is the world's largest producer of Tobacco. United States",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country is the world's largest producer of Tobacco. Brazil",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country is the world's largest producer of Tobacco. 中国",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "China's share of the world market increased from 17% in 1971 to 47% in 1997.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Top producers are China (36.3%), India (12.9%), Brazil (11.9%) and Zimbabwe (3.5%).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

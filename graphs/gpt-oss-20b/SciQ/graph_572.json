@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mechanoreceptors are stimulated when statoliths settle to the low point in the chamber.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dendrites are stimulated when statoliths settle to the low point in the chamber.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Axons are stimulated when statoliths settle to the low point in the chamber.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nociceptors are stimulated at the low point in the chamber when statoliths settle there.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When the head is tilted, the otolithic membrane sags and bends the stereocilia, stimulating the hair cells.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "With the head erect, the otolithic membrane bears directly down on the hair cells and stimulation is minimal.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Similar balance receptors called statocysts can be found in many invertebrate groups but are not contained in the structure of an inner ear.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The weight and inertia of these small particles causes them to stimulate hair cells when the head moves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

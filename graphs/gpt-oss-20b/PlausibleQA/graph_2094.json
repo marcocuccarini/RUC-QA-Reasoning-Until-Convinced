@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who became British Prime Minister in October 1922. David Lloyd George",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who became British Prime Minister in October 1922. Winston Churchill",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who became British Prime Minister in October 1922. Stanley Baldwin",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who became British Prime Minister in October 1922. Boner law",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Upon Law's resignation for health reasons in May 1923, Baldwin became prime minister and leader of the Conservative Party.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Baldwin was one of the prime movers in the withdrawal of Conservative support from Lloyd George; he subsequently became Chancellor of the Exchequer in Bonar Law's Conservative ministry.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Andrew Bonar Law was Prime Minister of the United Kingdom from October 1922 to May 1923.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Law took both jobs on 23 October 1922.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

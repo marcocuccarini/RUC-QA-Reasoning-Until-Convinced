@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cancer is the disease caused when proto‑oncogenes change into oncogenes.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Infections are caused by proto‑oncogenes that can change into oncogenes.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "DNA is what proto‑oncogenes can change into oncogenes that cause.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mutations are what proto‑oncogenes can change into oncogenes that cause.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Malignant transformation can occur through the formation of novel oncogenes, the inappropriate over-expression of normal oncogenes, or by the under-expression or disabling of tumor suppressor genes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vaccination against the hepatitis B virus and the human papillomavirus have been shown to nearly eliminate the risk of cancers caused by these viruses in persons successfully vaccinated prior to infection.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

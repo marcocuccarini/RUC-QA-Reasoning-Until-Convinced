@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Europe",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Africa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Europe and Africa",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what two continents is turkey on. Asia",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Turkey's Asian side covers 97% of its surface, and is often called Anatolia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Turkey is a country mainly located in Anatolia in West Asia, with a relatively small part called East Thrace in Southeast Europe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

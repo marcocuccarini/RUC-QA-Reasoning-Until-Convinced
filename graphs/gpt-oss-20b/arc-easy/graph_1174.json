@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Metal is most likely covered by plastic because plastic conducts very little thermal energy or electricity.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wood would most likely be covered with plastic because plastic conducts very little thermal energy or electricity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Solids are most likely covered by plastic because plastic conducts very little thermal energy or electricity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Liquids would most likely be covered by plastic because plastic conducts very little thermal energy or electricity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Engineering plastics are more robust and are used to manufacture vehicle parts, building and construction materials, and machine parts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "While a conductivity of up to 80 kilosiemens per centimeter (kS/cm) in stretch-oriented polyacetylene has been achieved, it does not approach that of most metals. For example, copper has a conductivity of several hundred kS/cm.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The act of insulation is accomplished by encasing an object in material with low thermal conductivity in high thickness.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

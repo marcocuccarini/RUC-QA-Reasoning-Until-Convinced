@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrochemical process is what corrosion is usually defined as: the degradation of metals due to an electrochemical process.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Crystalline process is the cause of corrosion, which is the degradation of metals.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nuclear process is what corrosion is usually defined as the degradation of metals due to.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oscillatory process is what corrosion is usually defined as the degradation of metals due to.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Corrosion means electrochemical oxidation of a metal reacting with an oxidant such as oxygen (O2, gaseous or dissolved), or H3O+ ions (H+, hydrated protons) present in aqueous solution.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Corrosion can also occur in materials other than metals, such as ceramics or polymers, although, in this context, the term degradation is more common.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Corrosion is an electrochemical process, which reveals itself as rust or tarnish on metals like iron or copper and their respective alloys, steel and brass.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Iron corrosion takes place in an acid medium; H+ ions come from reaction between carbon dioxide in the atmosphere and water, forming carbonic acid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

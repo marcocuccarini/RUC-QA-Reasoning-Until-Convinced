@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what countries makes up the uk. Scotland",
+      "strength": 0.6952283029509383
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what countries makes up the uk. Ireland",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what countries makes up the uk. England",
+      "strength": 0.7238549573478171
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what countries makes up the uk. Wales",
+      "strength": 0.5690738057715261
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The United Kingdom comprises England, Scotland, Wales and Northern Ireland",
+      "strength": 0.4000409734979248
+    },
+    "A5": {
+      "type": "argument",
+      "text": "England is a country that is part of the United Kingdom",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is bordered by two other countries of the United Kingdom: to the north by Scotland and to the west by Wales",
+      "strength": 0.4000000000181458
+    },
+    "A7": {
+      "type": "argument",
+      "text": "To the south-east, Scotland has its only land border, which is 96 miles (154 km) long and shared with England",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Wales is a country that is part of the United Kingdom",
+      "strength": 0.4000409734979248
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The UK submission defines the UK as including Wales as a principality",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The UK submission defines the UK as including Northern Ireland as a province",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A8",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

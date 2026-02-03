@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decomposers are black bears that eat nuts, berries, honey, insects, and fish.",
+      "strength": 0.25009176364520974
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Herbivores are animals that, like black bears, eat a diet consisting of nuts, berries, honey, insects, and fish.",
+      "strength": 0.4000000351871426
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Black bears are omnivores, eating a diet that includes nuts, berries, honey, insects, and fish.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Prey are black bears that eat nuts, berries, honey, insects, and fish.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Herbivores form an important link in the food chain because they consume plants to digest the carbohydrates photosynthetically produced by a plant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Decomposers are organisms that break down dead organisms and release the nutrients from the dead matter into the environment around them.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The term 'decomposer' refers to a role in an ecosystem, not to a particular class or type of organism, or even to a specific capacity of those organisms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

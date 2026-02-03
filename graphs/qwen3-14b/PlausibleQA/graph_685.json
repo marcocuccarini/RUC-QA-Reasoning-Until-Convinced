@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Yigal Amir assassinated whom in 1995. Yitzhak Shamir",
+      "strength": 0.4000000113666171
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Yigal Amir assassinated whom in 1995. Shimon Peres",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Yigal Amir assassinated whom in 1995. Ariel Sharon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Yigal Amir assassinated whom in 1995. Rabbin",
+      "strength": 0.32009235567703953
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Yigal Amir assassinated Yitzhak Rabin in 1995",
+      "strength": 0.7499703572908639
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Yigal Amir assassinated the incumbent prime minister of Israel",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Yigal Amir was tried for Rabin's murder",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Yigal Amir was convicted and sentenced to life imprisonment for Rabin's murder",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Life Insurance",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Flood Insurance",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Health Insurance",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "English economist and physician Nicholas Barbon helped to pioneer which type of insurance in 1666. Fire Insurance",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1681, economist Nicholas Barbon and eleven associates established the first fire insurance company, the 'Insurance Office for Houses', at the back of the Royal Exchange to insure brick and frame homes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fire insurance is documented in the EH.Net Encyclopedia of Economic History.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

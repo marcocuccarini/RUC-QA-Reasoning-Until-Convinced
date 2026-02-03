@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Simple harmonic oscillator is an uncomplicated type of device that consists of an object attached to a spring sliding on a frictionless surface.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wheel and axle is an uncomplicated type of an object attached to a spring sliding on a frictionless surface.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pendulum is an uncomplicated type of device that consists of an object attached to a spring sliding on a frictionless surface.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Atomic watch is an uncomplicated type of an object attached to a spring sliding on a frictionless surface.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A mass m attached to a spring of spring constant k exhibits simple harmonic motion in closed space.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other phenomena can be modeled by simple harmonic motion, including the motion of a simple pendulum, although for it to be an accurate model, the net force on the object at the end of the pendulum must be proportional to the displacement (and even so, it is only a good approximation when the angle of the swing is small; see small-angle approximation).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

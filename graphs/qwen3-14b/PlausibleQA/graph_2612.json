@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The town of Tobermory is on which Scottish island. Skye",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The town of Tobermory is on which Scottish island. Arran",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The town of Tobermory is on which Scottish island. Bute",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The town of Tobermory is on which Scottish island. Mull",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tobermory, Mull, the chief town of the Isle of Mull in Scotland",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tobermorite, a calcium silicate hydrate mineral found on Mull, Scotland",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Changes in nuclei are what the term “decay” in chemistry refers to with regards to atoms.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pressures in nuclei refer to the term decay in chemistry with regards to atoms.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Destruction of nuclei is what the term decay refers to in chemistry with regards to atoms.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Separation of nuclei is what the term decay in chemistry refers to with regards to atoms.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Radioactive decay is the process by which an unstable atomic nucleus loses energy by radiation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The decay is a nuclear transmutation resulting in a daughter containing a different number of protons or neutrons (or both).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

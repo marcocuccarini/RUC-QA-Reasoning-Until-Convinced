@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bacterial and eukaryotic cells are the kinds of cells in which polyribosomes are found.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chloroplasts and nuclei are the kinds of cells where polyribosomes are found.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Polyribosomes are found in prokaryotic and eukaryotic cells.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Polyribosomes are found in yeast and prokaryotic cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prokaryotic Bacterial polysomes have been found to form double-row structures.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eukaryotic polysomes exhibit linear configurations.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Eukaryotic 3-D polyribosomes are similar to prokaryotic 3-D polyribosomes in that they are 'densely packed left-handed helices with four ribosomes per turn'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Polysomes are present in archaea, but not much is known about the structure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Japanese company has bought Horizon Nuclear Power and so has the contract to build nuclear power stations in Britain from 2015. Toshiba",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Japanese company has bought Horizon Nuclear Power and so has the contract to build nuclear power stations in Britain from 2015. Mitsubishi Heavy Industries",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Japanese company has bought Horizon Nuclear Power and so has the contract to build nuclear power stations in Britain from 2015. Fuji Electric",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Japanese company has bought Horizon Nuclear Power and so has the contract to build nuclear power stations in Britain from 2015. 日立",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In October 2012, Hitachi agreed to acquire the United Kingdom-based nuclear energy company Horizon Nuclear Power, which plans to construct up to six nuclear power plants in the UK, from E.ON and RWE for £700 million.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hitachi also owns Horizon Nuclear Power, which was originally expected to construct nuclear power stations in the United Kingdom under a British government contract, but later withdrew from these projects after investing nearly £2 billion.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In January 2016, Hitachi announced a new UK company, Hitachi Nuclear Energy Europe, to lead a proposed joint venture with Bechtel and JGC Corporation, to cover the engineering, procurement and construction of Horizon's nuclear plants in the UK.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

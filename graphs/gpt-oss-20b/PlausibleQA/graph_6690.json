@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Minerva",
+      "strength": 0.4999050903425177
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Juno",
+      "strength": 0.2762429066509674
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Victoria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the Roman goddess of war, regarded as the sister of Mars. Bellona",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bellona was originally an ancient Sabine goddess of war identified with Nerio, the consort of the war god Mars",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He is the son of Jupiter and Juno.",
+      "strength": 0.4000000438458796
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Jupiter places his son born by a mortal woman, the infant Hercules, on Juno's breast while she is asleep so the baby will drink her divine milk and thus become immortal, an act which would endow the baby with godlike qualities.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Minerva, goddess of wisdom, war, the arts, industries and trades, and one of the Dii Consentes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

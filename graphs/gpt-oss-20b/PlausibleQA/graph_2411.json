@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which London magazine did Sherlock Holmes first appear. The Illustrated London News",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which London magazine did Sherlock Holmes first appear. The Graphic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which London magazine did Sherlock Holmes first appear. Cassell's Magazine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which London magazine did Sherlock Holmes first appear. Strand",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Sherlock Holmes short stories by Arthur Conan Doyle were first published in The Strand in the UK.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some of the stories were previously or simultaneously published in US magazines, while several were first published in the United States in the US edition of The Strand Magazine a month after being published in the UK edition.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

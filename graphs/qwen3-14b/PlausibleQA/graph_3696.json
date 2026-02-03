@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the senior senator of louisiana. David Vitter",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the senior senator of louisiana. John Breaux",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the senior senator of louisiana. Buddy Roemer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the senior senator of louisiana. Mary Landrieu",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2004, Landrieu became Louisiana's senior senator upon the retirement of John Breaux.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "John Breaux retired in 2004, making him no longer the senior senator.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

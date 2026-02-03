@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The energy in each trophic level of an energy pyramid has about 5% of the energy from the preceding level.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It, referring to the energy in each trophic level of an energy pyramid, has about 10% of the energy from the level below it.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Each trophic level of an energy pyramid contains about 15% of the energy from the level below it.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The energy in each trophic level of an energy pyramid has about 20% of the energy from the preceding level.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to this law, during the transfer of organic food energy from one trophic level to the next higher level, only about ten percent of the transferred energy is stored as flesh.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The net production at one trophic level is 1/8 or approximately ten percent that of the trophic level before it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is the resultant waste product of photosynthesis.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Carbon is the resultant waste product of photosynthesis.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Argon is the resultant waste product of photosynthesis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sulfur is the resultant waste product of photosynthesis.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oxygen is a waste product of light-dependent reactions",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "some microbes use sunlight to oxidize arsenite to arsenate: The equation for this reaction is: CO2carbondioxide + (AsO3−3)arsenite + photonslight energy → (AsO3−4)arsenate + COcarbonmonoxide(used to build other compounds in subsequent reactions)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

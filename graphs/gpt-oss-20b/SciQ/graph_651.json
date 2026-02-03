@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Autoimmune diseases occur when the immune system attacks normal body cells.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gastrointestinal diseases are the type of diseases that occur when the immune system attacks normal body cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Liver disease is the type of disease that occurs when the immune system attacks normal body cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Inflammatory diseases occur when the immune system attacks normal body cells.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An autoimmune disease is a condition that results from an anomalous response of the adaptive immune system, wherein it mistakenly targets and attacks healthy, functioning parts of the body as if they were foreign organisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Autoimmune diseases are a separate class from autoinflammatory diseases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

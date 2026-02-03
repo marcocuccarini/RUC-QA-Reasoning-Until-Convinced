@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A membrane encloses all types of cells.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Substrate encloses all types of cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cell wall encloses all types of cells.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Stoma are the structures that enclose all types of cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cell membrane is a semipermeable biological membrane that separates and protects the interior of a cell from the outside environment (the extracellular space).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fungi, bacteria, most archaea, and plants also have a cell wall, which provides a mechanical support to the cell and precludes the passage of larger molecules.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

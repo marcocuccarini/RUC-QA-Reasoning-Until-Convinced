@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Perth Airport",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Paisley Airport",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Peterborough Airport",
+      "strength": 0.25000009340748447
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Prestwick",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Peterborough Regional Airport has IATA code YPQ",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Peterborough Regional Airport is located in Canada",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Glasgow Prestwick Airport (IATA: PIK, ICAO: EGPK), commonly referred to as Prestwick Airport",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

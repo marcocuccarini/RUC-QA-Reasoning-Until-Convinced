@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the only judge on 'X Factor' to return for series eight in 2011. Simon Cowell",
+      "strength": 0.25000009340748447
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the only judge on 'X Factor' to return for series eight in 2011. Cheryl Cole",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the only judge on 'X Factor' to return for series eight in 2011. Dannii Minogue",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the only judge on 'X Factor' to return for series eight in 2011. LOUIS WALSH",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cowell was replaced by Gary Barlow",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2011, UK series eight winners Little Mix signed to Cowell's label",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Louis Walsh returned to the judging panel for series eight.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Dannii Minogue left due to a clash with Australia's Got Talent.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

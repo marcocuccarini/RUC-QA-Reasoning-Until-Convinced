@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). Paramount",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). Universal",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). MGM",
+      "strength": 0.2500954907572107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What film production company was named after brothers Harry (born Hirsz), Albert (born Aaron), Sam (born Szmul), and Jack (born Itzhak). Warners",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "To provide films for his theaters, Loew founded Metro-Goldwyn-Mayer (MGM) in 1924, by merging the earlier firms Metro Pictures, Goldwyn Pictures, and Louis B. Mayer Productions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "MGM was formed by Marcus Loew by combining Metro Pictures, Goldwyn Pictures, and Louis B. Mayer Pictures into one company.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

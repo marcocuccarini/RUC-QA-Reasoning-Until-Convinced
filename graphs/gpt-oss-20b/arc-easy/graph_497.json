@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the brain, good bacteria grow to help keep people healthy.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Good bacteria grow in the blood to help keep people healthy.",
+      "strength": 0.4000000909837343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Good bacteria grow on the skin to help keep people healthy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On the bones, good bacteria grow to help keep people healthy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Skin flora is usually non-pathogenic, and either commensal or mutualistic (offer a benefit).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "However, resident microbes can cause skin diseases and enter the blood system, creating life‑threatening diseases, particularly in immunosuppressed people.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Disease can result when microbes populate the blood.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Intestinal Microbiota as Modulators of the Immune System and Neuroimmune System",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

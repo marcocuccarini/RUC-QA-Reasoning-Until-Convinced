@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what were the names of henry viii's three children. Edward Seymour",
+      "strength": 0.25009174200592604
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what were the names of henry viii's three children. Mary Boleyn",
+      "strength": 0.49993892881554847
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what were the names of henry viii's three children. Catherine of Aragon's son",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what were the names of henry viii's three children. Henry Tudor",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "he was succeeded by his son Edward VI",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "gave birth in February 1516 to a girl, Mary",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Queen Jane died after giving birth to a son, Edward",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "gave birth to a daughter, Elizabeth",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Edward Seymour was the uncle of Edward VI",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "his 21-year-old half-sister Lady Mary as godmother and his 4-year-old half-sister Lady Elizabeth carrying the chrisom",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "supports"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "supports"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

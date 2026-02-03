@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Booker Prize winning novelist wrote the Advertising slogan 'That will do nicely' for American Express. Ian McEwan",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Booker Prize winning novelist wrote the Advertising slogan 'That will do nicely' for American Express. Margaret Atwood",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Booker Prize winning novelist wrote the Advertising slogan 'That will do nicely' for American Express. Kazuo Ishiguro",
+      "strength": 0.2500955085906131
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Booker Prize winning novelist wrote the Advertising slogan 'That will do nicely' for American Express. Rushdian",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kazuo Ishiguro won the Booker Prize for The Remains of the Day in 1989",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kazuo Ishiguro was shortlisted for the Booker Prize four times, winning in 1989 for The Remains of the Day",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

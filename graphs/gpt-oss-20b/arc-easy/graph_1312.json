@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Boiling is the point the water has reached when the teacher heats a pot of water and it reaches 100°C.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Melting is the point the water has reached once the teacher heats a pot of water to 100°C.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Freezing is the point that the water has reached when the teacher heats a pot of water to 100 °C.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Evaporating is the point that the water has reached when the teacher heats a pot of water to 100 °C.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The boiling point of water is 100 °C (212 °F) but is lower with the decreased atmospheric pressure found at higher altitudes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Evaporation only happens on the surface while boiling happens throughout the liquid.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

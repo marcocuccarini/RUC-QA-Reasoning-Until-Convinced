@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what artistic movement did henri matisse belong to. Expressionism",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what artistic movement did henri matisse belong to. Cubism",
+      "strength": 0.4000000385008666
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what artistic movement did henri matisse belong to. Surrealism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what artistic movement did henri matisse belong to. Fauvism",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the leaders of the movement were André Derain and Henri Matisse",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Fauves were among the first avant-garde artists to collect and study African and Oceanic art, leading several Fauves toward the development of Cubism",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Gelett Burgess wrote an article titled 'The Wild Men of Paris: Matisse, Picasso and Les Fauves'",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sabine Rewald authored a work titled 'Fauvism' in the Timeline of Art History",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

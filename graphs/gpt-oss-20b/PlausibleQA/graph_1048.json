@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What young pharaoh's tomb was discovered in 1922. Pharaoh Akhenaten",
+      "strength": 0.36764714035484913
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What young pharaoh's tomb was discovered in 1922. Pharaoh Smenkhkare",
+      "strength": 0.40000000001470865
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What young pharaoh's tomb was discovered in 1922. Pharaoh Neferneferuaten",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What young pharaoh's tomb was discovered in 1922. Kingtut",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tutankhamun's tomb was discovered in 1922 by excavators led by Howard Carter and his patron, George Herbert, 5th Earl of Carnarvon.",
+      "strength": 0.5999999849604898
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first step of the tomb's entrance staircase was uncovered on 4 November 1922.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Swiss geneticists examine Tutankhamun's genetic profile",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The tomb of Tutankhamun is located in the Valley of the Kings.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The tomb consisted of four chambers and an entrance staircase and corridor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

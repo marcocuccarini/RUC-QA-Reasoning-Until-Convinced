@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Products are the other component involved in all chemical reactions alongside reactants.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Consumers are the other component involved in all chemical reactions, along with reactants.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Catalysts are the other component involved in all chemical reactions alongside reactants.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Energy is involved in all chemical reactions along with reactants.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical reactions yield one or more products, which usually have properties different from the reactants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In catalysis, the reaction does not proceed directly, but through a reaction with a third substance known as catalyst. Although the catalyst takes part in the reaction... it is returned to its original state by the end of the reaction and so is not consumed.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Products are substances formed in the chemical reaction and are located on the right-hand side of the chemical equation.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Energy required for a reaction is indicated above the arrow in the chemical equation, such as with the symbol Δ for heat or hν for light.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

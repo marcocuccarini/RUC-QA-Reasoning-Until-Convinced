@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Two ways are there for a species to go extinct.",
+      "strength": 0.17029956576063404
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Four are the ways in which a species can go extinct.",
+      "strength": 0.3676470588975218
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Eight is the number of ways for a species to go extinct.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ten is the number of ways for a species to go extinct.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A variety of causes can contribute directly or indirectly to the extinction of a species or group of species.",
+      "strength": 0.8915553029786272
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The question of whether more extinctions in the fossil record have been caused by evolution or by competition or by predation or by disease or by catastrophe is a subject of discussion;",
+      "strength": 0.5999999999905271
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Extinction may occur gradually over thousands or millions of years, such as when a species gradually loses out in competition for food to better adapted competitors.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Extinction may occur a long time after the events that set it in motion, a phenomenon known as extinction debt.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Extinction events are connected with a new theory of evolution.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The mass extinction is a result of human activity (an ecocide) driven by population growth, economic growth, and overconsumption of the Earth's natural resources.",
+      "strength": 0.4000911881966091
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Along with human-made changes in climate (see above), some of these extinctions could be caused by overhunting, overfishing, invasive species, or habitat loss.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Glaciation is one factor that leads to local extinction.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "During the Pleistocene glaciation event in North America, most of the native North American species of earthworm were killed in places covered by glaciation, demonstrating that mass extinctions can occur independently of human activity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "A9",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. Journal of the American Medical Association (JAMA)",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. American Journal of Medicine",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. Archives of Internal Medicine",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the oldest medical journal in the United States. NEJM",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Founded in 1812, the journal is among the most prestigious peer-reviewed medical journals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first issue of the New England Journal of Medicine and Surgery and the Collateral Branches of Medical Science was published in January 1812.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

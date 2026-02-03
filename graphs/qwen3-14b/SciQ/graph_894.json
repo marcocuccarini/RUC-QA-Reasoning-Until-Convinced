@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Meiosis is the process that begins with a diploid cell and ends with four haploid cells.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrolysis is the process that begins with a diploid cell and ends with four haploid cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mitosis begins with a diploid cell and ends with four haploid cells.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Urinalysis is what begins with a diploid cell and ends with four haploid cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The diploid germ-line cells undergo meiosis to produce four haploid gametes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mitosis is involved in the growth of diploid organisms, producing diploid cells.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

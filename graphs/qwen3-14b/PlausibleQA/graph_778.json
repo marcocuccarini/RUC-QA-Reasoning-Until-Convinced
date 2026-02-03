@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. Bunraku",
+      "strength": 0.5999048350200139
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. Kabuki-odori",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. Gagaku",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form. 歌舞伎",
+      "strength": 0.5999999561541208
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kabuki is a classical form of Japanese theatre that mixes dramatic performance with traditional dance.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bunraku is a traditional Japanese puppet theatre, distinct from Kabuki.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bunraku is an author's theater, as opposed to kabuki, which is a performer's theater.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The most famous bunraku playwright was Chikamatsu Monzaemon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

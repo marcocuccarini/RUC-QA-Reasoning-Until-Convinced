@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which TV/film animated space age family have a dog called Astro. The Jetsons",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which TV/film animated space age family have a dog called Astro. Futurama",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which TV/film animated space age family have a dog called Astro. Rick and Morty",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which TV/film animated space age family have a dog called Astro. RUDI",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Jetsons are a TV/film animated space age family that have a dog called Astro",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Futurama is not a TV/film animated space age family that have a dog called Astro",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rick and Morty is not a TV/film animated space age family that have a dog called Astro",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "RUDI is not a TV/film animated space age family that have a dog called Astro",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

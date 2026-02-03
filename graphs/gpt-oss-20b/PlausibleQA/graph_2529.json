@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country would you find a TGV train. Belgium",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country would you find a TGV train. Switzerland",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country would you find a TGV train. Italy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country would you find a TGV train. FRANCE",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eurostar operates international high‑speed services connecting France with Belgium, Germany, the Netherlands and the United Kingdom.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "TGV POS (originally for routes to Germany, now used to Switzerland)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The high power/weight and adhesive weight/total weight ratios of TGVs allow them to climb much steeper grades than conventional trains.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The SNCF, France's state‑owned rail company, operates both a premium service (TGV inOui) and a budget service (Ouigo).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

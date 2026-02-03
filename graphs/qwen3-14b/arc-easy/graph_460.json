@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bar graph is the best way to show the percent gas composition in Earth's atmosphere.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Line graph is the best way to show the percent gas composition in Earth's atmosphere.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pie chart is the best way to show the percent gas composition of Earth's atmosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A scatterplot is the best way to show the percent gas composition in Earth's atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bar charts do not need to have separate legends, and can display other values such as averages or targets at the same time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Statisticians generally regard pie charts as a poor method of displaying information, and they are uncommon in scientific literature.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

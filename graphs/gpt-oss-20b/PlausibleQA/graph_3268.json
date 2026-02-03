@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country in May 2015 became the first to legalize gay marriage by national referendum. Argentina",
+      "strength": 0.22635067332108447
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country in May 2015 became the first to legalize gay marriage by national referendum. Canada",
+      "strength": 0.36764717103946637
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country in May 2015 became the first to legalize gay marriage by national referendum. Denmark",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country in May 2015 became the first to legalize gay marriage by national referendum. Airlan",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "RefCom2015.ie Referendum Commission website archived on 29 May 2015.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Thirty-fourth Amendment of the Constitution Act, 2015",
+      "strength": 0.5999999788702767
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Same-sex marriage has been legal in Ireland since 16 November 2015.",
+      "strength": 0.5999452418910941
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The referendum results were published in Iris Oifigiúil on 26 May.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Marriage Act 2015",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "A8",
+      "relation": "support"
+    }
+  ]
+}

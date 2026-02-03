@@ -1,0 +1,136 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrons are the same number in the nuclei of all atoms of an element.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Isotopes are atoms of an element that have in their nuclei the same number of protons.",
+      "strength": 0.9310050277665796
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Molecules are the same number in the nuclei of all atoms of an element.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Protons are the same number in the nuclei of all atoms of an element.",
+      "strength": 0.9310343950778932
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In chemistry, the number of protons in the nucleus of an atom is known as the atomic number, which determines the chemical element to which the atom belongs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For example, there are two stable isotopes of chlorine: 3517Cl with 35 − 17 = 18 neutrons and 3717Cl with 37 − 17 = 20 neutrons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Protons define the entire charge of a nucleus, and hence its chemical identity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Neutrons can explain the phenomenon of isotopes (same atomic number with different atomic mass).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Atoms with the same atomic number but different neutron numbers, and hence different mass numbers, are known as isotopes.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "For ordinary nuclei composed of protons and neutrons, this is equal to the proton number (np) or the number of protons found in the nucleus of every atom of that element.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The number of protons in the nucleus determines its electric charge, which in turn determines the number of bound electrons of an atom in its non-ionized state.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Isotopes are atoms of the same element (that is, with the same number of protons in their nucleus).",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "The atomic number of carbon is 6, which means that every carbon atom has 6 protons so that the neutron numbers of these isotopes are 6, 7, and 8 respectively.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "The electrons are negatively charged, and this opposing charge is what binds them to the nucleus.",
+      "strength": 0.5
+    },
+    "A14": {
+      "type": "argument",
+      "text": "Atoms with equal numbers of protons but a different number of neutrons are different isotopes of the same element.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A12",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A13",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A14",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

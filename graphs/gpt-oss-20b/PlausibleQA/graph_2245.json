@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country produces the most of the world's olive oil. Italy",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country produces the most of the world's olive oil. Greece",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country produces the most of the world's olive oil. Portugal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country produces the most of the world's olive oil. SPAIN",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2022, Spain was the world's largest producer, manufacturing 24% of the world's total.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other large producers were Italy, Greece, and Turkey, collectively accounting for 59% of the global market.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

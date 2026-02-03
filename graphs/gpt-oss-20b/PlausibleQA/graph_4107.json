@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the German magazine which claimed in 1983 to have found Hitler's diaries. Der Spiegel",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the German magazine which claimed in 1983 to have found Hitler's diaries. Focus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the German magazine which claimed in 1983 to have found Hitler's diaries. Bild",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the German magazine which claimed in 1983 to have found Hitler's diaries. Stern",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1983, however, its credibility was seriously damaged by its purchase and syndication of the forged Hitler Diaries.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For Stern very much more damaging publicity followed its serialisation, beginning in April 1983, of the so-called Hitler Diaries.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

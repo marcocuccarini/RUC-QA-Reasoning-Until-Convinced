@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A planet moves in a regular path around the Sun.",
+      "strength": 0.4000000839059449
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A constellation is a group of stars that moves in a regular path around the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A meteor moves in a regular path around the Sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A star moves in a regular path around the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "No planet's orbit is perfectly circular, and hence the distance of each from the host star varies over the course of its year.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At least one exoplanet, WASP-17b, has been found to orbit in the opposite direction to its star's rotation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bodies following closed orbits repeat their paths with a certain time called the period.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The orbit of a planet around the Sun is an ellipse, with the Sun in one of the focal points of that ellipse.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "NOAA page on Climate Forcing Data includes (calculated) data on Earth orbit variations over the last 50 million years and for the coming 20 million years",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "The latter have elliptical orbits that are inclined to the plane of the galaxy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

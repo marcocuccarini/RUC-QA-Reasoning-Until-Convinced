@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Because the batteries conduct the electricity, the flashlight worked after Norma replaced the old batteries with new ones.",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Because the batteries supply the energy, the flashlight worked after Norma replaced the old batteries with new ones.",
+      "strength": 0.8460569052668154
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Because the batteries produce light, the flashlight worked after Norma replaced the old batteries with new ones and it turned on.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Because the batteries produce heat, the flashlight worked after Norma replaced the old batteries with new ones, turning it on.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When a battery is connected to an external electric load, those negatively charged electrons flow through the circuit and reach the positive terminal",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Batteries are designed so that the energetically favorable redox reaction can occur only when electrons move through the external part of the circuit",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An active network contains at least one voltage source or current source that can supply energy to the network indefinitely.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Active elements can inject power to the circuit, provide power gain, and control the current flow within the circuit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

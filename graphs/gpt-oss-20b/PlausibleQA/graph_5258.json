@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What successful, no-frills airline is headquartered at Love Field in Dallas, and is one of the few that doesn't charge a baggage handling fee. Spirit Airlines",
+      "strength": 0.15393750110007698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What successful, no-frills airline is headquartered at Love Field in Dallas, and is one of the few that doesn't charge a baggage handling fee. Frontier Airlines",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What successful, no-frills airline is headquartered at Love Field in Dallas, and is one of the few that doesn't charge a baggage handling fee. Allegiant Air",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What successful, no-frills airline is headquartered at Love Field in Dallas, and is one of the few that doesn't charge a baggage handling fee. SWABIZ",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Spirit Airlines, Inc. is an American ultra low-cost airline headquartered in Dania Beach, Florida, in the Miami metropolitan area.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Spirit Airlines charges additional fees for large carry-on or checked bags.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "To make up for revenue lost in decreased ticket prices, the airline may charge extra fees, such as for carry-on baggage.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

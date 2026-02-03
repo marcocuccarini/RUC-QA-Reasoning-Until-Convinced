@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time the jets won a playoff game. 2009",
+      "strength": 0.4999413277794323
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time the jets won a playoff game. 2004",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time the jets won a playoff game. 1998",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time the jets won a playoff game. 2010",
+      "strength": 0.2500881490789106
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Jets advanced to the AFL playoffs for the first time in 1968 and went on to compete in Super Bowl III where they defeated the Baltimore Colts, becoming the first AFL team to defeat an NFL club in an AFL–NFL World Championship Game.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They have not qualified for the playoffs since then, and currently hold the longest active playoff drought in the NFL.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the postseason the Jets defeated the Cincinnati Bengals 24–14 and 17–14 over the San Diego Chargers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Jets lost to the Indianapolis Colts 30–17 in the AFC Championship Game.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

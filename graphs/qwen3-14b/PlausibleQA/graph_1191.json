@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the title of the film considered to be the debut of cartoon character Mickey Mouse. Steamboat Willie",
+      "strength": 0.5999088118033908
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the title of the film considered to be the debut of cartoon character Mickey Mouse. The Band Concert",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the title of the film considered to be the debut of cartoon character Mickey Mouse. Plane Crazy",
+      "strength": 0.4000911881966091
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the title of the film considered to be the debut of cartoon character Mickey Mouse. Timeless River",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Steamboat Willie is considered the public debut of Mickey Mouse and Minnie Mouse",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "although both [Mickey and Minnie] appeared months earlier in a test screening of Plane Crazy and the then unreleased The Gallopin' Gaucho",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

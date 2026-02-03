@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A supply of stored food is what seeds have that spores do not.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "DNA is present in seeds but not in spores.",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pollenators are what seeds have that spores do not.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chlorophyll is found in seeds but not in spores.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In some groups (e.g. grains of the family Poaceae), the endosperm persists to the mature seed stage as a storage tissue",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is triploid (meaning three chromosome sets per nucleus)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The cotyledons contain the stored food reserves of the seed.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Cotyledons may turn green and begin photosynthesis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

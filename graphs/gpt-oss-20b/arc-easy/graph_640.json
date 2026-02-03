@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Omnivore describes a black bear that eats many different things, including grasses, roots, and berries, as well as insects, fish, and other small animals.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Carnivore is the best description for a black bear that eats many different things, including grasses, roots, berries, insects, fish, and other small animals.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Herbivore is the best description of a black bear that eats many different things, including grasses, roots, and berries, as well as insects, fish, and other small animals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Producer best describes a black bear that eats many different things, including grasses, roots, berries, insects, fish, and other small animals.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most bear species are omnivores, but individual diets can range from almost exclusively herbivorous (hypocarnivore) to almost exclusively carnivorous (hypercarnivore), depending on what food sources are available locally and seasonally.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although cases exist of herbivores eating meat and carnivores eating plant matter, the classification 'omnivore' refers to the adaptation and main food source of the species in general, so these exceptions do not make either individual animals or the species as a whole omnivorous.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which Scottish island was former Labour party leader John Smith laid to rest. Isle of Skye",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which Scottish island was former Labour party leader John Smith laid to rest. Isle of Arran",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which Scottish island was former Labour party leader John Smith laid to rest. Isle of Mull",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which Scottish island was former Labour party leader John Smith laid to rest. Iona",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Abbey graveyard is also the final resting place of John Smith, the former Labour Party leader, who loved Iona.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Abbey graveyard is said to contain the graves of many early Scottish Kings, as well as Norse kings from Ireland and Norway.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

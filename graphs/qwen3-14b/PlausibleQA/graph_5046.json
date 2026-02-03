@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which author created the fictional character Moll Flanders . Henry Fielding",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which author created the fictional character Moll Flanders . Samuel Richardson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which author created the fictional character Moll Flanders . Jonathan Swift",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which author created the fictional character Moll Flanders . Daniel Foe",
+      "strength": 0.25009176364520974
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is usually assumed that the novel was written by Daniel Defoe",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The attribution of Moll Flanders to Defoe was made by bookseller Francis Noble in 1770, after Defoe's death in 1731",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

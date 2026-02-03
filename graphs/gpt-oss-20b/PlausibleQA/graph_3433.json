@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Miller Brewing Company got its start in what U.S. city. Chicago",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Miller Brewing Company got its start in what U.S. city. St. Louis",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Miller Brewing Company got its start in what U.S. city. Detroit",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Miller Brewing Company got its start in what U.S. city. Milwaukee",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Miller Brewing Company was founded in Milwaukee in 1855 by Frederick Miller.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Miller Brewing Company is an American brewery based in Milwaukee, Wisconsin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

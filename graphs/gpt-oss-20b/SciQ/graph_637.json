@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Slowly is how changes to rocks happen over time.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Quickly then slowly are the timeframes in which changes to rocks occur.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Quickly is how changes to rocks happen.",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Slowly then quickly is how changes to rocks happen, occurring first slowly and then quickly.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A rock that cools within the Earth is called intrusive or plutonic and cools very slowly, producing a coarse-grained texture such as the rock granite.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As a result of volcanic activity, magma (which is called lava when it reaches Earth's surface) may cool very rapidly on the Earth's surface exposed to the atmosphere and are called extrusive or volcanic rocks.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The geologic time scale is a way of representing deep time based on events that have occurred through Earth's history, a time span of about 4.54 ± 0.05 billion years.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The law of superposition that states that in undeformed stratigraphic sequences the oldest strata will lie at the bottom of the sequence, while newer material stacks upon the surface.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

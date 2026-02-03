@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Sodium Chloride",
+      "strength": 0.5999999365228031
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Bleach",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Baking Soda",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What common substance has the chemical formula NaCl. Salt",
+      "strength": 0.7499025789446009
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sodium chloride , commonly known as table salt, is an ionic compound with the chemical formula NaCl, representing a 1:1 ratio of sodium and chloride ions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sodium chloride , in its edible form, is commonly used as a condiment and food preservative.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Salt is used in winter road maintenance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

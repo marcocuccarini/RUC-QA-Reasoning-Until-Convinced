@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Coal warms most of the air, water, and land on Earth.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electricity warms most of the air, water, and land on Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sunlight warms most of the air, water, and land on Earth.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wind warms most of the air, water, and land on Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sunlight on the surface of Earth is attenuated by Earth's atmosphere, so that less power arrives at the surface (closer to 1,000 W/m2) in clear conditions when the Sun is near the zenith.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The solar constant is equal to approximately 1,368 W/m2 (watts per square metre) at a distance of one astronomical unit (AU) from the Sun (that is, at or near Earth's orbit).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

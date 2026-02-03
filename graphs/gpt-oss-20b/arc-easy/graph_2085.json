@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Inertia is a force that keeps the planets in orbit around the Sun.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gravity is the force that keeps the planets in orbit around the Sun.",
+      "strength": 0.7499025826412249
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Magnetism is a force that keeps the planets in orbit around the Sun.",
+      "strength": 0.5999999402194273
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solar energy is a force that keeps the planets in orbit around the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Planets orbit the Sun in an ellipse as a consequence of the law of gravity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kepler viewed the force of the Sun on the planets as magnetic",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Newton's law of universal gravitation describes gravity as a force by stating that every particle attracts every other particle in the universe with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers of mass.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In Einstein's theory, energy and momentum distort spacetime in their vicinity, and other particles move in trajectories determined by the geometry of spacetime.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Gravity becomes the most significant interaction between objects at the scale of astronomical bodies, and it determines the motion of satellites, planets, stars, galaxies, and even light.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "By Borelli's time the concept of inertia had its modern meaning as the tendency of objects to remain in uniform motion and he viewed the Sun as just another heavenly body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

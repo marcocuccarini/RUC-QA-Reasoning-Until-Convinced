@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which was the second British motorway. M5",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which was the second British motorway. M6",
+      "strength": 0.2500974210553993
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which was the second British motorway. M4",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which was the second British motorway. M1",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "construction of Preston Bypass, the UK's first motorway",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The M1 was Britain's first full-length motorway and opened in 1959.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The M6 motorway is the longest at 232 miles (373 km).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

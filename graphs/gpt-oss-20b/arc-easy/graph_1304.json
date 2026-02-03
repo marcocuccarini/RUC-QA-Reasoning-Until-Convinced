@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Field mouse, grass, hawk snake is the list of organisms in the correct order from producer to top-level consumer in an ecosystem.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Snake, field mouse, hawk, grass is the list of organisms that is in the correct order from producer to top-level consumer in an ecosystem.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grass, field mouse, snake, hawk is the correct order of organisms in an ecosystem from producer to top-level consumer.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Snake, grass, field mouse, hawk is the list of organisms in the correct order from producer to top‑level consumer in an ecosystem.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All organisms in a food chain, except the first organism, are consumers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A food chain is a linear network of links in a food web, often beginning with an autotroph (such as grass or algae), also called a producer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

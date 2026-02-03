@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the philadelphia eagles play in the super bowl last. Super Bowl XXXIX",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the philadelphia eagles play in the super bowl last. Super Bowl XV",
+      "strength": 0.5999999402194273
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the philadelphia eagles play in the super bowl last. Super Bowl XXIX",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the philadelphia eagles play in the super bowl last. Super Bowl LII",
+      "strength": 0.7499025826412249
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Eagles lost to the Oakland Raiders in Super Bowl XV.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The game was played on February 4, 2018, at U.S. Bank Stadium in Minneapolis, Minnesota.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Eagles have appeared in five Super Bowls, winning Super Bowls LII and LIX.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Eagles ultimately lost to the Chiefs by a score of 38–35.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The game was played on February 6, 2005, at Alltel Stadium (now EverBank Stadium) in Jacksonville, Florida, currently the only Super Bowl hosted in the city.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Eagles did not return to the Super Bowl until 2017, when they exacted revenge on the Patriots in Super Bowl LII, defeating them 41–33 and winning their first championship since 1960.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

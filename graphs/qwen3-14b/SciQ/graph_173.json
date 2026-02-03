@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Helicase opens two strands of DNA.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Replication opens two strands of DNA.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Adenylate is the molecule that opens two strands of DNA.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chromosomes are the structures that open two strands of DNA.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Helicases are often used to separate strands of a DNA double helix or a self-annealed RNA molecule using the energy from ATP hydrolysis",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Once the helicase and ATP are bound, local strand separation occurs, which requires binding of ATP but not the actual process of ATP hydrolysis",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many paintings of sunflowers did van gogh paint. One",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many paintings of sunflowers did van gogh paint. Three",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many paintings of sunflowers did van gogh paint. Four",
+      "strength": 0.7499025826412249
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many paintings of sunflowers did van gogh paint. two",
+      "strength": 0.5999999402194273
+    },
+    "A4": {
+      "type": "argument",
+      "text": "he prepared for Gauguin's arrival by painting four versions of Sunflowers in one week.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the two major versions of the sunflowers",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first canvas was reacquired by Vollard and sold to Degas, while the second canvas was acquired by Hoogendijk and later sold to the Metropolitan Museum, showing at least two distinct paintings.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The first canvas and the second canvas were separately owned, and two additional versions (F377 and F458) remained in the estate, indicating at least four distinct Sunflower paintings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

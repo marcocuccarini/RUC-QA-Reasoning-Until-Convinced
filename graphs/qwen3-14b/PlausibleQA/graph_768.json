@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which ex-Dr Who appeared in four Carry On films. Tom Baker",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which ex-Dr Who appeared in four Carry On films. Patrick Troughton",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which ex-Dr Who appeared in four Carry On films. Christopher Eccleston",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which ex-Dr Who appeared in four Carry On films. Jon Pertwee",
+      "strength": 0.5690738057715261
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Other notable roles included... appearing in four films in the Carry On series (1964–1992)",
+      "strength": 0.4000409734979248
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Carry On series was produced between 1958 and 1992",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who beat university of virginia in basketball this year. University of Maryland",
+      "strength": 0.2763385587816867
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who beat university of virginia in basketball this year. Duke University",
+      "strength": 0.4000617395953892
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who beat university of virginia in basketball this year. University of North Carolina",
+      "strength": 0.40000000002087255
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who beat university of virginia in basketball this year. UMBC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They were upset in the First Round by Furman.",
+      "strength": 0.40000002177321936
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They lost their matchup with Colorado State 67–42 to end their season.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "They were defeated by Binghamton in the first round of the America East tournament.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "UVA winning all three games",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "winning the ACC tournaments of 2014 (over Duke) and 2018 (over North Carolina)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

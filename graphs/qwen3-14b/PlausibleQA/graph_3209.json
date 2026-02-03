@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the 30 man royal rumble match. John Cena",
+      "strength": 0.4999192008560631
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the 30 man royal rumble match. Batista",
+      "strength": 0.4999192008560631
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the 30 man royal rumble match. Edge",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the 30 man royal rumble match. Randy Orton",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The main event was the 2003 Royal Rumble match, which was won by SmackDown!'s Brock Lesnar",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At the 2005 Royal Rumble, Cena and Batista were the final two participants and were eliminated simultaneously by one-another. After a restart, Batista won.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On January 27, 2013, Cena won his second Royal Rumble match, announcing that he would pursue the WWE Championship at WrestleMania 29.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

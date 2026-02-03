@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has the most rushing yards in a super bowl. Emmitt Smith",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has the most rushing yards in a super bowl. Marcus Allen",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has the most rushing yards in a super bowl. Thurman Thomas",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has the most rushing yards in a super bowl. Timmy Smith",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Emmitt Smith rushed for 170 yards in Super Bowl XXV, which is the record for the most rushing yards in a single Super Bowl.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Marcus Allen's best rushing performance in a Super Bowl was 124 yards in Super Bowl XLIII, far below the record.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Thurman Thomas never rushed for more than 78 yards in any Super Bowl, which is well below the record for the most rushing yards.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Timmy Smith's best rushing performance in a Super Bowl was only 18 yards in Super Bowl XXII, not a record.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electroluminescence is the process by which a neon light produces visible light.",
+      "strength": 0.06896551725555418
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Luminescence is the process by which a neon light produces visible light.",
+      "strength": 0.7736589085554707
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Radiation is the process by which a neon light produces visible light.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mitosis is how a neon light produces visible light.",
+      "strength": 0.4000000000455329
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Unlike neon and fluorescent lamps, EL lamps are not negative resistance devices so no extra circuitry is needed to regulate the amount of current flowing through them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electroluminescence is the result of radiative recombination of electrons and holes in a material, usually a semiconductor.",
+      "strength": 0.4000000000000028
+    },
+    "A6": {
+      "type": "argument",
+      "text": "When sufficient voltage is applied and sufficient current is supplied between the electrodes, the lamp produces an orange glow discharge.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Neon lamps are miniature gas-discharge lamps.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Neon lamps are electric signs lighted by long luminous gas-discharge tubes that contain rarefied neon or other gases.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "When a voltage is applied to electrodes inserted through the glass, an electrical glow discharge results.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Discharge in neon emits relatively bright red light; neon-filled switching tubes therefore also act as indicators, shining red when switched on.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Neon lamps and neon signage (most of which is not neon based these days) are also low-pressure gas-filled tubes.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "The principle of the atomic emission spectrum explains the varied colors in neon signs, as well as chemical flame test results.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "Emission spectra of atmospheric gases",
+      "strength": 0.5
+    },
+    "A14": {
+      "type": "argument",
+      "text": "Color Simulation of Element Emission Spectrum Based on NIST data",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A13",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A14",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

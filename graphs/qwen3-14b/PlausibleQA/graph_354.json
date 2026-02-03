@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which river runs through Hamburg. Rhine",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which river runs through Hamburg. Danube",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which river runs through Hamburg. Oder",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which river runs through Hamburg. Elbe",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Elbe is crossed by many ferries, both passenger and car carrying, in Hamburg's borough of Mitte (centre).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Elbe river... touches... Hamburg on the way, and taking on the waters of the Mulde and Saale from the west, and those of the Schwarze Elster, Havel and Elde from the east.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

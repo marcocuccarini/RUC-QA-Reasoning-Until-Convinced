@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Deer receive their energy directly from the Sun, as every organism in an ecosystem obtains energy from another source.",
+      "strength": 0.40000008741621107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fungus receives its energy directly from the Sun, while every organism in an ecosystem obtains energy from another source.",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grass receives its energy directly from the Sun, as it is an organism in an ecosystem that obtains energy from another source.",
+      "strength": 0.4999088992196018
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The hawk receives its energy directly from the Sun, as every organism in an ecosystem obtains energy from another source.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Energy and carbon enter ecosystems through photosynthesis, are incorporated into living tissue, transferred to other organisms that feed on the living and dead plant matter",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Photosynthetic organisms are the primary producers",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Plants convert about 1% of the sunlight they receive into chemical energy",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Decomposers recycle nutrients, leaving them so they can be reused by primary producers",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

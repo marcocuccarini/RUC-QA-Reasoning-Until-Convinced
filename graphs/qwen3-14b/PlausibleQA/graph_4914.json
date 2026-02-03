@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. Tokyo",
+      "strength": 0.2500954919892547
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. Madrid",
+      "strength": 0.2500954919892547
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. Doha",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city will host the 2016 Olympics. BRRIO",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The official website for the 2016 Olympics was Rio2016.com",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 2 October 2009, the International Olympic Committee selected Rio de Janeiro to host the 2016 Summer Olympics.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rio de Janeiro hosted the 2016 Summer Olympics and Paralympics.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

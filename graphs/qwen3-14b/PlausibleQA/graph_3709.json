@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which clothing chain was founded by brothers Clemens and August Brenninkmeijer in 1841. H&M",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which clothing chain was founded by brothers Clemens and August Brenninkmeijer in 1841. Gap",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which clothing chain was founded by brothers Clemens and August Brenninkmeijer in 1841. Marks & Spencer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which clothing chain was founded by brothers Clemens and August Brenninkmeijer in 1841. C&A",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1841, a Dutch textile firm was founded in Sneek by brothers Clemens and August Brenninkmeijer, later taking its company name from the initials of the founders.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The company name is derived from the initials of its founders, Clemens (1818–1902) and August (1819–1892) Brenninkmeijer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

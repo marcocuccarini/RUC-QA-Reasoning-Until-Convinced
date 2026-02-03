@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Loss of thermal stability is the characteristic of a cold‑water upwelling near the coast of Northern California that results in a large concentration of marine organisms.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High nutrient concentration is the characteristic of a cold‑water upwelling near the coast of Northern California that results in a large concentration of marine organisms.",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Consistent surface-current flow rate is the characteristic of a cold-water upwelling near the coast of Northern California that results in a large concentration of marine organisms.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Increased availability of dissolved oxygen is the characteristic of a cold‑water upwelling near the coast of Northern California that results in a large concentration of marine organisms.",
+      "strength": 0.5999350949478656
+    },
+    "A5": {
+      "type": "argument",
+      "text": "kelp forests have all but disappeared in many especially vulnerable places, such as Tasmania's east coast and the coast of Northern California.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Insufficient oxygen (environmental hypoxia), often caused by the decomposition of organic matter and nutrient pollution, may occur in bodies of water such as ponds and rivers, tending to suppress the presence of aerobic organisms such as fish.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Deoxygenation increases the relative population of anaerobic organisms such as plants and some bacteria, resulting in fish kills and other adverse events.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

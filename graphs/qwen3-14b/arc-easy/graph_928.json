@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Humus is what the soil becomes when microorganisms deplete the oxygen in soil through respiration.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Anaerobic is the state that soil becomes when microorganisms consume the oxygen through respiration.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Compost is what the soil becomes when microorganisms deplete the oxygen in soil through respiration.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Aerobic is what the soil becomes when microorganisms deplete the oxygen in soil through respiration.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hydric soil is defined as soil that is saturated, flooded, or ponded.firstname.lastname@example.com during a growing season to develop an anaerobic condition.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most soils are aerobic. This is important because plant roots respire (that is, they consume oxygen and carbohydrates while releasing carbon dioxide) and there must be sufficient air—especially oxygen—in the soil to support most forms of soil life.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attacks"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attacks"
+    }
+  ]
+}

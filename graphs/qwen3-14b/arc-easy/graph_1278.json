@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Excretion is the process by which large and complex molecules in living things are broken down into small and simple molecules.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Absorption is the process in living things by which large and complex molecules are broken down into small and simple molecules.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Digestion is the process by which large and complex molecules are broken down into small and simple molecules in living things.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Circulation is the process in living things in which large and complex molecules are broken down into small and simple molecules.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Digestion is the breakdown of large insoluble food compounds into small water-soluble components so that they can be absorbed into the blood plasma.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Absorption: of nutrients from the digestive system to the circulatory and lymphatic capillaries through osmosis, active transport, and diffusion",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

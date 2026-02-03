@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to the person in a restaurant responsible for the wine and assisting customers with their choice of wine. Vintner",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to the person in a restaurant responsible for the wine and assisting customers with their choice of wine. Wine Steward",
+      "strength": 0.5999999999127801
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to the person in a restaurant responsible for the wine and assisting customers with their choice of wine. Cellar Master",
+      "strength": 0.5999999090162662
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to the person in a restaurant responsible for the wine and assisting customers with their choice of wine. Somelier",
+      "strength": 0.5999999999127801
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A sommelier is a trained and knowledgeable wine professional, normally working in fine restaurants, who specializes in all aspects of wine service as well as wine and food pairing.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A sommelier (UK: SOM-əl-yay, som-EL-ee-ay, US: SUM-əl-YAY, French: [sɔməlje] ), chef de vin or wine steward",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In France, the Union des Sommeliers (UDS) was founded in 1907 to ensure social protection for its members, both sommeliers and cellar masters in Paris region.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A vintner is a wine merchant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

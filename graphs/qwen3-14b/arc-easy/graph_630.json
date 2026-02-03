@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In a dry area is where a plant needs to be placed to stay alive indoors.",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In a dark room is where a plant needs to be placed to stay alive indoors.",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The plant needs to be placed on a plant stand to stay alive indoors.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Near a sunny place is where a plant needs to be placed for it to stay alive indoors.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "houseplants from tropical areas are understory plants, and because they grow in shady conditions naturally, they are often able to thrive in lower-light conditions",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Most houseplants are species that have adapted to survive in a temperature range between 15 and 25 °C (59 and 77 °F) year-round",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

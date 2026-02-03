@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Monthly is how often women should perform a breast self‑exam.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Yearly is the recommended frequency for women to perform a breast self‑exam.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Weekly is how often women should perform a breast self‑exam.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Quarterly is the recommended frequency for women to perform a breast self‑exam.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Women who are postmenopausal or have irregular cycles might do a self-exam once a month regardless of their menstrual cycle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the American College of Obstetrics and Gynecology, and the American Medical Association recommend monthly breast self-examination",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

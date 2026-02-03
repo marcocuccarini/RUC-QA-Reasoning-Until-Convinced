@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Royal Shakespeare Company is based in which British town. Stratford-upon-Avon",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Royal Shakespeare Company is based in which British town. London",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Royal Shakespeare Company is based in which British town. Birmingham",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Royal Shakespeare Company is based in which British town. Wimpstone",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Royal Shakespeare Company (RSC) is a major British theatre company, based in Stratford-upon-Avon, Warwickshire, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The RSC has three permanent theatres in Stratford-upon-Avon: The Royal Shakespeare Theatre, The Swan Theatre, and The Other Place.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

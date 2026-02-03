@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The spinal trigeminal nucleus is located in the medulla.",
+      "strength": 0.40000007753122413
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The spinal cord is where the spinal trigeminal nucleus is located.",
+      "strength": 0.40000000007140984
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The spinal trigeminal nucleus is located in the pons.",
+      "strength": 0.5999030955804135
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cerebrum is the location of the spinal trigeminal nucleus.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The spinal trigeminal nucleus is a nucleus in the medulla that receives information about deep/crude touch, pain, and temperature from the ipsilateral face.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The spinal trigeminal nucleus is a nucleus in the medulla that receives afferents from cranial nerves V, VII, IX, and X.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The spinal trigeminal nucleus is located in the pons, near the entrance for the fifth nerve.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The spinal trigeminal nucleus extends throughout the brainstem, from the midbrain to the medulla, continuing into the cervical cord.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The images include the Pons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Photosynthesis is the process that plants use to produce food, using oxygen, carbon dioxide, ATP, and NADPH as reactants.",
+      "strength": 0.15384619127654794
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glycolysis is the process that plants use to produce food, in which oxygen, carbon dioxide, ATP, and NADPH act as reactants.",
+      "strength": 0.2500955085906131
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Absorbtion is the process in which oxygen, carbon dioxide, ATP, and NADPH are reactants that plants use to produce food.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chlorophyll is the process that uses oxygen, carbon dioxide, ATP, and NADPH as reactants for plants to produce food.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oxygen is a waste product of light-dependent reactions",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the light-independent reactions use these products to capture and reduce carbon dioxide",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the source of oxygen produced by photosynthesis",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Glycolysis produces adenosine triphosphate (ATP) and reduced nicotinamide adenine dinucleotide (NADH)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "NADPH is used in biosynthetic processes such as fatty acid and cholesterol synthesis, not as a reactant in glycolysis",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

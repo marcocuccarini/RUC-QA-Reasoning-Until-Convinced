@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Curacao was a colony of which country. Spain",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Curacao was a colony of which country. France",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Curacao was a colony of which country. Britain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Curacao was a colony of which country. Olanda",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1499, Curaçao became a Spanish colony after Alonso de Ojeda's expedition.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Dutch West India Company invaded the island in 1634; the Spanish surrendered in San Juan.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "After the bankruptcy of the WIC in 1791, Curaçao became an actual Dutch colony.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

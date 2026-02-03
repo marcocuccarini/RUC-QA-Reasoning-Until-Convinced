@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Australian Tennis Open is played in what city. Sydney",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Australian Tennis Open is played in what city. Perth",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Australian Tennis Open is played in what city. Brisbane",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Australian Tennis Open is played in what city. Melb",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tournament has been held at the Melbourne Park complex since 1988.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Australian Open is played at Melbourne Park, which is located in the Melbourne Sports and Entertainment Precinct; the event moved to this site in 1988.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

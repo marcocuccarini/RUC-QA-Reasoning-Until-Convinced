@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the imperial distance of a marathon race. 25 miles, 200 yards",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the imperial distance of a marathon race. 28 miles, 100 yards",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the imperial distance of a marathon race. 24 miles, 500 yards",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the imperial distance of a marathon race. 26 miles, 385 yards",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The course was later altered to use a different entrance to the stadium, followed by a partial lap 작은 of 385 yards to the same finish.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The organizers decided on a course of 26 miles from the start at Windsor Castle to the royal entrance to the White City Stadium, followed by a lap (586 yards 2 feet; 536 m) of the track, finishing in front of the Royal Box.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

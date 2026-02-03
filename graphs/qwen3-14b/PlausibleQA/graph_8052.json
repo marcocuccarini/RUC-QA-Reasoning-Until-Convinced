@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Corundum",
+      "strength": 0.3998960376359208
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Cryolite",
+      "strength": 0.4000000000131765
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Garnet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Boxite",
+      "strength": 0.5048966934647983
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bauxite is the world's main source of aluminium and gallium.",
+      "strength": 0.5000363264875964
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bauxite is a sedimentary rock with a relatively high aluminium content. It is the world's main source of aluminium and gallium.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bauxite is a sedimentary rock with a relatively high aluminium content.",
+      "strength": 0.5999636597673262
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Abrasive corundum is synthetically manufactured from bauxite.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Cryolite was historically used as an ore of aluminium.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Bauxite is a combination of aluminium oxide minerals such as gibbsite, boehmite and diaspore.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

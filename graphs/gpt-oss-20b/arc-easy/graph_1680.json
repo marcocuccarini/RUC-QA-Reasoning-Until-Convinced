@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The time of day is what the coach is most likely measuring with the stopwatch while standing at the finish line of a race.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The distance of the race is what the coach is most likely measuring with the stopwatch while standing at the finish line.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The time it took to run the race is what the coach, standing at the finish line and holding a stopwatch, is most likely measuring.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The number of steps taken by the runners is what the coach is most likely measuring with the stopwatch at the finish line of a race.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The device is used when time periods must be measured precisely and with a minimum of complications.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The average measurement error using manual timing was evaluated to be around 0.04 s when compared to electronic timing, in this case for a running sprint.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

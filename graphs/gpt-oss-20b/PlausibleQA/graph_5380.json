@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What large flightless bird found in Mauritius by the Portuguese is believed to have died out in 1681. Moa",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What large flightless bird found in Mauritius by the Portuguese is believed to have died out in 1681. Cassowary",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What large flightless bird found in Mauritius by the Portuguese is believed to have died out in 1681. Emu",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What large flightless bird found in Mauritius by the Portuguese is believed to have died out in 1681. Dodo",
+      "strength": 0.6322474683059868
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The dodo (Raphus cucullatus) is an extinct flightless bird that was endemic to Mauritius.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No records of dodos by these are known.",
+      "strength": 0.40002638842496374
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Roelant Savery painted a Dodo",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

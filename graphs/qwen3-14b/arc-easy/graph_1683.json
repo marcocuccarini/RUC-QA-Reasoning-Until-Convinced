@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Floods are most likely to cause an increase in diseases transmitted by water in ecosystems where people live.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Blizzards are most likely to cause an increase in diseases transmitted by water in ecosystems where people live.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hailstorms are most likely to cause an increase in diseases transmitted by water in ecosystems where people live.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Avalanches are the most likely to cause an increase in diseases transmitted by water in ecosystems where people live.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Clean water supplies are often contaminated when flooding occurs. Hepatitis A and E are common because of the lack of sanitation in the water and in living quarters, depending on where the flood is and how prepared the community is for a flood.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vector-borne diseases also increase, due to the residual still water after the floods have settled. The diseases that are vector borne are malaria, dengue, West Nile, and yellow fever.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

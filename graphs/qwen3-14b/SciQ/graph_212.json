@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cancer is the disease caused when proto‑oncogenes change into oncogenes.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Infections are caused by proto‑oncogenes that can change into oncogenes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "DNA is what proto‑oncogenes can change into oncogenes that cause.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mutations are what proto‑oncogenes can change into oncogenes that cause.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Activated oncogenes can cause those cells designated for apoptosis to survive and proliferate instead.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When overexpressed, proto-oncogenes can be inadvertently activated (turned on), which changes them to oncogenes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mercury, Venus, Earth, and Mars are the planets in order from closest to the Sun to farthest from the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mars, Mercury, Earth, Venus is the order of the planets from closest to the Sun to farthest from the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth, Venus, Mercury, Mars is the order of the planets from closest to the Sun to farthest from the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Venus, Earth, Mars, Mercury are the planets ordered from closest to the Sun to farthest from the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mercury is the first planet from the Sun and the smallest in the Solar System.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mercury is the first planet from the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

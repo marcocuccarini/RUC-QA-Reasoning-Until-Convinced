@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stays constant is the behavior of wave energy as wave frequency is increased.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wave energy is unaffected as wave frequency is increased.",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Increases is the wave energy that results as wave frequency is increased.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wave energy decreases as wave frequency is increased.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The energy of the ejected electron is related only to the light's frequency, not to its intensity.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Maxwell theory predicts that the energy of a light wave depends only on its intensity, not on its frequency.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The amount of absorption will generally depend on the frequency (wavelength) of the wave, which, for instance, explains why objects may appear colored.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Wave spectrum is a representation that describes how the energy of a sea surface (or wave field) is distributed across different wave frequencies (or wave numbers) and directions.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In quantum theory (see first quantization) the energy of the photons is thus directly proportional to the frequency of the EMR wave.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In higher frequencies (some of visible and beyond), the effects of individual photons begin to become important, as these now have enough energy individually to directly or indirectly damage biological molecules.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

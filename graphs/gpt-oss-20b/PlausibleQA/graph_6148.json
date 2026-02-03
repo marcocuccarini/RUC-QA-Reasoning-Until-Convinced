@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the average time in hospice care. 30 days",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the average time in hospice care. 120 days",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the average time in hospice care. 90 days",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the average time in hospice care. 57 days",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hospice care under the Medicare Hospice Benefit requires documentation from two physicians estimating a person has less than six months to live if the disease follows its usual course.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hospice care targets the terminally ill who are expected to die within six months.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

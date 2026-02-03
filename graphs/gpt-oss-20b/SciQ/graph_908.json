@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A parasite is the type of organism that generally lives in or on its host.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Predator is a type of organism that generally lives in or on its host.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Bacteria are organisms that generally live in or on their host.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Insects are a type of organism that generally live in or on their host.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Parasites live (at least some of the time) on or inside another organism, the host",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Parasites include single-celled protozoans such as the agents of malaria, sleeping sickness, and amoebic dysentery; animals such as hookworms, lice, mosquitoes, and vampire bats; fungi such as honey fungus and the agents of ringworm; and plants such as mistletoe, dodder, and the broomrapes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Parasites reduce host fitness by general or specialised pathology, that ranges from parasitic castration to modification of host behaviour.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Many bacteria are parasitic, though they are more generally thought of as pathogens causing disease.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

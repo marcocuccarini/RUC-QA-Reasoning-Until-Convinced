@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Gel electrophoresis is an analytical technique using a stained gel that can separate DNA fragments or RNA molecules and proteins.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Microwave electrophoresis is an analytical technique that uses a stained gel to separate DNA fragments, RNA molecules, and proteins.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Surface electrophoresis is an analytical technique that uses a stained gel to separate DNA fragments or RNA molecules and proteins.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Static electrophoresis is an analytical technique that, using a stained gel, can separate DNA fragments or RNA molecules and proteins.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gel electrophoresis uses staining methods such as ethidium bromide for DNA and silver stain for proteins to visualize separated molecules.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gel electrophoresis separates DNA, RNA, and proteins based on their size and charge through a gel matrix of agarose, polyacrylamide, or other substances.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Dallas/Fort Worth International Airport",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Dallas Love Field",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Fort Worth Alliance Airport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what airport is near arlington tx. Arlington Municipal Airport",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dallas Fort Worth International Airport (DFW) opened in 1974, ending most passenger service at Love Field.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dallas Fort Worth International Airport (DFW) was built to serve the Dallas-Fort Worth region.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

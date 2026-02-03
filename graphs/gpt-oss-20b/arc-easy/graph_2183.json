@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wool coat is the material that best conducts electricity.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Copper pipe best conducts electricity.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Plastic straw is the material that best conducts electricity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wooden stick is the material that best conducts electricity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Copper's superior electrical conductivity enhances the efficiency of electrical motors.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Copper remains the preferred electrical conductor in nearly all categories of electrical wiring except overhead electric power transmission where aluminium is often preferred.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Venus is the planet named after the Roman goddess of love.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neptune is the planet named after the Roman goddess of love.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mercury is the planet named after the Roman goddess of love.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Jupiter is the planet named after the Roman goddess of love.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The English name Venus stems originally from the ancient Romans. Romans named Venus after their goddess of love, who in turn was based on the ancient Greek love goddess Aphrodite, who was herself based on the similar Sumerian religion goddess Inanna (which is Ishtar in Akkadian religion), all of whom were associated with the planet.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The weekday of the planet and these goddesses is Friday, named after the Germanic goddess Frigg, who has been associated with the Roman goddess Venus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

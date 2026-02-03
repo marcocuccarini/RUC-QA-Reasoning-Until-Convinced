@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Increases is the change in pressure that occurs when more gas is added to a rigid container.",
+      "strength": 0.749908253488935
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Occurs is what happens to the pressure when more gas is added to a rigid container.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Changes is what happens to the pressure when more gas is added to a rigid container.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Higher is the pressure that results when additional gas is added to a rigid container.",
+      "strength": 0.749908253488935
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ideal gas law, pV = nRT, shows that pressure is directly proportional to the amount of gas (n) when volume is constant.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pressure is calculated as P = (k_B T N)/V, indicating that increasing the number of gas molecules (N) leads to higher pressure when volume and temperature are constant.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The pressure is directly proportional to the number of gas particles (N) when volume is constant, as shown by the equation P = (NLF)/V.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The pressure is equal to ρv²/3, meaning higher density (due to more gas) increases pressure when volume is constant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

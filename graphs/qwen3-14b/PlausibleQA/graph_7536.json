@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Swedish actress won the Best Supporting Actress Oscar for Murder on the Orient Express. Greta Garbo",
+      "strength": 0.4000000000584653
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Swedish actress won the Best Supporting Actress Oscar for Murder on the Orient Express. Anita Ekberg",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Swedish actress won the Best Supporting Actress Oscar for Murder on the Orient Express. Mai Zetterling",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Swedish actress won the Best Supporting Actress Oscar for Murder on the Orient Express. Ingrid Berman",
+      "strength": 0.1539431553929934
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ingrid Bergman (Greta Ohlsson), who won the 1974 Academy Award for Best Supporting Actress",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Greta Garbo was never awarded an Academy Award for Best Actress",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ingrid Bergman won her first Best Supporting Actress Oscar for her role in Murder on the Orient Express (1974)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Ingrid Bergman",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Symphony",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Chamber Music",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Concerto",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Opera",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mozart wrote many of his best‑known works, including his last three symphonies, culminating in the Jupiter Symphony.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He produced operas in each of the prevailing styles: opera buffa, such as Le nozze di Figaro, Don Giovanni, and Così fan tutte; opera seria, such as Idomeneo; and Singspiel, of which Die Zauberflöte is the most famous example.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All the symphonies in this table except Nos. 2, 3 and 37 (which are spurious) have links to scores in the Neue Mozart-Ausgabe",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

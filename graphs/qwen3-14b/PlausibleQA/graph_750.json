@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. Christopher Marlowe",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. Ben Jonson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. John Donne",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mary Arden had a famous son. Who was he. Shakspeare",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mary Shakespeare was the mother of William Shakespeare.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mary Arden was the mother of William Shakespeare.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

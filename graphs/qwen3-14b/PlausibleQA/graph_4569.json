@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the approximate speed of sound through seawater. 1200m/s",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the approximate speed of sound through seawater. 1800m/s",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the approximate speed of sound through seawater. 1500m/s",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the approximate speed of sound through seawater. 1560m/s",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In salt water that is free of air bubbles and suspended sediment, sound travels at about 1500 m/s",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Mackenzie formula has a check value of 1550.744 m/s for conditions of T=25°C, S=35, z=1000m",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The speed of sound in seawater is about 1,500 m/s",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Twins consisting of one boy and one girl, such as Mark and Carol Thatcher, are called what. Mixed Duo",
+      "strength": 0.40000003589797006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Twins consisting of one boy and one girl, such as Mark and Carol Thatcher, are called what. Binary Twins",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Twins consisting of one boy and one girl, such as Mark and Carol Thatcher, are called what. Hetero Twins",
+      "strength": 0.36775506923015594
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Twins consisting of one boy and one girl, such as Mark and Carol Thatcher, are called what. Pigeon Pair",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dizygotic twins from biracial couples can sometimes be mixed twins, which exhibit differing ethnic and racial features.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "This phenomenon is known as heteropaternal superfecundation.",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "One 1992 study estimates that the frequency of heteropaternal superfecundation among dizygotic twins, whose parents were involved in paternity suits, was approximately 2.4%.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

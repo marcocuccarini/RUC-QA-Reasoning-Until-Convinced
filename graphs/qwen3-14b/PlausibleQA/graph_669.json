@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country were the 1948 Winter Olympics held. Norway",
+      "strength": 0.40000003811777657
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country were the 1948 Winter Olympics held. France",
+      "strength": 0.40000003811777657
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country were the 1948 Winter Olympics held. Italy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country were the 1948 Winter Olympics held. Suiza",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1948 Winter Olympics [...] were a winter multi-sport event held from 30 January to 8 February 1948 in St. Moritz, Switzerland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The IOC selected St. Moritz to host the 1948 Games [...] St. Moritz was chosen because all of the venues of the 1928 Winter Olympics were available [...]",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Comité Olympique Suisse (1948)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Rapport Général les Ves Jeux Olympiques D'hiver St. Moritz 1948 (PDF)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Predators are organisms in an ecosystem that capture and kill other animals for food, such as lions.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hunters are organisms in an ecosystem that capture and kill other animals for food.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Alphas are organisms in an ecosystem that capture and kill other animals for food, such as lions.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Leaders are organisms, such as lions, that capture and kill other animals for food in an ecosystem.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Predators are organisms that kill and eat other organisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Micropredators typically do not kill their hosts.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Predators are often highly specialized in their diet and hunting behaviour; for example, the Eurasian lynx only hunts small ungulates.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Many predators are powerfully built and can catch and kill animals larger than themselves; this applies as much to small predators such as ants and shrews as to big and visibly muscular carnivores like the cougar and lion.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

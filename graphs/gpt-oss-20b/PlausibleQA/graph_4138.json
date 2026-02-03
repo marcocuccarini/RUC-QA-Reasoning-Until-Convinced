@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the drummer for guns and roses. Matt Sorum",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the drummer for guns and roses. Steven Adler",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the drummer for guns and roses. Josh Freese",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the drummer for guns and roses. Frank Ferrer",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Steven Adler was the drummer and co‑songwriter of the hard rock band Guns N' Roses.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Replacing Adler with Matt Sorum of The Cult had a big impact on the band's sound.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sorum joined Guns N' Roses as Steven Adler's replacement.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sorum replaced their drummer Steven Adler in 1990.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

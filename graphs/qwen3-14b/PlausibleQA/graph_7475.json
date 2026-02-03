@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what instrument did robin gibb play. Guitar",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what instrument did robin gibb play. Drums",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what instrument did robin gibb play. Bass",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what instrument did robin gibb play. Piano",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "he also played acoustic guitar and organ on his debut solo album Robin's Reign (1970)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gibb also played a variety of keyboards, including piano, organ and Mellotron on various early Bee Gees albums such as Odessa (1969)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

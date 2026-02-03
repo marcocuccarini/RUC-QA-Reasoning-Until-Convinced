@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tallinn is the capital of which country. Latvia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tallinn is the capital of which country. Lithuania",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tallinn is the capital of which country. Poland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tallinn is the capital of which country. Estija",
+      "strength": 0.2500955085906131
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tallinn is the capital and largest city, located on the northern coast along the Gulf of Finland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Estonian language, of the Finnic family, is the official language and the first language of the majority of its population of nearly 1.4 million.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

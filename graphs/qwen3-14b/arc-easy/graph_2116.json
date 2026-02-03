@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Natural selection is the process that best describes how, in a laboratory setting, the presence of an antibiotic allows an existing genetic variant in a bacterial strain to help the bacteria survive, leading to antibiotic resistance.",
+      "strength": 0.5293104862300029
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Selective breeding is the process that best describes the resistance of bacteria due to an existing genetic variant, observed when the presence of an antibiotic allows an existing variant within the genetic code to help a bacterial strain survive in a lab setting.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Asexual reproduction is the process by which a bacterial strain in a laboratory survives the presence of an antibiotic because an existing genetic variant confers resistance and helps the bacteria survive.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Behavioral adaptation is the process by which a bacterial strain’s resistance to an antibiotic—enabled by an existing genetic variant that allows the bacteria to survive in the presence of the antibiotic—is best described.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Natural selection is seen in action in the development of antibiotic resistance in microorganisms. Since the discovery of penicillin in 1928, antibiotics have been used to fight bacterial diseases. The widespread misuse of antibiotics has selected for microbial resistance to antibiotics in clinical use, to the point that the methicillin-resistant Staphylococcus aureus (MRSA) has been described as a 'superbug' because of the threat it poses to health and its relative invulnerability to existing drugs.",
+      "strength": 0.74994652489612
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The variant which is a candidate for a beneficial mutation in this limited carrying capacity environment must first Checkout out-compete less fit variants to accumulate replications for a beneficial mutation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The use of antimicrobial agents has led to antimicrobial resistance becoming increasingly more prevalent.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The fact that bacteria reproduce at a high rate allows for the effect to be significant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

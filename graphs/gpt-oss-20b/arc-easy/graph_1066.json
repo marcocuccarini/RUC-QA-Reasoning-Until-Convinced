@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nursing is a learned characteristic of a newborn horse.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Walking is a learned characteristic of a newborn horse.",
+      "strength": 0.25008469270408856
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sleeping is a learned characteristic of a newborn horse.",
+      "strength": 0.40005642574159267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Breathing is a learned characteristic of a newborn horse.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Healthy foals can typically keep up with the rest of the herd only a few hours after birth.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A foal can stand and run shortly after birth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Horses are able to sleep both standing up and lying down, with younger horses tending to sleep significantly more than adults.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

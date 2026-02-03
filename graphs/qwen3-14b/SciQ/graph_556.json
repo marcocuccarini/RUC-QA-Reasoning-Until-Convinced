@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Actual charges are not indicated by formal charges, which are only a useful bookkeeping procedure and do not represent the real charges of atoms in a molecule.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Isotopes are not indicated by the formal charge calculated for an atom, which is only a useful bookkeeping procedure and does not reflect the atom’s actual charge in the molecule.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Negative charges are not indicated by the formal charge calculated for an atom, which is only a useful bookkeeping procedure and does not represent the actual charge of the atom in the molecule.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electron bonds are not indicated by the formal charge calculated for an atom, which is only a useful bookkeeping procedure and does not reflect the actual charge of the atom in the molecule.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The formal charge system is just a method to keep track of all of the valence electrons that each atom brings with it when the molecule is formed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The covalent (sharing) aspect of the bonding is overemphasized in the use of formal charges since in reality there is a higher electron density around the oxygen atoms due to their higher electronegativity compared to the carbon atom.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

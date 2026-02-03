@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. In-N-Out Burger",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. Del Taco",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. Carl's Jr.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "May 15, 1940 saw what fast food chain get started in San Bernadino, CA. McD",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In-N-Out Burger was founded in 1948 in Baldwin Park, California.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Richard and Maurice McDonald founded McDonald's in 1940 in San Bernardino",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

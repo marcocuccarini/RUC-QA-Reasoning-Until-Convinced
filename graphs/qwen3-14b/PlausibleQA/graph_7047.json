@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the seventh president of the United States. Andrew Jackson",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the seventh president of the United States. John Quincy Adams",
+      "strength": 0.2500000952778767
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the seventh president of the United States. Martin Van Buren",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the seventh president of the United States. Sharp Knife",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John Quincy Adams was the sixth president of the United States, serving from 1825 to 1829.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adams, John Quincy (sixth President of the United States)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Martin Van Buren was the eighth president of the United States, serving from 1837 to 1841.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

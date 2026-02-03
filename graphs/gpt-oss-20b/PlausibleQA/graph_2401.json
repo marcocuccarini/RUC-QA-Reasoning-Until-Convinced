@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sings the skye boat song on outlander. Ramin Djawadi",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sings the skye boat song on outlander. Lorne Balfe",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sings the skye boat song on outlander. Hans Zimmer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sings the skye boat song on outlander. Bear McCreary",
+      "strength": 0.1365328286350364
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bear McCreary adapted the song as the opening titles of the 2014 TV series Outlander, sung by Raya Yarbrough",
+      "strength": 0.6322449571736177
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The title song is sung by McCreary's wife Raya Yarbrough.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The music is composed by Bear McCreary.",
+      "strength": 0.5999625530424765
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The main title was sung by his long‑time collaborator and partner, Raya Yarbrough.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "McCreary has composed the score for all seasons of Outlander.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

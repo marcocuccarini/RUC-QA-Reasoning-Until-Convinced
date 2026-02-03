@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To form a good hypothesis, the student should perform the experiment in three trials, measuring the average time it takes for a toy car to travel 10 meters.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increasing the accuracy of the results is the reason the student should perform the experiment in three trials when measuring the average time it takes for a toy car to travel 10 meters.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To make the results more significant, a student performs the lab investigation by measuring the average time it takes for a toy car to travel 10 meters in three trials.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To better explain the investigation to others, it is best for the student to perform the experiment measuring the average time it takes for a toy car to travel 10 meters in three trials.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In engineering, precision is often taken as three times Standard Deviation of measurements taken, representing the range that 99.73% of measurements can occur within.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "increasing the sample size generally increases precision but does not improve accuracy",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nucleus must be present in order for something to be classified as an organism.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An organ is required for something to be classified as an organism.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A cell must be present for something to be classified as an organism.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An organelle must be present for something to be classified as an organism.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The cell is the basic structural and functional unit of all forms of life or organisms.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prokaryotes are single-celled organisms, whereas eukaryotes can be either single-celled or multicellular.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

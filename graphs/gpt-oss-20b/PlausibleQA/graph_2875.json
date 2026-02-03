@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Taka is the basic monetary unit of which country. India",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Taka is the basic monetary unit of which country. Pakistan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Taka is the basic monetary unit of which country. Nepal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Taka is the basic monetary unit of which country. BNGL",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The taka is the currency of Bangladesh.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the Indian states of West Bengal and Tripura, the official name of the Indian rupee is 'taka'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

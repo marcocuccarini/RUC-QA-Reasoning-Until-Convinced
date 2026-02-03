@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what song is played while raising the american flag. The Star-Spangled Banner",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what song is played while raising the american flag. America the Beautiful",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what song is played while raising the american flag. Yankee Doodle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what song is played while raising the american flag. Reveille",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1931, the U.S. officially recognized 'The Star-Spangled Banner' as the national anthem.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "'America the Beautiful' was considered as a candidate to become the national anthem of the United States before 1931.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

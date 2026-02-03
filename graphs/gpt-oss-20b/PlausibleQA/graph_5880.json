@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "With what orchestral instrument would you associate Yo- Yo Ma. Violin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "With what orchestral instrument would you associate Yo- Yo Ma. Double Bass",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "With what orchestral instrument would you associate Yo- Yo Ma. Harp",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "With what orchestral instrument would you associate Yo- Yo Ma. CELLO",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Yo-Yo Ma is an American cellist.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He jokes that his first choice was the double bass due to its large size, but he compromised and took up the cello instead.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Dog Face. Fish",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Dog Face. Pufferfish",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Dog Face. Toad",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of creature is a Dog Face. Butterfly",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cardinalfishes are a family, Apogonidae, of ray-finned fishes found in the Atlantic, Indian, and Pacific Oceans.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They are generally small fish, with most species being less than 10 cm (4 in).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

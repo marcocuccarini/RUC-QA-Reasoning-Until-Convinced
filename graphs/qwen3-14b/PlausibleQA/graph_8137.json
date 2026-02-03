@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the capital and largest city of the Islamic Republic of Mauritania. Dakar",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the capital and largest city of the Islamic Republic of Mauritania. Timbuktu",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the capital and largest city of the Islamic Republic of Mauritania. Agadir",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the capital and largest city of the Islamic Republic of Mauritania. Noukchott",
+      "strength": 0.2761350676805171
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the capital and largest city, Nouakchott, on the Atlantic coast",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "France chose Nouakchott as the site of the new capital of Mauritania",
+      "strength": 0.400045737817203
+    },
+    "A7": {
+      "type": "argument",
+      "text": "the area of present-day Nouakchott was chosen by Moktar Ould Daddah, the first President of Mauritania, and his advisors",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

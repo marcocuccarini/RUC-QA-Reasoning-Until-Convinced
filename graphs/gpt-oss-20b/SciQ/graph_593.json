@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "DNA ligase seals the gap between two DNA fragments.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Reductase is the enzyme that seals the gap between two DNA fragments.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "RNA ligase seals the gap between two DNA fragments.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Enzymes seal the gap between two DNA fragments.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "DNA ligase is a type of enzyme that facilitates the joining of DNA strands together by catalyzing the formation of a phosphodiester bond.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "DNA ligases have become indispensable tools in modern molecular biology research for generating recombinant DNA sequences.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "DNA Ligase IV, a specialized DNA ligase that forms a complex with the cofactor XRCC4, directly joins the two ends.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "nick sealing by DNA ligase.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Artificial turf, made of fibers that resemble real grass, uses less water than natural grass in sports stadiums.",
+      "strength": 0.5000967341380452
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It produces more heat, which is the most likely benefit of artificial turf—fibers that resemble real grass—used in some sports stadiums instead of natural grass.",
+      "strength": 0.5999999071782728
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It releases less moisture, which is a likely benefit of artificial turf in sports stadiums that use fake grass instead of natural grass.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It absorbs more carbon dioxide, which is a benefit of artificial turf made of fibers that look like real grass.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is easily maintained without irrigation or trimming.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Artificial turf tends to retain heat from the sun and can be much hotter than natural grass with prolonged exposure to the sun.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "a study at New Mexico State University found that in that environment, water‑cooling of artificial turf can demand as much water as natural turf.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Artificial turf has been shown to contribute to global warming by absorbing significantly more radiation than living turf and, to a lesser extent, by displacing living plants that could sequester carbon dioxide through photosynthesis;",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

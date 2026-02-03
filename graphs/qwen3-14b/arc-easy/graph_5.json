@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The planet to revolve once around the Sun is the event that defines a year, which is a little over 365 days for Earth.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The seasons completing a full cycle is the time it takes for a planet’s year, which on Earth is a little over 365 days.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The planet to rotate once on its axis is the time it takes for the length of a year on a planet, which on Earth is a little over 365 days.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Sun to rotate once on its axis is the time it takes for the length of a year on a planet.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The orbital period is simply how long an orbiting body takes to complete one orbit, which can be derived from the semimajor axis and the combined masses.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bodies following closed orbits repeat their paths with a certain time called the period.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

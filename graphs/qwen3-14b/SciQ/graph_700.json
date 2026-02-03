@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Milk is the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Plasma is the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Blood is the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sperm is the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Milk is an emulsion or colloid of butterfat globules within a water-based fluid that contains dissolved carbohydrates and protein aggregates with minerals.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Milk contains many nutrients, including calcium and protein, as well as lactose and saturated fat; the enzyme lactase is needed to break down lactose.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

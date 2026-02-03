@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who are the u s senators of pennsylvania. Bob Casey",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who are the u s senators of pennsylvania. Arlen Specter",
+      "strength": 0.5999999090162662
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who are the u s senators of pennsylvania. Rick Santorum",
+      "strength": 0.5999999090162662
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who are the u s senators of pennsylvania. Pat Toomey",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Arlen Specter served as a United States Senator from Pennsylvania from 1981 to 2011.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the state's other senator at the time, Rick Santorum",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bob Casey defeated Rick Santorum in the 2006 Pennsylvania Senate election.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

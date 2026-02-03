@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Precipitation is the form in which rain, snow, or sleet falls to the ground in the water cycle.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Condensation is the process in the water cycle where rain, snow, or sleet falls to the ground.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Evaporation is a form of rain, snow, or sleet falling to the ground in the water cycle.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Transpiration is the form of precipitation—rain, snow, or sleet—that falls to the ground in the water cycle.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Precipitation occurs when a portion of the atmosphere becomes saturated with water vapor (reaching 100% relative humidity), so that the water condenses and 'precipitates' or falls.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Transpiration from plants is one of the main ways water vapor is added to the air.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

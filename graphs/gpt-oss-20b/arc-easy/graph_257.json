@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Calorie is the unit used to express the amount of energy in food.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Degree Celsius is the unit used to express the amount of energy in food.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Milliliter is the unit used to express the amount of energy in food.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Gram is the unit used to express the amount of energy in food.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In nutrition, the large unit calorie, also called kilocalorie, is used to express food energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fat contains 9 kilocalories per gram.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 'large' unit is also used to express recommended nutritional intake or consumption, as in 'calories per day'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The small calorie or gram calorie is defined as the amount of heat needed to cause the same increase in one milliliter of water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

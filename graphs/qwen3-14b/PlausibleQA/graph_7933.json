@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which animated film, created by Dream Works Animations, is the highest-grossing film worldwide of 2009 so far? (May 2009). Monsters vs. Aliens",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which animated film, created by Dream Works Animations, is the highest-grossing film worldwide of 2009 so far? (May 2009). Kung Fu Panda",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which animated film, created by Dream Works Animations, is the highest-grossing film worldwide of 2009 so far? (May 2009). Shrek",
+      "strength": 0.2500955085906131
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which animated film, created by Dream Works Animations, is the highest-grossing film worldwide of 2009 so far? (May 2009). Ginormica",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Worldwide, it is the third-highest-grossing animated film of 2009 with a total of $381.7 million behind Up and Ice Age: Dawn of the Dinosaurs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was a box-office success, grossing $381 million on a $175 million budget.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Shrek generated more than $420 million in revenue for DreamWorks on DVD and VHS, and has sold more than 21 million copies of the 23 million shipped by January 2002.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The film closed on December 6, 2001, after grossing $267.7 million domestically, along with $216.7 million overseas, for a worldwide total of $484.4 million.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

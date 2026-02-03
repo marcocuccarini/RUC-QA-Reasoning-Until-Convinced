@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Yorkshire",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Warwickshire",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Middlesex",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which county won the 2013 Cricket County Championship. Durham",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The team's most recent Championship title was in 2015.",
+      "strength": 0.40000003589797006
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For the 2013 season they were called the Yorkshire Vikings.",
+      "strength": 0.40000003589797006
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the County Championship, they compete in Division One (the top division), and last won it outright in 2021 (for a total of eight championship wins).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "After the season, Warwickshire changed their name to Birmingham Bears for T20 competitions.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In September 2013 Durham won the County Championship for a third time after beating Nottinghamshire by eight wickets at Chester le Street.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Durham won the County Championship in 2008, retained the trophy in the 2009 season, and then won it for a third time in 2013.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

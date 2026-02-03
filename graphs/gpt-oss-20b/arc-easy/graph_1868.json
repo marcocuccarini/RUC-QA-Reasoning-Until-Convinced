@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "More protons than neutrons is the characteristic that best describes a neutral atom.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A neutral atom is best described as having more electrons than protons.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An equal number of protons and neutrons is what best describes a neutral atom.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An equal number of protons and electrons is what best describes a neutral atom.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Atoms typically have equal numbers of protons and electrons, in which case their charges cancel out, yielding a net charge of zero, thus making the atom neutral.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If there are more electrons than protons in a piece of matter, it will have a negative charge, if there are fewer it will have a positive charge, and if there are equal numbers it will be neutral.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

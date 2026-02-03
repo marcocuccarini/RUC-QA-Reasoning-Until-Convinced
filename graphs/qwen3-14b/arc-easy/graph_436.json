@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The rate of the motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The direction of the motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The change in the amount of motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The amount of distance traveled during motion is the information a student needs to differentiate between the speed and the velocity of a vehicle in motion.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Velocity is a vector quantity, meaning that both magnitude and direction are needed to define it (velocity vector).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For example, a car moving at a constant 20 kilometres per hour in a circular path has a constant speed, but does not have a constant velocity because its direction changes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

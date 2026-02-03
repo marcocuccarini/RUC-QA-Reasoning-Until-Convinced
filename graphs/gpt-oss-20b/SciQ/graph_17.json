@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pressure increases when the number of gas molecules in the same volume container increases.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Friction is increased by an increase in the number of gas molecules in the same volume container.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Energy increases when the number of gas molecules in the same volume container increases.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Power increases when the number of gas molecules in the same volume container increases.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "P0 = (1/3) n m v^2",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "p = n k_B T",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Johnny Weissmuller and Ron Ely are famous for playing which character on screen . Hercules",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Johnny Weissmuller and Ron Ely are famous for playing which character on screen . Robin Hood",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Johnny Weissmuller and Ron Ely are famous for playing which character on screen . Flash Gordon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Johnny Weissmuller and Ron Ely are famous for playing which character on screen . Tarzan",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Weissmuller played Edgar Rice Burroughs' Tarzan in twelve feature films from 1932 to 1948; six were produced by MGM, and six additional films by RKO.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He originated the famous Tarzan yell, which was created by sound recordist Douglas Shearer. Shearer recorded Weissmuller's normal yell, but manipulated it and played it in reverse.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

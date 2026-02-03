@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who appoints the members of the board of governors of the federal reserve. The Federal Reserve Chairman",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who appoints the members of the board of governors of the federal reserve. The Secretary of the Treasury",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who appoints the members of the board of governors of the federal reserve. The Senate Banking Committee",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who appoints the members of the board of governors of the federal reserve. the President",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Each governor is appointed by the president of the United States and confirmed by the Senate to staggered 14-year terms",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The chair and vice chair are appointed by the president from among the sitting Governors",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

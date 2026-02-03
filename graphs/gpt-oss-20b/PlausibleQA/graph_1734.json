@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of cancer did carl wilson have. Brain Cancer",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of cancer did carl wilson have. Prostate Cancer",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of cancer did carl wilson have. Stomach Cancer",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of cancer did carl wilson have. Lung cancer",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The bacterium Helicobacter pylori accounts for more than 60% of cases of stomach cancer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2018, stomach cancer was the fifth most frequently diagnosed cancer worldwide, representing 5.7% of all cancer cases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

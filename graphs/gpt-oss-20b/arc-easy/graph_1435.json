@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The slow movement of tectonic plates caused many of these anaerobic bacteria—bacteria that can only live where oxygen is absent and were well adapted to life on Earth over 2 billion years ago—to become extinct.",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The varying temperatures of each season caused many bacteria that could only live where oxygen is not present and were well adapted to life on Earth over 2 billion years ago to become extinct.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An increase in volcanic activity under the oceans caused many anaerobic bacteria—those that could only live where oxygen is absent and were well adapted to life on Earth over 2 billion years ago—to become extinct.",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An increase in the number of photosynthetic organisms caused many of the bacteria that could only live where oxygen was absent—bacteria well adapted to life on Earth for over 2 billion years—to become extinct.",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Evidence suggests oxygen levels spiked each time smaller land masses collided to form a super-continent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The GOE is inferred to have been caused by cyanobacteria, which evolved chlorophyll-based photosynthesis that releases dioxygen as a byproduct of water photolysis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "oxygen would disrupt their metabolism or kill them",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "chemoautotroph microbes also thrive around hydrothermal vents, discharging hot water on the ocean seabed near mid-ocean ridges, where anaerobic conditions prevail",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

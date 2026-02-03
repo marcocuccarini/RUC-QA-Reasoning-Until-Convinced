@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who plays the mouse in alice in wonderland. Joanna Lumley",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who plays the mouse in alice in wonderland. Helena Bonham Carter",
+      "strength": 0.250000034708044
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who plays the mouse in alice in wonderland. Tilda Swinton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who plays the mouse in alice in wonderland. Barbara Windsor",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bonham Carter joined the cast of Tim Burton's 2010 film, Alice in Wonderland, as the Red Queen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2016, Bonham Carter reprised her role of the Red Queen in Alice Through the Looking Glass.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Windsor provided the voice of the Dormouse in Walt Disney's live-action adaptation of Lewis Carroll's Alice in Wonderland (2010), directed by Tim Burton.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "She reprised her voice role of the Dormouse in the film Alice Through the Looking Glass (2016).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

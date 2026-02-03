@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Richard Daley was mayor of which city for 21 years. Chicago",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Richard Daley was mayor of which city for 21 years. New York City",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Richard Daley was mayor of which city for 21 years. Los Angeles",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Richard Daley was mayor of which city for 21 years. USCHI",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Richard J. Daley (1902–1976), mayor of Chicago (1955–1976)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Richard M. Daley (born 1942), mayor of Chicago (1989–2011)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

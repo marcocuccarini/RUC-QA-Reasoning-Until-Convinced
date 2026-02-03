@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Horizontal layers are formed when sediments settle out of water.",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Separated layers are what sediments form when they settle out of water.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Erosion is what sediments form when they settle out of water.",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Magnetic layers are formed when sediments settle out of water.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sedimentation is the deposition of sediments which results in the formation of sedimentary rock.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sedimentary rock are laid down in layers called beds or strata, each layer is horizontally laid down over the older ones.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Erosion removes most deposited sediment shortly after deposition.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

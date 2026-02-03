@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A triple‑beam balance is a necessary item in a laboratory for safety purposes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A metric ruler is necessary in a laboratory for safety purposes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A computer monitor is necessary in a laboratory for safety purposes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fire extinguisher is necessary in a laboratory for safety purposes.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lack of maintenance can lead to an extinguisher not discharging when required, or rupturing when pressurized.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deaths have occurred, even in recent times, from corroded extinguishers exploding.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

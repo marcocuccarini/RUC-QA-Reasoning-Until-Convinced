@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The bird's prey species would decrease in number if a species of bird stopped reproducing.",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The food web that the bird belongs to would collapse if a species of bird stopped reproducing.",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Trees where these birds build nests would grow taller if a species of bird stopped reproducing.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "This bird species would eventually disappear from nature if it stopped reproducing.",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most simply, any species that cannot survive and reproduce in its environment and cannot move to a new environment where it can do so, dies out and becomes extinct.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The extinction of one species' wild population can have knock-on effects, causing further extinctions. These are also called 'chains of extinction'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Coextinction is especially common when a keystone species goes extinct.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Haast's eagle was a predator that became extinct because its food source became extinct.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

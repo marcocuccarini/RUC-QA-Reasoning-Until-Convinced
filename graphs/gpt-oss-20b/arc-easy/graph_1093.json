@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Flashlights and extra batteries are the items most useful at home during a power failure.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hats and sunscreen are the items that would be most useful at home during a power failure.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Raincoats and umbrellas are the items most useful at home during a power failure.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Insect spray and jackets are the items that would be most useful at home during a power failure.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Flashlights are used as a light source outdoors, in places without permanently installed lighting, during power outages, or when a portable light source is needed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Power-failure lights are designed to keep their batteries charged from a wall plug and to automatically turn on after an AC power failure; the power-failure light can be removed from the wall socket and used as a portable flashlight.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

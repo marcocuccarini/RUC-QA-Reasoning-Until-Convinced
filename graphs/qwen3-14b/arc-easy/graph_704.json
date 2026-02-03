@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Meters is the best unit to measure the mass of the fertilizer used by students investigating the effects of different fertilizers on plant growth.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Centimeters are the best units to measure the mass of the fertilizer used by students investigating the effects of different fertilizers on plant growth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grams are the best units to measure the mass of the fertilizer used when students investigate the effects of different fertilizers on plant growth.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Milligrams are the best units to measure the mass of the fertilizer used by students investigating the effects of different fertilizers on plant growth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The kilogram is the base unit of mass in the International System of Units (SI), equal to one thousand grams.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The kilogram is defined in terms of three defining constants of the SI, namely a specific transition frequency of the caesium-133 atom, the speed of light, and the Planck constant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

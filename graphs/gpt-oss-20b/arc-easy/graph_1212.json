@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chloroplasts store genetic instructions for the entire organism and transfer them from one generation to the next.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mitochondria store the genetic instructions for the entire organism and transfer them from one generation to the next.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "DNA molecules store genetic instructions for the entire organism and transfer them from one generation to the next.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nuclear membranes store genetic instructions for the entire organism and transfer them from one generation to the next.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Eukaryotic organisms store most of their DNA inside the cell nucleus as nuclear DNA, and some in the mitochondria as mitochondrial DNA or in chloroplasts as chloroplast DNA.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In eukaryotes, DNA is located in the cell nucleus, with small amounts in mitochondria and chloroplasts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Accurate records must be kept in order for scientific data to be verified through repetition.",
+      "strength": 0.7499999066099569
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Modern technology must be used in order for scientific data to be verified through repetition.",
+      "strength": 0.8460606499178676
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Investigations must be conducted by trained scientists in order for scientific data to be verified through repetition.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Observations must be made by more than one scientist in order for scientific data to be verified through repetition.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term reproducible research refers to the idea that scientific results should be documented in such a way that their deduction is fully transparent. This requires a detailed description of the methods used to obtain the data and making the full dataset and the code to calculate the results easily accessible.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The use of software and automation enhances the reproducibility of research methods.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Measurements collected can be archived, passed onwards and used by others.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The measurements often require specialized scientific instruments such as thermometers, spectroscopes, particle accelerators, or voltmeters.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Only after one or several such successful replications should a result be recognized as scientific knowledge.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Open Science Framework provides a platform and useful tools to support reproducible research.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

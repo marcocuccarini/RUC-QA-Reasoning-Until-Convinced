@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mesosphere is the layer of the atmosphere where temperature generally increases with altitude, a region in which some jet airplanes fly.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stratosphere is the layer of the atmosphere where temperature generally increases with altitude and in which some jet airplanes fly.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Thermosphere is the layer of the atmosphere where temperature generally increases with altitude, and some jet airplanes fly in this layer.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Troposphere is the layer of the atmosphere in which some jet airplanes fly and where temperature generally increases with altitude.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The stratosphere is composed of stratified temperature zones, with the warmer layers of air located higher (closer to outer space) and the cooler layers lower (closer to the planetary surface of the Earth).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The temperature inversion is in contrast to the troposphere, where temperature decreases with altitude.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

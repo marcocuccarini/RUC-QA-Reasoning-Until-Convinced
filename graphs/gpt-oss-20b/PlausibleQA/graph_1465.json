@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Parliamentary Democracy",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Federal Republic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Presidential System",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the government of france for 2010. Constitutional republic",
+      "strength": 0.5999999626370065
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Fifth Republic emerged from the collapse of the Fourth Republic, replacing the former parliamentary republic with a semi‑presidential (or dual‑executive) system that split powers between a president as head of state and a prime minister as head of government.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Fifth Republic is France's current republican system of government.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The government is responsible to the French Parliament.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "If the government decides to launch an armed operation with a duration of longer than four months, it must first consult parliament and request an authorization.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

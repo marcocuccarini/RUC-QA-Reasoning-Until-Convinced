@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What river flows through the Grand Canyon in the USA. Missouri",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What river flows through the Grand Canyon in the USA. Rio Grande",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What river flows through the Grand Canyon in the USA. Arkansas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What river flows through the Grand Canyon in the USA. Colo.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 277 miles (446 km) of the river that flow through the Grand Canyon are largely encompassed by Grand Canyon National Park.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Downstream, the river enters Marble Canyon, the beginning of the Grand Canyon, passing under the Navajo Bridges on a now southward course.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

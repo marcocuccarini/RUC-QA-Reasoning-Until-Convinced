@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A Colles fracture is in which part of the body. Ankle",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A Colles fracture is in which part of the body. Elbow",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A Colles fracture is in which part of the body. Shoulder",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A Colles fracture is in which part of the body. Wrist",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A Colles' fracture is a type of fracture of the distal forearm in which the broken end of the radius is bent backwards.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It usually occurs about three to five centimetres proximal to the radio-carpal joint with posterior and lateral displacement of the distal fragment resulting in the characteristic 'dinner fork' or 'bayonet' like deformity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

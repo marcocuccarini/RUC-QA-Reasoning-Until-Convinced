@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who composed the ballet ‘Swan Lake’. Ludwig van Beethoven",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who composed the ballet ‘Swan Lake’. Frédéric Chopin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who composed the ballet ‘Swan Lake’. Johannes Brahms",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who composed the ballet ‘Swan Lake’. Tchicovski",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Swan Lake is a ballet by Russian composer Pyotr Ilyich Tchaikovsky",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ballet Swan Lake is among the works composed by Pyotr Ilyich Tchaikovsky",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tchaikovsky wrote some of the most popular concert and theatrical music in the classical repertoire, including the ballets Swan Lake and The Nutcracker",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Artemisinin and derivatives are drugs found to act especially well on which disease. Malaria",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Artemisinin and derivatives are drugs found to act especially well on which disease. Leishmaniasis",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Artemisinin and derivatives are drugs found to act especially well on which disease. Toxoplasmosis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Artemisinin and derivatives are drugs found to act especially well on which disease. Agues",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Artemisinin-based combination therapies (ACTs) have become standard treatment worldwide for P. falciparum malaria as well as malaria due to other species of Plasmodium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Artemisinin and its derivatives are all potent antihelmintics. Artemisinins were later found to possess a broad spectrum of activity against a wide range of trematodes, including Schistosoma japonicum, S. mansoni, S. haematobium, Clonorchis sinensis, Fasciola hepatica, and Opisthorchis viverrini.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

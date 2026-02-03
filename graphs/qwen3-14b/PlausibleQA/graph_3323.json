@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What word best describes a triangle where all sides are equal. Isosceles",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What word best describes a triangle where all sides are equal. Regular",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What word best describes a triangle where all sides are equal. Uniform",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What word best describes a triangle where all sides are equal. Equilateral",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An equilateral triangle is a regular polygon, occasionally known as the regular triangle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An equilateral triangle is a triangle in which all three sides have the same length, and all three angles are equal.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A triangle whose sides are all the same length is an equilateral triangle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liquid has a fixed volume but not a fixed shape.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mixture is a form of matter that has a fixed volume but not a fixed shape.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gas is the form of matter that has a fixed volume but not a fixed shape.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solid is the form of matter that has a fixed volume but not a fixed shape.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Liquid is a state of matter with a definite volume but no fixed shape. When resting in a container, liquids typically adapt to the shape of the container.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The volume of a quantity of liquid is fixed by its temperature and pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

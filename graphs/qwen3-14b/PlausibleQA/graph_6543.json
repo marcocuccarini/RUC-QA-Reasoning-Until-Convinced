@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The John Brown Shipyard is/was on which river. Thames",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The John Brown Shipyard is/was on which river. Mersey",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The John Brown Shipyard is/was on which river. Tyne",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The John Brown Shipyard is/was on which river. Clyde",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Prior to construction commencing on Lusitania in 1904 the shipyard was reorganized to accommodate her so that she could be launched diagonally across the widest available part of the river Clyde where it met a tributary (the River Cart)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clydebank also became Cun Relevant shipbuilder, building its flagship liners RMS Lusitania and RMS Aquitania",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

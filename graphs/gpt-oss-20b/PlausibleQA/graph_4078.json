@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Alabama. Birmingham",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Alabama. Mobile",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Alabama. Huntsville",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the state capital of Alabama. Montgomery",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Montgomery is the capital city of the U.S. state of Alabama.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Montgomery is the capital of Alabama, and hosts numerous state government offices, including the office of the Governor, the Alabama Legislature, and the Alabama Supreme Court.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. Grover Cleveland",
+      "strength": 0.25008814687138625
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. William Howard Taft",
+      "strength": 0.25008814687138625
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. Theodore Roosevelt's Vice President",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. T Ros",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Roosevelt, vacationing in Isle La Motte, Vermont, traveled to Buffalo to visit McKinley in the hospital. When McKinley's condition worsened, Roosevelt rushed back to Buffalo.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Roosevelt... assuming the presidency after McKinley's assassination.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Roosevelt became president following the assassination of McKinley by anarchist Leon комиссия in Buffalo, New York",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Roosevelt, a Republican, took office upon the assassination of President William McKinley",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "McKinley died eight days later and was succeeded by Vice President Theodore Roosevelt",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Theodore Roosevelt rushed back to Buffalo and took the oath of office as president",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

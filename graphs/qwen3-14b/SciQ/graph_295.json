@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Asteroids are the small, rocky bodies that orbit the sun.",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Comets are small, rocky bodies that orbit the sun.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Meteorites are small, rocky bodies that orbit the sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fossils are the small, rocky bodies that orbit the sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Asteroids are rocky, metallic, or icy bodies... larger than a meteoroid (thus 1 meter or larger)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A年底 shows a coma (tail) due to sublimation of its near-surface ices by solar radiation",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

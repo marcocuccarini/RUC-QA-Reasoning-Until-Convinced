@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Tom Brady",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Drew Brees",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Peyton Manning",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American football quarterback is the only player to win the AP Most Valuable Player three consecutive times (199597) and holds NFL records including most passing yards (65,127), most pass completions (5,720), and most career victories as a starting quarterback (169). Favregate",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Favre was the first NFL quarterback to win three consecutive AP MVP awards (1995, 1996, 1997).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Favre was the first quarterback to obtain 70,000 yards, 10,000 passes, 6,000 completions, 500 touchdowns, and victories over all 32 teams.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

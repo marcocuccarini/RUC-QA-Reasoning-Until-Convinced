@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country is Lake Como. Switzerland",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country is Lake Como. Austria",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country is Lake Como. Slovenia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country is Lake Como. ItalY",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lake Como, also known as Lario, is a lake of glacial origin in Lombardy, Italy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lake Como is situated in the Lombardy region of Northern Italy, at the southern end of the Alps, about 45 km north of Milan.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

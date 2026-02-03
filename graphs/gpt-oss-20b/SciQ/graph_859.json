@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Body hair is what humans and bats physically have in common.",
+      "strength": 0.22615253468190025
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wing size is what humans and bats have physically in common.",
+      "strength": 0.40000009469685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gland hair is something that humans and bats have physically in common.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Body odor is a physical characteristic shared by humans and bats.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Humans evolved by natural selection to be hairless when the trade off of having fewer parasites became more important than having a warming, furry coat.",
+      "strength": 0.5999999999530805
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The two main advantages are bipedal locomotion and greater thermal load dissipation capacity due to better sweating and less hair.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hairs can sense movements of air as well as touch by physical objects and they provide sensory awareness of the presence of ectoparasites.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text describes human body hair loss and function but does not mention bat body hair.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Bats are the only mammals capable of true and sustained flight.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Most mammals also have hair to help keep them warm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The A2 connects London to which other town or city. Canterbury",
+      "strength": 0.6323528213381254
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The A2 connects London to which other town or city. Maidstone",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The A2 connects London to which other town or city. Gillingham",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The A2 connects London to which other town or city. DOVER",
+      "strength": 0.7499026424000742
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The A2 connects London with the English Channel port of Dover in Kent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Straight after the interchange, Dunkirk and Boughton are bypassed as the A2 continues towards Canterbury and Dover.",
+      "strength": 0.5999999773381988
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dover's main communications artery, the A2 road replicates two former routes, connecting the town with Canterbury.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Roman road now known as Watling Street passes through Gillingham; and until the opening of the Medway Towns bypass (the M2 motorway) in the mid-1960s the same route was followed by the traffic on the A2 to Dover.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

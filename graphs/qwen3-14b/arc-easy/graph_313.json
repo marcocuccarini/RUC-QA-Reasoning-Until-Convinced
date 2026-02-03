@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "During a space mission, astronauts perform the experiment to obtain data to test a hypothesis, even though scientists have predicted the outcome.",
+      "strength": 0.40008417731488793
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To make a complete observation, astronauts perform the experiment in space even though scientists have already predicted the outcome.",
+      "strength": 0.40008417731488793
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To make a report of the procedures, astronauts conduct experiments during a space mission even though scientists have already predicted the outcomes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To make a hypothesis understandable is why astronauts perform the experiment in space, even when scientists have already predicted its outcome, allowing them to confirm the prediction and communicate it clearly.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is essential that the outcome of testing such a prediction be currently unknown. If the outcome is already known, it is called a consequence and should have already been considered while formulating the hypothesis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Only in this case does a successful outcome increase the probability that the hypothesis is true. If the outcome is already known, it is called a consequence and should have already been considered while formulating the hypothesis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If one cannot assess the predictions by observation or by experience, the hypothesis needs to be tested by others providing observations.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The scientific method involves experimentation to test the ability of some hypothesis to adequately answer the question under investigation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

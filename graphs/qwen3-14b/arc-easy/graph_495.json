@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Add the number of protons to the number of electrons is how the mass of an atom is calculated.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Adding the number of protons to the number of neutrons is the method used to calculate the mass of an atom.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Subtract the number of protons from the number of neutrons to calculate the mass of an atom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Subtracting the number of electrons from the sum of protons and neutrons is how the mass of an atom is calculated.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The atomic mass of a nuclide is numerically close to its mass number (sum of protons and neutrons).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Electrons contribute minimally to the atomic mass, with the majority coming from protons and neutrons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

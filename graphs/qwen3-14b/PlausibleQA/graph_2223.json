@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best actor in 1975. Jack Nicholson",
+      "strength": 0.5999029125598947
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best actor in 1975. Al Pacino",
+      "strength": 0.4000000447316251
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best actor in 1975. Robert De Niro",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the oscar for best actor in 1975. Art Carney",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 48th Academy Awards were presented on March 29, 1976, at the Dorothy Chandler Pavilion in Los Angeles, California.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Miloš Forman's One Flew Over the Cuckoo's Nest made a 'clean sweep' of the five major categories: Best Picture, Best Actor, Best Actress, Best Director and Best Screenplay (Adapted).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Nicholson won Academy Awards for Best Actor for playing Randle McMurphy in One Flew Over the Cuckoo's Nest (1975)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Miloš Forman's One Flew Over the Cuckoo's Nest made a 'clean sweep' of the five major categories: Best Picture, Best Actor, Best Actress, Best Director and Best Screenplay (Adapted)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

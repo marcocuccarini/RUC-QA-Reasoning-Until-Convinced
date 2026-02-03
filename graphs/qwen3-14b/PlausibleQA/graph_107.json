@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Brazil",
+      "strength": 0.2500881490789106
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Italy",
+      "strength": 0.2500881490789106
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Netherlands",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who did Germany defeat to win the 1990 FIFA World Cup. Argie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The final between West Germany and Argentina has been cited as one of two most cynical and lowest-quality of all World Cup Finals, next to the 2010, between Spain and Netherlands.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "West Germany defeated Argentina in the 1990 FIFA World Cup final.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

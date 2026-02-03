@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. Scotland",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. Ireland",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. England",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What nation invented the kilt. Airlan",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "current evidence suggests that kilts originated in the Scottish Highlands and Isles",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the origins of the Irish kilt continue to be a subject of debate, current evidence suggests that kilts originated in the Scottish Highlands and Isles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

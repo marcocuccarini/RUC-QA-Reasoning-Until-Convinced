@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what films has daniel craig been in. Casino Royale",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what films has daniel craig been in. Layer Cake",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what films has daniel craig been in. Defiance",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what films has daniel craig been in. Munich",
+      "strength": 0.5999999626370065
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Casino Royale is a 2006 action spy thriller film, the twenty-first in the Eon Productions James Bond series, the third screen adaptation of Ian Fleming's 1953 novel of the same name, and the first to star Daniel Craig as the fictional MI6 agent James Bond.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Daniel Craig cited Mossad and British Secret Service agents who served as advisers on the set of Munich as inspiring because, 'Bond has just come out of the service and he's a killer.'",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Craig's character is unnamed in the film and is listed in the credits as 'XXXX'.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The film's plot revolves around a London-based criminal, played by Daniel Craig.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

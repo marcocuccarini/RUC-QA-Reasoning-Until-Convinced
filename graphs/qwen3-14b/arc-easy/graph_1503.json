@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun is medium-sized compared to other stars.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Sun is the largest and brightest star in the universe, which best describes its size.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Most of the stars in the universe would fit inside the Sun.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Most of the stars in the universe are smaller than the Sun is the statement that best describes the size of the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is more massive than 95% of the stars within 7 pc (23 ly).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is estimated to be brighter than about 85% of the stars in the Milky Way, most of which are red dwarfs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

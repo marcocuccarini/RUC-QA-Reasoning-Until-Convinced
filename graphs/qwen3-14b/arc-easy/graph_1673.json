@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Galileo Galilei is credited with discovering the first four moons of Jupiter.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Albert Einstein is credited with discovering the first four moons of Jupiter.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Charles Darwin is credited with discovering the first four moons of Jupiter.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sir Isaac Newton is the scientist credited with discovering the first four moons of Jupiter.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Galilean moons were first observed by Galileo Galilei in either December 1609 or January 1610.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Simon Marius discovered the moons independently at nearly the same time as Galileo, 8 January 1610.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

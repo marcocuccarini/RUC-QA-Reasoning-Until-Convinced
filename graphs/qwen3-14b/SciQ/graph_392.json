@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cold temperatures are the kind of weather that psychrophiles need to grow and reproduce.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mixed temperatures are the kind of weather that psychrophiles need to grow and reproduce.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hot temperatures are the kind of weather psychrophiles need to grow and reproduce.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water temperatures are the kind of weather that psychrophiles need to grow and reproduce.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Psychrophiles or cryophiles are extremophilic organisms that are capable of growth and reproduction in low temperatures, ranging from −20 °C (−4 °F) to 20 °C (68 °F).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "They can be contrasted with thermophiles, which are organisms that thrive at unusually high temperatures, and mesophiles at intermediate temperatures.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

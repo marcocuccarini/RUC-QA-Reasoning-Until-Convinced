@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. Queen's Club",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. Roehampton Club",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. Hurlingham Club",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Wimbledon tennis tournament is held at which tennis club in London. AELTC",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The All England Lawn Tennis and Croquet Club is a private members' club based at Church Road in the Wimbledon area of London, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The club established another subsidiary, The All England Lawn Tennis Club (Championships) Limited, trading as AELTC, and transferred all of its assets relating to The Championships to that entity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

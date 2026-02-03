@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Barcelona",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Paris",
+      "strength": 0.7499025826412249
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Madrid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where all did picasso live. Málaga",
+      "strength": 0.5999999402194273
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Picasso was born in Málaga, Spain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Picasso lived in Paris, where he met Max Jacob and shared an apartment with him.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At the beginning of the century, artists from around the world, including Pablo Picasso, Modigliani, and Henri Matisse made Paris their home.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

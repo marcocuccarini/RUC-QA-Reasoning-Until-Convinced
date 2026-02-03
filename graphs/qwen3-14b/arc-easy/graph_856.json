@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A beach is where a screech owl would most likely live, because screech owls nest in holes in trees and eat mice and crickets.",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A forest is where a screech owl most likely lives, since screech owls nest in holes in trees and eat mice and crickets.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A desert is where a screech owl would most likely live, given that screech owls nest in holes in trees and eat mice and crickets.",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A rainforest is where a screech owl would most likely live, because screech owls nest in holes in trees and feed on mice and crickets.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Screech owls prefer areas that contain old trees with hollows; these are home to their prey.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eastern screech owls inhabit open mixed woodlands and deciduous forests.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The distribution of the species is largely concurrent with the distribution of eastern deciduous woodlands.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

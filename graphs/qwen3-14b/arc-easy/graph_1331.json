@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Electrical energy is kept away from a computer by a heat sink designed to lower the computer's temperature by scattering the produced heat into the surrounding area.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chemical energy is the type of energy kept away from a computer by a heat sink, which lowers the computer’s temperature by scattering produced heat into the surrounding area.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Thermal energy is kept away from a computer by a heat sink designed to lower its temperature by scattering produced heat into the surrounding area.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nuclear energy is the type of energy kept away from a computer by a heat sink designed to lower the computer’s temperature by scattering produced heat into the surrounding area.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A heat sink transfers thermal energy from a higher-temperature device to a lower-temperature fluid medium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The power supplies of electronics are not absolutely efficient, so extra heat is produced that may be detrimental to the function of the device.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

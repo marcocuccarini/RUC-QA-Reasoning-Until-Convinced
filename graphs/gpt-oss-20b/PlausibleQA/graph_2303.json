@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "At which English racecourse would you see the 'Hennessy Gold Cup'. Cheltenham",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "At which English racecourse would you see the 'Hennessy Gold Cup'. Aintree",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "At which English racecourse would you see the 'Hennessy Gold Cup'. Ascot",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "At which English racecourse would you see the 'Hennessy Gold Cup'. Newbury",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The event was established in 1957 as the Hennessy Cognac Gold Cup, and it was initially staged at Cheltenham.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was transferred to Newbury in 1960.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cheltenham Racecourse hosts National Hunt horse racing.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

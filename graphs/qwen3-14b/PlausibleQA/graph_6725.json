@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Blinky, Pinky, Inky, and Clyde are four ghosts in which arcade game. Dig Dug",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Blinky, Pinky, Inky, and Clyde are four ghosts in which arcade game. Donkey Kong",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Blinky, Pinky, Inky, and Clyde are four ghosts in which arcade game. Q*bert",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Blinky, Pinky, Inky, and Clyde are four ghosts in which arcade game. パックマン",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pac-Man is an action maze chase video game; the player controls the eponymous character through an enclosed maze.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The four ghosts (Blinky, Pinky, Inky, and Clyde) have distinct personalities and strategies in Pac-Man.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

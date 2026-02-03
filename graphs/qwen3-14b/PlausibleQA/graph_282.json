@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of Humphrey Bogart’s character in the film ‘Casablanca’. Rick Blaine",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of Humphrey Bogart’s character in the film ‘Casablanca’. Sam Spade",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of Humphrey Bogart’s character in the film ‘Casablanca’. Philip Marlowe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of Humphrey Bogart’s character in the film ‘Casablanca’. Ilsa Lund",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The screenplay is based on Everybody Comes to Rick's, an unproduced stage play by Murray Burnett and Joan Alison.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bogart played his first romantic lead in Casablanca (1942): Rick Blaine, an expatriate nightclub owner hiding from a suspicious past and negotiating a fine line among Nazis, the French underground, the Vichy prefect and unresolved feelings for his ex-girlfriend.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

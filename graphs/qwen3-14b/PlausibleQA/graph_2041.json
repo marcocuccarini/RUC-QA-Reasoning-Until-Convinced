@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed The Equality State. California",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed The Equality State. New York",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed The Equality State. Massachusetts",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US state is nicknamed The Equality State. Wyo.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wyoming's official nickname is 'The Equality State'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Due to its civil-rights history, one of Wyoming's state nicknames is 'The Equality State'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

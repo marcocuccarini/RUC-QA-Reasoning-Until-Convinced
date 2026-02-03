@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Recently appointed, what is the name of the current manager of Southampton Football Club . Ralph Hasenhüttl",
+      "strength": 0.4000808766751608
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Recently appointed, what is the name of the current manager of Southampton Football Club . Nathan Jones",
+      "strength": 0.4000808766751608
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Recently appointed, what is the name of the current manager of Southampton Football Club . Steven Gerrard",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Recently appointed, what is the name of the current manager of Southampton Football Club . Pochettino",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ralph Hasenhüttl was appointed in August 2017 but was replaced by other managers and is not the current manager of Southampton Football Club.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nathan Jones was sacked in the 2022-23 season and is not the current manager of Southampton Football Club.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ralph Hasenhüttl was appointed as the manager of Southampton on 5 December 2018.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Southampton parted company with Hasenhüttl on 7 November 2022.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What product is the Singer company well-known for making. Sewing Machines",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What product is the Singer company well-known for making. Embroidery Machines",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What product is the Singer company well-known for making. Irons",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What product is the Singer company well-known for making. Needle feed",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Singer was granted an American patent in 1851.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1885 Singer patented the Singer Vibrating Shuttle sewing machine, which used Allen B. Wilson's idea for a vibrating shuttle and was a better lockstitcher than the oscillating shuttles of the time.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

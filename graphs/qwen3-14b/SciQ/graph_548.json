@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Amphibians are about 6,200 known species.",
+      "strength": 0.40000000001413194
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Primates are about 6,200 known species.",
+      "strength": 0.2500955085906131
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mammals are the group of organisms that includes about 6200 known species.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reptiles are about 6200 known species.",
+      "strength": 0.2500000368542695
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The number of known (living) amphibian species as of March 31, 2019, is exactly 8,000",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Approximately 10,000 extant species of traditional reptiles are known",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "About 12,000 living species of reptiles are listed in the Reptile Database",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "There are 376–524 species of living primates, depending on which classification is used.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "publications since the taxonomy in MSW3 was compiled in 2003 have pushed the number to 522 species, or 708 including subspecies.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

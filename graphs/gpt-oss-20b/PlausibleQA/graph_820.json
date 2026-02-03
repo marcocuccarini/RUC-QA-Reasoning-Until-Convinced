@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what time zone is pennsylvania in right now. UTC-4",
+      "strength": 0.5999207247903058
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what time zone is pennsylvania in right now. UTC-6",
+      "strength": 0.19075817028726968
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what time zone is pennsylvania in right now. UTC-3",
+      "strength": 0.3127548525711057
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what time zone is pennsylvania in right now. UTC-5",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Official U.S. time, including for the Eastern Time Zone",
+      "strength": 0.7737555271458132
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Eastern Time Zone (ET) is a time zone encompassing part or all of 23 states in the eastern United States, parts of eastern Canada, some Caribbean islands and the state of Quintana Roo in Mexico.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Federal Regulations defining time zones (archived May 28, 2010)",
+      "strength": 0.5999999641020304
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The boundary between time zones is set forth in Title 49 of the Code of Federal Regulations with the boundary between the Eastern and Central Time Zones being specifically detailed in Part 71.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Eastern Time Zone (Zone R), which comprises roughly the states on the Atlantic coast and the eastern two thirds of the Ohio Valley.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Daylight saving time (DST) begins on the second Sunday of March and ends on the first Sunday of November.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

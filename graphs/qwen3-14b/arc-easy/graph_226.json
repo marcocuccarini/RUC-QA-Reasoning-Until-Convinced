@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The level of carbon dioxide in the blood is what the brain monitors to control the rate of breathing during normal activities.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The level of carbon dioxide in the cells is what the brain monitors to control the rate of breathing during normal activities.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The level of carbon dioxide in the lungs is what the brain monitors to control the rate of breathing during normal activities.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The level of carbon dioxide in the air is what the brain monitors to control the rate of breathing during normal activities.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carotid bodies and aortic bodies detect changes primarily in pCO2 and H+ ion concentration.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Central chemoreceptors have been shown experimentally to respond to hypercapnic hypoxia (elevated CO2, decreased O2).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

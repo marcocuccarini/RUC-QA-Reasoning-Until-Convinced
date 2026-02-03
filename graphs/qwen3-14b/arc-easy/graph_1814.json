@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To perform repetitive tasks is the best use of a robot in producing an automobile among the 27 options.",
+      "strength": 0.5999158226851121
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To determine the trunk space is the best use of a robot in producing an automobile, among the 27 possible options.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To demonstrate passenger comfort is the best use of a robot in producing an automobile, among the 27 following options.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To perform quality control inspections is the best use of a robot in producing an automobile, among the 27 options.",
+      "strength": 0.5999158226851121
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Some robots are programmed to faithfully carry out specific actions over and over again (repetitive actions) without variation and with a high degree of accuracy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Typical applications of robots include ... product inspection, and testing; all accomplished with high endurance, speed, and precision.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Quality assurance includes management of the quality of raw materials, assemblies, products and components, services related to production, and management, production and inspection processes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

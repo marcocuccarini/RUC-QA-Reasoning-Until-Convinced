@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A dog sitting on command is an example of inherited behavior.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A parrot repeating a phrase is an example of inherited behavior.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A bird flying south for the winter is an example of inherited behavior, where the migration pattern is genetically encoded rather than learned.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A horse competing in a horse show is an example of inherited behavior.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bird migration is controlled primarily by day length, signalled by hormonal changes in the bird's body.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some species such as Pacific salmon migrate to reproduce; every year, they swim upstream to mate and then return to the ocean.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

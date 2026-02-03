@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. Utah",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. California",
+      "strength": 0.4000000622202648
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. Oregon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American state has been nicknamed the Equality State because in 1869 it granted voting rights to women as well as men. Wyo.",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wyoming's official nickname is 'The Equality State'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wyoming granted women the right to vote in 1869.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wyoming became the first U.S. state allowing its woman citizens to vote.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Utah Territory had women's suffrage revoked in 1887.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

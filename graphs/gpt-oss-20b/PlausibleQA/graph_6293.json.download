@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what time zone am i in california. UTC-7",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what time zone am i in california. UTC-6",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what time zone am i in california. UTC-9",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what time zone am i in california. UTC-8",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During daylight saving time, a time offset of UTC−07:00 is used.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Places in this zone observe standard time by subtracting eight hours from Coordinated Universal Time (UTC−08:00).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

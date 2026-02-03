@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to 2 distinct diseases, one of which is a condition due to deficiency of secretion of the pancreas, the other associated with diseases of the pituatary gland. Pituitaria",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to 2 distinct diseases, one of which is a condition due to deficiency of secretion of the pancreas, the other associated with diseases of the pituatary gland. Pancreatis",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to 2 distinct diseases, one of which is a condition due to deficiency of secretion of the pancreas, the other associated with diseases of the pituatary gland. Endocrina",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to 2 distinct diseases, one of which is a condition due to deficiency of secretion of the pancreas, the other associated with diseases of the pituatary gland. Diabedis",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Diabetes insipidus does not cause glycosuria (excretion of glucose into the urine).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term 'diabetes' is derived from the Greek word meaning siphon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

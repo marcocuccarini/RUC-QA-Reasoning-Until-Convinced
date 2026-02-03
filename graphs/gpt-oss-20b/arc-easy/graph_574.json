@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The molecules spread apart and move more slowly after heat is applied to a beaker of water, raising the water temperature a few degrees.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The molecules spread apart and move more quickly when heat is applied to a beaker of water, raising its temperature a few degrees.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The molecules come together and move more slowly after heat is applied to a beaker of water, raising the water temperature a few degrees.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The molecules come together and move more quickly when heat is applied to a beaker of water, raising its temperature a few degrees.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The translational motion of the particle has three degrees of freedom, so that, except at very low temperatures where quantum effects predominate, the average translational kinetic energy of a freely moving particle in a system with temperature T will be 3kBT/2.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heating results in an increase of temperature due to an increase in the average translational kinetic energy of the molecules.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

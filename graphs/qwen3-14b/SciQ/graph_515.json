@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Clots occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Toxins occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tumors occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lesions occur in arteries that can cause heart attacks and strokes.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The extracellular matrix of the lesion breaks, usually at the shoulder of the fibrous cap that separates the lesion from the arterial lumen, where the exposed thrombogenic components of the plaque, mainly collagen, will trigger thrombus formation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "These deposits demonstrate unequivocal evidence of the disease, relatively advanced, even though the lumen of the artery is often still normal by angiography.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Arterial thrombosis is the formation of a thrombus within an artery. In most cases, arterial thrombosis follows rupture of atheroma (a fat-rich deposit in the blood vessel wall), and is therefore referred to as atherothrombosis.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Myocardial infarction (MI), or heart attack, is caused by ischemia (restriction in the blood supply), which is often due to the obstruction of a coronary artery by a thrombus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

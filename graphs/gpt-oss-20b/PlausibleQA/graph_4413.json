@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the 3rd largest car rental company in the United States. Enterprise",
+      "strength": 0.40000000008051434
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the 3rd largest car rental company in the United States. National",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the 3rd largest car rental company in the United States. Hertz",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the 3rd largest car rental company in the United States. Alamo",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Enterprise Holdings was one of the three big rental car holding companies in the United States, holding a 40% market share, placing it first, ahead of Hertz Global Holdings and Avis Budget Group.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hertz was second to Enterprise Holdings, placing it ahead of Avis Budget Group.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Alamo typically caters to budget-conscious leisure travelers and is the largest car rental provider to international travelers visiting North America.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

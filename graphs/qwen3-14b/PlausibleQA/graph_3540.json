@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Quartz",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Silica-rich Rocks",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Feldspar",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What raw material is used for making glass. Sand",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The raw materials for glass-making are all dusty material and are delivered either as a powder or as a fine-grained material.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the raw materials (sand, soda ash and limestone) are generally readily available",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

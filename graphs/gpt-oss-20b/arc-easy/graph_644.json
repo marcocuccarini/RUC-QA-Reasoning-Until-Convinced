@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Malleable is a chemical property of silver.",
+      "strength": 0.5999999090162662
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "White metal is a chemical property of silver.",
+      "strength": 0.5999999090162662
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Conductor of heat is a chemical property of silver.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Reacting with nitric acid is a chemical property of silver.",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Silver is a relatively soft and extremely ductile and malleable transition metal, though it is slightly less malleable than gold.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Silver has a brilliant, white, metallic luster that can take a high polish, and which is so characteristic that the name of the metal itself has become a color name.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Nitric acid can oxidize non-active metals such as copper and silver.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who starred in the film walk the line. Joaquin Phoenix",
+      "strength": 0.7499999084614954
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who starred in the film walk the line. Reese Witherspoon",
+      "strength": 0.7499999084614954
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who starred in the film walk the line. Robert Patrick",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who starred in the film walk the line. Dallas Roberts",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Joaquin Phoenix stars in the film Walk the Line.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Reese Witherspoon stars in the film Walk the Line.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Joaquin Phoenix played Johnny Cash in the film Walk the Line.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Witherspoon's portrayal of Carter Cash was acclaimed by critics, with Roger Ebert stating that her performance added 'boundless energy' to the film.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Dallas Roberts had a supporting role in the film Walk the Line.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Soil is the source of the minerals that plant cells require for growth.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Air is the source of the minerals that plant cells require for growth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water is the source from which plant cells obtain the mineral nutrients required for growth.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pollen is the source from which the minerals required for plant cell growth are derived.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most plant nutrients, with the exception of nitrogen, fixed from the atmosphere, originate from the minerals that make up the soil parent material.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Except for carbon, hydrogen, and oxygen, which are supplied by carbon dioxide and water, and nitrogen, provided through nitrogen fixation, the nutrients derive originally from the mineral component of the soil.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

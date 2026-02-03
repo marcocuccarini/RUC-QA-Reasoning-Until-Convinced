@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water evaporates mostly from land.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Snow is the source from which water evaporates mostly.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Clouds are the source from which water evaporates mostly.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Oceans are the primary source from which water evaporates.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "86% of global evaporation occurs over the ocean.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Total annual evapotranspiration amounts to approximately 505,000 km3 (121,000 cu mi) of water, 434,000 km3 (104,000 cu mi) of which evaporates from the oceans.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

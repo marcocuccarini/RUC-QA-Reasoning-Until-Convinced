@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Protons are larger than neutrons is the true statement about the parts that make up the atom.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrons have a positive charge, which is true about the parts that make up the atom.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrons are inside the nucleus is the statement that describes the location of electrons within the nucleus in the context of determining which statements are true about the parts that make up the atom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Neutrons have no charge is a true statement about the parts that make up the atom.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The electron is the least massive of these particles by four orders of magnitude at 9.11×10−31 kg, with a negative electrical charge",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "protons have a positive electric charge and neutrons have no charge",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

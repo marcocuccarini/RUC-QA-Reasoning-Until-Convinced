@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which mountain range extends almost the length of Italy. Alps",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which mountain range extends almost the length of Italy. Carpathian Mountains",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which mountain range extends almost the length of Italy. Dinaric Alps",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which mountain range extends almost the length of Italy. Appennin",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Apennines are a mountain range consisting of parallel smaller chains extending c. 1,200 km (750 mi) the length of peninsular Italy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Since 2000 the Environment Ministry of Italy, following the recommendations of the Apennines Park of Europe Project, has defined the Apennines System to include the mountains of north Sicily, a total distance of 1,500 kilometres (930 mi).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

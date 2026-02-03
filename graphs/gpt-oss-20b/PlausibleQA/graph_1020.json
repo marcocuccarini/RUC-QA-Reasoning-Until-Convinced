@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which European city was the 1968 Eurovision Song Contest held. Paris",
+      "strength": 0.36775506647018885
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which European city was the 1968 Eurovision Song Contest held. Amsterdam",
+      "strength": 0.36775506647018885
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which European city was the 1968 Eurovision Song Contest held. Stockholm",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which European city was the 1968 Eurovision Song Contest held. GBLON",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The contest was held on 6 April 1968 at the Royal Albert Hall in London",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The contest has been held annually since 1956 (except for 2020 due to the COVID-19 pandemic)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

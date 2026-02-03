@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To form a good hypothesis, the student should perform the experiment in three trials, measuring the average time it takes for a toy car to travel 10 meters.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Increasing the accuracy of the results is the reason the student should perform the experiment in three trials when measuring the average time it takes for a toy car to travel 10 meters.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To make the results more significant, a student performs the lab investigation by measuring the average time it takes for a toy car to travel 10 meters in three trials.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To better explain the investigation to others, it is best for the student to perform the experiment measuring the average time it takes for a toy car to travel 10 meters in three trials.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They can be estimated by comparing multiple measurements and reduced by averaging multiple measurements.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If a systematic error is present, repeated identical measurements do not reduce such errors.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Random errors show up as different results for ostensibly the same repeated measurement.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "If the dependent variable in a regression is measured with error, regression analysis and associated hypothesis testing are unaffected, except that the R2 will be lower than it would be with perfect measurement.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Measurements are usually subject to variation and measurement uncertainty; thus they are repeated and full experiments are replicated to help identify the sources of variation, to better estimate the true effects of treatments, to further strengthen the experiment's reliability and validity, and to add to the existing knowledge of the topic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

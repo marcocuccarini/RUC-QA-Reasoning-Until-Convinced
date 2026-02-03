@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which was the only country to win two silver medals and no other medals at the 2008 Summer Olympics? (clue - both medals were won in men's sprint events). Jamaican",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which was the only country to win two silver medals and no other medals at the 2008 Summer Olympics? (clue - both medals were won in men's sprint events). American",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which was the only country to win two silver medals and no other medals at the 2008 Summer Olympics? (clue - both medals were won in men's sprint events). Canadian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which was the only country to win two silver medals and no other medals at the 2008 Summer Olympics? (clue - both medals were won in men's sprint events). Trinidadian",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "silver medals were won in the men's 100 meters and in the men's 4x100 meters relay.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jamaica was stripped of their gold medal due to doping charges and Trinidad and Tobago was awarded the gold.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is richard pryor son. Richard Pryor Jr.",
+      "strength": 0.5999999071782728
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is richard pryor son. Mason Pryor",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is richard pryor son. Franklin Pryor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is richard pryor son. Rain Pryor",
+      "strength": 0.5000967341380452
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Richard Pryor Jr., born April 10, 1962; from Pryor's first wife Patricia Price.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rain Pryor, born July 16, 1969; from Pryor's second wife Shelley Bonus.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Rain Pryor (born July 16, 1968) is an American actress. Her television credits include sitcoms Head of the Class and Rude Awakening. She is the daughter of comedian Richard Pryor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

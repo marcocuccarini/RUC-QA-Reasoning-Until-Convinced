@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tallahassee is the capital of which US state. Georgia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tallahassee is the capital of which US state. Alabama",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tallahassee is the capital of which US state. Louisiana",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tallahassee is the capital of which US state. Fla.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tallahassee is the capital city of the U.S. state of Florida.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tallahassee became the capital of Florida, then the Florida Territory, in 1824.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

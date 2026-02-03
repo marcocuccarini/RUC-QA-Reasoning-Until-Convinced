@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The ovary is the organ that an oocyte leaves in humans before fertilization occurs soon after.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Egg is the structure from which the oocyte leaves, and fertilization occurs soon after in humans.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Placenta is the organ from which, in humans, fertilization occurs soon after the oocyte leaves.",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Testes are the organ from which the oocyte leaves in humans, after which fertilization occurs soon.",
+      "strength": 0.400000037362994
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fertilisation in humans usually occurs in the ampulla of the fallopian tube.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The zygote divides to form a blastocyst and, upon entering the uterus, implants in the endometrium, beginning pregnancy.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The secondary oocyte leaves the ruptured follicle and moves out into the peritoneal cavity through the stigma.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The oocyte is released from the ovarian follicle during ovulation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

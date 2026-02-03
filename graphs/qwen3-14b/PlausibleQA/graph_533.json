@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many winnie the pooh books are there. Three",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many winnie the pooh books are there. Six",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many winnie the pooh books are there. Two",
+      "strength": 0.7499026424217391
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many winnie the pooh books are there. four",
+      "strength": 0.49999993658488323
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first collection of stories about the character is the book Winnie-the-Pooh (1926), and this was followed by The House at Pooh Corner (1928).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Winnie-the-Pooh (1926), The House at Pooh Corner (1928), Now We Are Six (1927), and When We Are Very Young (1924) are the four books illustrated by E. H. Shepard.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Works by A. A. Milne at BiblioWiki (Canada) includes the complete text of the four Pooh books",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The House at Pooh Corner is the final novel by A. A. Milne to feature Winnie-the-Pooh and his world.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

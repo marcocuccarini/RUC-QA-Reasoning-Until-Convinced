@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What island is shared by Haiti and the Dominican Republic. Hispaniola",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What island is shared by Haiti and the Dominican Republic. Santo Domingo",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What island is shared by Haiti and the Dominican Republic. Saint Domingue",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What island is shared by Haiti and the Dominican Republic. Kiskeya",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hispaniola is divided into two separate sovereign countries: the Spanish-speaking Dominican Republic to the east and the French and Haitian Creole–speaking Haiti to the west.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1918, the American generals recommended to apply the name of Hispaniola to the island, choosing the Latinized form of Española over Santo Domingo, the most commonly used name since the early 17th century and the name of the oldest political and commercial center, the city of Santo Domingo.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

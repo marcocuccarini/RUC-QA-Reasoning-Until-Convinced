@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which English writer died on the same day as Spanish writer 'Miguel de Cervantes' in 1616. Ben Jonson",
+      "strength": 0.2500000915578924
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which English writer died on the same day as Spanish writer 'Miguel de Cervantes' in 1616. John Donne",
+      "strength": 0.40000000003510816
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which English writer died on the same day as Spanish writer 'Miguel de Cervantes' in 1616. Francis Bacon",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which English writer died on the same day as Spanish writer 'Miguel de Cervantes' in 1616. Shakspeare",
+      "strength": 0.4999999999999663
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shakespeare died on 23 April 1616",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "23 April is also the death date of William Shakespeare",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "John Donne died on 31 March 1631",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Jonson died on 18 August 1637.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "At his death in 1637 he seems to have been working on another play, The Sad Shepherd.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Francis Bacon died on 9 April 1626",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

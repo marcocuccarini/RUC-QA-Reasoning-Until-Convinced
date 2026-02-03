@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An earthquake is what happened when two of Earth's plates pushed together and the ground moved.",
+      "strength": 0.6322474683059868
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A landslide occurred when two of Earth's plates pushed together and the ground moved.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A volcano is what happened when two of Earth's plates pushed together and the ground moved.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An avalanche is what happened when two of Earth's plates pushed together and the ground moved.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Tectonic earthquakes occur anywhere on the earth where there is sufficient stored elastic strain energy to drive fracture propagation along a fault plane.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sides of a fault move past each other smoothly and aseismically only if there are no irregularities or asperities along the fault surface that increases the frictional resistance.",
+      "strength": 0.40002638842496374
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Energy release associated with rapid movement on active faults is the cause of most earthquakes.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Faults may also displace slowly, by aseismic creep.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

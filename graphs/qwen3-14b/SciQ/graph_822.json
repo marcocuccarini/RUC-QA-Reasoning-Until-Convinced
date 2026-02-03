@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Frontal is the lobe of the brain where the primary motor cortex is located.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Parietal is the lobe of the brain that contains the primary motor cortex.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Temporal lobe is the location of the primary motor cortex in the brain.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Occipital is the lobe of the brain where the primary motor cortex is located.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The primary motor cortex is located in the dorsal portion of the frontal lobe.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The primary motor cortex is bordered by the primary somatosensory cortex, which lies on the posterior wall of the central sulcus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The surface temperature causes stars to appear blue, white, yellow, and red even without the aid of a telescope.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The distance from Earth causes the different colors of stars, which appear blue, white, yellow, and red even without a telescope.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The distance from the Sun causes the different colors of the stars, which appear blue, white, yellow, and red even without a telescope.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The gases that compose the star cause the different colors—blue, white, yellow, and red—seen in stars even without the aid of a telescope.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "So, as temperature increases, the glow color changes from red to yellow to white to blue.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At 1000 K, a small opening in the wall of a large uniformly heated opaque-walled cavity (such as an oven), viewed from outside, looks red; at 6000 K, it looks white.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

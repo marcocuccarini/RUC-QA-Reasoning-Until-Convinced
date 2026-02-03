@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has the most conference championships in college basketball. UCLA",
+      "strength": 0.5999999999579679
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has the most conference championships in college basketball. North Carolina",
+      "strength": 0.5999999561541208
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has the most conference championships in college basketball. Duke",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has the most conference championships in college basketball. Kansas",
+      "strength": 0.5999047912161659
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As of the 2013–2014 season, UCLA has won or shared the conference title 31 times, and USC has won or shared the title 7 times.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "UCLA set an NCAA Division I record with 13 consecutive regular season conference titles between 1967 and 1979 which stood until tied by Kansas in 2017.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "UNC has also won eighteen Atlantic Coast Conference tournament (ACC) titles, and thirty-three ACC regular season titles",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Jayhawks have won 62 conference championships since their inception, including an NCAA record 13 consecutive from 2005 through 2017.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Jayhawks lead Division I all-time in regular season conference titles with 62 in 113 years of conference play.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

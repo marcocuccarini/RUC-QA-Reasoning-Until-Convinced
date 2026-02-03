@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which countries speak german officially. Germany",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which countries speak german officially. Austria",
+      "strength": 0.5999999626370065
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which countries speak german officially. Switzerland",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which countries speak german officially. Canada",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "German is the official language of the following countries: Germany, Austria, 17 cantons of Switzerland, Liechtenstein.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The four national languages of Switzerland are German, French, Italian, and Romansh.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "German, French, and Italian maintain equal status as official languages at the national level within the federal administration of the Swiss Confederation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

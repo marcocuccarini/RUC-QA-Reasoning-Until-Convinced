@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen must be combined with a halogen to give the halogen a positive oxidation number.",
+      "strength": 0.5999030802185329
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nitrogen must be combined with a halogen to give the halogen a positive oxidation number.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Calcium must be combined with a halogen to give the halogen a positive oxidation number.",
+      "strength": 0.25000000008954365
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Carbon must be combined with a halogen to give it a positive oxidation number.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The oxidation state of oxygen is −2 in almost all known compounds of oxygen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In ionic compounds, the oxidation numbers are the same as the element's ionic charge.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Group 1 and group 2 metals in compounds have OS = +1 and +2, respectively.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Chlorine, oxidation number 0, forms chloride (Cl−; oxidation number −1) and chlorate(V) (ClO−3; oxidation number +5).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Perchlorate contains chlorine in its highest oxidation number (+7).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

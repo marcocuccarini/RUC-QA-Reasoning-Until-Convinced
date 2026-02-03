@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chemical reaction is the cause of rust formation when iron combines with oxygen in a moist environment.",
+      "strength": 0.7736521072738407
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Physical reaction is why rust forms when iron combines with oxygen in a moist environment.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Change in density causes rust to form when iron combines with oxygen in a moist environment.",
+      "strength": 0.59999997340613
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Change in temperature is the reason rust forms when iron combines with oxygen in a moist environment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The rusting of iron is an electrochemical process that begins with the transfer of electrons from iron to oxygen.",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When iron rusts, the oxides take up more volume than the original metal; this expansion can generate enormous forces, damaging structures made with iron.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The formation of iron(III) oxide (Fe₂O₃) occurs through the chemical reaction 4 Fe + 3 O₂ → 2 Fe₂O₃, which is a direct cause of rust when iron combines with oxygen.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The rusting of iron is an electrochemical process involving the transfer of electrons from iron to oxygen, as described in the text.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

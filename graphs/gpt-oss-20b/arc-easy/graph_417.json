@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The cells use more energy is the reason that some cells, such as human nerve and muscle cells, contain many more mitochondria than other cells, such as skin cells.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The cells store more nutrients, which explains why some cells such as human nerve and muscle cells contain many more mitochondria than other cells such as skin cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The cells degrade more proteins, which explains why some cells such as human nerve and muscle cells contain many more mitochondria than other cells such as skin cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The cells divide more frequently is the reason why some cells, such as human nerve and muscle cells, contain many more mitochondria than other cells, such as skin cells.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When the energy needs of a cell are high, mitochondria grow and divide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In other eukaryotes (in mammals for example), mitochondria may replicate their DNA and divide mainly in response to the energy needs of the cell, rather than in phase with the cell cycle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

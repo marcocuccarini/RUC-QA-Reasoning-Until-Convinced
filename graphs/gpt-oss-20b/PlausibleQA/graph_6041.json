@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is Mexico's most commonly used language. Portuguese",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is Mexico's most commonly used language. French",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is Mexico's most commonly used language. Nahuatl",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is Mexico's most commonly used language. Espanol",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Spanish is the official, or national language in 18 countries and one territory in the Americas, Spain, and Equatorial Guinea.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mexico (co-official with 63 indigenous languages)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did toyota first come to the united states. 1947",
+      "strength": 0.4000439444117387
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did toyota first come to the united states. 1950",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did toyota first come to the united states. 1952",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did toyota first come to the united states. 1957",
+      "strength": 0.27613882056867695
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Toyota entered the United States market in 1958",
+      "strength": 0.4000439444117387
+    },
+    "A5": {
+      "type": "argument",
+      "text": "모든 미국 시장 진입은 1958년에 이루어졌으며, 이는 1957년이라는 주장과 모순된다.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1957, the Crown became the first Japanese car to be exported to the United States",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The first Japanese vehicles to arrive in the American continents were five Land Cruisers in El Salvador in May 1953",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

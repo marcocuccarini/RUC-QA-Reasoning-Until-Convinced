@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An element is produced when potassium and bromine atoms form chemical bonds.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A mixture is produced when potassium and bromine atoms form chemical bonds.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A compound is produced when potassium and bromine atoms form chemical bonds.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A new form of matter is produced when potassium and bromine atoms form chemical bonds.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "8 KBr is produced in the reaction 4 K2CO3 + Fe3Br8 → 8 KBr + Fe3O4 + 4 CO2.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Potassium bromide (KBr) is a salt",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

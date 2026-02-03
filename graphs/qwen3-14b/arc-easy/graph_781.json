@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It adds nutrients to the soil, thereby contributing to good soil.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "It helps the soil to dry out, which contributes to good soil when organic matter is present.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "It keeps the soil cool, thereby contributing to good soil through the presence of organic matter.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It destroys bacteria in the soil is how the presence of organic matter contributes to good soil.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "SOM increases soil fertility by providing cation exchange sites and being a reserve of plant nutrients, especially nitrogen (N), phosphorus (P), and sulfur (S).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The microbial decomposers are included in the SOM and form a food web of organisms that prey upon each other and subsequently become prey.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

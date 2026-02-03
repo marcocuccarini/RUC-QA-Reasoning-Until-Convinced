@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Monthly is how often women should perform a breast self‑exam.",
+      "strength": 0.2876485181479963
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Yearly is the recommended frequency for women to perform a breast self‑exam.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Weekly is how often women should perform a breast self‑exam.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Quarterly is the recommended frequency for women to perform a breast self‑exam.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Women who are postmenopausal or have irregular cycles might do a self‑exam once a month regardless of their menstrual cycle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The World Health Organization, the Canadian Task Force on Preventive Health Care, and many other scientific organizations recommend against the use of breast self‑examinations.",
+      "strength": 0.8595283267121344
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Breast examinations produce false positive results, contributing to harm.",
+      "strength": 0.5999999854049745
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A 2003 Cochrane review found screening by breast self‑examination is not associated with lower death rates among women who report performing breast self‑examination and does, like other breast cancer screening methods, increase harms, in terms of increased numbers of benign lesions identified and an increased number of biopsies performed.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Overall, screening mammograms miss about 1 in 8 breast cancers, they can also give false‑positive results, causing extra anxiety and making patients overgo unnecessary additional exams, such as bioposies.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Regularly feeling one's own breasts for lumps or other abnormalities, called breast self‑examination, does not reduce a person's chance of dying from breast cancer.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

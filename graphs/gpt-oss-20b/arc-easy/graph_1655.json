@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A decoder is the part of a communication system that converts binary codes in a computer into recognizable characters.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Encoder is the part of a communication system that converts binary codes in a computer into recognizable characters.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The receiver is the part of a communication system that converts binary codes in a computer into recognizable characters.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The transmitter is the part of a communication system that converts binary codes in a computer into recognizable characters.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Decoding is the reverse process, converting code symbols back into a form that the recipient understands, such as English, Spanish, etc.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The process of encoding converts information from a source into symbols for communication or storage.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

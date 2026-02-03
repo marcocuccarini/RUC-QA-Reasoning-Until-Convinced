@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which method of painting consists of applying pigment to wet plaster. Sgraffito",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which method of painting consists of applying pigment to wet plaster. Encaustic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which method of painting consists of applying pigment to wet plaster. Gouache",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which method of painting consists of applying pigment to wet plaster. Fresco",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fresco is a technique of mural painting executed upon freshly laid ('wet') lime plaster.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Buon fresco pigment is mixed with room temperature water and is used on a thin layer of wet, fresh plaster, called the intonaco.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

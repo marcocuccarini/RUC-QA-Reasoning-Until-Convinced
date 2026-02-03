@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The town of Vittoria and the city of Ragusa can be found on which island. Sardinia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The town of Vittoria and the city of Ragusa can be found on which island. Corsica",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The town of Vittoria and the city of Ragusa can be found on which island. Malta",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The town of Vittoria and the city of Ragusa can be found on which island. Sicily",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mount Etna, the beaches, the archaeological sites, and major cities such as Palermo, Catania, Syracuse and Ragusa are the favourite tourist destinations.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sicily (Italian and Sicilian: Sicilia), officially the Sicilian Region (Italian: Regione Siciliana; Sicilian: Riggiuni Siciliana), is an island in the central Mediterranean Sea and one of the twenty regions of Italy, situated south of the Italian Peninsula in continental Europe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the equivalent Royal Navy rank to an Air Marshall in the R.A.F.. Rear Admiral",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the equivalent Royal Navy rank to an Air Marshall in the R.A.F.. Commodore",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the equivalent Royal Navy rank to an Air Marshall in the R.A.F.. Captain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the equivalent Royal Navy rank to an Air Marshall in the R.A.F.. VAdm",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The rank is usually equivalent to a vice admiral or a lieutenant general.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For example, the rank that later became air marshal would have been air vice-admiral.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

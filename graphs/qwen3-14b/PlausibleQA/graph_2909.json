@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where is the Headquarters of Boeing. Seattle",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where is the Headquarters of Boeing. Chicago",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where is the Headquarters of Boeing. Washington D.C.",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where is the Headquarters of Boeing. 舍路",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "As of 2023, the Boeing Company's corporate headquarters is located in the Crystal City neighborhood of Arlington County, Virginia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On May 5, 2022, Boeing announced that it would be moving its headquarters from Chicago to Arlington, Virginia in the Washington, D.C. metropolitan area.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

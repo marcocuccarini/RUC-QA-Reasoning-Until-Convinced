@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which controversial movement was founded in 1928 by the Spaniard Josemaria Escriva de Balaguer y Albas. Opus Dei",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which controversial movement was founded in 1928 by the Spaniard Josemaria Escriva de Balaguer y Albas. Legion of Christ",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which controversial movement was founded in 1928 by the Spaniard Josemaria Escriva de Balaguer y Albas. Regnum Christi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which controversial movement was founded in 1928 by the Spaniard Josemaria Escriva de Balaguer y Albas. ODAN",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Opus Dei was founded by Josemaría Escrivá on 2 October 1928 in Madrid, Spain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Opus Dei was investigated as a cult by the Belgian government after an investigation, and some aspects were found to be cult-like.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

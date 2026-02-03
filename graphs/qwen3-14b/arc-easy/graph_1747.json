@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nuclear energy is an alternative energy resource that adds carbon dioxide to the atmosphere.",
+      "strength": 0.4000393669040914
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Biofuel energy adds carbon dioxide to the atmosphere.",
+      "strength": 0.43092997217557644
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind energy is an alternative energy resource that adds carbon dioxide to the atmosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Geothermal energy is an alternative energy resource that adds carbon dioxide to the atmosphere.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In general, biofuels emit fewer greenhouse gas emissions when burned in an engine and are generally considered carbon-neutral fuels as the carbon they emit has been captured from the atmosphere by the crops used in biofuel production.",
+      "strength": 0.4000393669040914
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some non-renewable sources of energy, such as nuclear power, generate almost no emissions, while some renewable energy sources can be very carbon-intensive, such as the burning of biomass if it is not offset by planting new plants.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "burning biomass still produces carbon emissions, although much less than fossil fuels (39 grams of CO2 per megajoule of energy, compared to  tore 75 g/MJ for fossil fuels)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

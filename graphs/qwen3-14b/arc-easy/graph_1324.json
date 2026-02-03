@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen and argon are the two gases that studies of the Jovian planets suggest composed the early Earth atmosphere after the planet’s original atmosphere was stripped away by the solar wind shortly after formation, because the Jovian planets are far from the Sun and experience less solar‑wind impact.",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrogen and helium were the two gases that, according to studies of the Jovian planets, composed the early Earth's atmosphere—a layer scientists theorize was stripped away by solar wind shortly after the planet’s formation.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide and nitrogen are the two gases that, according to studies of the Jovian planets, composed the early atmosphere of Earth—an atmosphere that scientists theorize was stripped away by the solar wind shortly after the planet’s formation.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sulfur dioxide and water vapor were the two gases that scientists, who theorize the original atmosphere of Earth was stripped away by the solar wind shortly after the planet’s formation and who note that the Jovian planets—being far from the Sun and thus less affected by solar wind—suggested this composition, believe composed the early atmosphere of Earth.",
+      "strength": 0.4756527068852297
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The nitrogen isotope ratio in Jupiter's atmosphere is lower than that of Earth's, indicating differences in atmospheric evolution between the two planets.",
+      "strength": 0.22624451792939404
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Planets with a weak or non-existent magnetosphere are subject to atmospheric stripping by the solar wind.",
+      "strength": 0.5999999505639094
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The solar wind is composed of electrons, protons, and alpha particles, along with trace amounts of heavy ions and atomic nuclei such as carbon, nitrogen, oxygen, and others.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The presence of the magnetic field helped prevent the planet's atmosphere from being stripped away, which is what probably happened to the atmosphere of Mars.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The first atmosphere, during the Early Earth's Hadean eon, consisted of gases in the solar nebula, primarily hydrogen, and probably simple hydrides such as those now found in the gas giants (Jupiter and Saturn), notably water vapor, methane and ammonia.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

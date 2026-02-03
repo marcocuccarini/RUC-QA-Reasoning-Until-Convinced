@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when do we find out luke and leia are siblings. A New Hope",
+      "strength": 0.40000003773849835
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when do we find out luke and leia are siblings. The Empire Strikes Back",
+      "strength": 0.4309261926883358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when do we find out luke and leia are siblings. The Phantom Menace",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when do we find out luke and leia are siblings. Return of the Jedi",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the original trilogy, the sister character is not Leia.",
+      "strength": 0.4000409734979248
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The prequel films introduced storylines that polarized critics and fans.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Obi-Wan Kenobi's Force spirit tells Luke that Leia is his twin sister",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

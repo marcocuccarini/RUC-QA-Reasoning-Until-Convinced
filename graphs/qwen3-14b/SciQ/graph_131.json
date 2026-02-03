@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Endocrine diseases are disorders exemplified by type 1 diabetes and gigantism.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cardiac diseases are the type of disorder that includes Type 1 diabetes and gigantism.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Respiratory diseases are the type of disorder that includes Type 1 diabetes and gigantism.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Inborn errors of metabolism are the type of disorder exemplified by Type 1 diabetes and gigantism.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Type 1 Diabetes is listed as a glucose homeostasis disorder under endocrine diseases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gigantism is listed as a pituitary gland disorder under endocrine diseases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

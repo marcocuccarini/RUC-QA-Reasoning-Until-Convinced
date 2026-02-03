@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What station is at the western end of the Ffestiniog railway in Wales. Pwllheli",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What station is at the western end of the Ffestiniog railway in Wales. Caernarfon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What station is at the western end of the Ffestiniog railway in Wales. Bangor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What station is at the western end of the Ffestiniog railway in Wales. Portmadoc",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Festiniog Railway's Porthmadog Harbour railway station was originally only a shunting yard, but was upgraded to a full station on 6 January 1865.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Until the line between Bangor and Afonwen closed in 1964 there was a through service in the summer to and from London Euston via Crewe, Chester, Llandudno Junction and Caernarfon; the Pwllheli portion was detached at Afonwen and the forward coaches proceeded to Portmadoc (as it was then known).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

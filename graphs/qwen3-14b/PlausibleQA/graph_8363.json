@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What kind of singing, from the Italian for Manner of the Church, features singers without any musical accompaniment. Monophony",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What kind of singing, from the Italian for Manner of the Church, features singers without any musical accompaniment. Cappella",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What kind of singing, from the Italian for Manner of the Church, features singers without any musical accompaniment. Gregorian",
+      "strength": 0.5999088118033908
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What kind of singing, from the Italian for Manner of the Church, features singers without any musical accompaniment. Acapella",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Music performed a cappella is music performed by a singer or a singing group without instrumental accompaniment.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gregorian chant is an example of a cappella singing.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

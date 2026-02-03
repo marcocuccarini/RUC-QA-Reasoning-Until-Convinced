@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon dioxide is the gas released when dead organisms and other organic materials decompose.",
+      "strength": 0.6322474683059868
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrogen peroxide is the gas released when dead organisms and other organic materials decompose.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon monoxide is the gas released when dead organisms and other organic materials decompose.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nitrous oxide is the gas released when dead organisms and other organic materials decompose.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Terrestrially-derived macromolecules such as lignin and black carbon are decomposed into smaller components and monomers, ultimately being converted to CO2, metabolic intermediates, or biomass.",
+      "strength": 0.5999736115750363
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Methane production is also typically high in the anoxic sediments of floodplains, lakes, and reservoirs.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The products of this reaction are carbon dioxide and usually either ethyl alcohol or lactic acid.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Carbon dioxide levels rise with increased respiration of soil bacteria after temperatures rise due to loss of soil cover.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

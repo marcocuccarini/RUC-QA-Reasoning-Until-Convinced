@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 4",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 8",
+      "strength": 0.8460624953269826
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 3",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the maximum number of raised dots in a cell in Braille. 6",
+      "strength": 0.8460624953269826
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 8-dot braille the additional dots are added at the bottom of the cell, giving a matrix 4 dots high by 2 dots wide.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A full braille cell includes six raised dots arranged in two columns, each column having three dots.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All 256 (28) possible combinations of 8 dots are encoded by the Unicode standard.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Within an individual cell, the dot positions are arranged in two columns of three positions. A raised dot can appear in any of the six positions, producing 64 (26) possible patterns, including one in which there are no raised dots.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The additional dots are given the numbers 7 (for the lower-left dot) and 8 (for the lower-right dot).",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The dot positions are identified by numbers from one to six.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

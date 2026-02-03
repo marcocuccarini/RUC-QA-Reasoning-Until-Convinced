@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Rio Grande forms the border of Texas with what other area. Mexico",
+      "strength": 0.6322557194753917
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Rio Grande forms the border of Texas with what other area. New Mexico",
+      "strength": 0.40007616678426106
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Rio Grande forms the border of Texas with what other area. Arizona",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Rio Grande forms the border of Texas with what other area. EUM",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Rio Grande, which serves as a natural eastern border with the United States.",
+      "strength": 0.4000000451811854
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rio Grande is a river flowing to the Gulf of Mexico, forming a part of the Mexican-United States border.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Rio Grande frequently meanders along the Texas–Mexico border.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Most of the border is situated along the Rio Grande River, which marks the boundary between Texas and northeastern Mexico.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

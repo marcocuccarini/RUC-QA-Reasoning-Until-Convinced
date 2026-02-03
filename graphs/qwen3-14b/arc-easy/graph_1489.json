@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun turned diatoms into oil after 10‑20 years, as the oil used today is made from the ancient remains of these tiny sea creatures that converted sunlight into stored energy while they were alive.",
+      "strength": 0.40000000002653435
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Diatoms are the original source of energy for oil, because the oil used today is made from the ancient remains of these tiny sea creatures that converted sunlight into stored energy while they were alive.",
+      "strength": 0.22624448648386117
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Sun is the original source of energy for oil that comes from the ancient remains of tiny sea creatures called Diatoms, which converted sunlight into stored energy when they were alive.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Diatoms converted oil into energy is a statement that follows from the fact that the oil used today is made from the ancient remains of tiny sea creatures called diatoms, which, when alive, converted sunlight into stored energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Petroleum is a fossil fuel formed over millions of years from anaerobic decay of organic materials from buried prehistoric organisms, particularly planktons and algae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The oil used today is made from the ancient remains of prehistoric organisms, particularly planktons and algae, which were buried under sediment and subjected to anaerobic decay.",
+      "strength": 0.5999999723208136
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Photosynthetic organisms also convert around 100–115 billion tons (91–104 Pg petagrams, or billions of metric tons), of carbon into biomass per year.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The primary production of oxygen in marine shelf waters take modern form... with the Mesozoic (251–66 Ma) radiations of dinoflagellates, coccolithophorids, and diatoms.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The energy released in combustion is still photosynthetic in origin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

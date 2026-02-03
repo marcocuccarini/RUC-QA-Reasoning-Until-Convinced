@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which member of Girls Aloud was born in Northern Ireland. Cheryl Cole",
+      "strength": 0.40000000007892006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which member of Girls Aloud was born in Northern Ireland. Nicola Roberts",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which member of Girls Aloud was born in Northern Ireland. Kimberley Walsh",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which member of Girls Aloud was born in Northern Ireland. NADINE COYLE",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cheryl Ann Tweedy is an English singer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Walsh was born on 20 November 1981 in Bradford, West Yorkshire",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Coyle visited her hometown of Derry.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

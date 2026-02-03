@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On which label did Chuck Berry record in the 1950s and 1960s. Chess",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On which label did Chuck Berry record in the 1950s and 1960s. RCA Victor",
+      "strength": 0.40000003773849835
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On which label did Chuck Berry record in the 1950s and 1960s. Atlantic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On which label did Chuck Berry record in the 1950s and 1960s. Cög",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "With Chess, he recorded 'Maybellene'—Berry's adaptation of the country song 'Ida Red'—which sold over a million copies, reaching number one on Billboard magazine's rhythm and blues chart.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By the end of the 1950s, Berry was an established star, with several hit records and film appearances and a lucrative touring career.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1958, Chess began producing their first LP records which included such albums as After School Session by Chuck Berry",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Musicians such as Bo Diddley, Willie Dixon, Chuck Berry, Howlin' Wolf, Muddy Waters, and Buddy Guy released music under Chess that was influential in early rock and roll",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

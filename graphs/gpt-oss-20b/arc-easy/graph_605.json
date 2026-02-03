@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Normal faulting must occur in the mantle to make the plates move, as the Earth's surface is composed of large tectonic plates that are constantly shifting while floating on molten rock.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Seafloor spreading is the process that must occur in the mantle to make the large tectonic plates on Earth's surface shift as they float on molten rock.",
+      "strength": 0.599999942563457
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Igneous intrusions are the process that must occur in the mantle to cause the large tectonic plates on Earth's surface—constantly shifting while floating on molten rock—to move.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Convection currents in the mantle must occur to make the tectonic plates move, as Earth's surface is composed of large tectonic plates that are constantly shifting while floating on molten rock.",
+      "strength": 0.495153042598213
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mantle convection causes tectonic plates to move around the Earth's surface.",
+      "strength": 0.40005991491458875
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Accretion occurs as mantle is added to the growing edges of a plate, associated with seafloor spreading.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Slab pull is therefore most widely thought to be the greatest force acting on the plates.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The excess density of the oceanic lithosphere sinking in subduction zones provides most of the driving force for plate movement.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

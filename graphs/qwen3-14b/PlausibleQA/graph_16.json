@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the mvp for the national league. Paul Goldschmidt",
+      "strength": 0.5999999999162
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the mvp for the national league. Nolan Arenado",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the mvp for the national league. Joey Votto",
+      "strength": 0.5999999090162662
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the mvp for the national league. Giancarlo Stanton",
+      "strength": 0.7238196723894794
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Goldschmidt won the National League (NL) Most Valuable Player (MVP) Award in 2022.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Joey Votto won the National League Most Valuable Player (MVP) Award in 2010.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Giancarlo Stanton won the National League Most Valuable Player (MVP) Award in 2018.",
+      "strength": 0.4000949096575096
+    },
+    "A7": {
+      "type": "argument",
+      "text": "On November 16, Stanton was named the National League's Most Valuable Player, beating out Cincinnati Reds' first baseman Joey Votto by two voting points.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Stanton was named the National League's Most Valuable Player in 2017.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

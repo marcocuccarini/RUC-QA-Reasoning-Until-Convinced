@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What kind of disaster claimed some 100,000 lives in Armenia in 1988. Flood",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What kind of disaster claimed some 100,000 lives in Armenia in 1988. Landslide",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What kind of disaster claimed some 100,000 lives in Armenia in 1988. Wildfire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What kind of disaster claimed some 100,000 lives in Armenia in 1988. 地震",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 1988 Armenian earthquake, also known as the Spitak earthquake, occurred on December 7 at 11:41 local time with a surface-wave magnitude of 6.8.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The source of the event was a fault rupture... associated with tectonic plate boundary interaction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

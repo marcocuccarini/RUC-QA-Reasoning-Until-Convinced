@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A Caduceus, a staff with two serpents twined around it, is associated with which profession. Pharmacist",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A Caduceus, a staff with two serpents twined around it, is associated with which profession. Diplomat",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A Caduceus, a staff with two serpents twined around it, is associated with which profession. Messenger",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A Caduceus, a staff with two serpents twined around it, is associated with which profession. Physician",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The caduceus is the staff carried by Hermes in Greek mythology and consequently by Hermes Trismegistus in Greco-Egyptian mythology.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Given that the caduceus is primarily a symbol of commerce and other non-medical symbology, many healthcare professionals disapprove of this use.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

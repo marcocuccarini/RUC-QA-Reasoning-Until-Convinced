@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has more super bowl wins nfc or afc. AFC",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has more super bowl wins nfc or afc. American Football League (AFL)",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has more super bowl wins nfc or afc. National Football League (NFL)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has more super bowl wins nfc or afc. NFC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Among the NFL's current 32 teams, 20 (11 NFC, 9 AFC) have won a Super Bowl",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The AFC's Pittsburgh Steelers and New England Patriots have the most Super Bowl titles at six each",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

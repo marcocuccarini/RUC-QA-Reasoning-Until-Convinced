@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Plasmodesmata are microscopic channels that traverse the cell walls of plants.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Chloroplasts are the microscopic channels that traverse the cell walls of plants.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sphenopalatine is the name of microscopic channels which traverse the cell walls of plants.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Notochord is the name of microscopic channels which traverse the cell walls of plants.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Plasmodesmata (singular: plasmodesma) are microscopic channels which traverse the cell walls of plant cells and some algal cells, enabling transport and communication between them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Unlike animal cells, almost every plant cell is surrounded by a polysaccharide cell wall.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Arctic whale has a long, straight, helical tusk extending from its upper left jaw. Beluga Whale",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Arctic whale has a long, straight, helical tusk extending from its upper left jaw. Bowhead Whale",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Arctic whale has a long, straight, helical tusk extending from its upper left jaw. Gray Whale",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Arctic whale has a long, straight, helical tusk extending from its upper left jaw. Narval",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The narwhal is the only member of the genus Monodon and one of two living representatives of the family Monodontidae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Males of this species have a large (1.5–3.0 m) long tusk, which is a protruding left canine thought to function as a weapon, a tool for feeding, in attracting mates or sensing water salinity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

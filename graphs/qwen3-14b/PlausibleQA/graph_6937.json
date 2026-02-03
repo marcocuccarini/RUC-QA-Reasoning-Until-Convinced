@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of government does poland have. Constitutional Republic",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of government does poland have. Parliamentary System",
+      "strength": 0.5999999999908986
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of government does poland have. Federal Republic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of government does poland have. Democracy",
+      "strength": 0.6427056140830923
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The government of Poland takes the form of a unitary semi-presidential representative democratic republic, whereby the president is the head of state and the prime minister is the head of government.",
+      "strength": 0.6322745493891959
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The prime minister proposes, the president appoints, and the Sejm approves the Council of Ministers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Semi-presidential systems have a president as an active head of state with important powers, but they also have a prime minister as a head of government with important powers.",
+      "strength": 0.5999738741442517
+    },
+    "A7": {
+      "type": "argument",
+      "text": "in Poland, the President appointed 27 new Supreme Court judges over legal objections from the European Commission",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

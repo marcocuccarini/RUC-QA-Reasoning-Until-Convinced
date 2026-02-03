@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Thyroid is the gland controlled by a negative feedback loop that includes the hypothalamus and pituitary gland.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Stomach is the gland controlled by a negative feedback loop that includes the hypothalamus and pituitary gland.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The adrenal gland is regulated by a negative feedback loop that includes the hypothalamus and pituitary gland.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pituitary is the gland controlled by a negative feedback loop that includes the hypothalamus and the pituitary gland.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The HPA axis is an example of a negative feedback system, in which cortisol itself acts as a direct inhibitor of both CRH and ACTH synthesis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Glucocorticoid synthesis is stimulated by adrenocorticotropic hormone (ACTH), a hormone released into the bloodstream by the anterior pituitary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The object that works best when reflecting light is a mirror.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A camera works best when reflecting light.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Binoculars are the object that works best when reflecting light.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Eyeglasses are the object that works best when reflecting light.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A mirror is a wave reflector. Light consists of waves, and when light waves reflect from the flat surface of a mirror, those waves retain the same degree of curvature and vergence, in an equal yet opposite direction, as the original waves.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The reflectivity may vary with wavelength. All or a portion of the light not reflected is absorbed by the mirror, while in some cases a portion may also transmit through.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

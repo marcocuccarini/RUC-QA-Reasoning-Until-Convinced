@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If you travel due south from Detroit, Michigan, what is the first country you reach. Mexico",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If you travel due south from Detroit, Michigan, what is the first country you reach. Belize",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If you travel due south from Detroit, Michigan, what is the first country you reach. Guatemala",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If you travel due south from Detroit, Michigan, what is the first country you reach. ᑲᓇᑕ",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Detroit River is the international border between the United States and Canada, leading directly to Canada when traveling south from Detroit, Michigan.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text explicitly describes the Detroit River as part of the U.S.-Canada border, which directly contradicts the claim that traveling south from Detroit would reach Mexico, Belize, or Guatemala.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

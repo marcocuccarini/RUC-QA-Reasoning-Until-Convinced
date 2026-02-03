@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous chemist was executed in the French Revolution. Jean Dumas",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous chemist was executed in the French Revolution. Claude-Louis Berthollet",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous chemist was executed in the French Revolution. Joseph Priestley",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous chemist was executed in the French Revolution. Lavosier",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lavoisier was convicted and guillotined on 8 May 1794 in Paris, at the age of 50, along with his 27 co‑defendants.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was charged with tax fraud and selling adulterated tobacco, and was guillotined despite appeals to spare his life in recognition of his contributions to science.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

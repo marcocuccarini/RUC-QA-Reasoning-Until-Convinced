@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What natural product consists of a vertical lattice of rhombic decahedra with a hexagonal cross sectional at the open end and walls less than 0.1mm thick. Honeycomb",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What natural product consists of a vertical lattice of rhombic decahedra with a hexagonal cross sectional at the open end and walls less than 0.1mm thick. Coral",
+      "strength": 0.5594399537950809
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What natural product consists of a vertical lattice of rhombic decahedra with a hexagonal cross sectional at the open end and walls less than 0.1mm thick. Abalone Shell",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What natural product consists of a vertical lattice of rhombic decahedra with a hexagonal cross sectional at the open end and walls less than 0.1mm thick. Favoid",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Coral reefs are made up of coral skeletons from mostly intact coral colonies.",
+      "strength": 0.6323528703797021
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Coral skeletons are biocomposites (mineral + organics) of calcium carbonate, in the form of calcite or aragonite.",
+      "strength": 0.5999999870553735
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Corals secrete calcium carbonate (aragonite) skeleton.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The structure of both simple and compound scleractinians is light and porous, rather than solid as is the case in the prehistoric order Rugosa.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The base of the polyp secretes the stony material from which the coral skeleton is formed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

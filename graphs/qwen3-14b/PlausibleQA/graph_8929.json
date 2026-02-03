@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which artist's-works include Sunflowers and Pears and Street in Tahiti. Vincent van Gogh",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which artist's-works include Sunflowers and Pears and Street in Tahiti. Paul Cézanne",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which artist's-works include Sunflowers and Pears and Street in Tahiti. Claude Monet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which artist's-works include Sunflowers and Pears and Street in Tahiti. Gaugin",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Van Gogh painted several landscapes with flowers, including sunflowers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sunflowers were painted to decorate the walls in anticipation of Gauguin's visit, and Van Gogh placed individual works around the Yellow House's guest room in Arles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

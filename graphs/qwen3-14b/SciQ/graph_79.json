@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lungs are the organ system that brings oxygen into the body and releases carbon dioxide.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liver is the organ system that brings oxygen into the body and releases carbon dioxide.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Brain is the organ system that brings oxygen into the body and releases carbon dioxide.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Kidneys are the organ system that brings oxygen into the body and releases carbon dioxide.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The primary purpose of the respiratory system is the equalizing of the partial pressures of the respiratory gases in the alveolar air with those in the pulmonary capillary blood",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ventilation of the lungs in mammals occurs via the respiratory centers in the medulla oblongata",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

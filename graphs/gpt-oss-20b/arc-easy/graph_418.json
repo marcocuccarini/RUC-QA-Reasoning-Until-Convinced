@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Light is the product of the fire that is in the form of electromagnetic waves for campers sitting around a campfire outside their tent.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Smoke is the product of the campfire that is in the form of electromagnetic waves, while campers sit around the fire outside their tent.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sound is the product of the campfire that is in the form of electromagnetic waves for campers sitting around the fire outside their tent.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water vapor is the product of the campfire that takes the form of electromagnetic waves for campers sitting around a fire outside their tent.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A common thermal light source in history is the glowing solid particles in flames, but these also emit most of their radiation in the infrared and only a fraction in the visible spectrum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "With the development of electric lights and power systems, electric lighting has effectively replaced firelight.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Black-body radiation is emitted from soot, gas, and fuel particles, though the soot particles are too small to behave like perfect blackbodies.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Fire is a chemical process in which a fuel and an oxidizing agent react, yielding carbon dioxide and water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

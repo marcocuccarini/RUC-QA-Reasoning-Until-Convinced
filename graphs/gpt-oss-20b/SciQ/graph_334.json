@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Both plants and animals can be hosts for parasitic nematodes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neither are nematodes parasites of plants, animals, or both.",
+      "strength": 0.25000002785385783
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Animals can be hosts that nematodes parasitize.",
+      "strength": 0.5999999999893191
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Plants can be parasitized by nematodes.",
+      "strength": 0.77365213385703
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Plant-parasitic nematodes include several groups causing severe crop losses, taking 10% of crops worldwide every year.",
+      "strength": 0.5999711264640173
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Parasitic nematodes infect American eels, causing damage to the eel's swim bladder, dairy animals like cattle and buffalo, and all species of sheep.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Predatory nematodes include Phasmarhabditis hermaphrodita which is a lethal parasite of gastropods such as slugs and snails.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Multiple varieties of nematodes have been found in the abdominal cavities of the primitively social sweat bee, Lasioglossum zephyrus, where the nematode hinders ovarian development and renders the bee less active, thus less effective in pollen collection.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Root-knot nematodes are distributed worldwide, and are obligate parasites of the roots of thousands of plant species, including monocotyledonous and dicotyledonous, herbaceous and woody plants.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Root-knot nematodes (Meloidogyne spp.) are one of the three most economically damaging genera of plant-parasitic nematodes on horticultural and field crops.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

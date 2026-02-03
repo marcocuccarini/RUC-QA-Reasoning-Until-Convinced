@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Tomorrow marks the 109th anniversary of which great American taking the reins of the presidency following the death of William McKinley. Woodrow Wilson",
+      "strength": 0.3677441483358222
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tomorrow marks the 109th anniversary of which great American taking the reins of the presidency following the death of William McKinley. Franklin D. Roosevelt",
+      "strength": 0.3677441483358222
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tomorrow marks the 109th anniversary of which great American taking the reins of the presidency following the death of William McKinley. Harry S. Truman",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Tomorrow marks the 109th anniversary of which great American taking the reins of the presidency following the death of William McKinley. T Ros",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Roosevelt was sworn in as the 26th president after McKinley's death",
+      "strength": 0.5999667875280791
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Theodore Roosevelt took the oath of office as president after McKinley's death",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

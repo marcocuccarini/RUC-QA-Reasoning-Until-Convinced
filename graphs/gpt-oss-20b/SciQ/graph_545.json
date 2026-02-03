@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ionic compounds are solids with high melting and boiling points.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetic compounds are solids with high melting and boiling points.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Superheated compounds are solids with high melting and boiling points.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metal alloys are solids with high melting and boiling points.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Inorganic compounds with simple ions typically have small ions, and thus have high melting points, so are solids at room temperature.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some substances with larger ions, however, have a melting point below or near room temperature (often defined as up to 100 °C), and are termed ionic liquids.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hafnium carbonitride (HfCN) is a refractory compound with the highest known melting point of any substance to date and the only one confirmed to have a melting point above 4,273 K (4,000 °C; 7,232 °F) at ambient pressure.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The melting point of a pure substance is always higher and has a smaller range than the melting point of an impure substance or, more generally, of mixtures.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In general, compounds with ionic bonds have high normal boiling points, if they do not decompose before reaching such high temperatures.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The higher a compound's normal boiling point, the less volatile that compound is overall, and conversely, the lower a compound's normal boiling point, the more volatile that compound is overall.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

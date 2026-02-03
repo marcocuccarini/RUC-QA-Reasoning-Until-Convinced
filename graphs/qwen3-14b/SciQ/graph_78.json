@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Small intestine is the organ in the body where chemical digestion mainly takes place.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Liver is the organ in which chemical digestion mainly takes place in the body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kidneys are the organ in the body where chemical digestion mainly takes place.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Large intestine is the organ in the body where chemical digestion mainly takes place.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The small intestine is where most chemical digestion takes place.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The material that remains undigested and unabsorbed passes into the large intestine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

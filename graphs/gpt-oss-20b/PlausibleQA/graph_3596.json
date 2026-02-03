@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The French town of Bordeaux lies on which river. Dordogne",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The French town of Bordeaux lies on which river. Loire",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The French town of Bordeaux lies on which river. Rhone",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The French town of Bordeaux lies on which river. Garona",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Garonne ( … ; Catalan, Basque and Occitan: Garona, … ) is a river that flows from the central Spanish Pyrenees to the Gironde estuary at the French port of Bordeaux.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Garonne meets the Dordogne at the Bec d'Ambès, forming the Gironde estuary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

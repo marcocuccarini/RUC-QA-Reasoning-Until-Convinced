@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does the city of paris get its name. Gallicus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does the city of paris get its name. Patricius",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does the city of paris get its name. Parisis",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does the city of paris get its name. Parisii",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The name Paris is derived from its early inhabitants, the Parisii, a Gallic tribe from the Iron Age and the Roman period.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ancient oppidum that corresponds to the modern city of Paris was first mentioned in the mid-1st century BC by Julius Caesar as Lutetia Parisiorum ('Lutetia of the Parisii') and is later attested as Parision in the 5th century AD, then as Paris in 1265.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What major river flows through Paris. Rhone",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What major river flows through Paris. Loire",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What major river flows through Paris. Danube",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What major river flows through Paris. Seine",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It rises at Source-Seine, 30 kilometres (19 mi) northwest of Dijon in northeastern France in the Langres plateau, flowing through Paris and into the English Channel at Le Havre (and Honfleur on the left bank).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Seine is a 777-kilometre-long river in northern France.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

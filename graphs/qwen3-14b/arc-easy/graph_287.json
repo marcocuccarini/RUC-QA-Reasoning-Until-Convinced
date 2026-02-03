@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Copper is the metal that will be attracted to a magnet.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gold is not attracted to a magnet, because gold is a non‑magnetic metal.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Iron is a metal that will be attracted to a magnet.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Silver is a metal that will be attracted to a magnet.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Application of an external magnetic field causes the domains that are magnetized in the same general direction to grow at the expense of adjacent ones that point in other directions, reinforcing the external field.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Impurities, lattice defects, or grain and particle boundaries can 'pin' the domains in the new positions, so that the effect persists even after the external field is removed – thus turning the iron object into a (permanent) magnet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

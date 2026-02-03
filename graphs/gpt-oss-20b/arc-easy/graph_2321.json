@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diabetes is the disease caused by the transformation of proto‑oncogenes into oncogenes, which leads to unregulated cell division.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Leukemia is caused by changes at the molecular level that turn proto‑oncogenes into oncogenes, leading to unregulated cell division.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pneumonia is a disease caused by the transformation of proto‑oncogenes into oncogenes at the molecular level, which leads to unregulated cell division.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hemophilia is a disease caused by changes at the molecular level that turn proto‑oncogenes into oncogenes, leading to unregulated cell division.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Certain mutations can trigger leukemia by activating oncogenes or deactivating tumor suppressor genes, and thereby disrupting the regulation of cell death, differentiation or division.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Leukemia, like other cancers, results from mutations in the DNA.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Ann Richards",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Rick Perry",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Kay Bailey Hutchison",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was elected Governor of the US State of Texas in 1994. Dubya",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bush won the general election with 53.5 percent of the vote against Richards' 45.9 percent.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He served as the 46th governor of Texas from 1995 to 2000.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

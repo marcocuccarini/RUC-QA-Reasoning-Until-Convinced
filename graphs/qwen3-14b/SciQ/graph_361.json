@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An exothermic process is a change that releases heat when matter undergoes chemical reactions or physical changes.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetic process is a change that releases heat when matter undergoes chemical reactions and physical changes.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An oxidized process is a change that releases heat in matter undergoing chemical reactions and physical changes.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Biochemical process is a change that releases heat when matter undergoes chemical reactions or physical changes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In an exothermic reaction, the activation energy (energy needed to start the reaction) is less than the energy that is subsequently released, so there is a net release of energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In an exothermic process, the heat may be listed among the products of the reaction.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Uffizi and the Bargello are among the museums of art in which European city . Rome",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Uffizi and the Bargello are among the museums of art in which European city . Venice",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Uffizi and the Bargello are among the museums of art in which European city . Milan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Uffizi and the Bargello are among the museums of art in which European city . פירנצה",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "some of the Uffizi's works have in the past been transferred to other museums in Florence—for example, some famous statues to the Bargello",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Uffizi Gallery [...] is a prominent art museum adjacent to the Piazza della Signoria in the Historic Centre of Florence in the region of Tuscany, Italy",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

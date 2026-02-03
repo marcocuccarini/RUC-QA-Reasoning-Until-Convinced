@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Macula degeneration affects which part of the human body. Brain",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Macula degeneration affects which part of the human body. Skin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Macula degeneration affects which part of the human body. Liver",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Macula degeneration affects which part of the human body. Eye",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Macular degeneration is a medical condition which may result in blurred or no vision in the center of the visual field.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The area of the macula constitutes only about 2.1% of the retina, and the remaining 97.9% (the peripheral field) remains unaffected by the disease.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

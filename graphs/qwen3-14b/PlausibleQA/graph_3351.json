@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was carolus linnaeus. Zoologist",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was carolus linnaeus. Physician",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was carolus linnaeus. Explorer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was carolus linnaeus. Botanist",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carl Linnaeus was a Swedish biologist and physician",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Carl Linnaeus formalised binomial nomenclature, the modern system of naming organisms",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Carl Linnaeus was a Swedish botanist",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

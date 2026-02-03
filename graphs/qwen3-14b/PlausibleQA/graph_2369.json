@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which aperitif is named for the Paris chemist who created it in 1846. Byrrh",
+      "strength": 0.25000003759877515
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which aperitif is named for the Paris chemist who created it in 1846. Campari",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which aperitif is named for the Paris chemist who created it in 1846. Cynar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which aperitif is named for the Paris chemist who created it in 1846. Dubonnet",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Byrrh was created in France in 1866",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Byrrh was developed by brothers Pallade and Simon Violet from Thuir (France)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dubonnet was first sold in 1846 by Joseph Dubonnet",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Joseph Dubonnet created Dubonnet in response to a competition run by the French Government",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

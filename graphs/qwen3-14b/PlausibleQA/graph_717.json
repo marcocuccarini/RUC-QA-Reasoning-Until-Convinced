@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare play tells the story of Prospero, the rightful Duke of Milan. The Tempest",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare play tells the story of Prospero, the rightful Duke of Milan. A Midsummer Night's Dream",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare play tells the story of Prospero, the rightful Duke of Milan. The Merchant of Venice",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Shakespeare play tells the story of Prospero, the rightful Duke of Milan. EMSEC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Tempest is a play by William Shakespeare, probably written in 1610–1611, and thought to be one of the last plays that he wrote alone.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After the first scene, which takes place on a ship at sea during a tempest (bad storm), the rest of the story is set on a remote island, where Prospero, a magician, lives with his daughter Miranda, and his two servants: Caliban, a savage monster figure, and Ariel, an airy spirit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

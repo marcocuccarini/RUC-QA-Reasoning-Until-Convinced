@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Solute is the substance present in the lesser amount in a solution.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Molecules are the substance present in the lesser amount in a solution.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Compound is the substance present in the lesser amount in a solution.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fluids are the substance present in the lesser amount in a solution.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "One or more components present in the solution other than the solvent are called solutes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If both solute and solvent exist in equal quantities (such as in a 50% ethanol, 50% water solution), the concepts of 'solute' and 'solvent' become less relevant",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

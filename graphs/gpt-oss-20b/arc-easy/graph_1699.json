@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rotation is the term that describes the path the Moon travels around Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Day is the term that describes the path the Moon travels around Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Orbit is the term that describes the path the Moon travels around Earth.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Phase is the term that describes the path the Moon travels around Earth.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Known as an orbital revolution, examples include the trajectory of a planet around a star, a natural satellite around a planet, or an artificial satellite around an object or position in space such as a planet, moon, asteroid, or Lagrange point.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In celestial mechanics, an orbit is the curved trajectory of an object under the influence of an attracting force.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

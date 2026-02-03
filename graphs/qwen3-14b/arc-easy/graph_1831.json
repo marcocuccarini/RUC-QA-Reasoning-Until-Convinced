@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Calories are units of measurement that can be used to compare the amounts of stored chemical energy in different foods.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Decibels are units of measurement that can be used to compare the amounts of stored chemical energy in different foods.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Newtons are units of measurement that can be used to compare the amounts of energy stored in different foods.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Watts is a unit of measurement that can be used to compare the amounts of stored chemical energy in different foods.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The calorie is used in nutrition to express the energy value of foods in per serving or per weight.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term 'calorie' is not part of the International System of Units (SI), and is regarded as obsolete, having been replaced by the SI derived unit of energy, the joule (J), or the kilojoule (kJ).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The energy contents of foods are often expressed in kilocalories (kcal) in nutritional contexts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

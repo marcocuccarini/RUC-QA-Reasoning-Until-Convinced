@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In computing, what started life at Stanford University as 'backrub'. Altavista",
+      "strength": 0.20502535381504639
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In computing, what started life at Stanford University as 'backrub'. Yahoo",
+      "strength": 0.2500000272972165
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In computing, what started life at Stanford University as 'backrub'. Bing",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In computing, what started life at Stanford University as 'backrub'. Ghit",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When Google was a Stanford research project, it was nicknamed BackRub because the technology checks backlinks to determine a site's importance.",
+      "strength": 0.5999716981983361
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When Google was a Stanford research project, it was nicknamed BackRub.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The rapid growth of their project caused Stanford's computing infrastructure to experience problems.",
+      "strength": 0.5999716981983361
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The initial version of Google, still on the Stanford University website, was made available to Internet users in August 1996.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "As their search engine grew in popularity among Stanford users, it required additional servers to process the queries.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "BackRub already exhibited the rudimentary functions and characteristics of a search engine: a query input was entered and it provided a list of backlinks ranked by importance.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who starred in the movie summer of 42. Timothy Bottoms",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who starred in the movie summer of 42. Richard Dreyfuss",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who starred in the movie summer of 42. Ryan O'Neal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who starred in the movie summer of 42. Gary Grimes",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gary Grimes starred in Summer of '42.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The film starred Jennifer O'Neill, Gary Grimes, Jerry Houser, and Christopher Norris.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

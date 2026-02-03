@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who were the original voices of the flintstones. Daws Butler",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who were the original voices of the flintstones. Don Messick",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who were the original voices of the flintstones. June Foray",
+      "strength": 0.5999999090162662
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who were the original voices of the flintstones. Mel Blanc",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mel Blanc voiced Betty's husband, Barney Rubble.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "June Foray auditioned for the part of Betty Rubble on The Flintstones.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Daws Butler provided the voice of Barney for a few episodes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

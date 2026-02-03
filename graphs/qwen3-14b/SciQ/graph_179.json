@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Smell is the fifth human sense, completing the list of taste, touch, vision, and hearing.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Perception is the fifth human sense, the one not listed among taste, touch, vision, and hearing.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Audio is the fifth human sense, completing the list of taste, touch, vision, and hearing.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fear is the fifth human sense, alongside taste, touch, vision, and hearing.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "in some cultures, five human senses were traditionally identified as such (namely sight, smell, touch, taste, and hearing)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "hearing is one of the five traditional human senses",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

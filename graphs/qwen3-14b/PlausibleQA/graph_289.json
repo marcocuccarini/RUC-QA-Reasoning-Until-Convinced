@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "George Bush, American president 2001 to 2009, had what middle name. Harrison",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "George Bush, American president 2001 to 2009, had what middle name. Franklin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "George Bush, American president 2001 to 2009, had what middle name. Jefferson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "George Bush, American president 2001 to 2009, had what middle name. WALKER",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "George Walker Bush is an American politician who served as the 43rd president of the United States from 2001 to 2009.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "George Walker Bush was born on July 6, 1946, at Grace-New Haven Hospital in New Haven, Connecticut.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

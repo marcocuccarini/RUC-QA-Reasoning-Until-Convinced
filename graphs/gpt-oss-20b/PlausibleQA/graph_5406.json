@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the star of the 1940 satirical film 'The Great Dictator'. Charlie Chaplin",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the star of the 1940 satirical film 'The Great Dictator'. Buster Keaton",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the star of the 1940 satirical film 'The Great Dictator'. Harold Lloyd",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the star of the 1940 satirical film 'The Great Dictator'. Chaplinian",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In a dual performance, he also played the dictator 'Adenoid Hynkel', a parody of Hitler.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "His first sound film was The Great Dictator (1940), which satirised Adolf Hitler.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

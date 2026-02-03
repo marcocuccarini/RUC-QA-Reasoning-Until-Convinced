@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A pickerel is a young what. Trout",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A pickerel is a young what. Salmon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A pickerel is a young what. Walleye",
+      "strength": 0.2500974197984664
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A pickerel is a young what. Pike",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Walleye, a fish unrelated to Esox, is called Pickerel in parts of Canada",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The English 'pike' originally referred specifically to the adult fish, the diminutive form 'pickerel' (now used to name some of the smaller pike species, e.g. E. americanus and E. niger) referring to the young",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The walleye (Sander vitreus) is sometimes called a pickerel or a walleyed pike, but it is unrelated to the pike, being a member of the perch family (Percidae)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

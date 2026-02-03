@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The left ventricle has a much thicker muscular layer than the right ventricle.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Middle is the ventricle of the heart whose muscular layer is much thicker.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Upper is the ventricle of the heart in which the muscular layer is much thicker.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Right is the ventricle whose muscular layer is much thicker in the heart.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The left ventricle has thicker walls than the right because it needs to pump blood to most of the body while the right ventricle fills only the lungs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "By young adulthood, the walls of the left ventricle have thickened from three to six times greater than that of the right ventricle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

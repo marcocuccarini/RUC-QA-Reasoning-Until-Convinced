@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "UV light is the main cause of skin cancer when exposure is excessive.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "LED light is the main cause of skin cancer due to excessive exposure.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fluorescent light is the main cause of skin cancer from excessive exposure.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Incandescent light is the main cause of skin cancer when there is excessive exposure.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The primary cause of skin cancer is prolonged exposure to ultraviolet (UV) radiation from the sun or tanning devices.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "BCC and SCC often carry a UV-signature mutation indicating that these cancers are caused by UVB radiation via direct DNA damage.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

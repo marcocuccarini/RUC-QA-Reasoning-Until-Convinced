@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Jon Postel",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Bob Kahn",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Larry Roberts",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who developed the tcp ip reference model. Vint Cerf",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He wrote the first TCP with Yogen Dalal and Carl Sunshine, called Specification of Internet Transmission Control Program (RFC 675), published in December 1974.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "co-designed the DoD TCP/IP protocol suite with Kahn.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "During the summer of 1973, Kahn and Cerf worked out a fundamental reformulation, in which the differences between local network protocols were hidden by using a common internetwork protocol.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

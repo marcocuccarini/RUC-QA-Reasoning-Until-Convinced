@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A muscle cell provides genetic information from the father to a puppy that inherits traits from both the mother and the father.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A nerve cell provides genetic information from the father to the puppy, contributing to the puppy's inherited traits from both parents.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A blood cell is the structure that provides genetic information from the father to the puppy, contributing to the puppy’s traits inherited from both parents.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A sperm cell provides genetic information from the father to the puppy, contributing to the puppy’s traits along with those inherited from the mother.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During fertilization, the sperm provides three essential parts to the oocyte: (1) a signalling or oocyte-activating factor (OAF), which causes the metabolically dormant oocyte to activate; (2) the haploid paternal genome; (3) the centriole, which is responsible for forming the centrosome and microtubule system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sperm cell is haploid, so that its 23 chromosomes can join the 23 chromosomes of the female egg to form a diploid cell with 46 paired chromosomes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

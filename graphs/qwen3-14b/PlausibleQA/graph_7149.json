@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which state in North America has the oldest known currently living tree, age confirmed, in the world. US-CO",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which state in North America has the oldest known currently living tree, age confirmed, in the world. US-UT",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which state in North America has the oldest known currently living tree, age confirmed, in the world. US-NV",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which state in North America has the oldest known currently living tree, age confirmed, in the world. US-CA",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The oldest bristlecone pine, Methuselah, is located in the White Mountains of Inyo County in Eastern California.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Great Basin bristlecone pine (Pinus longaeva) is found in Utah, Nevada, and eastern California.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cosa Nostra refers to what organization. Italian Government",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cosa Nostra refers to what organization. Camorra",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Cosa Nostra refers to what organization. 'Ndrangheta",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cosa Nostra refers to what organization. MAFIA",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Sicilian Mafia or Cosa Nostra (Italian: [ˈkɔːza ˈnɔstra, nir. ˈkɔːsa -]; Sicilian: [ˈkɔːsa ˈnɔʂː(ɽ)a]; lit. 'Our Thing'), also simply referred to as the Mafia, is a criminal society...",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cosa Nostra should not be confused with other mafia-type organizations in Southern Italy, such as the 'Ndrangheta in Calabria, the Camorra in Campania...",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

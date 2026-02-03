@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first man to swim 100 metres in under a minute. Johnny Weissmuller's contemporary, Duke Kahanamoku",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first man to swim 100 metres in under a minute. Australian swimmer, Andrew Charlton",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first man to swim 100 metres in under a minute. American swimmer, Buster Crabbe",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first man to swim 100 metres in under a minute. Weissmuller",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was the first man to swim the 100-meter freestyle under one minute.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On July 9, 1922, Weissmuller broke Duke Kahanamoku's world record in the 100-meter freestyle, swimming it in 58.6 seconds.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

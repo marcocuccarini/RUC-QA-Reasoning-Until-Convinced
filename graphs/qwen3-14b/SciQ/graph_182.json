@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Signaling is the type of pathway in which small nonprotein, water‑soluble molecules or ions called second messengers often play a role.",
+      "strength": 0.7499426582224752
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Creating is the type of pathway in which small nonprotein, water‑soluble molecules or ions called second messengers often play a role.",
+      "strength": 0.6322429966750173
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Inhibiting is the kind of pathways in which small nonprotein, water‑soluble molecules or ions called second messengers often play a role.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Second messengers are intracellular signaling molecules released by the cell in response to exposure to extracellular signaling molecules—the first messengers.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Secondary messenger systems can be synthesized and activated by enzymes, for example, the cyclases that synthesize cyclic nucleotides, or by opening of ion channels to allow influx of metal ions, for example Ca2+ signaling.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Second messengers act as chemical relays from the plasma membrane to the cytoplasm, thus carrying out intracellular signal transduction.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An example of an ion allowed into the cell during a ligand-gated ion channel opening is Ca2+; it acts as a second messenger initiating signal transduction cascades.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

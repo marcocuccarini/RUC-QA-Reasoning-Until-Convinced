@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is the arizona cardinals stadium located. Phoenix",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is the arizona cardinals stadium located. Tempe",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is the arizona cardinals stadium located. Mesa",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is the arizona cardinals stadium located. Glendale",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "State Farm Stadium is a multi-purpose retractable roof stadium in the southwestern United States, located in Glendale, Arizona, a suburb west of Phoenix.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It replaced Sun Devil Stadium in Tempe as the home of the Cardinals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who aged 65 became the oldest Britain to climb Mount Everest, as at 2009. Chris Bonington",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who aged 65 became the oldest Britain to climb Mount Everest, as at 2009. Doug Scott",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who aged 65 became the oldest Britain to climb Mount Everest, as at 2009. Stephen Venables",
+      "strength": 0.25000003759877515
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who aged 65 became the oldest Britain to climb Mount Everest, as at 2009. Ran Fiennes",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stephen Venables was born on 2 May 1954.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After several cancer-free years, he developed a brain tumour and died, aged twelve years old.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On 20 May 2009 Fiennes reached the summit of Mount Everest, becoming the oldest British person to achieve this.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In May 2009, at the age of 65, he reached the summit of Mount Everest.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Water is the substance composed of only one type of atom, as requested by the question \"Which substance is composed of only one type of atom?\"",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gold is a substance composed of only one type of atom.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Salt is a substance composed of only one type of atom.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sugar is a substance composed of only one type of atom.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gold has only one stable isotope, 197Au, which is also its only naturally occurring isotope, so gold is both a mononuclidic and monoisotopic element.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gold is a chemical element; it has chemical symbol Au (from Latin aurum) and atomic number 79.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Day is the unit of time in which Earth orbits the Sun.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Month is the unit of time in which Earth orbits the Sun.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Year is the unit of time in which Earth orbits the Sun.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Century is the unit of time in which Earth orbits the Sun.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A year is a unit of time based on how long it takes the Earth to orbit the Sun.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

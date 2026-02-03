@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Liquids are the elements found to the right of the zigzag line in the periodic table.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metals are the elements found to the right of the zigzag line in the periodic table.",
+      "strength": 0.4000876126562776
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Metals and gases are the elements found to the right of the zigzag line in the periodic table.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nonmetals and gases are the elements found to the right of the zigzag line in the periodic table.",
+      "strength": 0.4000876126562776
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Elements to the upper right of the line display increasing nonmetallic behaviour.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Elements to the lower left of the line generally display increasing metallic behaviour.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

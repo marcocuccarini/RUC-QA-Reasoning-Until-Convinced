@@ -1,0 +1,136 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. Sony",
+      "strength": 0.05911191064701006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. Nintendo",
+      "strength": 0.09023487766713302
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. Electronic Arts (EA)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which company produces the video game console 'Xbox 360'. MSLI",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In November 2005, the company's second video game console, the Xbox 360, was released.",
+      "strength": 0.6323529399709273
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Microsoft on OpenSecrets",
+      "strength": 0.5999999998243603
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Xbox 360 is a home video game console developed by Microsoft.",
+      "strength": 0.5999999999999944
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Xbox 360 is the highest-selling console made by an American company and by Microsoft.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Microsoft provides support for Xbox 360.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In November 2005, the company's Xbox 360 was released.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "OpenSecrets tracks and publishes data on campaign finance and lobbying.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "It has manufactured three successive systems, as of 2023, as part of the Xbox brand.",
+      "strength": 0.5
+    },
+    "A12": {
+      "type": "argument",
+      "text": "An updated version of the service, adding the Xbox Live Marketplace, became available with the Xbox 360 console launch in November 2005.",
+      "strength": 0.5
+    },
+    "A13": {
+      "type": "argument",
+      "text": "Xbox Live for the original Xbox was discontinued by Microsoft on April 15, 2010, encouraging gamers to upgrade to the Xbox 360.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A13",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

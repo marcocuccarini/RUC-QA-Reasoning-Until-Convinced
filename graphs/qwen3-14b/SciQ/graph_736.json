@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Valence electrons are the only electrons hydrogen atoms have one of, allowing them to form only one covalent bond.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Loops electron is the only electron a hydrogen atom has to pair with, which is why hydrogen atoms form only one covalent bond.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Modular electron is the only electron a hydrogen atom has to pair with, which is why hydrogen atoms form only one covalent bond.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water electron is the single electron that hydrogen atoms have to pair with when forming a covalent bond, which is why hydrogen atoms form only one covalent bond.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the molecule H2, the hydrogen atoms share the two electrons via covalent bonding.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Each hydrogen has a valence of one and is surrounded by two electrons (a duet rule) – its own one electron plus one from the carbon.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

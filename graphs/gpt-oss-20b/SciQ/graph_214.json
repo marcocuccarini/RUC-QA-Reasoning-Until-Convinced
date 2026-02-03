@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To kill prey is the purpose of snakes' venomous bites.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Snakes use venomous bites to clean themselves.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To kill rival snakes is why snakes have venomous bites.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To scare humans is why snakes have venomous bites.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Snake venom is a highly toxic saliva containing zootoxins that facilitates in the immobilization and digestion of prey.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The effect of the venom of proteroglyphous snakes is mainly on the nervous system, respiratory paralysis quickly produced by bringing the venom into contact with the central nervous mechanism that controls respiration.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

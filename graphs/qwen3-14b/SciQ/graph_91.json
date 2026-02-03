@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Magma is the substance that forms igneous rock and flows out in rivers of lava when it reaches the surface.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Granite is a substance that forms igneous rock and flows out in rivers of lava when it reaches the surface.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Soil is the substance that forms igneous rock and flows out in rivers of lava when it reaches the surface.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fertilizer is the substance that forms igneous rock and flows out in rivers of lava when it reaches the surface.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Magma (from Ancient Greek μάγμα (mágma) 'thick unguent') is the molten or semi-molten natural material from which all igneous rocks are formed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Magma that cools slowly within a magma chamber usually ends up forming bodies of plutonic rocks such as gabbro, diorite and granite, depending upon the composition of the magma.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

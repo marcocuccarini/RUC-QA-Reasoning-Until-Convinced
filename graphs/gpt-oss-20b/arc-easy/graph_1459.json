@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Less than 1 second is the time it takes light from the nearest star other than the Sun to reach Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "About 1 hour is the time it takes light from the nearest star other than the Sun to reach Earth.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "About 1 month is how long it takes light from the nearest star other than the Sun to reach Earth.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "About 4 years is the time it takes light from the nearest star other than the Sun to reach Earth.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Proxima Centauri, the nearest star to Earth after the Sun, is located 4.25 light-years (1.3 parsecs) away in the southern constellation of Centaurus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It would take 4.25 years for the information collected to be sent back to Earth.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the second biggest city in the UK. London",
+      "strength": 0.25000009154079683
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the second biggest city in the UK. Leeds",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the second biggest city in the UK. Glasgow",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the second biggest city in the UK. B'Ham",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "London during the 19th century became noted as the 'premier city' of the world, being the most populated city from 1825 to 1900.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The capital and largest city of both England and the UK is London.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Leeds was excluded from the list of metropolitan areas considered by ESPON.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

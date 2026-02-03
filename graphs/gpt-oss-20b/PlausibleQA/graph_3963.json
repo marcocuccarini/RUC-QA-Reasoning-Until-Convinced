@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the songs that justin bieber wrote. Love Yourself",
+      "strength": 0.4309242551817296
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the songs that justin bieber wrote. Sorry",
+      "strength": 0.5999581987825118
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the songs that justin bieber wrote. What Do You Mean?",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the songs that justin bieber wrote. Baby",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It was written by Ed Sheeran and Benny Blanco, and produced by the latter.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Written by Bieber, Julia Michaels, Justin Tranter, Skrillex, and BloodPop; the song was produced by the latter two.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

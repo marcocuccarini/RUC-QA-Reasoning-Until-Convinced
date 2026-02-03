@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oil, air, and rock are examples of matter that can take the shape of a container.",
+      "strength": 0.5999999637412498
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Water, air, and milk are examples of matter that can take the shape of a container.",
+      "strength": 0.846056906746563
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The list “sand, ice, and wood” includes only examples of matter that can take the shape of a container.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nail, stick, and paper are examples of matter that can take the shape of a container.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A gas is a compressible fluid. Not only will a gas conform to the shape of its container but it will also expand to fill the container.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In a liquid, the particles remain close together but can move past one another, allowing the substance to maintain a fixed volume while adapting to the shape of its container.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Gas particles spread apart or diffuse in order to homogeneously distribute themselves throughout any container.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Gas is a state of matter with neither fixed volume nor fixed shape.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Alpine peak is known in Italy as Monte Cervino. Mont Blanc",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Alpine peak is known in Italy as Monte Cervino. Monte Rosa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Alpine peak is known in Italy as Monte Cervino. Gran Paradiso",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Alpine peak is known in Italy as Monte Cervino. Cervin",
+      "strength": 0.5999050097245144
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Matterhorn is known in Italy as Mont Cervin",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "William Brockedon referred to the Matterhorn as Cervin",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mont Cervin, a mountain of the Alps",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

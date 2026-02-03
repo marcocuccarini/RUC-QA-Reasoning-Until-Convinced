@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Inertia counteracts gravity to keep a satellite in orbit according to Newton's first law of motion.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Energy counteracts gravity to keep a satellite in orbit according to Newton's first law of motion.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Friction counteracts gravity to keep a satellite in orbit according to Newton's first law of motion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Magnetism counteracts gravity to keep a satellite in orbit according to Newton's first law of motion.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Newton's first law expresses the principle of inertia: the natural behavior of a body is to move in a straight line at constant speed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A cannonball that is lobbed weakly off the edge of a tall cliff will hit the ground in the same amount of time as if it were dropped from rest, because the force of gravity only affects the cannonball's momentum in the downward direction, and its effect is not diminished by horizontal movement.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

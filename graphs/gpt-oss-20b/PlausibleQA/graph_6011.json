@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who wrote i can feel at home in this world anymore. Charlie Kaufman",
+      "strength": 0.4310342212417837
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who wrote i can feel at home in this world anymore. Greta Gerwig",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who wrote i can feel at home in this world anymore. Jeff Nichols",
+      "strength": 0.4000000568650403
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who wrote i can feel at home in this world anymore. Macon Blair",
+      "strength": 0.4311291327377541
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Blair made his directorial debut on I Don't Feel at Home in This World Anymore.",
+      "strength": 0.4000000568650403
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dee Rees was announced to direct an adaptation of the film.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The screenplay was written by Dee Rees and Marco Villalobos.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

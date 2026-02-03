@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where in Scotland is Dunvegan Castle. Loch Ness",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where in Scotland is Dunvegan Castle. Inverness",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where in Scotland is Dunvegan Castle. Aberdeen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where in Scotland is Dunvegan Castle. Skye",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dunvegan Castle is located 1 mile to the north of Dunvegan on the Isle of Skye.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dunvegan Castle is located on the Isle of Skye, off the west coast of Scotland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

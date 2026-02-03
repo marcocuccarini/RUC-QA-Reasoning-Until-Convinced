@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who painted 'Rouen Cathedral: Sunset' found in the Museum of Fine Arts, Boston, USA. Claude Lorraine",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who painted 'Rouen Cathedral: Sunset' found in the Museum of Fine Arts, Boston, USA. Camille Pissarro",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who painted 'Rouen Cathedral: Sunset' found in the Museum of Fine Arts, Boston, USA. Alfred Sisley",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who painted 'Rouen Cathedral: Sunset' found in the Museum of Fine Arts, Boston, USA. MONET",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1895, he exhibited 20 paintings of Rouen Cathedral, showcasing the façade in different conditions of light, weather and atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From the 1880s onwards—and particularly in the 1890s—Monet's series of paintings of specific subjects sought to document the different conditions of light and weather.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

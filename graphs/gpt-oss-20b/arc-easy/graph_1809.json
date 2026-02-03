@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Epithelium provides a rigid shell to prevent punctures, which explains how it offers protection to land‑dwelling vertebrates.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Epithelium has capillaries to resist iron deficiency, which explains how the epithelium offers protection to land‑dwelling vertebrates.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Epithelium insulates the vertebrate from hypothermia, which explains how the epithelium offers protection to land‑dwelling vertebrates.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Epithelium prevents dehydration in land‑dwelling vertebrates.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The epidermis itself has no blood supply and is nourished almost exclusively by diffused oxygen from the surrounding air.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The epidermal layer regulates the amount of water released from the body into the atmosphere through transepidermal water loss.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

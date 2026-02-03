@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Bee",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Ant",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Hornet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which insects live in a vespiary. Wasp",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "All species of social wasps construct their nests using some form of plant fiber (mostly wood pulp) as the primary material",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Yellow jackets such as Dolichovespula media and D. sylvestris prefer to nest in trees and shrubs",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

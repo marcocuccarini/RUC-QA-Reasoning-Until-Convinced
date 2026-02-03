@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. I",
+      "strength": 0.2500000952778767
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. III",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. IV",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "new york heart association functional classification of angina. II",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The New York Heart Association (NYHA) Functional Classification provides a simple way of classifying the extent of heart failure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Canadian Cardiovascular Society grading of angina pectoris is an alternative classification system for angina.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Middle-age patients who experience moderate to severe angina (grading by classes II, III, and IV) have a five-year survival rate of approximately 92%.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

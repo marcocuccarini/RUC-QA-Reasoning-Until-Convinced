@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "all of the states in the northeast region. New Hampshire",
+      "strength": 0.6000953684088953
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "all of the states in the northeast region. Massachusetts",
+      "strength": 0.6000953684088953
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "all of the states in the northeast region. Rhode Island",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "all of the states in the northeast region. Maine",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Census Bureau defines the region as including the six New England states of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont, and three lower North-Eastern states of New Jersey, New York, and Pennsylvania.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "New England is a region consisting of six states in the Northeastern United States: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "New England is defined as the six states of Maine, Vermont, New Hampshire, Massachusetts, Rhode Island, and Connecticut.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Traditional definitions include seven U.S. states: New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, West Virginia, and the national capital of Washington, D.C.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. Malaysia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. Brunei",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. Thailand",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lee Kuan Yew and Goh Chok Tong were the first two Prime Ministers of which country. 新加坡",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lee Kuan Yew was the first Prime Minister of Singapore.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Goh Chok Tong succeeded Lee Kuan Yew and became Singapore's second prime minister.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

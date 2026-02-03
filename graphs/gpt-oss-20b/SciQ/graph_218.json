@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Galvanic is the type of process that corrosion is.",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrolysis is the kind of process that corrosion is.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Oxidation is the kind of process that corrosion is.",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Electromagnetic is the type of process that corrosion is.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term corrosion refers to the electrochemical oxidation of metals in reaction with an oxidant such as oxygen.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A simple method of protection connects protected metal to a more easily corroded 'sacrificial anode' to act as the anode.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Galvanic corrosion occurs when two different metals have physical or electrical contact with each other and are immersed in a common electrolyte.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "During corrosion at a particular spot on the surface of an object made of iron, oxidation takes place and that spot behaves as an anode.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

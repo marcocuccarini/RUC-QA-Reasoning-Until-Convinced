@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the English name of the city of Firenze. Florence",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the English name of the city of Firenze. Firenza",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the English name of the city of Firenze. Florentia",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the English name of the city of Firenze. פירנצה",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Florence is the capital city of the Italian region of Tuscany.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Florence's Latin name was Florentia, meaning 'the Flourishing Town', from Latin: florēre, lit.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wolf is a first-level consumer.",
+      "strength": 0.2500000915578924
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hawk is a first‑level consumer.",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A carrot is a first-level consumer in an ecosystem.",
+      "strength": 0.40000000002653435
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Rabbit is a first‑level consumer, feeding directly on producers in the food chain.",
+      "strength": 0.40000000002653435
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Herbivores eat plants and are called primary consumers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Plants and algae make their own food and are called producers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The wolf is mainly a carnivore and feeds on large wild hooved mammals as well as smaller animals, livestock, carrion, and garbage.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Wolves also consume some plant material. In Europe, they eat apples, pears, figs, melons, berries and cherries.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Hawks feed on a variety of smaller animals such as snakes, lizards, fish, mice, rabbits, squirrels, birds, or any other type of small game that is found on the ground.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

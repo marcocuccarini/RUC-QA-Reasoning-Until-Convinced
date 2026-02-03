@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chickens that naturally make the antibiotics are the organisms whose natural selection will most likely be influenced by the overuse of antibiotics used to treat infections in humans and chickens, a practice that some groups oppose.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Microbes that are resistant to the antibiotics are the organisms most likely to be influenced by natural selection when antibiotics used to treat infections in humans are also used in chickens, a practice that some groups oppose.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Microbes that are susceptible to the antibiotics are most likely to undergo natural selection due to the overuse of antibiotics used to treat infections in humans and chickens, a practice opposed by some groups.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chickens that are resistant to infection are the organisms whose natural selection is most likely influenced by the overuse of antibiotics used to treat infections in both humans and chickens.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Antimicrobial resistance can be acquired from other microbes through swapping genes in a process termed horizontal gene transfer. This means that once a gene for resistance to an antibiotic appears in a microbial community, it can then spread to other microbes in the community, potentially moving from a non-disease causing microbe to a disease-causing microbe.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Over time, most of the strains of bacteria and infections present will be the type resistant to the antimicrobial agent being used to treat them, making this agent now ineffective to defeat most microbes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

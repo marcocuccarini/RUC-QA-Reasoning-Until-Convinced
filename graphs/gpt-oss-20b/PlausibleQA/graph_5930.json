@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who inaugurated ' world teachers ' day '. UNESCO",
+      "strength": 0.5999999681613571
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who inaugurated ' world teachers ' day '. United Nations",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who inaugurated ' world teachers ' day '. Education International",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who inaugurated ' world teachers ' day '. ILO",
+      "strength": 0.6322487017184906
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Established in 1994, it commemorates the signing of recommendation by the International Labour Organization and the United Nations Educational, Scientific and Cultural Organization.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1966 'ILO/UNESCO Recommendation concerning the Status of Teachers' is a standard-setting instrument that addresses the status and situations of teachers around the world.",
+      "strength": 0.5999640213586829
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The final document, 'Recommendation Concerning the Status of Teachers,' was adopted by UNESCO on October 5, 1966.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shape is the characteristic that best identifies a pure substance.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Texture is the characteristic that best identifies a pure substance.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Melting point is the characteristic that best identifies a pure substance.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "State of matter is the characteristic that best identifies a pure substance.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chemical substances can exist in several different physical states or phases (e.g. H2O).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In chemistry, substance is a unique form of matter with constant chemical composition and characteristic properties.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

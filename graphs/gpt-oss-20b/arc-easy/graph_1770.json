@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Volcanic eruption and lava flow are parts of the geologic process that changes metamorphic rock into sedimentary rock.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Igneous intrusion and solidification are parts of the geologic process that changes metamorphic rock into sedimentary rock.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Faulting and displacement are parts of the geologic process that changes metamorphic rock into sedimentary rock.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Erosion and deposition are parts of the geologic process that changes metamorphic rock into sedimentary rock.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Erosion is the action of surface processes (such as water flow or wind) that removes soil, rock, or dissolved material from one location on the Earth's crust and then transports it to another location where it is deposited.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The removal by erosion of large amounts of rock from a particular region, and its deposition elsewhere, can result in a lightening of the load on the lower crust and mantle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

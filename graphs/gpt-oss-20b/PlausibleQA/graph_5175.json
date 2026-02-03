@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The language known as Putonghua, Guoyu, Gwok Yu and Huayu, is spoken in Taiwan, Malaysia and Singapore and where else that it is the official language. Hong Kong",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The language known as Putonghua, Guoyu, Gwok Yu and Huayu, is spoken in Taiwan, Malaysia and Singapore and where else that it is the official language. Macau",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The language known as Putonghua, Guoyu, Gwok Yu and Huayu, is spoken in Taiwan, Malaysia and Singapore and where else that it is the official language. Indonesia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The language known as Putonghua, Guoyu, Gwok Yu and Huayu, is spoken in Taiwan, Malaysia and Singapore and where else that it is the official language. 中国",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Standard Mandarin Chinese is the official spoken language of the People's Republic of China (PRC) and Taiwan (Republic of China, ROC)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "in other parts of the Chinese-speaking world, namely Hong Kong and Macau, the standard form of Chinese used in education, the media, formal speech, and everyday life remains the local Cantonese because of their colonial and linguistic history",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

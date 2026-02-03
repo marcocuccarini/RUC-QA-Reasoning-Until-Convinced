@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What are the names of Donald Duck's three nephews. Quincy Duck, Rufus Duck, and Cedric Duck",
+      "strength": 0.2500633320044801
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What are the names of Donald Duck's three nephews. Daisy Jr., Lola Duck, and Gracie Duck",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What are the names of Donald Duck's three nephews. Max Duck, Sam Duck, and Ben Duck",
+      "strength": 0.40000000000001373
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What are the names of Donald Duck's three nephews. Huey Duck",
+      "strength": 0.1952298703263416
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Huey, Dewey, and Louie are the nephews of Donald Duck.",
+      "strength": 0.74993666799552
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The nephews' names were devised by Disney gag man Dana Coty, who took them from Huey Long, Thomas Dewey, and Louis Schmitt, a Disney Studio animator.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "They are the nephews of Donald Duck and the grand-nephews of Scrooge McDuck.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Huey, Dewey, and Louie Duck are triplet cartoon characters created by storyboard artist and screenwriter Carl Barks for The Walt Disney Company from an idea proposed by cartoonist Al Taliaferro.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Huey, Dewey, and Louie are sometimes distinguished by the color of their shirts and baseball caps (with Huey wearing red clothing, Dewey wearing blue clothing, and Louie wearing green clothing).",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Another combination that shows up from time to time is Huey in blue, Dewey in green, and Louie in red.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Donald joins the U.S. Navy and leaves his nephews Huey, Dewey, and Louie with their Uncle Scrooge, who then has to take care of them.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "These films introduced Donald's love interest and permanent girlfriend Daisy Duck and often included his three nephews Huey, Dewey, and Louie.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A11",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

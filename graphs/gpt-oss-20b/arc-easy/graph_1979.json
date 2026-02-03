@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lenses are what Galileo needed to know about in order to build a telescope.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Metals are what Galileo needed to know about in order to build a telescope.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical mixtures were what Galileo needed to know in order to build a telescope.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The making of leather was what Galileo needed to know in order to build a telescope.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It used a convergent (plano-convex) objective lens and a divergent (plano-concave) eyepiece lens (Galileo, 1610).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Galileo had to work with the poor lens technology of the time, and found he had to use aperture stops to reduce the diameter of the objective lens (increase its focal ratio) to limit aberrations, so his telescope produced blurry and distorted images with a narrow field of view.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

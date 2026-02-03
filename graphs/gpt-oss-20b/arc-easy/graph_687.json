@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Protons are the identifying characteristic of an element.",
+      "strength": 0.7499026423597177
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neutrons are the identifying characteristic of an element, representing its number.",
+      "strength": 0.5000648415749372
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electrons are the identifying characteristic of an element, being its number of electrons.",
+      "strength": 0.5999999999379193
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Orbitals are the identifying characteristic of an element, meaning the number of orbitals a given element possesses defines its identity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For ordinary nuclei composed of protons and neutrons, this is equal to the proton number (np) or the number of protons found in the nucleus of every atom of that element.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In an ordinary uncharged atom, the atomic number is also equal to the number of electrons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Neutron number – Number of neutrons in a nuclide",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The number of protons in the nucleus is the defining property of an element, and is referred to as the atomic number (represented by the symbol Z).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The number of neutrons may vary to form different isotopes, and energy levels may differ, resulting in different nuclear isomers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

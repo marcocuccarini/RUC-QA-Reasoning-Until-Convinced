@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mutations that decrease the number of individuals in an ecosystem help make the ecosystem more sustainable.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mutations that increase the number of individuals in an ecosystem help make the ecosystem more sustainable.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mutations decrease the number of species in an ecosystem when they help make the ecosystem more sustainable.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "When mutations increase the number of species in an ecosystem, they help make the ecosystem more sustainable.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Compensatory mutations are new mutations that arise and have a positive or neutral impact on a populations fitness.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A harmful, or deleterious, mutation decreases the fitness of the organism.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Voltages are the quantities of the individual cells that sum to give the overall voltage of the battery.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Currents of the individual cells sum to give the overall voltage of the battery.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Resistances are the quantity that is summed to give the overall voltage of the battery, which is therefore the sum of the resistances of the individual cells.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weights are the overall voltage of the battery, which equals the sum of the weights of the individual cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "If the cells are connected in series, the voltage of the battery will be the sum of the cell voltages.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "If the cells of a battery are connected in parallel, the battery voltage will be the same as the cell voltage, but the current supplied by each cell will be a fraction of the total current.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

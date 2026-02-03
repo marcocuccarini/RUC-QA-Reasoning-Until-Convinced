@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Temperature remains constant with elevation in the thermosphere.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Temperature remains constant with elevation in the mesosphere as elevation in the atmosphere increases.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Temperature generally decreases with elevation in the stratosphere as elevation in the atmosphere increases.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature generally decreases with elevation in the troposphere.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In the troposphere, the average environmental lapse rate is a decrease of about 6.5 °C for every 1.0 km (1,000m) of increased altitude.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the stratosphere the air temperature initially is constant, and then increases with altitude.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

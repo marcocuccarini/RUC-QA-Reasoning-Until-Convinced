@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Charles Lindbergh became famous by flying which aeroplane. Spirit of St. Louis II",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Charles Lindbergh became famous by flying which aeroplane. Boeing 314",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Charles Lindbergh became famous by flying which aeroplane. Lockheed Vega",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Charles Lindbergh became famous by flying which aeroplane. NX211",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lindbergh subsequently flew the Spirit of St. Louis to Belgium and England before President Calvin Coolidge sent the light cruiser Memphis to bring them back to the United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Spirit of St. Louis (formally the Ryan NYP; registered N-X-211) is the custom-built, single-engine, single-seat, high-wing monoplane that Charles Lindbergh flew on May 20–21, 1927, on the first solo nonstop transatlantic flight from Long Island, New York, to Paris, France, for which Lindbergh won the $25,000 Orteig Prize.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

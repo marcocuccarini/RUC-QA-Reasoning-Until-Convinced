@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. King Arthur",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. Sir Lancelot",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. Sir Gawain",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was married to Guinevere. Arthuriad",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Guinevere ... was, according to Arthurian legend, an early-medieval queen of Great Britain and the wife of King Arthur.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Guinevere is charged with adultery on three occasions, including once when she is also accused of sorcery.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Lancelot had an adulterous relationship with Guinevere",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Arthur's wife Guenhuuara (Guinevere) is mentioned in the context of his conquests and subsequent conflicts",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

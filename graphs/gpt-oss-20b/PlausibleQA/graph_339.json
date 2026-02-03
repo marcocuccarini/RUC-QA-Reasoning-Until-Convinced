@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where do characters live in this is us. New York City",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where do characters live in this is us. Philadelphia",
+      "strength": 0.5999999633768432
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where do characters live in this is us. Los Angeles",
+      "strength": 0.5999999633768432
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where do characters live in this is us. Pittsburgh",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kate lives in Los Angeles",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Randall and his family are in New Jersey and later Philadelphia",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text references NYC official tourism website.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The text references geographic data related to New York City at OpenStreetMap.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

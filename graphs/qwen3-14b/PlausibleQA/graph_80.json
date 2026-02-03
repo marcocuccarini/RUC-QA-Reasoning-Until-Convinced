@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where are the winter olympics and when do they start. 12 February",
+      "strength": 0.5999087244676944
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where are the winter olympics and when do they start. 4 February",
+      "strength": 0.5999999999194858
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where are the winter olympics and when do they start. 19 February",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where are the winter olympics and when do they start. 9 February",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2022 Winter Olympics were held from 4 to 20 February 2022 in Beijing, China, and surrounding areas with competition in selected events beginning 2 February 2022.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 2010 Winter Olympics were held from February 12 to 28, 2010 in Vancouver, British Columbia, Canada, with some events held in surrounding suburbs.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 1994 Winter Olympics were held from 12 to 27 February 1994 in and around Lillehammer, Norway.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

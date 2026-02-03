@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Mozambique",
+      "strength": 0.367757003324983
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Comoros",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Seychelles",
+      "strength": 0.367757003324983
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Antananarivo is the capital of which country. Madgascar",
+      "strength": 0.5999617965637547
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Antananarivo is the capital and largest city of Madagascar.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "King Andrianjaka founded Antananarivo as the capital of his Imerina Kingdom around 1610 or 1625 upon the site of a captured Vazimba capital on the hilltop of Analamanga.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Antananarivo became the center of administration for virtually the entire island.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

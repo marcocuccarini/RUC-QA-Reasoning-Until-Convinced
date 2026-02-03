@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In a poll conducted in the early 1970's who was voted the most hated man in history. Napoleon Bonaparte",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In a poll conducted in the early 1970's who was voted the most hated man in history. Joseph Stalin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In a poll conducted in the early 1970's who was voted the most hated man in history. King Leopold II of Belgium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In a poll conducted in the early 1970's who was voted the most hated man in history. Hitlar",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For most Westerners and anti-communist Russians, he is viewed overwhelmingly negatively as a mass murderer",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although millions of Soviet citizens despised him, support for Stalin was nevertheless widespread throughout Soviet society",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He was widely condemned because of his brutal and oppressive regime in the Congo that resulted in widespread suffering and loss of life including exploitation, violence, and immense human rights abuses, particularly involving the rubber trade.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The beginning of the Free State had been a time of some economic and social progress.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

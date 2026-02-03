@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Cl, Br, and F have similar bonding properties.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "K, Ca, and Sc have similar bonding properties.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Kr, Cl, and O are a set of elements that have similar bonding properties.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Be, C, and O are the set of elements that have similar bonding properties.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For fluorine, chlorine, and bromine, this reaction is in the form of: H2 + X2 → 2HX",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hydrogen fluoride is a weak acid, whereas hydrochloric acid, hydrobromic acid, hydroiodic acid, and hydroastatic acid are all strong acids.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All four stable halogens experience intermolecular van der Waals forces of attraction, and their strength increases together with the number of electrons among all homonuclear diatomic halogen molecules.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The noble gases, with the exception of xenon in the highly unstable XeCl2 and XeCl4, are extremely inert and reluctant to participate in chemical reactions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

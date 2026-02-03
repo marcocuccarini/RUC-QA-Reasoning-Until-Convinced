@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which year was the £2 coin issued and introduced in the UK, although minted in the previous year. 1996",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which year was the £2 coin issued and introduced in the UK, although minted in the previous year. 1997",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which year was the £2 coin issued and introduced in the UK, although minted in the previous year. 1999",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which year was the £2 coin issued and introduced in the UK, although minted in the previous year. 1998",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The coin was released on 15 June 1998 (coins minted 1997)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 1997-dated coins... were not released to circulation until June 1998 (the same time as the 1998-dated coins)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

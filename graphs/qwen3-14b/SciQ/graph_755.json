@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Food is what animals cannot make for themselves, as they are heterotrophs.",
+      "strength": 0.6322429959351805
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fuel is what animals, as heterotrophs, cannot make their own.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Energy is what animals cannot make for themselves, as heterotrophs.",
+      "strength": 0.7499426574826383
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Habitat is what animals, as heterotrophs, cannot make themselves.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Heterotrophs cannot produce their own food and must obtain nutrition from other sources of organic carbon, mainly matter from other organisms.",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Heterotrophs, by consuming reduced carbon compounds, are able to use all the energy that they obtain from food for growth and reproduction, unlike autotrophs, which must use some of their energy for carbon fixation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Heterotrophs depend on autotrophs for energy-rich organic compounds, as they cannot produce their own energy.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Heterotrophs release essential elements like phosphorus through dephosphorylation, making these nutrients available for other organisms.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

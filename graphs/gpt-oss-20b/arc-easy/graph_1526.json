@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Increasing osmosis is the process the body uses to cool itself when it perspires during exercise, after its temperature rises from the normal 98.6°F.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Reducing transpiration is what the body is doing when it perspires as a result of increased body temperature during exercise, cooling the body.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Controlling metabolism is what the body does when it perspires, as the body’s temperature rises above the normal 98.6 °F during exercise and perspiration cools the body.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Maintaining homeostasis is what the body is doing when it perspires as exercise raises body temperature above 98.6°F, prompting sweat to cool the body.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The rate of sweating is one of the effectors in the homeostatic control of body temperature, and therefore highly variable in rough proportion to the heat load that threatens to destabilize the body's core temperature, for which there is a sensor in the hypothalamus of the brain.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When core temperature rises are detected by thermoreceptors, the sweat glands in the skin are stimulated via cholinergic sympathetic nerves to secrete sweat onto the skin, which, when it evaporates, cools the skin and the blood flowing through it.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

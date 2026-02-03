@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Proposing different conclusions from the same data is the most likely first step other scientists might take when checking the conclusion reached after an experiment.",
+      "strength": 0.40009709405395427
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Studying the data to evaluate the conclusion is the most likely first step other scientists might take when checking the conclusion after an experiment.",
+      "strength": 0.599999961882224
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Changing current models to fit the conclusion is the most likely first step other scientists might take when checking a conclusion reached after an experiment.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Developing new technologies based on the conclusion is the most likely first step other scientists might take when checking the conclusion after an experiment.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Other scientists may start their own research and formulate their own hypothesis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For significant or surprising results, other scientists may also attempt to replicate the results for themselves.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Only after one or several such successful replications should a result be recognized as scientific knowledge.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

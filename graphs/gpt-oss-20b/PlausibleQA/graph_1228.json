@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many nfl games were played in london. 15",
+      "strength": 0.25009548836582807
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many nfl games were played in london. 32",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many nfl games were played in london. 10",
+      "strength": 0.4000000585968386
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many nfl games were played in london. 21",
+      "strength": 0.40006361984599315
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The NFL played three international games for the 2014 season, including one game with an earlier 9:30 am ET (2:30 pm UK time) start, which allowed for an afternoon game, rather than an evening game, in London.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A single game was held in London each year through 2012.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The NFL announced there were to be two NFL regular season games played at Wembley during the 2013 season.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "A new agreement was reached in 2022 which would see Jacksonville continue to host annual games for three years until 2024.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is the medium through which sound waves travel the slowest, because sound waves travel fastest through dense materials.",
+      "strength": 0.4999051813262246
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Glass is the material through which sound waves would travel the slowest, since sound waves travel fastest through dense materials.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Metal is the material through which sound waves travel the slowest, according to the question that states sound waves travel the fastest through dense materials.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Water is the medium through which sound waves travel the slowest, because sound waves travel fastest through dense materials.",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Because in an ideal gas of constant composition the speed of sound depends only on temperature and not on pressure or density, the speed of sound in the atmosphere with altitude takes on the form of the complicated temperature profile (see illustration to the right), and does not mirror altitudinal changes in density or pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "sound travels most slowly in gases, faster in liquids, and fastest in solids.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "sound travels in fresh water at 1481 m/s at a temperature of 20 °C (68 °F) (slightly more than 4.3 times as fast).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

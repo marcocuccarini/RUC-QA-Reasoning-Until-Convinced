@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of music did franz liszt compose. Symphonic Music",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of music did franz liszt compose. Chamber Music",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of music did franz liszt compose. Choral Music",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of music did franz liszt compose. Opera",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He also wrote for orchestra and for other ensembles.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "he also wrote transcriptions and paraphrases as well as sacred vocal music.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The symphonic poem invented by Liszt had the main theme heard at the start of the piece, then develop through thematic transformation, never leaving behind musical coherence.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Liszt found his method through two compositional practices, which he used in his symphonic poems.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

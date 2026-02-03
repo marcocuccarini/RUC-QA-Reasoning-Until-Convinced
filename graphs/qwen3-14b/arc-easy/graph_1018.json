@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Moon blocks the Earth from the Sun when a solar eclipse occurs.",
+      "strength": 0.40000008741621107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The first four planets in the solar system are aligned when a solar eclipse occurs.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Earth blocks the Moon from the Sun is what occurs during a solar eclipse.",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Earth's shadow falling on the Sun is the event that constitutes a solar eclipse.",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby obscuring the view of the Sun from a small part of Earth, totally or partially.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Moon's orbit around Earth is inclined at an angle of just over 5 degrees to the plane of Earth's orbit around the Sun (the ecliptic). Because of this, at the time of a new moon, the Moon will usually pass to the north or south of the Sun.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "A total solar eclipse occurs when the Earth intersects the umbra portion of the Moon's shadow.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

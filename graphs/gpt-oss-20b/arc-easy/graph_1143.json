@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The direction he ran and the average speed are the additional information Stephen needs to calculate his acceleration during his 12‑second run across a grass field.",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The distance he ran and the average velocity are the additional information Stephen needs to calculate his acceleration during the run, which took him 12 seconds across a grass field.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The beginning speed and the direction he ran are the additional information Stephen needs to calculate his acceleration during the 12‑second run across the grass field.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The beginning velocity and the ending velocity are the additional information Stephen needs to calculate his acceleration during his 12‑second run across a grass field.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In mechanics, acceleration is the rate of change of the velocity of an object with respect to time.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "If there is a change in speed, direction or both, then the object is said to be undergoing an acceleration.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The average velocity of an object over a period of time is its change in position, Δs, divided by the duration of the period, Δt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

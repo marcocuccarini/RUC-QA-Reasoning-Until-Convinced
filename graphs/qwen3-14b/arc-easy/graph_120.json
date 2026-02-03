@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Stomach, esophagus, large intestine, small intestine is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Small intestine, large intestine, esophagus, stomach is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Esophagus, stomach, large intestine, small intestine is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Esophagus, stomach, small intestine, large intestine is the correct order of food traveling through the digestive system after it is swallowed.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The esophagus is thus one of the first components of the digestive system and the gastrointestinal tract.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After food passes through the esophagus, it enters the stomach.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

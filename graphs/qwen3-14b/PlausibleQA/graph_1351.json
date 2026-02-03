@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did movies start coming out in color. 1908",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did movies start coming out in color. 1915",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did movies start coming out in color. 1920",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did movies start coming out in color. 1895",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Redskin (1929) and The Mysterious Island (1929) were photographed almost entirely in Technicolor Process 3.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kinemacolor, the first commercially successful cinematographic colour process, produced films in two colours (red and cyan) from 1908 to 1914.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Color in cinema: Circa 80 percent of the films of the 1890s to the 1920s had colours.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

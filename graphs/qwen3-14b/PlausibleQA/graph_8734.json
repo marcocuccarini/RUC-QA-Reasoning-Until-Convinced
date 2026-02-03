@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Mongolian",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Arabian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Persian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Bactrian",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bactrian camel is also known as the Mongolian camel, two-humped camel, or double-humped camel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Bactrian camel has two humps on its back, in contrast to the single-humped dromedary.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The two-humped Bactrian camel makes up 6% of the world's camel population.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

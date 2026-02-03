@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city in the UK is the National Railways Museum. London",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city in the UK is the National Railways Museum. Manchester",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city in the UK is the National Railways Museum. Birmingham",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city in the UK is the National Railways Museum. YORK",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The National Railway Museum (NRM) is a museum in York, England, forming part of the Science Museum Group.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The National Railway Museum was established on its present site, the former York North locomotive depot, in 1975.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

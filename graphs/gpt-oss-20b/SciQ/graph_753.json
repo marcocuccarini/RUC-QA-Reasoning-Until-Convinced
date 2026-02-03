@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Seismic waves are the energy waves that radiate out from the center of an earthquake.",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Deep waves are the energy waves that radiate out from the center of an earthquake.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Volcanic waves are the energy waves that radiate out from the center of an earthquake.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Particle waves are the energy waves that radiate out from the center of an earthquake.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It can result from an earthquake (or generally, a quake), volcanic eruption, magma movement, a large landslide and a large man-made explosion that produces low-frequency acoustic energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Every earthquake produces different types of seismic waves, which travel through rock with different velocities.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "S waves and later arriving surface waves do most of the damage compared to P waves.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Producer",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Screenwriter",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Editor",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what role did george lucas play in star wars. Film Director",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lucas acted as executive producer for the next two Star Wars films, commissioning Irvin Kershner to direct The Empire Strikes Back and Richard Marquand to direct Return of the Jedi.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "while receiving a story credit on the former and sharing a screenwriting credit with Lawrence Kasdan on the latter.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Fox deal gave Lucas $150,000 to write and direct the film.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Lucas wrote four different screenplays for Star Wars.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

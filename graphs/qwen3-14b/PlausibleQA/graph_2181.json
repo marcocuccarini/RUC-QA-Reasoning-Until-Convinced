@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is penn state's main campus. State College",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is penn state's main campus. Harrisburg",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is penn state's main campus. Philadelphia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is penn state's main campus. University Park",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Penn State University Park, also referred to as University Park, is the main campus of Pennsylvania State University",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the campus post office was designated 'University Park, Pennsylvania' in 1953 by Penn State president Milton Eisenhower",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

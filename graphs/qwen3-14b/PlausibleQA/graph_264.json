@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which actor played the title role in the ITV series 'Tarzan' from 1966 to 1968. Christopher Lambert",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which actor played the title role in the ITV series 'Tarzan' from 1966 to 1968. Johnny Weissmuller",
+      "strength": 0.25008816554121593
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which actor played the title role in the ITV series 'Tarzan' from 1966 to 1968. Lex Barker",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which actor played the title role in the ITV series 'Tarzan' from 1966 to 1968. Ron Ely",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Weissmuller retired from acting in 1957.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Weissmuller played the lead in the film Jungle Jim.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

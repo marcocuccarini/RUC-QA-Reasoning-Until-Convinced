@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the Bible, where was Jesus betrayed by Judas, and subsequently arrested. Mount of Olives",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the Bible, where was Jesus betrayed by Judas, and subsequently arrested. Jerusalem Temple",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the Bible, where was Jesus betrayed by Judas, and subsequently arrested. Bethany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the Bible, where was Jesus betrayed by Judas, and subsequently arrested. Gethsemane",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to the four Gospels of the New Testament, Jesus Christ underwent the Agony in the Garden and was arrested before his crucifixion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "According to the New Testament the garden was a place that Jesus and his disciples customarily visited, which allowed Judas Iscariot to find him on the night Jesus was arrested.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

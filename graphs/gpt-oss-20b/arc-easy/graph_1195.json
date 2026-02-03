@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lower pitched is the sound produced by a string on a musical instrument like a guitar when the string is made tighter.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Higher pitched is the sound produced by a string on a musical instrument like a guitar when the string is made tighter.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Louder is the sound produced by a guitar string when it is made tighter, so that the sound will always be louder.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Quieter is the sound produced by a string on a musical instrument like a guitar when that string is made tighter.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The pitch of lower tones gets lower as sound pressure increases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pitch depends to a lesser degree on the sound pressure level (loudness, volume) of the tone, especially at frequencies below 1,000 Hz and above 2,000 Hz.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

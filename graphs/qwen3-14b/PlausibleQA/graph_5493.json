@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which Cumbrian town is there a pencil museum. Penrith",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which Cumbrian town is there a pencil museum. Carlisle",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which Cumbrian town is there a pencil museum. Ambleside",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which Cumbrian town is there a pencil museum. Keswick",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The town is the site of the Derwent Pencil Museum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "only the Derwent Pencil Museum remaining at the old site",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

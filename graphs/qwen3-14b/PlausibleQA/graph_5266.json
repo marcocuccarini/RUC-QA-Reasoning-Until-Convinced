@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what guitar did joe walsh play. Gibson Les Paul",
+      "strength": 0.5999999193046673
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what guitar did joe walsh play. Fender Telecaster",
+      "strength": 0.5999999193046673
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what guitar did joe walsh play. Gibson SG",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what guitar did joe walsh play. Fender Stratocaster",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Walsh sold his 1959 sunburst Gibson Les Paul to then Led Zeppelin lead guitarist Jimmy Page in 1969",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Walsh has also played other guitars, including: Fender Telecaster",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "FUZZFACED Fender Stratocaster",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

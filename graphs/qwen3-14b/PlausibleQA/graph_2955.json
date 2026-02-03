@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Himalayas and Tien Shan, or Tian Shan, lie north and south of which other major mountain range. Karakoram",
+      "strength": 0.40000008918213564
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Himalayas and Tien Shan, or Tian Shan, lie north and south of which other major mountain range. Kunlun Mountains",
+      "strength": 0.40000008918213564
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Himalayas and Tien Shan, or Tian Shan, lie north and south of which other major mountain range. Pamir Mountains",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Himalayas and Tien Shan, or Tian Shan, lie north and south of which other major mountain range. Arkatag",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Karakoram is bounded on the north by the Yarkand and Karakash rivers, beyond which lie the Kunlun Mountains.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The southern boundary of the Karakoram is formed by rivers that separate it from the north-western end of the Himalaya.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "To the south, it connects with the Pamir Mountains",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

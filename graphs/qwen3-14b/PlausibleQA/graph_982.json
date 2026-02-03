@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many books in the Bible's Old Testament are included in the Catholic version but not in the Protestant one. 3",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many books in the Bible's Old Testament are included in the Catholic version but not in the Protestant one. 10",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many books in the Bible's Old Testament are included in the Catholic version but not in the Protestant one. 5",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many books in the Bible's Old Testament are included in the Catholic version but not in the Protestant one. 7",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Council of Trent (1546) adopted a list of the Old Testament that includes deuterocanonical books such as Tobit, Judith, Esther, Wisdom, Ecclesiasticus, Baruch, and the two books of Maccabees.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Luther moved seven Old Testament books (Tobit, Judith, 1–2 Maccabees, Book of Wisdom, Sirach, and Baruch) into the Apocrypha, which are not considered equal to the Holy Scriptures but are useful and good to read.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "CO is the chemical formula for carbon dioxide.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "CO2 is the chemical formula for carbon dioxide.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "C is the chemical formula for carbon dioxide.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "O2 is the chemical formula for carbon dioxide.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Carbon dioxide is a chemical compound with the chemical formula CO2.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

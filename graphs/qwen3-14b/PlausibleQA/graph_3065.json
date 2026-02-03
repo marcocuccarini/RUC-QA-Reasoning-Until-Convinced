@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where does carlos santana live. San Francisco",
+      "strength": 0.25000008796785606
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where does carlos santana live. Los Angeles",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where does carlos santana live. New York City",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where does carlos santana live. Jalisco",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "currently live in Las Vegas",
+      "strength": 0.4000911881966091
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Santanas then moved to San Francisco, where his father had steady work",
+      "strength": 0.5999088118033908
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It closed its doors in 1971 with a final performance by Santana",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Fillmore is a music venue located in the Western Addition",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

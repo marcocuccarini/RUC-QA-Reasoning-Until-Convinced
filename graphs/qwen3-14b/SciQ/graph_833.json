@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A neutron collides with an atom of U‑235 during the basic nuclear fission process.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An electron collides with an atom of U‑235 during the basic nuclear fission process.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A nuclei collides with an atom of U‑235 during the basic nuclear fission process.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A proton collides with an atom of U‑235 during the basic nuclear fission process.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the overwhelming majority of fission events are induced by bombardment with another particle, a neutron, which is itself produced by prior fission events",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An example of a binary fission event in the most commonly used fissile nuclide, 235U, is given as: 235U + n ⟶ 236U∗ ⟶ 95Sr + 139Xe + 2n + 180 MeV",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

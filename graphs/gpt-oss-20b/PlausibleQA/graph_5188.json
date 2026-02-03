@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of money do they use in germany. Deutsche Mark",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of money do they use in germany. German Pound",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of money do they use in germany. Mark",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of money do they use in germany. Euro",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The euro is the official currency of 20 of the 27 member states of the European Union.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The earliest date was in Germany, where the mark officially ceased to be legal tender on 31 December 2001, though the exchange period lasted for two months more.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Natural selection is the process responsible for genetic differences in allele frequencies when a small group of organisms colonizes a new habitat, causing the population to be genetically distinct from the parent population.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Disruptive selection is the process that causes a small group of organisms colonizing a new habitat to become genetically different from the parent population due to differences in allele frequencies.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Genetic drift is the process that causes a small group of organisms colonizing a new habitat to become genetically different from the parent population due to differences in allele frequencies.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Genetic equilibrium is the process responsible when a small group of organisms colonizes a new habitat and the resulting population may be genetically different from the parent population due to differences in allele frequencies.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the magnitude of drift on allele frequencies per generation is larger",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the magnitude of drift is large enough to overwhelm selection at any allele frequency when the selection coefficient is less than 1 divided by the effective population size",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

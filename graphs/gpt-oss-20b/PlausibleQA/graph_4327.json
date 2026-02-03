@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the top five wine producing states. California",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the top five wine producing states. New York",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the top five wine producing states. Washington",
+      "strength": 0.5999999622615022
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the top five wine producing states. Oregon",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "California produces 81% of U.S. wine",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "More than 90% of the total American wine production occurs in the states of California, Washington, and Oregon",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "California has more than 4,200 wineries ranging from home-grown and small boutiques to large corporations with international distribution",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "California produces wines made in nearly every single known wine style including sparkling, dessert and fortified wines",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

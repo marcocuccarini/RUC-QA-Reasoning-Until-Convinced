@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fill in the blank: Houston, Tranquility Base here. The _____ has landed. Falcon",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Fill in the blank: Houston, Tranquility Base here. The _____ has landed. Nova",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fill in the blank: Houston, Tranquility Base here. The _____ has landed. Apollo",
+      "strength": 0.7499025789446009
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fill in the blank: Houston, Tranquility Base here. The _____ has landed. Eagle",
+      "strength": 0.5999999365228031
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Eagle has landed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Apollo 11 landed with less fuel than most subsequent missions.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Remastered videos of the original landing.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

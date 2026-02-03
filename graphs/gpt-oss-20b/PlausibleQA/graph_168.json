@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The name of which musical instrument comes from the German for bells and play. Carillon",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The name of which musical instrument comes from the German for bells and play. Handbell",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The name of which musical instrument comes from the German for bells and play. Dulcimer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The name of which musical instrument comes from the German for bells and play. GLOCKENSPIEL",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Glockenspiel ( GLO-kən-shpeel; German pronunciation: [ˈɡlɔkənˌʃpiːl] or [ˈɡlɔkn̩ˌʃpiːl], Glocken: bells and Spiel: play)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In German, a carillon is also called a Glockenspiel",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what time zone is in the bahamas. UTC-4",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what time zone is in the bahamas. UTC-6",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what time zone is in the bahamas. UTC-3",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what time zone is in the bahamas. UTC-5",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bahamas observes Eastern Standard Time (UTC−5) as standard time",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Bahamas observes Eastern Daylight Time (UTC−4) as daylight saving time (DST)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Degrees Celsius is the unit of measure Jerry should use to report the volume of a liquid.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kilograms is the unit of measure Jerry should use to report the volume of a liquid.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Milliliters is the unit of measure Jerry should use to report the volume of a liquid.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Centimeters is the unit of measure Jerry should use to report the volume of a liquid.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "consumer beverages are labelled almost exclusively using litres and millilitres",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the kilogram was originally defined in 1795 as the mass of one cubic decimetre of water at the temperature of melting ice (0 °C)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

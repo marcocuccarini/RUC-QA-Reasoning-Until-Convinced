@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the surname of the woman who was the inspiration behind the Rolling Stones song Angie. Jagger",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the surname of the woman who was the inspiration behind the Rolling Stones song Angie. Taylor",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the surname of the woman who was the inspiration behind the Rolling Stones song Angie. Richards",
+      "strength": 0.5048877686080693
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the surname of the woman who was the inspiration behind the Rolling Stones song Angie. Bowie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Richards said that the title was inspired by his baby daughter.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Richards said that he had chosen the name at random when writing the song—before he knew that his baby would be named Angela or even knew that his baby would be a girl—and that the song 'was not about any particular person'.",
+      "strength": 0.4000911881966091
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

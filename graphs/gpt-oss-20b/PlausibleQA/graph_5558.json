@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who is universally accepted to be the first Roman Emperor (27bc). Julius Caesar",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who is universally accepted to be the first Roman Emperor (27bc). Pompey the Great",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who is universally accepted to be the first Roman Emperor (27bc). Mark Antony",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who is universally accepted to be the first Roman Emperor (27bc). Agustus",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Augustus (born Gaius Octavius; 23 September 63 BC – 19 August AD 14) was the founder of the Roman Empire, who reigned as the first Roman emperor from 27 BC until his death in AD 14.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Following the assassination of Julius Caesar in 44 BC, Octavian was named in Caesar's will as his primary heir.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

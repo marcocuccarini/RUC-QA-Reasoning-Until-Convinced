@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Bass are organisms that would most likely accumulate the highest concentration of contaminants in a polluted lake.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Minnows are the organisms most likely to accumulate the highest concentration of contaminants in a polluted lake.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Aquatic plants are the organisms most likely to accumulate the highest concentration of contaminants if a lake is polluted.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Fish-eating birds would most likely accumulate the highest concentration of contaminants if a lake is polluted.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Predatory fish such as swordfish and sharks or birds like osprey and eagles have higher concentrations of mercury in their tissue than could be accounted for by direct exposure alone.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "For example, herring contains mercury at approximately 0.01 parts per million (ppm) and shark contains mercury at greater than 1 ppm.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

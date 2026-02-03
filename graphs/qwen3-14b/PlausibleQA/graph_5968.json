@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which restaurant chain has supported the Venice in Peril campaign since 1975. Bella Italia",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which restaurant chain has supported the Venice in Peril campaign since 1975. Ask Italian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which restaurant chain has supported the Venice in Peril campaign since 1975. Prezzo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which restaurant chain has supported the Venice in Peril campaign since 1975. PizzaExpress",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "PizzaExpress introduced the Pizza Veneziana in 1977 to help save Venice from sinking by donating 5p of every pizza sold to the Venice in Peril Fund.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From 2008, donations from the Veneziana pizza go to the Veneziana Fund, where 50% is donated to the Venice in Peril Fund.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

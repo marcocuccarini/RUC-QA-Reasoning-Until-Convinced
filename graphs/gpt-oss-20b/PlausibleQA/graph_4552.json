@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the British military, a bombadier is equivalent to which other rank. Sergeant",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the British military, a bombadier is equivalent to which other rank. Lance Corporal",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the British military, a bombadier is equivalent to which other rank. Corporal",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the British military, a bombadier is equivalent to which other rank. Cpl.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bombardier is today equivalent to the rank of corporal in other branches.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Unlike a lance corporal, a bombardier, who was junior to a corporal, held full non-commissioned rank and not an acting appointment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

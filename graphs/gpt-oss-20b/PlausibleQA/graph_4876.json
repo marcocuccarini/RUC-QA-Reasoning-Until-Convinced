@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the profession of the 7 Dwarfs, according to the Disney movie. Blacksmith",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the profession of the 7 Dwarfs, according to the Disney movie. Carpenter",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the profession of the 7 Dwarfs, according to the Disney movie. Engineer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the profession of the 7 Dwarfs, according to the Disney movie. Miner",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They represent loyalty and companionship, offering protection despite their limited ability to stop the Queen’s deception.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A miner is a person who extracts ore, coal, chalk, clay, or other minerals from the earth through mining.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In its narrowest sense, a miner is someone who works at the rock face; cutting, blasting, or otherwise working and removing the rock.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

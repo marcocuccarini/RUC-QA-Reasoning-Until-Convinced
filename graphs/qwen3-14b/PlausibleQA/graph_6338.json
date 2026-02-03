@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the largest island in Canada. Baffin Island",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the largest island in Canada. Victoria Island",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the largest island in Canada. Ellesmere Island",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the largest island in Canada. ᕿᑭᖅᑖᓗᒃ",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ellesmere Island is Canada's northernmost and third largest island",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Baffin Island is the largest island in Canada",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Baffin Island is the second-largest island in the Americas (behind Greenland)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Parasitic fungi are fungi that feed on living cells.",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Static are fungi which feed on living cells.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Predatory fungi are fungi which feed on living cells.",
+      "strength": 0.5999050903424904
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Symbiotic fungi are fungi that feed on living cells.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Many fungi are parasites on plants, animals (including humans), and other fungi.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some carnivorous fungi, like Purpureocillium lilacinum, are predators of nematodes, which they capture using an array of specialized structures such as constricting rings or adhesive nets.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

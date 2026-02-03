@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nuclear fission is the name of the process in which the nuclei of uranium atoms are split.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Critical fission is the name of the process in which the nuclei of uranium atoms are split.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Atomic fusion is the process in which the nuclei of uranium atoms are split.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nuclear fusion is the process in which the nuclei of uranium atoms are split.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When a uranium nucleus fissions into two daughter nuclei fragments, about 0.1 percent of the mass of the uranium nucleus appears as the fission energy of ~200 MeV.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The fission of 235U by a slow neutron yields nearly identical energy to the fission of 238U by a fast neutron.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

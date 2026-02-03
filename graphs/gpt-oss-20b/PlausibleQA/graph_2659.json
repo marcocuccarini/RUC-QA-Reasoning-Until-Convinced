@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. Helium",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. Lithium",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. Beryllium",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which element has the atomic number 1. H₂",
+      "strength": 0.4000000909837343
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The atomic number or nuclear charge number (symbol Z) of a chemical element is the charge number of its atomic nucleus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "helium, atomic number 2",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "lithium, atomic number 3",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

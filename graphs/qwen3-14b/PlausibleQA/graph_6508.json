@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are all the songs justin bieber wrote. Love Yourself",
+      "strength": 0.5049811932170917
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are all the songs justin bieber wrote. Sorry",
+      "strength": 0.5999999071782728
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are all the songs justin bieber wrote. What Do You Mean?",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are all the songs justin bieber wrote. Baby",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He released 'Love Yourself' as the third single from the album, which became an international hit and topped charts in countries around the world.",
+      "strength": 0.5999031730402274
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He released 'Sorry' as the second single from the album, which became an international hit and topped charts in countries around the world.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On the chart dated 7 May 2016, 'Love Yourself' spent its 23rd consecutive week in the Hot 100's top ten, breaking the record for the most consecutive weeks logged in the top 10 from a song's debut, previously set by Nicki Minaj's 'Starships', Maroon 5's 'Sugar' and Bieber's both 'What Do You Mean?'",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "'Love Yourself' was written by Ed Sheeran and Benny Blanco, and produced by the latter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

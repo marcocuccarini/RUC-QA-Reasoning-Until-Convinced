@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is made of molecules of many different gases, and is something we usually can’t see, taste, or smell; we can only feel it when it moves.",
+      "strength": 0.7499118344587844
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Light is made of molecules of many different gases, and it is something we usually can’t see, taste, or smell; we can only feel it when it moves.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sound is made of molecules of many different gases, and is something we usually can’t see, taste, or smell; we can only feel it when it moves.",
+      "strength": 0.5
+    },
+    "A3": {
+      "type": "argument",
+      "text": "Dry air contains 78.08% nitrogen, 20.95% oxygen, 0.93% argon, 0.04% carbon dioxide, and small amounts of other trace gases.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The atmosphere of Earth consists of a layer of mixed gas (commonly referred to as air) that is retained by gravity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A3",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

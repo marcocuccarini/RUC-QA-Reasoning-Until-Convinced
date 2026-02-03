@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the eagles last play in a superbowl. 2022 season",
+      "strength": 0.5000648428318698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the eagles last play in a superbowl. 1980 season",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the eagles last play in a superbowl. 2004 season",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the eagles last play in a superbowl. 2017 season",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Eagles ultimately lost to the Chiefs by a score of 38–35.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Eagles traveled to Minneapolis to compete in Super Bowl LII, their third attempt at a title.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The underdog Eagles defeated the Patriots with a score of 41–33 to win their first Super Bowl and their first NFL title since 1960.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The game was played on February 4, 2018, at U.S. Bank Stadium in Minneapolis, Minnesota.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

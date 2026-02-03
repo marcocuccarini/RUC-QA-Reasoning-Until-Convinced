@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What colour are Hydrangea flowers in acidic soil . Pink",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What colour are Hydrangea flowers in acidic soil . Purple",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What colour are Hydrangea flowers in acidic soil . Red",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What colour are Hydrangea flowers in acidic soil . BLUE",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "soil with a pH of 5.5 or lower will produce blue flowers",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The flowers of many hydrangeas act as natural pH indicators, producing blue flowers when the soil is acidic and pink ones when the soil is alkaline.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

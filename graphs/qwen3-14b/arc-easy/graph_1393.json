@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Lipid is the class of molecule to which an enzyme in the Golgi apparatus catalyzes the addition of phosphates.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Carbohydrate is the class of molecule that an enzyme in the Golgi apparatus catalyzes to receive phosphates.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nucleic acid is the class of molecule to which an enzyme in the Golgi apparatus catalyzes the addition of phosphates.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Protein is the class of molecule to which an enzyme in the Golgi apparatus catalyzes the addition of phosphates.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "phosphorylation of oligosaccharides on lysosomal proteins occurs in the early CGN",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other general post-translational modifications of proteins include the addition of carbohydrates (glycosylation) and phosphates (phosphorylation)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

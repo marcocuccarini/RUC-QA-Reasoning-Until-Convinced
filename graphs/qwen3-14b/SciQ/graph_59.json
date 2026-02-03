@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Seismic waves transmit the energy of an earthquake.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Tectonic waves transmit the energy of an earthquake.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sonic waves are the type of waves that transmit the energy of an earthquake.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Volcanic waves are the type of waves that transmit the energy of an earthquake.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A seismic wave is a mechanical wave of acoustic energy that travels through the Earth or another planetary body. It can result from an earthquake (or generally, a quake), volcanic eruption, magma movement, a large landslide and a large man-made explosion that produces low-frequency acoustic energy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Secondary waves (S waves) are shear waves that are transverse in nature. Following an earthquake event, S waves arrive at seismograph stations after the faster-moving P waves and displace the ground perpendicular to the direction of propagation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

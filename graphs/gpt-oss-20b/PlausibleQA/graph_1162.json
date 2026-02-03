@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Duck",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Bird",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Waterfowl",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mallard, Mandarin, Red-crested Pochard, Teal, Muscovy and Eider are all types of what. Eend",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Anseriformes is an order of birds also known as waterfowl that comprises about 180 living species of birds in three families",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Anatidae, the largest family, which includes over 170 species of waterfowl, among them the ducks, geese, and swans",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

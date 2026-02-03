@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which European country's flag is a blue cross on a white background. Greece",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which European country's flag is a blue cross on a white background. Sweden",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which European country's flag is a blue cross on a white background. Norway",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which European country's flag is a blue cross on a white background. FinlanD",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The current blue-crossed design was first used in Finland by Nyländska Jaktklubben, a yacht club founded in Helsinki in 1861.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Akseli Gallen-Kallela proposed a similar cross flag but with colours inverted (white cross on blue), but this was considered too similar to the Swedish flag",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

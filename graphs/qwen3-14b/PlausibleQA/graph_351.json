@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. Tim Kaine",
+      "strength": 0.5999999999391487
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. Jim Webb",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. George Allen",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who are the senators of virginia 2013. Mark Warner",
+      "strength": 0.7499999066087515
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Warner became the senior senator on January 3, 2013, when Jim Webb left the Senate and was replaced by Tim Kaine",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Senator Mark Warner official U.S. Senate website",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "George Allen was defeated by Jim Webb in the 2006 Senate election, and thus was not a senator in 2013",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Jim Webb was elected as a U.S. Senator in 2006 and was serving in 2013",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

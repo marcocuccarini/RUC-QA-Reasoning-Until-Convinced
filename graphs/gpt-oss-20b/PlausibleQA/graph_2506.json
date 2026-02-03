@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is roswell area 51. Groom Lake, Nevada",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is roswell area 51. Tonopah, Nevada",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is roswell area 51. Edwards Air Force Base, California",
+      "strength": 0.5999999365228031
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is roswell area 51. Roswell",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Area 51 is officially called Groom Lake.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Area 51 is a remote detachment administered by Edwards Air Force Base.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Las Vegas sectional aeronautical chart is centered on Groom Lake.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

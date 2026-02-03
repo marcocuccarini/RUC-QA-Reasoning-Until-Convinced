@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which city are the Oscar statuettes made. Chicago",
+      "strength": 0.5999999534428432
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which city are the Oscar statuettes made. Los Angeles",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which city are the Oscar statuettes made. New York City",
+      "strength": 0.40009708561457313
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which city are the Oscar statuettes made. USCHI",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "From 1983 to 2015, approximately 50 Oscars in a tin alloy with gold plating were made each year in Chicago by Illinois manufacturer R.S. Owens & Company.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cast in liquid bronze from 3D-printed ceramic molds and polished, they are then electroplated in 24-karat gold by Brooklyn, New York-based Epner Technology.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 2016, the Academy returned to bronze as the core metal of the statuettes, handing manufacturing duties to Walden, New York-based Polich Tallix Fine Art Foundry, now owned and operated by UAP Urban Art Projects.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

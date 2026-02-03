@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Engine is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Front headlight is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Hood is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Steering wheel is the best example of a part of the propulsion system of a tractor.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Since the turn of the 20th century, internal combustion engines have been the power source of choice for tractors.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The engine is responsible for providing power to the tractor's wheels and attachments through mechanisms like power take-off (PTO) shafts and hydraulic systems.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nine of the ten tallest buildings in Germany are in which city. Munich",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nine of the ten tallest buildings in Germany are in which city. Berlin",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nine of the ten tallest buildings in Germany are in which city. Hamburg",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nine of the ten tallest buildings in Germany are in which city. Franfurt",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Out of a total of 22 skyscrapers in Germany, 20 are located in Frankfurt.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Due to its economic profile as an international financial centre, only Frankfurt has developed a skyline of high-rise buildings and skyscrapers in its city centre.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

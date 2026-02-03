@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the painful and incurable, so far, condition characterised by uterine cells growing outside the uterus. Adenomyosis",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the painful and incurable, so far, condition characterised by uterine cells growing outside the uterus. Uterine Fibroids",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the painful and incurable, so far, condition characterised by uterine cells growing outside the uterus. Pelvic Inflammatory Disease (PID)",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the painful and incurable, so far, condition characterised by uterine cells growing outside the uterus. Endometreosis",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Endometriosis is an inflammatory disease dependent on estrogen. The lesions promote local inflammation and immune system dysregulation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The World Health Organization estimates that endometriosis is the ultimate cause of female infertility in 4.8% of cases.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

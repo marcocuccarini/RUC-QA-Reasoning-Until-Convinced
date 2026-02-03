@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Evaporate sooner is what happens to liquid 1, which has a higher specific heat than liquid 2, when a student heats equal amounts of both liquids from room temperature over Bunsen burners.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Take longer to increase in temperature is what liquid 1 will do when a student heats the same amount of two different liquids over Bunsen burners from room temperature, because liquid 1 has a higher specific heat than liquid 2.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Condense over a longer period is what liquid 1 will do when it is heated from room temperature with a Bunsen burner, because it has a higher specific heat than liquid 2.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemically breaking down at a faster rate is what liquid 1 will do if it has a higher specific heat than liquid 2 when a student heats the same amount of two different liquids over Bunsen burners, each starting at room temperature.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The specific heat capacity is the amount of heat that must be added to one unit of mass of the substance in order to cause an increase of one unit in temperature.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The specific heat capacity is not meaningful if the substance undergoes irreversible chemical changes, or if there is a phase change, such as melting or boiling, at a sharp temperature within the range of temperatures spanned by the measurement.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

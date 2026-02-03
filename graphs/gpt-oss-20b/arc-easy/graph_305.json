@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A compound is a description of air, which is composed of nitrogen, oxygen, and other gases.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An element is a description of air, which is composed of nitrogen, oxygen, and other gases.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Air can be described as a mixture because it is composed of nitrogen, oxygen, and other gases.",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A molecule is a description of air based on its composition of nitrogen, oxygen, and other gases.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dry air contains 78.08% nitrogen, 20.95% oxygen, 0.93% argon, 0.04% carbon dioxide, and small amounts of other trace gases.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Water vapor accounts for roughly 0.25% of the atmosphere by mass.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

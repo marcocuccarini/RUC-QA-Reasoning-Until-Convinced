@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Absorption is a way that protists can obtain food besides ingesting and photosynthesis.",
+      "strength": 0.749902642362152
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Digestion is how protists can obtain food besides ingesting and photosynthesis.",
+      "strength": 0.5999999999403536
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Accumulation is a way protists can obtain food besides ingesting and photosynthesis.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Osmosis is a method by which protists obtain their food besides ingesting and photosynthesis.",
+      "strength": 0.4000000622202648
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A phagosome is a vacuole formed around a particle absorbed by phagocytosis.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A phagosome is a cellular compartment in which pathogenic microorganisms can be killed and digested.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Osmosis provides the primary means by which water is transported into and out of cells.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Phagocytosis is used by many protists as a means of feeding, thus constituting phagotrophy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which river flows through Cologne. Rhone",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which river flows through Cologne. Elbe",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which river flows through Cologne. Moselle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which river flows through Cologne. Rijn",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Lower Rhine flows through North Rhine-Westphalia. Its banks are usually heavily populated and industrialized, in particular the agglomerations Cologne, Düsseldorf and Ruhr area.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the Rhine... flows through the largest conurbation in Germany, the Rhine-Ruhr region.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

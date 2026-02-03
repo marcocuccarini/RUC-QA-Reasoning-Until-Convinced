@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Shingles is a disease caused by the same virus that causes chickenpox.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Gout is a disease caused by the same virus that causes chickenpox.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diabetes is a disease caused by the same virus that causes chickenpox.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Hepatitis is a disease caused by the same virus that causes chicken pox.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shingles is caused by the varicella zoster virus (VZV) that also causes chickenpox.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Besides the skin, other organs, such as the liver or brain, may also be affected (causing hepatitis or encephalitis, respectively).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Exposure to the varicella virus found in shingles blisters can cause chickenpox in someone who has not yet had chickenpox.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Risk factors for reactivation of the dormant virus include old age, poor immune function, and having contracted chickenpox before 18 months of age.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

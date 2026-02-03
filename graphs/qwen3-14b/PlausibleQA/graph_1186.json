@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Phil Collins was a drummer and singer in what band. Brand X",
+      "strength": 0.7499045092427894
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Phil Collins was a drummer and singer in what band. Flaming Youth",
+      "strength": 0.5999999390117796
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Phil Collins was a drummer and singer in what band. The Enid",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Phil Collins was a drummer and singer in what band. Génesis",
+      "strength": 0.5999363801540067
+    },
+    "A4": {
+      "type": "argument",
+      "text": "drummer Phil Collins, formerly of Flaming Youth",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "drumming with instrumental jazz rock band Brand X",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "drummer Phil Collins, formerly of Génesis",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "drummer Phil Collins was part of British jazz rock band Brand X from 1975 to 1977",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what does david beckham play. Defender",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what does david beckham play. Forward",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what does david beckham play. Winger",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what does david beckham play. Midfielder",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Primarily a right midfielder and known for his range of passing, crossing ability and set-piece taking",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "attributes that saw him excel as a right winger, despite his lack of significant pace",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Two notable examples of wide midfielders are David Beckham and Ryan Giggs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Storms wash the pollutants, such as motor oil and gasoline that are sometimes leaked onto roads by vehicles, into lakes and rivers.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Animals become sick from licking the pollutants on the road, which are motor oil and gasoline that are sometimes leaked onto roads by vehicles.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Animals get stuck in motor oil and gasoline pollutants that are sometimes leaked onto roads by vehicles when they cross the road.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Winds blow the pollutants—such as motor oil and gasoline leaked onto roads by vehicles—to the side of the road and harm the soil.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Storm water runoff carries petroleum hydrocarbons, including motor oil and gasoline, into water bodies.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Urban storm water runoff contains heavy metals from motor vehicles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

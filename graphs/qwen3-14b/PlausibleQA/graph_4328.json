@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who invented the chip in . debit cards. Roland Moreno",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who invented the chip in . debit cards. Jacques Vallée",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who invented the chip in . debit cards. Marc Hedlund",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who invented the chip in . debit cards. Helmut Gröttrup",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gröttrup invented the smart card as a 'forgery-proof key' for secure identification and access control (ID card) or storage of a secure key, also including inductive coupling for near-field communication (NFC).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In February 1967, Gröttrup introduced the idea of incorporating an integrated circuit chip onto a plastic carrier and filed the patent DE1574074 in West Germany for a tamper-proof identification switch based on a semiconductor device.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In WWII, who was the head of the Nazi party's security service. Himmler",
+      "strength": 0.7499999066099569
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In WWII, who was the head of the Nazi party's security service. Göring",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In WWII, who was the head of the Nazi party's security service. Kaltenbrunner",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In WWII, who was the head of the Nazi party's security service. Heydrich",
+      "strength": 0.8460606499178676
+    },
+    "A4": {
+      "type": "argument",
+      "text": "From 1943 onwards, he was both Chief of the Kriminalpolizei (Criminal Police) and Minister of the Interior, which gave him oversight of all police and security forces (including the Gestapo).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1931 he appointed Reinhard Heydrich chief of the new Ic Service (intelligence service), which was renamed the Sicherheitsdienst (SD: Security Service) in 1932.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hitler appointed Himmler chief of all German police outside Prussia.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Himmler named his deputy and protégé Reinhard Heydrich chief of the Gestapo on 22 April 1934.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Heydrich remained the RSHA chief until his assassination in 1942.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In January 1943 Himmler delegated the office to SS-Obergruppenführer and General of Police Ernst Kaltenbrunner, who headed the RSHA until the end of the war in Europe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

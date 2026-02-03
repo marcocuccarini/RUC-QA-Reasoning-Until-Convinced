@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who did armie hammer play in the social network. Andrew Garfield",
+      "strength": 0.43092424143887015
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who did armie hammer play in the social network. Justin Timberlake",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who did armie hammer play in the social network. Josh Pence",
+      "strength": 0.25000003951912525
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who did armie hammer play in the social network. Jesse Eisenberg",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Josh Pence served as a body double during filming",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Armie Hammer played Cameron and Tyler Winklevoss in The Social Network",
+      "strength": 0.4000418012174884
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Josh Pence was listed in the end credits as playing Tyler Winklevoss alongside Hammer",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Josh Pence and Armie Hammer play the Winklevoss Twins in The Social Network",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

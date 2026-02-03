@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oil is the renewable energy source used to make electricity that is thought to be always available.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Coal is the renewable energy source used to make electricity that is thought to be always available.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wind is the renewable energy source used to make electricity that is thought to be always available.",
+      "strength": 0.15384620045809053
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nuclear is the renewable energy source used to make electricity that is thought to be always available.",
+      "strength": 0.5999028678464151
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The two most important forms of renewable energy, solar and wind, are intermittent energy sources: they are not available constantly, resulting in lower capacity factors.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some also consider nuclear power a renewable power source, although this is controversial, as nuclear energy requires mining uranium, a nonrenewable resource.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wind power is variable, so it needs energy storage or other dispatchable generation energy sources to attain a reliable supply of electricity.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The seasonal industry might then take advantage of high wind and low usage times such as at night when wind output can exceed normal demand.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Nuclear thus remains the dispatchable low-carbon technology with the lowest expected costs in 2025.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Nuclear power plants, though capable of some grid-load following, are typically run as much as possible to keep the cost of the generated electrical energy as low as possible, supplying mostly base-load electricity.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

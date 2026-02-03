@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which island's parliament is called The Court of Chief Pleas. Jersey",
+      "strength": 0.400000060988221
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which island's parliament is called The Court of Chief Pleas. Guernsey",
+      "strength": 0.2500954907572107
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which island's parliament is called The Court of Chief Pleas. Isle of Man",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which island's parliament is called The Court of Chief Pleas. Sér",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chief Pleas (Sark), legislative assembly of Sark, Channel Islands",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Court of Chief Pleas (Guernsey), ancient court which meets annually in Guernsey, Channel Islands",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The deliberative assembly of the States of Guernsey (États de Guernesey) is called the States of Deliberation (États de Délibération).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the oldest of the eight Ivy League Universities, founded in 1636 as New College. Yale University",
+      "strength": 0.4000000000000028
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the oldest of the eight Ivy League Universities, founded in 1636 as New College. University of Pennsylvania",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the oldest of the eight Ivy League Universities, founded in 1636 as New College. Princeton University",
+      "strength": 0.15384624490147897
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the oldest of the eight Ivy League Universities, founded in 1636 as New College. HARVARD",
+      "strength": 0.499999999964573
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Founded in 1701, Yale is the third-oldest institution of higher education in the United States.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Princeton University was founded in 1746.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Harvard was chartered in 1650, although classes had been conducted for approximately a decade by then.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Founded in 1636 as New College, and later named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the United States.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "It officially became a university in 1896 and was subsequently renamed Princeton University.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Princeton is the fourth-oldest institution of higher education in the United States.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The University of Pennsylvania was chartered in 1755 through the efforts of founder and first president Benjamin Franklin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

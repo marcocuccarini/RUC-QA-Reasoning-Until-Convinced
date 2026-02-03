@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Sun is the source of the heat energy in the warm rock that a lizard sits on in a desert.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The lizard's skin is the source of the heat energy in the warm rock that a lizard in a desert sits on.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Deep within Earth is where the heat energy in the warm rock that a lizard in a desert sits on comes from.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The decay of plant materials is the source of the heat energy in the warm rock on which a lizard in a desert sits.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The warming of the ground (and other objects) depends on the absorption of the electromagnetic radiation in the form of heat.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sunlight is the portion of the electromagnetic radiation which is emitted by the Sun (i.e. solar radiation) and received by the Earth, in particular the visible light perceptible to the human eye as well as invisible infrared (typically perceived by humans as warmth) and ultraviolet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

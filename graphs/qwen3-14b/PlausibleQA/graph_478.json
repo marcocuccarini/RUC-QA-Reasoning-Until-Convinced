@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what years did romney serve as governor. 2001-2005",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what years did romney serve as governor. 1999-2003",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what years did romney serve as governor. 2005-2009",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what years did romney serve as governor. 1/2/2003",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Romney served as the 70th governor of Massachusetts from 2003 to 2007.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Romney was sworn in as the 70th governor of Massachusetts on January 2, 2003.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

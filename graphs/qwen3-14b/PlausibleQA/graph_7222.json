@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Songwriter/manager/producer Stig Anderson was often known as the fifth member of which group. The Beatles",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Songwriter/manager/producer Stig Anderson was often known as the fifth member of which group. Roxette",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Songwriter/manager/producer Stig Anderson was often known as the fifth member of which group. Ace of Base",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Songwriter/manager/producer Stig Anderson was often known as the fifth member of which group. Abba",
+      "strength": 0.4999051813262246
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Stig Anderson was the manager of the Hootenanny Singers and founder of Polar Music, but there is no mention of him being a member of The Beatles, Roxette, Ace of Base, or ABBA.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sometimes referred to as the 'fifth member' of ABBA",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

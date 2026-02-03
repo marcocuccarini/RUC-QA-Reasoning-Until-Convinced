@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the capital of Venezuela. Maracaibo",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the capital of Venezuela. Valencia",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the capital of Venezuela. Barquisimeto",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the capital of Venezuela. Carcas",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Caracas is the capital and largest city of Venezuela.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Caracas is officially Santiago de León de Caracas (CCS).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

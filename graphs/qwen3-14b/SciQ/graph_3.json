@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Feldspar and quartz are the two most common silicates.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Olivine and quartz are the two most common silicates.",
+      "strength": 0.40003897519685094
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Micas and feldspar are the two most common silicates.",
+      "strength": 0.40003897519685094
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Micas and quartz are the two most common silicates.",
+      "strength": 0.40003897519685094
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Feldspar is a major component of the Earth's crust and is extensively discussed in the text, indicating its high abundance.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Quartz is widely found in igneous, metamorphic, and sedimentary rocks, as noted in geological contexts, supporting its status as a common silicate.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Olivine is not prominently mentioned in the text, suggesting it is not as common as feldspar and quartz.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Micas are discussed but are not as prevalent as feldspar and quartz in the Earth's crust, attacking the hypothesis that they are the most common.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Micas are not as abundant as quartz, attacking the hypothesis that they are the two most common silicates.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

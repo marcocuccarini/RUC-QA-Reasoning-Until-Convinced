@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mars and Earth are the planets closest to each other in the arrangement of planets studied by Mrs. Henry's class in the solar system.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Saturn and Jupiter are the planets closest to each other in the solar system, as determined by Mrs. Henry's class during their study of planetary arrangements.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mercury and Venus are the planets closest to each other, as identified by Mrs. Henry's class studying the arrangement of planets in the solar system.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Uranus and Neptune are the planets closest to each other in the solar system, as determined by Mrs. Henry's class when studying the arrangement of planets.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Venus is approximately 0.33 AU farther out from the Sun than Mercury",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Saturn is 4.3 AU out from Jupiter",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

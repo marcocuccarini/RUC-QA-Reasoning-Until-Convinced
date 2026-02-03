@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Carbon chains form the skeletons of most organic molecules.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrocarbons form the skeletons of most organic molecules.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amino acid chains form the skeletons of most organic molecules.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Peptide groups form the skeletons of most organic molecules.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An unlabeled vertex is understood to represent a carbon attached to the number of hydrogens required to satisfy the octet rule",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The skeleton can consist of chains, branches and/or rings of bonded atoms",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

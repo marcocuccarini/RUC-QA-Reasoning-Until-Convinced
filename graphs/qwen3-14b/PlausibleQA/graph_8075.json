@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The remains of which ancient city were discovered by Heinrich Schliemann in the 1870s. Mycenae",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The remains of which ancient city were discovered by Heinrich Schliemann in the 1870s. Knossos",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The remains of which ancient city were discovered by Heinrich Schliemann in the 1870s. Pompeii",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The remains of which ancient city were discovered by Heinrich Schliemann in the 1870s. Troy",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Schliemann discovered the remains of Troy in the 1870s.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Schliemann conducted excavations at Mycenae.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Schliemann's porky pies (lies) about excavating Troy",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Original Skizzen Heinrich Schliemann's zu dessen Werk Ilios",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The site was excavated by Heinrich Schliemann and Frank Calvert starting in 1871.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Several of these layers resemble literary depictions of Troy, leading some scholars to conclude that there is a kernel of truth underlying the legends.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

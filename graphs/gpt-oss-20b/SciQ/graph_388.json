@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Oxygen is the element that makes up approximately 20% of the atmosphere.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Hydrogen makes up approximately 20 % of the Earth's atmosphere.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Carbon is the element that makes up approximately 20% of the atmosphere.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nitrogen makes up approximately 20% of the atmosphere.",
+      "strength": 0.40000009282172766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "N2 forms about 78% of Earth's atmosphere",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "dry air contains 20.95% oxygen",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the upper part of the heterosphere is composed almost completely of hydrogen, the lightest element",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

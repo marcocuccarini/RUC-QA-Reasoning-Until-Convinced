@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A mixture is the result when hydrogen and chlorine chemically bond to form hydrogen chloride.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A solution is the result when hydrogen and chlorine chemically bond to form hydrogen chloride.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A compound results when hydrogen and chlorine chemically bond to form hydrogen chloride.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A precipitate is the result when hydrogen and chlorine chemically bond to form hydrogen chloride.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hydrogen chloride is a diatomic molecule, consisting of a hydrogen atom H and a chlorine atom Cl connected by a polar covalent bond.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The compound hydrogen chloride has the chemical formula HCl and as such is a hydrogen halide.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

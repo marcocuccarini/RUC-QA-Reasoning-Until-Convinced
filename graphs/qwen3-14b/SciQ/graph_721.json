@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Diabetes is a disease that is unpreventable in its type 1 form but may be prevented by diet if it is of the type 2 form.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Obesity is a disease that is unpreventable in type one but may be prevented by diet if it is of type two.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "TB is unpreventable in the type one form but may be prevented by diet if it is of the second type.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Cancer is a disease that is unpreventable in the type one form but may be prevented by diet if it is of the second type.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "There is no known way to prevent type 1 diabetes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Trials that withheld cow's milk or gave infants formula free of bovine insulin decreased the development of β-cell-targeted antibodies, but did not prevent the development of type 1 diabetes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

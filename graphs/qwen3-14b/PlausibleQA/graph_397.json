@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Symphony",
+      "strength": 0.5999999999619677
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Chamber Music",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Concerto",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of music did mozart composed. Opera",
+      "strength": 0.8460568445252082
+    },
+    "A4": {
+      "type": "argument",
+      "text": "This is a list of symphonies by Wolfgang Amadeus Mozart.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mozart's operas include works such as Don Giovanni, Idomeneo, and others, which are considered classics and remain in the repertory of opera houses.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In his maturity, Mozart enhanced traditional forms with the richness of his innovation, as seen in his operas.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The edition includes opera libretti",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

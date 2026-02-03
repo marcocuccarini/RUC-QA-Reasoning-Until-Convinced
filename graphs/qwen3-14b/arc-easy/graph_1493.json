@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Worms are the young that hatch from butterfly eggs.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cocoons are the young that butterfly eggs hatch into.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Caterpillars are the young that hatch from butterfly eggs.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Little butterflies are the young that hatch from butterfly eggs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "their larvae, known as caterpillars, will feed",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pupa or chrysalis, unlike that of moths, is not wrapped in a cocoon",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Air is the substance that all living and nonliving material is composed of.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Elements are the substances that all living and nonliving material is composed of.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water is the substance that all living and nonliving material is composed of.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Soil is all living and nonliving material.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Almost all baryonic matter in the universe is composed of elements (among rare exceptions are neutron stars).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Air is mostly a mixture of molecular nitrogen and oxygen, though it does contain compounds including carbon dioxide and water, as well as atomic argon, a noble gas which is chemically inert and therefore does not undergo chemical reactions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where in the body is the zygomatic major muscle. Cheek",
+      "strength": 0.5999999651629757
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where in the body is the zygomatic major muscle. Temple",
+      "strength": 0.569070030725897
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where in the body is the zygomatic major muscle. Jawline",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where in the body is the zygomatic major muscle. Jowl",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It arises from the zygomatic arch (cheekbone).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It originates from the superior margin of the lateral surface of the temporal process of zygomatic bone.",
+      "strength": 0.4000393669040914
+    },
+    "A6": {
+      "type": "argument",
+      "text": "below this foramen is a slight elevation, which gives origin to the zygomaticus muscle.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

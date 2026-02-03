@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chickens are the animal that does NOT lay eggs among the animals listed.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Dogs do not lay eggs.",
+      "strength": 0.3999046316041009
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Frogs do not lay eggs.",
+      "strength": 0.40006361984599315
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Turtles are the animal that does not lay eggs.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dogs bear their litters roughly 58 to 68 days after fertilization, with an average of 63 days, although the length of gestation can vary.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "14–16 days after ovulation, the embryo attaches to the uterus, and after seven to eight more days, a heartbeat is detectable.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "All modern mammals give birth to live young, except the five species of monotremes, which lay eggs.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "amphibians generally need to lay their eggs in water.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

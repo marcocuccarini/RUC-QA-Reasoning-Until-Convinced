@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which preparation still in use today, was known in 4th century Egypt? Then, it was made from salt, pepper, iris flowers and mint leaves, but now mostly comprises Sodium Fluoride.. Mouthwash",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which preparation still in use today, was known in 4th century Egypt? Then, it was made from salt, pepper, iris flowers and mint leaves, but now mostly comprises Sodium Fluoride.. Deodorant",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which preparation still in use today, was known in 4th century Egypt? Then, it was made from salt, pepper, iris flowers and mint leaves, but now mostly comprises Sodium Fluoride.. Perfume",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which preparation still in use today, was known in 4th century Egypt? Then, it was made from salt, pepper, iris flowers and mint leaves, but now mostly comprises Sodium Fluoride.. Toofpaste",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Since 5000 BCE, the Egyptians made a tooth powder, which consisted of powdered ashes of ox hooves, pumice, powdered and burnt eggshells and myrrh.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "At similar fluoride concentrations, toothpastes containing stannous fluoride have been shown to be more effective than toothpastes containing sodium fluoride for reducing the incidence of dental caries and dental erosion, as well as reducing gingivitis.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is used in trace amounts in the fluoridation of drinking water to prevent tooth decay, and in toothpastes and topical pharmaceuticals for the same purpose.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. Bone Marrow",
+      "strength": 0.40009708561457313
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. Spleen",
+      "strength": 0.5999999534428432
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. Thymus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where are antibodies made and by what type of lymphocyte. lymph",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Plasma cells migrate to the bone marrow",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "B cells are found in the marginal zone of the spleen",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Human marrow produces approximately 500 billion blood cells per day",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "All types of hematopoietic cells, including both myeloid and lymphoid lineages, are created in bone marrow",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

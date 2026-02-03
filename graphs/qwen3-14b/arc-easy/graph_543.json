@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Swamp is the kind of environment where the Russian thistle, commonly known as the tumbleweed—a big, round plant with many branches and short, stiff leaves that spreads a large number of seeds when it breaks off from its stalk—is most likely found.",
+      "strength": 0.4000930303203751
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Prairie is the environment most likely found for the Russian thistle, a big, round plant with many branches and short, stiff leaves that spreads a large number of seeds when it breaks off from its stalk.",
+      "strength": 0.4000930303203751
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Forest is the type of environment where the Russian thistle, commonly known as the tumbleweed, is most likely found, given that it is a big, round plant with many branches and short, stiff leaves that spreads many seeds when it breaks off from its stalk.",
+      "strength": 0.4000000909837343
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The tundra is the kind of environment where the Russian thistle, commonly known as the tumbleweed, is most likely found, as this big, round plant with many branches and short, stiff leaves spreads a large number of seeds when it breaks off from its stalk.",
+      "strength": 0.4000000909837343
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Xerophyte tumbleweed species occur most commonly in steppe and arid ecosystems",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tumbleweeds are found in disturbed habitats such as roadsides, cultivated fields, eroded slopes, and arid regions with sparse vegetation",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Tumbleweeds are found in the Mojave desert",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Tumbleweeds are blowing across the West",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Nebuchadnezzar was the ruler of which ancient kingdom (606-562 BC). Assyria",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Nebuchadnezzar was the ruler of which ancient kingdom (606-562 BC). Phoenicia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nebuchadnezzar was the ruler of which ancient kingdom (606-562 BC). Lydia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Nebuchadnezzar was the ruler of which ancient kingdom (606-562 BC). Babilu",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nebuchadnezzar was the second king of the Neo-Babylonian Empire, ruling from 605 BC to 562 BC.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "violet: The Neo-Babylonian Empire succeeded the Neo-Assyrian Empire as a dominant power in the region.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

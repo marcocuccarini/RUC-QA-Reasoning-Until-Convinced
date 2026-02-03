@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which bird is the international symbol for happiness. Peacock",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which bird is the international symbol for happiness. Canary",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which bird is the international symbol for happiness. Parrot",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which bird is the international symbol for happiness. Sialia",
+      "strength": 0.32010476811217564
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Sialia, also called the Doorless Village, is a village in Rajakanika Block, Kendrapara district, Odisha, India",
+      "strength": 0.7499659027683541
+    },
+    "A5": {
+      "type": "argument",
+      "text": "No house of this village has doors or windows as the people of this village have immense faith on Parvati.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "This village attracts tourists from different places.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

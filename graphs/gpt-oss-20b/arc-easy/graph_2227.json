@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Element is what Joey made for breakfast by pouring a glass of milk over a bowl of dry cereal.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Compound is what Joey made for breakfast when he poured a glass of milk over a bowl of dry cereal.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mixture is what Joey made for breakfast by pouring a glass of milk over a bowl of dry cereal.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Solution is what Joey made for breakfast when he poured a glass of milk over a bowl of dry cereal.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mixtures are one product of mechanically blending or mixing chemical substances such as elements and compounds, without chemical bonding or other chemical change, so that each ingredient substance retains its own chemical properties and makeup.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When mixed, individual substances keep their properties in a mixture, while if they form a compound their properties can change.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

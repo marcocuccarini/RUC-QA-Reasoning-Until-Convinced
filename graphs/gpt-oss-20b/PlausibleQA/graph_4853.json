@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Greek philosopher was said to have lived inside a barrel. Antisthenes",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Greek philosopher was said to have lived inside a barrel. Crates of Thebes",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Greek philosopher was said to have lived inside a barrel. Aristippus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Greek philosopher was said to have lived inside a barrel. Diogenes",
+      "strength": 0.27613882056867695
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Diogenes never lived in a barrel, as such containers did not exist in his time.",
+      "strength": 0.4000439444117387
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Diogenes used a large ceramic jar (pithos), originally meant for food storage, as a makeshift shelter.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Diogenes lived in a ceramic jar on the streets of Athens.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

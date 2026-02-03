@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Jellyfish",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Box Jellyfish",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Sea Snake",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What sort of creature is a Pacific Sea Wasp. Medusae",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Box jellyfish (class Cubozoa) are cnidarian invertebrates distinguished by their box-like (i.e., cube-shaped) body.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Australia, fatalities are most often caused by the largest species of this class of jellyfish, Chironex.EXPAND",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

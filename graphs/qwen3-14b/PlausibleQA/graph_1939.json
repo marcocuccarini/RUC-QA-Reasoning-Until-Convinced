@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country in Europe has the highest average elevation. Switzerland",
+      "strength": 0.40000008741621107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country in Europe has the highest average elevation. Austria",
+      "strength": 0.40000008741621107
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country in Europe has the highest average elevation. Slovenia",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country in Europe has the highest average elevation. Andorra",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the average elevation of Andorra is 1,996 metres (6,549 ft)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the average elevation of Slovenia is 557 m (1,827 ft)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Julius Caesar",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Romulus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Lucius Cornelius Sulla",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first emperor of Rome. Agustus",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Augustus was the founder of the Roman Empire, who reigned as the first Roman emperor from 27 BC until his death in AD 14.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Octavian was named in Caesar's will as his primary heir after the assassination of Julius Caesar in 44 BC.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

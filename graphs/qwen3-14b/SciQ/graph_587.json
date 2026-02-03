@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Host cell is the environment outside of which obligate intracellular parasites cannot be grown, preventing some bacteria from being cultured.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sponsor cell is the type of cell outside of which some bacteria cannot be cultured because they are obligate intracellular parasites and cannot be grown.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Anchor cell is the host cell that obligate intracellular parasites, such as certain bacteria that cannot be cultured, cannot be grown outside.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Brain cell is the type of cell outside of which some bacteria cannot be cultured because they are obligate intracellular parasites and cannot be grown.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Obligate intracellular parasites cannot reproduce outside their host cell",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Study of obligate pathogens is difficult because they cannot usually be reproduced outside the host",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

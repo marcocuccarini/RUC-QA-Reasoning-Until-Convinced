@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name given to Barbary pirates who raided ships in the Mediterranean and the south European coast from bases on the north coast of Africa. Buccaneer",
+      "strength": 0.4000930303203751
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name given to Barbary pirates who raided ships in the Mediterranean and the south European coast from bases on the north coast of Africa. Privateer",
+      "strength": 0.5999999090162662
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name given to Barbary pirates who raided ships in the Mediterranean and the south European coast from bases on the north coast of Africa. Raider",
+      "strength": 0.4000930303203751
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name given to Barbary pirates who raided ships in the Mediterranean and the south European coast from bases on the north coast of Africa. Corsair",
+      "strength": 0.5999999090162662
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Barbary corsairs, Barbary pirates, Ottoman corsairs, or naval mujahideen (in Muslim sources) were mainly Muslim corsairs and privateers",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the terms 'Barbary pirates' and 'Barbary corsairs' are normally applied to the raiders active from the 16th century onwards",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

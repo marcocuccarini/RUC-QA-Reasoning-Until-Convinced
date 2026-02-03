@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "star cast of ab tumhare hawale watan sathiyon. Amitabh Bachchan",
+      "strength": 0.6322449307698443
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "star cast of ab tumhare hawale watan sathiyon. Akshay Kumar",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "star cast of ab tumhare hawale watan sathiyon. Bobby Deol",
+      "strength": 0.6322449307698443
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "star cast of ab tumhare hawale watan sathiyon. Nagma",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An ensemble film starring Amitabh Bachchan, Akshay Kumar and Deol (in a double role).",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "she starred in the title role opposite Amitabh Bachchan",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Ronald Biggs",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Bruce Reynolds",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Charlie Wilson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the full name of the train robber played by Phil Collins in a 1988 movie. Buster Edwards",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Buster, a film about his role in the Great Train Robbery, was made in 1988, with Edwards played by Phil Collins.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Edwards was the person responsible for hitting Jack Mills.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

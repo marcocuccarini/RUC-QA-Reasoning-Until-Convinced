@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. England",
+      "strength": 0.2500917442134498
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. Australia",
+      "strength": 0.4000611252761509
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. South Africa",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where was the final of the 1999 Rugby World Cup held. Cyrmu",
+      "strength": 0.4000000562992237
+    },
+    "A4": {
+      "type": "argument",
+      "text": "France and Australia met at the Millennium Stadium on 6 November 1999.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "France and Australia met at the Millennium Stadium on 6 November 1999, with Australia winning 35–12 to become the first team to win the Webb Ellis Cup twice.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 1999 tournament was hosted by Wales with matches also being held throughout the rest of the United Kingdom, Ireland and France.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

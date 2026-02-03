@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Wolf Mankowitz wrote the 1953 novel ‘A Kid For Two….’what’. Pennies",
+      "strength": 0.4000000447316251
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Wolf Mankowitz wrote the 1953 novel ‘A Kid For Two….’what’. Pounds",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Wolf Mankowitz wrote the 1953 novel ‘A Kid For Two….’what’. Dollars",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wolf Mankowitz wrote the 1953 novel ‘A Kid For Two….’what’. Farthing",
+      "strength": 0.5999029125598947
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The area in which he grew up provided Mankowitz with the material for his most successful book A Kid for Two Farthings (1953).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A farthing was a mag.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

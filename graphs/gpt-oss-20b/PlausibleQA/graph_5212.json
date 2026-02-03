@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "during the great depression in the 1930s the u.s. economy experienced a. Downturn",
+      "strength": 0.6322429966750173
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "during the great depression in the 1930s the u.s. economy experienced a. Stagnation",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "during the great depression in the 1930s the u.s. economy experienced a. Contraction",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "during the great depression in the 1930s the u.s. economy experienced a. recession",
+      "strength": 0.7499426582224752
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1933 the U.S. unemployment rate had risen to 25%, about one-third of farmers had lost their land, and 9,000 of its 25,000 banks had gone out of business.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The American economy then took a sharp downturn, lasting for 13 months through most of 1938. Industrial production fell almost 30% within a few months and production of durable goods fell even faster.",
+      "strength": 0.5999617965637547
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The economy hit bottom in the winter of 1932–1933; then came four years of growth until the recession of 1937–1938 brought back high levels of unemployment.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "By 1936, all the main economic indicators had regained the levels of the late 1920s, except for unemployment, which remained high.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

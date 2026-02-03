@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what two countries make up the dominican republic. Haiti and Cuba",
+      "strength": 0.09252369713438988
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what two countries make up the dominican republic. Jamaica and Puerto Rico",
+      "strength": 0.400000000085493
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what two countries make up the dominican republic. Bahamas and Turks and Caicos",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what two countries make up the dominican republic. Hispaniola",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hispaniola is divided into the sovereign countries of the Dominican Republic and Haiti.",
+      "strength": 0.5999088118033908
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Dominican Republic's economy is more than 1000% larger than Haiti's.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The map shows Hispaniola and Puerto Rico as separate islands.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Dominican Republic shares a land border with Haiti to the west.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "To the north and north-west lie The Bahamas and the Turks and Caicos Islands.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Haiti occupies the western side of the island, which it shares with the Dominican Republic.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "the Dominican Republic shares a 360-kilometer (224 mi) border with Haiti.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

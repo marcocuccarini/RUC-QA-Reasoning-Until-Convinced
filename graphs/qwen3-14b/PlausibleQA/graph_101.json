@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the Bible, name the son of Saul who was a friend of David. Abner",
+      "strength": 0.3676470588235928
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the Bible, name the son of Saul who was a friend of David. Ish-bosheth",
+      "strength": 0.128534772495356
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the Bible, name the son of Saul who was a friend of David. Mephibosheth",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the Bible, name the son of Saul who was a friend of David. יהונתנ",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Jonathan (1 Samuel), son of King Saul of Israel and friend of David, in the Books of Samuel",
+      "strength": 0.5999999999999944
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Jonathan was the son of Saul, king of Israel, of the tribe of Benjamin, and David was the son of Jesse of Bethlehem, of the tribe of Judah, and Jonathan's presumed rival for the crown.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ish-bosheth engaged in a protracted conflict with David",
+      "strength": 0.599999961882224
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The rivalry between the two leaders shaped the political landscape of the kingdom at the time",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Eshbaʽal Ben Bedaʽ pottery inscription discovery, from the Time of King David",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "David restored Saul's inheritance to Mephibosheth and permitted him to live within his palace in Jerusalem.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "King David sought 'someone of the house of Saul, to whom I may show the kindness of God' and Mephibosheth was brought to him by Ziba, Saul's servant.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

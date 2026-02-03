@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of food or drink is a macchiato. Tea",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of food or drink is a macchiato. Hot Chocolate",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of food or drink is a macchiato. Milkshake",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of food or drink is a macchiato. COFFEE",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Caffè macchiato is an espresso with a small amount of milk, usually foamed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Italian, macchiato means 'stained' or 'spotted', so the literal translation of caffè macchiato is 'stained coffee' or 'marked coffee'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

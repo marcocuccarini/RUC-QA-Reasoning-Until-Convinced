@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Proton is the subatomic particle that has a negative charge.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Neutron is the subatomic particle that has a negative charge.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Electron is the subatomic particle that has a negative charge.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Quark is a subatomic particle that carries a negative charge.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Electrons have an electric charge of −1.602176634×10−19 C, which is used as a standard unit of charge for subatomic particles, and is also called the elementary charge.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Within the limits of experimental accuracy, the electron charge is identical to the charge of a proton, but with the opposite sign.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

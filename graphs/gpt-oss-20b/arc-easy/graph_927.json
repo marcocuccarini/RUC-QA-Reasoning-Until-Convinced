@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Light and sound are the two types of energy that travel in waves, as Marta studied different forms of energy.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Electrical and sound are the two types of energy that travel in waves, as Marta found in her study of different forms of energy.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Chemical and light are the two types of energy that travel in waves, as studied by Marta.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Chemical and electrical energy are the two types of energy that travel in waves, as identified by Marta in her study of different forms of energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Light waves, like sound waves, would need a medium for transmission.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All electromagnetic radiation exhibits some properties of both particles and waves.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sound can propagate through a medium such as air, water and solids as longitudinal waves and also as a transverse wave in solids.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sound cannot travel through a vacuum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

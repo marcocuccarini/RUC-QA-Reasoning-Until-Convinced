@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "7 a.m. is when the waters in a coral reef would likely have the highest dissolved oxygen concentration, because photosynthesis by marine plants and algae in the shallow tropical ocean waters produces the most oxygen during daylight.",
+      "strength": 0.6799030748262354
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "2 p.m. is when the waters in a coral reef would have the highest dissolved oxygen concentration, because photosynthesis by marine plants and the algae living within coral tissues is greatest at midday in shallow tropical ocean waters.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "9 p.m. is when the waters in a coral reef would likely have the highest dissolved oxygen concentration, given that coral reefs are found in shallow tropical ocean waters and the ecosystem is supported by photosynthesis of marine plants and algae living within the tissues of the coral.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Midnight is when the waters in a coral reef would likely have the highest dissolved oxygen concentration, given that coral reefs are found in shallow tropical ocean waters and are supported by the photosynthesis of marine plants and algae that live within the tissues of the coral.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In plants, algae, and cyanobacteria, photosynthesis releases oxygen.",
+      "strength": 0.7499999616416791
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some shade-loving plants (sciophytes) produce such low levels of oxygen during photosynthesis that they use all of it themselves instead of releasing it to the atmosphere.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "First practical artificial leaf makes debut",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The source of oxygen produced by photosynthesis Interactive animation, a textbook tutorial",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Stagnant water can become somewhat supersaturated with oxygen (i.e., reach more than 100% saturation) either because of the presence of photosynthetic aquatic oxygen producers or because of a slow equilibration after a change of atmospheric conditions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

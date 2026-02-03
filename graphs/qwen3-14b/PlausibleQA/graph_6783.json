@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What are the only two types of mammal that can lay eggs. Kangaroos",
+      "strength": 0.36775506923015594
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What are the only two types of mammal that can lay eggs. Sloths",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What are the only two types of mammal that can lay eggs. Armadillos",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What are the only two types of mammal that can lay eggs. Platypi",
+      "strength": 0.40000003589797006
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Monotremes are the only mammals still in existence which lay eggs, rather than bearing live young.",
+      "strength": 0.5999625530424765
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The five extant monotreme species are the platypus and the four species of echidnas.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The four extant species of echidnas and the platypus are the only living mammals that lay eggs and the only surviving members of the order Monotremata.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

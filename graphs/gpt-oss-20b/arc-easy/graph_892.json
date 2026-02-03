@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Chromosomes are found in greater numbers in muscle cells than in most other types of cells, enabling the rapid conversion of energy from food molecules into a usable form.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mitochondria are present in greater numbers in muscle cells than most other types of cells because muscle cells need to quickly convert energy from food molecules into a usable form.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Nuclei are present in greater numbers in muscle cells than most other types of cells, enabling the rapid conversion of energy from food molecules into a usable form.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vacuoles are present in greater numbers in muscle cells than in most other cell types because muscle cells need to quickly convert energy from food molecules into a usable form.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The mitochondria can be found nestled between myofibrils of muscle or wrapped around the sperm flagellum.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The production of ATP from glucose and oxygen has an approximately 13-times higher yield during aerobic respiration compared to fermentation.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

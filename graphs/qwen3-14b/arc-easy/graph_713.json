@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Control is the activity for which a ship’s satellite communication device, used to identify the ship’s position at sea, is most likely used.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Guidance is the activity for which a ship’s satellite communication device, used to identify the ship’s position at sea, is most likely employed.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Propulsion is the activity for which a ship uses a satellite communication device to identify its position at sea.",
+      "strength": 0.4000000344903905
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Suspension is the activity for which a ship's satellite communication device—used to identify the ship's position at sea—is most likely employed.",
+      "strength": 0.36775130093325664
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fleet tracking: used to identify, locate and maintain contact reports with one or more fleet vehicles in real-time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Navigation: navigators value digitally precise velocity and orientation measurements, as well as precise positions in real-time with a support of orbit and clock corrections.",
+      "strength": 0.5999640213586829
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Navigation and location of the ship by positioning techniques based on the aids provided by global positioning systems, such as GPS, GLONASS, or GALILEO.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

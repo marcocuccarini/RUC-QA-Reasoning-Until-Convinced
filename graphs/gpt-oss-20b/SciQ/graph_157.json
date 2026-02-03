@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Blood type is determined by specific antigens on the surface of red blood cells, which is important in cases of transfusion.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Blood count is determined by specific antigens on the surface of red blood cells, which is important in cases of transfusion.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Blood amount is determined by specific antigens on the surface of red blood cells, which is important in cases of transfusion.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Blood form is determined by specific antigens on the surface of red blood cells, which is important in cases of transfusion.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Blood type (also known as a blood group) is a classification of blood based on the presence and absence of antibodies and inherited antigenic substances on the surface of red blood cells (RBCs).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The antigens are present on the red blood cells, and the antibodies in the serum.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

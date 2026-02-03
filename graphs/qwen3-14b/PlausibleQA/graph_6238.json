@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). Tokyo",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). New York City",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). Mumbai",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the largest city by population in the world (at 2012, according to 'core districts' definition of city or equivalent). 沪",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Chinese municipality of Chongqing comprises a huge administrative area of 82,403 km2, around the size of Austria. However, more than 70% of its 30-million population are agricultural workers living in a rural setting.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "A city proper is a locality defined according to legal or political boundaries and an administratively recognised urban status that is usually characterised by some form of local government. Cities proper and their boundaries and population data may not include suburbs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

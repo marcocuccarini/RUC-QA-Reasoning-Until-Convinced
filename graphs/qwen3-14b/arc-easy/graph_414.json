@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Xylem carries water from the roots to the leaves, correctly identifying the way materials are transported in a plant.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Phloem carries minerals from the roots to the leaves in a plant.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Xylem carries sugars from the flowers to the stems, correctly identifying how materials are transported in a plant.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Phloem carries water from the flowers to the stems in a plant.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "While movement of water and minerals through the xylem is driven by negative pressures (tension) most of the time, movement through the phloem is driven by positive hydrostatic pressures.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The sap is a water-based solution, but rich in sugars made by photosynthesis. These sugars are transported to non-photosynthetic parts of the plant, such as the roots, or into storage structures, such as tubers or bulbs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

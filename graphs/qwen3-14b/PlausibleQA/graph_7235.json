@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Maidstone",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Canterbury",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Tunbridge Wells",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Faversham",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shepherd Neame is an English independent brewery which has been based in the market town of Faversham, Kent, for over 300 years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Further research reveals that the brewery had existed on the same site, 18 Court Street, Faversham, since 1570, or 1573, depending on sources.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

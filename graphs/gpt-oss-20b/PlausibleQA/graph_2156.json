@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 1968 album released by George Harrison is notable for being the first official solo album by one of The Beatles. Wonderwall Music",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 1968 album released by George Harrison is notable for being the first official solo album by one of The Beatles. The Inner Flame",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 1968 album released by George Harrison is notable for being the first official solo album by one of The Beatles. Electronic Sound",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 1968 album released by George Harrison is notable for being the first official solo album by one of The Beatles. Ski-ing",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Wonderwall Music is the debut solo studio album by the English musician George Harrison and the soundtrack to the 1968 film Wonderwall.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ski-ing was recorded by Harrison, Starr, and Clapton for the Wonderwall soundtrack.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

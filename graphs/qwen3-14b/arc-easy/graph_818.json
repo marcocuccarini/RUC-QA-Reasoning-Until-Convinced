@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It has twice as many protons as electrons in an atom that has a mass of 24 and a nuclear charge of 12.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An atom with a mass of 24 and a nuclear charge of 12 has twice as many neutrons as protons.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The atom has equal numbers of neutrons and protons because its mass of 24 and nuclear charge of 12 imply 12 protons and 12 neutrons.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It has equal numbers of nuclear particles and electrons, which is accurate for an atom with a mass of 24 and a nuclear charge of 12.",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The mass of an atom is located in the nucleus, consisting of protons and neutrons.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In a neutral atom, the number of electrons is equal to the number of protons in the nucleus.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

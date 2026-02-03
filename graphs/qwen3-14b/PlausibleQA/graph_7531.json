@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Adolf Hitler",
+      "strength": 0.4000587285197913
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Benito Mussolini's brother",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Hermann Göring",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Musilini",
+      "strength": 0.25008814687138625
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mussolini and Clara Petacci were executed on 28 April 1945",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adolf Hitler committed suicide on 30 April 1945, two days after Mussolini's execution",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Benito Mussolini was shot by Walter Audisio",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

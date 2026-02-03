@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Releases heat and is endothermic is the reaction that occurs when coal burns.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Releases heat and is exothermic is the reaction that occurs when coal burns.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The reaction that occurs when coal burns absorbs heat and is endothermic.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Absorbs heat and is exothermic is the reaction that occurs when coal burns.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Combustion, or burning, is a high-temperature exothermic redox chemical reaction between a fuel (the reductant) and an oxidant, usually atmospheric oxygen, that produces oxidized, often gaseous products, in a mixture termed as smoke.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Solid fuels, such as wood and coal, first undergo endothermic pyrolysis to produce gaseous fuels whose combustion then supplies the heat required to produce more of them.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

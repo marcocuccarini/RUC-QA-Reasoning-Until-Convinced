@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Mediterranean island gained independence in 1959 under the presidency of Archbishop Makarios. Malta",
+      "strength": 0.4000000479750338
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Mediterranean island gained independence in 1959 under the presidency of Archbishop Makarios. Crete",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Mediterranean island gained independence in 1959 under the presidency of Archbishop Makarios. Sardinia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Mediterranean island gained independence in 1959 under the presidency of Archbishop Makarios. Kıbrıs",
+      "strength": 0.14055073819144434
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cyprus was granted independence in 1960.",
+      "strength": 0.5999509458168574
+    },
+    "A5": {
+      "type": "argument",
+      "text": "as per the Zürich and London Agreement, Cyprus officially attained independence on 16 August 1960",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Legal Issues arising from certain population transfers and displacements on the territory of the Republic of Cyprus in the period since 20 July 1974",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Taking office on 16 August 1960, the day the Union Flag was lowered in Nicosia",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Union Flag was lowered in Nicosia on 16 August 1960",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

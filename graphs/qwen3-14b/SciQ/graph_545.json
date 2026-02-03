@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ionic compounds are solids with high melting and boiling points.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magnetic compounds are solids with high melting and boiling points.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Superheated compounds are solids with high melting and boiling points.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Metal alloys are solids with high melting and boiling points.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Inorganic compounds with simple ions typically have small ions, and thus have high melting points, so are solids at room temperature.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Some substances with larger ions, however, have a melting point below or near room temperature (often defined as up to 100 °C), and are termed ionic liquids.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Hafnium carbonitride (HfCN) is a refractory compound with the highest known melting point of any substance to date, at 4,400 K.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

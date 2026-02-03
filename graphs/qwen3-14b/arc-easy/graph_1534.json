@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Using open flames to heat all materials is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.25009743799212736
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Keeping your cell phone on the laboratory countertop is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Knowing where your instructor/laboratory leader is at all times is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Removing your safety glasses when moving from station to station is a safe practice to exercise during laboratory investigations.",
+      "strength": 0.40000003811777657
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Correct eye protection should be worn in most experiments involving glassware.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Rapid heating (or cooling) may cause uneven thermal expansion putting too much mechanical stress on the surface and cause it to fracture.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Glassware can explode if the exhaust is in any way restricted, so any apparatus should be vented.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

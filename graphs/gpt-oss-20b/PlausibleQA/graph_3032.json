@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US state is known as the Palmetto State. US-FL",
+      "strength": 0.2500974210553993
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US state is known as the Palmetto State. US-GA",
+      "strength": 0.4000000634771975
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US state is known as the Palmetto State. US-NC",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US state is known as the Palmetto State. US-SC",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text references only South Carolina, not Florida.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text references only South Carolina, not Georgia.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The state tree: sabal palmetto (Sabal palmetto) – The palmetto has been a symbol for South Carolina since the American Revolutionary War when it was used to build a fort on Sullivan's Island that withstood British attack.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

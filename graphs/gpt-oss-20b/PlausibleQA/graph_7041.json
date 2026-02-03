@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What information technology company was founded by Sergey Brin and Larry Page. Yahoo",
+      "strength": 0.1539412327887781
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What information technology company was founded by Sergey Brin and Larry Page. Microsoft",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What information technology company was founded by Sergey Brin and Larry Page. Amazon",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What information technology company was founded by Sergey Brin and Larry Page. GGEA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Google was founded on September 4, 1998, by American computer scientists Larry Page and Sergey Brin.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Page and Brin had first approached Shriram, who was a venture capitalist, for funding and counsel, and Shriram invested $250,000 in Google in February 1998.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Founders Larry Page and Sergey Brin announced their resignation from their executive posts in December 2019, with the CEO role to be filled by Sundar Pichai, who is also the CEO of Google.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

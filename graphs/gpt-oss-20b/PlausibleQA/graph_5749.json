@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. Antwerp",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. Ghent",
+      "strength": 0.27635470750849206
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. Bruges",
+      "strength": 0.27635470750849206
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'. BEBRU",
+      "strength": 0.5999060347093613
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Manneken Pis is a landmark bronze fountain sculpture in central Brussels, Belgium.",
+      "strength": 0.8999493619649493
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Media related to Manneken Pis (Brussels) at Wikimedia Commons",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Manneken Pis on BALaT - Belgian Art Links and Tools (KIK-IRPA, Brussels)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Manneken Pis, a fountain containing a small bronze sculpture of a urinating youth, is a tourist attraction and symbol of the city.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Official tourism website (in French, Dutch, English, German, Spanish, Italian, and Portuguese)",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Brussels-Capital Region (in French, Dutch, and English)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

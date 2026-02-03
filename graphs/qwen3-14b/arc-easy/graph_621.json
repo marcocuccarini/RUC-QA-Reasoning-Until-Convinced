@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Reflection is the property of light that explains why Sam’s grandfather, who looks where Sam is pointing at a goldfish in the pond and tells Sam that the fish is actually in a different location, is correct.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Refraction is the property of light that explains why Sam's grandfather is correct, because the bending of light as it passes from water to air makes the goldfish appear in a different location than its true position.",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Diffraction is the property of light that explains why Sam’s grandfather correctly says the fish is actually in a different location even though Sam looks into the pond and points at a goldfish.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Absorption is the property of light that explains why Sam’s grandfather is correct when he says the goldfish in the pond is actually in a different location than where Sam is pointing.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The object appears to bend at the water's surface. This is due to the bending of light rays as they move from the water to the air.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The depth that the water appears to be when viewed from above is known as the apparent depth. This is an important consideration for spearfishing from the surface because it will make the target fish appear to be in a different place, and the fisher must aim lower to catch the fish.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

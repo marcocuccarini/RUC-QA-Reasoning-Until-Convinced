@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. King's Cross",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. Euston",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. St Pancras",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The 'Master Cutler' was a regular train service from Sheffield to which London Mainline rail terminus. Pangratios",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Currently the Master Cutler name is carried by the 07:33 departure from Sheffield and 17:02 departure from London St Pancras.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "From 7 October 1968 the Master Cutler title was moved over to a fast train running to London St Pancras via the Midland line.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. Markermeer",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. Wadden Sea",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. Veluwemeer",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke. IJselmeer",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1932 the Zuiderzee was closed off by the Afsluitdijk... The Zuiderzee was no longer a sea inlet and was renamed IJsselmeer",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The IJsselmeer is a closed-off freshwater lake in the central Netherlands... which is also the namesake of the province of Overijssel",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

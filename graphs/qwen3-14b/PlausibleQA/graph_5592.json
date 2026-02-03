@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What bird organ contains stones for grinding up food. Proventriculus",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What bird organ contains stones for grinding up food. Crop",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What bird organ contains stones for grinding up food. Pylorus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What bird organ contains stones for grinding up food. Gizzard",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A bird swallows small bits of gravel that act as 'teeth' in the gizzard, breaking down hard food such as seeds and thus helping digestion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The gizzard can grind the food with previously swallowed grit and pass it back to the true stomach, and vice versa.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

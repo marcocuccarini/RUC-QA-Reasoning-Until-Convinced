@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Disaronno is an 'amaretto' liqueur with a characteristic bitter-almond taste, however it doesn't contain any nuts at all; from the kernel of which fruit does the flavour come. Apricot",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Disaronno is an 'amaretto' liqueur with a characteristic bitter-almond taste, however it doesn't contain any nuts at all; from the kernel of which fruit does the flavour come. Cherry",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Disaronno is an 'amaretto' liqueur with a characteristic bitter-almond taste, however it doesn't contain any nuts at all; from the kernel of which fruit does the flavour come. Plum",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Disaronno is an 'amaretto' liqueur with a characteristic bitter-almond taste, however it doesn't contain any nuts at all; from the kernel of which fruit does the flavour come. Xìng",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Apricot kernel oil gives Disaronno and some other types of amaretto their almond-like flavor.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Mandarin Chinese, the term xìngrén (杏仁) can refer to either apricot kernels or almonds.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Disaronno Originale does not actually contain almonds.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The liqueur is an infusion of apricot kernel oil.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

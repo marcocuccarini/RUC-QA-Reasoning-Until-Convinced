@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The heart pumps the blood in the body.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Systolic pressure pumps the blood in the body.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Respiratory is what the blood in the body is pumped with.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Lung is what the blood in the body is pumped with.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The heart pumps blood through the blood vessels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Galen believed the heart did not pump blood around, the heart's motion sucked blood in during diastole and the blood moved by the pulsation of the arteries themselves.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The systemic circulation is a circuit loop that delivers oxygenated blood from the left heart to the rest of the body, and returns deoxygenated blood back to the right heart via large veins known as the venae cavae.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The pulmonary vein returns the now oxygen-rich blood to the left atrium.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

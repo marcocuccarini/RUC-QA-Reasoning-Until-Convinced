@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mel Gibson (1990) and Kenneth Branagh (1996) have both played which character in movies. Macbeth",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mel Gibson (1990) and Kenneth Branagh (1996) have both played which character in movies. Romeo",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mel Gibson (1990) and Kenneth Branagh (1996) have both played which character in movies. Othello",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mel Gibson (1990) and Kenneth Branagh (1996) have both played which character in movies. Hamlet",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gibson's roles in the Mad Max series of films, Peter Weir's Gallipoli (1981), and the Lethal Weapon series of films earned him the label of 'action hero'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gibson's roles in the Franco Zeffirelli film version of Hamlet (1990)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Kenneth Branagh has portrayed Macbeth on stage and in film",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

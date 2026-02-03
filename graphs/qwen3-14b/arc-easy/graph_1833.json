@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "External fertilization and external development is the pair of terms that describes the usual location for fertilization and the first stages of development in human reproduction.",
+      "strength": 0.4000000344903905
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "External fertilization and internal development describe the usual location for fertilization and the first stages of development in human reproduction.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Internal fertilization and external development are the pair of terms that describe the usual location for fertilization and the first stages of development in human reproduction.",
+      "strength": 0.4000000344903905
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Internal fertilization and internal development describe the usual location for fertilization and the first stages of development in human reproduction.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Human reproduction naturally takes place as internal fertilization by sexual intercourse.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The zygote then becomes implanted in the lining of the uterus, where it begins the processes of embryogenesis and morphogenesis.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "After fertilization, embryos develop in eggs in oviparous species or inside the mother’s reproductive tract in viviparous ones.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Internal fertilization is the union of an egg and sperm cell during sexual reproduction inside the female body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

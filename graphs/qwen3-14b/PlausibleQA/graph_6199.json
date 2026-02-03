@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Germany",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Hungary",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Czech Republic",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Composers Joseph Haydn and Franz Schubert were born in which country. Ostria",
+      "strength": 0.5999029143854268
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Joseph Haydn was born in Rohrau, Austria",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Franz Peter Schubert was born in Himmelpfortgrund, Vienna, Archduchy of Austria",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Franz Peter Schubert was an Austrian composer",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

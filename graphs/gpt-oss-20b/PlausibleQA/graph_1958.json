@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many players in football hall of fame. 250",
+      "strength": 0.25000009154079683
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many players in football hall of fame. 402",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many players in football hall of fame. 275",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many players in football hall of fame. 318",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Including the class of 2025, there have been 1,111 players and 237 coaches selected for enshrinement in the College Football Hall of Fame.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Including the 2019 class, there were 1,010 players enshrined in the College Football Hall of Fame.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As of 2025, there are a total of 382 members of the Hall of Fame.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

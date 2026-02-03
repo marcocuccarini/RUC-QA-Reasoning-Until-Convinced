@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Dry line is the weather condition that contributes most to the formation of heavy smog in a city experiencing smog formed by motor vehicle exhaust.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A cold front is the weather condition that contributes most to the formation of smog in a city experiencing heavy smog formed by motor vehicle exhaust.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tropical cyclone is the weather condition that contributes most to the formation of smog in a city experiencing heavy smog formed by motor vehicle exhaust.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Temperature inversion is the weather condition that most contributes to the formation of smog caused by motor vehicle exhaust in a city experiencing heavy smog.",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "During a severe inversion, trapped air pollutants form a brownish haze that can cause respiratory problems.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Temperature inversions stop atmospheric convection (which is normally present) from happening in the affected area and can lead to high concentrations of atmospheric pollutants.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

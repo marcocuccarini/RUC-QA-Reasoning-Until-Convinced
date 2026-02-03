@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "They are always microscopic, which is why the objects from space that appear in meteor showers observed at certain times of the year are usually harmless.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "They are closer to the sun than to Earth, which is why meteor shower objects from space are usually harmless when observed from Earth at certain times of the year.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "They are made of soft, spongy materials, which is why meteor shower objects are usually harmless to observers on Earth.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "They burn up high in Earth's atmosphere, which is why meteor shower objects observed from Earth at certain times of year are usually harmless.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Most meteors are smaller than a grain of sand, so almost all of them disintegrate and never hit the Earth's surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The rock component of comet debris ranges from a dust mote to a small boulder.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

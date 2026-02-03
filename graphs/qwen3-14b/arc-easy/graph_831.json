@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Their shapes stay the same in any container is the statement that correctly describes both gases and liquids.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Their shapes change when they are in different containers is a statement that correctly describes both gases and liquids.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Their volumes stay the same in any container is the correct statement describing both gases and liquids.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Their volumes change when they are in different containers, correctly describing both gases and liquids.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Liquids typically adapt to the shape of the container.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Liquids are nearly incompressible, maintaining their volume even under pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

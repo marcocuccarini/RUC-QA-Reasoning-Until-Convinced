@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which French chemist produced the first vaccine against Anthrax. Antoine Lavoisier",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which French chemist produced the first vaccine against Anthrax. Claude Louis Berthollet",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which French chemist produced the first vaccine against Anthrax. Joseph Gay-Lussac",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which French chemist produced the first vaccine against Anthrax. Pasteur",
+      "strength": 0.49495451174212096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Henry Toussaint developed the first vaccine.",
+      "strength": 0.5999999312359734
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pasteur's vaccine at Pouilly-le-Fort was a potassium dichromate-killed vaccine, not a live vaccine as he claimed.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Pasteur used the method of rival Jean-Joseph-Henri Toussaint (1847–1890), a Toulouse veterinary surgeon, to create the anthrax vaccine.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Louis Pasteur applied his previous method of immunising chickens against chicken cholera to anthrax, which affected cattle, and thereby aroused widespread interest in combating other diseases with the same approach.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Pasteur used the method of rival Jean-Joseph-Henri Toussaint (1847–1890) to create the anthrax vaccine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

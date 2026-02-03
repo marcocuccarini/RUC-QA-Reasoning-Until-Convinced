@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Bill Sikes",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Professor Moriarty",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Uriah Heep",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Simon Legree is the villain in which famous novel. Legree",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Simon Legree is a cruel slave owner—a Northerner by birth—whose name has become synonymous with greed and cruelty.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He eventually orders Tom whipped to death out of frustration for his slave's unbreakable belief in God.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He sexually exploits Cassy, who despises him, and later sets his designs on Emmeline.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "He abandoned his sickly mother for a life at sea and ignored her letter to see her one last time at her deathbed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

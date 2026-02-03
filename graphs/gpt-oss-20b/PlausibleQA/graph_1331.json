@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which dynasty ruled China from 1368 to 1644. Yuan Dynasty",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which dynasty ruled China from 1368 to 1644. Qing Dynasty",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which dynasty ruled China from 1368 to 1644. Han Dynasty",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which dynasty ruled China from 1368 to 1644. 明朝",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Ming dynasty, officially the Great Ming, was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan dynasty.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The last Yuan emperor fled north to the upper capital Shangdu, and Zhu declared the founding of the Ming dynasty after razing the Yuan palaces in Dadu to the ground; the city was renamed Beiping in the same year.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Placing the parts on a conveyor belt to keep them moving quickly is a process that will ensure the wooden boards fit together with the fewest errors, because at one station workers drill a hole in each end of the boards and at the next station another worker attaches two boards together using metal fasteners that fit those holes.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Using a fixture to hold the boards in place as the holes are drilled will ensure that the wooden boards fit together with the fewest errors, because it stabilizes each board at both ends during drilling, preventing misalignment that would compromise the placement of the metal fasteners at the next station.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Inspecting the boards after they are attached to each other is the process that will ensure that the wooden boards fit together with the fewest errors at the production line station where a worker drills a hole in each end of the wooden boards and another worker attaches two boards together using metal fasteners that fit in the holes.",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Installing equipment to protect workers from debris is the process that will ensure the wooden boards fit together with the fewest errors, because at one station a worker drills a hole in each end of the boards and at the next station another worker attaches two boards together using metal fasteners that fit in those holes.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "a fixture that holds pieces for processing might be modified to only allow pieces to be held in the correct orientation.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eliminating defects before they occur.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what form of government does the united states use. Democracy",
+      "strength": 0.599999999975011
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what form of government does the united states use. Federalism",
+      "strength": 0.7236595294998991
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what form of government does the united states use. Constitutional Government",
+      "strength": 0.5999999739327239
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what form of government does the united states use. Republic",
+      "strength": 0.5999370131820512
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The U.S. Constitution establishes the nation's federal rule of law and was largely based on federalism, republicanism and democracy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Under the U.S. Constitution, the power of the U.S. federal government is shared between its executive, legislative, and judicial branches, state governments, and the people.",
+      "strength": 0.4000000260672763
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Constitution of the United States is the supreme law of the United States of America.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Tenth Amendment states that the federal government has only those powers specifically granted by the Constitution.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "These independent states initially formed a loose confederation called the United States and then later formed the current United States by ratifying the current U.S. Constitution, creating a union that was a republic.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In that country, the president is officially elected by an electoral college, chosen by the States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

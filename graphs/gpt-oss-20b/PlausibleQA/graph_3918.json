@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which river runs through The Grand Canyon. Missouri River",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which river runs through The Grand Canyon. Rio Grande",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which river runs through The Grand Canyon. Arkansas River",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which river runs through The Grand Canyon. Colo.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 277 miles (446 km) of the river that flow through the Grand Canyon are largely encompassed by Grand Canyon National Park.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Arizona, the river passes Lee's Ferry, an important crossing for early explorers and settlers and since the early 20th century the principal point where Colorado River flows are measured for apportionment to the seven U.S. and two Mexican states in the basin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

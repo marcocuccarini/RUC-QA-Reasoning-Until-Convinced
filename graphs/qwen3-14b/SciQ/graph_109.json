@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sun is the source of most of the Earth's energy.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Cover is where most of the earth's energy comes from.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Fire is the source of most of the Earth's energy.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Heat is the source of most of the Earth's energy.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Earth receives 174 petawatts (PW) of incoming solar radiation (insolation)DeviceInfo at the upper atmosphere.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Approximately 30% is reflected back to space while the rest, 122 PW, is absorbed by clouds, oceans and land masses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

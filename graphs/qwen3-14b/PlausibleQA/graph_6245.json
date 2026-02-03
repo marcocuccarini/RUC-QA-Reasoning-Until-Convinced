@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Ramses II",
+      "strength": 0.4000000909837343
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Thutmose III",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Akhenaten",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh. Kingtut",
+      "strength": 0.49990706066335916
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Howard Carter discovered the tomb of Tutankhamun in November 1922.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The tomb discovered by Howard Carter belonged to Tutankhamun, not to Ramses II, Thutmose III, or Akhenaten.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Did King Tut's Discoverer Steal from the Tomb?",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

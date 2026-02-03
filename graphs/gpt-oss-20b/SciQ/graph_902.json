@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Decibel levels are the levels that, when increased, result in sound waves that are louder and of greater intensity.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Radiation levels, when increased, result in sound waves that are louder and of greater intensity.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Height levels increase to produce sound waves that are louder and of greater intensity.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Heat levels are the ones whose increase results in sound waves that are louder and of greater intensity.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An RMS sound pressure of one pascal corresponds to a level of 94 dB SPL.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sound intensity is proportional to the square of sound pressure.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

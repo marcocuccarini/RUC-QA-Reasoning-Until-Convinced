@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Hemodialysis is the form of dialysis in which a patient’s blood passes through a length of tubing that travels through an artificial kidney machine.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Peritoneal dialysis is the form of dialysis in which a patient’s blood passes through a length of tubing that travels through an artificial kidney machine.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Limbic dialysis is the form of dialysis in which a patient’s blood passes through a length of tubing that travels through an artificial kidney machine.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Arterial dialysis is the form of dialysis in which a patient’s blood passes through a length of tubing that travels through an artificial kidney machine.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The blood is then pumped through the dialyzer, and then the processed blood is pumped back into the patient's bloodstream through another tube (connected to a second needle or port).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During the procedure, the patient's entire blood volume (about 5 L) circulates through the machine every 15 minutes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

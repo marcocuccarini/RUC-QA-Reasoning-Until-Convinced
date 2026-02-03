@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In the 1960s, Margaret Rutherford starred in four films as which famous detective. Nancy Drew",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In the 1960s, Margaret Rutherford starred in four films as which famous detective. Miss Hathaway",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In the 1960s, Margaret Rutherford starred in four films as which famous detective. Phryne Fisher",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In the 1960s, Margaret Rutherford starred in four films as which famous detective. Ms Marple",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Margaret Rutherford played Miss Marple in four films directed by George Pollock between 1961 and 1964.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first on-screen portrayal of Miss Marple was by Gracie Fields in a 1956 episode of Goodyear TV Playhouse.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

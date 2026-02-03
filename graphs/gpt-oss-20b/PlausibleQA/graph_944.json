@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the 'Sigma' model. Mitsubishi",
+      "strength": 0.8460569045044471
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the 'Sigma' model. Holden",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the 'Sigma' model. Chrysler",
+      "strength": 0.599999961499134
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car manufacturer produces the 'Sigma' model. VAUXHALL",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mitsubishi has utilized the 'Sigma' name on several different vehicles based on Mitsubishi Galant and Mitsubishi Diamante sold in various markets during this time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Between 1977 and 1980, prior to Mitsubishi taking over Chrysler Australia's operations, this model had been marketed as the Chrysler Sigma.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Sigma sedan was sold in Japan and Europe between 1991 and 1996.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In Europe, the Australian-built station wagon derivative was also sold under the Sigma name.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

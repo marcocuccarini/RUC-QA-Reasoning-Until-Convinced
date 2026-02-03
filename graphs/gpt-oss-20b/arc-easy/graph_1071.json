@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Low melting point is the physical property that a material must have to be effective for cooking.",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "High electric charge is the physical property that a material must have to be effective for cooking.",
+      "strength": 0.4000000585968386
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "High reactivity with water is a physical property that a material must have to be effective for cooking.",
+      "strength": 0.25000008795143086
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Low thermal expansion is the physical property that a material must have to be effective for cooking.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aluminium is largely non‑reactive with foodstuffs at low and high temperatures.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Like steel, stainless steels are relatively poor conductors of electricity, with significantly lower electrical conductivities than copper.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The biological cleanability of stainless steel is superior to both copper and aluminium, and comparable to glass.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Engineering ceramics are known for their stiffness and stability under high temperatures, compression and electrical stress.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

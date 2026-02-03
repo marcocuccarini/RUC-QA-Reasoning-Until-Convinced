@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Basutoland is now known as what. Azania",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Basutoland is now known as what. Swaziland",
+      "strength": 0.22634223099206444
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Basutoland is now known as what. Botswana",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Basutoland is now known as what. Lestho",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Basutoland (now Lesotho).",
+      "strength": 0.5999728079278522
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Basutoland gained its independence from the United Kingdom on 4 October 1966 and was renamed the Kingdom of Lesotho.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Basutoland was renamed the Kingdom of Lesotho.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "It has twice as many protons as electrons in an atom that has a mass of 24 and a nuclear charge of 12.",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An atom with a mass of 24 and a nuclear charge of 12 has twice as many neutrons as protons.",
+      "strength": 0.2500973576378482
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The atom has equal numbers of neutrons and protons because its mass of 24 and nuclear charge of 12 imply 12 protons and 12 neutrons.",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "It has equal numbers of nuclear particles and electrons, which is accurate for an atom with a mass of 24 and a nuclear charge of 12.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Magnesium (12Mg) naturally occurs as three stable isotopes: 24Mg, 25Mg, and 26Mg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In an ordinary uncharged atom, the atomic number is also equal to the number of electrons.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The difference between the mass number and the atomic number Z gives the number of neutrons (N) in the nucleus: N = A − Z.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

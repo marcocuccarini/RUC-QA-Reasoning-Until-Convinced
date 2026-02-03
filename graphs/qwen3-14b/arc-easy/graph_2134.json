@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Friction is the characteristic that determines the gravity of an object, given that gravity is a measurable force of attraction which acts upon objects.",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mass determines the gravity of an object, since gravity is a measurable force of attraction that acts upon objects.",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Tension is the characteristic that determines the gravity of an object, a measurable force of attraction which acts upon objects.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Weight is the characteristic that determines the gravity of an object, as gravity is a measurable force of attraction that acts upon objects.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The force of gravity, F is written using the gravitational constant, G, as F = G mm' / r² for two masses, m, and m′ separated by a distance r.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The strength of this field at any given point above the surface is proportional to the planetary body's mass and inversely proportional to the square of the distance from the center of the body.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

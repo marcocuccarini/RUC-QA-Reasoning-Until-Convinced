@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what movies has john williams score. Jaws",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what movies has john williams score. Star Wars: Episode IV - A New Hope",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what movies has john williams score. Indiana Jones and the Raiders of the Lost Ark",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what movies has john williams score. 1941",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He received five Academy Awards for Best Score/Best Score Adaptation for Fiddler on the Roof (1971); score adaptation of the original music by Jerry Bock), Jaws (1975), Star Wars (1977), E.T. the Extra-Terrestrial (1982) and Schindler's List (1993).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Other memorable collaborations with Spielberg include Close Encounters of the Third Kind (1977), the Indiana Jones franchise (1981–2023), Hook (1991), Jurassic Park (1993) and its sequel The Lost World: Jurassic Park (1997), Saving Private Ryan (1998), Catch Me If You Can (2002), War Horse (2011), Lincoln (2012), and The Fabelmans (2022).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "John Williams composed the film's score, which earned him an Academy Award and was later ranked the sixth-greatest score by the American Film Institute.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What cereal company, founded in 1906, has its headquarters in Battle Creek, MI. Kellogg's",
+      "strength": 0.5999050903424904
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What cereal company, founded in 1906, has its headquarters in Battle Creek, MI. Post Consumer Brands",
+      "strength": 0.5999050903424904
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What cereal company, founded in 1906, has its headquarters in Battle Creek, MI. Ralston Purina",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What cereal company, founded in 1906, has its headquarters in Battle Creek, MI. Yogos",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Post Consumer Brands is a cereal company founded in Battle Creek",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "WK Kellogg Co is a cereal company based in Battle Creek",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

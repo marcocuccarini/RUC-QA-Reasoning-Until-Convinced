@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. KPCC",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. WNYC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. KEXP",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. KCMU",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "KEXP-FM, a radio station (90.3 FM) licensed to serve Seattle, Washington, United States",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "KEXP-FM, a radio station (90.3 FM) licensed to serve Seattle, Washington, United States, which held the call sign KCMU-FM from 1972 to 2001",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

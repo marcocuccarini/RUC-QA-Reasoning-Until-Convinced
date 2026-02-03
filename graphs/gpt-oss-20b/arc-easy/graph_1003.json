@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Kilowatts are the best way of expressing the amount of mechanical energy exerted by a force, as Theresa determined in her study of different forms of energy.",
+      "strength": 0.40000000002653435
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Kilocalories is the best way of expressing the amount of mechanical energy exerted by a force, as Theresa studied different forms of energy.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Newton‑meters is the best way of expressing the amount of mechanical energy exerted by a force, as Theresa studied different forms of energy.",
+      "strength": 0.25000004154531413
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Foot‑pounds per second is the best unit for expressing the amount of mechanical energy exerted by a force, as Theresa studied different forms of energy.",
+      "strength": 0.599902895507456
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The joule is defined as the work required to produce one watt of power for one second, or one watt-second (W⋅s) (compare kilowatt-hour, which is 3.6 megajoules).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The SI unit for torque is the newton‑metre, which works out algebraically to have the same dimensions as the joule, but they are not interchangeable.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The SI unit of work is the joule (J), the same unit as for energy.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Non‑SI units of work include the newton‑metre, erg, the foot‑pound, the foot‑poundal, the kilowatt hour, the litre‑atmosphere, and the horsepower‑hour.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The foot‑pound force (symbol: ft⋅lbf,  ft⋅lbf, or ft⋅lb ) is a unit of work or energy in the engineering and gravitational systems in United States customary and imperial units of measure.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "1 foot pound-force per second is equivalent to 1.355818 watts",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

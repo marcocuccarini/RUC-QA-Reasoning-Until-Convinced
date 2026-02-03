@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the first star wars film released. 1969",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the first star wars film released. 1972",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the first star wars film released. 1975",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the first star wars film released. 1977",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The original 1977 film Star Wars (later subtitled A New Hope) was followed by the sequels The Empire Strikes Back (1980) and Return of the Jedi (1983); these films form the original trilogy.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first film released, Star Wars (1977), is the fourth film chronologically and was later subtitled Episode IV – A New Hope in 1981.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

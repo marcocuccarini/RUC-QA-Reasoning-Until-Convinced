@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What automotive manufacturer's badge logo has since 1925 featured a diamond, mostly as an 'impossible optical illusion' geometric 3D frame. Citroen",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What automotive manufacturer's badge logo has since 1925 featured a diamond, mostly as an 'impossible optical illusion' geometric 3D frame. Peugeot",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What automotive manufacturer's badge logo has since 1925 featured a diamond, mostly as an 'impossible optical illusion' geometric 3D frame. Fiat",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What automotive manufacturer's badge logo has since 1925 featured a diamond, mostly as an 'impossible optical illusion' geometric 3D frame. Renault",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The rhomboid logo was introduced in 1968",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The bonnet badge changed from circular to the familiar and continuing diamond shape in 1925",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The transformed logo maintained the diamond shape",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

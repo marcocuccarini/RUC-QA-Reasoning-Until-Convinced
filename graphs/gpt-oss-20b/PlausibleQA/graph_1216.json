@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Verso",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Folio",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Rectangular",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What technical word is given usually to the right-side odd-numbered page of a book. Recto",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In book publishing convention, the first page of a book, and sometimes of each section and chapter of a book, is a recto page, and hence all recto pages will have odd numbers and all verso pages will have even numbers.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Recto is the 'right' or 'front' side and verso is the 'left' or 'back' side when text is written or printed on a leaf of paper",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

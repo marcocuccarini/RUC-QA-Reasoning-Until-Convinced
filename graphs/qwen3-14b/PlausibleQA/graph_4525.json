@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country, after having governed it for 155 years, transferred its sovereignty of Hong Kong to China in 1997. Portugal",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country, after having governed it for 155 years, transferred its sovereignty of Hong Kong to China in 1997. France",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country, after having governed it for 155 years, transferred its sovereignty of Hong Kong to China in 1997. Netherlands",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country, after having governed it for 155 years, transferred its sovereignty of Hong Kong to China in 1997. Uk",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The handover of Hong Kong from the United Kingdom of Great Britain and Northern Ireland to the People's Republic of China occurred at midnight on 1 July 1997.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The United Kingdom obtained control over portions of Hong Kong's territory through three treaties concluded with Qing China after the Opium Wars: 1842 Treaty of Nanking: Hong Kong Island ceded in perpetuity",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The United Kingdom obtained control over portions of Hong Kong's territory through three treaties concluded with Qing China after the Opium Wars: 1842 Treaty of Nanking: Hong Kong Island ceded in perpetuity; 1860 Treaty of Peking: Kowloon ceded; 1898 lease of New Territories for 99 years",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The United Kingdom transferred control of Hong Kong and surrounding territories to the People's Republic of China.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

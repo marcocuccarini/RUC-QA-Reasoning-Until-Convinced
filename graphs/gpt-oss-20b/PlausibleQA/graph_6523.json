@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the dallas cowboys win their last playoff game. 2009",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the dallas cowboys win their last playoff game. 1996",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the dallas cowboys win their last playoff game. 2017",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the dallas cowboys win their last playoff game. 2014",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Week 16 via a loss at home to the Seattle Seahawks, they were eliminated from playoff contention.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Cowboys defeated the Eagles for the first Cowboys post-season win since the 1996 season, ending a streak of six consecutive NFL post-season losses.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

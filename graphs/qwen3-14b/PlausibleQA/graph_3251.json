@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which Netherlands city does the United Nations International Court of Justice sit. Amsterdam",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which Netherlands city does the United Nations International Court of Justice sit. Utrecht",
+      "strength": 0.2500954907572107
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which Netherlands city does the United Nations International Court of Justice sit. Rotterdam",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which Netherlands city does the United Nations International Court of Justice sit. Lahey",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ICJ is seated in the Peace Palace in The Hague, Netherlands",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The International Court of Justice is based in The Hague",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Hague is the seat of the UN's International Court of Justice",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

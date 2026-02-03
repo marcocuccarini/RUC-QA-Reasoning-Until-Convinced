@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "David Lloyd George was British Prime Minister during the reign of which monarch. Edward VII",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "David Lloyd George was British Prime Minister during the reign of which monarch. Edward VIII",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "David Lloyd George was British Prime Minister during the reign of which monarch. George VI",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "David Lloyd George was British Prime Minister during the reign of which monarch. George V",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Lloyd George's People's Budget was rejected by the Conservative and Unionist-dominated House of Lords in the year before George V inherited the throne.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After the January 1910 general election, the Conservative peers allowed the budget, for which the government now had an electoral mandate, to pass without a vote.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Rotation of Earth on its axis causes wind.",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Movement of air from water to land is an action that causes wind.",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Uneven heating of Earth's surface causes wind.",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Air passing Earth as it revolves around the Sun causes wind.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The two main causes of large-scale atmospheric circulation are the differential heating between the equator and the poles, and the rotation of the planet, which is called the Coriolis effect.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wind is caused by differences in atmospheric pressure, which are primarily due to temperature differences.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "At the ground level, however, the movement of the air toward the equator in the lower troposphere deviates toward the west, producing a wind from the east.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "During the day, air warmed by the relatively hotter land rises, and as it does so it draws a cool breeze from the sea that replaces the risen air.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

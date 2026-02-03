@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which religion's holy book is the Adi Granth. Hinduism",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which religion's holy book is the Adi Granth. Buddhism",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which religion's holy book is the Adi Granth. Jainism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which religion's holy book is the Adi Granth. Sikhi",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Guru Granth Sahib (Punjabi: …) is the central holy religious scripture of Sikhism, regarded by Sikhs as the final, sovereign and eternal Guru following the lineage of the ten human gurus of the religion.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "While the Granth acknowledges and respects the scriptures of Hinduism and Islam, it does not imply a moral reconciliation with either of these religions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

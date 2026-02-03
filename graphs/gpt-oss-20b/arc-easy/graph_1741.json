@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Fragments that broke off of older rocks are the source materials of the particles that make up sandstone and all other types of sedimentary rock.",
+      "strength": 0.8460569052668154
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Magma that cooled deep below a volcano is the source material of the particles that make up sandstone and all other types of sedimentary rock.",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Gases that condensed in the atmosphere are the source materials of the particles that make up sandstone and all other types of sedimentary rock.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Vegetation that decayed in thick layers is the source material of the particles that compose sandstone and all other types of sedimentary rock.",
+      "strength": 0.5999999622615022
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Geological detritus originates from weathering and erosion of existing rocks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vegetation gets compressed by overlying sediments and undergoes chemical transformation.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Siliciclastic sedimentary rocks are composed of mainly silicate particles derived from the weathering of older rocks and pyroclastic volcanism.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sedimentary breccias are a type of clastic sedimentary rock which are composed of angular to subangular, randomly oriented clasts of other sedimentary rocks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

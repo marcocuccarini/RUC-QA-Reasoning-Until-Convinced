@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which was the first year in which the football World Cup final was broadcast on television in colour. 1962",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which was the first year in which the football World Cup final was broadcast on television in colour. 1966",
+      "strength": 0.25009542979071414
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which was the first year in which the football World Cup final was broadcast on television in colour. 1958",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which was the first year in which the football World Cup final was broadcast on television in colour. 1970",
+      "strength": 0.25000005896661726
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The final, which was broadcast locally by the BBC, was the last to be shown entirely in black and white.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1978, the FIFA World Cup was broadcast in color using PAL-B in Argentina.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1978, the FIFA World Cup was broadcast in color using NTSC in Chile.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Technical advancements included colour (1967)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

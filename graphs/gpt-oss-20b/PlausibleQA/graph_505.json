@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Missionary",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Philosopher",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Leader",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who was saint paul the apostle. Writer",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paul was a Christian apostle who spread the teachings of Jesus in the first-century AD.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The main sources of information on Paul's life and works are Paul's letters and the Acts of the Apostles in the New Testament.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Paul spends the next few years traveling through western Asia Minor and the Aegean, preaching, converting, and founding new churches.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The mission to the Gentiles is promoted from Antioch and confirmed at a meeting in Jerusalem between Paul and the leadership of the Jerusalem church.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

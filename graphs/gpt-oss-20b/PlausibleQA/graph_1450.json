@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Pituitary",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Thyroid",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Adrenal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which gland controls the release of hormones. Hypophyse",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The pituitary gland and the hypothalamus control much of the body's endocrine system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Thyroid-stimulating hormone (TSH) is released under the influence of hypothalamic thyrotropin-releasing hormone (TRH) and is inhibited by somatostatin.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Maccabees",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Hasmoneans",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Sadducees",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which family's name appears in the title of the last two books of the Catholic edition. Maqabim",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The second and fourth books of the Maccabees recount the martyrdom of seven Jewish brothers",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

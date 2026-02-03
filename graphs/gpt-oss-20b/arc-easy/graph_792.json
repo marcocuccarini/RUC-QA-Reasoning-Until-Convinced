@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A flood is the natural disaster least likely to cause major damage to a prairie ecosystem.",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A tornado is the natural disaster least likely to cause major damage to a prairie ecosystem.",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A hurricane is the natural disaster least likely to cause major damage to a prairie ecosystem.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An earthquake is the natural disaster that is least likely to cause major damage to a prairie ecosystem.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The southeastern portion of the Great Plains is the most tornado active area in the world and is sometimes referred to as Tornado Alley.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Floods (in particular more frequent or smaller floods) can also bring many benefits, such as recharging ground water, making soil more fertile and increasing nutrients in some soils.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Flooding can spread nutrients to lakes and rivers, which can lead to increased biomass and improved fisheries for a few years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Three is the number of families into which known quarks are divided.",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Two is the number of families into which quarks are known to be divided.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Five is the number of families into which known quarks are divided.",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Four is the number of families into which known quarks are divided.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Elementary fermions are grouped into three generations, each comprising two leptons and two quarks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "All searches for a fourth generation of quarks and other elementary fermions have failed, and there is strong indirect evidence that no more than three generations exist.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

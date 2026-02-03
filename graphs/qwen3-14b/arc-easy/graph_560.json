@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ice has a definite volume but takes the shape of the container when placed in a container at room temperature.",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Copper is the substance that, when placed in a container at room temperature, has a definite volume but takes the shape of the container.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Water has a definite volume but adopts the shape of its container when placed in a container at room temperature.",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Wood has a definite volume but takes the shape of the container when placed in a container at room temperature.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A liquid is a nearly incompressible fluid that conforms to the shape of its container but retains a (nearly) constant volume independent of pressure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In a solid, the particles are tightly packed and held in fixed positions, giving the material a definite shape and volume.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}
