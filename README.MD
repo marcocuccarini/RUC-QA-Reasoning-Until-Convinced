@@ -1,6 +1,4 @@
-# ==========================================
-# FILE 1: README.md
-# ==========================================
+
 
 # 🤖 Bipolar Argumentation-based RAG System
 
@@ -86,5 +84,6 @@ pip install -r requirements.txt
 git clone [https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git](https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git)
 cd RUC-QA-Reasoning-Until-Convinced
 pip install -r requirements.txt
+
 
 
