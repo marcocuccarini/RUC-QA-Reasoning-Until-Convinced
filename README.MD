@@ -32,13 +32,6 @@ This project implements a sophisticated **Reasoning-based Question Answering** p
 
 ---
 
-## ⚙️ How It Works
-
-1.  **Semantic Retrieval**: Wikipedia pages are selected by the LLM and paragraphs are ranked via semantic similarity.
-2.  **Hypothesis Verbalization**: Multiple-choice options are transformed into declarative factual statements.
-3.  **Argument Mining**: The LLM extracts factual evidence and assigns a **Support** or **Attack** relation to specific targets.
-4.  **Graph Resolution**: A Bipolar Argumentation Graph is constructed. The final strength of each hypothesis is calculated using a **Quadratic Energy Model**.
-
 
 ### 🧪 Pipeline & Evaluation Scripts
 These scripts manage the execution of large-scale experiments and data analysis:
@@ -93,4 +86,5 @@ pip install -r requirements.txt
 git clone [https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git](https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git)
 cd RUC-QA-Reasoning-Until-Convinced
 pip install -r requirements.txt
+
 
