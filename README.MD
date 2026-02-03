@@ -1,70 +1,66 @@
-🧪 Pipeline & Evaluation Scripts
-While the classes/ folder contains the engine, these scripts manage the execution of large-scale experiments and the analysis of results.
+# 🤖 Bipolar Argumentation-based RAG System
 
-1. pipeline_test.py & pipeline_val.py (The Executioners)
+This project implements a sophisticated **Reasoning-based Question Answering** pipeline. Unlike standard RAG systems that provide a single text response, this system builds a **formal argumentation graph** to evaluate multiple hypotheses (answers). It uses local LLMs (via Ollama) and Argumentation Theory to determine the most logically sound answer based on evidence retrieved from Wikipedia.
 
-These scripts are responsible for running the full argumentation pipeline on test and validation sets.
 
-pipeline_test.py: Executes the final evaluation using the BEST_PARAMS identified during search. It handles sampling (up to 900 questions) and saves detailed predictions to results/.
 
-pipeline_val.py: Implements Grid Search logic. It iterates through different combinations of TOP_PARAGRAPHS and MAX_ARGUMENTS to find the configuration that yields the highest accuracy on the validation split.
+## 📂 Project Structure
 
-2. wikipedia.py (The Knowledge Harvester)
+### 🧠 Core Engine (`classes/`)
+* **`ServerOllama.py`**: Manages the local connection to the Ollama server.
+* **`LLMUser.py`**: High-level interface for argument extraction and **JSON Self-Healing**.
+* **`ArgumentationGraph.py`**: The mathematical core. Builds the graph and solves the Quadratic Energy Model.
+* **`PromptBuilder.py`**: Centralized prompt engineering for all LLM tasks.
+* **`utils.py`**: Utility functions for Wikipedia API fetching and Sentence-BERT ranking.
 
-This script is a specialized utility to build a local knowledge base.
+### 🚀 Execution Pipelines
+* **`pipeline_test.py`**: Runs final tests on the `test` split using optimized parameters.
+* **`pipeline_val.py`**: Evaluation engine for **Hyperparameter Grid Search**.
+* **`wikipedia.py`**: Knowledge harvester to pre-fetch and cache Wikipedia content.
+* **`baseline.py`**: Runs control group tests (Zero-shot vs Standard RAG).
+* **`running.py`**: Main orchestrator for single-run experiments.
 
-It iterates through datasets and uses LLMUser.get_candidate_pages to find relevant Wikipedia titles.
+### 📊 Evaluation & Analysis
+* **`evaluation_baseline.py`**: Calculates accuracy for baseline and standard RAG tests.
+* **`evaluation_pipeline.py`**: Analyzes graph performance and generates statistical charts.
 
-It fetches the full content and stores it in results_wikipedia_only/.
+---
 
-Benefit: This allows you to run multiple LLM experiments without hitting the Wikipedia API repeatedly, significantly increasing speed and reliability.
+## ⚙️ How It Works
 
-3. baseline.py (The Control Group)
+1.  **Semantic Retrieval**: Paragraphs are ranked using `all-mpnet-base-v2` embeddings.
+2.  **Argument Mining**: The LLM extracts factual evidence and assigns a **Support** or **Attack** relation.
+3.  **Graph Resolution**: A Bipolar Argumentation Graph is solved using a **Quadratic Energy Model** (via RK4) to determine the winning hypothesis.
 
-This script establishes a performance baseline without the argumentation graph.
 
-It asks the LLM to answer questions using two methods:
 
-Zero-Shot: No context provided.
+## 🛠 Self-Healing JSON Mechanism
+One of the key features of the `LLMUser` class is its resilience. If a local model produces malformed JSON during extraction, the system automatically triggers a **Repair Agent** (e.g., Qwen3) to fix the formatting, ensuring the pipeline continues without interruption.
 
-Standard RAG: Context provided as plain text, but without building a logical graph.
+---
 
-This allows you to quantify exactly how much "accuracy boost" the Argumentation Graph provides compared to standard methods.
+## 🚀 Getting Started
 
-4. evaluation_baseline.py & evaluation_pipeline.py (The Analysts)
+### . Prerequisites
+Ensure you have **Ollama** installed and the following models pulled:
+```bash
+ollama pull qwen3:14b
+ollama pull gpt-oss:20b
+```
 
-These scripts transform raw JSON predictions into readable metrics and visualizations.
 
-evaluation_baseline.py: Calculates accuracy for the baseline tests, including filters for "INVALID" responses.
 
-evaluation_pipeline.py: A specialized diagnostic tool. It compares questions where the Graph Changed (logic was successfully applied) vs. questions where the Graph remained Unchanged (leading to a random choice). It generates Matplotlib charts to visualize these performance deltas.
+### 1. Prerequisites
 
-📊 Experimental Workflow Summary
-To replicate the full study, follow this order:
 
-Harvest Knowledge: Run wikipedia.py to cache Wikipedia content.
+git clone [https://github.com/tuo-username/arg-rag-system.git](https://github.com/tuo-username/arg-rag-system.git)
+cd arg-rag-system
+pip install -r requirements.txt
 
-Tune: Run pipeline_val.py to find the best hyperparameters.
 
-Benchmark: Run baseline.py to see how the LLM performs normally.
+### 2. Installation
 
-Test: Run pipeline_test.py to execute the Bipolar Argumentation RAG.
+git clone [https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git](https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git)
+cd RUC-QA-Reasoning-Until-Convinced
+pip install -r requirements.txt
 
-Analyze: Use the evaluation_ scripts to generate final accuracy reports and charts.
-
-📂 Updated Directory Map
-
-Plaintext
-src/
-├── classes/               # Core Engine
-├── split_datasets/        # Train/Val/Test JSON splits
-├── results_retrieval/     # Logs for Baseline & Standard RAG
-├── results/               # Final Predictions (Argumentation)
-├── graphs/                # Visual Export of BAG logic
-├── pipeline_test.py       # Final Test Runner
-├── pipeline_val.py        # Hyperparameter Optimizer
-├── wikipedia.py           # Content Pre-fetcher
-└── evaluation_pipeline.py # Statistical Plotting
-Ready for GitHub?
-
-Everything is now documented! Would you like me to generate a requirements.txt file based on all these scripts, or perhaps a summary of the results format so you can fill in your final accuracy numbers?
