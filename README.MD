@@ -1,48 +1,64 @@
+# ==========================================
+# FILE 1: README.md
+# ==========================================
+
 # 🤖 Bipolar Argumentation-based RAG System
 
 This project implements a sophisticated **Reasoning-based Question Answering** pipeline. Unlike standard RAG systems that provide a single text response, this system builds a **formal argumentation graph** to evaluate multiple hypotheses (answers). It uses local LLMs (via Ollama) and Argumentation Theory to determine the most logically sound answer based on evidence retrieved from Wikipedia.
 
 
 
-## 📂 Project Structure
+---
+
+## 📂 Project Structure & Components
 
 ### 🧠 Core Engine (`classes/`)
-* **`ServerOllama.py`**: Manages the local connection to the Ollama server.
+* **`ServerOllama.py`**: Manages local Ollama server connections and chat sessions.
 * **`LLMUser.py`**: High-level interface for argument extraction and **JSON Self-Healing**.
 * **`ArgumentationGraph.py`**: The mathematical core. Builds the graph and solves the Quadratic Energy Model.
-* **`PromptBuilder.py`**: Centralized prompt engineering for all LLM tasks.
-* **`utils.py`**: Utility functions for Wikipedia API fetching and Sentence-BERT ranking.
-* **`running.py`**: Main orchestrator for single-run experiments.
+* **`utils.py`**: Infrastructure for semantic ranking (Sentence-BERT) and Wikipedia fetching.
 
-
-### 🚀 Execution Pipelines
-* **`pipeline_test.py`**: Runs final tests on the `test` split using optimized parameters.
-* **`pipeline_val.py`**: Evaluation engine for **Hyperparameter Grid Search**.
-* **`wikipedia.py`**: Knowledge harvester to pre-fetch and cache Wikipedia content.
-* **`baseline.py`**: Runs control group tests (Zero-shot vs Standard RAG).
-
-### 📊 Evaluation & Analysis
-* **`evaluation_baseline.py`**: Calculates accuracy for baseline and standard RAG tests.
-* **`evaluation_pipeline.py`**: Analyzes graph performance and generates statistical charts.
+### 🧪 Pipeline & Evaluation Scripts
+1. **`pipeline_test.py` & `pipeline_val.py`**: Orchestrate full runs on Test/Val sets using optimized parameters.
+2. **`wikipedia.py`**: Fetches and caches Wikipedia content to `results_wikipedia_only/` for offline use.
+3. **`baseline.py`**: Runs **Zero-Shot** and **Standard RAG** to establish a performance floor.
+4. **`evaluation_baseline.py` & `evaluation_pipeline.py`**: Calculate accuracy and generate statistical charts comparing Graph logic vs. Baseline.
 
 ---
 
-## ⚙️ How It Works
+## 💾 Understanding the Output Files
 
-1.  **Semantic Retrieval**: Paragraphs are ranked using `all-mpnet-base-v2` embeddings.
-2.  **Argument Mining**: The LLM extracts factual evidence and assigns a **Support** or **Attack** relation.
-3.  **Graph Resolution**: A Bipolar Argumentation Graph is solved using a **Quadratic Energy Model** (via RK4) to determine the winning hypothesis.
+When you run the system, it generates structured data to document its reasoning. Here is how to interpret the results:
+
+### 1. Argumentation Graphs (`graphs/`)
+For every question, the system generates:
+* **`graph_N.png`**: A visual map of the logic. **Green dashed arrows** represent support, and **red solid arrows** represent attacks.
+* **`graph_N.json`**: The raw data for the graph, including the final **strength** (probability of truth) for each node after the energy model resolution.
 
 
+### 2. Predictions & Logs (`results/` & `results_retrieval/`)
+* **`*_test_predictions.json`**: A list of all questions processed, showing the model's choice vs. the ground truth.
+* **`*_wiki_pages.json`**: A local cache of retrieved Wikipedia paragraphs. This ensures that repeated experiments do not require new internet requests.
 
-## 🛠 Self-Healing JSON Mechanism
-One of the key features of the `LLMUser` class is its resilience. If a local model produces malformed JSON during extraction, the system automatically triggers a **Repair Agent** (e.g., Qwen3) to fix the formatting, ensuring the pipeline continues without interruption.
+### 3. Analytics (`results_retrieval/`)
+* **Baseline Logs**: These files compare the accuracy of the LLM in "Zero-shot" mode (no help) versus "Standard RAG" (plain text help). This is the key to proving that your Argumentation Graph actually improves performance.
+
+---
+
+## 📊 Experimental Workflow
+To replicate the study, follow this order:
+1. **Harvest**: `python wikipedia.py` (Cache Wikipedia content).
+2. **Tune**: `python pipeline_val.py` (Find best hyperparameters).
+3. **Benchmark**: `python baseline.py` (Get baseline accuracy).
+4. **Test**: `python pipeline_test.py` (Run the Argumentation logic).
+5. **Analyze**: `python evaluation_pipeline.py` (Generate final reports and charts).
+
 
 ---
 
 ## 🚀 Getting Started
 
-### . Prerequisites
+### 1. Prerequisites
 Ensure you have **Ollama** installed and the following models pulled:
 ```bash
 ollama pull qwen3:14b
