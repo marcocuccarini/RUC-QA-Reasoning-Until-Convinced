@@ -12,13 +12,14 @@ This project implements a sophisticated **Reasoning-based Question Answering** p
 * **`ArgumentationGraph.py`**: The mathematical core. Builds the graph and solves the Quadratic Energy Model.
 * **`PromptBuilder.py`**: Centralized prompt engineering for all LLM tasks.
 * **`utils.py`**: Utility functions for Wikipedia API fetching and Sentence-BERT ranking.
+* **`running.py`**: Main orchestrator for single-run experiments.
+
 
 ### 🚀 Execution Pipelines
 * **`pipeline_test.py`**: Runs final tests on the `test` split using optimized parameters.
 * **`pipeline_val.py`**: Evaluation engine for **Hyperparameter Grid Search**.
 * **`wikipedia.py`**: Knowledge harvester to pre-fetch and cache Wikipedia content.
 * **`baseline.py`**: Runs control group tests (Zero-shot vs Standard RAG).
-* **`running.py`**: Main orchestrator for single-run experiments.
 
 ### 📊 Evaluation & Analysis
 * **`evaluation_baseline.py`**: Calculates accuracy for baseline and standard RAG tests.
