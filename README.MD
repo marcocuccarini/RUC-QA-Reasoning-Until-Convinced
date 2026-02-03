@@ -1,6 +1,7 @@
 
 
-# 🤖 Bipolar Argumentation-based RAG System
+# 🤖 RUC-QA-Reasoning-Until-Convinced
+
 
 This project implements a sophisticated **Reasoning-based Question Answering** pipeline. Unlike standard RAG systems that provide a single text response, this system builds a **formal argumentation graph** to evaluate multiple hypotheses (answers). It uses local LLMs (via Ollama) and Argumentation Theory to determine the most logically sound answer based on evidence retrieved from Wikipedia.
 
@@ -84,6 +85,7 @@ pip install -r requirements.txt
 git clone [https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git](https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git)
 cd RUC-QA-Reasoning-Until-Convinced
 pip install -r requirements.txt
+
 
 
 
