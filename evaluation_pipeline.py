@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import re
 import matplotlib.pyplot as plt
+import random
 
 # --------------------------------------------------
 # Normalize helper
@@ -18,62 +19,50 @@ def compute_prediction_from_graph(graph_json, choice_facts):
 
     for label, fact_text in choice_facts.items():
         fact_norm = normalize(fact_text)
-
         for node_id, node_data in nodes.items():
             node_text = normalize(node_data.get("text", ""))
-
-            # relaxed match: node text ends with the choice
             if node_text.endswith(fact_norm):
                 strengths[label] = float(node_data.get("strength", 0.0))
 
     if not strengths:
         return None, {}
-
     best_value = max(strengths.values())
-
-    # collect all equally-best labels
     best_labels = [k for k, v in strengths.items() if abs(v - best_value) < 1e-9]
-
-    # NEW: random tie-breaking
-    import random
     predicted = random.choice(best_labels)
-
     return predicted, strengths
 
-
 # --------------------------------------------------
-# Evaluate graphs and print if changed
+# Evaluate graphs for one model and dataset
+# Compute both accuracies: all graphs vs modified-only
+# Also return percentage of graphs not considered
 # --------------------------------------------------
-import random
+def evaluate_graphs_for_model_dataset(model_dir, dataset_name, dataset_file):
+    dataset_path = dataset_file
+    if not dataset_path.exists():
+        print(f"❌ Dataset file not found: {dataset_path}")
+        return [], 0.0, 0.0, 0.0
 
-def evaluate_graphs_terminal(dataset_name):
-    base_path = Path("/Users/marco/Documents/GitHub/ArgMultipleChoiseQuestion/src")
-    graph_dir = base_path / "graphs" / dataset_name
-    dataset_file = base_path / "split_datasets" / f"{dataset_name.lower()}_test.json"
-
-    if not graph_dir.exists():
-        raise FileNotFoundError(f"Graph directory not found: {graph_dir}")
-    if not dataset_file.exists():
-        raise FileNotFoundError(f"Dataset file not found: {dataset_file}")
-
-    # Load dataset
-    with open(dataset_file, "r", encoding="utf-8") as f:
+    with open(dataset_path, "r", encoding="utf-8") as f:
         dataset = json.load(f)
 
+    graph_dir = model_dir / dataset_name
     results = []
-    correct = 0
-    predicted_count = 0
+    correct_all = 0
+    correct_modified = 0
+    count_all = 0
+    count_modified = 0
+    count_unconsidered = 0
 
-    print(f"\n===== Evaluating dataset: {dataset_name} =====\n")
+    if not graph_dir.exists() or not any(graph_dir.iterdir()):
+        print(f"⚠️ No graphs found for {model_dir.name} - {dataset_name}. Accuracy = 0%")
+        return [], 0.0, 0.0, 100.0
 
     for i, example in enumerate(dataset, start=1):
         graph_path = graph_dir / f"graph_{i}.json"
-
         if not graph_path.exists():
-            # Skip if graph is missing
+            count_unconsidered += 1
             continue
 
-        # Load graph
         with open(graph_path, "r", encoding="utf-8") as f:
             graph_json = json.load(f)
 
@@ -82,39 +71,41 @@ def evaluate_graphs_terminal(dataset_name):
 
         predicted, _ = compute_prediction_from_graph(graph_json, choice_facts)
 
-        # Check if graph changed
         nodes = graph_json.get("nodes", {})
         hypothesis_nodes = {nid: n for nid, n in nodes.items() if n.get("type") == "hypothesis"}
         graph_changed = any(abs(n.get("strength", 0.5) - 0.5) > 1e-9 for n in hypothesis_nodes.values())
 
-        if not graph_changed:
-            # Graph exists but uncaged → random choice
+        # Count for all-graphs accuracy
+        count_all += 1
+        if graph_changed:
+            count_modified += 1
+            if predicted.lower() == gold.lower():
+                correct_modified += 1
+        else:
+            # Random choice for unmodified graphs
             predicted = random.choice(list(choice_facts.keys()))
+            count_unconsidered += 1
 
-        is_correct = predicted.lower() == gold.lower()
-        predicted_count += 1
-        if is_correct:
-            correct += 1
+        if predicted.lower() == gold.lower():
+            correct_all += 1
 
-        results.append({"correct": is_correct, "graph_changed": graph_changed})
-        changed_text = "✅ Graph Changed" if graph_changed else "❌ Graph Unchanged → Random Choice"
-        print(f"[Q{i}] Predicted={predicted} | Gold={gold} | Correct={is_correct} | {changed_text}")
+        results.append({"correct": predicted.lower() == gold.lower(), "graph_changed": graph_changed})
 
-    if predicted_count == 0:
-        print("\n❌ No predictions were made. Accuracy cannot be computed.\n")
-        return [], 0.0
+    # Compute accuracies
+    accuracy_all = (correct_all / count_all * 100) if count_all else 0.0
+    accuracy_modified = (correct_modified / count_modified * 100) if count_modified else 0.0
+    percent_unconsidered = (count_unconsidered / len(dataset) * 100) if dataset else 0.0
 
-    accuracy = (correct / predicted_count) * 100
-    print(f"\n🎯 Final Accuracy (only actual predictions): {accuracy:.2f}%")
-    print(f"ℹ️ Predictions made: {predicted_count} / {len(dataset)}\n")
-
-    return results, accuracy
-
+    print(f"🎯 {model_dir.name} - {dataset_name}: "
+          f"Accuracy (All Graphs) = {accuracy_all:.2f}%, "
+          f"Accuracy (Modified Only) = {accuracy_modified:.2f}%, "
+          f"Unconsidered Graphs = {percent_unconsidered:.2f}%")
+    return results, accuracy_all, accuracy_modified, percent_unconsidered
 
 # --------------------------------------------------
 # Plot statistics for changed vs unchanged graphs
 # --------------------------------------------------
-def plot_graph_change_statistics(results, dataset_name):
+def plot_graph_change_statistics(results, title):
     changed_correct = 0
     changed_total = 0
     unchanged_correct = 0
@@ -122,7 +113,7 @@ def plot_graph_change_statistics(results, dataset_name):
 
     for r in results:
         if r['correct'] is None:
-            continue  # skip if no prediction
+            continue
         if r['graph_changed']:
             changed_total += 1
             if r['correct']:
@@ -134,9 +125,6 @@ def plot_graph_change_statistics(results, dataset_name):
 
     changed_acc = (changed_correct / changed_total * 100) if changed_total else 0
     unchanged_acc = (unchanged_correct / unchanged_total * 100) if unchanged_total else 0
-
-    print(f"Graphs Changed: {changed_total} | Accuracy: {changed_acc:.2f}%")
-    print(f"Graphs Unchanged: {unchanged_total} | Accuracy: {unchanged_acc:.2f}%")
 
     categories = ['Graph Changed', 'Graph Unchanged']
     accuracies = [changed_acc, unchanged_acc]
@@ -150,15 +138,51 @@ def plot_graph_change_statistics(results, dataset_name):
 
     ax.set_ylim(0, 110)
     ax.set_ylabel("Accuracy (%)")
-    ax.set_title(f"Accuracy by Graph Change Status - {dataset_name}")
+    ax.set_title(title)
     plt.show()
 
 # --------------------------------------------------
-# Main 
+# Main: iterate over all models and datasets
 # --------------------------------------------------
 if __name__ == "__main__":
-    DATASET_NAMES = ["PlausibleQA", "SciQ", "arc-easy"]
+    BASE_PATH = Path("/Users/marco/Documents/GitHub/ArgMultipleChoiseQuestion/src")
+    GRAPHS_ROOT = BASE_PATH / "graphs"
+    SPLIT_DATASETS = BASE_PATH / "split_datasets"
 
-    for dataset_name in DATASET_NAMES:
-        results, accuracy = evaluate_graphs_terminal(dataset_name)
-        plot_graph_change_statistics(results, dataset_name)
+    DATASET_NAMES = ["PlausibleQA", "SciQ", "arc-easy"]
+    model_dirs = [d for d in GRAPHS_ROOT.iterdir() if d.is_dir()]
+
+    # Store accuracies for final table
+    all_acc_all = {}
+    all_acc_modified = {}
+    all_percent_unconsidered = {}
+
+    for model_dir in model_dirs:
+        all_acc_all[model_dir.name] = {}
+        all_acc_modified[model_dir.name] = {}
+        all_percent_unconsidered[model_dir.name] = {}
+        for dataset_name in DATASET_NAMES:
+            dataset_file = SPLIT_DATASETS / f"{dataset_name.lower()}_test.json"
+            results, acc_all, acc_mod, percent_un = evaluate_graphs_for_model_dataset(
+                model_dir, dataset_name, dataset_file)
+            all_acc_all[model_dir.name][dataset_name] = acc_all
+            all_acc_modified[model_dir.name][dataset_name] = acc_mod
+            all_percent_unconsidered[model_dir.name][dataset_name] = percent_un
+
+            # Plot only if modified graphs exist
+            if results:
+                plot_graph_change_statistics(results, f"{dataset_name} - {model_dir.name}")
+
+    # Print final table
+    print("\n================= FINAL ACCURACY TABLE =================")
+    header = "Model".ljust(15) + "".join([f"{d.ljust(35)}" for d in DATASET_NAMES])
+    print(header)
+    print("-" * len(header))
+    for model_name in all_acc_all:
+        row_all = model_name.ljust(15) + "".join([f"{all_acc_all[model_name].get(d,0.0):<35.2f}" for d in DATASET_NAMES])
+        row_mod = " " * 15 + "".join([f"{all_acc_modified[model_name].get(d,0.0):<35.2f}" for d in DATASET_NAMES])
+        row_un = " " * 15 + "".join([f"{all_percent_unconsidered[model_name].get(d,0.0):<35.2f}" for d in DATASET_NAMES])
+        print(row_all)
+        print(row_mod)
+        print(row_un)
+        print()
