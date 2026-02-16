@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from itertools import product
 import math
 import time
+from configuration.hyperparameters import *
 
 
 # ---- Local imports ----
@@ -100,7 +101,30 @@ def compute_strengths_from_graph(G: ArgumentationGraph, choice_facts: dict):
 # -----------------------------
 # Run pipeline with hyperparams
 # -----------------------------
-def run_on_validation(hparams: dict, dataset: list):
+def save_detailed_predictions(results_dir, dataset_name, hparams, predictions):
+    """Saves a JSON file containing every prediction for a specific hparam set."""
+    # Create a unique filename based on hparams
+    hparam_str = (
+        f"P{hparams['TOP_PARAGRAPHS']}_"
+        f"A{hparams['MAX_ARGUMENTS']}_"
+        f"T{hparams['DEFAULT_CONFIDENCE_THRESHOLD']}_"
+        f"M{hparams['DEFAULT_CONFIDENCE_MARGIN']}"
+    )
+    
+    # Path: RESULTS_DIR / detailed_logs / sciq / preds_P5_A2...json
+    log_dir = results_dir / "detailed_logs" / dataset_name.lower()
+    log_dir.mkdir(parents=True, exist_ok=True)
+    
+    file_path = log_dir / f"preds_{hparam_str}.json"
+    
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(predictions, f, indent=2, ensure_ascii=False)
+    
+    print(f"[INFO] Detailed logs saved to {file_path}")
+
+
+
+def run_on_validation(hparams: dict, dataset: list, model="gpt-oss:20b"):
     global TOP_PARAGRAPHS, MAX_ARGUMENTS, DEFAULT_CONFIDENCE_THRESHOLD, DEFAULT_DOMINANCE_MARGIN
     TOP_PARAGRAPHS = hparams["TOP_PARAGRAPHS"]
     MAX_ARGUMENTS = hparams["MAX_ARGUMENTS"]
@@ -109,11 +133,12 @@ def run_on_validation(hparams: dict, dataset: list):
 
     correct = 0
     total = len(dataset)
+    detailed_results = []  # List to store the detailed log for each example
 
     # LLM initialization
     server = OllamaServer()
-    wiki_llm = OllamaChat(server, model="gpt-oss:20b")
-    reason_llm = OllamaChat(server, model="gpt-oss:20b")
+    wiki_llm = OllamaChat(server, model=model)
+    reason_llm = OllamaChat(server, model=model)
     wiki_user = LLMUser(wiki_llm)
     reason_user = LLMUser(reason_llm)
 
@@ -123,140 +148,109 @@ def run_on_validation(hparams: dict, dataset: list):
         answer_key = example.get("answerKey")
         choice_facts = example["facts"]
 
-        # -----------------------------
-        # Example header
-        # -----------------------------
+        # --- CRITICAL: Initialize variables to avoid NameError ---
+        predicted_label = None 
+        last_strengths = {}
+        stop = False
+        # -------------------------------------------------------
+
         print("\n" + "="*60)
         print(f"[EXAMPLE {example_idx}] Question: {question_text}")
         print(f"Choices: {choices}")
         print(f"Answer key: {answer_key}")
-        print(f"[HYPERPARAMS] TOP_PARAGRAPHS={TOP_PARAGRAPHS}, MAX_ARGUMENTS={MAX_ARGUMENTS}, "
-              f"THRESHOLD={DEFAULT_CONFIDENCE_THRESHOLD}, DOM_MARGIN={DEFAULT_DOMINANCE_MARGIN}")
         print("="*60)
 
-        # --- Robust candidate-pages normalization ---
+        # Candidate pages
         raw_pages = wiki_user.get_candidate_pages(question_text, choices, max_pages=10)
-
-        # Case 1: Already a dict → OK
+        
+        # Robust normalization of pages
         if isinstance(raw_pages, dict):
             pages = raw_pages
-
-        # Case 2: A list of tuples → convert to dict
-        elif isinstance(raw_pages, list) and all(
-            isinstance(x, (list, tuple)) and len(x) == 2 for x in raw_pages
-        ):
+        elif isinstance(raw_pages, list) and all(isinstance(x, (list, tuple)) and len(x) == 2 for x in raw_pages):
             pages = {k: v for k, v in raw_pages}
-
-        # Case 3: String or garbage → fallback to empty dict
         else:
-            print("[WARN] get_candidate_pages() returned invalid structure, using empty {}")
             pages = {}
 
         wiki_pages = fetch_wikipedia_pages(pages)
-
-        print(pages)
 
         # Argumentation graph
         G = ArgumentationGraph(debug=True)
         for label, fact_text in choice_facts.items():
             G.add_argument(fact_text, node_type="hypothesis", initial_strength=0.5)
 
-        predicted_label = None
-        last_strengths = {}
-        stop = False
-
-        # -----------------------------
-        # Loop over pages
-        # -----------------------------
+        # Processing pages
         for page_title, page in wiki_pages.items():
-            if not page:
-                continue
-
-            print(f"\n[EXAMPLE {example_idx}] Processing page: '{page_title}'")
-
-            for page_section in wiki_pages[page_title]:
-                if page_section == "Introduction":
-                    intro_text = "\n".join(page.get("Introduction", [])) if isinstance(page.get("Introduction"), list) else str(page.get("Introduction", ""))
-                    if intro_text.strip():
-                        paras = rank_paragraphs_from_text(question_text, intro_text, TOP_PARAGRAPHS)
-                        G.extend_from_text("\n".join(paras), reason_user, list(choice_facts.values()), max_arguments=MAX_ARGUMENTS)
-                        print(f"  Introduction processed.")
-
-                else:
-                    
-                    sections = page.get("Sections", {})
-                    for sec_name, sec_content in sections.items():
-                        section_text = "\n".join(sec_content) if isinstance(sec_content, list) else str(sec_content)
-                        if not section_text.strip():
-                            continue
-                    paras = rank_paragraphs_from_text(question_text, section_text, TOP_PARAGRAPHS)
-                    G.extend_from_text("\n".join(paras), reason_user, list(choice_facts.values()), max_arguments=MAX_ARGUMENTS)
-                    print(f"   Section '{sec_name}' processed.")
-
-                # Compute strengths after page
+            if not page: continue
+            
+            # Process sections (Introduction + others)
+            all_sections = [("Introduction", page.get("Introduction", []))] + list(page.get("Sections", {}).items())
+            
+            for sec_name, sec_content in all_sections:
+                section_text = "\n".join(sec_content) if isinstance(sec_content, list) else str(sec_content)
+                if not section_text.strip(): continue
+                
+                paras = rank_paragraphs_from_text(question_text, section_text, TOP_PARAGRAPHS)
+                G.extend_from_text("\n".join(paras), reason_user, list(choice_facts.values()), max_arguments=MAX_ARGUMENTS)
+                
+                # Update strengths
                 strengths = compute_strengths_from_graph(G, choice_facts)
-                strengths = {k: float(v) for k, v in strengths.items()}
-                last_strengths = strengths.copy()
-                #print(f"    [Strengths] {strengths}")
+                last_strengths = {k: float(v) for k, v in strengths.items()}
 
-                # Early stopping
-                if strengths:
-                    sorted_strengths = sorted(strengths.items(), key=lambda x: float(x[1]), reverse=True)
-
-                    print(f"    [Strengths] {sorted_strengths}")
-                    top_label, top_val = sorted_strengths[0]
-                    second_val = sorted_strengths[1][1] if len(sorted_strengths) > 1 else 0.0
+                # Check for Early Stopping
+                if last_strengths:
+                    sorted_s = sorted(last_strengths.items(), key=lambda x: x[1], reverse=True)
+                    top_label, top_val = sorted_s[0]
+                    second_val = sorted_s[1][1] if len(sorted_s) > 1 else 0.0
                     margin = top_val - second_val
 
-                    cond_confident = (top_val > (DEFAULT_CONFIDENCE_THRESHOLD - EPS))
-                    cond_margin = (margin + EPS >= DEFAULT_DOMINANCE_MARGIN)
+                    cond_confident = (top_val > (DEFAULT_CONFIDENCE_THRESHOLD - 1e-9))
+                    cond_margin = (margin + 1e-9 >= DEFAULT_DOMINANCE_MARGIN)
                     cond_absolute = (top_val > 0.95)
-
-                    print(f"    [DEBUG] cond_confident={cond_confident}, cond_margin={cond_margin}, cond_absolute={cond_absolute}")
 
                     if cond_absolute or (cond_confident and cond_margin):
                         predicted_label = top_label
-                        print(f"--> EARLY STOP: Predicted '{predicted_label}' with value={top_val:.6f} (margin={margin:.6f})")
+                        print(f"--> EARLY STOP: {predicted_label} (val={top_val:.4f})")
                         stop = True
+                        break
+            if stop: break
 
-                if stop:
-                    break
-
-            if stop:
-                break
-
-        # -----------------------------
-        # Fallback if no early stop
-        # -----------------------------
+        # --- Fallback Logic if no early stop occurred ---
         if predicted_label is None:
-            sorted_strengths = sorted(last_strengths.items(), key=lambda x: float(x[1]), reverse=True)
-
-            if not sorted_strengths:
+            if not last_strengths:
                 predicted_label = random.choice(list(choice_facts.keys()))
-                print(f"--> FINAL CHOICE fallback: no strengths at all, choosing random '{predicted_label}'")
+                print(f"--> FALLBACK: Random choice '{predicted_label}'")
             else:
-                best_value = sorted_strengths[0][1]
-                best_candidates = [label for label, value in sorted_strengths if abs(value - best_value) < 1e-9]
-                predicted_label = random.choice(best_candidates)
-                print(f"--> FINAL CHOICE (no early stop): {predicted_label} (tied: {best_candidates}, value={best_value})")
+                sorted_s = sorted(last_strengths.items(), key=lambda x: x[1], reverse=True)
+                best_val = sorted_s[0][1]
+                candidates = [l for l, v in sorted_s if abs(v - best_val) < 1e-9]
+                predicted_label = random.choice(candidates)
+                print(f"--> FALLBACK: Best strength '{predicted_label}'")
 
-        # -----------------------------
-        # Accuracy logging
-        # -----------------------------
-        if predicted_label and answer_key and predicted_label.strip().lower() == answer_key.strip().lower():
+        # --- Final Scoring and Logging ---
+        is_correct = False
+        if predicted_label and answer_key and str(predicted_label).strip().lower() == str(answer_key).strip().lower():
             correct += 1
-            print(f"[EXAMPLE {example_idx}] ✅ Correct (predicted {predicted_label} == gold {answer_key})")
+            is_correct = True
+            print(f"✅ CORRECT")
         else:
-            print(f"[EXAMPLE {example_idx}] ❌ Incorrect (predicted {predicted_label} != gold {answer_key})")
+            print(f"❌ INCORRECT (Gold: {answer_key})")
+
+        detailed_results.append({
+            "predicted": choices.get(predicted_label, "None"),
+            "gold": choices.get(answer_key, "None"),
+            "correct": is_correct,
+            "label_predicted": predicted_label,
+            "label_gold": answer_key,
+            "graph_changed": True
+        })
 
     accuracy = 100.0 * correct / total if total > 0 else 0.0
-    return accuracy
-
+    return accuracy, detailed_results
 
 # =====================================================
 # Main test pipeline WITH EARLY STOP
 # =====================================================
-def run_on_test(best_hparams, dataset, graph_dir, use_intro_only=True, dataset_sample=None):
+def run_on_test(best_hparams, dataset, graph_dir, use_intro_only=True, dataset_sample=None, model="gpt-oss:20b"):
 
     TOP_PARAGRAPHS = best_hparams["TOP_PARAGRAPHS"]
     MAX_ARGUMENTS = best_hparams["MAX_ARGUMENTS"]

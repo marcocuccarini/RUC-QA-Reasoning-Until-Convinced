@@ -7,7 +7,6 @@ matplotlib.use("Agg")  # Non-interactive backend
 from pathlib import Path
 from typing import Dict, List, Tuple
 import json
-from configuration.hyperparameters import PRUNE_ISOLATED_ARGUMENTS
 
 class ArgumentationGraph:
 

@@ -8,12 +8,12 @@ from classes.utils import rank_paragraphs_from_text
 # =====================================================
 # CONFIG
 # =====================================================
-MODELS = ["gpt-oss:20b"]
+MODELS = ["qwen3:14b","gpt-oss:20b"]
 
 DATASETS = [
     "plausibleqa_test.json",
-    #"sciq_test.json",
-    #"arc-easy_test.json"
+    "sciq_test.json",
+    "arc-easy_test.json"
 ]
 
 TOP_PARAGRAPHS = [2, 5, 10, 15]
