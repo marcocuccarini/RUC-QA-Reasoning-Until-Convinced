@@ -124,65 +124,47 @@ def save_detailed_predictions(results_dir, dataset_name, hparams, predictions):
 
 
 
-def run_on_validation(hparams: dict, dataset: list, model="gpt-oss:20b"):
+def run_on_validation_generator(hparams: dict, dataset: list, model="gpt-oss:20b", dataset_name="unknown", start_idx=0):
     global TOP_PARAGRAPHS, MAX_ARGUMENTS, DEFAULT_CONFIDENCE_THRESHOLD, DEFAULT_DOMINANCE_MARGIN
     TOP_PARAGRAPHS = hparams["TOP_PARAGRAPHS"]
     MAX_ARGUMENTS = hparams["MAX_ARGUMENTS"]
     DEFAULT_CONFIDENCE_THRESHOLD = hparams["DEFAULT_CONFIDENCE_THRESHOLD"]
     DEFAULT_DOMINANCE_MARGIN = hparams["DEFAULT_CONFIDENCE_MARGIN"]
 
-    correct = 0
-    total = len(dataset)
-    detailed_results = []  # List to store the detailed log for each example
+    # --- Setup Graph Saving Path ---
+    # This creates: hyperparameters_search/model_name/graphs/dataset_name/P5_A2_...
+    hparam_str = f"P{TOP_PARAGRAPHS}_A{MAX_ARGUMENTS}_T{DEFAULT_CONFIDENCE_THRESHOLD}"
+    graph_out_dir = Path("hyperparameters_search") / model.replace(":", "_") / "graphs" / dataset_name.lower() / hparam_str
+    graph_out_dir.mkdir(parents=True, exist_ok=True)
 
-    # LLM initialization
     server = OllamaServer()
     wiki_llm = OllamaChat(server, model=model)
     reason_llm = OllamaChat(server, model=model)
     wiki_user = LLMUser(wiki_llm)
     reason_user = LLMUser(reason_llm)
 
-    for example_idx, example in enumerate(dataset, 1):
+    for example_idx, example in enumerate(dataset[start_idx:], start_idx + 1):
         question_text = example["question"]
         choices = example["choices"]
         answer_key = example.get("answerKey")
         choice_facts = example["facts"]
 
-        # --- CRITICAL: Initialize variables to avoid NameError ---
         predicted_label = None 
         last_strengths = {}
         stop = False
-        # -------------------------------------------------------
 
-        print("\n" + "="*60)
-        print(f"[EXAMPLE {example_idx}] Question: {question_text}")
-        print(f"Choices: {choices}")
-        print(f"Answer key: {answer_key}")
-        print("="*60)
+        print(f"\n[EXAMPLE {example_idx}/{len(dataset)}] Processing...")
 
-        # Candidate pages
         raw_pages = wiki_user.get_candidate_pages(question_text, choices, max_pages=10)
-        
-        # Robust normalization of pages
-        if isinstance(raw_pages, dict):
-            pages = raw_pages
-        elif isinstance(raw_pages, list) and all(isinstance(x, (list, tuple)) and len(x) == 2 for x in raw_pages):
-            pages = {k: v for k, v in raw_pages}
-        else:
-            pages = {}
-
+        pages = {k: v for k, v in raw_pages} if isinstance(raw_pages, dict) else {}
         wiki_pages = fetch_wikipedia_pages(pages)
-
-        # Argumentation graph
-        G = ArgumentationGraph(debug=True)
+        
+        G = ArgumentationGraph(debug=False)
         for label, fact_text in choice_facts.items():
             G.add_argument(fact_text, node_type="hypothesis", initial_strength=0.5)
 
-        # Processing pages
         for page_title, page in wiki_pages.items():
             if not page: continue
-            
-            # Process sections (Introduction + others)
             all_sections = [("Introduction", page.get("Introduction", []))] + list(page.get("Sections", {}).items())
             
             for sec_name, sec_content in all_sections:
@@ -192,64 +174,48 @@ def run_on_validation(hparams: dict, dataset: list, model="gpt-oss:20b"):
                 paras = rank_paragraphs_from_text(question_text, section_text, TOP_PARAGRAPHS)
                 G.extend_from_text("\n".join(paras), reason_user, list(choice_facts.values()), max_arguments=MAX_ARGUMENTS)
                 
-                # Update strengths
                 strengths = compute_strengths_from_graph(G, choice_facts)
                 last_strengths = {k: float(v) for k, v in strengths.items()}
 
-                # Check for Early Stopping
                 if last_strengths:
                     sorted_s = sorted(last_strengths.items(), key=lambda x: x[1], reverse=True)
                     top_label, top_val = sorted_s[0]
                     second_val = sorted_s[1][1] if len(sorted_s) > 1 else 0.0
                     margin = top_val - second_val
 
-                    cond_confident = (top_val > (DEFAULT_CONFIDENCE_THRESHOLD - 1e-9))
-                    cond_margin = (margin + 1e-9 >= DEFAULT_DOMINANCE_MARGIN)
-                    cond_absolute = (top_val > 0.95)
-
-                    if cond_absolute or (cond_confident and cond_margin):
+                    if (top_val > 0.95) or (top_val > (DEFAULT_CONFIDENCE_THRESHOLD - 1e-9) and (margin + 1e-9 >= DEFAULT_DOMINANCE_MARGIN)):
                         predicted_label = top_label
-                        print(f"--> EARLY STOP: {predicted_label} (val={top_val:.4f})")
                         stop = True
                         break
             if stop: break
 
-        # --- Fallback Logic if no early stop occurred ---
         if predicted_label is None:
             if not last_strengths:
                 predicted_label = random.choice(list(choice_facts.keys()))
-                print(f"--> FALLBACK: Random choice '{predicted_label}'")
             else:
                 sorted_s = sorted(last_strengths.items(), key=lambda x: x[1], reverse=True)
                 best_val = sorted_s[0][1]
                 candidates = [l for l, v in sorted_s if abs(v - best_val) < 1e-9]
                 predicted_label = random.choice(candidates)
-                print(f"--> FALLBACK: Best strength '{predicted_label}'")
 
-        # --- Final Scoring and Logging ---
-        is_correct = False
-        if predicted_label and answer_key and str(predicted_label).strip().lower() == str(answer_key).strip().lower():
-            correct += 1
-            is_correct = True
-            print(f"✅ CORRECT")
-        else:
-            print(f"❌ INCORRECT (Gold: {answer_key})")
+        # --- NEW: SAVE THE GRAPH FILE ---
+        graph_file_path = graph_out_dir / f"example_{example_idx}.json"
+        export_graph(G, graph_file_path)
 
-        detailed_results.append({
-            "predicted": choices.get(predicted_label, "None"),
-            "gold": choices.get(answer_key, "None"),
-            "correct": is_correct,
-            "label_predicted": predicted_label,
-            "label_gold": answer_key,
-            "graph_changed": True
-        })
+        is_correct = str(predicted_label).strip().lower() == str(answer_key).strip().lower()
+        
+        yield {
+            "example_idx": example_idx,
+            "predicted_label": predicted_label,
+            "is_correct": is_correct,
+            "details": {
+                "question": question_text,
+                "gold": answer_key,
+                "strengths": last_strengths
+            }
+        }
 
-    accuracy = 100.0 * correct / total if total > 0 else 0.0
-    return accuracy, detailed_results
-
-# =====================================================
-# Main test pipeline WITH EARLY STOP
-# =====================================================
+        
 def run_on_test(best_hparams, dataset, graph_dir, use_intro_only=True, dataset_sample=None, model="gpt-oss:20b"):
 
     TOP_PARAGRAPHS = best_hparams["TOP_PARAGRAPHS"]
