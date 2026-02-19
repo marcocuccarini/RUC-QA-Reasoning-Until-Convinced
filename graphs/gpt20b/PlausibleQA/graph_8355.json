@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor committed suicide in 68 AD after being declared an enemy of the state by the senate. Caligula",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor committed suicide in 68 AD after being declared an enemy of the state by the senate. Claudius",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor committed suicide in 68 AD after being declared an enemy of the state by the senate. Galba",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Roman Emperor committed suicide in 68 AD after being declared an enemy of the state by the senate. NERO",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nero then committed assisted suicide with help from his secretary.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Galba was killed by the Praetorians on 15 January.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

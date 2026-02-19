@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose personal aircraft is known as ‚Shepherd One‛. Archbishop of Canterbury",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose personal aircraft is known as ‚Shepherd One‛. Billy Graham",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose personal aircraft is known as ‚Shepherd One‛. Dalai Lama",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose personal aircraft is known as ‚Shepherd One‛. POPE",
+      "strength": 0.32010860768953675
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text provides details about papal travel but makes no reference to any personal aircraft.",
+      "strength": 0.7499645112339329
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Eugenio Pacelli's 1936 visit to the United States.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Papal visits to Brazil.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

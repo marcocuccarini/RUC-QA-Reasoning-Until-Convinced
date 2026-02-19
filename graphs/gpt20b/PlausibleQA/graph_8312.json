@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who played in the stanley cup finals last year. Tampa Bay Lightning",
+      "strength": 0.8460606499178676
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who played in the stanley cup finals last year. Colorado Avalanche",
+      "strength": 0.7499999066099569
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who played in the stanley cup finals last year. Boston Bruins",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who played in the stanley cup finals last year. Pittsburgh Penguins",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The series was between the Eastern Conference and two-time defending Stanley Cup champion Tampa Bay Lightning and the Western Conference champion Colorado Avalanche.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Avalanche defeated the Lightning four games to two in the best-of-seven series, earning their third Stanley Cup championship in franchise history and first since 2001.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "As a result, they remain the only active NHL team that has won all of its appearances in the Stanley Cup Final.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "defeating the two-time defending champion Tampa Bay Lightning in six games.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In the 2020 Stanley Cup Final, the Lightning met the Dallas Stars.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

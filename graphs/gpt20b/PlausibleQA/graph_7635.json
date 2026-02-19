@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In medicine the MMR vaccination gives protection against which diseases. Meningitis, Mononucleosis, and Rabies",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In medicine the MMR vaccination gives protection against which diseases. Influenza, Hepatitis, and Rotavirus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In medicine the MMR vaccination gives protection against which diseases. Chickenpox, Shingles, and Pertussis",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In medicine the MMR vaccination gives protection against which diseases. Measles, Mumps and Rubella",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "After two doses, 97% of people are protected against measles, 88% against mumps, and at least 97% against rubella.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The MMRV vaccine, a combined measles, mumps, rubella, and varicella (chickenpox) vaccine is used as a replacement for the MMR vaccine to simplify the administration of the vaccines.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

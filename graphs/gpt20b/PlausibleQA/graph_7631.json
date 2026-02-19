@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Pope John Paul 11 became which club's 108.000th member. Manchester United",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Pope John Paul 11 became which club's 108.000th member. Real Madrid",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Pope John Paul 11 became which club's 108.000th member. Bayern Munich",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Pope John Paul 11 became which club's 108.000th member. Barcelone",
+      "strength": 0.40000008069533344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pope John Paul II was an honorary member.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "FC Bayern Munich at UEFA",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Flanders is part of what country. Netherlands",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Flanders is part of what country. France",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Flanders is part of what country. Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Flanders is part of what country. Beljum",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The country is divided into three highly autonomous regions: the Flemish Region (Flanders) in the north, the Walloon Region (Wallonia) in the south, and the Brussels-Capital Region in the middle.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Belgium is a parliamentary constitutional monarchy with a complex federal system structured on regional and linguistic grounds.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Flemish Region has an area of 13,626 km2 and accounts for only 45% of Belgium's territory, but 58% of its population.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Flemish Region is governed by the Flemish Community institutions.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

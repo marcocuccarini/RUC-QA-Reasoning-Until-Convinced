@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. Texas Rangers",
+      "strength": 0.14054418385373557
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. Philadelphia Phillies",
+      "strength": 0.36764722213924445
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. New York Yankees",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which baseball team won the World Series in 2011. Slcards",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the Cardinals defeated the Rangers in seven games to win their 11th World Series championship.",
+      "strength": 0.599999968478157
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The World Series began on October 19 and ended on October 28, with the St. Louis Cardinals winning in seven games over the Texas Rangers.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "the St. Louis Cardinals winning in seven games over the Texas Rangers.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Cardinals last the final game, 6-2, clinching their 11th World Series championship.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

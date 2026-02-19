@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Fidelio",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Ariadne",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Lohengrin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of Beethoven's only opera. Leonore",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Fidelio (; German: [fiˈdeːlio]), originally titled Leonore, oder Der Triumph der ehelichen Liebe (Leonore, or The Triumph of Marital Love), Op. 72, is the sole opera by German composer Ludwig van Beethoven.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Fidelio premiered at Vienna's Theater an der Wien on 20 November 1805.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

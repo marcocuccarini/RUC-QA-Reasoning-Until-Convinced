@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Where, since 1839, is the Grand National Steeplechase run over 4 1/2 miles in England in March. Newmarket",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Where, since 1839, is the Grand National Steeplechase run over 4 1/2 miles in England in March. Cheltenham",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Where, since 1839, is the Grand National Steeplechase run over 4 1/2 miles in England in March. Epsom",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Where, since 1839, is the Grand National Steeplechase run over 4 1/2 miles in England in March. Aintree",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The racecourse is the venue for the Grand National steeplechase",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Grand National steeplechase takes place annually in April over three days at Aintree",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Grand National is a National Hunt horse race held annually at Aintree Racecourse in Aintree, Merseyside, England.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what country did adolf hitler control. Austria",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what country did adolf hitler control. Italy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what country did adolf hitler control. Poland",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what country did adolf hitler control. Germany",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hitler seized Austria in the Anschluss of 1938.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Germany invaded Poland in 1939.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He was the dictator of Germany during the Nazi era, which lasted from 1933 until his suicide in 1945.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "He rose to power as the leader of the Nazi Party, becoming the chancellor of Germany in 1933 and then taking the title of Führer und Reichskanzler in 1934.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

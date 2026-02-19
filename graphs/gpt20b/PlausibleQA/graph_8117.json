@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who rules denmark right now. Mette Frederiksen",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who rules denmark right now. Queen Margrethe II",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who rules denmark right now. Lars Løkke Rasmussen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who rules denmark right now. Helle Thorning-Schmidt",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Margrethe II reigned as Queen of Denmark from 14 January 1972 until her abdication on 14 January 2024.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Frederiksen has served as Prime Minister of Denmark since 2019",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Frederiksen was commissioned by Queen Margrethe II to lead negotiations to form a new government, and was sworn in as prime minister on 27 June",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

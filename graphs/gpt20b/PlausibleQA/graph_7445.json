@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In ‘Follow That Camel’, the fourteenth Carry On film, Sid James was replaced by which US actor. Bob Hope",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In ‘Follow That Camel’, the fourteenth Carry On film, Sid James was replaced by which US actor. Jerry Lewis",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In ‘Follow That Camel’, the fourteenth Carry On film, Sid James was replaced by which US actor. Milton Berle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In ‘Follow That Camel’, the fourteenth Carry On film, Sid James was replaced by which US actor. Phil Silvers",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Phil Silvers (in his only Carry On) is heavily featured in a Sergeant Bilko-esque role.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "James's part was recast.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

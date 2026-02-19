@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sean Connery's first Oscar was awarded for his role in which film. The Hunt for Red October",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sean Connery's first Oscar was awarded for his role in which film. Indiana Jones and the Last Crusade",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sean Connery's first Oscar was awarded for his role in which film. The Name of the Rose",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sean Connery's first Oscar was awarded for his role in which film. Untouchable",
+      "strength": 0.39990837224359577
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Intouchable is a French hip hop / rap band.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nicky Barnes was nicknamed 'Mr. Untouchable'.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For his role in The Untouchables (1987), he received the Academy Award for Best Supporting Actor",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

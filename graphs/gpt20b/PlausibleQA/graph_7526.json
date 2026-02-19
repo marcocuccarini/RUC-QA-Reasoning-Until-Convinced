@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which American band had a 1970’s UK hit with ‘Let’s Work Together’. The Doors",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which American band had a 1970’s UK hit with ‘Let’s Work Together’. Lynyrd Skynyrd",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which American band had a 1970’s UK hit with ‘Let’s Work Together’. The Eagles",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which American band had a 1970’s UK hit with ‘Let’s Work Together’. Canned Heat",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Canned Heat had a big hit with 'Let's Work Together' and was the band's only top forty hit to feature the vocals of Bob 'The Bear' Hite.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "'Let's Work Together', a Wilbert Harrison song, was the single chosen for release in Europe to coincide with the tour.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

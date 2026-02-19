@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the yacht that won the Royal Yacht Squadron's regatta around the Isle of Wight in 1851 and lent its name to a famous sports prize. America",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the yacht that won the Royal Yacht Squadron's regatta around the Isle of Wight in 1851 and lent its name to a famous sports prize. Britannia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the yacht that won the Royal Yacht Squadron's regatta around the Isle of Wight in 1851 and lent its name to a famous sports prize. Ranger",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the yacht that won the Royal Yacht Squadron's regatta around the Isle of Wight in 1851 and lent its name to a famous sports prize. US",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "America won the Royal Yacht Squadron's 53-mile regatta around the Isle of Wight by 18 minutes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Squadron's 'One Hundred Sovereign Cup' or '£100 Cup', sometimes mistakenly known in America as the 'One Hundred Guinea Cup', was later renamed after the original winning yacht.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did the taliban began. Pakistan",
+      "strength": 0.7499372581016508
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did the taliban began. Iran",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did the taliban began. Saudi Arabia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did the taliban began. Afghanistan",
+      "strength": 0.5690757448182693
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pakistan was heavily involved in creating the Taliban in 1994.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Taliban's roots lie in the religious schools of Kandahar and were influenced significantly by foreign support, particularly from Pakistan and Saudi Arabia, during the Soviet–Afghan War.",
+      "strength": 0.4000418012174884
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Taliban emerged in September 1994 as a movement and militia of students (talib) from Islamic madrassas (schools) in Pakistan, who soon had military support from Pakistan.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Taliban emerged in September 1994 as a movement and militia of students (talib) from Islamic madrassas (schools) in Pakistan",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

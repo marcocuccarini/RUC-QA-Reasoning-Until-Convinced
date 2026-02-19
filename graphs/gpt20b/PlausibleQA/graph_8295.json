@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who wrote lyrics for phantom of the opera. Andrew Lloyd Webber",
+      "strength": 0.4000611252761509
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who wrote lyrics for phantom of the opera. Tim Rice",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who wrote lyrics for phantom of the opera. Stephen Sondheim",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who wrote lyrics for phantom of the opera. Charles Hart",
+      "strength": 0.39990837224359577
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Charles Hart (actor) (1625–1683), British actor",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Charles E. Hart (1900–1991), American general",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Charles Hart wrote the lyrics for Phantom.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

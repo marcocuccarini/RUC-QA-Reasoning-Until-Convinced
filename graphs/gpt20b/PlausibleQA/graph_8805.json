@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Gibson Les Paul",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Rickenbacker 360",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Epiphone Casino",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what kind of guitar did george harrison use. Fender Stratocaster",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first recording by The Beatles of this new model 360/12 can be heard on the song 'If I Needed Someone'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "George Harrison of The Beatles had been extensively using an earlier style 360/12 (closer resembling the 330/12 model), but retired it immediately from stage performances upon receiving the new style 360/12 (having rounded cutaways and top edge) in August 1965.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

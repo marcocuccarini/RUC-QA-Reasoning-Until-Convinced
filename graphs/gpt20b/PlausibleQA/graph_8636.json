@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which English football club won the FA Cup Final in 1946, the first after World War Two. Derby County",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which English football club won the FA Cup Final in 1946, the first after World War Two. Bolton Wanderers",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which English football club won the FA Cup Final in 1946, the first after World War Two. Charlton Athletic",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which English football club won the FA Cup Final in 1946, the first after World War Two. Rammie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Additionally, the club was a strong force in the interwar years – finishing league runner-up twice in the 1930s – and winning the first post-war FA Cup in 1946.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Derby were one step ahead of the opposition when competitive football resumed with the 1946 FA Cup and won their first major trophy with a 4–1 victory over Charlton Athletic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what was queen elizabeth ii childhood nickname. Rosie",
+      "strength": 0.32010739143018496
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what was queen elizabeth ii childhood nickname. Lizzy",
+      "strength": 0.32010739143018496
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what was queen elizabeth ii childhood nickname. Betsy",
+      "strength": 0.4000248516827281
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what was queen elizabeth ii childhood nickname. Lillibet",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She was affectionately called 'Lilibet' by her close family, based on what she called herself at first.",
+      "strength": 0.7499627130761796
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Prince Archie and Princess Lilibet of Sussex; Princess Beatrice; Princess Eugenie; and Prince Michael of Kent and Prince Michael of Kent.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Her childhood nickname was Lilibet.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Queen Elizabeth II was not called Betsy; her nickname was Lilibet.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

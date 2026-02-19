@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. Church Committee",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. Rockefeller Commission",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. House Select Committee on Assassinations",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which commission was set up to investigate the assassination of JFK. Warren Report",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Church Committee carried out investigative work on the assassination of John F. Kennedy on November 22, 1963, questioning 50 witnesses and accessing 3,000 documents.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The President's Commission on the Assassination of President Kennedy, known unofficially as the Warren Commission, was established by President Lyndon B. Johnson through Executive Order 11130 on November 29, 1963, to investigate the assassination of United States President John F. Kennedy that had taken place on November 22, 1963.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The United States House of Representatives Select Committee on Assassinations (HSCA) was established on September 15, 1976 by U.S. House Resolution 1540 to investigate the assassinations of John F. Kennedy and Martin Luther King Jr. in 1963 and 1968, respectively.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Church Commission also conducted an investigation into the assassination of John F. Kennedy in 1963, concluding that the federal agencies the FBI and the CIA had failed in their duties and responsibilities and that the investigation into the assassination had been deficient.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

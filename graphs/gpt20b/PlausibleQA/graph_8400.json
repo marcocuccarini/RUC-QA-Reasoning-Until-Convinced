@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who founded the kkk. Nathan Bedford Forrest",
+      "strength": 0.25008469270408856
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who founded the kkk. John C. Calhoun",
+      "strength": 0.40000005409169953
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who founded the kkk. Jefferson Davis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who founded the kkk. David Duke",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first Klan was established in Pulaski, Tennessee, on December 24, 1865, by six former officers of the Confederate Army: Frank McCord, Richard Reed, John Lester, John Kennedy, J. Calvin Jones, and James Crowe.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Forrest joined the Ku Klux Klan in 1867, two years after the organization's founding, and was elected its first Grand Wizard.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

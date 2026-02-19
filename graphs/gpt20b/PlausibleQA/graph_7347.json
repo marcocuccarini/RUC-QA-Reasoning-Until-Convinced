@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. Colin Powell",
+      "strength": 0.15390732683151048
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. Dick Cheney",
+      "strength": 0.4000000000376538
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. George Tenet",
+      "strength": 0.2500954907572107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was US Defence Secretary during the 'war' against Afghanistan. Ramsfeld",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was the 65th United States secretary of state from 2001 to 2005.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Donald Rumsfeld served as secretary of defense for ten days fewer than McNamara.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Following the resignation of CIA director George Tenet in 2004, Bush nominated Porter Goss to head the agency.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Secretary of State Colin Powell had served as chairman of the Joint Chiefs of Staff under the first president Bush.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "George Tenet was CIA director from 2001 to 2004.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

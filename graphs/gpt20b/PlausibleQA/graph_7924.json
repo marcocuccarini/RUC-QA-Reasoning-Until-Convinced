@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what time zone is toronto gmt. Eastern Standard Time",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what time zone is toronto gmt. Atlantic Time Zone",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what time zone is toronto gmt. Central Time Zone",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what time zone is toronto gmt. North American Eastern Time Zone",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Ontario, excluding western regions, is part of the Eastern Time Zone.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

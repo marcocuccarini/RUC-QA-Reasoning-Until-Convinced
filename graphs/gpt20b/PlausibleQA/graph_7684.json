@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Constantia, famous as a wine growing area, is a suburb of which South African city. Cape Town",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Constantia, famous as a wine growing area, is a suburb of which South African city. Stellenbosch",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Constantia, famous as a wine growing area, is a suburb of which South African city. Johannesburg",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Constantia, famous as a wine growing area, is a suburb of which South African city. IKapa",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cape Town is also the home of the South African wine industry with the first wine produced in the country being bottled in the city; a number of notable wineries still exist in the city including Groot Constantia and Klein Constantia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The city is home to some of South Africa's most expensive neighborhoods, including Constantia and Bishopscourt in the Southern Suburbs.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

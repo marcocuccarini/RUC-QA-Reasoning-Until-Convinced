@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "To which species does the Gnu or Wildebeest belong. Bovidae",
+      "strength": 0.7736590563408734
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "To which species does the Gnu or Wildebeest belong. Equidae",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "To which species does the Gnu or Wildebeest belong. Cervidae",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "To which species does the Gnu or Wildebeest belong. ANTELOPE",
+      "strength": 0.5999999999752597
+    },
+    "A4": {
+      "type": "argument",
+      "text": "They belong to the family Bovidae, which includes true antelopes, cattle, goats, sheep, and other even-toed horned ungulates.",
+      "strength": 0.5999999741920976
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wildebeest are antelopes of the genus Connochaetes.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "It is placed under the family Bovidae and subfamily Alcelaphinae, where its closest relatives are the hartebeest (Alcelaphus spp. ), the hirola (Beatragus hunteri), and species in the genus Damaliscus, such as the topi, the tsessebe, the blesbok and the bontebok.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The black wildebeest is a member of the genus Connochaetes and family Bovidae.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

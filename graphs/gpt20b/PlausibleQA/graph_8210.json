@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Amanuensis is an archaic word for what profession. Scribe",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Amanuensis is an archaic word for what profession. Clerk",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Amanuensis is an archaic word for what profession. Translator",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Amanuensis is an archaic word for what profession. Sec'y",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In ancient Rome, an amanuensis (Latin āmanuēnsis, “secretary”, from ab-, “from” + manus, “hand”) was a slave or freedperson who provided literary and secretarial services such as taking dictation and perhaps assisting in composition.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "An amanuensis might act as a translator as well as transcriber.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The responsibilities of clerical workers commonly include record keeping, filing, staffing service counters, screening callers, and other administrative tasks.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

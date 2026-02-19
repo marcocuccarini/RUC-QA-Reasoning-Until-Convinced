@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Adolf Hitler",
+      "strength": 0.0825136344034349
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Benito Mussolini's brother",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Hermann Göring",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was shot and killed along with his mistress Clara Petacci on 28th April 1945. Musilini",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mussolini and his mistress Clara Petacci were captured by communist partisans and executed on 28 April 1945.",
+      "strength": 0.749999999924455
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Adolf Hitler made Mussolini the figurehead of a puppet state in German-occupied north Italy, the Italian Social Republic.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On the following day, the bodies of Mussolini and Petacci were taken to Piazzale Loreto in Milan and hung upside down in front of a petrol station.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "On 28 April, she and Mussolini were taken to Mezzegra and executed.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Hitler killed himself in Berlin, shortly before the city fell to the Red Army.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Mussolini was captured and killed by Italian partisans on 28 April as he and an entourage attempted to flee.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

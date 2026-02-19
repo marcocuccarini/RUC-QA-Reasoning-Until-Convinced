@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Modest Mussorgsky",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Sergei Prokofiev",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Alexander Borodin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose last opera was 'The Golden Cockerel'. Rimsy-korsakov",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Golden Cockerel (Russian: Золотой петушок, romanized: Zolotoy petushok ) is an opera in three acts, with a short prologue and an even shorter epilogue, composed by Nikolai Rimsky-Korsakov, his last complete opera, before his death in 1908.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The opera was completed in 1907, and premiered in 1909, in Moscow, after the composer's death.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "which countries speak germanic languages. Germans",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "which countries speak germanic languages. Swedes",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "which countries speak germanic languages. Dutch",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "which countries speak germanic languages. Danes",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "German is a language of Austria, Belgium, Germany, Liechtenstein, Luxembourg and Switzerland; it also has regional status in Italy, Poland, Namibia and Denmark.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Dutch is an official language of Aruba, Belgium, Curaçao, the Netherlands, Sint Maarten, and Suriname.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "German is the majority and official (or co‑official) language in Germany, Austria, Switzerland, and Liechtenstein.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The North Germanic branch survives in modern Danish, Swedish, Norwegian, Faroese, and Icelandic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

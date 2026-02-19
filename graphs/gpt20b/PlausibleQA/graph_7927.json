@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the main attraction at Taronga Park, Sydney. Aquarium",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the main attraction at Taronga Park, Sydney. Botanical Garden",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the main attraction at Taronga Park, Sydney. Wildlife Sanctuary",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the main attraction at Taronga Park, Sydney. ZOO",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Taronga Zoo Sydney is a government-run public zoo located in Sydney, New South Wales, Australia",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Taronga Zoo Sydney has a zoo shop, a cafe, and an information centre.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

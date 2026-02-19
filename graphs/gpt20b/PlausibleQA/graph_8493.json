@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the plastic bit on the end of shoelaces. Tiplet",
+      "strength": 0.25009176364520974
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the plastic bit on the end of shoelaces. Lacecap",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the plastic bit on the end of shoelaces. Cordstop",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the plastic bit on the end of shoelaces. Agnet",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An aglet ( AG-lət) or aiglet is a small sheath, often made of plastic or metal, attached at each end of a shoelace, a cord, or a drawstring.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The machines wrap plastic tape around the end of new shoelaces and use heat or chemicals to melt the plastic onto the shoelace and bond the plastic to itself.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

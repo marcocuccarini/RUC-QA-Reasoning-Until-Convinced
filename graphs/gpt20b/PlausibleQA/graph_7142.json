@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. The Godfather: Part III",
+      "strength": 0.2263459708706336
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. Terminator 2: Judgment Day",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. Aliens",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What film was the first sequel to win a Best Picture Oscar. TGP2",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Godfather Part II was the first sequel to win Best Picture.",
+      "strength": 0.5999716981983361
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Godfather Part II and The Lord of the Rings: The Return of the King are the only sequels to have won the award.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The second film in the Godfather series won Best Picture for 1974.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

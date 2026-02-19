@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where do the blood vessels that supply the retinal cells lie. Choroid",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where do the blood vessels that supply the retinal cells lie. Retinal pigment epithelium",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where do the blood vessels that supply the retinal cells lie. Macula",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where do the blood vessels that supply the retinal cells lie. optic nerve",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The choroid provides oxygen and nourishment to the outer layers of the retina.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The retinal circulation, on the other hand, derives its circulation from the central retinal artery, also a branch of the ophthalmic artery, but passing in conjunction with the optic nerve.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The ophthalmic artery bifurcates and supplies the retina via two distinct vascular networks: the choroidal network, which supplies the choroid and the outer retina, and the retinal network, which supplies the retina's inner layer.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The optic nerve carries the ganglion-cell axons to the brain, and the blood vessels that supply the retina.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The RPE compose the outer blood–retinal barrier, the epithelia has tight junctions between the lateral surfaces and implies an isolation of the inner retina from the systemic influences.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The RPE is an epithelium which closely interacts with photoreceptors on one side but must also be able to interact with cells on the blood side of the epithelium, such as endothelial cells or cells of the immune system.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

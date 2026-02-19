@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Grizzled Giant, Southern Flying and Provost’s are all types of which creature. Monkey",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Grizzled Giant, Southern Flying and Provost’s are all types of which creature. Eagle",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Grizzled Giant, Southern Flying and Provost’s are all types of which creature. Bear",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Grizzled Giant, Southern Flying and Provost’s are all types of which creature. Squirl",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Squirrels are generally small animals, ranging in size from the African pygmy squirrel and least pygmy squirrel at 10–14 cm (3.9–5.5 in) in total length and just 12–26 g (0.42–0.92 oz) in weight, to the Bhutan giant flying squirrel at up to 1.27 m (4 ft 2 in) in total length, and several marmot species, which can weigh 8 kg (18 lb) or more.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Squirrels are generally small animals.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

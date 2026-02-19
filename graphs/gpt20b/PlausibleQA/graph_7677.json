@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was US Attorney General from January 1961 until September 1964 and a Senator for New York from January 1965 until June 1968. Robert Byrd",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was US Attorney General from January 1961 until September 1964 and a Senator for New York from January 1965 until June 1968. Nicholas Katzenbach",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was US Attorney General from January 1961 until September 1964 and a Senator for New York from January 1965 until June 1968. Ramsey Clark",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was US Attorney General from January 1961 until September 1964 and a Senator for New York from January 1965 until June 1968. RFK",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Kennedy was appointed United States attorney general at the age of 35, one of the youngest cabinet members in American history.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Kennedy left to run for the U.S. Senate from New York in 1964 and defeated Republican incumbent Kenneth Keating, overcoming criticism that he was a 'carpetbagger' from Massachusetts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

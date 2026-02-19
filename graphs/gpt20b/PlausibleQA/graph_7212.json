@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of india pakistan border. Radcliffe Line",
+      "strength": 0.6643322260202681
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of india pakistan border. Indo-Pak Frontier",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of india pakistan border. Kashmir Border",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of india pakistan border. IB",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Radcliffe Line was the boundary demarcated by the two boundary commissions for the provinces of Punjab and Bengal during the Partition of India.",
+      "strength": 0.5999999744488905
+    },
+    "A5": {
+      "type": "argument",
+      "text": "However, outside of Punjab and Bengal, the boundary is made of pre-existing provincial boundaries and had nothing to do with the Radcliffe commissions.",
+      "strength": 0.40000002555110964
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Decision and award of the Bengal Boundary Commission, 12 August 1947",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Boundary disputes between India and Pakistan relating to the interpretation of the report of the Bengal Boundary Commission, Reports of International Arbitral Awards, United Nations, 26 January 1950",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The International Boundary (IB) or Radcliffe Line - runs from Punjab to Gujarat and Sindh: The demarcated line between the India and Pakistan is recognized by both nations.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

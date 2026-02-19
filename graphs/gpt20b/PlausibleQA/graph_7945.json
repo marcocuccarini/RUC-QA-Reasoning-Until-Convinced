@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. KPCC",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. WNYC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. KEXP",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What radio station do you find at 90.3 on your FM dial. KCMU",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "KEXP-FM (90.3 FM) is a non-commercial radio station in Seattle, Washington, United States, specializing in indie music programmed by its disc jockeys.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The station changed its call sign to KEXP-FM, increasing its power to 720 watts.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

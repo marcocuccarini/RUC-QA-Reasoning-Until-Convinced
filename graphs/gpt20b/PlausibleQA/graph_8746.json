@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Obi-Wan Kenobi",
+      "strength": 0.153821959875224
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Yoda",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Han Solo",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Luke, who is your father. Aniken",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was asked to read the line 'Obi-Wan killed your father' instead of 'No, I am your father.'",
+      "strength": 0.5999999728688982
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Only the director, the producers, and Mark Hamill knew the actual line, which was dubbed in later by Jones.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "No, I am your father.",
+      "strength": 0.4000949096575096
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Obi-Wan says that Luke's father was murdered by a traitorous Jedi named Darth Vader.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Luke's father was murdered by a traitorous Jedi named Darth Vader.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what timezone is utah in. Pacific Time Zone",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what timezone is utah in. Central Time Zone",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what timezone is utah in. Eastern Time Zone",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what timezone is utah in. Mountain Time Zone",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Six states are fully contained in the Mountain Time Zone: Colorado, Montana, New Mexico, Utah, Wyoming, Arizona (does not use daylight saving time except for Navajo Nation)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the United States and Canada, the Mountain Time Zone is to the east of the Pacific Time Zone and to the west of the Central Time Zone.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

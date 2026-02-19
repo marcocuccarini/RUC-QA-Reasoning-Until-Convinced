@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time the vikings made the superbowl. In 2015",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time the vikings made the superbowl. In 2009",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time the vikings made the superbowl. In 1998",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time the vikings made the superbowl. in the 1970s",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Vikings played in Super Bowls IV, VIII, IX and XI, but failed to win any of them.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Vikings have lost in their last six NFC Championship Game appearances, stretching back to 1978.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

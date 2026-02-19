@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what did the ancient romans speak. Ancient Greek",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what did the ancient romans speak. Etruscan",
+      "strength": 0.400000037362994
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what did the ancient romans speak. Oscan",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what did the ancient romans speak. Latin Language",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Romans adapted the Etruscan alphabet to form the Latin alphabet but also borrowed some Etruscan words into their language",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Latin also included vocabulary borrowed from Oscan, another Italic language",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Latin was the language of the Romans from the earliest known period.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Latin was the official language of the Roman army until the mid-6th century, and remained the most common language for military use even in the Eastern empire until the 630s.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

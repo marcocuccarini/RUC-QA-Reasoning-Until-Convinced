@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when is saint george day celebrated. May 6",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when is saint george day celebrated. November 17",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when is saint george day celebrated. April 24",
+      "strength": 0.5000648428318698
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when is saint george day celebrated. April 23",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Saint George's Day is usually celebrated on 23 April, the traditionally accepted date of the saint's death in the Diocletianic Persecution.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Exceptionally in the Czech Republic, Hungary and Slovakia, Saint George's Day comes on 24 April.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Catholic Church does not celebrate Saint George's Day on May 6.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Catholic Church does not celebrate Saint George's Day on November 17.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Saint George's Day is not celebrated on April 24; the majority of countries observe it on April 23.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Saint George's Day is celebrated on April 23 by the Catholic Church.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

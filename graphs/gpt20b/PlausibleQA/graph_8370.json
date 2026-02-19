@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1888",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1891",
+      "strength": 0.7499025789446009
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1873",
+      "strength": 0.5999999365228031
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of artist Paul Gauguin. 1848-1903",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 1873, around the time he became a stockbroker, Gauguin began painting in his free time.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gauguin's last physical contact with them was in 1891, and Mette eventually broke with him decisively in 1894.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Gauguin: Catalogue Raisonné of the Paintings, 1889–1903, the digital catalogue raisonné at the Wildenstein Plattner Institute",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

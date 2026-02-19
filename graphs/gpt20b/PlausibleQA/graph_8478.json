@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. William Henry Johnson",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. James Russell Davis",
+      "strength": 0.4000949096575096
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. Christopher Michael Brown",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is Harrison Ford's real name. Harison Ford",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Harrison Ford was born at the Swedish Covenant Hospital in Chicago, Illinois, on July 13, 1942.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Harrison Ford was born as Harrison Ford.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

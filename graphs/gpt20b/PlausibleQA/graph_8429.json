@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Round the Clock, Hare and Hounds, Cricket and Shanghai are all games played on which type of board. Billiards",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Round the Clock, Hare and Hounds, Cricket and Shanghai are all games played on which type of board. Backgammon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Round the Clock, Hare and Hounds, Cricket and Shanghai are all games played on which type of board. Chess",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Round the Clock, Hare and Hounds, Cricket and Shanghai are all games played on which type of board. Darts",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Round the Clock (also called Around the World, 20 to 1, and Jumpers) is a game involving any number of players where the objective is to hit each section sequentially from 1 to 20 starting after a starting double.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cricket is a widely played darts game involving a race to control and score on numbers between 20 and 15 and the bullseye, by hitting each of these targets for three marks to open or own it for scoring.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

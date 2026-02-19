@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What gambling game takes its name from French for toad, supposedly from players' hunched positions. Roulette",
+      "strength": 0.40000009469685094
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What gambling game takes its name from French for toad, supposedly from players' hunched positions. Baccarat",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What gambling game takes its name from French for toad, supposedly from players' hunched positions. Trente et Quarante",
+      "strength": 0.40000009469685094
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What gambling game takes its name from French for toad, supposedly from players' hunched positions. Craps",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Baccarat Banque is the earliest form of baccarat; it is a three-person game and mentioned in Album des jeux by Charles Van‑Tenac.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Punto banco is nowadays the most played version of baccarat in the United States.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Ivey won $500,000 playing craps using his gains as a stake in the game.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

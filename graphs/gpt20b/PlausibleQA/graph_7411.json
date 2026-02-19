@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the first name of the father of the Bronte sisters. Patrick",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the first name of the father of the Bronte sisters. John",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the first name of the father of the Bronte sisters. Michael",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the first name of the father of the Bronte sisters. Patrik",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Patrick Brontë (, commonly ; born Patrick Brunty; 17 March 1777 – 7 June 1861) was an Irish Anglican priest and author who spent most of his adult life in England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was born Patrick Brunty",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

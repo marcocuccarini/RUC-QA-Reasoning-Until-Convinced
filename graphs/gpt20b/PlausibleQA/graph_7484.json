@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which artist, a member of the Order of Merit, was born in Bradford in July 1937. David Bomberg",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which artist, a member of the Order of Merit, was born in Bradford in July 1937. Patrick Caulfield",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which artist, a member of the Order of Merit, was born in Bradford in July 1937. Howard Hodgkin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which artist, a member of the Order of Merit, was born in Bradford in July 1937. Hockney",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "David Hockney (born 9 July 1937) is an English painter, draughtsman, printmaker, stage designer, and photographer.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He was appointed to the Order of Merit, an honour restricted to 24 members at any one time for their contributions to the arts and sciences.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

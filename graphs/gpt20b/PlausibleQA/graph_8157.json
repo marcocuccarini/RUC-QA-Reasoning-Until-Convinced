@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country can you find Westmorland in Cornwall and Manchester in Middlesex. United Kingdom",
+      "strength": 0.5999029143854268
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country can you find Westmorland in Cornwall and Manchester in Middlesex. Canada",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country can you find Westmorland in Cornwall and Manchester in Middlesex. Australia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country can you find Westmorland in Cornwall and Manchester in Middlesex. Jamica",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Manchester is a city in Greater Manchester, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Cornwall is a ceremonial county in South West England.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Truro is a city in Cornwall.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

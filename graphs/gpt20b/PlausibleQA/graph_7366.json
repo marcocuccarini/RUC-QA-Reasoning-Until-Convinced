@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many grams of alcohol in one beer. 8 grams",
+      "strength": 0.3677441483358222
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many grams of alcohol in one beer. 20 grams",
+      "strength": 0.4000332124719206
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many grams of alcohol in one beer. 12 grams",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many grams of alcohol in one beer. 14",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A 355 ml (12.0 US fl oz) glass of beer with an ABV of 5.5% contains 19.525 ml of pure alcohol, which has a density of 0.78945 g/mL (at 20 °C), and therefore a mass of 15.41 grams (0.544 oz).",
+      "strength": 0.5999667875280791
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The density of ethanol is 0.78945 g/mL (at 20 °C).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The typical tolerance for beer yeasts is at 8–12%, while wine yeasts typically range from 14–18%, with speciality ones reaching 20% alc/vol. Any higher would require distillation, producing liquor.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

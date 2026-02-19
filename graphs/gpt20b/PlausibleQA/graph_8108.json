@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What country does Waterford crystal come from. England",
+      "strength": 0.32010667004834964
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What country does Waterford crystal come from. Scotland",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What country does Waterford crystal come from. France",
+      "strength": 0.32010667004834964
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What country does Waterford crystal come from. Airlan",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Waterford Crystal is an Irish manufacturer of crystal glassware, especially cut glass products.",
+      "strength": 0.7499652139585837
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Waterford Crystal was manufactured in the city from 1783 to 1851, 1947 to 2009 and again from 2010 to the present day.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Waterford is a city in County Waterford in the south‑east of Ireland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

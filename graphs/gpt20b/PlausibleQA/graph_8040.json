@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which county is Dunstanburgh Castle. Yorkshire",
+      "strength": 0.3201093271595978
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which county is Dunstanburgh Castle. Cornwall",
+      "strength": 0.3201093271595978
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which county is Dunstanburgh Castle. Kent",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which county is Dunstanburgh Castle. Northd",
+      "strength": 0.5999746462799789
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dunstanburgh Castle is a 14th-century fortification on the coast of Northumberland in northern England",
+      "strength": 0.749961959830353
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Northumberland has more castles than any other county in England, including prominent ones at Alnwick, Bamburgh, Dunstanburgh, Newcastle, and Warkworth.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dunstanburgh Castle is between the villages of Craster and Embleton.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The castle was built by Thomas, 2nd Earl of Lancaster between 1313 and 1322.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

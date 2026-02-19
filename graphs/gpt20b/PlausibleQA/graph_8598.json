@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which cricketer captained England to a record 54 test matches in 2001. Nasser Hussain",
+      "strength": 0.2500954298066436
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which cricketer captained England to a record 54 test matches in 2001. Michael Vaughan",
+      "strength": 0.25000006136009423
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which cricketer captained England to a record 54 test matches in 2001. Alec Stewart",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which cricketer captained England to a record 54 test matches in 2001. Athers",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hussain was captain of the England team for 45 Test matches from 1999 to 2003",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Later in 2003, Hussain announced his retirement as Test captain after England's Test series against South Africa, again being replaced by Vaughan",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "England played their first T20I in 2005 under the captaincy of Michael Vaughan.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "England's captain, Calthorpe, was criticised for not enforcing the follow-on.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who solved 'The Riddle of The Sphinx'. Hercules",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who solved 'The Riddle of The Sphinx'. Perseus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who solved 'The Riddle of The Sphinx'. Theseus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who solved 'The Riddle of The Sphinx'. Œdipus",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Oedipus answered the monster's riddle correctly, defeating it and winning the throne of the dead king – and the hand in marriage of the king's widow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Oedipus answered: 'Man: as an infant, he crawls on all fours; as an adult, he walks on two legs and; in old age, he uses a 'walking' stick'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. Trial Court",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. Supreme Court",
+      "strength": 0.40000003589797006
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. Court of Appeals",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what state courts can order a new trial. appellate court",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In all other cases, the court has only appellate jurisdiction, including the ability to issue writs of mandamus and writs of prohibition to lower courts.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The appeal may end with a reversal, in which the lower court's decision is found to be incorrect (resulting in the original judgement being vacated, and the lower court instructed to retry the case).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In most jurisdictions the normal and preferred way of seeking appellate review is by filing an appeal against the lower court's judgment.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

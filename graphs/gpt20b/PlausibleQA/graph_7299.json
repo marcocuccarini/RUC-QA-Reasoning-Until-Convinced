@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is a more common name for the umbilicus. Belly Button",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is a more common name for the umbilicus. Tummy Hole",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is a more common name for the umbilicus. Abdominal Pit",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is a more common name for the umbilicus. Navel",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "also known as the belly button",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The navel (clinically known as the umbilicus; also known as the belly button or tummy button)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The navel is a protruding, flat, or hollowed area on the abdomen at the attachment site of the umbilical cord.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

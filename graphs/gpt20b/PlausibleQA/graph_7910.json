@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What magazine was started by Hugh Hefner. Esquire",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What magazine was started by Hugh Hefner. Penthouse",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What magazine was started by Hugh Hefner. Maxim",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What magazine was started by Hugh Hefner. PlayBoy",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Playboy was founded in Chicago in 1953 by Hugh Hefner and his associates, funded in part by a $1,000 loan from Hefner's mother.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first issue of Playboy was published in December 1953.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

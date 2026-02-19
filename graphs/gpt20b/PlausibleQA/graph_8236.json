@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many pennies were in a British pre-decimal pound? 120; 200; 204; or 240. 120",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many pennies were in a British pre-decimal pound? 120; 200; 204; or 240. 200",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many pennies were in a British pre-decimal pound? 120; 200; 204; or 240. 204",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many pennies were in a British pre-decimal pound? 120; 200; 204; or 240. 240",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "£1 = 20 shillings (20s). 1 shilling = 12 pence (12d). Thus: £1 = 240d.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The English silver penny first appeared in the 8th century CE in adoption of Western Europe's Carolingian monetary system wherein 12 pence made a shilling and 20 shillings made a pound.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What separates East and West Malaysia. Strait of Malacca",
+      "strength": 0.2499999996424698
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What separates East and West Malaysia. Sulu Sea",
+      "strength": 0.40000009282172766
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What separates East and West Malaysia. Java Sea",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What separates East and West Malaysia. 南支那海",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Strait of Malacca lies between the Malay Peninsula and the Indonesian island of Sumatra.",
+      "strength": 0.5000000000889483
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Strait of Malacca, lying between Sumatra and Peninsular Malaysia, is one of the most important thoroughfares in global commerce, carrying 40% of the world's trade.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The two are separated by the South China Sea.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "To the east, across the South China Sea, lie the Natuna Islands, both part of Indonesia.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The island today is surrounded by the South China Sea to the north and northwest.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

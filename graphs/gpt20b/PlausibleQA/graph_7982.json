@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the French artist (1839-1906) whose painting 'The Card Players' is one of the most expensive ever sold. Claude Monet",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the French artist (1839-1906) whose painting 'The Card Players' is one of the most expensive ever sold. Pierre-Auguste Renoir",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the French artist (1839-1906) whose painting 'The Card Players' is one of the most expensive ever sold. Edgar Degas",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the French artist (1839-1906) whose painting 'The Card Players' is one of the most expensive ever sold. Cézanne",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Cézanne painted five versions of The Card Players (Les Joueurs de cartes) in 1890 and 1895.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "One of the five versions of Cézanne's The Card Players was sold in 2011 to the Royal Family of Qatar for a price variously estimated at between $250 million ($349.4 million today) and possibly as high as $300 million ($419.3 million today), either price signifying a new mark for highest price for a painting up to that date.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

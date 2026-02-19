@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which manager bought Trevor Francis thereby turning him into the first million pound footballer. Brian Clough's predecessor at Nottingham Forest, Jimmy Murphy",
+      "strength": 0.27618032761052036
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which manager bought Trevor Francis thereby turning him into the first million pound footballer. Ron Atkinson",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which manager bought Trevor Francis thereby turning him into the first million pound footballer. Lawrie McMenemy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which manager bought Trevor Francis thereby turning him into the first million pound footballer. Cloughie",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nottingham Forest, the reigning First Division champions and League Cup holders managed by Brian Clough, put in a bid for Francis which totalled just over £1 million.",
+      "strength": 0.4000949096575096
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In February 1979, Taylor authorised the English game's first £1 million transfer signing Trevor Francis from Birmingham City.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

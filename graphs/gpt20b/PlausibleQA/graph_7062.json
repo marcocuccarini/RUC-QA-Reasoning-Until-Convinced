@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of the Cunard ocean liner which was launched on 20th September 1906. Lusitania",
+      "strength": 0.4000000408816272
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of the Cunard ocean liner which was launched on 20th September 1906. Aquitania",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of the Cunard ocean liner which was launched on 20th September 1906. Berengaria",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of the Cunard ocean liner which was launched on 20th September 1906. Mauretania",
+      "strength": 0.43103429073603766
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The ship was launched on 7 June 1906.",
+      "strength": 0.4000000408816272
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The ship was launched on 23 May 1912.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Later the British passenger liner Berengaria",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

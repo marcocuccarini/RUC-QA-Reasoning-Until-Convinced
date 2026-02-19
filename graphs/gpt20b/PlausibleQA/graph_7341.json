@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of the shape with 100 sides. Centagon",
+      "strength": 0.22635451801342743
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of the shape with 100 sides. Decagonon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of the shape with 100 sides. Polykaihenagon",
+      "strength": 0.4000000344903905
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of the shape with 100 sides. hectogon",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Beyond decagons (10-sided) and dodecagons (12-sided), mathematicians generally use numerical notation, for example 17-gon and 257-gon.",
+      "strength": 0.5999430071702765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "To construct the name of a polygon with more than 20 and fewer than 100 edges, combine the prefixes as follows.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The 'kai' term applies to 13-gons and higher and was used by Kepler, and advocated by John H. Conway for clarity of concatenated prefix numbers in the naming of quasiregular polyhedra, though not all sources use it.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "What Are Polyhedra?, with Greek Numerical Prefixes",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

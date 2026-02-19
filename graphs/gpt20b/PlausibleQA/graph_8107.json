@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who performed the halftime show at super bowl 51. Katy Perry",
+      "strength": 0.40000009282172766
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who performed the halftime show at super bowl 51. Beyoncé",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who performed the halftime show at super bowl 51. Taylor Swift",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who performed the halftime show at super bowl 51. Lady Gaga",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On November 23, 2014, the NFL announced that Perry would perform at the Super Bowl XLIX halftime show on February 1, 2015.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Lady Gaga opened the halftime show with a combination of 'God Bless America' and 'This Land Is Your Land'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

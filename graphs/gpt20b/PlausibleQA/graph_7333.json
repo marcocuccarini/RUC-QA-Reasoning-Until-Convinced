@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What tiny peoples tied up Gulliver while he was asleep. Lilliputians",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What tiny peoples tied up Gulliver while he was asleep. Munchkins",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What tiny peoples tied up Gulliver while he was asleep. Smurfs",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What tiny peoples tied up Gulliver while he was asleep. Blefuscu",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gulliver washes up on the shore of Lilliput and is captured by the inhabitants while asleep.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Gulliver is, after further adventures, condemned as a traitor by the Council of Lilliput, and condemned to be blinded; he escapes his punishment by fleeing to Blefuscu.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

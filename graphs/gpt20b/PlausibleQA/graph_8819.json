@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the tower of london finished being built. 1066",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the tower of london finished being built. 1087",
+      "strength": 0.5999999655096099
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the tower of london finished being built. 1100",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the tower of london finished being built. 1078",
+      "strength": 0.6322449321774235
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The White Tower, which gives the entire castle its name, was built by William the Conqueror in 1078.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "it may not have been completed until after William's death in 1087.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "William ordered many castles, keeps, and mottes built – among them the central keep of the Tower of London, the White Tower.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

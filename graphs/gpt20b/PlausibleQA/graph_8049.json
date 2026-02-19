@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which fashion designer became head of Christian Dior in 1996. Alexander McQueen",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which fashion designer became head of Christian Dior in 1996. Marc Jacobs",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which fashion designer became head of Christian Dior in 1996. Anna Sui",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which fashion designer became head of Christian Dior in 1996. John Galliano",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In October 1996, LVMH moved Galliano to Christian Dior, replacing Italian designer Gianfranco Ferré.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When he left Givenchy, he was succeeded by Alexander McQueen.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

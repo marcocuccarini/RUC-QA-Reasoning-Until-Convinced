@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which country is the castle that gives the Habsburg dynasty its name. Austria",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which country is the castle that gives the Habsburg dynasty its name. Germany",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which country is the castle that gives the Habsburg dynasty its name. Hungary",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which country is the castle that gives the Habsburg dynasty its name. Suiza",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Habsburg Castle is a medieval Swiss fortress located in what is now Habsburg, Switzerland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Habsburg Castle remained property of the House of Habsburg until 1415, when Duke Frederick IV of Austria lost the canton of Aargau to the Swiss Confederacy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

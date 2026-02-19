@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when olympic games 2012 opening ceremony. Isles of Wonder",
+      "strength": 0.5999999999891032
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when olympic games 2012 opening ceremony. A Celebration of Nations",
+      "strength": 0.4000777054553685
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when olympic games 2012 opening ceremony. The British Experience",
+      "strength": 0.8047808886024534
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when olympic games 2012 opening ceremony. The Olympic Odyssey",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The spectacle was entitled Isles of Wonder",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As mandated by the Olympic Charter, the proceedings combined the ceremonial opening of this international sporting event (including welcoming speeches, hoisting of the flags and the parade of athletes) with an artistic spectacle to showcase the host nation's culture.",
+      "strength": 0.7499999721461427
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Video of Jacques Rogge, President of the International Olympic Committee, delivering his opening ceremony speech.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Opening Ceremony Music List and Credits, Official Explorer website",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Titled 'The Isles of Wonder', the opening ceremony began at 21:00 British Summer Time (UTC+1) on 27 July in the Olympic Stadium.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The opening ceremony was immediately seen as a tremendous success, widely praised as a 'masterpiece' and 'a love letter to Britain'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

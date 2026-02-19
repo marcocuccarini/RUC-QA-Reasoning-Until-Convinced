@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which football league championship side plays home games at Keepmoat Stadium. Barnsley FC",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which football league championship side plays home games at Keepmoat Stadium. Sheffield United FC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which football league championship side plays home games at Keepmoat Stadium. Rotherham United FC",
+      "strength": 0.400000037362994
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which football league championship side plays home games at Keepmoat Stadium. DRFC",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Rotherham United play their home matches at the New York Stadium, not at Keepmoat Stadium.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On 19 June 2012, it was confirmed that Doncaster Rovers had secured a 99-year operating lease from Doncaster Metropolitan Borough Council to lead the management of the stadium with a view to improving operating results across the stadium sports partnership.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The official opening of the Keepmoat Stadium was on 3 August 2007, with Doncaster Rovers playing a Manchester United XI in front of a crowd of 13,080.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

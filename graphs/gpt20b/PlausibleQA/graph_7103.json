@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Popliteal artery",
+      "strength": 0.4999999658855297
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Tibial artery",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Peroneal artery",
+      "strength": 0.15393744794184033
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which artery is the main source of blood for the leg. Femoral pulse",
+      "strength": 0.40000000003273467
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The femoral artery is a large artery in the thigh and the main arterial supply to the thigh and leg.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Presence of a femoral pulse indicates a systolic blood pressure of more than 50 mmHg.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The popliteal artery branches into the anterior and posterior tibial arteries.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The fibular artery typically arises from the posterior tibial artery.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The fibular artery arises from the tibial-fibular trunk.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "It supplies a perforating branch to both the lateral and anterior compartments of the leg; it also provides a nutrient artery to the fibula.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

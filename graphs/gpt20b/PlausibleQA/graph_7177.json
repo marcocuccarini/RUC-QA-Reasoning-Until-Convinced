@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous cowboy was created by George W. Trendle. Roy Rogers",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous cowboy was created by George W. Trendle. Hopalong Cassidy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous cowboy was created by George W. Trendle. The Cisco Kid",
+      "strength": 0.25000003759877515
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous cowboy was created by George W. Trendle. Lone Ranger",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Cisco Kid was created by O. Henry.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Caballero's Way was written by O. Henry in 1907.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Trendle claimed credit as the creator of the Lone Ranger.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The result was The Lone Ranger, which began broadcasting January 30, 1933, on WXYZ and the seven other stations of the Michigan Regional Network.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

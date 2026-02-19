@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what did john dalton study. Physicist",
+      "strength": 0.5999999622615022
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what did john dalton study. Meteorologist",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what did john dalton study. Mathematician",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what did john dalton study. Chemist",
+      "strength": 0.8460569052668154
+    },
+    "A4": {
+      "type": "argument",
+      "text": "English scientist John Dalton proposed the modern theory of atoms; that all substances are composed of indivisible 'atoms' of matter and that different atoms have varying atomic weights.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1804, Dalton explained his atomic theory to his friend and fellow chemist Thomas Thomson, who published the first full explanation in his book A System of Chemistry in 1807.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Dalton's own version appeared in 1808 under the title A New System of Chemical Philosophy and adopted with word atom to refer to objects he previous called ultimate particles.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

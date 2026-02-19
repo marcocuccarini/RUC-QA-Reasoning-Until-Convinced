@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The substances isoflurane, desflurane, nitrous oxide, and sevoflurane are used as what in medicine. Pain Reliever",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The substances isoflurane, desflurane, nitrous oxide, and sevoflurane are used as what in medicine. Muscle Relaxant",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The substances isoflurane, desflurane, nitrous oxide, and sevoflurane are used as what in medicine. Anti-Inflammatory",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The substances isoflurane, desflurane, nitrous oxide, and sevoflurane are used as what in medicine. Anesthetic",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Isoflurane is indicated for induction and maintenance of general anesthesia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Isoflurane, sold under the brand name Forane among others, is a halogenated ether used as a general anesthetic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

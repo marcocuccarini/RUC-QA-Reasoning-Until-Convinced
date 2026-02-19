@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the US spacecraft first to return images of Mars to Earth, in July 1965. Ranger 7",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the US spacecraft first to return images of Mars to Earth, in July 1965. Surveyor 1",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the US spacecraft first to return images of Mars to Earth, in July 1965. Lunar Orbiter 1",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the US spacecraft first to return images of Mars to Earth, in July 1965. Mariner4",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mariner 4 performed the first successful flyby of the planet Mars, returning the first close-up pictures of the Martian surface.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mariner 4 captured the first images of another planet ever returned from deep space.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

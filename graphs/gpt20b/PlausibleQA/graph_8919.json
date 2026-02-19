@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the secretary of state for northern ireland. Julian Smith",
+      "strength": 0.4000967672365075
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the secretary of state for northern ireland. Nigel Dodds",
+      "strength": 0.2500000897281676
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the secretary of state for northern ireland. Owen Paterson",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the secretary of state for northern ireland. Karen Bradley",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The incumbent secretary of state for Northern Ireland is Hilary Benn.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He served as Secretary of State for Northern Ireland from 2019 to 2020.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Smith was made Secretary of State for Northern Ireland when Boris Johnson assumed the role of Prime Minister.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Paterson served as Secretary of State for Northern Ireland from 2010 to 2012.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "During the formation of the Coalition Government in 2010, he was appointed to the Cabinet as Northern Ireland Secretary.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

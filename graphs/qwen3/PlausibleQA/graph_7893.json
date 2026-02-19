@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what disease did bernie mac die of. Sarcoidosis",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what disease did bernie mac die of. Heart Failure",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what disease did bernie mac die of. Diabetes",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what disease did bernie mac die of. Pneumonia",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mac died at 50 years old on August 9, 2008 in Chicago, Illinois from complications of pneumonia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "However, the complications were not attributed to his sarcoidosis, according to his publicist.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

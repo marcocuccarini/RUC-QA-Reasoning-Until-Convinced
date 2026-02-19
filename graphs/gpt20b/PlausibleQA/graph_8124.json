@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the governor of Brixton prison at the time of Tuite's escape. John Smith",
+      "strength": 0.4000949096575096
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the governor of Brixton prison at the time of Tuite's escape. David Evans",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the governor of Brixton prison at the time of Tuite's escape. James Parker",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the governor of Brixton prison at the time of Tuite's escape. MICHAEL SELBY",
+      "strength": 0.3676472398756883
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Michael John Selby  (13 January 1936 – 21 January 2018) was a New Zealand geomorphologist, academic, and university administrator.",
+      "strength": 0.5999999648128578
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Selby, Michael (1967). The surface of the Earth (2 volumes).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "He was imprisoned for three months as a Land League suspect.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

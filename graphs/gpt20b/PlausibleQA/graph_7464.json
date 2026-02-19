@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many co2 molecules are produced in aerobic respiration. 4",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many co2 molecules are produced in aerobic respiration. 8",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many co2 molecules are produced in aerobic respiration. 2",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many co2 molecules are produced in aerobic respiration. 6",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Products of the first turn of the cycle are one GTP (or ATP), three NADH, one FADH2 and two CO2.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Therefore, at the end of two cycles, the products are: two GTP, six NADH, two FADH2, and four CO2.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The reaction may be simplified as: Pyruvate + NAD+ + CoA → Acetyl-CoA + NADH + CO2.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The pyruvate dehydrogenase complex (PDC) catalyzes the decarboxylation of pyruvate, resulting in the synthesis of acetyl-CoA, CO2, and NADH.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

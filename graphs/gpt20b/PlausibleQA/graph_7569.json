@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which is the EU’s highest capital city. Andorra la Vella",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which is the EU’s highest capital city. Madrid",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which is the EU’s highest capital city. Ljubljana",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which is the EU’s highest capital city. Mayrit",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is the capital and largest city of Andorra.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is at an elevation of 1,023 m (3,356 ft), and is the highest capital city in Europe.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Madrid is the second highest capital of Europe, after Andorra la Vella.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "With an average altitude of 650 m (2,130 ft), Madrid is the second highest capital of Europe.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

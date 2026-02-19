@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. Tokyo",
+      "strength": 0.15384624141826783
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. Paris",
+      "strength": 0.2500000000877544
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. Los Angeles",
+      "strength": 0.4999051813262246
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city comes next in this sequence: Atlanta, Sydney, Athens, Beijing. GBLON",
+      "strength": 0.2500000000000028
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2012 Summer Olympics, officially the Games of the XXX Olympiad and also known as London 2012, were an international multi-sport event held from 27 July to 12 August 2012 in London, England.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "London was selected as the host city at the 117th IOC Session in Singapore on 6 July 2005.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "London became the first city to host the modern Olympics three times, having previously hosted the Summer Games in 1908 and 1948.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "2012: London, United Kingdom",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "2016: Rio de Janeiro, Brazil",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "London (1908, 1948, 2012).",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Los Angeles will host the Games for the third time in 2028.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

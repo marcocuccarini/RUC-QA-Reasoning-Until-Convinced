@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Princeton Review just released their list of the top 371 colleges and universities in the US. What Big Ten school was ranked the #1 party school. University of Illinois",
+      "strength": 0.3677550678225764
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Princeton Review just released their list of the top 371 colleges and universities in the US. What Big Ten school was ranked the #1 party school. University of Michigan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Princeton Review just released their list of the top 371 colleges and universities in the US. What Big Ten school was ranked the #1 party school. Ohio State University",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Princeton Review just released their list of the top 371 colleges and universities in the US. What Big Ten school was ranked the #1 party school. UPUA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In 2002 an American Medical Association affiliated program, A Matter of Degree, funded by the Robert Wood Johnson Foundation, criticized the Princeton Review list of Best Party Schools.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The American Medical Association requested that the Princeton Review remove the party school rankings from its college guides.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

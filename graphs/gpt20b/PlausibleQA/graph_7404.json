@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last year the raiders won the superbowl. 1976",
+      "strength": 0.4000000622202648
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last year the raiders won the superbowl. 2002",
+      "strength": 0.2500974197984664
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last year the raiders won the superbowl. 1967",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last year the raiders won the superbowl. 1983",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "four AFL / AFC championships: 1967, 1976, 1980, and 2002; and two Super Bowl championships: 1976 (XI) and 1980 (XV).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Raiders won two Super Bowl championships: 1976 (XI) and 1980 (XV).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Super Bowl XVIII was an American football game played on January 22, 1984, at Tampa Stadium ... to determine the National Football League (NFL) champion for the 1983 season.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "As of the 2024 season, this is the Raiders' most recent Super Bowl championship, and it was also the only time that a Los Angeles–based team had won the Super Bowl until their then cross‑town rival Los Angeles Rams won Super Bowl LVI at SoFi Stadium in Inglewood, California.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

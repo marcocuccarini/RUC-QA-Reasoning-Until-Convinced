@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the last time the womens hockey team won gold. 2002",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the last time the womens hockey team won gold. 1998",
+      "strength": 0.5999999125837895
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the last time the womens hockey team won gold. 2010",
+      "strength": 0.5999088118033908
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the last time the womens hockey team won gold. 2018",
+      "strength": 0.5999999125837895
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The United States previously won against Canada in 1998 in Nagano, Japan.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The United States winning the gold medal game against Canada marks the first time in 20 years that the United States took home a gold medal in women's hockey.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Canada won the final by a score of 2–0 over the United States",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

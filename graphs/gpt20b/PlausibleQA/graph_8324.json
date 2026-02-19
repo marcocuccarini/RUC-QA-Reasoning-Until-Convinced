@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what color pages in the emergency response guidebook ( erg ) list compounds by name. Yellow",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what color pages in the emergency response guidebook ( erg ) list compounds by name. Green",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what color pages in the emergency response guidebook ( erg ) list compounds by name. Red",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what color pages in the emergency response guidebook ( erg ) list compounds by name. blue",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The blue section references the material in alphabetical order of its official name and identifies the appropriate guide number to reference in the Orange Section.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The yellow section references the material in order of its assigned 4-digit UN/NA number.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

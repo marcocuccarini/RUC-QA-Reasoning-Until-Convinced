@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where was st peter killed. Jerusalem",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where was st peter killed. Antioch",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where was st peter killed. Corinth",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where was st peter killed. Rome",
+      "strength": 0.7736588601273671
+    },
+    "A4": {
+      "type": "argument",
+      "text": "According to Christian tradition, Peter was crucified in Rome under Emperor Nero.",
+      "strength": 0.5999999661925653
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Unitarian theologian Donald Fay Robinson has suggested that the incident in Acts 12:1–17, where Peter is 'released by an angel' and goes to 'another place', really represents an idealised account of his death, which may have occurred in a Jerusalem prison as early as AD 44.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Catholic response to Protestant claims that Peter never visited Rome",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The martyrdom of both the apostles Peter and Paul occurred in Rome.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Catholics believe that the Vatican is the last resting place of St. Peter.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

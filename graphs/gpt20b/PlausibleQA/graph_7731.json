@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has the most restaurants in the world. McDonald's",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has the most restaurants in the world. KFC",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has the most restaurants in the world. Burger King",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has the most restaurants in the world. SUBWAY",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is the largest single-brand restaurant chain and the largest restaurant operator in the world.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "With 26,744 locations, it remained the most ubiquitous restaurant chain in the United States (with McDonald's in the #2 spot).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What stock index reached 5,000 in 2000 before collapsing nearly 80%. S&P 500",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What stock index reached 5,000 in 2000 before collapsing nearly 80%. Dow Jones Industrial Average",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What stock index reached 5,000 in 2000 before collapsing nearly 80%. NYSE Composite",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What stock index reached 5,000 in 2000 before collapsing nearly 80%. NASDAQ",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On March 10, 2000, the index peaked at 5,132.52, but fell 78% from its peak by October 2002.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Between 1995 and 2000, the peak of the dot-com bubble, the Nasdaq Composite stock market index rose 400%.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

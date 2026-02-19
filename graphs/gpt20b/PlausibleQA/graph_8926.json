@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the sat become out of 1600. 2005",
+      "strength": 0.25009548836582807
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the sat become out of 1600. 1990",
+      "strength": 0.40006361984599315
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the sat become out of 1600. 2009",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the sat become out of 1600. 2014",
+      "strength": 0.4000000585968386
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The changes introduced an additional section score, increasing the maximum SAT score to 2400.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In early 2016, the SAT changes included making the essay optional (and returning the maximum score to 1600).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The College Board designed the SAT in 1926.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

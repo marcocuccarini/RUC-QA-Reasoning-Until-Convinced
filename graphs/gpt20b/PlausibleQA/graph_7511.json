@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the popular music identification app founded in 1999 whose paid-for version is sub-titled Encore. Midomi",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the popular music identification app founded in 1999 whose paid-for version is sub-titled Encore. SoundHound",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the popular music identification app founded in 1999 whose paid-for version is sub-titled Encore. Musixmatch",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the popular music identification app founded in 1999 whose paid-for version is sub-titled Encore. Shazam",
+      "strength": 0.749902562007873
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Shazam's algorithm picks out points where there are peaks in the spectrogram that represent higher energy content.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Shazam builds its fingerprint catalog out as a hash table, where the key is the frequency.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

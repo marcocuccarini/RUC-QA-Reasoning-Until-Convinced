@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who's the cat that won't cop out, when there's danger all about. James Bond",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who's the cat that won't cop out, when there's danger all about. Batman",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who's the cat that won't cop out, when there's danger all about. Luke Skywalker",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who's the cat that won't cop out, when there's danger all about. Shaft",
+      "strength": 0.5048497349549727
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Shaft (novel), 1970 novel by Ernest Tidyman about an African-American private detective",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Shaft (company), a Japanese animation studio",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Diaphysis, shaft of a long bone",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Theme from Shaft, written and recorded by Isaac Hayes in 1971, is the soul and funk-styled theme song to the Metro-Goldwyn-Mayer film Shaft.",
+      "strength": 0.5999418558387443
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The theme was released as a single (shortened and edited from the longer album version) two months after the movie's soundtrack by Stax Records' Enterprise label.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In the 1970s, Hayes was featured in the films Shaft (1971) and Truck Turner (1974);",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

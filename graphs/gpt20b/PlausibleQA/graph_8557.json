@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 1,200 feet",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 950 feet",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 1,500 feet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how tall is the tallest building in las vegas. 1,149 feet",
+      "strength": 0.3356787862260521
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is 1,149 ft (350.2 m) observation tower, the tallest in the United States.",
+      "strength": 0.40003858738716264
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Because the tower is not fully habitable, it is not considered a building, according to the Council on Tall Buildings and Urban Habitat.",
+      "strength": 0.5999999899187148
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The tallest building in the state is the Fontainebleau Las Vegas, with a height of 737 feet (225 m).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Freestanding observation towers, while not habitable buildings, are included for comparison purposes but not ranked.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Since its topping out in 2013, One World Trade Center in New York City has been the tallest skyscraper in the United States.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

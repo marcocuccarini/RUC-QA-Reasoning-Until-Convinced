@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who won the first ever boxing gold for women? She shares her surname with two US Presidents.. Mary Adams",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who won the first ever boxing gold for women? She shares her surname with two US Presidents.. Abigail Adams",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who won the first ever boxing gold for women? She shares her surname with two US Presidents.. Louisa Adams",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who won the first ever boxing gold for women? She shares her surname with two US Presidents.. Nicola Adams",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "She went on to defeat Chinese boxer and world number one Ren Cancan in the final to claim the first Olympic women's boxing gold medal.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As an amateur, she became the first female boxer to become an Olympic champion after winning gold at London 2012, and the first double Olympic champion following a second gold medal at Rio 2016.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

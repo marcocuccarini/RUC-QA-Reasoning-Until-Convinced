@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 80 year old Irishman read the eulogy at Bernard Manning's funeral in June. Gay Byrne",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 80 year old Irishman read the eulogy at Bernard Manning's funeral in June. Brendan O'Carroll",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 80 year old Irishman read the eulogy at Bernard Manning's funeral in June. Graham Norton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 80 year old Irishman read the eulogy at Bernard Manning's funeral in June. Hugh Carson",
+      "strength": 0.25000008972932514
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hugh A. Carson (died 1913), delegate to Alabama's 1875 Constitutional Convention",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Ken Carson (country singer) (1914–1994), also known as Hugh Carson, American singer, songwriter, musician and film performer",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bernard Manning wrote his own eulogy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

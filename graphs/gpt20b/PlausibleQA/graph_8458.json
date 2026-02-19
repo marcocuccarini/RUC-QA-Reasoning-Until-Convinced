@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how long has tom brady been the patriots quarterback. 1999",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how long has tom brady been the patriots quarterback. 2002",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how long has tom brady been the patriots quarterback. 2000",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how long has tom brady been the patriots quarterback. 2001",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Brady was selected 199th overall by the Patriots in the sixth round of the 2000 NFL draft.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He became the starting quarterback during his second season, which saw the Patriots win their first Super Bowl title in Super Bowl XXXVI.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Long-time starting quarterback Drew Bledsoe, who was the franchise's star throughout the 1990s, went down with a sheared blood vessel in his chest in a week two match-up in 2001 against the rival New York Jets.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Brady departed the Patriots after 20 seasons for free agency, signing with the Tampa Bay Buccaneers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

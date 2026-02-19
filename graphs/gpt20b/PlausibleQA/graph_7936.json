@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. Subdomain",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. Domain Label",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. Namespace",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what are the parts of a domain name called. hostname",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A domain name consists of one or more parts, technically called labels, that are conventionally concatenated, and delimited by dots, such as example.com.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Individual Internet host computers use domain names as host identifiers, also called hostnames.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

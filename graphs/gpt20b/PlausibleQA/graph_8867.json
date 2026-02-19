@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Benina international airport is in which country. Egypt",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Benina international airport is in which country. Tunisia",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Benina international airport is in which country. Algeria",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Benina international airport is in which country. LBY",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Benina International Airport serves Benghazi, Libya.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The airport is operated by the Civil Aviation and Meteorology Bureau of Libya and is the second largest in the country after Tripoli International Airport.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

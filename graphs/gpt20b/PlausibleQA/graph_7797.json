@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is prussic acid, found in bitter almonds and laurel leaves, also known as. Hydrogen Cyanide",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is prussic acid, found in bitter almonds and laurel leaves, also known as. Cyanide",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is prussic acid, found in bitter almonds and laurel leaves, also known as. Amygdalin",
+      "strength": 0.40009682695977267
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is prussic acid, found in bitter almonds and laurel leaves, also known as. 74908",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hydrogen cyanide (also called prussic acid) is a chemical compound with the formula HCN.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Many of these pits contain small amounts of cyanohydrins such as mandelonitrile and amygdalin, which slowly release hydrogen cyanide.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

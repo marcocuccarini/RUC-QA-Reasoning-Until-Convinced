@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Mongolian",
+      "strength": 0.599999961499134
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Arabian",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Persian",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What type of camel has two humps. Bactrian",
+      "strength": 0.8460569045044471
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Bactrian camel (Camelus bactrianus) is also known as the Mongolian camel.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Bactrian camel has two humps on its back.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Wild Bactrian camels critically endangered, group says.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Bactrian Camels at the Highland Wildlife Park, Scotland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

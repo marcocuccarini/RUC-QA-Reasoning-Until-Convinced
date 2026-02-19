@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the surname of Django in the 2012 film ‘Django Unchained’. Washington",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the surname of Django in the 2012 film ‘Django Unchained’. Brown",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the surname of Django in the 2012 film ‘Django Unchained’. Jackson",
+      "strength": 0.40000008741621107
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the surname of Django in the 2012 film ‘Django Unchained’. Freeman",
+      "strength": 0.4999051777587013
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Django, sold off and separated from his wife, Broomhilda.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Django Freeman is the protagonist of the film Django Unchained.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

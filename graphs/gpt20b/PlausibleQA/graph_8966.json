@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where is french spoken most. Canada",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where is french spoken most. Belgium",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where is french spoken most. Switzerland",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where is french spoken most. France",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "French is spoken as a first language (in descending order of the number of speakers) in France, Canada (Quebec), Belgium (Wallonia and the Brussels-Capital Region), western Switzerland (Romandy region), parts of Luxembourg, and Monaco.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The majority of the world's French-speaking population lives in Africa; while it is an official language in 18 countries, it is not spoken as a first language by the majority, acting mainly as a second one or a lingua franca due to the many indigenous languages spoken in the territories.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "French is the native language of 87% of the population, or roughly 56 million people, in France according to the 2007 Adult Education survey.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The government requires French to be used in commercial and workplace communications by law.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

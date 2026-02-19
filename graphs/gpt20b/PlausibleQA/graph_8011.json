@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Australian cricketer in his very last innings in 1948 scored a duck (0). Don Bradman",
+      "strength": 0.5999999125837895
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Australian cricketer in his very last innings in 1948 scored a duck (0). Lindsay Hassett",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Australian cricketer in his very last innings in 1948 scored a duck (0). Arthur Morris",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Australian cricketer in his very last innings in 1948 scored a duck (0). 99.94",
+      "strength": 0.5999999125837895
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Bradman was bowled between bat and pad for a duck against Eric Hollies.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "his career average finished at 99.94; if he had scored just four runs in his last innings, it would have been 100.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Morris went on to score 196 in an innings noted for his hooking and off-driving before finally being removed by a run out as Australia reached 389.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

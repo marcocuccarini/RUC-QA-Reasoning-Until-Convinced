@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What number on the Beaufort Scale describes the wind as gale. 5",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What number on the Beaufort Scale describes the wind as gale. 9",
+      "strength": 0.5999088118033908
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What number on the Beaufort Scale describes the wind as gale. 6",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What number on the Beaufort Scale describes the wind as gale. 8",
+      "strength": 0.5999088118033908
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Gale Warnings are issued if winds of Beaufort force 8 are expected.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Strong Gale Warnings are issued if winds of Beaufort force 9 or frequent gusts of at least 52 knots are expected.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

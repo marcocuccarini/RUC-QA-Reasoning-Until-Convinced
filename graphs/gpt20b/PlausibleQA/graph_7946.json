@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of cancer did larry hagman have. Leukemia",
+      "strength": 0.5999123873437223
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of cancer did larry hagman have. Lymphoma",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of cancer did larry hagman have. Throat Cancer",
+      "strength": 0.5999123873437223
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of cancer did larry hagman have. Cancer",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hagman died on November 23, 2012, from complications of acute myeloid leukemia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hagman had an acorn-sized tumor removed from his tongue in 2011.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

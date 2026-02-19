@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Bourbon whiskey was named in 1933 after the American Colonel who rebuilt the business following the end of Prohibition. Blanton's",
+      "strength": 0.4000876126562776
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Bourbon whiskey was named in 1933 after the American Colonel who rebuilt the business following the end of Prohibition. Elijah Craig",
+      "strength": 0.40000008398857245
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Bourbon whiskey was named in 1933 after the American Colonel who rebuilt the business following the end of Prohibition. Booker's",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Bourbon whiskey was named in 1933 after the American Colonel who rebuilt the business following the end of Prohibition. Red Stag",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The bourbon brand is named in honor of Reverend Elijah Craig (1738/1743 – May 18, 1808), who was a Baptist preacher, educator, and entrepreneur in Fayette County, Virginia, which became Scott County, Kentucky, following Kentucky statehood in 1792.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Col. E. H. Taylor – small batch, single-barrel, and barrel proof straight bourbon and rye",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who sang national anthem at the super bowl. Lady Gaga",
+      "strength": 0.36755165083632385
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who sang national anthem at the super bowl. Christina Aguilera",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who sang national anthem at the super bowl. Katy Perry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who sang national anthem at the super bowl. Pink",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Renée Fleming sang 'The Star-Spangled Banner' at the Super Bowl.",
+      "strength": 0.5999999806888868
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Whitney Houston's performance of the national anthem at Super Bowl XXV in 1991.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Before Super Bowl XLVIII, soprano Renée Fleming became the first opera singer to perform the anthem.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Gaga sang the US national anthem at Super Bowl 50",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

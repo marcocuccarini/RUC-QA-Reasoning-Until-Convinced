@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Forest of Arden is in which English county. Staffordshire",
+      "strength": 0.5000948186737755
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Forest of Arden is in which English county. Shropshire",
+      "strength": 0.5999999090162662
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Forest of Arden is in which English county. Cheshire",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Forest of Arden is in which English county. Warks",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It thus included much of Warwickshire, and parts of Shropshire, Staffordshire, the West Midlands, and Worcestershire.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Much of western Warwickshire, including the area now forming part of Coventry, Solihull and Birmingham, was covered by the ancient Forest of Arden (most of which was cut down to provide fuel for industrialisation).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

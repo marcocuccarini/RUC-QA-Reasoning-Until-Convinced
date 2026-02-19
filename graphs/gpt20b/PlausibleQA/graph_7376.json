@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of government did soviet union have. Authoritarian Regime",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of government did soviet union have. Totalitarian State",
+      "strength": 0.7499426948304755
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of government did soviet union have. Socialist Republic",
+      "strength": 0.5689655959687394
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of government did soviet union have. Communist state",
+      "strength": 0.6322430174875721
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Soviet Union is considered by many to have been a totalitarian state for much of its existence.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The political system of the Soviet Union took place in a federal single-party soviet socialist republic framework which was characterized by the superior role of the Communist Party of the Soviet Union (CPSU), the only party permitted by the Constitution.",
+      "strength": 0.4000000158106022
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Soviet Union was a one-party state governed by the Communist Party of the Soviet Union (CPSU).",
+      "strength": 0.5999617965637547
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In practice, its government and economy were highly centralized.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "In communist states, the government may not tolerate criticism of policies that have already been implemented in the past or are being implemented in the present.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Soviet government was independent of the other central agencies such as the legislature and its standing committee, but the Supreme Soviet was empowered to decide on all questions it wished.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A6",
+      "relation": "support"
+    }
+  ]
+}

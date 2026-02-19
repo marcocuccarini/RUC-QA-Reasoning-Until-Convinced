@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the internet introduced to the public. 1989",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the internet introduced to the public. 1990",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the internet introduced to the public. 1991",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the internet introduced to the public. 1995",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Web opened to the public in 1991",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Commercial Internet service providers (ISPs) emerged in 1989 in the United States and Australia",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In mid-1989, MCI Mail and Compuserve established connections to the Internet, delivering email and public access products to the half million users of the Internet.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Just months later, on 1 January 1990, PSInet launched an alternate Internet backbone for commercial use; one of the networks that added to the core of the commercial Internet of later years.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

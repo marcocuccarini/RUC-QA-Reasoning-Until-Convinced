@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what college did magic johnson play for. University of California, Los Angeles (UCLA)",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what college did magic johnson play for. University of Kentucky",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what college did magic johnson play for. University of North Carolina",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what college did magic johnson play for. Michigan State University",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He ultimately decided to attend Michigan State when coach Jud Heathcote told him he could play the point guard position.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After winning a national championship with the Michigan State Spartans in 1979, Johnson was selected first overall in the 1979 NBA draft.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the name of airport in new york. John F. Kennedy International Airport",
+      "strength": 0.8460569045044471
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the name of airport in new york. LaGuardia Airport",
+      "strength": 0.599999961499134
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the name of airport in new york. Newark Liberty International Airport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the name of airport in new york. Flushing Airport",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John F. Kennedy International Airport (IATA: JFK, ICAO: KJFK, FAA LID: JFK) is a major international airport serving New York City and its metropolitan area.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "LaGuardia received a new terminal and longer runways from 1960 to 1966.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "John F. Kennedy International Airport aviation weather (in Spanish, English, French, Chinese, and Hindi)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "FAA Airport Diagram (PDF), effective November 27, 2025",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

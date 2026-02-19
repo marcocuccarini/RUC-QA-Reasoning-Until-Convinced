@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of composer Frederic Chopin.. 1831",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of composer Frederic Chopin.. 1829",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of composer Frederic Chopin.. 1840",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Give a year in the life of composer Frederic Chopin.. 1810-1849",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Chopin was fortunate to arrive in Paris in 1831",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chopin died in Paris in 1849 at age 39",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "March 1 – Frédéric Chopin, Polish composer, pianist (d. 1849)",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

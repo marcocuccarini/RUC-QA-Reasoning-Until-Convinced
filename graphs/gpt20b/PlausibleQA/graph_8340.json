@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. Richard Nixon",
+      "strength": 0.1538462148819792
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. John F. Kennedy",
+      "strength": 0.4000000000608513
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. Franklin D. Roosevelt",
+      "strength": 0.2500954298298415
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which famous US political figure died on January 23rd. 1973. LBJ",
+      "strength": 0.4000000000000028
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He died on January 22, 1973.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "President Nixon presided over the funeral in 1973.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "a peace agreement would be reached on January 23.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "four were assassinated (Abraham Lincoln, James A. Garfield, William McKinley, and John F. Kennedy)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Franklin D. Roosevelt served the longest, over twelve years, before dying early in his fourth term in 1945.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Nixon resigned the presidency, making Ford president",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Franklin Roosevelt died 82 days into his fourth term on April 12, 1945.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

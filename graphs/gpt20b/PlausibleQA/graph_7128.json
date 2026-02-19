@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What kind of dish is the French ‘pithivier’. Tart",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What kind of dish is the French ‘pithivier’. Cake",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What kind of dish is the French ‘pithivier’. Quiche",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What kind of dish is the French ‘pithivier’. Pie",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A pithivier is a round, enclosed pie usually made by baking two disks of puff pastry, with a filling stuffed in between.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The filling of the pithivier is often a sweet cream of almonds and not frangipane as in the galette des rois, but savoury pies with vegetable, meat or cheese filling can also be called pithivier.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

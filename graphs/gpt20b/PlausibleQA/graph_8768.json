@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The oldest known American cocktail, what whiskey forms the base of the cocktail known as a Sazerac. Bourbon",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The oldest known American cocktail, what whiskey forms the base of the cocktail known as a Sazerac. Tennessee Whiskey",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The oldest known American cocktail, what whiskey forms the base of the cocktail known as a Sazerac. Scotch",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The oldest known American cocktail, what whiskey forms the base of the cocktail known as a Sazerac. Rye",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It is around this time that the primary ingredient changed from cognac to rye whiskey, due to the phylloxera epidemic in Europe that devastated the vineyards of France.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The drink is most traditionally a combination of cognac or rye whiskey, absinthe, Peychaud's Bitters, and sugar, although bourbon whiskey is sometimes substituted for the rye.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

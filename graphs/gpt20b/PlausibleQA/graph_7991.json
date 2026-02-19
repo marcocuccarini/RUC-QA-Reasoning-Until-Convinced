@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which philosopher, 1872 - 1970, co-wrote 'Principia Mathematica' with A.N. Whitehead. Bertrand Russell",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which philosopher, 1872 - 1970, co-wrote 'Principia Mathematica' with A.N. Whitehead. Ludwig Wittgenstein",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which philosopher, 1872 - 1970, co-wrote 'Principia Mathematica' with A.N. Whitehead. G.E. Moore",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which philosopher, 1872 - 1970, co-wrote 'Principia Mathematica' with A.N. Whitehead. Russellian",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "the three-volume Principia Mathematica, written with Whitehead, was published between 1910 and 1913.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Together with his former teacher Alfred North Whitehead, Russell wrote Principia Mathematica, a milestone in the development of classical logic and a major attempt to reduce the whole of mathematics to logic (see logicism).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

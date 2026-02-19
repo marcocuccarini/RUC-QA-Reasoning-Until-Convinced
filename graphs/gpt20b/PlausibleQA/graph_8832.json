@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what was the first video game for nintendo. Sheriff",
+      "strength": 0.4999051296211258
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what was the first video game for nintendo. Radar Scope",
+      "strength": 0.43103429779978036
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what was the first video game for nintendo. Space Fever",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what was the first video game for nintendo. EVR Race",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nintendo had briefly experimented with electro-mechanical arcade gun games such as Wild Gunman and the Laser Clay Shooting System, followed by arcade video games such as EVR-Race, Sheriff, Space Fever, and the Color TV-Game line of dedicated home consoles.",
+      "strength": 0.4000000392786357
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nintendo's first foray into video gaming was the arcade game Computer Othello in 1978.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Color TV-Game is the first video game system ever made by Nintendo.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Sheriff, released in 1979, was Nintendo's first original video game.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "EVR Race was the company's first electromechanical game, while Sheriff was its first original video game.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

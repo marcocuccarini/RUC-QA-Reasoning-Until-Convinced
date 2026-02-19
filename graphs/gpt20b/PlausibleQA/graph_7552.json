@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many ‘Triangles’ are there on the logo of car manufacturer BMW. 3",
+      "strength": 0.2500954907572107
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many ‘Triangles’ are there on the logo of car manufacturer BMW. 1",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many ‘Triangles’ are there on the logo of car manufacturer BMW. 6",
+      "strength": 0.400000060988221
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many ‘Triangles’ are there on the logo of car manufacturer BMW. 4",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The circular blue and white BMW logo or roundel",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The interior of the ring is quartered blue and white",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The circular blue and white BMW logo or roundel evolved from the circular Rapp Motorenwerke company logo.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

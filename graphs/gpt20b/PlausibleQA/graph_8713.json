@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which 1979 science fiction film was at one time going to be called Star Beast. Star Trek: The Motion Picture",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which 1979 science fiction film was at one time going to be called Star Beast. Moonraker",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which 1979 science fiction film was at one time going to be called Star Beast. The Black Hole",
+      "strength": 0.5999031730402274
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which 1979 science fiction film was at one time going to be called Star Beast. ALIEN",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Along with Star Trek: The Motion Picture, released earlier the same month, The Black Hole was one of the last mainstream Hollywood films to have an overture at the start of the film.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

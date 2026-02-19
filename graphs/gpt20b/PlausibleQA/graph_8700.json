@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who invented the glasses that give sight to the blind. Mark Changizi",
+      "strength": 0.22633531443471658
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who invented the glasses that give sight to the blind. Daniel Kish",
+      "strength": 0.3676471820842383
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who invented the glasses that give sight to the blind. Eric Freeman",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who invented the glasses that give sight to the blind. 2006",
+      "strength": 0.4000000233519559
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Second Sight Medical Products, maker of the Argus retinal prosthesis",
+      "strength": 0.5999999766480442
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Argus II retinal implant, manufactured by Second Sight Medical Products received market approval in the US in Feb 2013",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Argus II retinal implant received market approval in the US in Feb 2013",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Argus II retinal implant was manufactured by Second Sight Medical Products.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

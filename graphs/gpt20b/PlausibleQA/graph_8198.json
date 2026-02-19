@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Ribena",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Lucozade",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Irn-Bru",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What red fruit-juice-based drink whose name alludes to energy was first produced by John Noel Nichols in Manchester, 1908. Vimto",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Vimto was created in 1908 in Manchester by John Noel Nichols (1883–1966), a wholesaler of herbs, spices and medicines.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was originally sold under the name Vim Tonic (vim meaning 'vigour'), which Nichols shortened to 'Vimto' in 1912.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

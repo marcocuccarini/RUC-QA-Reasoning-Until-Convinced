@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which country is bordered by Latvia to the north, Ukraine to the south, and Poland to the west. Lithuania",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which country is bordered by Latvia to the north, Ukraine to the south, and Poland to the west. Russia",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which country is bordered by Latvia to the north, Ukraine to the south, and Poland to the west. Romania",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which country is bordered by Latvia to the north, Ukraine to the south, and Poland to the west. Belarus",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Belarus borders five countries: Latvia to the north, Lithuania to the northwest, Poland to the west, Russia to the north and the east, and Ukraine to the south.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

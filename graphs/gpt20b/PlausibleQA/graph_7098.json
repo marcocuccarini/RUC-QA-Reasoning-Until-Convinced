@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many verses make up the national anthem God Save The Queen. 1",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many verses make up the national anthem God Save The Queen. 2",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many verses make up the national anthem God Save The Queen. 4",
+      "strength": 0.4000649050521344
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many verses make up the national anthem God Save The Queen. 3",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In general, only one verse is sung.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Sometimes two verses are sung and, on certain occasions, three.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "An additional stanza sung second was previously considered part of the standard lyrics in the UK:",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Since its first publication, different verses have been added and taken away and, even today, different publications include various selections of verses in various orders.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

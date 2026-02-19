@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the flavouring of the liqueur Amaretto. Almond",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the flavouring of the liqueur Amaretto. Apricot",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the flavouring of the liqueur Amaretto. Cherry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the flavouring of the liqueur Amaretto. لوز",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It may be made from apricot kernels.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The benzaldehyde that provides the almond‑like flavour of the liqueur.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Bitter almond liqueur – a similar drink from Portugal",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

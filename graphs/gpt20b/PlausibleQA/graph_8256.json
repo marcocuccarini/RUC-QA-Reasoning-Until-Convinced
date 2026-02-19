@@ -1,0 +1,136 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Otter",
+      "strength": 0.06034323328144755
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Ferret",
+      "strength": 0.4000000000872201
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Badger",
+      "strength": 0.4000000000872201
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which semi-aquatic carnivorous mammal of the weasel family has only two living species: the American and the European. Mink",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 14 extant otter species are all semiaquatic, both freshwater and marine.",
+      "strength": 0.5999999090162662
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Photos and videos of the marine otter (Lontra felina), sea otter (Enhydra lutris), smooth-coated otter (Lutrogale perspicillata) and giant otter (Pteronura brasiliensis) are available.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Photos and videos of Eurasian otters are available.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The extinct Japanese otter is sometimes considered a subspecies; recent studies have found it to fall outside the subspecific clades comprising L. lutra, so it has been reclassified as a distinct species, but uncertainty remains.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The black-footed ferret is entirely dependent on another keystone species, the prairie dog.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The fisher, tayra, and martens are partially arboreal, while badgers are fossorial.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Lutra species are semiaquatic mammals, so they are well-adapted to both water and land.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "Lutra is a genus of otters, one of seven in the subfamily Lutrinae.",
+      "strength": 0.5999069696796249
+    },
+    "A12": {
+      "type": "argument",
+      "text": "Lutra species are known to exhibit strong territorial behavior.",
+      "strength": 0.5
+    },
+    "A14": {
+      "type": "argument",
+      "text": "Lontra is a genus of otters from the Americas.",
+      "strength": 0.5
+    },
+    "A15": {
+      "type": "argument",
+      "text": "The genus comprises four living and one known fossil species.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A12",
+      "target": "A11",
+      "relation": "support"
+    },
+    {
+      "source": "A14",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A15",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

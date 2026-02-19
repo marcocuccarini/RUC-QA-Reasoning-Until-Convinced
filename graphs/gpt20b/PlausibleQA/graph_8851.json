@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what type of artist is henri matisse. Painter",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what type of artist is henri matisse. Sculptor",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what type of artist is henri matisse. Printmaker",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what type of artist is henri matisse. Collage",
+      "strength": 0.5999999365228031
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Matisse is commonly regarded, along with Pablo Picasso, as one of the artists who best helped to define the revolutionary developments in the visual arts throughout the opening decades of the twentieth century, responsible for significant developments in painting and sculpture.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When ill health in his final years prevented him from painting, he created an important body of work in the medium of cut paper collage.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Henri Matisse in American public collections, on the French Sculpture Census website",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Henri Matisse at the Museum of Modern Art",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

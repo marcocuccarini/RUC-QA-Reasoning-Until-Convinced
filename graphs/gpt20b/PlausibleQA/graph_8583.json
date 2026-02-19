@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What number is Hurricane on the Beaufort Scale. 8",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What number is Hurricane on the Beaufort Scale. 9",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What number is Hurricane on the Beaufort Scale. 10",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What number is Hurricane on the Beaufort Scale. 12",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Using this formula the highest winds in hurricanes would be 23 in the scale.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Hurricane Force Warnings are issued if winds of greater than 64 knots are expected.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

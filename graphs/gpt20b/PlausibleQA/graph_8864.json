@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Also called The Roodee, which, officially, is Britain’s oldest and shortest racecourse. Epsom",
+      "strength": 0.6322474683059868
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Also called The Roodee, which, officially, is Britain’s oldest and shortest racecourse. Ascot",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Also called The Roodee, which, officially, is Britain’s oldest and shortest racecourse. Goodwood",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Also called The Roodee, which, officially, is Britain’s oldest and shortest racecourse. Chester",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first recorded race was held on the Downs in 1661",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The course is a mile and a half (2400 m)",
+      "strength": 0.40002638842496374
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The earliest horse races on Epsom Downs are thought to have been held in the early 17th century, during the reign of James I.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "By the mid-18th century a 4-mile straight course had been established, starting at Banstead and finishing at the top of the Downs at Epsom.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "attack"
+    }
+  ]
+}

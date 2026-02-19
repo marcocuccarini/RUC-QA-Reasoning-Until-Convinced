@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Name the year: Hirohito dies; The Exxon Valdez runs aground; San Francisco suffers its worst earthquake since 1906.. 1975",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Name the year: Hirohito dies; The Exxon Valdez runs aground; San Francisco suffers its worst earthquake since 1906.. 1985",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Name the year: Hirohito dies; The Exxon Valdez runs aground; San Francisco suffers its worst earthquake since 1906.. 1987",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Name the year: Hirohito dies; The Exxon Valdez runs aground; San Francisco suffers its worst earthquake since 1906.. 1989",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "After arriving in Williamsburg on 30 September 1975, Emperor Hirohito and Empress Nagako stayed in the United States for two weeks.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Exxon Valdez oil spill occurred on March 24, 1989.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The tanker spilled more than 10 million US gallons (240,000 bbl) of crude oil over the next few days.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

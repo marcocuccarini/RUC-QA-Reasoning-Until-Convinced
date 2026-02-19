@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which French prime minister was executed for treason in 1945. Philippe Pétain",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which French prime minister was executed for treason in 1945. François Darlan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which French prime minister was executed for treason in 1945. Paul Reynaud",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which French prime minister was executed for treason in 1945. Pierre laval",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Laval was executed by firing squad in October 1945.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "After the war, Laval was tried as a Nazi collaborator and executed for treason.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

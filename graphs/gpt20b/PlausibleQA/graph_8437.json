@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What substance, best known as a poison, was used in small doses in medications as a stimulant, as a laxative, and for enhancing performance in sports. Arsenic",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What substance, best known as a poison, was used in small doses in medications as a stimulant, as a laxative, and for enhancing performance in sports. Mercury",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What substance, best known as a poison, was used in small doses in medications as a stimulant, as a laxative, and for enhancing performance in sports. Cyanide",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What substance, best known as a poison, was used in small doses in medications as a stimulant, as a laxative, and for enhancing performance in sports. Stricnine",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In small doses, soluble arsenic compounds act as stimulants, and were once popular as medicine by people in the mid-18th to 19th centuries; this use was especially prevalent for sport animals such as race horses or work dogs and continued into the 20th century.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "During the 17th, 18th, and 19th centuries, a number of arsenic compounds were used as medicines, including arsphenamine (by Paul Ehrlich) and arsenic trioxide (by Thomas Fowler), for treating diseases such as cancer or psoriasis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

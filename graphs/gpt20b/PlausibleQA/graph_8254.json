@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Conakry is the capital of which African country. Ghana",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Conakry is the capital of which African country. Mali",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Conakry is the capital of which African country. Senegal",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Conakry is the capital of which African country. Guinée",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Conakry, the capital and most populous city, is a hub of economy, commerce, education, and culture.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The capital Conakry with a population of 1,675,069 ranks as a special zone.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

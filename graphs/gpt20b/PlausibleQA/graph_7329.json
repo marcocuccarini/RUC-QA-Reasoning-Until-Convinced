@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who won the most of the first ten tournaments called the Women's Hockey World Cup (the field hockey World Cup competition for women), which was inaugurated in 1974. Australia",
+      "strength": 0.2500000897449246
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who won the most of the first ten tournaments called the Women's Hockey World Cup (the field hockey World Cup competition for women), which was inaugurated in 1974. England",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who won the most of the first ten tournaments called the Women's Hockey World Cup (the field hockey World Cup competition for women), which was inaugurated in 1974. Germany",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who won the most of the first ten tournaments called the Women's Hockey World Cup (the field hockey World Cup competition for women), which was inaugurated in 1974. Olanda",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Netherlands is the most successful team, having won the title nine times.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Argentina, Germany and Australia are joint second best teams, having each won the title twice.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Netherlands won the title defeating Argentina in the final on 24 March.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

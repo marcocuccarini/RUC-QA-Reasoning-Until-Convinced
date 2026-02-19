@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What instrument has a long neck and a round body of parchment stretched over a metal frame. Lute",
+      "strength": 0.4000000000445885
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What instrument has a long neck and a round body of parchment stretched over a metal frame. Oud",
+      "strength": 0.4000000000000429
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What instrument has a long neck and a round body of parchment stretched over a metal frame. Saz",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What instrument has a long neck and a round body of parchment stretched over a metal frame. Banjo",
+      "strength": 0.5999029143854268
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The soundboard is a teardrop-shaped thin flat plate of resonant wood (typically spruce).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The oud ( OOD; Arabic: عُود, romanized: ʿūd, pronounced [ʕuːd]) is a Middle Eastern short-neck lute-type, pear-shaped, fretless stringed instrument (a chordophone in the Hornbostel–Sachs classification of instruments), usually with 11 strings grouped in six courses, but some models have five or seven courses, with 10 or 13 strings respectively.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Curt Sachs distinguished between the 'long-necked lute' and the short-necked variety.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "short-necked plucked lutes such as the lute",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "uses a membrane like a banjo.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "The Banjo is a stringed instrument with a thin membrane stretched over a frame or cavity to form a resonator.",
+      "strength": 0.5
+    },
+    "A11": {
+      "type": "argument",
+      "text": "The body, or 'pot', of a modern banjo typically consists of a circular rim (generally made of wood, though metal was also common on older banjos) and a tensioned head, similar to a drum head.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A11",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

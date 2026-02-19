@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient in borscht. Cabbage",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient in borscht. Carrot",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient in borscht. Potato",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the main ingredient in borscht. Beet",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In Ukrainian beet-based red borscht has become the most popular.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The same name, however, is also used for a wide selection of sour-tasting soups without beetroots, such as sorrel-based green borscht, rye-based white borscht, and cabbage borscht.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "beetroot soup, such as borscht [Ukrainian] and barszcz czerwony [Polish], is common.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In Ukraine, a related dish called shpundra is also common; this hearty beetroot stew, often made with pork belly or ribs, is sometimes referred to as a thicker version of borscht.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

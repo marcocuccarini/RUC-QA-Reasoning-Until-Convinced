@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "How many US Presidents have been impeached. 0",
+      "strength": 0.4000000000000889
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "How many US Presidents have been impeached. 1",
+      "strength": 0.4999999999999112
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "How many US Presidents have been impeached. 3",
+      "strength": 0.49990518316421795
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "How many US Presidents have been impeached. 2",
+      "strength": 0.49999999990922045
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Impeachment process against Richard Nixon",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Impeachment of Bill Clinton",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Andrew Johnson Impeachment Trial (1868)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Clinton thus became the second U.S. president to be impeached",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Impeachment of William Jefferson Clinton, President of the United States",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The four impeachment trials in the Senate of presidents were: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019 and again in 2021.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

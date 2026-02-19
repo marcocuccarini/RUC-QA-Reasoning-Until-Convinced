@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What alcoholic drink whose name means 'little water' was first distilled from grain in the 8-9th centuries in NE Europe. Aquavit",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What alcoholic drink whose name means 'little water' was first distilled from grain in the 8-9th centuries in NE Europe. Korn",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What alcoholic drink whose name means 'little water' was first distilled from grain in the 8-9th centuries in NE Europe. Brennivin",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What alcoholic drink whose name means 'little water' was first distilled from grain in the 8-9th centuries in NE Europe. Vodka",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The word vodka is a diminutive of the Slavic word voda 'water' (literally, 'little water').",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Vodka was originally distilled from wine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

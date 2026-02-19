@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of Hamlet's mother in the Shakespeare play of the same name. Ophelia",
+      "strength": 0.25000009339124835
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of Hamlet's mother in the Shakespeare play of the same name. Lady Macbeth; 0 (just kidding, I'll replace this); replaced with: Beatrice",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of Hamlet's mother in the Shakespeare play of the same name. Cordelia",
+      "strength": 0.4000000000608513
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of Hamlet's mother in the Shakespeare play of the same name. Gertrud",
+      "strength": 0.4999051525627551
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In William Shakespeare's play Hamlet, Gertrude is Hamlet's mother and Queen of Denmark.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Her name may derive from Gertrude of Bavaria, who was Queen of Denmark in the late 12th century.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The character of Gemma Teller Morrow on the FX show Sons of Anarchy, which incorporates plot elements from Hamlet, is influenced by and shares many traits with Queen Gertrude.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Gertrude and Claudius, a John Updike novel, serves as a prequel to the events of the play. It follows Gertrude from her wedding to King Hamlet, through an affair with Claudius, and its murderous results, until the very beginning of the play.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

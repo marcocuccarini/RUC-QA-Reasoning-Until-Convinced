@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what countries included in the uk. England",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what countries included in the uk. Scotland",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what countries included in the uk. Northern Ireland",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what countries included in the uk. Wales",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "It comprises England, Scotland, Wales and Northern Ireland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Wales accounts for less than 9 per cent of the UK, covering 8,020 square miles (20,779 km2).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "England, comprising the majority of the population and area of the United Kingdom, does not have its own devolved government, and remains fully the responsibility of the United Kingdom Parliament centralised in London.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Northern Ireland, in contrast, is described as a 'province' in the same lists.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did ford change the f150 body style. 1992",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did ford change the f150 body style. 2004",
+      "strength": 0.7499025802015337
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did ford change the f150 body style. 1980",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did ford change the f150 body style. 1957",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For the 2004 model year, the F-150 was redesigned on an all-new platform.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The long-running Flareside bed design was retired until its return in the 1992 ninth-generation, with all examples produced with Styleside beds.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "For the 2004 model year, the F-150 was redesigned on an all-new platform, which has a fully boxed-in frame and introduced rear shocks to mount outside of the frame for decreased wheel hop and improved ride quality.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Since 1967, the cab design has changed only in 1980 and in 2000.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

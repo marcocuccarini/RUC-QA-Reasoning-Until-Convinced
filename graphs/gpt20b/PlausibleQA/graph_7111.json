@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Anaphylaxis is what sort of life-threatening illness. Autoimmune Disorder",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Anaphylaxis is what sort of life-threatening illness. Infectious Disease",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Anaphylaxis is what sort of life-threatening illness. Toxic Reaction",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Anaphylaxis is what sort of life-threatening illness. Alergy",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Anaphylaxis is a severe allergic reaction of rapid onset affecting many body systems.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Common causes include allergies to insect bites and stings, allergies to foods—including nuts, peanuts, milk, fish, shellfish, eggs and some fresh fruits or dried fruits; allergies to sulfites—a class of food preservatives and a byproduct in some fermented foods like vinegar; allergies to medications – including some antibiotics and non-steroidal anti-inflammatory drugs (NSAIDs) like aspirin; allergy to general anaesthetic; allergy to contrast agents; allergy to latex.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Insect stings, food, antibiotics, and certain medicines may produce a systemic allergic response that is also called anaphylaxis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

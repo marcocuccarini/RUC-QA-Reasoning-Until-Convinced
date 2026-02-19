@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the latest edition of the intelligent investor. 2008",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the latest edition of the intelligent investor. 2017",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the latest edition of the intelligent investor. 1996",
+      "strength": 0.40006361984599315
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the latest edition of the intelligent investor. 2003",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Intelligent Investor (3rd Revised Edition) by Benjamin Graham and Jason Zweig. Harper Business, 2024, 640 pages.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Intelligent Investor was reprinted in 2005.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Intelligent Investor, editions 1949, reprinted in 2005; 1959, 1965, 1973 with many reprints since.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

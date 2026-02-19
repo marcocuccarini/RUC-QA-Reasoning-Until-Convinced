@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What city has the busiest airport system. New York City",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What city has the busiest airport system. Tokyo",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What city has the busiest airport system. Los Angeles",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What city has the busiest airport system. GBLON",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Haneda is the fifth busiest airport in the world by passenger traffic.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2023, Haneda handled 17.9 million international passengers and 60.8 million domestic passengers, while Narita was used by 25.4 million international passengers and 7.7 million domestic passengers.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An Adder's Mouth is what type of plant. Fern",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An Adder's Mouth is what type of plant. Snapdragon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An Adder's Mouth is what type of plant. Violet",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An Adder's Mouth is what type of plant. Orchid",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Paphiopedilum, often called the Venus slipper, is a genus of the lady slipper orchid subfamily Cypripedioideae of the flowering plant family Orchidaceae.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Paphiopedilum is a genus of the lady slipper orchid subfamily Cypripedioideae, not a fern.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

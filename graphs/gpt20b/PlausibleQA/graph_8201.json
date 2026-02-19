@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is the main religion in british columbia. Protestant",
+      "strength": 0.4309242151333837
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is the main religion in british columbia. Sikh",
+      "strength": 0.2500000387356241
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is the main religion in british columbia. Buddhist",
+      "strength": 0.40000002580790256
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is the main religion in british columbia. Catholic",
+      "strength": 0.5999581987825118
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Irreligion (atheist, agnostic, and so on.) with 2,559,250 (52.2%)",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Christianity with 1,684,870 (34.4%)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Sikhism with 290,870 (5.9%)",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Buddhism with 83,860 (1.7%)",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Christianity remains the dominant religion in the region, with about 70% of that population identifying as Christian.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The three main branches of Christianity are Catholicism (1.3 billion people), Protestantism (800 million), and Eastern Orthodoxy (300 million).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

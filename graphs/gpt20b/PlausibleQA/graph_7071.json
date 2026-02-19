@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what artistic style did henri rousseau work in. Naive Art",
+      "strength": 0.7499045092427894
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what artistic style did henri rousseau work in. Fauvism",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what artistic style did henri rousseau work in. Surrealism",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what artistic style did henri rousseau work in. Post-Impressionism",
+      "strength": 0.7499045092427894
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was a French post-Impressionist painter in the Naïve or Primitive manner.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Henri Rousseau (1844–1910) was a French Post-Impressionist who was discovered by Pablo Picasso.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "One particularly influential painter of 'naïve art' was Henri Rousseau (1844–1910).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

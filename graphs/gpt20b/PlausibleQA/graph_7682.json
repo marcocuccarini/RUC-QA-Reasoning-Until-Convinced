@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which TV detective drove a car with the registration plate 248RPA. Columbo",
+      "strength": 0.40000003589797006
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which TV detective drove a car with the registration plate 248RPA. Kojak",
+      "strength": 0.36775506923015594
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which TV detective drove a car with the registration plate 248RPA. Ironside",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which TV detective drove a car with the registration plate 248RPA. Lew-is",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The text does not mention a registration plate 248RPA for Columbo.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text does not mention a registration plate 248RPA for Kojak.",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The New York orange with dark blue lettered license plate on the brown police detective car was 383-JDZ.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the coach of the sf giants. Bruce Bochy",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the coach of the sf giants. Dusty Baker",
+      "strength": 0.5000648428318698
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the coach of the sf giants. Ron Wotus",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the coach of the sf giants. Tim Flannery",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Dusty Baker was the manager of the Giants from 1993 to 2002.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bruce Bochy would later eclipse him alongside managing the Giants to World Series titles in 2010, 2012, and 2014.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On October 27, 2006, Bochy agreed to a three-year contract to replace Felipe Alou and become the Giants' new manager, their 38th in franchise history.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Bochy became the Giants' manager in 2007, succeeding Felipe Alou.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

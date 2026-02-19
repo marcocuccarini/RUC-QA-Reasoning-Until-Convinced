@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. Jonathan",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. Saul",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. Samson",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who killed Goliath with a sling and a stone. داود",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "David kills Goliath with a stone slung from a sling.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Elhanan kills Goliath the Gittite according to 2 Samuel 21:19.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Saul refuses to fight Goliath.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "David took only his staff, sling, and five stones from a brook.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did hootie and the blowfish come out. 1994",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did hootie and the blowfish come out. 1986",
+      "strength": 0.5999999377797358
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did hootie and the blowfish come out. 1990",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did hootie and the blowfish come out. 2003",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hootie & the Blowfish is an American rock band formed in Columbia, South Carolina, in 1986.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The band's debut album, Cracked Rear View (1994), became one of the best-selling albums in the United States and was certified platinum 22 times.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cracked Rear View is the debut studio album by Hootie & the Blowfish, released on July 5, 1994, by Atlantic Records.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

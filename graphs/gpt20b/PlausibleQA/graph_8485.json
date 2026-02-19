@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which family left Cliveden House in Buckinghamshire shortly after the Profumo Affair of the 1960s. Cavendish",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which family left Cliveden House in Buckinghamshire shortly after the Profumo Affair of the 1960s. Churchill",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which family left Cliveden House in Buckinghamshire shortly after the Profumo Affair of the 1960s. Rothschild",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which family left Cliveden House in Buckinghamshire shortly after the Profumo Affair of the 1960s. ASTOR",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "After the Astor family stopped living there, by the 1970s, it was leased to Stanford University, which used it as an overseas campus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The present Grade I listed house was built in 1851 by the architect Charles Barry for the 2nd Duke of Sutherland.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

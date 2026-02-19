@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which cocktail consists of rum, curacao and lime juice. Blue Lagoon",
+      "strength": 0.400000037362994
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which cocktail consists of rum, curacao and lime juice. Pina Colada",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which cocktail consists of rum, curacao and lime juice. Mojito",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which cocktail consists of rum, curacao and lime juice. Maitai",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Blue Lagoon is a French cocktail featuring blue Curaçao mixed with vodka and lemonade.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Mai Tai is a cocktail made of rum, Curaçao liqueur, orgeat syrup, and lime juice.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Most current recipes for Mai Tais based on Trader Vic's 1944 recipe include rum, lime juice, orgeat syrup, and orange liqueur (typically orange curaçao).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

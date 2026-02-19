@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is covering the winter olympics in canada. CBC",
+      "strength": 0.5999999999999588
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is covering the winter olympics in canada. Sportsnet",
+      "strength": 0.5000968269597319
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is covering the winter olympics in canada. TSN",
+      "strength": 0.4000000876488778
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is covering the winter olympics in canada. TLN",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "CBC reached a deal of its own in August 2012, winning the rights to the 2014 and 2016 Games.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On February 7, 2013, CBC announced that it had reached deals with Sportsnet and TSN for both networks to become their official cable partners, beginning at the 2014 Winter Olympics.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Sports Network, a Canadian English-language cable television specialty channel",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Tyson Foods has the NYSE ticker TSN.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Tianjin Binhai International Airport has the IATA code TSN.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The CRTC rejected its proposal to spend its tangible benefits on the Sportsnet Winter Games.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

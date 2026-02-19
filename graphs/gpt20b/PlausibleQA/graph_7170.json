@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to the home of a beaver. Damhouse",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to the home of a beaver. Burrow",
+      "strength": 0.7499999027986369
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to the home of a beaver. Hut",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to the home of a beaver. Lodge",
+      "strength": 0.8460568465073258
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Beavers build lodges using tree branches, vegetation, rocks and mud.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Without such material, or when lodges are not needed, beavers dig burrows into a bank to live.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Once the dam has flooded enough area to the proper depth to form a protective moat for the lodge (often covering many acres), beavers begin construction of the lodge.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "In lakes, rivers and large streams with deep enough water, beavers may not build dams, and live in bank burrows and lodges.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Dams restrict water flow, forming ponds, and lodges (usually built in ponds) serve as shelters.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name of the vast hall where the Norse gods live. Asgardhall",
+      "strength": 0.4000374469575233
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name of the vast hall where the Norse gods live. Bifrosthall",
+      "strength": 0.36775506923015594
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name of the vast hall where the Norse gods live. Goldenhalle",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name of the vast hall where the Norse gods live. Valhol",
+      "strength": 0.40000003589797006
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The fifth and last realm was Valhalla, ruled by Odin and was called the Hall of Heroes.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Valhalla is described as a majestic hall located in Asgard and presided over by the god Odin.",
+      "strength": 0.5999625530424765
+    },
+    "A6": {
+      "type": "argument",
+      "text": "may be ferried away by valkyries to Odin's martial hall Valhalla",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The gods inhabit the heavenly realm of Asgard whereas humanity inhabits Midgard, a region in the center of the cosmos.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

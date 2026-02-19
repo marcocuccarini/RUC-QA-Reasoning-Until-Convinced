@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What's the food 'head cheese' alternatively called, which separately refers to a man's physical strength. Brawn",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What's the food 'head cheese' alternatively called, which separately refers to a man's physical strength. Meat",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What's the food 'head cheese' alternatively called, which separately refers to a man's physical strength. Flesh",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What's the food 'head cheese' alternatively called, which separately refers to a man's physical strength. Sült",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term head cheese is used in North America, potted heid in Scotland, and brawn elsewhere in Britain and Australia.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The term souse, a corruption of the German Sülze, is used for the pickled variety in North America and the West Indies.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The term brawn, coming from German and Old French, has had a variety of meanings, from roasted meat to specific types of food.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In Belgium, head cheese is also called kop or kopvlees, which translates as 'meat from the head'.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which singer had a number 1 hit album in 2008 entitled 'Hard Candy'. Britney Spears",
+      "strength": 0.40000008568525414
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which singer had a number 1 hit album in 2008 entitled 'Hard Candy'. Lady Gaga",
+      "strength": 0.40000008568525414
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which singer had a number 1 hit album in 2008 entitled 'Hard Candy'. Katy Perry",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which singer had a number 1 hit album in 2008 entitled 'Hard Candy'. Madonna",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Hard Candy (Madonna album), 2008",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Pop singer Madonna scored her seventh number-one album, Hard Candy.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

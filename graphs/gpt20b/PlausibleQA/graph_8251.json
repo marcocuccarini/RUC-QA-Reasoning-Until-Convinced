@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where are people who speak arabic from. Egypt",
+      "strength": 0.5999350949478656
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where are people who speak arabic from. Saudi Arabia",
+      "strength": 0.5999999365228031
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where are people who speak arabic from. Morocco",
+      "strength": 0.7499025789446009
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where are people who speak arabic from. Iraq",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Najdi Arabic, spoken by around 10 million people, mainly spoken in Najd, central and northern Saudi Arabia",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Maghrebi Arabic, also called 'Darija', spoken by about 70 million people in Morocco, Algeria, Tunisia and Libya",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Egyptian Arabic version of Wikipedia",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Moroccan Arabic version of Wikipedia",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

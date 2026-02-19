@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who did kurt warner play 4. Arizona Cardinals",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who did kurt warner play 4. New York Giants",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who did kurt warner play 4. Green Bay Packers",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who did kurt warner play 4. St. Louis Rams",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "He was signed by the Green Bay Packers in 1994, but released before the regular season.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "He played in the National Football League (NFL) for 12 seasons, primarily with the St. Louis Rams and Arizona Cardinals.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In the 2008 postseason, the Cardinals, led by quarterback Kurt Warner, won the Wild Card Round over the Atlanta Falcons.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

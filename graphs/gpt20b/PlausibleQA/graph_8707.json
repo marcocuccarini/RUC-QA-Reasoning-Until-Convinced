@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. John F. Kennedy International Airport",
+      "strength": 0.5999999626370065
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. LaGuardia Airport",
+      "strength": 0.749902562007873
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. Newark Liberty International Airport",
+      "strength": 0.5999999626370065
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what is new york city airport. Flushing Airport",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "John F. Kennedy International Airport is the busiest of the seven airports in the New York airport system.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It had more airline takeoffs and landings than LaGuardia and Newark combined from 1962 to 1967.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The airport accommodates airline service primarily to domestic, but also to limited international destinations.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It is named after Fiorello H. La Guardia, a former mayor of New York City.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

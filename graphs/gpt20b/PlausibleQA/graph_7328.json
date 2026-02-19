@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What is the name for the point in the lunar orbit when the moon is nearest to the earth. Perigeeon",
+      "strength": 0.226348727105729
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What is the name for the point in the lunar orbit when the moon is nearest to the earth. Lunaria",
+      "strength": 0.4000000000000028
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What is the name for the point in the lunar orbit when the moon is nearest to the earth. Proxima",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What is the name for the point in the lunar orbit when the moon is nearest to the earth. Apses",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "For objects in lunar orbit, the point of least distance are called the pericynthion () and the greatest distance the apocynthion ().",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "When discussing a satellite of Earth, including the Moon, the point of least distance is the perigee (), and of greatest distance, the apogee.",
+      "strength": 0.5999463261742976
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Apogee – Perigee Photographic Size Comparison, perseus.gr",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The distance between the Moon and Earth varies from around 356,400 km (221,500 mi) (perigee) to 406,700 km (252,700 mi) (apogee).",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The Moon’s distance and apparent size fluctuate up to 14%.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A5",
+      "relation": "support"
+    }
+  ]
+}

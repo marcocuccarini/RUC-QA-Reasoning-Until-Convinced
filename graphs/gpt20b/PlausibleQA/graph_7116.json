@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Sweeney Todd was the demon barber of what street. Baker Street",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Sweeney Todd was the demon barber of what street. Oxford Street",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Sweeney Todd was the demon barber of what street. Bond Street",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Sweeney Todd was the demon barber of what street. Fleet",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The street is mentioned in several works by Charles Dickens and is the home of the fictional murderer Sweeney Todd.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The barber Sweeney Todd is traditionally said to have lived and worked during the 18th century in Fleet Street, where he would murder customers and serve their remains as pie fillings.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

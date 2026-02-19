@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Used in mathematics, what is the value of Pi to three decimal places. 3.125",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Used in mathematics, what is the value of Pi to three decimal places. 3.201",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Used in mathematics, what is the value of Pi to three decimal places. 3.081",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Used in mathematics, what is the value of Pi to three decimal places. 3.142",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The number π is approximately equal to 3.14159",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Indian astronomer Aryabhata used a value of 3.1416 in his Āryabhaṭīya (499 AD).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

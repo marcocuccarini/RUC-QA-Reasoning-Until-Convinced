@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Whose statue, situated in Grafton Street in Dublin is known as 'the tart with the cart'. Queen Maeve",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Whose statue, situated in Grafton Street in Dublin is known as 'the tart with the cart'. Granuaile",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Whose statue, situated in Grafton Street in Dublin is known as 'the tart with the cart'. Lady Gregory",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Whose statue, situated in Grafton Street in Dublin is known as 'the tart with the cart'. MOLLY MALONE",
+      "strength": 0.4000911881966091
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The statue of Phil Lynott is known to locals as the 'Ace with the Bass'.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The statue of Molly Malone was moved from Grafton Street to Suffolk Street in 2014.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which U.S. state was the first to legalize same-sex marriage, in 2004. California",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which U.S. state was the first to legalize same-sex marriage, in 2004. New York",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which U.S. state was the first to legalize same-sex marriage, in 2004. Vermont",
+      "strength": 0.27624285582531066
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which U.S. state was the first to legalize same-sex marriage, in 2004. Mass.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The law went into effect on September 1, 2009, making Vermont the third U.S. state to legalize same-sex marriages, after Connecticut, Iowa and Massachusetts.",
+      "strength": 0.40000009282172766
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It was the first state to legalize same-sex marriage in 2009, unforced by court challenge or ruling.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "On May 17, 2004, Massachusetts became the first U.S. state and the sixth jurisdiction in the world to legalize same-sex marriage following the Supreme Judicial Court's decision in Goodridge v. Department of Public Health six months earlier.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

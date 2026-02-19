@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Ford recently announced that they were shutting down production of another of their marques. Active for the last 81 years, what brand is being discontinued. Plymouth",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Ford recently announced that they were shutting down production of another of their marques. Active for the last 81 years, what brand is being discontinued. Pontiac",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Ford recently announced that they were shutting down production of another of their marques. Active for the last 81 years, what brand is being discontinued. Oldsmobile",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Ford recently announced that they were shutting down production of another of their marques. Active for the last 81 years, what brand is being discontinued. Mercury",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On June 2, 2010, Ford announced the closure of the Mercury line effective at the end of 2010",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 2009, Ford began to make the final revisions to the Mercury model line, phasing out nameplates at the end of their model cycles",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

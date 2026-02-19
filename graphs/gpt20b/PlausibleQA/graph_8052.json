@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Corundum",
+      "strength": 0.3676470592298583
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Cryolite",
+      "strength": 0.09251674534739304
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Garnet",
+      "strength": 0.40000014851422505
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What ore is the chief source of aluminium. Boxite",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Aluminium oxide is dissolved at a temperature of about 960 °C in molten cryolite.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Bauxite is the world's main source of aluminium.",
+      "strength": 0.5999999999438272
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Aluminium also occurs in the minerals beryl, cryolite, garnet, spinel, and turquoise.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "It is obtained industrially by mining bauxite, a sedimentary rock rich in aluminium minerals.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "It is the world's main source of aluminium and gallium.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Bauxite consists mostly of the aluminium minerals gibbsite (Al(OH)3), boehmite (γ-AlO(OH)), and diaspore (α-AlO(OH)), mixed with the two iron oxides goethite (FeO(OH)) and hematite (Fe2O3), the aluminium clay mineral kaolinite (Al2Si2O5(OH)4) and small amounts of anatase (TiO2) and ilmenite (FeTiO3 or FeO·TiO2).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

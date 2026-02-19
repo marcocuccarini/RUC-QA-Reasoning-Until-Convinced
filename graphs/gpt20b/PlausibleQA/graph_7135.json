@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. English",
+      "strength": 0.7499025789446009
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. Scottish Gaelic",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. Welsh",
+      "strength": 0.5999999365228031
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what do people speak in uk. Irish",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "98% of people over the age of three were reported as speaking English in the 2011 UK census.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Welsh is spoken by 538,300 people in Wales according to the 2021 census.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Examples of regional accents and dialects across the UK",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

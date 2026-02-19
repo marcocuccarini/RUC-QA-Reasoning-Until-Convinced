@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In January 1971, Idi Amin deposed Milton Obote in a coup to become President of which country. Kenya",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In January 1971, Idi Amin deposed Milton Obote in a coup to become President of which country. Tanzania",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In January 1971, Idi Amin deposed Milton Obote in a coup to become President of which country. Zambia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In January 1971, Idi Amin deposed Milton Obote in a coup to become President of which country. Uganda",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Idi Amin served as the third president of Uganda from 1971 until his overthrow in 1979.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Tanzanian president Julius Nyerere ordered his troops to invade Uganda in response.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

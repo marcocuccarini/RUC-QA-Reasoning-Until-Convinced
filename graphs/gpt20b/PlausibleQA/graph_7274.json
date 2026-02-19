@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what books are written by suzanne collins. The Hunger Games Trilogy",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what books are written by suzanne collins. 5",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what books are written by suzanne collins. The Underland Chronicles",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what books are written by suzanne collins. 12",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Hunger Games series includes The Hunger Games (September 14, 2008), Catching Fire (September 1, 2009), and Mockingjay (August 24, 2010).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Underland Chronicles includes Gregor the Overlander (2003), Gregor and the Prophecy of Bane (2004), Gregor and the Curse of the Warmbloods (2005), Gregor and the Marks of Secret (2006), and Gregor and the Code of Claw (2007).",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Underland Chronicles is a series of five epic fantasy novels by Suzanne Collins, first published between 2003 and 2007.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Underland Chronicles is a series of five epic fantasy novels.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

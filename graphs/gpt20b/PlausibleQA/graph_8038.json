@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what inventions were made by ben franklin. Lightning Rod",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what inventions were made by ben franklin. Postal System Improvements",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what inventions were made by ben franklin. Franklin Stove",
+      "strength": 0.749902562007873
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what inventions were made by ben franklin. Bifocals",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Franklin, predating Diviš's work, independently developed and popularized his own lightning rod design, which became widely adopted across Europe and North America.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The first proper lightning rod was assembled by Father Prokop Diviš, a Czech priest and scientist, who erected a grounded lightning rod in 1754.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Franklin stove is a metal-lined fireplace named after Benjamin Franklin, who invented it in 1742.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In 1742, Franklin finished his first design which implemented new scientific concepts about heat which had been developed by the Dutch physician Herman Boerhaave (1668–1738), a proponent of Isaac Newton's ideas.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

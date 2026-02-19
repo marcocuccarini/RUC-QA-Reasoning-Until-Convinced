@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. Cardiff City FC",
+      "strength": 0.25009174651106497
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. Newport County FC",
+      "strength": 0.4000611252761509
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. Wrexham AFC",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which football team play their home games at the Liberty Stadium. SCAFC",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When it opened, the Cardiff Blues rugby union club left their Cardiff Arms Park home to share the new stadium with Cardiff City.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is the home stadium of EFL Championship club Swansea City.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Swansea City took full operational control of the stadium in 2018.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

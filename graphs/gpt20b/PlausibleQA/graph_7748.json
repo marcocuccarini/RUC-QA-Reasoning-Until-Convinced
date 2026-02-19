@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Alfred Hitchcock films Rebecca and The Birds were based on novels by which author. Daphne du Maurier",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Alfred Hitchcock films Rebecca and The Birds were based on novels by which author. Agatha Christie",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Alfred Hitchcock films Rebecca and The Birds were based on novels by which author. Jane Austen",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Alfred Hitchcock films Rebecca and The Birds were based on novels by which author. Lady Browning",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "When Alfred Hitchcock's The Birds was released in 1963, based on 'The Birds' (1952) by du Maurier.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Hitchcock film The Birds (1963) is based on a treatment of the short story of that name, as is the film Don't Look Now (1973).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

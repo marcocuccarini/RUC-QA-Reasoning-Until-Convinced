@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Harmonica",
+      "strength": 0.4999032677370782
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Accordion",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Calliope",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which musical instrument was patented in Berlin by Freidrich Buschmann in 1822. Aeoline",
+      "strength": 0.40000009469685094
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Christian Friedrich Ludwig Buschmann is often cited as the inventor of the harmonica in 1821",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Charles Wheatstone developed a mouth-organ under the name 'Aeolina' (inspired by the Aeolian harp)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Layout of 12 Keys of Richter-tuned Diatonic Harmonica",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The instrument described is a Richter-tuned Diatonic Harmonica",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

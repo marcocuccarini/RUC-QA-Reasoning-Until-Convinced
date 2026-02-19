@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "We call it a ‘full stop’ what do Americans call it. Dot",
+      "strength": 0.4950784956301407
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "We call it a ‘full stop’ what do Americans call it. Stop Sign",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "We call it a ‘full stop’ what do Americans call it. End Mark",
+      "strength": 0.3677550333652498
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "We call it a ‘full stop’ what do Americans call it. Peroid",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "In American English, the word 'period' serves this function.",
+      "strength": 0.5999625530424765
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The word period was used as a name for what printers often called the 'full point', the punctuation mark that was a dot on the baseline and used in several situations.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The character known as the full point or full stop in British and Commonwealth English and as the period in North American English serves multiple purposes.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

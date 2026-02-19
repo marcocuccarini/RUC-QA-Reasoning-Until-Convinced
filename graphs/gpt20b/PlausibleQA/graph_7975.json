@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who is the newly elected governor of california. Gavin Newsom",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who is the newly elected governor of california. Antonio Villaraigosa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who is the newly elected governor of california. Kamala Harris",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who is the newly elected governor of california. Jerry Brown",
+      "strength": 0.40009682695977267
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Newsom was elected governor of California in 2018 and reelected in 2022.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "On February 11, 2015, Newsom announced that he was opening a campaign account for governor in the 2018 elections, allowing him to raise funds for a campaign to succeed Brown as governor of California.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

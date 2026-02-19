@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. Lao Tzu",
+      "strength": 0.2500000000132486
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. Zhuangzi",
+      "strength": 0.2263371500393563
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. Mozi",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The Analects are the writings of which Eastern philosopher. 丘",
+      "strength": 0.3676470588927288
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Analects were composed of sayings and ideas attributed to Confucius and his contemporaries.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Analects is a central text of Confucianism.",
+      "strength": 0.5999999766480442
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Confucius was traditionally ascribed with compiling these classics within his school.",
+      "strength": 0.5999999999911677
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Confucius is said to have amended and recodified the classical books inherited from the Xia-Shang-Zhou dynasties, and to have composed the Spring and Autumn Annals.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Confucius is said to have amended and recodified the classical books inherited from the Xia-Shang-Zhou dynasties.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Together with the Analects and Mencius, these texts became known as the Four Books.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "Zhuangzi (book) (莊子), an ancient Chinese collection of anecdotes and fables, one of the foundational texts of Taoism",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A6",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

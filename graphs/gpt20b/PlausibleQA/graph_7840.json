@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "General James Wolfe was killed at which battle in 1759. New York",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "General James Wolfe was killed at which battle in 1759. Fort Duquesne",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "General James Wolfe was killed at which battle in 1759. Fort Ticonderoga",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "General James Wolfe was killed at which battle in 1759. CA-QC",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The battle, which took place on 13 September 1759, was fought by the British Army and Royal Navy against the French Army on the Promontory of Quebec",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Both generals were mortally wounded during the battle; Wolfe died of gunshot wounds just as the French began to retreat",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

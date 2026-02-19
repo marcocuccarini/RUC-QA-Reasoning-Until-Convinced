@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was the first female artist to have a #1 album in the USA and the UK simultaneously. Madonna",
+      "strength": 0.3999046315926414
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was the first female artist to have a #1 album in the USA and the UK simultaneously. Whitney Houston",
+      "strength": 0.25009542980818045
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was the first female artist to have a #1 album in the USA and the UK simultaneously. Mariah Carey",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was the first female artist to have a #1 album in the USA and the UK simultaneously. SuBo",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The album peaked at number 2 in the United Kingdom.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In the United States, it peaked at number eight on the Billboard 200",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Like a Virgin became her first number-one album in the UK and the US.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

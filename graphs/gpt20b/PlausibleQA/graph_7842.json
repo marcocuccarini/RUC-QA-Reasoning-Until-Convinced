@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "blood alcohol concentration means the parts of alcohol in the blood in relation to what. Methanol",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "blood alcohol concentration means the parts of alcohol in the blood in relation to what. Isopropanol",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "blood alcohol concentration means the parts of alcohol in the blood in relation to what. Blood cells",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "blood alcohol concentration means the parts of alcohol in the blood in relation to what. ethanol",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "BAC is expressed as mass of alcohol per volume of blood.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The pharmacokinetics of ethanol are well characterized by the ADME acronym (absorption, distribution, metabolism, excretion).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

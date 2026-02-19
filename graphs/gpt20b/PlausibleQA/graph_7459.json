@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. Grover Cleveland",
+      "strength": 0.25009741501474514
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. William Howard Taft",
+      "strength": 0.4000000574365435
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. Theodore Roosevelt's Vice President",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who became President of the USA following the assassination of William McKinley in 1901. T Ros",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Roosevelt became president following the assassination of President William McKinley, under whom he had served as vice president.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "McKinley died at 2:15 am on September 14 and was succeeded by his vice president, Theodore Roosevelt.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

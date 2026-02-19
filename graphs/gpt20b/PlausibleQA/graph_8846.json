@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who has been ranked no. 1 in the latest football rankings announced by fifa. Brazil",
+      "strength": 0.40000000008898207
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who has been ranked no. 1 in the latest football rankings announced by fifa. Spain",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who has been ranked no. 1 in the latest football rankings announced by fifa. Argentina",
+      "strength": 0.40000009282172766
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who has been ranked no. 1 in the latest football rankings announced by fifa. Germany",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "On 6 June 2013, Brazil was ranked 22nd in the FIFA World Rankings, their lowest ever.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "As of November 2025, Argentina ranks 2nd in the FIFA Men's World Ranking.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Spain is the second nation to hold the first position in both men and women's rankings simultaneously since September 2025, after Germany.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

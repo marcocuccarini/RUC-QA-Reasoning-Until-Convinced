@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which hotel is world-famous for its 'grill'. The Plaza Hotel",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which hotel is world-famous for its 'grill'. The Ritz Hotel",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which hotel is world-famous for its 'grill'. The Bellagio",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which hotel is world-famous for its 'grill'. Savoys",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The hotel has three restaurants, all managed by Gordon Ramsay: the Savoy Grill, on the north side of the building, with its entrance off the Strand",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Savoy Grill lost its Michelin star and reopened to mixed reviews",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

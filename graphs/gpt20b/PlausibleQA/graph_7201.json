@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which Norwegian firm supposedly produced the first fleece fabrics in the 1960s. Dale of Norway",
+      "strength": 0.2500000915578924
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which Norwegian firm supposedly produced the first fleece fabrics in the 1960s. Kari Traa",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which Norwegian firm supposedly produced the first fleece fabrics in the 1960s. Devold of Norway",
+      "strength": 0.4000000000337316
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which Norwegian firm supposedly produced the first fleece fabrics in the 1960s. Helly-Hansen",
+      "strength": 0.4000949096575096
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Devold is a Norwegian surname.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The text does not mention fleece fabrics.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The text does not mention the 1960s.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "In the 1920s, a new fabric, which Helly Hansen called Linox, was developed.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

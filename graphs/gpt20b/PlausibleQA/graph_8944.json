@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What did Thomas Chippendale design. Cabinets",
+      "strength": 0.5999999377797358
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What did Thomas Chippendale design. Clocks",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What did Thomas Chippendale design. Textiles",
+      "strength": 0.5999350949478656
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What did Thomas Chippendale design. Forniture",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Thomas Chippendale published The Gentleman and Cabinet Maker's Director, a trade catalogue of cabinet designs.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Chippendale's Director was used by many other cabinet makers, consequently recognisably 'Chippendale' furniture was produced in Dublin, Philadelphia, Lisbon, Copenhagen and Hamburg.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Chippendale was much more than just a cabinet maker; he was an interior designer who advised on other aspects of decor such as soft furnishings and even the colour a room should be painted.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Chippendale collaborated in furnishing interiors designed by Robert Adam, and at Brocket Hall, Hertfordshire, and Melbourne House, London, for Lord Melbourne, with Sir William Chambers (c. 1772–75).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

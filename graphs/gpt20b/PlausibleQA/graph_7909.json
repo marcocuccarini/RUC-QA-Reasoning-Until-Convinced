@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who was Cassius Clay's manager. Angelo Dundee's brother",
+      "strength": 0.40006361984599315
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who was Cassius Clay's manager. Sugar Ray Robinson",
+      "strength": 0.400000060988221
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who was Cassius Clay's manager. Joe Louis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who was Cassius Clay's manager. Dundee",
+      "strength": 0.2500954907572107
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Clay sought longtime idol Sugar Ray Robinson to be his manager, but was rebuffed.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Clay hired Angelo Dundee to be his trainer.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Angelo Dundee (born Angelo Mirena; August 30, 1921 – February 1, 2012) was an American boxing trainer and cornerman.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Dundee trained the young Cassius Clay, as Ali was then known.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

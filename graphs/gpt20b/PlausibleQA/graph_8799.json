@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "total number of mna in pakistan national assembly. 300",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "total number of mna in pakistan national assembly. 250",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "total number of mna in pakistan national assembly. 350",
+      "strength": 0.2500000897281676
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "total number of mna in pakistan national assembly. 332",
+      "strength": 0.4000000000573076
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Currently, there are a total of 342 seats in the National Assembly.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The National Assembly has 336 members, including 60 seats reserved for women and 10 for Non-Muslims, as per Article 51.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The National Assembly of Pakistan is only allowed to have 336 total members of parliament or MNA.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "a single house, only a National Assembly that would consist of 300 members; 150 members from each East and West Pakistan",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

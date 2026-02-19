@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "where did charles darwin and his wife live. Cambridge",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "where did charles darwin and his wife live. Shrewsbury",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "where did charles darwin and his wife live. Edinburgh",
+      "strength": 0.47058843220581187
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "where did charles darwin and his wife live. London",
+      "strength": 0.5999031730628166
+    },
+    "A4": {
+      "type": "argument",
+      "text": "before going to the well-regarded University of Edinburgh Medical School with his brother Erasmus in October 1825",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "then immediately caught the train to London and their new home",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Down House is a village 23 km south-east of London's Charing Cross.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Charles and Emma moved to Down House in 1842, a village in Kent.",
+      "strength": 0.7499999422009999
+    },
+    "A8": {
+      "type": "argument",
+      "text": "Down House is the home of Charles Darwin.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Darwin bicentenary at Down House.",
+      "strength": 0.5
+    },
+    "A10": {
+      "type": "argument",
+      "text": "After a brief period of residence in London, they moved permanently to Down House.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H2",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A7",
+      "relation": "support"
+    },
+    {
+      "source": "A10",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

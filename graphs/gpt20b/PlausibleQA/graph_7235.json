@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Maidstone",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Canterbury",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Tunbridge Wells",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In which town in Kent is the Shepherd Neame brewery located. Faversham",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The brewery has been based in the market town of Faversham, Kent, for over 300 years.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The brewery's headquarters are at 18 Court Street, Faversham.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

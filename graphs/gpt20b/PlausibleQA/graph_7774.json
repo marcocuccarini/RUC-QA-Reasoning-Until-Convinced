@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Fresh",
+      "strength": 0.4000000000743242
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Junior",
+      "strength": 0.4000000909837343
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Senior",
+      "strength": 0.4000949096575096
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "A sophomore is a student in which year of a US college. Secs",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The term sophomore is also used to refer to a student in the second year of college or university studies in the United States; typically a college sophomore is 19 to 20 years old.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Junior (education year), the third year of high school or college in the United States",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Senior (education), a student in the final year of high school, college or university.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

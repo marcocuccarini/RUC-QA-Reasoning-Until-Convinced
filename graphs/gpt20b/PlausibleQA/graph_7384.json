@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which European capital city is located 40 miles east of Vienna. Bratislava",
+      "strength": 0.599902821046082
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which European capital city is located 40 miles east of Vienna. Budapest",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which European capital city is located 40 miles east of Vienna. Ljubljana",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which European capital city is located 40 miles east of Vienna. Požun",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "making them the closest pair of capital cities in Europe at just 50 kilometres (31 mi) apart.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It is only 60 kilometres (37.3 mi) from the Austrian capital Vienna.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Vienna lies around 50 km (31 mi) west of Slovakia and its capital Bratislava",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Bratislava is the capital and largest city of Slovakia.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The city is situated on the border of three countries—Slovakia, Austria, and Hungary—and is the only national capital to have land borders with two other sovereign states.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

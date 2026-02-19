@@ -1,0 +1,76 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "On the 4th, which half of a famous musical act died in California, aged 74. John Fogerty",
+      "strength": 0.25008809281444583
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "On the 4th, which half of a famous musical act died in California, aged 74. Robin Gibb",
+      "strength": 0.2500000543881257
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "On the 4th, which half of a famous musical act died in California, aged 74. Mike Hucknall",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "On the 4th, which half of a famous musical act died in California, aged 74. Don Everly",
+      "strength": 0.40000000000003344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Robin Gibb died in May 2012 at the age of 62 from liver and kidney failure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Don Everly died in Nashville on August 21, 2021, aged 84.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "John Fogerty performed an Australian tour in March 2008.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Following Robin's death on 20 May 2012",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "John Fogerty later commented on the demise of CCR in a 1997 edition of the Swedish magazine Pop",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

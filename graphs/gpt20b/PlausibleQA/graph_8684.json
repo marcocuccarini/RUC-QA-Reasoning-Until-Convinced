@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "5 cities with the highest population in europe. London",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "5 cities with the highest population in europe. Istanbul",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "5 cities with the highest population in europe. Moscow",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "5 cities with the highest population in europe. Berlin",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The largest cities in Europe have official populations of over one million inhabitants within their city boundaries.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The limits of a city proper can differ greatly from the size of the city's urban area, so the figures in this list may not give an accurate view of the comparative population of different urban areas and should be treated with caution.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

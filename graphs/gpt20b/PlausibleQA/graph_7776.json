@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "If a right angled triangle has two sides measuring 9 and 12 inches how many inches long is the third and longest side . 10",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "If a right angled triangle has two sides measuring 9 and 12 inches how many inches long is the third and longest side . 16",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "If a right angled triangle has two sides measuring 9 and 12 inches how many inches long is the third and longest side . 17",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "If a right angled triangle has two sides measuring 9 and 12 inches how many inches long is the third and longest side . 15",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Exactly one of a, b is divisible by 2 (is even), and the hypotenuse c is always odd.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "a^2 + b^2 = c^2.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

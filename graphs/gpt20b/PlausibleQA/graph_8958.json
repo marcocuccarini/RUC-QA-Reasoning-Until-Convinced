@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Toyota",
+      "strength": 0.25000003759877515
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Honda",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Ford",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which car company has manufactured models called Baleno, Alto and Vitara. Szki",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The company went on to launch another compact car Maruti Baleno in 1999.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Maruti Alto was launched in 2000.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The Suzuki Alto (Japanese: スズキ・アルト, Hepburn: Suzuki Aruto) is a kei car produced by Suzuki since 1979.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The car is powered with 0.8-litre F8D three-cylinder and 1.1-litre F10D four-cylinder engines with fuel injection.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

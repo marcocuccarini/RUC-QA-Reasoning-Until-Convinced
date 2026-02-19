@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Chessmaster",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Bigbrain",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Checkmate",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What was the name of the IBM computer that defeated world chess champion Garry Kasparov in 1997. Deepblue",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Deep Blue was a customized IBM RS/6000 SP supercomputer for chess-playing designed by computer scientist Feng-hsiung Hsu.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Deep Blue was upgraded in 1997, and in a six-game re-match it defeated Kasparov by winning two games and drawing three.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

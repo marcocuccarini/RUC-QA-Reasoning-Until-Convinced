@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "how many times have real madrid won the champions league in a row. Three",
+      "strength": 0.5000948186737755
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "how many times have real madrid won the champions league in a row. Two",
+      "strength": 0.5999999090162662
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "how many times have real madrid won the champions league in a row. One",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "how many times have real madrid won the champions league in a row. five",
+      "strength": 0.5999050903424904
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Real Madrid once again progressed to the final where they defeated Liverpool 3–1 to become the first club to win three straight titles in the Champions League era",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Real Madrid becoming the first team to successfully defend their title in the UEFA Champions League era",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Madrid is the only club to have won it five times in a row (the first five editions).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

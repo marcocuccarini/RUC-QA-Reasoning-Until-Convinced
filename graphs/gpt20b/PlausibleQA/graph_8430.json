@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when do they change the time in california. UTC-7",
+      "strength": 0.6322429966750173
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when do they change the time in california. UTC-6",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when do they change the time in california. UTC-5",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when do they change the time in california. UTC-8",
+      "strength": 0.5000381668130884
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Daylight saving time starts on the second Sunday in March",
+      "strength": 0.5999617965637547
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Daylight saving time ends on the first Sunday in November",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The United States Congress passed the Energy Policy Act of 2005, which moved the local time changes from PST to PDT to the second Sunday in March and the reversal from PDT to PST to the first Sunday in November.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Through 2006, the local time (PST, UTC−08:00) changed to daylight time (PDT, UTC−07:00) at 02:00 LST to 03:00 LDT on the first Sunday in April, and returned at 02:00 LDT to 01:00 LST on the last Sunday in October.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H3",
+      "relation": "attack"
+    }
+  ]
+}

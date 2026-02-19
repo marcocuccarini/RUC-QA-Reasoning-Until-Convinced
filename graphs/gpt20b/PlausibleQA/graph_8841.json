@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What pope resigned in 2013. Pope Benedict XVI's predecessor, Pope John Paul II",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What pope resigned in 2013. Pope Gregory XII",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What pope resigned in 2013. Pope Celestine V",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What pope resigned in 2013. PB16",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Pope Benedict XVI resigned as pope on 28 February 2013.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Benedict was the first pope to resign without external pressure since Celestine V in 1294.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

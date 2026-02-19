@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "An equilateral triangle has all 3 sides of the same length. What type of triangle only has 2 sides of equal length. Bilateral",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "An equilateral triangle has all 3 sides of the same length. What type of triangle only has 2 sides of equal length. Dilateral",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "An equilateral triangle has all 3 sides of the same length. What type of triangle only has 2 sides of equal length. Equalateral",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "An equilateral triangle has all 3 sides of the same length. What type of triangle only has 2 sides of equal length. Isoceles",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "An isosceles triangle is a triangle that has two sides of equal length and two angles of equal measure.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The two equal sides are called the legs and the third side is called the base.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

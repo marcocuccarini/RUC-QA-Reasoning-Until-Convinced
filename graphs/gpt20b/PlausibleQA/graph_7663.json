@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The mountainous and partly lawless province of Nuristan lies in the north-east of which country. Pakistan",
+      "strength": 0.11349674267077423
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The mountainous and partly lawless province of Nuristan lies in the north-east of which country. India",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The mountainous and partly lawless province of Nuristan lies in the north-east of which country. Tajikistan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The mountainous and partly lawless province of Nuristan lies in the north-east of which country. IROA",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Nuristan is one of the 34 provinces of Afghanistan.",
+      "strength": 0.8460568445252082
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Nuristan is bordered on the east by Pakistan.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Forest exists in the corridor between the provinces of Nuristan and Paktika (see East Afghan montane conifer forests).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Between the Soviet–Afghan War and the Afghan civil wars, 4 new provinces were created: Paktika, Khost, Sar-i Pul, and Nuristan.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "By 2021, Afghanistan consisted of 34 provinces and 378 districts, reflecting long-term administrative expansion rather than major territorial reorganisation.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The Interior Ministry of Afghanistan renamed provinces and capital cities in 1964.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A9",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

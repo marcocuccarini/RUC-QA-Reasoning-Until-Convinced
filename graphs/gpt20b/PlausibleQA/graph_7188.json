@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which US President was born Lesley Lynch King Jr. Jimmy Carter",
+      "strength": 0.08256916466068315
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which US President was born Lesley Lynch King Jr. Ronald Reagan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which US President was born Lesley Lynch King Jr. Bill Clinton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which US President was born Lesley Lynch King Jr. Gerald fod",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "James Earl Carter Jr. (October 1, 1924 – December 29, 2024) was an American politician and humanitarian who served as the 39th president of the United States from 1977 to 1981.",
+      "strength": 0.7499999497519633
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Born in Plains, Georgia, Carter graduated from the U.S. Naval Academy in 1946 and joined the submarine service before returning to his family's peanut farm.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Jimmy Carter has a Presidential Library & Museum.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Jimmy Carter appeared on C-SPAN.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The incumbent president is Donald Trump, who assumed office on January 20, 2025.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "Four presidents died in office of natural causes (William Henry Harrison, Zachary Taylor, Warren G. Harding, and Franklin D. Roosevelt), four were assassinated (Abraham Lincoln, James A. Garfield, William McKinley, and John F. Kennedy), and one resigned (Richard Nixon, facing impeachment and removal from office).",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

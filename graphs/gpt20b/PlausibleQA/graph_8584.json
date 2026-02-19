@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What name is given to a painful infection of the tip of a finger. Felon",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What name is given to a painful infection of the tip of a finger. Paronychia",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What name is given to a painful infection of the tip of a finger. Dactylitis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What name is given to a painful infection of the tip of a finger. Whitlow",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "A whitlow or felon is an infection of the tip of the finger.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "paronychia is an infection of the tissue at the side or base of the nail.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who wrote you must have been a beautiful baby. Irving Berlin",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who wrote you must have been a beautiful baby. Cole Porter",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who wrote you must have been a beautiful baby. Johnny Mercer",
+      "strength": 0.7499025802015337
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who wrote you must have been a beautiful baby. Harry Warren",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "music by Harry Warren",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "lyrics by Johnny Mercer",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "You Must Have Been a Beautiful Baby (1938) w. Johnny Mercer",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H2",
+      "relation": "support"
+    }
+  ]
+}

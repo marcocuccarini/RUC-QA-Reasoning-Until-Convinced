@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 2005 NBA Season",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 1990 NBA Finals",
+      "strength": 0.5999031730402274
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 1989 NBA Season",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when did the detroit pistons last win the championship. 2004 NBA Finals",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Pistons won two back-to-back championships in 1989 and 1990.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In Game 5, the Pistons won their first championship since 1990.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

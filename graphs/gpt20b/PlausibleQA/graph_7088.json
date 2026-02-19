@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when are the next commonwealth games going to be held. 2026",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when are the next commonwealth games going to be held. 2025",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when are the next commonwealth games going to be held. 2030",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when are the next commonwealth games going to be held. 2022",
+      "strength": 0.4000649050521344
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The 2026 Commonwealth Games are scheduled from 23 July to 2 August 2026.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The next Commonwealth Games host city Ahmedabad will be known as the Commonwealth Centenary Games in 2030.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The most recent edition was held in Birmingham in 2022.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The 2026 Commonwealth Games will be the first held under the reign of King Charles III.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

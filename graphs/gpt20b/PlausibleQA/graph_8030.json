@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Beloved in 1999 was whose first movie since The Color Purple in 1985. Whoopi Goldberg",
+      "strength": 0.4999051813262246
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Beloved in 1999 was whose first movie since The Color Purple in 1985. Danny Glover",
+      "strength": 0.25000000008777057
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Beloved in 1999 was whose first movie since The Color Purple in 1985. Adolph Caesar",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Beloved in 1999 was whose first movie since The Color Purple in 1985. Oprah",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Glover also appeared in films such as Grand Canyon (1991) and Bopha! (1993).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "In 1998, he starred as Paul D. in the drama film Beloved, based on Toni Morrison's novel.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Beloved (1998 film), based on the Toni Morrison novel.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The Color Purple (1985 film), a 1985 film directed by Steven Spielberg, based on the novel.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

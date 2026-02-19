@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "who won the league cup in 2002. Blackburn Rovers",
+      "strength": 0.5999031730402274
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "who won the league cup in 2002. Chelsea F.C.",
+      "strength": 0.40009682695977267
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "who won the league cup in 2002. Manchester United",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "who won the league cup in 2002. Liverpool F.C.",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The tournament was won by Blackburn Rovers, who beat Tottenham Hotspur 2–1 in the final, thanks to single strikes from Matt Jansen and Andy Cole, sandwiched by an equaliser from Christian Ziege.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The 2002 Worthington Cup Final was played on 24 February 2002 and was contested between Premier League teams Tottenham Hotspur and Blackburn Rovers at the Millennium Stadium in Cardiff.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

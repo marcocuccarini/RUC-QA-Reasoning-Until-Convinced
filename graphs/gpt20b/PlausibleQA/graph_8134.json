@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Perth Airport",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Paisley Airport",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Peterborough Airport",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which UK international airport has the code PIK. Prestwick",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Glasgow Prestwick Airport (IATA: PIK, ICAO: EGPK)",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The airport serves the urban cluster surrounding Ayr, including Kilmarnock, Irvine, Ardrossan, Troon, Saltcoats, Stevenston, Kilwinning, and Prestwick itself",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

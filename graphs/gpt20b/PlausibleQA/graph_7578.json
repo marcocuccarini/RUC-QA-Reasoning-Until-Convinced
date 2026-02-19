@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In Christian art what does a painting termed a ‘Pieta’ depict. The Virgin Mary weeping alone",
+      "strength": 0.5999999871841747
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In Christian art what does a painting termed a ‘Pieta’ depict. A group of angels surrounding Jesus",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In Christian art what does a painting termed a ‘Pieta’ depict. Jesus Christ standing after resurrection",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In Christian art what does a painting termed a ‘Pieta’ depict. Mary holding the dead body of",
+      "strength": 0.6798933299516496
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Pietà depicts the Blessed Virgin Mary cradling the mortal body of Jesus Christ after his Descent from the Cross.",
+      "strength": 0.7499652139585837
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Pietà is a specific form of the Lamentation of Christ in which Jesus is mourned by the Virgin Mary alone.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The sculpture captures the moment when Jesus, taken down from the cross, is given to his mother Mary.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The marks of the Crucifixion are limited to very small nail marks and an indication of the wound in Jesus' side.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. Rubella",
+      "strength": 0.5
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. Influenza",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. Mononucleosis",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "What viral disease is also called infectious parotitis. MUMPS",
+      "strength": 0.749902562007873
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mumps is a highly contagious viral disease caused by the mumps virus.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "MuV spreads to the parotid glands, causing the signature parotitis.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

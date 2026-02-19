@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what places are in the west midlands. Birmingham",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what places are in the west midlands. Coventry",
+      "strength": 0.5999350949478656
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what places are in the west midlands. Wolverhampton",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what places are in the west midlands. Walsall",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The region has seven cities: Birmingham, Coventry, Hereford, Lichfield, Stoke-on-Trent, Wolverhampton and Worcester.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The West Midlands conurbation (includes Birmingham, Wolverhampton, Solihull, Sutton Coldfield, Dudley, West Bromwich and Walsall.)",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Birmingham is located in the centre of the West Midlands region of England",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "Birmingham's metropolitan area includes the city of Coventry and the towns of Nuneaton, Warwick and Leamington Spa to the east in Warwickshire",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H1",
+      "relation": "support"
+    }
+  ]
+}

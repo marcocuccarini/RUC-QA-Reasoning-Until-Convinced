@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which King did Guy Fawkes attempt to kill with his gunpowder plot. Henry VIII",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which King did Guy Fawkes attempt to kill with his gunpowder plot. Edward VI",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which King did Guy Fawkes attempt to kill with his gunpowder plot. Mary I",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which King did Guy Fawkes attempt to kill with his gunpowder plot. James I",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The plan was to blow up the House of Lords during the State Opening of Parliament on Tuesday 5 November 1605, as the prelude to a popular revolt in the Midlands during which King James's nine-year-old daughter, Elizabeth, was to be installed as the new head of state.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The Gunpowder Plot of 1605, in earlier centuries often called the Gunpowder Treason Plot or the Jesuit Treason, was an unsuccessful attempted regicide against King James VI of Scotland and I of England by a group of English Catholics, led by Robert Catesby.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

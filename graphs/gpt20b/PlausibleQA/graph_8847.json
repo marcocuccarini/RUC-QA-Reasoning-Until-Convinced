@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Which actor succeeded Marlon Brando as head of the Corleone family in the Godfather films. Robert De Niro",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Which actor succeeded Marlon Brando as head of the Corleone family in the Godfather films. James Caan",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Which actor succeeded Marlon Brando as head of the Corleone family in the Godfather films. Andy García",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Which actor succeeded Marlon Brando as head of the Corleone family in the Godfather films. Pacino",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Francis Ford Coppola cast him as Michael Corleone in what became a blockbuster Mafia film, The Godfather (1972).",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Although Jack Nicholson, Robert Redford, Warren Beatty, and the little-known Robert De Niro tried out for the part, Coppola selected Pacino.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

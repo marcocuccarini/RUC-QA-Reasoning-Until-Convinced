@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The word husband is derived from the ancient Old Norse meanings of 'house' and what activity. Hunt",
+      "strength": 0.2500974197984664
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The word husband is derived from the ancient Old Norse meanings of 'house' and what activity. Trade",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The word husband is derived from the ancient Old Norse meanings of 'house' and what activity. Craft",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The word husband is derived from the ancient Old Norse meanings of 'house' and what activity. Farm",
+      "strength": 0.5999350949478656
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Old Norse hūsbōndi (hūs, 'house' + bōndi, būandi, present participle of būa, 'to dwell', so, etymologically, 'a householder').",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "the ownership and care of a household or farm",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

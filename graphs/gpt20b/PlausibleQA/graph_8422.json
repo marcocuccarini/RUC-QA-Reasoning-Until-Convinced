@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "The winner of the Academy Award for Best Foreign Film 1987, Babette's Feast, was set in, and filmed by, what country. Norge",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "The winner of the Academy Award for Best Foreign Film 1987, Babette's Feast, was set in, and filmed by, what country. Sverige",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "The winner of the Academy Award for Best Foreign Film 1987, Babette's Feast, was set in, and filmed by, what country. Frankrig",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "The winner of the Academy Award for Best Foreign Film 1987, Babette's Feast, was set in, and filmed by, what country. Danska",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Babette's Feast is a 1987 Danish drama film.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The elderly and pious Protestant sisters Martine and Filippa live in a small village on the remote western coast of Jutland in 19th-century Denmark.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    }
+  ]
+}

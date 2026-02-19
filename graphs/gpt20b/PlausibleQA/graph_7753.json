@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "In medicine an emetic is administered to induce what. Vomit",
+      "strength": 0.749902562007873
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "In medicine an emetic is administered to induce what. Nausea",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "In medicine an emetic is administered to induce what. Diarrhea",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "In medicine an emetic is administered to induce what. Puke",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Inducing vomiting can remove the substance before it is absorbed into the body.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Emetics can be divided into two categories: those which produce their effect by acting on the vomiting center in the medulla, and those which act directly on the stomach itself.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

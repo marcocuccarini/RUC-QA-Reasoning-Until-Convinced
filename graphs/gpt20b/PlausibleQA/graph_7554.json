@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. Website Domain",
+      "strength": 0.4309497726379084
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. Internet Portal",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. Online Repository",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Created in August 1991, ‘info.cern.ch’ was the first ever what. W3s",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The first web site (https://info.cern.ch/) was published on 20 December 1990.",
+      "strength": 0.4000000000079125
+    },
+    "A5": {
+      "type": "argument",
+      "text": "info.cern.ch, the first website",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The first website was created in August 1991 by Tim Berners-Lee at CERN.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "info.cern.ch was intended to be the CERN home page; however the DNS records were never switched.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "The first Web pages that described the project itself.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A8",
+      "target": "H0",
+      "relation": "support"
+    }
+  ]
+}

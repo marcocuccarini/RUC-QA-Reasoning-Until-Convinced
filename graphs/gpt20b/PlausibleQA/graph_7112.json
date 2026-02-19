@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who's missing: Bashful, Doc, Dopey, Grumpy, Happy, Sleepy. Silly",
+      "strength": 0.226352591211015
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who's missing: Bashful, Doc, Dopey, Grumpy, Happy, Sleepy. Lazy",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who's missing: Bashful, Doc, Dopey, Grumpy, Happy, Sleepy. Goofy",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who's missing: Bashful, Doc, Dopey, Grumpy, Happy, Sleepy. Sneezy",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Seven Dwarfs shelter Snow White in their cottage",
+      "strength": 0.5999441357039169
+    },
+    "A5": {
+      "type": "argument",
+      "text": "The seven dwarfs warn her against opening the door to strangers",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "They represent loyalty and companionship, offering protection despite their limited ability to stop the Queen’s deception.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "support"
+    }
+  ]
+}

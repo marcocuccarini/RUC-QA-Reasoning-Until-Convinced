@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who produces the `Agila' car model. Opel",
+      "strength": 0.7499025802015337
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who produces the `Agila' car model. Suzuki",
+      "strength": 0.4000649050521344
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who produces the `Agila' car model. Fiat",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who produces the `Agila' car model. VAUXHALL",
+      "strength": 0.5999999377797358
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The Opel Agila is marketed under the German marque Opel",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "It has been marketed under the Vauxhall marque in the United Kingdom",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "The company moved into the city car market in early 2000 with the Agila launch.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

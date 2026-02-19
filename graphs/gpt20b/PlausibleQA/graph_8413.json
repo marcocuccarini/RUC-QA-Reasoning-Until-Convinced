@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1830",
+      "strength": 0.22624447531640735
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1835",
+      "strength": 0.2500954297689898
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1825",
+      "strength": 0.40006361984599315
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "when was the reaper invented by cyrus mccormick. 1837",
+      "strength": 0.4000000000000028
+    },
+    "A4": {
+      "type": "argument",
+      "text": "The young McCormick was granted a patent on the reaper on June 21, 1834, two years after having been granted a patent for a self-sharpening plow.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "McCormick field‑demonstrated his reaper in 1831.",
+      "strength": 0.5999999633768432
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Cyrus McCormick claimed that his reaper was actually invented in 1831, giving him the true claim to the general design of the machine.",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "The film covers the invention and evolution of the reaper from 1831 to the 1930s.",
+      "strength": 0.5
+    },
+    "A8": {
+      "type": "argument",
+      "text": "By 1831 his son Cyrus H. McCormick took over; he obtained the first of many patents in 1834.",
+      "strength": 0.5
+    },
+    "A9": {
+      "type": "argument",
+      "text": "The McCormick Reaper was first designed by Robert McCormick in Virginia in the 1820s.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A6",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A7",
+      "target": "A5",
+      "relation": "support"
+    },
+    {
+      "source": "A8",
+      "target": "H1",
+      "relation": "attack"
+    },
+    {
+      "source": "A9",
+      "target": "H2",
+      "relation": "attack"
+    }
+  ]
+}

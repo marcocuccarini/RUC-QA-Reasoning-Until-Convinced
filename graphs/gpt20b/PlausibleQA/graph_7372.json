@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Harvard University",
+      "strength": 0.56907574638952
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Brigham Young University",
+      "strength": 0.7499372596729008
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Stanford University",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "what university did romney graduated from. Cranbrook Schools",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Romney graduated from Harvard in 1975.",
+      "strength": 0.4000418012174884
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Romney graduated from BYU in 1971 with a Bachelor of Arts degree in English and a 3.97 GPA.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "Mitt Romney was in the class of 1971.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H1",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "A4",
+      "relation": "attack"
+    }
+  ]
+}

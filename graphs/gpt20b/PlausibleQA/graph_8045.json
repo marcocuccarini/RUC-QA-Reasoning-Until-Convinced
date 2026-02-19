@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Latvia",
+      "strength": 0.4000911881966091
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Lithuania",
+      "strength": 0.4000911881966091
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Estonia",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "LOT is the national airline of which country. Polnd",
+      "strength": 0.5
+    },
+    "A4": {
+      "type": "argument",
+      "text": "LOT Polish Airlines is the flag carrier of Poland.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "LOT Polish Airlines was founded on 29 December 1928 by the Polish government during the Second Polish Republic.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H0",
+      "relation": "attack"
+    },
+    {
+      "source": "A5",
+      "target": "H1",
+      "relation": "attack"
+    }
+  ]
+}

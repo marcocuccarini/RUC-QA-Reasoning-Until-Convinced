@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Who stars in the 2008 movie Seven Pounds. Denzel Washington",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Who stars in the 2008 movie Seven Pounds. Matt Damon",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Who stars in the 2008 movie Seven Pounds. Leonardo DiCaprio",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Who stars in the 2008 movie Seven Pounds. Will S.",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Will Smith as Tim Thomas",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Seven Pounds is a 2008 American drama film directed by Gabriele Muccino, written by Grant Nieporte, and starring Will Smith as a man who sets out to change the lives of seven people; Rosario Dawson, Woody Harrelson, and Barry Pepper also star.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

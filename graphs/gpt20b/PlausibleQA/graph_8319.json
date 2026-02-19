@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Otis Barton was a pioneer in exploring where. Space",
+      "strength": 0.4000649050521344
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Otis Barton was a pioneer in exploring where. Desert",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Otis Barton was a pioneer in exploring where. Jungle",
+      "strength": 0.5999999377797358
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Otis Barton was a pioneer in exploring where. Undersea",
+      "strength": 0.7499025802015337
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Barton set a world record with a 4,500 foot (1,372 m) dive in the Pacific Ocean.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Like Beebe, Barton was also interested in exploring tropical rain forests, and spent considerable time in places like Gabon.",
+      "strength": 0.5
+    },
+    "A6": {
+      "type": "argument",
+      "text": "In 1930 Beebe and Barton reached a depth of 435 m (1,427 ft).",
+      "strength": 0.5
+    },
+    "A7": {
+      "type": "argument",
+      "text": "There is no record of Otis Barton exploring outer space; all his expeditions were marine.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H2",
+      "relation": "support"
+    },
+    {
+      "source": "A6",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A7",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}

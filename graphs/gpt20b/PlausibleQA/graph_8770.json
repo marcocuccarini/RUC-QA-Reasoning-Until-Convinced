@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "H0": {
+      "type": "hypothesis",
+      "text": "Mount Ararat is in which country. Armenia",
+      "strength": 0.40009682695977267
+    },
+    "H1": {
+      "type": "hypothesis",
+      "text": "Mount Ararat is in which country. Iran",
+      "strength": 0.5
+    },
+    "H2": {
+      "type": "hypothesis",
+      "text": "Mount Ararat is in which country. Azerbaijan",
+      "strength": 0.5
+    },
+    "H3": {
+      "type": "hypothesis",
+      "text": "Mount Ararat is in which country. Turky",
+      "strength": 0.5999031730402274
+    },
+    "A4": {
+      "type": "argument",
+      "text": "Mount Ararat is located in the Eastern Anatolia region of Turkey, between the provinces of Ağrı and Iğdır.",
+      "strength": 0.5
+    },
+    "A5": {
+      "type": "argument",
+      "text": "Mount Ararat is located near the border with Iran, Armenia and Nakhchivan exclave of Azerbaijan.",
+      "strength": 0.5
+    }
+  },
+  "edges": [
+    {
+      "source": "A4",
+      "target": "H3",
+      "relation": "support"
+    },
+    {
+      "source": "A5",
+      "target": "H0",
+      "relation": "attack"
+    }
+  ]
+}
