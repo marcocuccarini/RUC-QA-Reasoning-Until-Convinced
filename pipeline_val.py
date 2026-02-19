@@ -22,15 +22,6 @@ SPLIT_DIR = Path("split_datasets")
 RESULTS_DIR = Path("results")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-TOP_PARAGRAPHS = 5
-MAX_ARGUMENTS = 4
-DEFAULT_CONFIDENCE_THRESHOLD = 0.6
-DEFAULT_DOMINANCE_MARGIN = 0.2  # can be tuned
-EPS = 1e-9  # small epsilon for float comparisons
-
-# Hyperparameter search space
-
-# Validation set
 
 
 
