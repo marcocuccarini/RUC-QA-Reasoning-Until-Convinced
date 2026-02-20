@@ -82,18 +82,19 @@ ollama pull gpt-oss:20b
 
 ### 1. Prerequisites
 
-
+```bash
 git clone [https://github.com/tuo-username/arg-rag-system.git](https://github.com/tuo-username/arg-rag-system.git)
 cd arg-rag-system
 pip install -r requirements.txt
-
+```
 
 ### 2. Installation
 
+```bash
 git clone [https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git](https://github.com/marcocuccarini/RUC-QA-Reasoning-Until-Convinced.git)
 cd RUC-QA-Reasoning-Until-Convinced
 pip install -r requirements.txt
-
+```
 
 
 
