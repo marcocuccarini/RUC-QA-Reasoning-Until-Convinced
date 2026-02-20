@@ -152,6 +152,8 @@ if __name__ == "__main__":
     DATASET_NAMES = ["PlausibleQA", "SciQ", "arc-easy"]
     model_dirs = [d for d in GRAPHS_ROOT.iterdir() if d.is_dir()]
 
+
+    print("!!! The performance at each run can slightly change because, in cases where hypotheses have the same strength, the system will select randomly between the candidates.")
     # Store accuracies for final table
     all_acc_all = {}
     all_acc_modified = {}
